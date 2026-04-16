@@ -1,0 +1,1019 @@
+/* ----- This document was written by ZOGMADDOG ----- */
+/* ----- It is available for public use to include changes and redistribution ----- */
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+/*--------------------------*/
+/* ------   Fonts   ------- */
+/* -------------------------*/
+
+/* Iceland */
+@font-face {
+    font-family: Iceland;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/iceland/v8/rax9HiuFsdMNOnWPaKtMAQ.woff2) ;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* Electrolize */
+@font-face {
+    font-family: Electrolize;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src:  url(https://fonts.gstatic.com/s/electrolize/v8/cIf5Ma1dtE0zSiGSiED7AXEBuI8.woff2) ;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*--------------------------*/
+/* ----   Animations   ---- */
+/* -------------------------*/
+
+/* links animation */
+@keyframes linksforfun {
+    from {color: rgba(0, 255, 255, .8); text-shadow: 0px 1px 4px rgba(0, 255, 255, .6);}
+    to {color: rgba(0, 255, 255, .6);}
+}
+
+/* desktop background animation */
+@keyframes background-desktop {
+    from { background-position: 0 0; }
+    to { background-position: 0 -600px; }
+}
+
+@keyframes background-desktop-meta {
+    from { background-position: 0 0; }
+    to { background-position: 0 -600px; }
+}
+/* desktop background animation */
+
+/*Fancy Border Animation*/
+@keyframes topanimation {
+    0% {
+        transform:scaleX(0);
+        transform-origin: left;
+    }
+    50% {
+        transform:scaleX(1);
+        transform-origin: left;
+    }
+    50.1% {
+        transform:scaleX(1);
+        transform-origin: right;
+    }
+    100% {
+        transform:scaleX(0);
+        transform-origin: right;
+    }
+} 
+@keyframes leftanimation {
+    0% {
+        transform:scaleY(0);
+        transform-origin: bottom;
+    }
+    50% {
+        transform:scaleY(1);
+        transform-origin: bottom;
+    }
+    50.1% {
+        transform:scaleY(1);
+        transform-origin: top;
+    }
+    100% {
+        transform:scaleY(0);
+        transform-origin: top;
+    }
+}
+
+
+/* ///Page + Article Background/// */
+.ew-css-presentation { /*this affects the overall background of the wiki*/
+    background: url(../site_img/star_background.jpg);
+    background-size: 50%;
+    background-attachment: fixed;   /*this locks the image on the screen; it wont scroll*/
+}
+.ew-css.page,
+.ew-css-extended .page {
+    background: url(../site_img/frame_bg.png);
+    background-size: 600px;
+    background-clip: padding-box;
+    background-position: center;
+    background-repeat: repeat;
+    animation: background-desktop 10s linear infinite;
+    box-shadow: 0px 0px 0px;
+    overflow: auto;
+    max-height: 1900px;
+    width: 1900px;
+    padding: 50px;
+    border-image-source: url(../site_img/frame_outline.webp);
+    border-image-slice: 20;
+    border-image-repeat: stretch;
+    border-width: 20px;
+    border-style: solid;
+    border-image-outset: 0px;
+}
+
+/* ///Font Styling Global/// */
+.ew-css {
+    color: rgba(0, 255, 255, .7);   /*changes the color of associated text*/
+    font-family: Iceland, cursive;   /*changes the font of associated text*/
+    font-size: 15px;   /*changes the font size of associated text*/
+    line-height: 1.5;   /*changes the line spacing of associated text*/
+}
+.ew-css-extended {
+    color: rgba(0, 255, 255, .7);
+    font-family: Iceland, cursive;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* ///Font Styling H1/// */
+.ew-css h1 {
+    font-family: Iceland, cursive;
+    font-size: 65px;
+    color: rgba(0, 255, 255, .6);
+}
+.ew-css-extended h1 {
+    font-family: Iceland, cursive;
+    font-size: 65px;
+    color: rgba(0, 255, 255, .6);
+}
+
+/* ///Font Styling H2/// */
+.ew-css h2 {
+    text-align: left;
+    font-size: 35px;
+    text-shadow: 0px 5px 5px rgba(0, 100, 100, .6);
+    margin-bottom: 5px;
+    padding: 0px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 255, 255, .6);
+    color: rgba(0, 255, 255, .6);
+    font-family: Iceland, cursive;
+}
+.ew-css-extended h2 {
+    text-align: left;
+    font-size: 35px;
+    text-shadow: 0px 5px 5px rgba(0, 100, 100, .6);
+    margin-bottom: 5px;
+    padding: 0px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 255, 255, .6);
+    color: rgba(0, 255, 255, .6);
+    font-family: Iceland, cursive;
+}
+
+/* ///Font Styling H3/// */
+.ew-css h3 {
+    text-align: left;
+    font-size: 35px;
+    text-shadow: 0px 5px 5px rgba(0, 100, 100, .6);
+    margin-bottom: 5px;
+    padding: 0px;
+    color: rgba(0, 255, 255, .6);
+    font-family: Iceland, cursive;
+}
+.ew-css-extended h3 {
+    text-align: left;
+    font-size: 35px;
+    text-shadow: 0px 5px 5px rgba(0, 100, 100, .6);
+    margin-bottom: 5px;
+    padding: 0px;
+    color: rgba(0, 255, 255, .6);
+    font-family: Iceland, cursive;
+}
+
+/* ///Font Styling/// H4 */
+.ew-css h4 {
+    text-align: left;
+    font-size: 25px;
+    text-shadow: 0px 5px 5px rgba(0, 100, 100, .6);
+    margin-bottom: 0px;
+    padding: 0px;
+    color: rgba(0, 255, 255, .6);
+    font-family: Iceland, cursive;
+}
+.ew-css-extended h4 {
+    text-align: left;
+    font-size: 25px;
+    text-shadow: 0px 5px 5px rgba(0, 100, 100, .6);
+    margin-bottom: 0px;
+    padding: 0px;
+    color: rgba(0, 255, 255, .6);
+    font-family: Iceland, cursive;
+}
+/* ///Font Styling H4/// */
+
+
+/* ///Font Styling H5/// */
+.ew-css h5 {
+    text-align: left;
+    font-size: 25px;
+    text-shadow: 0px 5px 5px rgba(0, 100, 100, .6);
+    margin-bottom: 0px;
+    padding: 0px;
+    color: rgba(0, 255, 255, .6);
+    font-family: Iceland, cursive;
+}
+.ew-css-extended h5 {
+    text-align: left;
+    font-size: 25px;
+    text-shadow: 0px 5px 5px rgba(0, 100, 100, .6);
+    margin-bottom: 0px;
+    padding: 0px;
+    color: rgba(0, 255, 255, .6);
+    font-family: Iceland, cursive;
+}
+/* ///Font Styling H5/// */
+
+
+
+/* ///Spans/// */
+.ew-css span {
+    font-family: Iceland, cursive;
+    color: rgba(0, 255, 255, .6);
+}
+.ew-css-extended span {
+    font-family: Iceland, cursive;
+    color: rgba(0, 255, 255, .6);
+}
+/* ///Spans/// */
+
+
+
+/* ///Font Styling Links/// */
+.ew-css a {
+    font-family: Electrolize, cursive;
+    font-size: 16px;
+    color: rgba(0, 255, 255, .6);
+    animation: linksforfun 2.0s infinite;
+}
+.ew-css a:hover{
+    color: rgba(0, 255, 255, .8);
+}
+.ew-css-extended a {
+    font-family: Electrolize, cursive;
+    font-size: 16px;
+    color: rgba(0, 255, 255, .6);
+    animation: linksforfun 2.0s infinite;
+}
+.ew-css-extended a:hover{
+    color: rgba(0, 255, 255, .8);
+}
+
+/* ///Icons/// */
+.ew-css i {
+    color: rgba(0, 255, 255, .6);
+}
+.ew-css-extended i {
+    color: rgba(0, 255, 255, .6);
+}
+
+
+
+/* ///Horizontal Rule Styling/// */
+.ew-css hr{
+    border-top: 2px solid;
+    border-top-color: rgba(0, 255, 255, .6);
+}
+
+/* Scrollbar Styling */
+.ew-css.page::-webkit-scrollbar {
+    width: 7px;
+}
+.ew-css.page::-webkit-scrollbar-track {   /*the track*/
+    background: rgba(0, 255, 255, .1);
+}
+.ew-css.page::-webkit-scrollbar-thumb {   /*the scrolly bit, aka thumb*/
+    background: rgba(0, 255, 255, .3);
+    border-radius: 5px;
+}
+.ew-css.page::-webkit-scrollbar-thumb:hover {   /*the thumb when hovered over*/
+    background: rgba(0, 255, 255, .6);
+}
+.ew-css-presentation .page::-webkit-scrollbar {   /*the scrollbar for the comments container*/
+    width: 7px;
+}
+.ew-css-presentation .page::-webkit-scrollbar-track {   /*the track for the comments container*/
+    background: rgba(0, 255, 255, .1);
+}
+.ew-css-presentation .page::-webkit-scrollbar-thumb {   /*the thumb for the comments container*/
+    background: rgba(0, 255, 255, .3);
+    border-radius: 5px;
+}
+.ew-css-presentation .page::-webkit-scrollbar-thumb:hover {   /*the thumb for the comments container when hovered over*/
+    background: rgba(0, 255, 255, .6);
+}
+.ew-css-presentation div#world-navigation-sidebar::-webkit-scrollbar {   /*the scrollbar for the navigation sidebar container*/
+    width: 7px;
+}
+.ew-css-presentation div#world-navigation-sidebar::-webkit-scrollbar-track {   /*the track for the navigation sidebar container*/
+    background: rgba(0, 255, 255, .1);
+}
+.ew-css-presentation div#world-navigation-sidebar::-webkit-scrollbar-thumb {   /*the thumb for the navigation sidebar container*/
+    background: rgba(0, 255, 255, .3);
+    border-radius: 5px;
+}
+.ew-css-presentation div#world-navigation-sidebar::-webkit-scrollbar-thumb:hover {   /*the thumb for the navigation sidebar container when hovered over*/
+    background: rgba(0, 255, 255, .6);
+}
+
+/* Navigation Sidebar */
+.ew-css-presentation div#world-navigation-sidebar { /*the sidebar itself*/
+    background: url(../site_img/frame_bg.png);
+    background-clip: padding-box;
+    background-color: rgba(0, 200,200,.0);
+    border-image-source: url(../site_img/frame_outline.webp);
+    border-image-slice: 20;
+    border-image-repeat: stretch;
+    border-width: 20px;
+    border-style: solid;
+    border-image-outset: 0px;
+    max-width: none;
+    width: 1500px;
+    left: -1200px;
+    padding-left: 1200px;
+    box-shadow: none;
+}
+.ew-css-presentation div#world-navigation-sidebar i{   /*icons in the sidebar*/
+    color: rgba(0,255,255, .6)
+}
+.ew-css#world-navigation-sidebar[style^=display] {   /*the sidebar while closed*/
+    left: -1480px !important; /*this is so mine slides in and out, instead of just appearing*/
+    display: block !important;
+    transition: left 1.8s; /*this is so mine slides in and out, instead of just appearing*/
+}
+#world-navigation-sidebar {   /*sidebar position when open*/
+    display: block!important;
+    transition: left 1s; /*this is so mine slides in and out, instead of just appearing*/
+}
+.ew-css-presentation .world-navigation-palette-trigger-inactive {   /*the sidebar button when closed*/
+    left: 13px;
+    transition: left 1.8s;
+    background: rgba(0, 255, 255, .15);
+    border: 3px solid rgba(0,255,255,.6);
+    border-radius: 3px;
+}
+.ew-css-presentation .world-navigation-palette-trigger-inactive i{   /*the small icon in the sidebar button when closed*/
+    color: rgba(0,0,0,0);
+    font-size: 0px;
+}
+.ew-css-presentation .world-navigation-palette-trigger-active {   /*the sidebar button when open*/
+    left: 293px;
+    transition: left 1s;
+    background: rgba(0, 255, 255, .15);
+    border: 3px solid rgba(0,255,255,.6);
+    border-radius: 3px;
+}
+.ew-css-presentation .world-navigation-palette-trigger-active i{   /*the small icon in the sidebar button when opened*/
+    color: rgba(0,0,0,0);
+    font-size: 0px;
+}
+
+/* ///World Title Box/// */
+.ew-css .world-title {
+    font-size: 125px;
+    text-shadow: 0px 5px 5px rgba(0, 100, 100, .0);
+    margin-top: 25px;
+    margin-bottom: 0px;
+    padding: 10px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgba(0, 100, 100, 1.0);
+}
+.ew-css div.author-item.world-author {   /*the world author text on the main page*/
+    padding-top: 0px;
+}
+
+/*timelines header*/
+.ew-css .timelines-list-header {   /*hides the timelines header and makes the container effectively disappear*/
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+/* World Row */
+/* World Table of Contents */
+.ew-css div.followers-counter div.panel {   /*the followers panel on the main page*/
+    background: rgba(0, 255, 255, .15);
+    border: 4px solid rgba(0,255,255,.4);
+    box-shadow: 0px 3px 3px rgba(0, 255, 255, .2);
+    border-radius: 4px;
+    color: rgba(0, 255, 255, .7);
+    text-shadow: 0px 3px 3px rgba(0, 102, 102, .8);
+    font-family: Iceland, cursive;
+    font-size: 20px;
+}
+
+/* Homepage Map Panel */
+.ew-css li.map-box.map-item{   /*the box surrounding the map and title*/
+    background: rgba(0, 255, 255, .15);
+    border: 4px solid rgba(0,255,255,.4);
+    box-shadow: 0px 3px 3px rgba(0, 255, 255, .2);
+    border-radius: 4px;
+    padding: 3px;
+}
+.ew-css .map-box .img-responsive{   /*the image of the map*/
+    background: rgba(0, 0, 0, .2);
+}
+.ew-css li.map-box.map-item div small{   /*a box surrounding just the title*/
+    font-family: Iceland, cursive;
+    font-size: 23px;
+    color: rgba(0, 255, 255, .6);
+    text-shadow: 0px 2px 4px rgba(0, 200, 200, .3);
+    padding: 0px;
+}
+/* Homepage Map Panel */
+
+/* Spoilers */
+.ew-css a.btn.btn-sm.btn-primary.spoiler-button[aria-expanded=true] {
+    border-bottom: 1px solid;
+    transition: 0s;
+}
+.ew-css a.btn.btn-sm.btn-primary.spoiler-button{
+    background: rgba(0, 255, 255, .15);
+    border: 4px solid rgba(0,255,255,.4);
+    border-radius: 0px;
+    border-bottom: 4px solid;
+    width: 100%;
+    height: auto;
+    text-shadow: 0px 3px 3px rgba(0, 165, 165, .8);
+    font-family: Iceland, cursive;
+    font-size: 18px;
+    color: rgba(0, 255, 255, .6)!important;
+    margin-bottom: 0px;
+    white-space: normal;
+    transition: 1s;   /*transition can be used to create psuedo-animations where the website will change between two states over a period of time. in this case, the state is when the spoiler opens or closes*/
+}
+.ew-css a.btn.btn-sm.btn-primary.spoiler-button.collapsed{   /*the button when the spoiler is toggled closed*/
+    background: rgba(0, 255, 255, .15);
+    border: 4px solid rgba(0,255,255,.4);
+    border-bottom: 4px solid rgba(0,255,255,.4);
+    box-shadow: 0px 3px 3px rgba(0, 255, 255, .2);
+    border-radius: 0px;
+    width: 100%;
+    height: auto;
+    text-shadow: 0px 3px 3px rgba(0, 165, 165, .8);
+    font-family: Iceland, cursive;
+    font-size: 18px;
+    color: rgba(0, 255, 255, .6)!important;
+    white-space: normal;
+    transition: .2s;
+}
+.ew-css div.well.spoiler-content{   /*the content of the spoiler*/
+    background: rgba(0, 255, 255, .15);
+    border: 4px solid rgba(0,255,255,.4);
+    border-top: none;
+    box-shadow: 0px 3px 3px rgba(0, 255, 255, .2);
+    border-radius: 0px;
+    width: 100%;
+    height: auto;
+    font-family: Electrolize, cursive;
+    font-size: 14px;
+    color: rgba(0, 255, 255, .6)!important;
+}
+
+/* ///Quote Boxes/// */
+.ew-css blockquote {
+    background: rgba(0, 255, 255, .15);
+    border: 4px solid rgba(0,255,255,.4);
+    box-shadow: 0px 3px 3px rgba(0, 255, 255, .2);
+    border-radius: 4px;
+    color: rgba(0, 255, 255, .7);
+    text-shadow: 0px 3px 3px rgba(0, 102, 102, .8);
+    font-family: Iceland, cursive;
+    font-size: 20px;
+}
+.ew-css blockquote h3 .text-center{
+    color: rgba(0, 255, 255, .7);
+    font-family: Iceland, cursive;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.3em;
+}
+
+/* ///Sidebar + Panels Boxes/// */
+.ew-css div.panel {
+    color: rgba(0, 255, 255, .6);
+    text-shadow: 0px 3px 3px rgba(0, 102, 102, .8);
+    font-family: Iceland, cursive;
+    background: rgba(0, 255, 255, .15);
+    box-shadow: 0px 3px 4px rgba(0, 255, 255, .4);
+    border: 3px solid rgba(0,255,255,.2);
+    border-radius: 9px;
+}
+
+/* Back To World Bar */
+.ew-css .backtoworld a{
+    font-family: Iceland, cursive;
+    background-color: rgba(0, 255, 255, .15);
+    border: 3px solid rgba(0, 255, 255, .2);
+    box-shadow: 0px 3px 5px rgba(0, 102, 102, .8);
+    margin-left: 15px;
+    left: 0px;
+    top: 15px;
+    border-radius: 3px;
+    color: rgba(0, 255, 255, .7);
+    text-shadow: 0px 3px 3px rgba(0, 102, 102, .8);
+}
+.ew-css .backtoworld a:hover{
+    color: rgba(0, 255, 255, .7);
+    background-color: rgba(0, 255, 255, .15);
+    border-color: rgba(0, 255, 255, .5);
+    text-shadow: 0px 3px 3px rgba(0, 255, 255, .5);
+}
+
+
+/* Metadata + OrgTree */
+.ew-css-extended .nav-tabs a{   /*the metadata and orgtree tabs, before selected*/
+    margin: 5px;
+    background: rgba(0, 255, 255, .15);
+    border: 3px solid rgba(0,255,255,.4);
+    box-shadow: 0px 3px 3px rgba(0, 255, 255, .2);
+    border-radius: 3px;
+    color: rgba(0, 255, 255, .7);
+    text-shadow: 0px 3px 3px rgba(0, 102, 102, .8);
+    font-family: Electrolize, cursive;
+}
+.ew-css-extended .nav-tabs a:hover{   /*when the metadata and orgtree tabs are hovered over*/
+    margin: 5px;
+    background: rgba(0, 255, 255, .15);
+    border: 3px solid rgba(0,255,255,.5);
+    box-shadow: 0px 3px 3px rgba(0, 255, 255, .5);
+    border-radius: 3px;
+    color: rgba(0, 255, 255, .7);
+    text-shadow: 0px 3px 3px rgba(0, 102, 102, .8);
+    font-family: Electrolize, cursive;
+}
+.ew-css-extended .nav-tabs .active a{   /*when the tabs are active and not hovered over*/
+    margin: 5px;
+    background: rgba(0, 255, 255, .15);
+    border: 3px solid rgba(0,255,255,.5);
+    box-shadow: 0px 3px 3px rgba(0, 255, 255, .5);
+    border-radius: 3px;
+    color: rgba(0, 255, 255, .7);
+    text-shadow: 0px 3px 3px rgba(0, 102, 102, .8);
+    font-family: Electrolize, cursive;
+}
+.ew-css-extended .nav-tabs .active a:focus{   /*when the tabs are active and focused(??)*/
+    margin: 5px;
+    background: rgba(0, 255, 255, .15);
+    border: 3px solid rgba(0,255,255,.5);
+    box-shadow: 0px 3px 3px rgba(0, 255, 255, .5);
+    border-radius: 3px;
+    color: rgba(0, 255, 255, .7);
+    text-shadow: 0px 3px 3px rgba(0, 102, 102, .8);
+    font-family: Electrolize, cursive;
+}
+.ew-css-extended .nav-tabs .active a:hover{   /*when the tabs are active and hovered over*/
+    margin: 5px;
+    background: rgba(0, 255, 255, .15);
+    border: 3px solid rgba(0,255,255,.5);
+    box-shadow: 0px 3px 3px rgba(0, 255, 255, .5);
+    border-radius: 3px;
+    color: rgba(0, 255, 255, .7);
+    text-shadow: 0px 3px 3px rgba(0, 102, 102, .8);
+    font-family: Electrolize, cursive;
+}
+.ew-css-extended .tab-content .col-md-12 .row{   /*the metadata and organization tree box*/
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgba(0, 255, 255, .15);
+    border: 4px solid rgba(0,255,255,.4);
+    box-shadow: 0px 3px 3px rgba(0, 255, 255, .2);
+    border-radius: 4px;
+    color: rgba(0, 255, 255, .7);
+    text-shadow: 0px 3px 3px rgba(0, 102, 102, .8);
+    font-family: Electrolize, cursive;
+}
+
+
+/* Article Panel */
+.ew-css div.article-panel {   /*the box itself*/
+    margin: 5px;
+    background: rgba(0, 255, 255, .15);
+    border: 4px solid rgba(0,255,255,.4);
+    box-shadow: 0px 3px 3px rgba(0, 255, 255, .2);
+    border-radius: 4px;
+    color: rgba(0, 255, 255, .7);
+    text-shadow: 0px 3px 3px rgba(0, 102, 102, .8);
+    font-family: Iceland, cursive;
+}
+.ew-css .article-panel .details h5{   /*the title (only need to change color with these next few as far as I can tell)*/
+    color: rgba(0, 255, 255, .7);
+}
+.ew-css .article-panel .details .subheading{   /*type of article*/
+    color: rgba(0, 255, 255, .7);
+}
+.ew-css .article-panel .details .subheading .date{   /*date published*/
+    color: rgba(0, 255, 255, .7);
+}
+
+/* Tooltip */
+.ew-css .tooltip.top .tooltip-arrow,
+.ew-css-extended .tooltip.top .tooltip-arrow,
+.ew-css-worldmenu .tooltip.top .tooltip-arrow {
+    border-top-color: rgba(0, 155, 155, .6);
+}
+.ew-css .tooltip.left .tooltip-arrow,
+.ew-css-extended .tooltip.left .tooltip-arrow,
+.ew-css-worldmenu .tooltip.left .tooltip-arrow {
+    border-top-color: rgba(0, 155, 155, .6);
+}
+.ew-css .tooltip.bottom .tooltip-arrow,
+.ew-css-extended .tooltip.bottom .tooltip-arrow,
+.ew-css-worldmenu .tooltip.bottom .tooltip-arrow {
+    border-top-color: rgba(0, 155, 155, .6);
+}
+.ew-css .tooltip.right .tooltip-arrow,
+.ew-css-extended .tooltip.right .tooltip-arrow,
+.ew-css-worldmenu .tooltip.right .tooltip-arrow {
+    border-top-color: rgba(0, 155, 155, .6);
+}
+.ew-css .tooltip .tooltip-inner,
+.ew-css-extended .tooltip .tooltip-inner,
+.ew-css-worldmenu .tooltip .tooltip-inner {
+    background: rgba(0, 80, 80, 1);
+    border-color: rgba(0, 155, 155, .0);
+    border: solid 2px;
+    color: rgba(0, 255, 255, .7);
+    font-size: 20px;
+    font-family: Iceland, cursive;
+}
+.ew-css .text-abbreviation {
+    border: 1px rgba(0,255,255,.6) solid;
+    padding-left: 2px;
+    padding-right: 2px;
+    background: rgba(0,155,155,.2);
+}
+.ew-css-presentation .tooltipster-box {
+    background: rgba(0,100,100,.8)!important;
+    border-color: rgba(0, 255, 255, .4)!important;
+    border: solid 2px!important;
+    color: rgba(0, 255, 255, .4)!important;
+}
+.ew-css-presentation .tooltipster-content{
+    color: rgba(0, 255, 255, .8)!important;
+    font-family: Iceland, cursive;
+    font-size: 16px;
+    line-height: 1.3;
+}
+.ew-css-presentation .tooltipster-arrow-border{
+    border-top-color: rgba(0, 255, 255, .4)!important;
+}
+
+/* Map Page */
+.map-context-ew-css{   /*the map page background*/
+    background: url(../site_img/star_background.jpg);
+}
+.ew-css-map-sidebar {
+    position: fixed;
+    background: url(../site_img/frame_bg.png);
+    background-size: 600px;
+    background-clip: padding-box;
+    background-position: center;
+    background-repeat: repeat;
+    animation: background-desktop 10s linear infinite;
+    border-image-source: url(../site_img/frame_outline.webp);
+    border-image-slice: 20;
+    border-image-repeat: stretch;
+    border-width: 20px;
+    border-style: solid;
+    border-image-outset: 0px;
+    max-width: none!important;
+    width: 1500px;
+    padding-left: 980px;
+    padding-right: 20px;
+    padding-top: 50px;
+    box-shadow: none;
+    z-index: 1000!important;
+    left: -980px;
+    transition: .6s;   /*adds a transition between open and closed*/
+}
+.ew-css-map-sidebar.active {   /*adds a transition between closed to open*/
+    transition: 1s;
+}
+.ew-css-map-sidebar hr {
+    border-color: rgba(0, 255, 255, .6);
+}
+.ew-css-map-sidebar h3.world-world {
+    font-family: Iceland, cursive;
+    font-size: 38px;
+    color: rgba(0, 255, 255, .6);
+    text-shadow: 0px 5px 5px rgba(0, 100, 100, .4);
+}
+.ew-css-map-sidebar h1.map-title {
+    font-family: Iceland, cursive;
+    font-size: 52px;
+    color: rgba(0, 255, 255, .6);
+    text-shadow: 0px 5px 5px rgba(0, 100, 100, .4);
+}
+.ew-css div.fancy_border_content{
+    width: 83.33333333%;
+    height: inherit;
+    overflow: hidden;
+    padding: 30px;
+}
+.ew-css span.fancy_border_top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+    content: normal;
+    position: absolute;
+    width:100%;
+    height: 3px;
+    background: rgba(0, 255, 255, .6);
+    animation: topanimation 8s linear infinite;
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, .6);
+}
+.ew-css .fancy_border_bottom {
+    position: absolute;
+    top: auto;
+    bottom: 0px;
+    left: 0;
+    display: block;
+    box-sizing: border-box;
+    transform: rotate(180deg);
+    content: " ";
+    width:100%;
+    height: 3px;
+    background: rgba(0, 255, 255, .6);
+    animation: bottomanimation 8s linear infinite;
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, .6);
+}
+.ew-css .fancy_border_left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+    transform: rotate(0deg);
+    content: " ";
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background: rgba(0, 255, 255, .6);
+    animation: leftanimation 8s linear infinite;
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, .6);
+}
+
+.ew-css .fancy_border_right {
+    position: absolute;
+    top: 0%;
+    left: auto;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    transform-origin: 0% 0%;
+    display: block;
+    box-sizing: border-box;
+    transform: rotate(180deg);
+    content: " ";
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background: rgba(0, 255, 255, .6);
+    animation: rightanimation 8s linear infinite;
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, .6);
+}
+
+@keyframes topanimation {
+    0% {
+        transform:scaleX(0);
+        transform-origin: left;
+    }
+    50% {
+        transform:scaleX(1);
+        transform-origin: left;
+    }
+    50.1% {
+        transform:scaleX(1);
+        transform-origin: right;
+    }
+    100% {
+        transform:scaleX(0);
+        transform-origin: right;
+    }
+}
+@keyframes bottomanimation {
+    0% {
+        transform:scaleX(0);
+        transform-origin: right;
+    }
+    50% {
+        transform:scaleX(1);
+        transform-origin: right;
+    }
+    50.1% {
+        transform:scaleX(1);
+        transform-origin: left;
+    }
+    100% {
+        transform:scaleX(0);
+        transform-origin: left;
+    }
+}
+@keyframes leftanimation {
+    0% {
+        transform:scaleY(0);
+        transform-origin: bottom;
+    }
+    50% {
+        transform:scaleY(1);
+        transform-origin: bottom;
+    }
+    50.1% {
+        transform:scaleY(1);
+        transform-origin: Top;
+    }
+    100% {
+        transform:scaleY(0);
+        transform-origin: top;
+    }
+} 
+@keyframes rightanimation {
+    0% {
+        transform:scaleY(0);
+        transform-origin: top;
+    }
+    50% {
+        transform:scaleY(1);
+        transform-origin: top;
+    }
+    50.1% {
+        transform:scaleY(1);
+        transform-origin: bottom;
+    }
+    100% {
+        transform:scaleY(0);
+        transform-origin: bottom;
+    }
+} 
+
+/* Fancy border */
+
+
+/* -------------------------- */
+/* -------   Global   ------- */
+/* -------------------------- */
+
+
+
+/*--------------------------*/
+/* ------   Mobile   ------ */
+/* -------------------------*/
+/*creating a separate mobile section of your code gives you the option of optimizing your world for mobile viewing.*/
+/*normally you'd want the mobile section to be first, since you are expecting most mobile users to be using their cellular data*/
+/*in the case of this css, i designed it so that everything between the desktop and mobile version is interchangable. all i had to do was update the size of fonts and some images*/
+/*if it doesn't load right away, it wont break the mobile viewing experience, it will just look a little big*/
+
+
+/*Only affects phones (small screens)*/
+@media only screen and (max-width: 500px) {
+    /* ///Page + Article Background/// */
+    .ew-css-presentation {   /*this affects the overall background of the world*/
+        background: url(../site_img/star_background.jpg);
+        background-size: 120%;
+        background-attachment: fixed;   /*this locks the image on the screen; it wont scroll*/
+    }
+
+    .ew-css.page,
+    .ew-css-extended .page {   /*this affects the large page container*/
+        background: url(../site_img/frame_bg.png);
+        background-size: 300px;
+        background-clip: padding-box;
+        background-position: center;
+        background-repeat: repeat;
+        animation: background-mobile 10s linear infinite;
+        box-shadow: 0px 0px 0px;
+        overflow: auto;
+        overflow-x: hidden;
+        max-height: 500px;
+        padding: 50px;
+        border-image-source: url(../site_img/frame_outline.webp);
+        border-image-slice: 20;
+        border-image-repeat: stretch;
+        border-width: 20px;
+        border-style: solid;
+        border-image-outset: 0px;
+    }
+
+    /* ///Font Styling Global/// */
+    .ew-css {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+    .ew-css-extended {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    /* ///Font Styling H1/// */
+    .ew-css h1 {
+        font-size: 35px;
+        line-height: 1.3;
+        margin-top: 30px;
+    }
+    .ew-css-extended h1 {
+        font-size: 35px;
+        line-height: 1.3;
+        margin-top: 30px;
+    }
+
+    /* ///Font Styling H2/// */
+    .ew-css h2 {
+        font-size: 28px;
+        margin-bottom: 3px;
+        line-height: 1.2;
+        margin-top: 10px;
+    }
+    .ew-css-extended h2 {
+        font-size: 28px;
+        margin-bottom: 3px;
+        line-height: 1.2;
+        margin-top: 10px;
+    }
+
+    /* ///Font Styling H3/// */
+    .ew-css h3 {
+        font-size: 21px;
+        margin-bottom: 3px;
+        margin-top: 10px;
+    }
+    .ew-css-extended h3 {
+        font-size: 21px;
+        margin-bottom: 3px;
+        margin-top: 10px;
+    }
+
+    /* ///Font Styling/// H4 */
+    .ew-css h4 {
+        font-size: 18px;
+    }
+    .ew-css-extended h4 {
+        font-size: 18px;
+    }
+
+    /* ///Font Styling H5/// */
+    .ew-css h5 {
+        font-size: 14px;
+    }
+    .ew-css-extended h5 {
+        font-size: 14px;
+    }
+
+    /* ///Spans/// */   /*don't remember what is considered span but I wrote it for a reason*/
+    .ew-css span {
+        font-size: 14px;
+    }
+    .ew-css-extended span {
+        font-size: 14px;
+    }
+
+    /* ///Font Styling Links/// */
+    .ew-css a {
+        font-size: 14px;
+    }
+    .ew-css-extended a {
+        font-size: 14px;
+    }
+
+    /* Scrollbar Styling */
+    .ew-css.page::-webkit-scrollbar {
+        width: 4px;
+    }
+    .ew-css.page::-webkit-scrollbar-thumb {
+        border-radius: 2px;
+    }
+    .extendedbody-comments::-webkit-scrollbar {
+        width: 4px;
+    }
+    .extendedbody-comments::-webkit-scrollbar-thumb {
+        border-radius: 2px;
+    }
+
+    /* Navigation Sidebar */
+    .ew-css-presentation div#world-navigation-sidebar { /*hides the sidebar*/
+        visibility: hidden;
+    }
+    .ew-css-presentation .world-navigation-palette-trigger-inactive {   /*hides the sidebar button*/
+        visibility: hidden;
+    }
+}
+/*End phone adjustments*/
