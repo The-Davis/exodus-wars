@@ -884,56 +884,6 @@ canvas {
 .toggleable-cursor {
   cursor: pointer;
 }
-
-/* Tactical Image Badge */
-.codex-image-badge {
-  position: absolute;
-  bottom: 8px;
-  right: 8px;
-  background: rgba(5, 12, 20, 0.88);
-  border: 1px solid var(--primary-dim);
-  padding: 4px 10px;
-  font-family: 'Jura', sans-serif;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  color: var(--primary-color);
-  border-radius: 2px;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  backdrop-filter: blur(4px);
-  pointer-events: none;
-  transition: all 0.2s ease;
-}
-
-.codex-image-badge.toggleable {
-  border-color: var(--primary-color);
-  box-shadow: 0 0 8px rgba(0, 229, 255, 0.2);
-}
-
-.codex-image-container.can-toggle:hover .codex-image-badge.toggleable {
-  background: var(--primary-color);
-  color: #000000;
-  box-shadow: 0 0 15px var(--primary-color);
-}
-
-.codex-image-badge.modern-only {
-  border-color: var(--primary-dim);
-  color: var(--primary-color);
-  opacity: 0.8;
-}
-
-.codex-image-badge.legacy-only {
-  border-color: var(--secondary-dim);
-  color: var(--secondary-color);
-  opacity: 0.85;
-}
-
-.badge-icon {
-  font-size: 13px;
-}
-
 /* Banner specific overrides */
 .codex-article-banner .codex-image-wrapper {
   border: none;
@@ -1009,4 +959,262 @@ canvas {
   padding-top: 25px;
   margin-top: 50px;
 }
+
+/* ==========================================================================
+   Codex Person Information Infobox (Tactical Personnel Dossier)
+   ========================================================================== */
+.codex-infobox.person-information {
+  float: right;
+  width: 320px;
+  margin: 0 0 20px 24px;
+  background: rgba(8, 20, 32, 0.88);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--primary-dim);
+  border-top: 3px solid #1E5188;
+  border-left: 2px solid var(--primary-color);
+  border-radius: 2px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6), inset 0 0 15px rgba(0, 229, 255, 0.04);
+  font-family: 'Rajdhani', sans-serif;
+  overflow: hidden;
+  z-index: 10;
+  position: relative;
+}
+
+.infobox-header {
+  background: linear-gradient(135deg, #1E5188 0%, #0d2847 100%);
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--primary-dim);
+}
+
+.infobox-subtitle {
+  font-family: 'Jura', monospace;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #80deea;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+.infobox-name {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(0, 229, 255, 0.4);
+}
+
+.infobox-image-section {
+  padding: 12px;
+  text-align: center;
+  background: rgba(0, 8, 16, 0.5);
+}
+
+.infobox-img-container {
+  display: inline-block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.codex-infobox-image {
+  max-width: 100%;
+  max-height: 280px;
+  object-fit: contain;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 229, 255, 0.25);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.codex-infobox-caption {
+  font-size: 12px;
+  color: #b2ebf2;
+  margin-top: 8px;
+  font-style: italic;
+  line-height: 1.3;
+}
+
+.infobox-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--primary-dim), transparent);
+}
+
+.infobox-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.infobox-table tr {
+  border-bottom: 1px solid rgba(0, 229, 255, 0.08);
+}
+
+.infobox-table tr:last-child {
+  border-bottom: none;
+}
+
+.infobox-table th {
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+  color: var(--primary-color);
+  font-family: 'Jura', monospace;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 38%;
+  font-weight: 600;
+}
+
+.infobox-table td {
+  padding: 8px 12px;
+  text-align: right;
+  vertical-align: top;
+  color: #e0f7fa;
+  line-height: 1.4;
+}
+
+.infobox-table td small {
+  display: block;
+  font-size: 12px;
+  color: #80deea;
+  margin-top: 2px;
+}
+
+/* Inline links in infobox */
+.infobox-table a {
+  color: var(--primary-color);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--primary-dim);
+  transition: all 0.2s ease;
+}
+
+.infobox-table a:hover {
+  color: #ffffff;
+  border-bottom-color: #ffffff;
+  text-shadow: 0 0 6px var(--primary-color);
+}
+
+/* ==========================================================================
+   Image Figure Alignments
+   ========================================================================== */
+.codex-image-figure {
+  margin: 20px 0;
+  clear: both;
+}
+
+.codex-image-figure.align-right {
+  float: right;
+  margin: 0 0 20px 24px;
+  max-width: 320px;
+}
+
+.codex-image-figure.align-left {
+  float: left;
+  margin: 0 24px 20px 0;
+  max-width: 320px;
+}
+
+.codex-image-figure.align-center {
+  text-align: center;
+  margin: 24px auto;
+  max-width: 600px;
+}
+
+.codex-image-figure figcaption {
+  font-size: 13px;
+  color: #80deea;
+  font-style: italic;
+  margin-top: 8px;
+  text-align: center;
+}
+
+/* ==========================================================================
+   Codex Bullet Lists
+   ========================================================================== */
+.codex-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 16px 0 24px 0;
+}
+
+.codex-list-item {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  color: #d4f4f4;
+}
+
+.codex-list-item::before {
+  content: '▸';
+  position: absolute;
+  left: 4px;
+  color: var(--primary-color);
+  font-size: 14px;
+  text-shadow: 0 0 6px var(--primary-dim);
+}
+
+/* ==========================================================================
+   Categories Footer Bar
+   ========================================================================== */
+.codex-categories-section {
+  margin-top: 40px;
+  padding-top: 16px;
+  border-top: 1px solid var(--primary-dim);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.codex-categories-label {
+  font-family: 'Jura', monospace;
+  font-size: 11px;
+  color: #80deea;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+
+.codex-categories-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.codex-category-tag {
+  display: inline-block;
+  font-family: 'Jura', monospace;
+  font-size: 11px;
+  letter-spacing: 1px;
+  padding: 3px 8px;
+  background: rgba(0, 229, 255, 0.08);
+  border: 1px solid var(--primary-dim);
+  border-radius: 2px;
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.codex-category-tag:hover {
+  background: rgba(0, 229, 255, 0.22);
+  color: #ffffff;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 10px var(--primary-dim);
+}
+
+/* Responsive adjustment for Infobox */
+@media (max-width: 768px) {
+  .codex-infobox.person-information,
+  .codex-image-figure.align-right,
+  .codex-image-figure.align-left {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 20px 0;
+  }
+}
+
 

@@ -247,7 +247,6 @@ export class StateManager {
             if (!canToggle) return; // Only toggle if both modern and legacy are present
 
             const imgEl = containerEl.querySelector('.codex-displayed-image') as HTMLImageElement | null;
-            const badgeLabel = containerEl.querySelector('.badge-label') as HTMLSpanElement | null;
             const modernSrc = containerEl.getAttribute('data-modern-src');
             const legacySrc = containerEl.getAttribute('data-legacy-src');
 
@@ -262,13 +261,11 @@ export class StateManager {
                     containerEl.setAttribute('data-current-mode', 'legacy');
                     containerEl.classList.remove('mode-modern');
                     containerEl.classList.add('mode-legacy');
-                    if (badgeLabel) badgeLabel.innerText = 'LEGACY (CLICK FOR MODERN)';
                 } else {
                     imgEl.src = modernSrc;
                     containerEl.setAttribute('data-current-mode', 'modern');
                     containerEl.classList.remove('mode-legacy');
                     containerEl.classList.add('mode-modern');
-                    if (badgeLabel) badgeLabel.innerText = 'MODERN (CLICK FOR LEGACY)';
                 }
             });
         });

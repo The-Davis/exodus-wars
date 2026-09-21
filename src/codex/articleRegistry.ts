@@ -1,13 +1,63 @@
 import { CodexArticle } from './types';
 import { introArticle } from './articles/Introduction_to_the_Exodus_Wars_Universe';
+import { peopleIndexArticle } from './articles/People_Index';
+import { PEOPLE_ARTICLES } from './articles/peopleArticles';
 
 export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     'Introduction_to_the_Exodus_Wars_Universe': introArticle,
     'Introduction to the Exodus Wars Universe': introArticle,
     'introduction_to_the_exodus_wars_universe': introArticle,
+    'People': peopleIndexArticle,
+    'people': peopleIndexArticle,
+    'Category:People': peopleIndexArticle,
+    'category:people': peopleIndexArticle,
 };
 
-export function getCodexArticle(slugOrTitle: string): CodexArticle | undefined {
-    const key = slugOrTitle.trim().replace(/ /g, '_');
-    return CODEX_ARTICLES[key] || CODEX_ARTICLES[key.toLowerCase()] || CODEX_ARTICLES[slugOrTitle];
+function registerArticle(article: CodexArticle): void {
+    const slug = article.slug;
+    const title = article.title;
+    CODEX_ARTICLES[slug] = article;
+    CODEX_ARTICLES[slug.toLowerCase()] = article;
+    CODEX_ARTICLES[title] = article;
+    CODEX_ARTICLES[title.toLowerCase()] = article;
+    CODEX_ARTICLES[slug.replace(/_/g, ' ')] = article;
+    CODEX_ARTICLES[title.replace(/ /g, '_')] = article;
+
+    const normSlug = slug.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    const normTitle = title.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    CODEX_ARTICLES[normSlug] = article;
+    CODEX_ARTICLES[normTitle] = article;
+    CODEX_ARTICLES[normSlug.toLowerCase()] = article;
+    CODEX_ARTICLES[normTitle.toLowerCase()] = article;
 }
+
+for (const person of PEOPLE_ARTICLES) {
+    registerArticle(person);
+}
+
+export function getCodexArticle(slugOrTitle: string): CodexArticle | undefined {
+    let decoded = slugOrTitle;
+    try {
+        decoded = decodeURIComponent(slugOrTitle);
+    } catch {
+        // ignore
+    }
+    const clean = decoded.trim().replace(/^:+/, '');
+    const asSlug = clean.replace(/ /g, '_');
+    const asSpace = clean.replace(/_/g, ' ');
+    const normClean = clean.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    const normSlug = asSlug.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
+    return CODEX_ARTICLES[clean]
+        || CODEX_ARTICLES[asSlug]
+        || CODEX_ARTICLES[asSpace]
+        || CODEX_ARTICLES[clean.toLowerCase()]
+        || CODEX_ARTICLES[asSlug.toLowerCase()]
+        || CODEX_ARTICLES[asSpace.toLowerCase()]
+        || CODEX_ARTICLES[normClean]
+        || CODEX_ARTICLES[normSlug]
+        || CODEX_ARTICLES[normClean.toLowerCase()]
+        || CODEX_ARTICLES[normSlug.toLowerCase()]
+        || CODEX_ARTICLES[slugOrTitle];
+}
+
