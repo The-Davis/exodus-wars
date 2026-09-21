@@ -1,0 +1,1001 @@
+[
+  {
+    "title": "Aircraft_Information",
+    "type": "Infobox",
+    "usage_count": 33,
+    "used_in_sample": [
+      "F-09_Carrier_Fighter_-_\"Valkyrie\"",
+      "K-6_Eituk",
+      "XF-1_(Imperial_Experimental_Airframe)",
+      "XF-2_(Imperial_Experimental_Airframe)",
+      "XF-3_(Imperial_Experimental_Airframe)",
+      "XF-4_(Imperial_Experimental_Airframe)",
+      "XF-5_(Imperial_Experimental_Airframe)",
+      "XF-6_(Imperial_Experimental_Airframe)",
+      "XF-7_(Imperial_Experimental_Airframe)",
+      "XF-8_(Imperial_Experimental_Airframe)"
+    ],
+    "parameters": [
+      "acceleration_rate",
+      "armor",
+      "avionics",
+      "caption",
+      "communications",
+      "controls",
+      "countermeasures",
+      "crew",
+      "cruising_airspeed",
+      "first_flight",
+      "fixed_weapons",
+      "height",
+      "image",
+      "length",
+      "manufacturer",
+      "max_airspeed",
+      "max_velocity",
+      "mission_profile",
+      "name",
+      "operation_time",
+      "operator",
+      "powerplant",
+      "propulsion",
+      "sensors",
+      "shields",
+      "variable_payload",
+      "variants",
+      "wingspan"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Aircraft_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|colspan=\"2\" align=\"center\"|{{{image}}}<br>{{{caption}}}\n|-\n!bgcolor=\"#1E5188\" colspan=\"2\"|<font color=\"white\">Description</font>\n|-\n|valign=\"top\"|Mission Profile||align=\"right\"|{{{mission_profile}}}\n|-\n|valign=\"top\"|Crew||align=\"right\"|{{{crew}}}\n|-\n|valign=\"top\"|F",
+    "example_call": "{{Aircraft Information|\n|image = [[Image:F-9 Valkyrie Standard View.png|150px]]\n|caption =\n|name = F-9E \"Valkyrie\"\n|mission_profile =Carrier-Based Air and Space Superiority Fighter\n|crew = 1 pilot\n|first_flight = November 6, [[2309]] (YF-9)\n|manufacturer = [[Royal Imperial Labs]] <br/>[[Alexi-Wrought Airworks]] <br/>[[Reimao Airworks]] <br/>[[Rahn Industries]]\n|operator = [[Royal Imperial Air Force]] <br/> [[Prefecture Air Force]] <br/>[[Prefecture Marine Corps]]\n|variants =YF-9, F-9, F-9A, F-9B, F-9C, F-9D, F-9E\n|length =12\n|wingspan =10\n|height =5\n|powerplant =1 x Rankine AC-14f 65mW Fusion Reactor\n|propulsion =2 x Dwight SJ-6n Scramjets<br/>2 x Dwight GCD-1f Gravity Cavitation Drives\n|controls =Aeroelastic Control Surface for Atmospheric Flight\n|avionics =Helsin Electronics FCS-14z \"FC-HUD\" Software Package\n|sensors =Hullsmeyer ODLR-22y \"Lantern\" Sensor Suite\n|communications =Helsin Electronics \"OmniComm\" 22-5c Microwave/Optical Transceiver\n|max_airspeed =24\n|cruising_airspeed =1520\n|acceleration_rate =215\n|max_velocity =600\n|operation_time = 18\n|fixed_weapons =2 x [[GC-05 Medium Gauss Cannon - \"Screamer\"|GC-5 \"Screamer\" Gauss Cannons]]\n|variable_payload =4 x [[ASIM-05 Medium Range Guided Missile - \"Hound\"|ASIM-5 \"Hound\" Missiles]]\n|armor = Everest Composites Reinforced Boron-Nitride Airframe\n|shields =Irridescent Labs P-5x \"Phalanx\" Shield System\n|countermeasures =None\n}}"
+  },
+  {
+    "title": "Aircraft_Variant",
+    "type": "Utility",
+    "usage_count": 3,
+    "used_in_sample": [
+      "F-09_Carrier_Fighter_-_\"Valkyrie\"",
+      "F-04_Superiority_Fighter_-_\"Raven\"",
+      "Km-4_Tischler"
+    ],
+    "parameters": [
+      "acceleration_rate",
+      "fixed_weapons",
+      "max_airspeed",
+      "name",
+      "powerplant",
+      "propulsion"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Aircraft_Variant.md",
+    "wikitext_preview": "{| cellpadding=\"0\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:1px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"2\" align=\"center\" style=\"border-bottom:1px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|valign=\"top\"|Powerplant||align=\"right\"|{{{powerplant}}}\n|-\n|valign=\"top\"|Propulsion||align=\"right\"|{{{propulsion}}}\n|-\n|valign=\"top\"|Maximum Airspeed||align=\"right\"|Mach {{{max_airspeed}}}\n|-\n|valign=\"top\"|Acceleration Rate||align=\"right\"|{{{acceleration_rate}}} km",
+    "example_call": "{{Aircraft Variant|\n|name = YF-9\n|powerplant = 1 x Tolwin AC-7 15.2mW Fission Reactor\n|propulsion =1 x Alexi-Wrought RJ-13r Ramjet<br/>1 x Alexi-Wrought MPD-2x MP Drive\n|max_airspeed =4.5\n|acceleration_rate =28.9\n|fixed_weapons =1 x [[BC-01 Light Beam Cannon - \"Toaster\"|BC-1 \"Toaster\" Laser Cannon]] <br/>1 x [[GC-02 Medium Gauss Cannon - \"Shrieker\"|GC-2 \"Shrieker\" Gauss Cannon]] <br/>4 x [[ASIM-01 Short Range Guided Missile - \"Javelin\"|ASIM-1 \"Javelin\" Missiles]]\n}}"
+  },
+  {
+    "title": "Alliance_Information",
+    "type": "Infobox",
+    "usage_count": 5,
+    "used_in_sample": [
+      "Alliance_of_Planets",
+      "Council_of_Independent_Nations",
+      "Tripartite_Alliance",
+      "Prometheus_Protocols",
+      "Cinaed_Accords"
+    ],
+    "parameters": [
+      "badge",
+      "building",
+      "date",
+      "event",
+      "flag",
+      "headquarters",
+      "leader",
+      "members",
+      "name",
+      "number",
+      "title"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Alliance_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|colspan=\"2\" align=\"center\"|{{{flag}}}<br><small><small>Flag</small></small><br/>{{{badge}}}<br><small><small>Badge</small></small>\n|-\n|colspan=\"2\" align=\"center\"|<hr>\n|-\n|valign=\"top\"|Headquarters||align=\"right\"|{{{building}}}, {{{headquarters}}}\n|-\n|valign=\"top\"|L",
+    "example_call": "{{Alliance Information|\n|name=Prometheus Protocols\n|flag=[[Image:PPFlag.png|200px]]\n|badge=[[Image:PPBadge.png|200px]]\n|building=[[Embassy Tower]]\n|headquarters=[[Prometheus Stardock]]\n|title=Overseer\n|leader=Unknown\n|event=[[Prometheus Summit]]\n|date=[[2324]]\n|number=Two\n|members=[[Taviridis Somarchada]]<br/>[[United Mesarthrim Clans]]\n}}"
+  },
+  {
+    "title": "City_Information",
+    "type": "Infobox",
+    "usage_count": 31,
+    "used_in_sample": [
+      "Stone_Bridge",
+      "Rio_de_Andes",
+      "Nueva_Ceará",
+      "Memphis",
+      "New_Hanover",
+      "Tincomalee",
+      "Lethminster",
+      "Titan_City",
+      "Nachtstadt",
+      "Brünshelm"
+    ],
+    "parameters": [
+      "name",
+      "planet"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/City_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|valign=\"top\"|Planet||align=\"right\"|{{{planet}}}\n|-\n|}<noinclude>\n[[Category:Templates]]\n</noinclude>",
+    "example_call": "{{City Information|\n|name =Stone Bridge\n|planet =Mesar\n}}"
+  },
+  {
+    "title": "Historical_Period_Information",
+    "type": "Infobox",
+    "usage_count": 3,
+    "used_in_sample": [
+      "First_Exodus",
+      "Magrinoch_Trials",
+      "Damanir_Incident"
+    ],
+    "parameters": [
+      "began",
+      "ended",
+      "period"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Historical_Period_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:1px solid\"|<font color=\"white\">{{{period}}}</font>\n|-\n|valign=\"top\"|Began||align=\"left\"|{{{began}}}\n|-\n|valign=\"top\"|Ended||align=\"left\"|{{{ended}}}\n|-\n|}\n<noinclude>\nCategories,<br/>\nperiod=<br/>\nbegan=<br/>\nended=<br/>\n[[Category:Templates]]\n</noinclude>",
+    "example_call": "{{Historical Period Information|\n|period=The First Exodus\n|began=[[2080]]\n|ended=[[2086]]\n}}"
+  },
+  {
+    "title": "Infantry_Information",
+    "type": "Infobox",
+    "usage_count": 5,
+    "used_in_sample": [
+      "Prefecture_Legion_Corps_Infantry",
+      "Finnis",
+      "Prefecture_Legion_Corps_Army_Hunters",
+      "Reigenjord",
+      "Prefecture_Marine"
+    ],
+    "parameters": [
+      "image",
+      "military",
+      "mission",
+      "name"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Infantry_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"2\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|colspan=\"2\" align=\"center\"|{{{image}}}\n|-\n|valign=\"top\"|Mission Role||align=\"right\"|{{{mission}}}\n|-\n|valign=\"top\"|Military||align=\"right\"|{{{military}}}\n|-\n|}<noinclude>\n[[Category:Templates]]\n</noinclude>",
+    "example_call": "{{Infantry Information|\n|name= Prefecture Legion Corps Infantry\n|image=\n|mission= Combat Infantry\n|military= [[Prefecture Legion Corps]]\n}}"
+  },
+  {
+    "title": "Intelligence_Branch_Information",
+    "type": "Infobox",
+    "usage_count": 1,
+    "used_in_sample": [
+      "Omegas"
+    ],
+    "parameters": [
+      "command1",
+      "command2",
+      "designation",
+      "headquarters",
+      "name",
+      "nation",
+      "size"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Intelligence_Branch_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|valign=\"top\"|Nation||align=\"right\"|{{{nation}}}\n|-\n|valign=\"top\"|Designation||align=\"right\"|{{{designation}}}\n|-\n|valign=\"top\"|Size||align=\"right\"|{{{size}}}\n|-\n|valign=\"top\"|Headquarters||align=\"right\"|{{{headquarters}}}\n|-\n!bgcolor=\"#1E5188\" colspan=\"2\"|<font col",
+    "example_call": "{{Intelligence Branch Information|\n|name =хоньч нохой, AKA \"Omegas\"\n|nation = [[Onyx Empire]]\n|designation = Secret Police\n|size = Approximately 23,000 operatives\n|headquarters = [[Earth]], [[Sol System]]\n|command1 = <small>Chief Operative [[Lavik Nighthawk]]</small>\n|command2 = <small>Operations Coordinator [[Jarek Nighthawk]]</small>\n}}"
+  },
+  {
+    "title": "Mesarthrim_Fleet",
+    "type": "Navbox",
+    "usage_count": 3,
+    "used_in_sample": [
+      "United_Mesarthrim_Clans_First_Fleet",
+      "United_Mesarthrim_Clans_Second_Fleet",
+      "United_Mesarthrim_Clans_Third_Fleet"
+    ],
+    "parameters": [
+      "Anderung",
+      "Caption",
+      "Citation",
+      "Commandant",
+      "Cross",
+      "Designation",
+      "Exodus",
+      "First",
+      "Fleets",
+      "Head",
+      "Image",
+      "Medal",
+      "Mesarthrim",
+      "Name",
+      "Onyx"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Mesarthrim_Fleet.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{Name}}}</font>\n|-\n|colspan=\"2\" align=\"center\"|{{{Image}}}<br>{{{Caption}}}\n|-\n!bgcolor=\"#1E5188\" colspan=\"2\"|<font color=\"white\">Command Staff</font>\n|-\n|valign=\"top\"|Designation||align=\"right\"|{{{Designation}}}\n|-\n|valign=\"top\"|Groß-Commandant||align=\"right\"|{{{Head}}}\n|-\n|valign=\"t",
+    "example_call": "{{Mesarthrim Fleet|\n|Name = Erste Flotte\n|Image = [[Image:UMC-First-Fleet.png]]\n|Caption = Badge of the First Mesarthrim Fleet\n|Designation = Guardian of Terra ''(final)''\n|Head = [[Wilfred Stafgard von Stadt]] ''(final)''\n|First = [[Uther Gilhund von Dietrich]] ''(final)''\n|Commandant = [[Ernest Filmunt von Dietrich]] ''(final)''\n|Anderung = [[Battle of Ice Crown Bay]]<br>[[Battle for the North Star]]<br>[[War of the Overseers]]<br>[[Morningstar Strike]]<br>[[First Battle for Lusar]]<br>[[Defense of Centus]]<br>[[Centus Massacre]]<br>[[Battle of Overseer Command]]<br>[[Second Battle for Lusar]]<br>[[Battle for Comur]]<br>[[Battle for Mesar]]<br>[[Anderung Assault]]<br>[[Anderung Hunt]]\n|Exodus = [[Third Battle of Cronus]]<br>[[Operation Arrow Fold]]<br>[[Cronus Star Command]]\n|Onyx = [[Invasion of Terra]]<br>[[Assault on Mars]]<br>[[Battle for Pluto]]<br>[[Battle for Io]]<br>[[Terra Occupational Force]]\n|Mesarthrim = [[Raumstraff Island Massacre]]\n|Tempest = ''disbanded''\n|Cross = 62 Battle Crosses\n|Citation = Tischler Citation of Honour<br>Tischler Citation of Valour<br>Stadt Citation of Valour<br>Stadt Citation of Honour<br>Stadt Citation of Integrity<br>Brandt Citation of Valour<br>Brandt Citation of Honour<br>Brandt Citation of Integrity\n|Medal = Anderung Victory<br>Second Exodus War Victory<br>Silver Campaign Medal<br>Vigilant Guardian Medal\n|Fleets = '''First Fleet''' - [[United Mesarthrim Clans Second Fleet|Second Fleet]] - [[United Mesarthrim Clans Third Fleet|Third Fleet]]\n}}"
+  },
+  {
+    "title": "Military_Branch_Information",
+    "type": "Infobox",
+    "usage_count": 22,
+    "used_in_sample": [
+      "Prefecture_Legion_Corps",
+      "Prefecture_Galactic_Navy",
+      "Federated_Districts_Air_Force",
+      "Prefecture_Marine_Corps",
+      "Aseta_Serada",
+      "Mozihr_Getah_Tashir_Fahr",
+      "Ailen_Suvak_Tashir_Fahr",
+      "United_Centusi_States_Kriegsmarine",
+      "Aseta_Joreno",
+      "Royal_Imperial_Navy"
+    ],
+    "parameters": [
+      "active",
+      "branch",
+      "caption",
+      "chief_enlisted_staff",
+      "chief_of_operations",
+      "chief_of_staff",
+      "colors",
+      "engagements",
+      "headquarters",
+      "image",
+      "march",
+      "motto",
+      "name",
+      "nation",
+      "size"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Military_Branch_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|colspan=\"2\" align=\"center\"|{{{image}}}<br>{{{caption}}}\n|-\n|colspan=\"2\" align=\"center\"|<hr>\n|-\n|valign=\"top\"|Active||align=\"right\"|{{{active}}}\n|-\n|valign=\"top\"|Nation||align=\"right\"|{{{nation}}}\n|-\n|valign=\"top\"|Branch||align=\"right\"|{{{branch}}}\n|-\n|valign=\"top\"|",
+    "example_call": "{{Military Branch Information|\n|image = [[Image:Badge of the Federated Districts Air Force.png|right|300px]]\n|caption =Badge of the Federated Districts Air Force\n|name =Federated Districts Air Force\n|active =[[2322]]-Current\n|nation = [[Federated Districts of the Prefecture]]\n|branch = Air Superiority\n|size = 5 Major Commands\n|headquarters = [[Ueda]], [[Hydrae System]]\n|motto = \"Conquer the Skies, and Conquer All.\"\n|colors = Black and Yellow\n|march = How do They Rise Up\n|engagements = [[Imperial Civil War]]<br/>[[Volucris Incursion]]<br/>[[Tempest War]]\n|chief_of_operations = <small>Sky Marshal [[Marcus Rathbone]] ([[2322]])</small><br/><small>Sky Marshal [[Jack Ivonrud]] ([[2322]]-[[2323]])</small><small>Sky Marshal [[Jan Brooks]] ([[2323]]-Current)</small>\n|chief_of_staff = <small>General [[Jack Ivonrud]] ([[2322]])</small><br/><small>General [[Jan Brooks]] ([[2322]]-[[2323]])</small>\n|chief_enlisted_staff = <small>Chief Sergeant </small>\n}}"
+  },
+  {
+    "title": "Military_Conflict",
+    "type": "Infobox",
+    "usage_count": 38,
+    "used_in_sample": [
+      "Mesarthrim_Civil_War",
+      "Tempest_War",
+      "Second_Tirshan_Uprising",
+      "Third_Battle_of_Cronus",
+      "Volucris_Incursion",
+      "Sirius_Incursion",
+      "First_Battle_of_Cronus",
+      "Mnemosyne_Raid",
+      "Second_Battle_of_Cronus",
+      "First_Invasion_of_Lyrae"
+    ],
+    "parameters": [
+      "combatant1",
+      "combatant2",
+      "commander1",
+      "commander2",
+      "conflict",
+      "date",
+      "partof",
+      "place",
+      "result",
+      "status",
+      "strength1",
+      "strength2",
+      "territory"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Military_Conflict.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:1px solid\"|<font color=\"white\">{{{conflict}}}</font>\n|-\n!bgcolor=\"#1E5188\" colspan=\"2\" style=\"border-bottom:3px solid\"|<font color=\"white\"><small>''part of''</small> {{{partof}}}</font>\n|-\n|valign=\"top\"|Date||align=\"left\"|{{{date}}}\n|-\n|valign=\"top\"|Place||align=\"left\"|{{{place}}}\n|-\n|valign=\"top\"|Territory||align=\"l",
+    "example_call": "{{Military Conflict|\n|conflict=Sirius Incursion\n|partof= Second Exodus War\n|image=\n|caption=\n|date=January, [[2319]]\n|place=Interstellar Conflict\n|territory=[[Sirius Cluster]]\n|status=[[Titan Peace Accords]]\n|result=[[Onyx Empire|Empire]] repulsed.  [[Sirius Families]] officially recognized.\n|combatant1 =[[Image:OnyxEmpireFlag.png|20px]] [[Onyx Empire]]<br/>\n|combatant2 =[[Image:Sirius.png|20px]] [[Sirius Families]]\n|commander1 =Rear Admiral [[Victor Pryce]]<br/>Commodore [[James Arnette]]\n|commander2 =Commodore [[Chetana Sharma]]<br/>Admiral [[Dimitri Lavrov]]\n|strength1=5 [[Royal Imperial Navy#Carrier_Group|Naval Carrier Groups]]<br/>10 [[Royal Imperial Army#Battalion|Army Battalions]]<br/>10 [[Mercury Class Transport|Mercury Transports]]\n|strength2=[[Asanova Territorial Naval Forces|Asanova Black Fleet]]<br/>[[Berlusconi Territorial Naval Forces|Berlusconi Naval Guard]]<br/>[[Blazton Territorial Naval Forces|Blasius Defense Fleet]]<br/>[[Nakamura Territorial Naval Forces|Nakamura Navy]]\n|losses1=5 [[Royal Imperial Navy#Carrier_Group|Naval Carrier Groups]]<br/>10 [[Royal Imperial Army#Battalion|Army Battalions]]<br/>10 [[Mercury Class Transport|Mercury Transports]]\n|losses2=\n}}"
+  },
+  {
+    "title": "Military_Force_Information",
+    "type": "Infobox",
+    "usage_count": 2,
+    "used_in_sample": [
+      "Iron_Armada_of_the_Royal_Imperial_Navy",
+      "Black_Armada_of_the_Royal_Imperial_Navy"
+    ],
+    "parameters": [
+      "branch",
+      "caption",
+      "commander",
+      "headquarters",
+      "image",
+      "name",
+      "nation",
+      "size"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Military_Force_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|colspan=\"2\" align=\"center\"|{{{image}}}<br>{{{caption}}}\n|-\n|colspan=\"2\" align=\"center\"|<hr>\n|-\n|valign=\"top\"|Nation||align=\"right\"|{{{nation}}}\n|-\n|valign=\"top\"|Branch||align=\"right\"|{{{branch}}}\n|-\n|valign=\"top\"|Size||align=\"right\"|{{{size}}}\n|-\n|valign=\"top\"|Head",
+    "example_call": "{{Military Force Information|\n|image = \n|caption =\n|name =Iron Armada\n|active =[[2301]]-[[2324]]\n|nation = [[Onyx Empire]]\n|branch = [[Royal Imperial Navy]]\n|size = 2 Fleets\n|headquarters = [[Earth]], [[Sol System]]\n|commander = <small>Grand Admiral [[Anthony Hadrian]] ([[2300]]-[[2322]])<br/>Grand Admiral [[Michael Burke]] ([[2322]]-[[2324]])</small>\n}}"
+  },
+  {
+    "title": "Military_Operation_Information",
+    "type": "Infobox",
+    "usage_count": 6,
+    "used_in_sample": [
+      "Operation_Lawless",
+      "Operation_Tartarus",
+      "Operation_Durandal",
+      "First_Invasion_of_Sol",
+      "Operation_White-Eye",
+      "Berlusconi_Betrayal"
+    ],
+    "parameters": [
+      "executor",
+      "name",
+      "operation_theater",
+      "planner",
+      "timeframe"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Military_Operation_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|valign=\"top\"|Operation Theater||align=\"right\"|{{{operation_theater}}}\n|-\n|valign=\"top\"|Executor(s)||align=\"right\"|{{{executor}}}\n|-\n|valign=\"top\"|Planner(s)||align=\"right\"|{{{planner}}}\n|-\n|valign=\"top\"|Timeframe||align=\"right\"|{{{timeframe}}}\n|-\n|}<noinclude>\n[[Ca",
+    "example_call": "{{Military Operation Information|\n|name =Operation Lawless\n|operation_theater = [[Sirius Cluster]]\n|executor =[[Onyx Empire]]\n|planner =[[Victor Pryce]]\n|timeframe =[[2319]]\n}}"
+  },
+  {
+    "title": "Military_Overview_Information",
+    "type": "Infobox",
+    "usage_count": 7,
+    "used_in_sample": [
+      "Military_of_the_Federated_Districts_of_the_Prefecture",
+      "Military_of_the_Meroniri_Terinasi",
+      "Military_of_Rikaz_o_Fii_Huern_iv_Lorithan",
+      "Military_of_the_Ikronin_Jurekön",
+      "Military_of_the_Auellal_League",
+      "Military_of_the_United_Earth_Alliance",
+      "Military_of_the_Onyx_Empire"
+    ],
+    "parameters": [
+      "branches",
+      "caption",
+      "commander_in_chief",
+      "image",
+      "military_age",
+      "name",
+      "ranks"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Military_Overview_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|colspan=\"2\" align=\"center\"|{{{image}}}<br>{{{caption}}}\n|-\n|colspan=\"2\" align=\"center\"|<hr>\n|-\n|valign=\"top\"|Service Branches||align=\"right\"|{{{branches}}}\n|-\n|valign=\"top\"|Commander in Chief||align=\"right\"|{{{commander_in_chief}}}\n|-\n|valign=\"top\"|Military Age||al",
+    "example_call": "{{Military Overview Information|\n|name =Military of the Federated Districts of the Prefecture\n|image =\n|caption =\n|branches =[[Prefecture Legion Corps]]<br/>[[Prefecture Galactic Navy]]<br/>[[Prefecture Air Force| Prefecture Air Force]]<br/>[[Prefecture Marine Corps| Prefecture Marine Corps]]\n|commander_in_chief =[[Prefect]]\n|military_age =18-60\n|ranks =[[Ranks in the Legion Corps|Army Ranks]]<br/>[[Ranks in the Galactic Navy|Navy Ranks]]<br/>[[Ranks in the Air Force|Air Force Ranks]]<br/>[[Ranks in the Marine Corps|Marine Ranks]]\n}}"
+  },
+  {
+    "title": "Nation_Information",
+    "type": "Infobox",
+    "usage_count": 31,
+    "used_in_sample": [
+      "Federated_Districts_of_the_Prefecture",
+      "Auellal_League",
+      "United_Mesarthrim_Clans",
+      "United_Earth_Alliance",
+      "Meroniri_Terinasi",
+      "Rikaz_o_Fii_Huern_iv_Lorithan",
+      "Colonial_Commonwealth",
+      "Kalidasa_Planetary_Authority",
+      "Kabila_Damu'kizuka",
+      "Kabila_Kimburu"
+    ],
+    "parameters": [
+      "anthem",
+      "area",
+      "capital",
+      "caption",
+      "currency",
+      "formation",
+      "gdp",
+      "government",
+      "head_of_state",
+      "image",
+      "language",
+      "motto",
+      "name",
+      "national_symbol",
+      "population",
+      "status"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Nation_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|colspan=\"2\" align=\"center\"|{{{image}}}<br><small><small>{{{caption}}}</small></small>\n|-\n|colspan=\"2\" align=\"center\"|<hr>\n|-\n|valign=\"top\"|Motto||align=\"right\"|<small>\"{{{motto}}}\"</small>\n|-\n|valign=\"top\"|Anthem||align=\"right\"|<small>\"{{{anthem}}}\"</small>\n|-\n|val",
+    "example_call": "{{Nation Information|\n|image =\n|caption =\n|name =Kabila Damu'kizuka\n|motto =\n|anthem =\n|national_symbol =\n|capital =\n|language =[[English]]\n|government =Kabila\n|head_of_state =[[Kuu]] (tribal head)<br/>[[A'Pili Kuu]] (military)\n|formation =\n|status =Active\n|area =\n|population =\n|gdp =\n|currency =\n}}"
+  },
+  {
+    "title": "Onyx_Empire",
+    "type": "Navbox",
+    "usage_count": 1,
+    "used_in_sample": [
+      "First_Invasion_of_Theta_Algedi"
+    ],
+    "parameters": [],
+    "has_styles": false,
+    "raw_template_file": "templates/Onyx_Empire.md",
+    "wikitext_preview": "[[Image:OnyxEmpireFlag.png|20px]] [[Onyx Empire]]\n\n<noinclude>\n\nThis is for easy use in war and battle infoboxes.\n\n[[Category:Templates]]\n</noinclude>",
+    "example_call": "{{Onyx Empire}}"
+  },
+  {
+    "title": "Pelagrim_Crisis_Navbox",
+    "type": "Navbox",
+    "usage_count": 1,
+    "used_in_sample": [
+      "The_Pelagrim_Crisis"
+    ],
+    "parameters": [],
+    "has_styles": true,
+    "raw_template_file": "templates/Pelagrim_Crisis_Navbox.md",
+    "wikitext_preview": "{| valign=\"bottom\"|\n|\n{| cellpadding=\"0\" cellspacing=\"0\" style=\"margin: 0 0 ; border:3px solid #1E5188;width:100%; \" align=\"center\" valign=\"bottom\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:1px solid\"|<font color=\"white\">Pelagrim Crisis</font>\n|-\n|width=\"10%\" align=\"center\"|''January [[2324]]''||\n<small>[[Assault on Iviris]] - [[Death of Andreas Tischler]] - [[Homemakers Field Vigil]] - [[Stone Bridge Riots]] - [[Elevation of Eric Francis]] - [[Alliance of Planets Interv",
+    "example_call": null
+  },
+  {
+    "title": "Person_Information",
+    "type": "Infobox",
+    "usage_count": 92,
+    "used_in_sample": [
+      "Anthony_Hadrian",
+      "Lucius_Black",
+      "Emil_Torsc",
+      "Marcus_Rathbone",
+      "Jack_Ivonrud",
+      "Lavik_Nighthawk",
+      "Talaris_Roi",
+      "Sanor_Cai",
+      "Mircas_Rasune",
+      "Jiliur_Beskolyda_nav_Raegos"
+    ],
+    "parameters": [
+      "achievements",
+      "allegiance",
+      "birth_date",
+      "birth_place",
+      "caption",
+      "death_date",
+      "death_place",
+      "image",
+      "name",
+      "profession",
+      "recognitions"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Person_Information.md",
+    "wikitext_preview": "{| cellpadding=\"0\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:1px solid #1E5188;width:35%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"2\" align=\"center\" style=\"border-bottom:1px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|align=\"center\" colspan=\"2\"|{{{image}}}<br><small>{{{caption}}}</small>\n|-\n|align=\"center\" colspan=\"2\"|<hr>\n|-\n|valign=\"top\"|Birth||align=\"right\"|{{{birth_date}}}<br/><small>{{{birth_place}}}</small>\n|-\n|valign=\"top\"|Death||align=\"right\"|{{{death_date}}}<br/><small>",
+    "example_call": "{{Person Information|\n|name =Antonius \"Anthony\" Aurelius Hadrian\n|image =\n|caption =\n|birth_date =November 7, [[2060]]\n|birth_place =[[Ailqot]], [[Torimur]], [[Cildeng System]]\n|death_date =\n|death_place =\n|allegiance =[[Federated Districts of the Prefecture]]\n|profession =Military Strategist<br/>Political Leader\n|recognitions =Office of [[Prefect]]\n|achievements =Founder of the [[Prefecture]]\n}}"
+  },
+  {
+    "title": "Planet_Information",
+    "type": "Infobox",
+    "usage_count": 46,
+    "used_in_sample": [
+      "Earth",
+      "Theia",
+      "Mars",
+      "Ueda",
+      "Laojiu",
+      "Tavou",
+      "Adelson",
+      "Kufestin",
+      "Mirach",
+      "Tejat"
+    ],
+    "parameters": [
+      "capital",
+      "caption",
+      "image",
+      "name",
+      "orbit",
+      "population",
+      "rotation",
+      "satellite",
+      "satellite_orbit",
+      "sovereign",
+      "star_system"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Planet_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|colspan=\"2\" align=\"center\"|{{{image}}}<br><small><small>{{{caption}}}</small></small>\n|-\n|colspan=\"2\" align=\"center\"|<hr>\n|-\n|valign=\"top\"|[[:Category:Star Systems|Star System]]||align=\"right\"|{{{star_system}}}\n|-\n|valign=\"top\"|Population||align=\"right\"|{{{populati",
+    "example_call": "{{Planet Information|\n|name =Earth\n|image =[[Image:Earth seen from Orbit.png|150px|center]]\n|caption =The Earth, as seen from orbit\n|star_system =[[Sol System]]\n|population =4.35 billion\n|sovereign =<small>[[Pax Anthronoris]] <small>Until [[18000BC]]<br/>Various [[:Category:Terran Nations|nations]] [[18000BC]]-[[2017]]<br/>[[United Earth Alliance]] [[2017]]-[[2315]]<br/>[[Onyx Empire]] [[2315]]-[[2323]]<br/>[[Sol System Authority]] [[2323]]-onwards.</small>\n|capital =<small>[[Denver]] (under the [[United Earth Alliance]])<br/>[[Memphis]] (under the [[Onyx Empire]])<br/>[[Rio de Janeiro]] (under the [[Sol System Authority]])</small>\n|orbit =365.2564 days\n|rotation =23.95 hours\n|satellite =[[Luna]]\n|satellite_orbit =27.32 days\n}}"
+  },
+  {
+    "title": "Pp-template",
+    "type": "Documentation / System",
+    "usage_count": 3,
+    "used_in_sample": [
+      "Template_doc",
+      "Template_doc_inline",
+      "Pp-template"
+    ],
+    "parameters": [
+      "expiry",
+      "small"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Pp-template.md",
+    "wikitext_preview": "<noinclude>{{pp-template|small=yes}}\n</noinclude>{{#ifeq:{{{small|}}}{{{expiry|ʁ}}}|yesʁ\n|\n<div style=\"position:absolute; z-index:100; right:20px; top:10px; height:10px; width:300px;\"></div>\n<div style=\"position:absolute; z-index:100; right:10px; top:10px;\" class=\"metadata\" id=\"administrator\">\n<imagemap>\n Image:Padlock.svg|20px\n default [[Wikipedia:Protection policy|This high-risk template or image included in one has been protected from editing to prevent vandalism]]\n desc none\n</imagemap>\n</di",
+    "example_call": "{{pp-template|small=yes}}"
+  },
+  {
+    "title": "Region_Information",
+    "type": "Infobox",
+    "usage_count": 5,
+    "used_in_sample": [
+      "Huon_Jehz",
+      "Vuranct_Jehz",
+      "Jehz_Modar",
+      "Dzarning_Mountain_Range",
+      "Nihru"
+    ],
+    "parameters": [
+      "capital",
+      "caption",
+      "history",
+      "image",
+      "location",
+      "major_cities",
+      "name",
+      "population",
+      "sovereign"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Region_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|colspan=\"2\" align=\"center\"|{{{image}}}<br><small><small>{{{caption}}}</small></small>\n|-\n|colspan=\"2\" align=\"center\"|<hr>\n|-\n|valign=\"top\"|Population||align=\"right\"|{{{population}}}\n|-\n|valign=\"top\"|Capital City||align=\"right\"|{{{capital}}}\n|-\n|valign=\"top\"|Major C",
+    "example_call": "{{Region Information|\n|name =Huon Jehz\n|image =\n|caption =\n|population =1.6 billion [[Lorithos]]<br/>10,000 [[Terrans]]<br/>6,000 [[Meroniri]]\n|capital =[[Hamur Hauren]] - 2.5 million residents\n|major_cities =[[Kihtor Modar]] - 1.2 billion residents<br/>[[Zysk]] - 100,000 residents<br/>[[Rehzak]] - 100,000 residents<br/>[[Oln Zaur]] - 100,000 residents<br/>[[Plovirsk]] - 100,000 residents<br/>[[Talire Hauren]] - Ruins\n|location =[[Jehz Modar]], [[Lorithan]], [[Mirdek System]]\n|sovereign =[[Rikaz o fii Huern iv Lorithan]]\n|history =Cradle of [[Lorithos]] civilization\n}}"
+  },
+  {
+    "title": "Second_Exodus_War_Navbox",
+    "type": "Navbox",
+    "usage_count": 45,
+    "used_in_sample": [
+      "Second_Exodus_War",
+      "Storming_of_San_Francisco",
+      "Third_Battle_of_Cronus",
+      "Treaty_of_Memphis",
+      "Titan_Peace_Accords",
+      "Sirius_Incursion",
+      "Operation_Lawless",
+      "First_Battle_of_Cronus",
+      "Operation_Tartarus",
+      "Mnemosyne_Raid"
+    ],
+    "parameters": [],
+    "has_styles": true,
+    "raw_template_file": "templates/Second_Exodus_War_Navbox.md",
+    "wikitext_preview": "{| valign=\"bottom\"|\n|\n{| cellpadding=\"0\" cellspacing=\"0\" style=\"margin: 0 0 ; border:3px solid #1E5188;width:100%; \" align=\"center\" valign=\"bottom\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:1px solid\"|<font color=\"white\">The Second Exodus War</font>\n|-\n|width=\"10%\" align=\"center\"|''[[2315]]''||\n<small>[[First Invasion of Sol]] - [[Storming of San Francisco]] - [[First Invasion of Lyrae]] - [[First Invasion of Theta Algedi]] - [[Annexation of Bethija]] - [[Operation Tarta",
+    "example_call": "{{Second Exodus War Navbox}}"
+  },
+  {
+    "title": "Space_Station_Information",
+    "type": "Infobox",
+    "usage_count": 1,
+    "used_in_sample": [
+      "Haven_Class_Station"
+    ],
+    "parameters": [
+      "aircraft",
+      "armor",
+      "beam",
+      "builder",
+      "caption",
+      "crew",
+      "designation",
+      "height",
+      "image",
+      "length",
+      "name",
+      "operator",
+      "powerplant",
+      "processing_system",
+      "sensors",
+      "shields",
+      "special",
+      "support_capacity",
+      "total_volume",
+      "weapons"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Space_Station_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|colspan=\"2\" align=\"center\"|{{{image}}}<br>{{{caption}}}\n|-\n!bgcolor=\"#1E5188\" colspan=\"2\"|<font color=\"white\">Station Features</font>\n|-\n|valign=\"top\"|Designation||align=\"right\"|{{{designation}}}\n|-\n|valign=\"top\"|Builder(s)||align=\"right\"|{{{builder}}}\n|-\n|valign=\"",
+    "example_call": "{{Space Station Information|\n|name =Haven Class Station\n|image = \n|caption =\n|designation =Starship Drydock/Harborage\n|builder =[[Haven Shipyards]]\n|operator =[[Royal Imperial Navy]]<br/>[[Prefecture Galactic Navy]]\n|crew =2,500\n|length =500\n|beam =600\n|height =400\n|total_volume =\n|powerplant =1 x Tolwin T1S 1.7gW Fission Reactor\n|sensors =\n|processing_system =\n|aircraft =\n|support_capacity =\n|weapons =Unarmed\n|armor =Series-1 Composite Armor Plating\n|shields =PDS-1 Plasma Field\n|special =\n}}"
+  },
+  {
+    "title": "Squadron_Information",
+    "type": "Infobox",
+    "usage_count": 4,
+    "used_in_sample": [
+      "VF-01_Imperial_Naval_Fighter_Squadron_-_\"Scimitar_Squadron\"",
+      "No.1416_Squadron_ADF_-_\"Saint_Michael's_Sword\"",
+      "VF-11_Imperial_Naval_Fighter_Squadron_-_\"Hell's_Kittens\"",
+      "Raven's_Wings"
+    ],
+    "parameters": [
+      "active",
+      "aircraft_type",
+      "battles",
+      "caption",
+      "garrison",
+      "image",
+      "military_branch",
+      "name",
+      "nation",
+      "nickname",
+      "role"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Squadron_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|colspan=\"2\" align=\"center\"|{{{image}}}<br>{{{caption}}}\n|-\n|colspan=\"2\"|<hr>\n|-\n|valign=\"top\"|Active||align=\"right\"|{{{active}}}\n|-\n|valign=\"top\"|Nation||align=\"right\"|{{{nation}}}\n|-\n|valign=\"top\"|Military Branch||align=\"right\"|{{{military_branch}}}\n|-\n|valign=\"to",
+    "example_call": "{{Squadron Information|\n|image = [[Image:VF-01 Imperial Naval Fighter Squadron - \"Scimitar Squadron\" logo.png|150px|center]]\n|caption = VF-1's Official Logo\n|name = VF-1 \"Scimitar Squadron\"\n|active = [[2315]]-[[2324]]\n|nation = [[Onyx Empire]]\n|military_branch = [[Royal Imperial Navy]]\n|aircraft_type = [[F-09 Carrier Fighter - \"Valkyrie\"|F-9 Valkyrie]]<br/>[[F-12 Superiority Fighter - \"Vampire\"|F-12 Vampire]]\n|role = Air/Space Superiority\n|garrison = [[HMS Atlas|HMS ''Atlas'']]\n|nickname = Scimitar Squadron\n|battles = [[Second Exodus War]]\n}}"
+  },
+  {
+    "title": "Star_Information",
+    "type": "Infobox",
+    "usage_count": 31,
+    "used_in_sample": [
+      "Sol_System",
+      "Alpha_Centauri_System",
+      "Proxima_Procyon_System",
+      "Lyrae_System",
+      "Epsilon_Indi_System",
+      "Titan_System",
+      "Omicron_Carinae_System",
+      "Xi_Herculis_System",
+      "Mu_Crucis_System",
+      "Avior_System"
+    ],
+    "parameters": [
+      "name",
+      "planets",
+      "sector",
+      "stellar_class"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Star_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|valign=\"top\"|[[:Category:Sectors|Sector]]||align=\"right\"|{{{sector}}}\n|-\n|valign=\"top\"|Stellar Class||align=\"right\"|{{{stellar_class}}}\n|-\n|valign=\"top\"|Planets||align=\"right\"|{{{planets}}}\n|-\n|}<noinclude>\n[[Category:Templates]]\n</noinclude>",
+    "example_call": "{{Star Information|\n|name= Sol System\n|sector = [[Sol Sector]]\n|stellar_class = G2V Yellow\n|planets = [[Mercury]]<br/>[[Venus]]<br/>[[Earth]]<br/>[[Mars]]<br/>[[Jupiter]]<br/>[[Saturn]]<br/>[[Uranus]]<br/>[[Neptune]]<br/>[[Pluto]]\n}}"
+  },
+  {
+    "title": "Starship_Class_Information",
+    "type": "Infobox",
+    "usage_count": 68,
+    "used_in_sample": [
+      "Vigilant_Class_Frigate",
+      "Gremlin_Class_Gunship",
+      "Nimitz_Class_Gunship",
+      "Trident_Class_Gunship",
+      "Adelisk_Class_Corvette",
+      "Avenger_Class_Battlecruiser",
+      "Bollaria_Class_Battle_Carrier",
+      "Brehg_Matif_Class_Destroyer",
+      "Cephrod_Class_Frigate",
+      "Delstich_Class_Heavy_Cruiser"
+    ],
+    "parameters": [
+      "acceleration",
+      "aircraft",
+      "armor",
+      "beam",
+      "builder",
+      "caption",
+      "crew",
+      "designation",
+      "ftl_drive",
+      "height",
+      "image",
+      "length",
+      "list_of_ships",
+      "name",
+      "number_of_ships",
+      "operator",
+      "personnel",
+      "powerplant",
+      "processing_system",
+      "propulsion",
+      "sensors",
+      "shields",
+      "special",
+      "support_capacity",
+      "total_volume",
+      "weapons"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Starship_Class_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|colspan=\"2\" align=\"center\"|{{{image}}}<br>{{{caption}}}\n|-\n!bgcolor=\"#1E5188\" colspan=\"2\"|<font color=\"white\">Class Features</font>\n|-\n|valign=\"top\"|Designation||align=\"right\"|{{{designation}}}\n|-\n|valign=\"top\"|Builder(s)||align=\"right\"|{{{builder}}}\n|-\n|valign=\"to",
+    "example_call": "{{Starship Class Information|\n|name =Vigilant Class Frigate\n|image = [[Image:Vigilant Class Frigate Normal View.png|150px]]\n|caption =Vigilant Class Frigate\n|designation =Medium [[:Category:Frigates|Frigate]]\n|builder =[[Haven Shipyards]]\n|operator =[[Royal Imperial Navy]]<br/>[[Prefecture Galactic Navy]]<br/>[[Kalidasa Air and Space Corps]]<br/>[[Sirius Families]]\n|number_of_ships = 670\n|list_of_ships = [[HMS Vigilant|HMS ''Vigilant'' (FG-1)]]<br/>[[Vigilant Class Frigate#Complete List of Ships|View Complete List]]\n|crew =950 Ship Crew\n|length =389\n|beam =85.7\n|height =93.8\n|total_volume =1,394,944.5\n|powerplant =1 x Tolwin F1E 400mW Fission Reactor\n|propulsion =<small>2 x Series-1 Ion Drives (pre-refit)<br/>2 x Gravity Cavitation Drives (post-refit)</small>\n|ftl_drive =1 x Volstamik-Krenschov Jump Drive (Rated for [[Shest Band]])\n|acceleration =55\n|sensors =\n|processing_system =C<sup>3</sup>TAR <small><small><small>Computerized<br/>Control, Communications,<br/>Target Acquisition<br/>and Reconnaissance</small></small></small>\n|aircraft =None\n|personnel =96 Marines <small>(standard troop complement)</small>\n|support_capacity =209,241.7\n|weapons =1 x [[Relativistic Mass Driver| MAC-1 Cannon]]<br/>4 x [[Gauss Cannons| GC-1 Cannons]]<br/>28 x [[Close-In Weapon System| CIWS-1]] Railguns\n|armor =Series-2 Composite Armor Plating\n|shields =PDS-1 Plasma Field\n|special =\n}}"
+  },
+  {
+    "title": "Starship_Information",
+    "type": "Infobox",
+    "usage_count": 29,
+    "used_in_sample": [
+      "FDS_Drake",
+      "FDS_Bastion",
+      "FDS_Delphinus",
+      "FDS_Triumph",
+      "FDS_Victory",
+      "HMS_Judicator",
+      "HMS_Glorious",
+      "HMS_Atlas",
+      "HMS_Vigilant",
+      "HMS_Cougar"
+    ],
+    "parameters": [
+      "caption",
+      "commander",
+      "commissioned",
+      "crew",
+      "image",
+      "laid_down",
+      "launched",
+      "name",
+      "processing_system",
+      "ship_class",
+      "squadrons",
+      "status",
+      "unique"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Starship_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|colspan=\"2\" align=\"center\"|{{{image}}}<br>{{{caption}}}\n|-\n!bgcolor=\"#1E5188\" colspan=\"2\"|<font color=\"white\">Description</font>\n|-\n|valign=\"top\"|Ship Class||align=\"right\"|{{{ship_class}}}\n|-\n|valign=\"top\"|Laid Down||align=\"right\"|{{{laid_down}}}\n|-\n|valign=\"top\"|L",
+    "example_call": "{{Starship Information|\n|name =FDS ''Drake'' (CG-3)\n|image =[[Image:Avenger Class Battlecruiser Standard View.png|200px]]\n|caption =Federated Districts' Ship ''Drake''\n|ship_class =[[Avenger Class Battlecruiser]]\n|laid_down =May 6, [[2322]]\n|launched =November 2, [[2322]]\n|commissioned =November 3, [[2322]]\n|status =Active Duty\n|commander \n|crew =Standard Complement\n|processing_system =Standard\n|squadrons = None\n|unique =\"Francis\" [[AI]]\n}}"
+  },
+  {
+    "title": "Stellar_Navigation_Information",
+    "type": "Infobox",
+    "usage_count": 13,
+    "used_in_sample": [
+      "Sol_Sector",
+      "Sirius_Cluster",
+      "Njiorin_Sector",
+      "Carina_Spur",
+      "Teeth_of_Orion",
+      "Lepodi_Sector",
+      "Masera_Sector",
+      "De_Mairan_Sector",
+      "Pelagrim_Sector",
+      "Tolana_Sector"
+    ],
+    "parameters": [
+      "name",
+      "part_of",
+      "type"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Stellar_Navigation_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|valign=\"top\"|Stellar Navigation Type||align=\"right\"|{{{type}}}\n|-\n|valign=\"top\"|Part Of:||align=\"right\"|{{{part_of}}}\n|-\n|}<noinclude>\n[[Category:Templates]]\n</noinclude>",
+    "example_call": "{{Stellar Navigation Information|\n|name =Sol Sector\n|type =[[:Category:Sectors|Sector]]\n|part_of =the [[Orion Arm]]\n}}"
+  },
+  {
+    "title": "Tempest_War_Navbox",
+    "type": "Navbox",
+    "usage_count": 15,
+    "used_in_sample": [
+      "Tempest_War",
+      "Second_Tirshan_Uprising",
+      "Treaty_of_Tavou",
+      "Magrinoch_Trials",
+      "Cinaed_Accords",
+      "Tempest_Declaration",
+      "Bombing_of_Leskovik",
+      "First_Battle_of_Centus",
+      "Invasion_of_Laojiu_District",
+      "Assault_on_Sindh"
+    ],
+    "parameters": [],
+    "has_styles": true,
+    "raw_template_file": "templates/Tempest_War_Navbox.md",
+    "wikitext_preview": "{| valign=\"bottom\" width=100%|\n|\n{| cellpadding=\"0\" cellspacing=\"0\" style=\"margin: 0 0 ; border:3px solid #1E5188;width:100%; \" align=\"center\" valign=\"bottom\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:1px solid\"|<font color=\"white\">The Tempest War</font>\n|-\n|width=\"10%\" align=\"center\"|''[[2327]]''||\n<small>[[Bombing of Leskovik]] - [[Tempest Declaration]] - [[First Battle of Centus]] - [[First Tirshan Uprising]]</small>\n|-\n|width=\"10%\" align=\"center\" bgcolor=\"E6E8FA\"|''[",
+    "example_call": "{{Tempest War Navbox}}"
+  },
+  {
+    "title": "Template_doc",
+    "type": "Documentation / System",
+    "usage_count": 1,
+    "used_in_sample": [
+      "Template_doc_inline"
+    ],
+    "parameters": [
+      "1"
+    ],
+    "has_styles": false,
+    "raw_template_file": "templates/Template_doc.md",
+    "wikitext_preview": "<noinclude>{{pp-template|small=yes}}</noinclude>{{template doc inline|1={{ {{#ifexist:{{SUBJECTSPACEE}}:{{{1|{{PAGENAME}}/doc}}}|{{SUBJECTSPACEE}}:{{{1|{{PAGENAME}}/doc}}}|ns:0}} }}|2={{SUBJECTSPACEE}}:{{{1|{{PAGENAMEE}}/doc}}}}}",
+    "example_call": "{{template doc}}"
+  },
+  {
+    "title": "Template_doc_inline",
+    "type": "Documentation / System",
+    "usage_count": 2,
+    "used_in_sample": [
+      "Template_doc",
+      "Template_doc_inline"
+    ],
+    "parameters": [
+      "1",
+      "2"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Template_doc_inline.md",
+    "wikitext_preview": "<noinclude>{{pp-template|small=yes}}</noinclude><includeonly><div class=\"template-documentation\" style=\"background-color:#ecfcf4; border:1px solid #aaa; padding:5px;\">\n<div style=\"font-size: 1.5em; border-bottom: 1px solid #aaa;\">{{#if:{{{2|}}}|<span class=\"editsection\" style=\"font-size: small\">[<span class=\"plainlinks\">[{{fullurl:{{{2}}}}} view]</span>] [<span class=\"plainlinks\">[{{fullurl:{{{2}}}|action=edit&preload={{urlencode:Template:Template doc/Preload}}}} edit]</span>]</span>}}[[Image:Te",
+    "example_call": null
+  },
+  {
+    "title": "Treaty_Information",
+    "type": "Infobox",
+    "usage_count": 6,
+    "used_in_sample": [
+      "Treaty_of_Memphis",
+      "Annexation_of_Bethija",
+      "Treaty_of_Volyn",
+      "Treaty_of_Tavou",
+      "Treaty_of_Cinaed",
+      "Tirshan_Charter"
+    ],
+    "parameters": [
+      "date",
+      "place",
+      "result",
+      "signatory1",
+      "signatory2",
+      "treaty"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Treaty_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:1px solid\"|<font color=\"white\">{{{treaty}}}</font>\n|-\n|valign=\"top\"|Date||align=\"left\"|{{{date}}}\n|-\n|valign=\"top\"|Place||align=\"left\"|{{{place}}}\n|-\n|valign=\"top\"|Result||align=\"left\"|{{{result}}}\n|-\n!bgcolor=\"#1E5188\" colspan=\"2\"|<font color=\"white\">Signatories</font>\n|-\n|align=\"left\" valign=\"top\" width=\"50%\"|{{{si",
+    "example_call": "{{Treaty Information|\n|treaty=Bethijan Articles of Annexation\n|date=October 5, [[2315]]\n|place=[[Volyn]], [[Bethija]], [[Proxima Procyon System]]\n|result=Annexation of Bethija into the [[Onyx Empire]]\n|signatory1=[[Onyx Empire]]\n|signatory2=Premier of Bethija\n}}"
+  },
+  {
+    "title": "UCS_Fleet",
+    "type": "Navbox",
+    "usage_count": 7,
+    "used_in_sample": [
+      "United_Centusi_States_First_Fleet",
+      "United_Centusi_States_Second_Fleet",
+      "United_Centusi_States_Third_Fleet",
+      "United_Centusi_States_Fourth_Fleet",
+      "United_Centusi_States_Support_Fleet",
+      "United_Centusi_States_Warfleet",
+      "Arbiter_of_the_Mesarthrim"
+    ],
+    "parameters": [
+      "Caption",
+      "Citation",
+      "Commandant",
+      "Cross",
+      "Designation",
+      "First",
+      "Fleets",
+      "Head",
+      "Image",
+      "Medal",
+      "Motto",
+      "Name",
+      "Tempest"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/UCS_Fleet.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{Name}}}</font>\n|-\n|colspan=\"2\" align=\"center\"|{{{Image}}}<br>{{{Caption}}}\n|-\n!bgcolor=\"#1E5188\" colspan=\"2\"|<font color=\"white\">Command Staff</font>\n|-\n|valign=\"top\"|Designation||align=\"right\"|{{{Designation}}}\n|-\n|valign=\"top\"|Motto||align=\"right\"|''{{{Motto}}}''\n|-\n|valign=\"top\"|G",
+    "example_call": "{{UCS Fleet|\n|Name = Erste Flotte\n|Image = [[Image:UCS-First-Fleet.png]]\n|Caption = Badge of the First Centusi Fleet\n|Designation = Highguard Fleet\n|Motto = Our Time, Our War.\n|Head = [[Anthony Koch]]\n|First = forthcoming\n|Commandant = forthcoming\n|Tempest = forthcoming\n|Cross = forthcoming\n|Citation = forthcoming\n|Medal = forthcoming\n|Fleets = '''First Fleet''' - [[United Centusi States Second Fleet|Second Fleet]] - [[United Centusi States Third Fleet|Third Fleet]] - [[United Centusi States Fourth Fleet|Fourth Fleet]]<br/>\n[[United Centusi States Support Fleet|Support Fleet]] - [[United Centusi States Warfleet|Warfleet]]\n}}"
+  },
+  {
+    "title": "United_Earth_Alliance",
+    "type": "Navbox",
+    "usage_count": 1,
+    "used_in_sample": [
+      "First_Invasion_of_Theta_Algedi"
+    ],
+    "parameters": [],
+    "has_styles": false,
+    "raw_template_file": "templates/United_Earth_Alliance.md",
+    "wikitext_preview": "[[Image:UnitedEarthAllianceFlag.png|20px]] [[United Earth Alliance]]\n\n<noinclude>\n\nThis is for easy use in war and battle infoboxes.\n\n[[Category:Templates]]\n</noinclude>",
+    "example_call": "{{United Earth Alliance}}"
+  },
+  {
+    "title": "Vehicle_Information",
+    "type": "Infobox",
+    "usage_count": 7,
+    "used_in_sample": [
+      "Vulture_Siege_Tank",
+      "Zieldar_Light_Hovertank",
+      "T-88_Armored_Combat_Vehicle_-_\"Archer\"",
+      "Brehvok_Main_Battle_Tank",
+      "M-41_Main_Battle_Tank_Chassis_-_\"Dragon\"",
+      "Karak_Light_Hovertank",
+      "Krelbine_Infantry_Robot"
+    ],
+    "parameters": [
+      "armor",
+      "caption",
+      "countermeasures",
+      "crew",
+      "fixed_weapons",
+      "image",
+      "manufacturer",
+      "max_speed",
+      "mission_profile",
+      "name",
+      "operator",
+      "powerplant",
+      "propulsion",
+      "shields"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Vehicle_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|colspan=\"2\" align=\"center\"|{{{image}}}<br>{{{caption}}}\n|-\n!bgcolor=\"#1E5188\" colspan=\"2\"|<font color=\"white\">Description</font>\n|-\n|valign=\"top\"|Mission Profile||align=\"right\"|{{{mission_profile}}}\n|-\n|valign=\"top\"|Crew||align=\"right\"|{{{crew}}}\n|-\n|valign=\"top\"|M",
+    "example_call": "{{Vehicle Information|\n|name=Vulture Siege Tank\n|image=[[Image:VultureSiegeTank1.jpg|200px]]\n|caption=The mighty Vulture\n|mission_profile=\n|crew=3 to 4, depending on mission\n|manufacturer=\n|operator=\n|powerplant=1 x Cybeck SV-28a Reactor\n|propulsion=\n|max_speed=210KPH (on-road)<br/>175KPH (off-road)\n|fixed_weapons=2 x Type-5a Railguns (5,000 rounds)<br/>6 x Type-B1 Blazers\n|armor=Leifstein Composite Armor\n|shields=Automated Adaptive Shielding\n|countermeasures=\n}}"
+  },
+  {
+    "title": "Volucris_Incursion_Navbox",
+    "type": "Navbox",
+    "usage_count": 6,
+    "used_in_sample": [
+      "Volucris_Incursion",
+      "Volucris_First_Contact",
+      "Volucris_Raid_on_Mirach",
+      "Volucris_Raid_on_Ueda",
+      "Volucris_Invasion_of_Tavou",
+      "Volucris_Invasion_of_Kronheim"
+    ],
+    "parameters": [],
+    "has_styles": true,
+    "raw_template_file": "templates/Volucris_Incursion_Navbox.md",
+    "wikitext_preview": "{| cellpadding=\"0\" cellspacing=\"0\" style=\"margin: 0 0 ; border:3px solid #1E5188;\" valign=\"bottom\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:1px solid\"|<font color=\"white\">The Volucris Incursion</font>\n|-\n|width=\"10%\" align=\"center\"|''[[2324]]''||\n<small>[[Volucris First Contact]] - [[Volucris Raid on Mirach]] - [[Volucris Invasion of Tavou]] - [[Volucris Raid on Ueda]]</small>\n|-\n|width=\"10%\" align=\"center\" bgcolor=\"E0FFFF\"|''[[2325]]''||bgcolor=\"E0FFFF\"|\n<small>[[Voluc",
+    "example_call": null
+  },
+  {
+    "title": "Volucris_War_Navbox",
+    "type": "Navbox",
+    "usage_count": 1,
+    "used_in_sample": [
+      "Volucris_War"
+    ],
+    "parameters": [],
+    "has_styles": true,
+    "raw_template_file": "templates/Volucris_War_Navbox.md",
+    "wikitext_preview": "{| cellpadding=\"0\" cellspacing=\"0\" style=\"margin: 0 0 ; border:3px solid #1E5188;\" valign=\"bottom\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:1px solid\"|<font color=\"white\">The Volucris War</font>\n|-\n|width=\"10%\" align=\"center\"|''[[2333]]''||\n<small>[[The Black Sky Over Lorithan]] - [[Volucris Land on Lorithan]] - [[Fall of the Perati Dome]] - [[Fall of the Jamestown Dome]] - [[First Battle of the Dzarning Mountain Range]]</small>\n|-\n|width=\"10%\" align=\"center\" bgcolor=\"E",
+    "example_call": null
+  },
+  {
+    "title": "War_Information",
+    "type": "Infobox",
+    "usage_count": 2,
+    "used_in_sample": [
+      "Second_Exodus_War",
+      "First_Exodus_War"
+    ],
+    "parameters": [
+      "combatant1",
+      "combatant2",
+      "conflict",
+      "date",
+      "place",
+      "result"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/War_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:1px solid\"|<font color=\"white\">{{{conflict}}}</font>\n|-\n|valign=\"top\"|Date||align=\"left\"|{{{date}}}\n|-\n|valign=\"top\"|Place||align=\"left\"|{{{place}}}\n|-\n|valign=\"top\"|Result||align=\"left\"|{{{result}}}\n|-\n!bgcolor=\"#1E5188\" colspan=\"2\"|<font color=\"white\">Belligerents</font>\n|-\n|align=\"left\" valign=\"top\" width=\"50%\"|{{",
+    "example_call": "{{War Information|\n|conflict=The First Exodus War\n|date=[[2063]], [[2078]] - [[2080]]\n|place=The [[Sol Sector]]\n|result=[[United Earth Alliance]] siezes control of the [[Sol Sector]].<br/>Seperatist factions dissolved.<br/>[[Torimur]] bombed.<br/>[[Treaty of Volyn]] signed.\n|combatant1=[[Bethija]]<br/>[[Torimur]]<br/>[[Sirius Cluster]]\n|combatant2=[[Image:UnitedEarthAllianceFlag.png|20px]] [[United Earth Alliance]]\n}}"
+  },
+  {
+    "title": "Weapon_Information",
+    "type": "Infobox",
+    "usage_count": 2,
+    "used_in_sample": [
+      "M-33_Heavy_Anti-Armor_Weapon",
+      "ASIM-05_Medium_Range_Guided_Missile_-_\"Hound\""
+    ],
+    "parameters": [
+      "name",
+      "operator",
+      "origin",
+      "range",
+      "type"
+    ],
+    "has_styles": true,
+    "raw_template_file": "templates/Weapon_Information.md",
+    "wikitext_preview": "{| cellpadding=\"2\" cellspacing=\"0\" style=\"margin: 0 0 1em 1em; border:3px solid #1E5188;width:40%; \" align=\"right\"\n!bgcolor=\"#1E5188\" colspan=\"3\" align=\"center\" style=\"border-bottom:3px solid\"|<font color=\"white\">{{{name}}}</font>\n|-\n|valign=\"top\"|Type||align=\"right\"|{{{type}}}\n|-\n|valign=\"top\"|Place of Origin||align=\"right\"|{{{origin}}}\n|-\n|valign=\"top\"|Effective Range||align=\"right\"|{{{range}}}\n|-\n|valign=\"top\"|Operator(s)||align=\"right\"|{{{operator}}}\n|-\n|}<noinclude>\n[[Category:Templates]]\n<",
+    "example_call": "{{Weapon Information|\n|name =M-33 Heavy Anti-Armor Weapon\n|type =Direct-Fire Kinetic-Driven Anti-Armor Explosive\n|origin =[[Onyx Empire]]\n|range =25 kilometers\n|operator =[[Onyx Empire]]<br/>[[Federated Districts of the Prefecture]]\n}}"
+  }
+]

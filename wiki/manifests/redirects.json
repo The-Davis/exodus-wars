@@ -1,0 +1,2263 @@
+[
+  {
+    "from_page_id": 29,
+    "from_namespace": 0,
+    "from_title": "AI",
+    "from_file": "articles/AI.md",
+    "to_target": "Artificial_Intelligence"
+  },
+  {
+    "from_page_id": 61,
+    "from_namespace": 0,
+    "from_title": "People",
+    "from_file": "articles/People.md",
+    "to_target": "Category:People"
+  },
+  {
+    "from_page_id": 64,
+    "from_namespace": 0,
+    "from_title": "Places",
+    "from_file": "articles/Places.md",
+    "to_target": "Category:Places"
+  },
+  {
+    "from_page_id": 174,
+    "from_namespace": 0,
+    "from_title": "Amelia_Black",
+    "from_file": "articles/Amelia_Black.md",
+    "to_target": "Luna_Black"
+  },
+  {
+    "from_page_id": 189,
+    "from_namespace": 0,
+    "from_title": "Ologrian",
+    "from_file": "articles/Ologrian.md",
+    "to_target": "Ngrligru"
+  },
+  {
+    "from_page_id": 190,
+    "from_namespace": 0,
+    "from_title": "Sol",
+    "from_file": "articles/Sol.md",
+    "to_target": "Sol_System"
+  },
+  {
+    "from_page_id": 191,
+    "from_namespace": 0,
+    "from_title": "Solar_System",
+    "from_file": "articles/Solar_System.md",
+    "to_target": "Sol_System"
+  },
+  {
+    "from_page_id": 192,
+    "from_namespace": 0,
+    "from_title": "Alpha_Centauri",
+    "from_file": "articles/Alpha_Centauri.md",
+    "to_target": "Alpha_Centauri_System"
+  },
+  {
+    "from_page_id": 193,
+    "from_namespace": 0,
+    "from_title": "Prefecture",
+    "from_file": "articles/Prefecture.md",
+    "to_target": "Federated_Districts_of_the_Prefecture"
+  },
+  {
+    "from_page_id": 215,
+    "from_namespace": 0,
+    "from_title": "Titan",
+    "from_file": "articles/Titan.md",
+    "to_target": "Titan_System"
+  },
+  {
+    "from_page_id": 255,
+    "from_namespace": 0,
+    "from_title": "Dva_Band",
+    "from_file": "articles/Dva_Band.md",
+    "to_target": "Hyperspace"
+  },
+  {
+    "from_page_id": 256,
+    "from_namespace": 0,
+    "from_title": "Pyat_Band",
+    "from_file": "articles/Pyat_Band.md",
+    "to_target": "Hyperspace"
+  },
+  {
+    "from_page_id": 257,
+    "from_namespace": 0,
+    "from_title": "Adin_Band",
+    "from_file": "articles/Adin_Band.md",
+    "to_target": "Hyperspace"
+  },
+  {
+    "from_page_id": 259,
+    "from_namespace": 0,
+    "from_title": "Archadian",
+    "from_file": "articles/Archadian.md",
+    "to_target": "Ixoarchada"
+  },
+  {
+    "from_page_id": 261,
+    "from_namespace": 0,
+    "from_title": "Terran",
+    "from_file": "articles/Terran.md",
+    "to_target": "Terrans"
+  },
+  {
+    "from_page_id": 264,
+    "from_namespace": 0,
+    "from_title": "Shest_Band",
+    "from_file": "articles/Shest_Band.md",
+    "to_target": "Hyperspace"
+  },
+  {
+    "from_page_id": 271,
+    "from_namespace": 0,
+    "from_title": "Sem_Band",
+    "from_file": "articles/Sem_Band.md",
+    "to_target": "Hyperspace"
+  },
+  {
+    "from_page_id": 272,
+    "from_namespace": 0,
+    "from_title": "Wormhole",
+    "from_file": "articles/Wormhole.md",
+    "to_target": "Wormholes"
+  },
+  {
+    "from_page_id": 273,
+    "from_namespace": 0,
+    "from_title": "Science",
+    "from_file": "articles/Science.md",
+    "to_target": "Scientific_Principles"
+  },
+  {
+    "from_page_id": 274,
+    "from_namespace": 0,
+    "from_title": "Technology",
+    "from_file": "articles/Technology.md",
+    "to_target": "Technological_Catalogs"
+  },
+  {
+    "from_page_id": 313,
+    "from_namespace": 0,
+    "from_title": "Benjamin_Parman",
+    "from_file": "articles/Benjamin_Parman.md",
+    "to_target": "Ben_Parman"
+  },
+  {
+    "from_page_id": 432,
+    "from_namespace": 0,
+    "from_title": "Hyperspace_limit",
+    "from_file": "articles/Hyperspace_limit_432.md",
+    "to_target": "Hyperspace_Limit"
+  },
+  {
+    "from_page_id": 433,
+    "from_namespace": 0,
+    "from_title": "History",
+    "from_file": "articles/History.md",
+    "to_target": "Category:History"
+  },
+  {
+    "from_page_id": 434,
+    "from_namespace": 0,
+    "from_title": "Orion_(spacecraft)",
+    "from_file": "articles/Orion_(spacecraft).md",
+    "to_target": "Orion_Spacecraft"
+  },
+  {
+    "from_page_id": 436,
+    "from_namespace": 0,
+    "from_title": "Krenschov_Effect",
+    "from_file": "articles/Krenschov_Effect.md",
+    "to_target": "Hyperspace"
+  },
+  {
+    "from_page_id": 506,
+    "from_namespace": 0,
+    "from_title": "Soviet_Union",
+    "from_file": "articles/Soviet_Union.md",
+    "to_target": "Soviet_Union_(Terra)"
+  },
+  {
+    "from_page_id": 552,
+    "from_namespace": 0,
+    "from_title": "Communist",
+    "from_file": "articles/Communist.md",
+    "to_target": "Communism"
+  },
+  {
+    "from_page_id": 567,
+    "from_namespace": 0,
+    "from_title": "Netherlands",
+    "from_file": "articles/Netherlands.md",
+    "to_target": "Netherlands_(Terra)"
+  },
+  {
+    "from_page_id": 569,
+    "from_namespace": 0,
+    "from_title": "Communists",
+    "from_file": "articles/Communists.md",
+    "to_target": "Communism"
+  },
+  {
+    "from_page_id": 581,
+    "from_namespace": 0,
+    "from_title": "People's_Republic_of_China",
+    "from_file": "articles/People's_Republic_of_China.md",
+    "to_target": "People's_Republic_of_China_(Terra)"
+  },
+  {
+    "from_page_id": 617,
+    "from_namespace": 0,
+    "from_title": "Wormhole_Gate",
+    "from_file": "articles/Wormhole_Gate.md",
+    "to_target": "Wormholes"
+  },
+  {
+    "from_page_id": 624,
+    "from_namespace": 0,
+    "from_title": "CIA",
+    "from_file": "articles/CIA.md",
+    "to_target": "United_Earth_Alliance_Central_Intelligence_Agency"
+  },
+  {
+    "from_page_id": 629,
+    "from_namespace": 0,
+    "from_title": "Isreal_(Terra)",
+    "from_file": "articles/Isreal_(Terra).md",
+    "to_target": "Israel_(Terra)"
+  },
+  {
+    "from_page_id": 666,
+    "from_namespace": 0,
+    "from_title": "White_eyes",
+    "from_file": "articles/White_eyes_666.md",
+    "to_target": "White_Eyes"
+  },
+  {
+    "from_page_id": 698,
+    "from_namespace": 0,
+    "from_title": "Iterin_Corahl_Deseraht",
+    "from_file": "articles/Iterin_Corahl_Deseraht.md",
+    "to_target": "Intelligence_of_Rikaz_o_Fii_Huern_iv_Lorithan"
+  },
+  {
+    "from_page_id": 704,
+    "from_namespace": 0,
+    "from_title": "Twilight_Empress",
+    "from_file": "articles/Twilight_Empress.md",
+    "to_target": "Talire_Huern"
+  },
+  {
+    "from_page_id": 709,
+    "from_namespace": 0,
+    "from_title": "Communist_Party",
+    "from_file": "articles/Communist_Party.md",
+    "to_target": "Communism"
+  },
+  {
+    "from_page_id": 717,
+    "from_namespace": 0,
+    "from_title": "Icronian_Consortium",
+    "from_file": "articles/Icronian_Consortium.md",
+    "to_target": "Ikronin_Jurekön"
+  },
+  {
+    "from_page_id": 836,
+    "from_namespace": 0,
+    "from_title": "Blaster",
+    "from_file": "articles/Blaster.md",
+    "to_target": "Bukrah_Energy_Weapon"
+  },
+  {
+    "from_page_id": 837,
+    "from_namespace": 0,
+    "from_title": "Autocannons",
+    "from_file": "articles/Autocannons.md",
+    "to_target": "Terran_Autocannon"
+  },
+  {
+    "from_page_id": 846,
+    "from_namespace": 0,
+    "from_title": "Geckans",
+    "from_file": "articles/Geckans.md",
+    "to_target": "Gorhamut"
+  },
+  {
+    "from_page_id": 847,
+    "from_namespace": 0,
+    "from_title": "Entropy_Drives",
+    "from_file": "articles/Entropy_Drives.md",
+    "to_target": "Entropy_Drive"
+  },
+  {
+    "from_page_id": 859,
+    "from_namespace": 0,
+    "from_title": "Meroniri_Yatisu",
+    "from_file": "articles/Meroniri_Yatisu.md",
+    "to_target": "Military_of_the_Meroniri_Terinasi"
+  },
+  {
+    "from_page_id": 862,
+    "from_namespace": 0,
+    "from_title": "Ranks_in_the_Marine_Corps",
+    "from_file": "articles/Ranks_in_the_Marine_Corps.md",
+    "to_target": "Ranks_in_the_Prefecture_Marine_Corps"
+  },
+  {
+    "from_page_id": 863,
+    "from_namespace": 0,
+    "from_title": "Ranks_in_the_Air_Force",
+    "from_file": "articles/Ranks_in_the_Air_Force.md",
+    "to_target": "Ranks_in_the_Prefecture_Air_Force"
+  },
+  {
+    "from_page_id": 864,
+    "from_namespace": 0,
+    "from_title": "Ranks_in_the_Legion_Corps",
+    "from_file": "articles/Ranks_in_the_Legion_Corps.md",
+    "to_target": "Ranks_in_the_Prefecture_Legion_Corps"
+  },
+  {
+    "from_page_id": 865,
+    "from_namespace": 0,
+    "from_title": "Ranks_in_the_Galactic_Navy",
+    "from_file": "articles/Ranks_in_the_Galactic_Navy.md",
+    "to_target": "Ranks_in_the_Prefecture_Galactic_Navy"
+  },
+  {
+    "from_page_id": 908,
+    "from_namespace": 0,
+    "from_title": "Bukrah",
+    "from_file": "articles/Bukrah.md",
+    "to_target": "Bukrah_Energy_Weapon"
+  },
+  {
+    "from_page_id": 909,
+    "from_namespace": 0,
+    "from_title": "Coilgun",
+    "from_file": "articles/Coilgun.md",
+    "to_target": "Meroniri_Coilgun"
+  },
+  {
+    "from_page_id": 910,
+    "from_namespace": 0,
+    "from_title": "Relativistic_Mass_Drivers",
+    "from_file": "articles/Relativistic_Mass_Drivers.md",
+    "to_target": "Terran_Mass_Drivers"
+  },
+  {
+    "from_page_id": 911,
+    "from_namespace": 0,
+    "from_title": "Autocannon",
+    "from_file": "articles/Autocannon.md",
+    "to_target": "Terran_Autocannon"
+  },
+  {
+    "from_page_id": 916,
+    "from_namespace": 0,
+    "from_title": "Gauss_Cannons",
+    "from_file": "articles/Gauss_Cannons.md",
+    "to_target": "Terran_Gauss_Cannon"
+  },
+  {
+    "from_page_id": 950,
+    "from_namespace": 0,
+    "from_title": "Prefecture_Navy",
+    "from_file": "articles/Prefecture_Navy.md",
+    "to_target": "Prefecture_Galactic_Navy"
+  },
+  {
+    "from_page_id": 1026,
+    "from_namespace": 0,
+    "from_title": "UH-6A_Wyandot",
+    "from_file": "articles/UH-6A_Wyandot.md",
+    "to_target": "CH-6A_Wyandot"
+  },
+  {
+    "from_page_id": 1052,
+    "from_namespace": 0,
+    "from_title": "Tesseract_Drive",
+    "from_file": "articles/Tesseract_Drive.md",
+    "to_target": "Tesseract"
+  },
+  {
+    "from_page_id": 1099,
+    "from_namespace": 0,
+    "from_title": "M-30_80mm_Mortar",
+    "from_file": "articles/M-30_80mm_Mortar.md",
+    "to_target": "M-19_Exoskeletal-Portable_Mortar_(81mm)"
+  },
+  {
+    "from_page_id": 1163,
+    "from_namespace": 0,
+    "from_title": "Prefecture_Army",
+    "from_file": "articles/Prefecture_Army.md",
+    "to_target": "Prefecture_Legion_Corps"
+  },
+  {
+    "from_page_id": 1180,
+    "from_namespace": 0,
+    "from_title": "Mestharim_Mark",
+    "from_file": "articles/Mestharim_Mark.md",
+    "to_target": "Mesarthrim_Mark"
+  },
+  {
+    "from_page_id": 1186,
+    "from_namespace": 0,
+    "from_title": "Clan_Lords",
+    "from_file": "articles/Clan_Lords.md",
+    "to_target": "Clan_Lord"
+  },
+  {
+    "from_page_id": 1190,
+    "from_namespace": 0,
+    "from_title": "Ollivians_Crossing",
+    "from_file": "articles/Ollivians_Crossing.md",
+    "to_target": "Ollivian's_Crossing"
+  },
+  {
+    "from_page_id": 1197,
+    "from_namespace": 0,
+    "from_title": "Empire",
+    "from_file": "articles/Empire.md",
+    "to_target": "Onyx_Empire"
+  },
+  {
+    "from_page_id": 1203,
+    "from_namespace": 0,
+    "from_title": "Imperial_Credits",
+    "from_file": "articles/Imperial_Credits.md",
+    "to_target": "Imperial_Credit"
+  },
+  {
+    "from_page_id": 1205,
+    "from_namespace": 0,
+    "from_title": "Jerome_Black_(BG-1)",
+    "from_file": "articles/Jerome_Black_(BG-1).md",
+    "to_target": "BG-1_Jerome_Black"
+  },
+  {
+    "from_page_id": 1209,
+    "from_namespace": 14,
+    "from_title": "Starship",
+    "from_file": "categories/Starship.md",
+    "to_target": "Category:Starships"
+  },
+  {
+    "from_page_id": 1215,
+    "from_namespace": 0,
+    "from_title": "Jupiter_Motors",
+    "from_file": "articles/Jupiter_Motors.md",
+    "to_target": "Jupiter_Motor_Company"
+  },
+  {
+    "from_page_id": 1216,
+    "from_namespace": 0,
+    "from_title": "Civil_Motors",
+    "from_file": "articles/Civil_Motors.md",
+    "to_target": "Civil_Motor_Company"
+  },
+  {
+    "from_page_id": 1217,
+    "from_namespace": 0,
+    "from_title": "Peculiums",
+    "from_file": "articles/Peculiums.md",
+    "to_target": "Peculium"
+  },
+  {
+    "from_page_id": 1222,
+    "from_namespace": 0,
+    "from_title": "Dawn_Emperor",
+    "from_file": "articles/Dawn_Emperor.md",
+    "to_target": "Mircan_Prekohr"
+  },
+  {
+    "from_page_id": 1225,
+    "from_namespace": 0,
+    "from_title": "Tavou_Imports",
+    "from_file": "articles/Tavou_Imports.md",
+    "to_target": "Tavou_Imports_Trading_Group"
+  },
+  {
+    "from_page_id": 1251,
+    "from_namespace": 0,
+    "from_title": "Rox_Augustin",
+    "from_file": "articles/Rox_Augustin.md",
+    "to_target": "Rosh_Arufin"
+  },
+  {
+    "from_page_id": 1254,
+    "from_namespace": 0,
+    "from_title": "Josiah_Hlow",
+    "from_file": "articles/Josiah_Hlow.md",
+    "to_target": "Josiah_MacArthur_Hlow"
+  },
+  {
+    "from_page_id": 1277,
+    "from_namespace": 0,
+    "from_title": "Blazton_Industries",
+    "from_file": "articles/Blazton_Industries.md",
+    "to_target": "Blasius_állam-Nehézipar"
+  },
+  {
+    "from_page_id": 1282,
+    "from_namespace": 0,
+    "from_title": "Wormhole_Gates",
+    "from_file": "articles/Wormhole_Gates.md",
+    "to_target": "Wormholes"
+  },
+  {
+    "from_page_id": 1299,
+    "from_namespace": 0,
+    "from_title": "Remnant_of_the_Anthronoris",
+    "from_file": "articles/Remnant_of_the_Anthronoris.md",
+    "to_target": "The_Remnant"
+  },
+  {
+    "from_page_id": 1300,
+    "from_namespace": 0,
+    "from_title": "Remnant",
+    "from_file": "articles/Remnant.md",
+    "to_target": "The_Remnant"
+  },
+  {
+    "from_page_id": 1372,
+    "from_namespace": 0,
+    "from_title": "Eituk",
+    "from_file": "articles/Eituk.md",
+    "to_target": "K-6_Eituk"
+  },
+  {
+    "from_page_id": 1373,
+    "from_namespace": 0,
+    "from_title": "Vadrie",
+    "from_file": "articles/Vadrie.md",
+    "to_target": "O-24_Vadrie"
+  },
+  {
+    "from_page_id": 1401,
+    "from_namespace": 0,
+    "from_title": "Apöt",
+    "from_file": "articles/Apöt.md",
+    "to_target": "Apöt_Virus"
+  },
+  {
+    "from_page_id": 1417,
+    "from_namespace": 0,
+    "from_title": "Alliance_of_Planets_Defense_Force",
+    "from_file": "articles/Alliance_of_Planets_Defense_Force.md",
+    "to_target": "Military_of_the_United_Earth_Alliance"
+  },
+  {
+    "from_page_id": 1420,
+    "from_namespace": 0,
+    "from_title": "UEA",
+    "from_file": "articles/UEA.md",
+    "to_target": "United_Earth_Alliance"
+  },
+  {
+    "from_page_id": 1438,
+    "from_namespace": 0,
+    "from_title": "Imperial_Civil_War",
+    "from_file": "articles/Imperial_Civil_War.md",
+    "to_target": "Torimur_Civil_War"
+  },
+  {
+    "from_page_id": 1473,
+    "from_namespace": 0,
+    "from_title": "Rikaz_Lorithos",
+    "from_file": "articles/Rikaz_Lorithos.md",
+    "to_target": "Rikaz_o_Fii_Huern_iv_Lorithan"
+  },
+  {
+    "from_page_id": 1483,
+    "from_namespace": 0,
+    "from_title": "Dollars",
+    "from_file": "articles/Dollars.md",
+    "to_target": "Dollar"
+  },
+  {
+    "from_page_id": 1502,
+    "from_namespace": 0,
+    "from_title": "Christopher_Dayton",
+    "from_file": "articles/Christopher_Dayton.md",
+    "to_target": "Chris_Dayton"
+  },
+  {
+    "from_page_id": 1510,
+    "from_namespace": 0,
+    "from_title": "Constitution_of_the_Federated_Districts_of_the_Prefecture",
+    "from_file": "articles/Constitution_of_the_Federated_Districts_of_the_Prefecture.md",
+    "to_target": "Federated_Districts_of_the_Prefecture_Constitution"
+  },
+  {
+    "from_page_id": 1569,
+    "from_namespace": 0,
+    "from_title": "Ipsof",
+    "from_file": "articles/Ipsof.md",
+    "to_target": "Ipsoff"
+  },
+  {
+    "from_page_id": 1571,
+    "from_namespace": 0,
+    "from_title": "GDP",
+    "from_file": "articles/GDP.md",
+    "to_target": "Gross_Domestic_Product"
+  },
+  {
+    "from_page_id": 1575,
+    "from_namespace": 0,
+    "from_title": "KPA",
+    "from_file": "articles/KPA.md",
+    "to_target": "Kalidasa_Planetary_Authority"
+  },
+  {
+    "from_page_id": 1579,
+    "from_namespace": 0,
+    "from_title": "Lorithos_Bukrah_Energy_Weapon",
+    "from_file": "articles/Lorithos_Bukrah_Energy_Weapon.md",
+    "to_target": "Bukrah_Energy_Weapon"
+  },
+  {
+    "from_page_id": 1580,
+    "from_namespace": 0,
+    "from_title": "Ologrian_Mkuki'kali_Energy_Lance",
+    "from_file": "articles/Ologrian_Mkuki'kali_Energy_Lance.md",
+    "to_target": "Mkuki'kali_Energy_Lance"
+  },
+  {
+    "from_page_id": 1582,
+    "from_namespace": 0,
+    "from_title": "Rigs",
+    "from_file": "articles/Rigs.md",
+    "to_target": "Category:Rigs"
+  },
+  {
+    "from_page_id": 1584,
+    "from_namespace": 0,
+    "from_title": "M-2A_Armadillo",
+    "from_file": "articles/M-2A_Armadillo.md",
+    "to_target": "M-38_Armored_Personnel_Carrier_-_\"Armadillo\""
+  },
+  {
+    "from_page_id": 1585,
+    "from_namespace": 0,
+    "from_title": "XM-1_(Imperial_Experimental_Chassis)",
+    "from_file": "articles/XM-1_(Imperial_Experimental_Chassis).md",
+    "to_target": "XV-1_(Imperial_Experimental_Chassis)"
+  },
+  {
+    "from_page_id": 1624,
+    "from_namespace": 0,
+    "from_title": "Icronian_Repulsor_Shield_Field_Generator",
+    "from_file": "articles/Icronian_Repulsor_Shield_Field_Generator.md",
+    "to_target": "Repulsor_Shield_Field_Generator"
+  },
+  {
+    "from_page_id": 1626,
+    "from_namespace": 0,
+    "from_title": "Icronian_Repulsor_Cannon",
+    "from_file": "articles/Icronian_Repulsor_Cannon.md",
+    "to_target": "Repulsor_Cannon"
+  },
+  {
+    "from_page_id": 1627,
+    "from_namespace": 0,
+    "from_title": "New_Albany",
+    "from_file": "articles/New_Albany.md",
+    "to_target": "Albanus"
+  },
+  {
+    "from_page_id": 1628,
+    "from_namespace": 0,
+    "from_title": "Icronian_Conventional_Missile_Warheads",
+    "from_file": "articles/Icronian_Conventional_Missile_Warheads.md",
+    "to_target": "Conventional_Missile_Warheads_-_Ikronin"
+  },
+  {
+    "from_page_id": 1635,
+    "from_namespace": 0,
+    "from_title": "Volucris_Swarms",
+    "from_file": "articles/Volucris_Swarms.md",
+    "to_target": "Volucris_Swarm"
+  },
+  {
+    "from_page_id": 1640,
+    "from_namespace": 0,
+    "from_title": "United_Earth_Alliance_Defense_Force",
+    "from_file": "articles/United_Earth_Alliance_Defense_Force.md",
+    "to_target": "Military_of_the_United_Earth_Alliance"
+  },
+  {
+    "from_page_id": 1681,
+    "from_namespace": 0,
+    "from_title": "UCS",
+    "from_file": "articles/UCS.md",
+    "to_target": "United_Centusi_States"
+  },
+  {
+    "from_page_id": 1684,
+    "from_namespace": 0,
+    "from_title": "UMC",
+    "from_file": "articles/UMC.md",
+    "to_target": "United_Mesarthrim_Clans"
+  },
+  {
+    "from_page_id": 1708,
+    "from_namespace": 0,
+    "from_title": "Prefecture_Military_Field_Combat_Uniform",
+    "from_file": "articles/Prefecture_Military_Field_Combat_Uniform.md",
+    "to_target": "M-01_Field_Combat_Uniform"
+  },
+  {
+    "from_page_id": 1716,
+    "from_namespace": 0,
+    "from_title": "Marcolitiae_Ramius",
+    "from_file": "articles/Marcolitiae_Ramius.md",
+    "to_target": "Mircas_Rasune"
+  },
+  {
+    "from_page_id": 1729,
+    "from_namespace": 0,
+    "from_title": "Blackis_Civil_War",
+    "from_file": "articles/Blackis_Civil_War.md",
+    "to_target": "Imperial_Civil_War"
+  },
+  {
+    "from_page_id": 1731,
+    "from_namespace": 0,
+    "from_title": "Archadians",
+    "from_file": "articles/Archadians.md",
+    "to_target": "Ixoarchada"
+  },
+  {
+    "from_page_id": 1734,
+    "from_namespace": 0,
+    "from_title": "The_Empire",
+    "from_file": "articles/The_Empire.md",
+    "to_target": "Onyx_Empire"
+  },
+  {
+    "from_page_id": 1735,
+    "from_namespace": 0,
+    "from_title": "Intelligence_of_the_Empire",
+    "from_file": "articles/Intelligence_of_the_Empire.md",
+    "to_target": "Intelligence_of_the_Onyx_Empire"
+  },
+  {
+    "from_page_id": 1750,
+    "from_namespace": 0,
+    "from_title": "M-6a_Combat_Knife",
+    "from_file": "articles/M-6a_Combat_Knife.md",
+    "to_target": "M-04_Combat_Knife"
+  },
+  {
+    "from_page_id": 1751,
+    "from_namespace": 0,
+    "from_title": "M-1_Field_Combat_Uniform",
+    "from_file": "articles/M-1_Field_Combat_Uniform.md",
+    "to_target": "M-01_Field_Combat_Uniform"
+  },
+  {
+    "from_page_id": 1752,
+    "from_namespace": 0,
+    "from_title": "M-6b_Pistol",
+    "from_file": "articles/M-6b_Pistol.md",
+    "to_target": "M-05_Pistol"
+  },
+  {
+    "from_page_id": 1753,
+    "from_namespace": 0,
+    "from_title": "M-28_Fragmentation_Grenade",
+    "from_file": "articles/M-28_Fragmentation_Grenade.md",
+    "to_target": "M-08_Fragmentation_Grenade"
+  },
+  {
+    "from_page_id": 1754,
+    "from_namespace": 0,
+    "from_title": "M-9_Light_Anti-Armor_Weapon",
+    "from_file": "articles/M-9_Light_Anti-Armor_Weapon.md",
+    "to_target": "M-09_Light_Anti-Armor_Weapon"
+  },
+  {
+    "from_page_id": 1755,
+    "from_namespace": 0,
+    "from_title": "M-27_Shotgun",
+    "from_file": "articles/M-27_Shotgun.md",
+    "to_target": "M-10_Shotgun"
+  },
+  {
+    "from_page_id": 1756,
+    "from_namespace": 0,
+    "from_title": "M-6_Selectable_Assault_Battle_Rifle_(SABR)",
+    "from_file": "articles/M-6_Selectable_Assault_Battle_Rifle_(SABR).md",
+    "to_target": "M-06_Selectable_Assault_Battle_Rifle_(SABR)"
+  },
+  {
+    "from_page_id": 1757,
+    "from_namespace": 0,
+    "from_title": "M-25_Grenade_Launcher",
+    "from_file": "articles/M-25_Grenade_Launcher.md",
+    "to_target": "M-12_Grenade_Launcher"
+  },
+  {
+    "from_page_id": 1758,
+    "from_namespace": 0,
+    "from_title": "M-11a_Field_Gun",
+    "from_file": "articles/M-11a_Field_Gun.md",
+    "to_target": "M-13_Field_Gun"
+  },
+  {
+    "from_page_id": 1759,
+    "from_namespace": 0,
+    "from_title": "M-29_60mm_Mortar",
+    "from_file": "articles/M-29_60mm_Mortar.md",
+    "to_target": "M-15_Crew-Portable_Mortar_(60mm)"
+  },
+  {
+    "from_page_id": 1760,
+    "from_namespace": 0,
+    "from_title": "M-19_Powered_Armor",
+    "from_file": "articles/M-19_Powered_Armor.md",
+    "to_target": "M-16_Power-Assisted_Heavy_Armor_-_\"Excalibur\""
+  },
+  {
+    "from_page_id": 1761,
+    "from_namespace": 0,
+    "from_title": "M-20_Grendel",
+    "from_file": "articles/M-20_Grendel.md",
+    "to_target": "M-17_Mobile_Exoskeletal_Armor_-_\"Grendel\""
+  },
+  {
+    "from_page_id": 1762,
+    "from_namespace": 0,
+    "from_title": "M-9a_Medium_Anti-Armor_Weapon",
+    "from_file": "articles/M-9a_Medium_Anti-Armor_Weapon.md",
+    "to_target": "M-18_Medium_Anti-Armor_Weapon"
+  },
+  {
+    "from_page_id": 1763,
+    "from_namespace": 0,
+    "from_title": "M-17_Utility_Truck",
+    "from_file": "articles/M-17_Utility_Truck.md",
+    "to_target": "M-39_Utility_Truck"
+  },
+  {
+    "from_page_id": 1764,
+    "from_namespace": 0,
+    "from_title": "M-18_Apollo",
+    "from_file": "articles/M-18_Apollo.md",
+    "to_target": "M-24_Medium_Combat_Rig_Chassis_-_\"Apollo\""
+  },
+  {
+    "from_page_id": 1765,
+    "from_namespace": 0,
+    "from_title": "M-2_Armadillo",
+    "from_file": "articles/M-2_Armadillo.md",
+    "to_target": "M-38_Armored_Personnel_Carrier_-_\"Armadillo\""
+  },
+  {
+    "from_page_id": 1766,
+    "from_namespace": 0,
+    "from_title": "M-5_Hercules",
+    "from_file": "articles/M-5_Hercules.md",
+    "to_target": "M-21_Light_Combat_Rig_Chassis_-_\"Hercules\""
+  },
+  {
+    "from_page_id": 1767,
+    "from_namespace": 0,
+    "from_title": "M-22_Bradshaw",
+    "from_file": "articles/M-22_Bradshaw.md",
+    "to_target": "M-25_Medium_Support_Rig_Chassis_-_\"Bradshaw\""
+  },
+  {
+    "from_page_id": 1768,
+    "from_namespace": 0,
+    "from_title": "M-24_Towed_155mm_Artillery_Cannon",
+    "from_file": "articles/M-24_Towed_155mm_Artillery_Cannon.md",
+    "to_target": "M-40_Towed_Artillery_Cannon_(155mm)"
+  },
+  {
+    "from_page_id": 1769,
+    "from_namespace": 0,
+    "from_title": "M-24_Medium_Rig_Chassis_-_\"Apollo\"",
+    "from_file": "articles/M-24_Medium_Rig_Chassis_-_''Apollo''.md",
+    "to_target": "M-24_Medium_Combat_Rig_Chassis_-_\"Apollo\""
+  },
+  {
+    "from_page_id": 1770,
+    "from_namespace": 0,
+    "from_title": "Apollo",
+    "from_file": "articles/Apollo.md",
+    "to_target": "Apollo_(disambiguation)"
+  },
+  {
+    "from_page_id": 1772,
+    "from_namespace": 0,
+    "from_title": "M-31_120mm_Mortar",
+    "from_file": "articles/M-31_120mm_Mortar.md",
+    "to_target": "M-26_Rig-Portable_Mortar_(120mm)"
+  },
+  {
+    "from_page_id": 1773,
+    "from_namespace": 0,
+    "from_title": "M-28a_HE_Grenade",
+    "from_file": "articles/M-28a_HE_Grenade.md",
+    "to_target": "M-08a_HE_Grenade"
+  },
+  {
+    "from_page_id": 1774,
+    "from_namespace": 0,
+    "from_title": "M-30_81mm_Mortar",
+    "from_file": "articles/M-30_81mm_Mortar.md",
+    "to_target": "M-19_Exoskeletal-Portable_Mortar_(81mm)"
+  },
+  {
+    "from_page_id": 1775,
+    "from_namespace": 0,
+    "from_title": "M-15_Crew-Portable_60mm_Mortar",
+    "from_file": "articles/M-15_Crew-Portable_60mm_Mortar.md",
+    "to_target": "M-15_Crew-Portable_Mortar_(60mm)"
+  },
+  {
+    "from_page_id": 1776,
+    "from_namespace": 0,
+    "from_title": "M-28b_Smoke_Grenade",
+    "from_file": "articles/M-28b_Smoke_Grenade.md",
+    "to_target": "M-08b_Smoke_Grenade"
+  },
+  {
+    "from_page_id": 1777,
+    "from_namespace": 0,
+    "from_title": "M-28c_Napalm_Grenade",
+    "from_file": "articles/M-28c_Napalm_Grenade.md",
+    "to_target": "M-08c_Napalm_Grenade"
+  },
+  {
+    "from_page_id": 1778,
+    "from_namespace": 0,
+    "from_title": "M-28d_Flash-Bang_Grenade",
+    "from_file": "articles/M-28d_Flash-Bang_Grenade.md",
+    "to_target": "M-08d_Flash-Bang_Grenade"
+  },
+  {
+    "from_page_id": 1779,
+    "from_namespace": 0,
+    "from_title": "M-28e_Firebomb_Grenade",
+    "from_file": "articles/M-28e_Firebomb_Grenade.md",
+    "to_target": "M-08e_Firebomb_Grenade"
+  },
+  {
+    "from_page_id": 1781,
+    "from_namespace": 0,
+    "from_title": "Prefecture_Military_Dress_Uniform",
+    "from_file": "articles/Prefecture_Military_Dress_Uniform.md",
+    "to_target": "M-02_Formal_Dress_Uniform"
+  },
+  {
+    "from_page_id": 1783,
+    "from_namespace": 0,
+    "from_title": "Meroniri_Mass-to-Energy_Conversion_Bomb",
+    "from_file": "articles/Meroniri_Mass-to-Energy_Conversion_Bomb.md",
+    "to_target": "Mass-to-Energy_Conversion_Bomb"
+  },
+  {
+    "from_page_id": 1786,
+    "from_namespace": 0,
+    "from_title": "M-16_Powered_Armor",
+    "from_file": "articles/M-16_Powered_Armor.md",
+    "to_target": "M-16_Power-Assisted_Heavy_Armor_-_\"Excalibur\""
+  },
+  {
+    "from_page_id": 1788,
+    "from_namespace": 0,
+    "from_title": "M-22_Light_Autocannon_-_\"Thumper\"",
+    "from_file": "articles/M-22_Light_Autocannon_-_''Thumper''.md",
+    "to_target": "M-22_Light_Autocannon_-_\"Stinger\""
+  },
+  {
+    "from_page_id": 1790,
+    "from_namespace": 0,
+    "from_title": "M-27_Medium_Combat_Vehicle_Chassis",
+    "from_file": "articles/M-27_Medium_Combat_Vehicle_Chassis.md",
+    "to_target": "M-28_Medium_Combat_Vehicle_Chassis_-_\"Enforcer\""
+  },
+  {
+    "from_page_id": 1793,
+    "from_namespace": 0,
+    "from_title": "M-7_Zeus",
+    "from_file": "articles/M-7_Zeus.md",
+    "to_target": "M-32_Heavy_Support_Rig_Chassis_-_\"Zeus\""
+  },
+  {
+    "from_page_id": 1798,
+    "from_namespace": 0,
+    "from_title": "M-XX_Armadillo",
+    "from_file": "articles/M-XX_Armadillo.md",
+    "to_target": "M-38_Armored_Personnel_Carrier_-_\"Armadillo\""
+  },
+  {
+    "from_page_id": 1799,
+    "from_namespace": 0,
+    "from_title": "M-33_Armored_Personnel_Carrier_-_\"Armadillo\"",
+    "from_file": "articles/M-33_Armored_Personnel_Carrier_-_''Armadillo''.md",
+    "to_target": "M-38_Armored_Personnel_Carrier_-_\"Armadillo\""
+  },
+  {
+    "from_page_id": 1800,
+    "from_namespace": 0,
+    "from_title": "M-XXUtility_Truck",
+    "from_file": "articles/M-XXUtility_Truck.md",
+    "to_target": "M-39_Utility_Truck"
+  },
+  {
+    "from_page_id": 1801,
+    "from_namespace": 0,
+    "from_title": "M-XX_Towed_155mm_Artillery_Cannon",
+    "from_file": "articles/M-XX_Towed_155mm_Artillery_Cannon.md",
+    "to_target": "M-40_Towed_Artillery_Cannon_(155mm)"
+  },
+  {
+    "from_page_id": 1809,
+    "from_namespace": 0,
+    "from_title": "\"Empire_Ascendant\"",
+    "from_file": "articles/''Empire_Ascendant''.md",
+    "to_target": "Empire_Ascendant"
+  },
+  {
+    "from_page_id": 1811,
+    "from_namespace": 0,
+    "from_title": "Shatter_Point_-_by_Seth_Dickenson",
+    "from_file": "articles/Shatter_Point_-_by_Seth_Dickenson.md",
+    "to_target": "Shatter_Point"
+  },
+  {
+    "from_page_id": 1812,
+    "from_namespace": 0,
+    "from_title": "F-4_Raven",
+    "from_file": "articles/F-4_Raven.md",
+    "to_target": "F-04_Superiority_Fighter_-_\"Raven\""
+  },
+  {
+    "from_page_id": 1815,
+    "from_namespace": 0,
+    "from_title": "Desyat_Band",
+    "from_file": "articles/Desyat_Band.md",
+    "to_target": "Hyperspace"
+  },
+  {
+    "from_page_id": 1831,
+    "from_namespace": 0,
+    "from_title": "White-eyes",
+    "from_file": "articles/White-eyes.md",
+    "to_target": "White_Eyes"
+  },
+  {
+    "from_page_id": 1852,
+    "from_namespace": 0,
+    "from_title": "Uber-General",
+    "from_file": "articles/Uber-General.md",
+    "to_target": "Uber-General_of_the_United_Mesarthrim_Clans"
+  },
+  {
+    "from_page_id": 1854,
+    "from_namespace": 0,
+    "from_title": "Nic_Piazzaro",
+    "from_file": "articles/Nic_Piazzaro.md",
+    "to_target": "Nicodemo_Guadalupe_Piazzaro"
+  },
+  {
+    "from_page_id": 1856,
+    "from_namespace": 0,
+    "from_title": "Ikronin_Jurekon",
+    "from_file": "articles/Ikronin_Jurekon.md",
+    "to_target": "Ikronin_Jurekön"
+  },
+  {
+    "from_page_id": 1857,
+    "from_namespace": 0,
+    "from_title": "New_Albany_System",
+    "from_file": "articles/New_Albany_System.md",
+    "to_target": "Antares_System"
+  },
+  {
+    "from_page_id": 1874,
+    "from_namespace": 0,
+    "from_title": "Mircas_Rasium",
+    "from_file": "articles/Mircas_Rasium.md",
+    "to_target": "Mircas_Rasune"
+  },
+  {
+    "from_page_id": 1876,
+    "from_namespace": 0,
+    "from_title": "Reigess_Sovereignty",
+    "from_file": "articles/Reigess_Sovereignty.md",
+    "to_target": "Reigess_Suverände"
+  },
+  {
+    "from_page_id": 1877,
+    "from_namespace": 0,
+    "from_title": "Reigess_Suverande",
+    "from_file": "articles/Reigess_Suverande.md",
+    "to_target": "Reigess_Suverände"
+  },
+  {
+    "from_page_id": 1878,
+    "from_namespace": 0,
+    "from_title": "Culture_of_the_Reigess_Sovereignty",
+    "from_file": "articles/Culture_of_the_Reigess_Sovereignty.md",
+    "to_target": "Culture_of_the_Reigess_Suverände"
+  },
+  {
+    "from_page_id": 1882,
+    "from_namespace": 0,
+    "from_title": "Jiliur_Raegos",
+    "from_file": "articles/Jiliur_Raegos.md",
+    "to_target": "Jiliur_Beskolyda_nav_Raegos"
+  },
+  {
+    "from_page_id": 1883,
+    "from_namespace": 0,
+    "from_title": "Reigess_Royal_Navy",
+    "from_file": "articles/Reigess_Royal_Navy.md",
+    "to_target": "Reigess_Renskader"
+  },
+  {
+    "from_page_id": 1884,
+    "from_namespace": 0,
+    "from_title": "Reigess_Royal_Territorial_Guard",
+    "from_file": "articles/Reigess_Royal_Territorial_Guard.md",
+    "to_target": "Reigess_Mark_Vaktida"
+  },
+  {
+    "from_page_id": 1894,
+    "from_namespace": 0,
+    "from_title": "Ptolemy_Sector",
+    "from_file": "articles/Ptolemy_Sector.md",
+    "to_target": "Njiorin_Sector"
+  },
+  {
+    "from_page_id": 1895,
+    "from_namespace": 0,
+    "from_title": "Ursa_Sector",
+    "from_file": "articles/Ursa_Sector.md",
+    "to_target": "Tolana_Sector"
+  },
+  {
+    "from_page_id": 1896,
+    "from_namespace": 0,
+    "from_title": "Antimatter",
+    "from_file": "articles/Antimatter.md",
+    "to_target": "Category:Antimatter"
+  },
+  {
+    "from_page_id": 1897,
+    "from_namespace": 0,
+    "from_title": "Tavou_District",
+    "from_file": "articles/Tavou_District.md",
+    "to_target": "Territory_of_the_Federated_Districts_of_the_Prefecture"
+  },
+  {
+    "from_page_id": 1901,
+    "from_namespace": 0,
+    "from_title": "Tincomalee_System",
+    "from_file": "articles/Tincomalee_System.md",
+    "to_target": "Tirshan_System"
+  },
+  {
+    "from_page_id": 1905,
+    "from_namespace": 0,
+    "from_title": "Tejat_District",
+    "from_file": "articles/Tejat_District.md",
+    "to_target": "Territory_of_the_Federated_Districts_of_the_Prefecture"
+  },
+  {
+    "from_page_id": 1910,
+    "from_namespace": 0,
+    "from_title": "Caledon_System",
+    "from_file": "articles/Caledon_System.md",
+    "to_target": "Cinaed_System"
+  },
+  {
+    "from_page_id": 1911,
+    "from_namespace": 0,
+    "from_title": "Kalmar_System",
+    "from_file": "articles/Kalmar_System.md",
+    "to_target": "Tau_Ceti_System"
+  },
+  {
+    "from_page_id": 1913,
+    "from_namespace": 0,
+    "from_title": "Bethija_System",
+    "from_file": "articles/Bethija_System.md",
+    "to_target": "Proxima_Procyon_System"
+  },
+  {
+    "from_page_id": 1914,
+    "from_namespace": 0,
+    "from_title": "Holt_System",
+    "from_file": "articles/Holt_System.md",
+    "to_target": "Lyrae_System"
+  },
+  {
+    "from_page_id": 1915,
+    "from_namespace": 0,
+    "from_title": "Tejat_Cluster",
+    "from_file": "articles/Tejat_Cluster.md",
+    "to_target": "Algedi_Cluster"
+  },
+  {
+    "from_page_id": 1916,
+    "from_namespace": 0,
+    "from_title": "Tejat_System",
+    "from_file": "articles/Tejat_System.md",
+    "to_target": "Theta_Algedi_System"
+  },
+  {
+    "from_page_id": 1917,
+    "from_namespace": 0,
+    "from_title": "Sindh_System",
+    "from_file": "articles/Sindh_System.md",
+    "to_target": "Gamma_Algedi_System"
+  },
+  {
+    "from_page_id": 1918,
+    "from_namespace": 0,
+    "from_title": "Anilam_System",
+    "from_file": "articles/Anilam_System.md",
+    "to_target": "Zeta_Algedi_System"
+  },
+  {
+    "from_page_id": 1919,
+    "from_namespace": 0,
+    "from_title": "Ueda_System",
+    "from_file": "articles/Ueda_System.md",
+    "to_target": "Hydrae_System"
+  },
+  {
+    "from_page_id": 1920,
+    "from_namespace": 0,
+    "from_title": "Albanis_System",
+    "from_file": "articles/Albanis_System.md",
+    "to_target": "Antares_System"
+  },
+  {
+    "from_page_id": 1921,
+    "from_namespace": 0,
+    "from_title": "Albanis",
+    "from_file": "articles/Albanis.md",
+    "to_target": "Albanus"
+  },
+  {
+    "from_page_id": 1922,
+    "from_namespace": 0,
+    "from_title": "Laojiu_System",
+    "from_file": "articles/Laojiu_System.md",
+    "to_target": "Beta_Arae_System"
+  },
+  {
+    "from_page_id": 1923,
+    "from_namespace": 0,
+    "from_title": "Ward_System",
+    "from_file": "articles/Ward_System.md",
+    "to_target": "Xi_Herculis_System"
+  },
+  {
+    "from_page_id": 1924,
+    "from_namespace": 0,
+    "from_title": "Casere_System",
+    "from_file": "articles/Casere_System.md",
+    "to_target": "Avior_System"
+  },
+  {
+    "from_page_id": 1925,
+    "from_namespace": 0,
+    "from_title": "Novaya_System",
+    "from_file": "articles/Novaya_System.md",
+    "to_target": "Mu_Crucis_System"
+  },
+  {
+    "from_page_id": 1926,
+    "from_namespace": 0,
+    "from_title": "Tavou_System",
+    "from_file": "articles/Tavou_System.md",
+    "to_target": "Mimosa_System"
+  },
+  {
+    "from_page_id": 1927,
+    "from_namespace": 0,
+    "from_title": "Adelson_System",
+    "from_file": "articles/Adelson_System.md",
+    "to_target": "Omicron_Carinae_System"
+  },
+  {
+    "from_page_id": 1930,
+    "from_namespace": 0,
+    "from_title": "Reigen",
+    "from_file": "articles/Reigen.md",
+    "to_target": "Reigens"
+  },
+  {
+    "from_page_id": 2180,
+    "from_namespace": 0,
+    "from_title": "Ologrians",
+    "from_file": "articles/Ologrians.md",
+    "to_target": "Ngrligru"
+  },
+  {
+    "from_page_id": 2181,
+    "from_namespace": 0,
+    "from_title": "Ologrian_Kabila_Duka",
+    "from_file": "articles/Ologrian_Kabila_Duka.md",
+    "to_target": "Kabila_iku_Gol'nde"
+  },
+  {
+    "from_page_id": 2188,
+    "from_namespace": 0,
+    "from_title": "Anthronoris_Empire",
+    "from_file": "articles/Anthronoris_Empire.md",
+    "to_target": "Pax_Anthronoris"
+  },
+  {
+    "from_page_id": 2189,
+    "from_namespace": 0,
+    "from_title": "Krlbila_Grlnudr",
+    "from_file": "articles/Krlbila_Grlnudr.md",
+    "to_target": "Kabila_iku_Gol'nde"
+  },
+  {
+    "from_page_id": 2191,
+    "from_namespace": 0,
+    "from_title": "Culture_of_Krlbila_Jitu'nge",
+    "from_file": "articles/Culture_of_Krlbila_Jitu'nge.md",
+    "to_target": "Culture_of_Kabila_Jitu'nge"
+  },
+  {
+    "from_page_id": 2192,
+    "from_namespace": 0,
+    "from_title": "Demographics_of_Krlbila_Jitu'nge",
+    "from_file": "articles/Demographics_of_Krlbila_Jitu'nge.md",
+    "to_target": "Demographics_of_Kabila_Jitu'nge"
+  },
+  {
+    "from_page_id": 2193,
+    "from_namespace": 0,
+    "from_title": "Krlbila_Jitu'nge",
+    "from_file": "articles/Krlbila_Jitu'nge.md",
+    "to_target": "Kabila_Jitu'nge"
+  },
+  {
+    "from_page_id": 2198,
+    "from_namespace": 0,
+    "from_title": "Geckan",
+    "from_file": "articles/Geckan.md",
+    "to_target": "Gorhamut"
+  },
+  {
+    "from_page_id": 2200,
+    "from_namespace": 0,
+    "from_title": "Thezerops",
+    "from_file": "articles/Thezerops.md",
+    "to_target": "Gorhamut"
+  },
+  {
+    "from_page_id": 2209,
+    "from_namespace": 14,
+    "from_title": "Race",
+    "from_file": "categories/Race.md",
+    "to_target": "Category:Races"
+  },
+  {
+    "from_page_id": 2212,
+    "from_namespace": 0,
+    "from_title": "Kabila_Duka",
+    "from_file": "articles/Kabila_Duka.md",
+    "to_target": "Kabila_iku_Gol'nde"
+  },
+  {
+    "from_page_id": 2213,
+    "from_namespace": 0,
+    "from_title": "Races",
+    "from_file": "articles/Races.md",
+    "to_target": "Category:Races"
+  },
+  {
+    "from_page_id": 2214,
+    "from_namespace": 0,
+    "from_title": "Habitat",
+    "from_file": "articles/Habitat.md",
+    "to_target": "Void_World"
+  },
+  {
+    "from_page_id": 2217,
+    "from_namespace": 0,
+    "from_title": "Human",
+    "from_file": "articles/Human.md",
+    "to_target": "Category:Humans"
+  },
+  {
+    "from_page_id": 2220,
+    "from_namespace": 0,
+    "from_title": "Race",
+    "from_file": "articles/Race.md",
+    "to_target": "Category:Races"
+  },
+  {
+    "from_page_id": 2221,
+    "from_namespace": 0,
+    "from_title": "Clans_of_the_Mesarthrim",
+    "from_file": "articles/Clans_of_the_Mesarthrim.md",
+    "to_target": "Category:Clans_of_the_Mesarthrim"
+  },
+  {
+    "from_page_id": 2225,
+    "from_namespace": 0,
+    "from_title": "History_of_Lorithan",
+    "from_file": "articles/History_of_Lorithan.md",
+    "to_target": "History_of_Rikaz_o_Fii_Huern_iv_Lorithan"
+  },
+  {
+    "from_page_id": 2231,
+    "from_namespace": 0,
+    "from_title": "Rikaz_o_fii_Huern_iv_Lorithan",
+    "from_file": "articles/Rikaz_o_fii_Huern_iv_Lorithan_2231.md",
+    "to_target": "Rikaz_o_Fii_Huern_iv_Lorithan"
+  },
+  {
+    "from_page_id": 2393,
+    "from_namespace": 0,
+    "from_title": "Provider_Class_Freighter",
+    "from_file": "articles/Provider_Class_Freighter.md",
+    "to_target": "Provider_Class_Hauler"
+  },
+  {
+    "from_page_id": 2445,
+    "from_namespace": 0,
+    "from_title": "Bregh_Matif_Class_Destroyer",
+    "from_file": "articles/Bregh_Matif_Class_Destroyer.md",
+    "to_target": "Brehg_Matif_Class_Destroyer"
+  },
+  {
+    "from_page_id": 2479,
+    "from_namespace": 0,
+    "from_title": "Oritar_Class_Freighter",
+    "from_file": "articles/Oritar_Class_Freighter.md",
+    "to_target": "Oritar_Class_Patrol_Ship"
+  },
+  {
+    "from_page_id": 2480,
+    "from_namespace": 1,
+    "from_title": "Oritar_Class_Freighter",
+    "from_file": "talk/articles/Oritar_Class_Freighter.md",
+    "to_target": "Talk:Oritar_Class_Patrol_Ship"
+  },
+  {
+    "from_page_id": 2484,
+    "from_namespace": 0,
+    "from_title": "Bollaria_Class_Battleship",
+    "from_file": "articles/Bollaria_Class_Battleship.md",
+    "to_target": "Bollaria_Class_Battle_Carrier"
+  },
+  {
+    "from_page_id": 2485,
+    "from_namespace": 1,
+    "from_title": "Bollaria_Class_Battleship",
+    "from_file": "talk/articles/Bollaria_Class_Battleship.md",
+    "to_target": "Talk:Bollaria_Class_Battle_Carrier"
+  },
+  {
+    "from_page_id": 2508,
+    "from_namespace": 0,
+    "from_title": "Ansible",
+    "from_file": "articles/Ansible.md",
+    "to_target": "Urokon"
+  },
+  {
+    "from_page_id": 2530,
+    "from_namespace": 0,
+    "from_title": "Skratta_Masen",
+    "from_file": "articles/Skratta_Masen.md",
+    "to_target": "Skratta_Måsen"
+  },
+  {
+    "from_page_id": 2649,
+    "from_namespace": 0,
+    "from_title": "M-32_All-Terrain_Vehicle_-_\"Bobcat\"",
+    "from_file": "articles/M-32_All-Terrain_Vehicle_-_''Bobcat''.md",
+    "to_target": "M-36_All-Terrain_Vehicle_-_\"Badger\""
+  },
+  {
+    "from_page_id": 3129,
+    "from_namespace": 0,
+    "from_title": "Iridi",
+    "from_file": "articles/Iridi.md",
+    "to_target": "Category:Ixoarchada_Iridi"
+  },
+  {
+    "from_page_id": 3151,
+    "from_namespace": 0,
+    "from_title": "Avenger_Class_Cruiser",
+    "from_file": "articles/Avenger_Class_Cruiser.md",
+    "to_target": "Avenger_Class_Battlecruiser"
+  },
+  {
+    "from_page_id": 3152,
+    "from_namespace": 0,
+    "from_title": "Delstich_Class_Cruiser",
+    "from_file": "articles/Delstich_Class_Cruiser.md",
+    "to_target": "Delstich_Class_Heavy_Cruiser"
+  },
+  {
+    "from_page_id": 3153,
+    "from_namespace": 0,
+    "from_title": "Praetoria_Class",
+    "from_file": "articles/Praetoria_Class.md",
+    "to_target": "Praetoria_Class_Heavy_Combatant"
+  },
+  {
+    "from_page_id": 3168,
+    "from_namespace": 0,
+    "from_title": "Prefecture_Air_Force",
+    "from_file": "articles/Prefecture_Air_Force.md",
+    "to_target": "Federated_Districts_Air_Force"
+  },
+  {
+    "from_page_id": 3174,
+    "from_namespace": 0,
+    "from_title": "M-22a_Light_Neutron_Beam_Weapon_-_\"Toaster\"",
+    "from_file": "articles/M-22a_Light_Neutron_Beam_Weapon_-_''Toaster''.md",
+    "to_target": "M-23_Light_Beam_Weapon_-_\"Toaster\""
+  },
+  {
+    "from_page_id": 3181,
+    "from_namespace": 0,
+    "from_title": "F-4",
+    "from_file": "articles/F-4.md",
+    "to_target": "F-4_(disambiguation)"
+  },
+  {
+    "from_page_id": 3185,
+    "from_namespace": 0,
+    "from_title": "F-9E_Valkyrie",
+    "from_file": "articles/F-9E_Valkyrie.md",
+    "to_target": "F-09_Carrier_Fighter_-_\"Valkyrie\""
+  },
+  {
+    "from_page_id": 3189,
+    "from_namespace": 0,
+    "from_title": "M-22a_Light_Beam_Weapon_-_\"Toaster\"",
+    "from_file": "articles/M-22a_Light_Beam_Weapon_-_''Toaster''.md",
+    "to_target": "M-23_Light_Beam_Weapon_-_\"Toaster\""
+  },
+  {
+    "from_page_id": 3190,
+    "from_namespace": 0,
+    "from_title": "M-24a_Medium_Support_Rig_Chassis_-_\"Bradshaw\"",
+    "from_file": "articles/M-24a_Medium_Support_Rig_Chassis_-_''Bradshaw''.md",
+    "to_target": "M-25_Medium_Support_Rig_Chassis_-_\"Bradshaw\""
+  },
+  {
+    "from_page_id": 3191,
+    "from_namespace": 0,
+    "from_title": "M-25_Rig-Portable_Mortar_(120mm)",
+    "from_file": "articles/M-25_Rig-Portable_Mortar_(120mm).md",
+    "to_target": "M-26_Rig-Portable_Mortar_(120mm)"
+  },
+  {
+    "from_page_id": 3192,
+    "from_namespace": 0,
+    "from_title": "M-26_Electric_Control_Weapon",
+    "from_file": "articles/M-26_Electric_Control_Weapon.md",
+    "to_target": "M-27_Electric_Control_Weapon"
+  },
+  {
+    "from_page_id": 3193,
+    "from_namespace": 0,
+    "from_title": "M-27_Medium_Combat_Vehicle_Chassis_-_\"Enforcer\"",
+    "from_file": "articles/M-27_Medium_Combat_Vehicle_Chassis_-_''Enforcer''.md",
+    "to_target": "M-28_Medium_Combat_Vehicle_Chassis_-_\"Enforcer\""
+  },
+  {
+    "from_page_id": 3194,
+    "from_namespace": 0,
+    "from_title": "M-28_Medium_Autocannon_-_\"Thumper\"",
+    "from_file": "articles/M-28_Medium_Autocannon_-_''Thumper''.md",
+    "to_target": "M-29_Medium_Autocannon_-_\"Thumper\""
+  },
+  {
+    "from_page_id": 3195,
+    "from_namespace": 0,
+    "from_title": "M-28a_Medium_Neutron_Beam_Weapon_-_\"Scorcher\"",
+    "from_file": "articles/M-28a_Medium_Neutron_Beam_Weapon_-_''Scorcher''.md",
+    "to_target": "M-30_Medium_Neutron_Beam_Weapon_-_\"Scorcher\""
+  },
+  {
+    "from_page_id": 3196,
+    "from_namespace": 0,
+    "from_title": "M-29_Heavy_Combat_Rig_Chassis_-_\"Hades\"",
+    "from_file": "articles/M-29_Heavy_Combat_Rig_Chassis_-_''Hades''.md",
+    "to_target": "M-31_Heavy_Combat_Rig_Chassis_-_\"Hades\""
+  },
+  {
+    "from_page_id": 3197,
+    "from_namespace": 0,
+    "from_title": "M-29a_Heavy_Support_Rig_Chassis_-_\"Zeus\"",
+    "from_file": "articles/M-29a_Heavy_Support_Rig_Chassis_-_''Zeus''.md",
+    "to_target": "M-32_Heavy_Support_Rig_Chassis_-_\"Zeus\""
+  },
+  {
+    "from_page_id": 3198,
+    "from_namespace": 0,
+    "from_title": "M-30_Heavy_Anti-Armor_Weapon",
+    "from_file": "articles/M-30_Heavy_Anti-Armor_Weapon.md",
+    "to_target": "M-33_Heavy_Anti-Armor_Weapon"
+  },
+  {
+    "from_page_id": 3199,
+    "from_namespace": 0,
+    "from_title": "M-31_Heavy_Autocannon_-_\"Earthquake\"",
+    "from_file": "articles/M-31_Heavy_Autocannon_-_''Earthquake''.md",
+    "to_target": "M-34_Heavy_Autocannon_-_\"Earthquake\""
+  },
+  {
+    "from_page_id": 3200,
+    "from_namespace": 0,
+    "from_title": "M-31a_Heavy_Neutron_Beam_Weapon_-_\"Incinerator\"",
+    "from_file": "articles/M-31a_Heavy_Neutron_Beam_Weapon_-_''Incinerator''.md",
+    "to_target": "M-35_Heavy_Neutron_Beam_Weapon_-_\"Incinerator\""
+  },
+  {
+    "from_page_id": 3201,
+    "from_namespace": 0,
+    "from_title": "M-32_All-Terrain_Vehicle_-_\"Badger\"",
+    "from_file": "articles/M-32_All-Terrain_Vehicle_-_''Badger''.md",
+    "to_target": "M-36_All-Terrain_Vehicle_-_\"Badger\""
+  },
+  {
+    "from_page_id": 3202,
+    "from_namespace": 0,
+    "from_title": "M-33_Infantry_Fighting_Vehicle_-_\"Goblin\"",
+    "from_file": "articles/M-33_Infantry_Fighting_Vehicle_-_''Goblin''.md",
+    "to_target": "M-37_Infantry_Fighting_Vehicle_-_\"Goblin\""
+  },
+  {
+    "from_page_id": 3203,
+    "from_namespace": 0,
+    "from_title": "M-34_Armored_Personnel_Carrier_-_\"Armadillo\"",
+    "from_file": "articles/M-34_Armored_Personnel_Carrier_-_''Armadillo''.md",
+    "to_target": "M-38_Armored_Personnel_Carrier_-_\"Armadillo\""
+  },
+  {
+    "from_page_id": 3204,
+    "from_namespace": 0,
+    "from_title": "M-35_Utility_Truck",
+    "from_file": "articles/M-35_Utility_Truck.md",
+    "to_target": "M-39_Utility_Truck"
+  },
+  {
+    "from_page_id": 3205,
+    "from_namespace": 0,
+    "from_title": "M-36_Towed_Artillery_Cannon_(155mm)",
+    "from_file": "articles/M-36_Towed_Artillery_Cannon_(155mm).md",
+    "to_target": "M-40_Towed_Artillery_Cannon_(155mm)"
+  },
+  {
+    "from_page_id": 3206,
+    "from_namespace": 0,
+    "from_title": "M-37_Main_Battle_Tank_Chassis_-_\"Dragon\"",
+    "from_file": "articles/M-37_Main_Battle_Tank_Chassis_-_''Dragon''.md",
+    "to_target": "M-41_Main_Battle_Tank_Chassis_-_\"Dragon\""
+  },
+  {
+    "from_page_id": 3207,
+    "from_namespace": 0,
+    "from_title": "M-38_Heavy_Combat_Vehicle_Chassis_-_\"Warlord\"",
+    "from_file": "articles/M-38_Heavy_Combat_Vehicle_Chassis_-_''Warlord''.md",
+    "to_target": "M-42_Heavy_Combat_Vehicle_Chassis_-_\"Warlord\""
+  },
+  {
+    "from_page_id": 3208,
+    "from_namespace": 1,
+    "from_title": "M-38_Heavy_Combat_Vehicle_Chassis_-_\"Warlord\"",
+    "from_file": "talk/articles/M-38_Heavy_Combat_Vehicle_Chassis_-_''Warlord''.md",
+    "to_target": "Talk:M-42_Heavy_Combat_Vehicle_Chassis_-_\"Warlord\""
+  },
+  {
+    "from_page_id": 3211,
+    "from_namespace": 0,
+    "from_title": "Me-32_Patton",
+    "from_file": "articles/Me-32_Patton.md",
+    "to_target": "Me-32_Superiority_Fighter_-_\"Sturmfaust\""
+  },
+  {
+    "from_page_id": 3212,
+    "from_namespace": 1,
+    "from_title": "Me-32_Patton",
+    "from_file": "talk/articles/Me-32_Patton.md",
+    "to_target": "Talk:Me-32_Superiority_Fighter_-_\"Sturmfaust\""
+  },
+  {
+    "from_page_id": 3219,
+    "from_namespace": 0,
+    "from_title": "Mesarthrim_Resistance",
+    "from_file": "articles/Mesarthrim_Resistance.md",
+    "to_target": "Mesarthrim_Rebellion"
+  },
+  {
+    "from_page_id": 3226,
+    "from_namespace": 0,
+    "from_title": "F-16_Piranha",
+    "from_file": "articles/F-16_Piranha.md",
+    "to_target": "F-16_Superiority_Fighter_-_\"Piranha\""
+  },
+  {
+    "from_page_id": 3236,
+    "from_namespace": 0,
+    "from_title": "Gregor_Blazton",
+    "from_file": "articles/Gregor_Blazton.md",
+    "to_target": "Blasius_Gregöri_János"
+  },
+  {
+    "from_page_id": 3238,
+    "from_namespace": 0,
+    "from_title": "Blazton_Heavy_Industries",
+    "from_file": "articles/Blazton_Heavy_Industries.md",
+    "to_target": "Blasius_állam-Nehézipar"
+  },
+  {
+    "from_page_id": 3247,
+    "from_namespace": 0,
+    "from_title": "Jeff_Nolan",
+    "from_file": "articles/Jeff_Nolan.md",
+    "to_target": "Geoffrey_Nolan-Marshall"
+  },
+  {
+    "from_page_id": 3260,
+    "from_namespace": 0,
+    "from_title": "Zardos_System",
+    "from_file": "articles/Zardos_System.md",
+    "to_target": "Epsilon_Indi_System"
+  },
+  {
+    "from_page_id": 3262,
+    "from_namespace": 0,
+    "from_title": "Worlds_of_the_Onyx_Empire",
+    "from_file": "articles/Worlds_of_the_Onyx_Empire.md",
+    "to_target": "Territory_of_the_Onyx_Empire"
+  },
+  {
+    "from_page_id": 3263,
+    "from_namespace": 0,
+    "from_title": "Worlds_of_the_Federated_Districts_of_the_Prefecture",
+    "from_file": "articles/Worlds_of_the_Federated_Districts_of_the_Prefecture.md",
+    "to_target": "Territory_of_the_Federated_Districts_of_the_Prefecture"
+  },
+  {
+    "from_page_id": 3264,
+    "from_namespace": 0,
+    "from_title": "Terra",
+    "from_file": "articles/Terra.md",
+    "to_target": "Earth"
+  },
+  {
+    "from_page_id": 3271,
+    "from_namespace": 0,
+    "from_title": "Worlds_of_the_Colonial_Commonwealth",
+    "from_file": "articles/Worlds_of_the_Colonial_Commonwealth.md",
+    "to_target": "Territory_of_the_Colonial_Commonwealth"
+  },
+  {
+    "from_page_id": 3272,
+    "from_namespace": 0,
+    "from_title": "Worlds_of_Rikaz_o_Fii_Huern_iv_Lorithan",
+    "from_file": "articles/Worlds_of_Rikaz_o_Fii_Huern_iv_Lorithan.md",
+    "to_target": "Territory_of_Rikaz_o_Fii_Huern_iv_Lorithan"
+  },
+  {
+    "from_page_id": 3297,
+    "from_namespace": 0,
+    "from_title": "Willim",
+    "from_file": "articles/Willim.md",
+    "to_target": "Mesar"
+  },
+  {
+    "from_page_id": 3302,
+    "from_namespace": 0,
+    "from_title": "Terran_Embassy",
+    "from_file": "articles/Terran_Embassy.md",
+    "to_target": "Sol_System_Authority"
+  },
+  {
+    "from_page_id": 3303,
+    "from_namespace": 0,
+    "from_title": "Culture_of_the_Terran_Embassy",
+    "from_file": "articles/Culture_of_the_Terran_Embassy.md",
+    "to_target": "Culture_of_the_Sol_System_Authority"
+  },
+  {
+    "from_page_id": 3304,
+    "from_namespace": 0,
+    "from_title": "Government_of_the_Terran_Embassy",
+    "from_file": "articles/Government_of_the_Terran_Embassy.md",
+    "to_target": "Government_of_the_Sol_System_Authority"
+  },
+  {
+    "from_page_id": 3305,
+    "from_namespace": 0,
+    "from_title": "Military_of_the_Terran_Embassy",
+    "from_file": "articles/Military_of_the_Terran_Embassy.md",
+    "to_target": "Military_of_the_Sol_System_Authority"
+  },
+  {
+    "from_page_id": 3310,
+    "from_namespace": 0,
+    "from_title": "Darel_Fusala",
+    "from_file": "articles/Darel_Fusala.md",
+    "to_target": "Naimen_Ladosen"
+  },
+  {
+    "from_page_id": 3311,
+    "from_namespace": 0,
+    "from_title": "Tanis_Ladosen",
+    "from_file": "articles/Tanis_Ladosen.md",
+    "to_target": "Naimen_Ladosen"
+  },
+  {
+    "from_page_id": 3323,
+    "from_namespace": 0,
+    "from_title": "Alliance_of_Planets_Grand_Charter",
+    "from_file": "articles/Alliance_of_Planets_Grand_Charter.md",
+    "to_target": "Alliance_of_Planets_Great_Charter"
+  },
+  {
+    "from_page_id": 3330,
+    "from_namespace": 0,
+    "from_title": "Zak_Huern",
+    "from_file": "articles/Zak_Huern.md",
+    "to_target": "Zaken_Huern"
+  },
+  {
+    "from_page_id": 3340,
+    "from_namespace": 0,
+    "from_title": "Nathan_Hinks",
+    "from_file": "articles/Nathan_Hinks.md",
+    "to_target": "Nathaniel_Hinks"
+  },
+  {
+    "from_page_id": 3347,
+    "from_namespace": 0,
+    "from_title": "Huern",
+    "from_file": "articles/Huern.md",
+    "to_target": "Hamur_Hauren"
+  },
+  {
+    "from_page_id": 3356,
+    "from_namespace": 0,
+    "from_title": "Oronus",
+    "from_file": "articles/Oronus.md",
+    "to_target": "Oronus_System"
+  },
+  {
+    "from_page_id": 3382,
+    "from_namespace": 0,
+    "from_title": "Nathaniel_Hinks_von_Stadt",
+    "from_file": "articles/Nathaniel_Hinks_von_Stadt.md",
+    "to_target": "Nathaniel_Hinks"
+  },
+  {
+    "from_page_id": 3383,
+    "from_namespace": 0,
+    "from_title": "Nimitz_class_Gunship",
+    "from_file": "articles/Nimitz_class_Gunship_3383.md",
+    "to_target": "Nimitz_Class_Gunship"
+  },
+  {
+    "from_page_id": 3384,
+    "from_namespace": 0,
+    "from_title": "Turpitz_class_Gunship",
+    "from_file": "articles/Turpitz_class_Gunship_3384.md",
+    "to_target": "Turpitz_Class_Gunship"
+  },
+  {
+    "from_page_id": 3385,
+    "from_namespace": 0,
+    "from_title": "Typhoon_class_Frigate",
+    "from_file": "articles/Typhoon_class_Frigate_3385.md",
+    "to_target": "Typhoon_Class_Frigate"
+  },
+  {
+    "from_page_id": 3444,
+    "from_namespace": 0,
+    "from_title": "Mysterium-Stahl",
+    "from_file": "articles/Mysterium-Stahl.md",
+    "to_target": "Mystery_Steel"
+  },
+  {
+    "from_page_id": 3450,
+    "from_namespace": 0,
+    "from_title": "Berlusconi",
+    "from_file": "articles/Berlusconi.md",
+    "to_target": "Berlusconi_(disambiguation)"
+  },
+  {
+    "from_page_id": 3487,
+    "from_namespace": 0,
+    "from_title": "Ologrian_Kigao_Proton-Bond_Armor",
+    "from_file": "articles/Ologrian_Kigao_Proton-Bond_Armor.md",
+    "to_target": "Ngrligru_Kigao_Proton-Bond_Armor"
+  },
+  {
+    "from_page_id": 3528,
+    "from_namespace": 0,
+    "from_title": "Zweite_Flotte",
+    "from_file": "articles/Zweite_Flotte.md",
+    "to_target": "United_Mesarthrim_Clans_Second_Fleet"
+  },
+  {
+    "from_page_id": 3571,
+    "from_namespace": 0,
+    "from_title": "Mourning",
+    "from_file": "articles/Mourning.md",
+    "to_target": "Mourning_-_by_Seth_Dickinson"
+  },
+  {
+    "from_page_id": 3578,
+    "from_namespace": 0,
+    "from_title": "Starmaster_class_Destroyer",
+    "from_file": "articles/Starmaster_class_Destroyer_3578.md",
+    "to_target": "Starmaster_Class_Destroyer"
+  },
+  {
+    "from_page_id": 3583,
+    "from_namespace": 0,
+    "from_title": "Royal_Imperial_Navy_Battle_Star",
+    "from_file": "articles/Royal_Imperial_Navy_Battle_Star.md",
+    "to_target": "Imperial_Battle_Star"
+  },
+  {
+    "from_page_id": 3586,
+    "from_namespace": 0,
+    "from_title": "Magnetic_Accelerator_Cannon",
+    "from_file": "articles/Magnetic_Accelerator_Cannon.md",
+    "to_target": "Terran_Mass_Drivers"
+  },
+  {
+    "from_page_id": 3587,
+    "from_namespace": 0,
+    "from_title": "Relativistic_Mass_Driver",
+    "from_file": "articles/Relativistic_Mass_Driver.md",
+    "to_target": "Terran_Mass_Drivers"
+  },
+  {
+    "from_page_id": 3602,
+    "from_namespace": 0,
+    "from_title": "Laojiu_District",
+    "from_file": "articles/Laojiu_District.md",
+    "to_target": "Territory_of_the_Federated_Districts_of_the_Prefecture"
+  },
+  {
+    "from_page_id": 3609,
+    "from_namespace": 0,
+    "from_title": "Cecil_Au-Yeung",
+    "from_file": "articles/Cecil_Au-Yeung.md",
+    "to_target": "Cecil_Au-Yueng"
+  },
+  {
+    "from_page_id": 3611,
+    "from_namespace": 0,
+    "from_title": "F-4_Ravens",
+    "from_file": "articles/F-4_Ravens.md",
+    "to_target": "F-04_Superiority_Fighter_-_\"Raven\""
+  },
+  {
+    "from_page_id": 3629,
+    "from_namespace": 0,
+    "from_title": "ADF-5000",
+    "from_file": "articles/ADF-5000.md",
+    "to_target": "ADF-5000_Class_Cruiser"
+  },
+  {
+    "from_page_id": 3635,
+    "from_namespace": 0,
+    "from_title": "Imperial_Military",
+    "from_file": "articles/Imperial_Military.md",
+    "to_target": "Military_of_the_Onyx_Empire"
+  },
+  {
+    "from_page_id": 3666,
+    "from_namespace": 0,
+    "from_title": "Black_Armada_of_the_Royal_Imperail_Navy",
+    "from_file": "articles/Black_Armada_of_the_Royal_Imperail_Navy.md",
+    "to_target": "Black_Armada_of_the_Royal_Imperial_Navy"
+  },
+  {
+    "from_page_id": 3673,
+    "from_namespace": 0,
+    "from_title": "China_(Terra)",
+    "from_file": "articles/China_(Terra).md",
+    "to_target": "People's_Republic_of_China_(Terra)"
+  },
+  {
+    "from_page_id": 3677,
+    "from_namespace": 0,
+    "from_title": "Grand_Admiral",
+    "from_file": "articles/Grand_Admiral.md",
+    "to_target": "Grand_Admiral_(disambiguation)"
+  },
+  {
+    "from_page_id": 3684,
+    "from_namespace": 0,
+    "from_title": "Scimitar_Squadron",
+    "from_file": "articles/Scimitar_Squadron.md",
+    "to_target": "VF-1_Scimitar_Squadron"
+  },
+  {
+    "from_page_id": 3721,
+    "from_namespace": 0,
+    "from_title": "NGV_Guiseppe_Garibaldi",
+    "from_file": "articles/NGV_Guiseppe_Garibaldi.md",
+    "to_target": "NGV_Giuseppe_Garibaldi"
+  },
+  {
+    "from_page_id": 3734,
+    "from_namespace": 0,
+    "from_title": "Battle_of_Titanian_12",
+    "from_file": "articles/Battle_of_Titanian_12.md",
+    "to_target": "Second_Battle_of_Cronus"
+  },
+  {
+    "from_page_id": 3754,
+    "from_namespace": 0,
+    "from_title": "Blazton_Territorial_Air_Forces",
+    "from_file": "articles/Blazton_Territorial_Air_Forces.md",
+    "to_target": "Blasius_Territorial_Air_Forces"
+  },
+  {
+    "from_page_id": 3781,
+    "from_namespace": 0,
+    "from_title": "Annexation_of_Alpha_Centauri",
+    "from_file": "articles/Annexation_of_Alpha_Centauri.md",
+    "to_target": "Annexation_of_Bethija"
+  },
+  {
+    "from_page_id": 3806,
+    "from_namespace": 0,
+    "from_title": "Tronit_Class_War_Cruiser",
+    "from_file": "articles/Tronit_Class_War_Cruiser.md",
+    "to_target": "Tronit_Class_Warcruiser"
+  },
+  {
+    "from_page_id": 3807,
+    "from_namespace": 1,
+    "from_title": "Tronit_Class_War_Cruiser",
+    "from_file": "talk/articles/Tronit_Class_War_Cruiser.md",
+    "to_target": "Talk:Tronit_Class_Warcruiser"
+  },
+  {
+    "from_page_id": 3826,
+    "from_namespace": 0,
+    "from_title": "CG-3_Imposis",
+    "from_file": "articles/CG-3_Imposis.md",
+    "to_target": "FDS_Imposis"
+  },
+  {
+    "from_page_id": 3827,
+    "from_namespace": 0,
+    "from_title": "CG-1_Omaha",
+    "from_file": "articles/CG-1_Omaha.md",
+    "to_target": "FDS_Omaha"
+  },
+  {
+    "from_page_id": 3828,
+    "from_namespace": 0,
+    "from_title": "CG-2_Drake",
+    "from_file": "articles/CG-2_Drake.md",
+    "to_target": "FDS_Drake"
+  },
+  {
+    "from_page_id": 3853,
+    "from_namespace": 0,
+    "from_title": "Terran_Relativistic_Mass_Drivers",
+    "from_file": "articles/Terran_Relativistic_Mass_Drivers.md",
+    "to_target": "Terran_Mass_Drivers"
+  },
+  {
+    "from_page_id": 3865,
+    "from_namespace": 0,
+    "from_title": "F-9_Valkyrie",
+    "from_file": "articles/F-9_Valkyrie.md",
+    "to_target": "F-09_Carrier_Fighter_-_\"Valkyrie\""
+  },
+  {
+    "from_page_id": 3885,
+    "from_namespace": 0,
+    "from_title": "Ueda_District",
+    "from_file": "articles/Ueda_District.md",
+    "to_target": "Territory_of_the_Federated_Districts_of_the_Prefecture"
+  },
+  {
+    "from_page_id": 3910,
+    "from_namespace": 0,
+    "from_title": "RLI_Adelisk",
+    "from_file": "articles/RLI_Adelisk.md",
+    "to_target": "Adelisk_Class_Corvette"
+  },
+  {
+    "from_page_id": 3996,
+    "from_namespace": 0,
+    "from_title": "Lucius_Class_Battleship",
+    "from_file": "articles/Lucius_Class_Battleship.md",
+    "to_target": "Hydra_Class_Battleship"
+  },
+  {
+    "from_page_id": 3997,
+    "from_namespace": 0,
+    "from_title": "Ward_District",
+    "from_file": "articles/Ward_District.md",
+    "to_target": "Territory_of_the_Federated_Districts_of_the_Prefecture"
+  },
+  {
+    "from_page_id": 4009,
+    "from_namespace": 0,
+    "from_title": "F-12_Vampire",
+    "from_file": "articles/F-12_Vampire.md",
+    "to_target": "F-12_Superiority_Fighter_-_\"Vampire\""
+  },
+  {
+    "from_page_id": 4029,
+    "from_namespace": 0,
+    "from_title": "EI",
+    "from_file": "articles/EI.md",
+    "to_target": "Engineered_Intelligence"
+  },
+  {
+    "from_page_id": 4095,
+    "from_namespace": 0,
+    "from_title": "Alliance_Defense_Force",
+    "from_file": "articles/Alliance_Defense_Force.md",
+    "to_target": "Military_of_the_United_Earth_Alliance"
+  },
+  {
+    "from_page_id": 4101,
+    "from_namespace": 0,
+    "from_title": "HMS_Bahari_Shela",
+    "from_file": "articles/HMS_Bahari_Shela.md",
+    "to_target": "The_Bahari_Shela"
+  },
+  {
+    "from_page_id": 4130,
+    "from_namespace": 0,
+    "from_title": "Volucris_Blockade_Yngard_System",
+    "from_file": "articles/Volucris_Blockade_Yngard_System.md",
+    "to_target": "Volucris_Invasion_of_Kronheim"
+  },
+  {
+    "from_page_id": 4131,
+    "from_namespace": 1,
+    "from_title": "Volucris_Blockade_Yngard_System",
+    "from_file": "talk/articles/Volucris_Blockade_Yngard_System.md",
+    "to_target": "Talk:Volucris_Invasion_of_Kronheim"
+  },
+  {
+    "from_page_id": 4245,
+    "from_namespace": 0,
+    "from_title": "Invasion_of_Earth",
+    "from_file": "articles/Invasion_of_Earth.md",
+    "to_target": "First_Invasion_of_Sol"
+  },
+  {
+    "from_page_id": 4246,
+    "from_namespace": 1,
+    "from_title": "Invasion_of_Earth",
+    "from_file": "talk/articles/Invasion_of_Earth.md",
+    "to_target": "Talk:First_Invasion_of_Sol"
+  },
+  {
+    "from_page_id": 4247,
+    "from_namespace": 0,
+    "from_title": "Lyrae_Incursion",
+    "from_file": "articles/Lyrae_Incursion.md",
+    "to_target": "First_Invasion_of_Lyrae"
+  },
+  {
+    "from_page_id": 4248,
+    "from_namespace": 0,
+    "from_title": "Sacking_of_Tejat",
+    "from_file": "articles/Sacking_of_Tejat.md",
+    "to_target": "First_Invasion_of_Theta_Algedi"
+  },
+  {
+    "from_page_id": 4253,
+    "from_namespace": 0,
+    "from_title": "Forces_Clash_Around_Tethys",
+    "from_file": "articles/Forces_Clash_Around_Tethys.md",
+    "to_target": "First_Battle_of_Tethys"
+  },
+  {
+    "from_page_id": 4254,
+    "from_namespace": 1,
+    "from_title": "Forces_Clash_Around_Tethys",
+    "from_file": "talk/articles/Forces_Clash_Around_Tethys.md",
+    "to_target": "Talk:First_Battle_of_Tethys"
+  },
+  {
+    "from_page_id": 4260,
+    "from_namespace": 0,
+    "from_title": "April_Fools_Debacle",
+    "from_file": "articles/April_Fools_Debacle.md",
+    "to_target": "Third_Battle_of_Tethys_(Second_Exodus_War)"
+  },
+  {
+    "from_page_id": 4261,
+    "from_namespace": 1,
+    "from_title": "April_Fools_Debacle",
+    "from_file": "talk/articles/April_Fools_Debacle.md",
+    "to_target": "Talk:Third_Battle_of_Tethys_(Second_Exodus_War)"
+  },
+  {
+    "from_page_id": 4280,
+    "from_namespace": 0,
+    "from_title": "Ks-1_Pegasus",
+    "from_file": "articles/Ks-1_Pegasus.md",
+    "to_target": "Pegasus_Dropship"
+  },
+  {
+    "from_page_id": 4292,
+    "from_namespace": 0,
+    "from_title": "Archer_Armored_Car",
+    "from_file": "articles/Archer_Armored_Car.md",
+    "to_target": "T-88_Armored_Combat_Vehicle_-_\"Archer\""
+  },
+  {
+    "from_page_id": 4302,
+    "from_namespace": 0,
+    "from_title": "Ben_Parman",
+    "from_file": "articles/Ben_Parman.md",
+    "to_target": "Walter_Benjamin-Parman_von_Muench"
+  },
+  {
+    "from_page_id": 4303,
+    "from_namespace": 0,
+    "from_title": "Josh_Carter",
+    "from_file": "articles/Josh_Carter.md",
+    "to_target": "Joshua_Cartör_von_Fuerst"
+  },
+  {
+    "from_page_id": 4308,
+    "from_namespace": 0,
+    "from_title": "Auellal_Class_Variable_Cruiser",
+    "from_file": "articles/Auellal_Class_Variable_Cruiser.md",
+    "to_target": "Auellal_Class_Variable_Warship"
+  },
+  {
+    "from_page_id": 4328,
+    "from_namespace": 0,
+    "from_title": "Mesarnak_Overseers",
+    "from_file": "articles/Mesarnak_Overseers.md",
+    "to_target": "Overseer_Administration_of_the_Mesarthrim_Clans"
+  }
+]
