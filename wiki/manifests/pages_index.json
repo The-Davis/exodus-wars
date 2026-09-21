@@ -306,7 +306,9 @@
     "categories": [
       "Places"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 19,
@@ -455,7 +457,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 26,
@@ -585,7 +589,9 @@
     "categories": [
       "Planets"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 33,
@@ -639,7 +645,9 @@
     "categories": [
       "Galaxies"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 36,
@@ -1124,7 +1132,9 @@
     "view_count": 1271,
     "content_length": 1728,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/Places_Index.ts"
   },
   {
     "page_id": 64,
@@ -1140,7 +1150,9 @@
     "view_count": 142,
     "content_length": 30,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/Places_Index.ts"
   },
   {
     "page_id": 65,
@@ -2208,7 +2220,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 155,
@@ -8548,7 +8562,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 484,
@@ -10670,7 +10686,9 @@
     "categories": [
       "Moons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 608,
@@ -25533,7 +25551,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1513,
@@ -25553,7 +25573,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1514,
@@ -25571,7 +25593,9 @@
     "categories": [
       "Planets"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1515,
@@ -25589,7 +25613,9 @@
     "categories": [
       "Planets"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1516,
@@ -25607,7 +25633,9 @@
     "categories": [
       "Planets"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1517,
@@ -25627,7 +25655,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1518,
@@ -25645,7 +25675,9 @@
     "categories": [
       "Planets"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1519,
@@ -25665,7 +25697,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1520,
@@ -25685,7 +25719,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1521,
@@ -25705,7 +25741,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1522,
@@ -25725,7 +25763,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1523,
@@ -25745,7 +25785,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1524,
@@ -25765,7 +25807,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1525,
@@ -25785,7 +25829,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1526,
@@ -25805,7 +25851,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1527,
@@ -25825,7 +25873,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1528,
@@ -25845,7 +25895,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1529,
@@ -25863,7 +25915,9 @@
     "categories": [
       "Planets"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1530,
@@ -25881,7 +25935,9 @@
     "categories": [
       "Planets"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1531,
@@ -25899,7 +25955,9 @@
     "categories": [
       "Planets"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1532,
@@ -25917,7 +25975,9 @@
     "categories": [
       "Planets"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1533,
@@ -25937,7 +25997,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1534,
@@ -25957,7 +26019,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1535,
@@ -25977,7 +26041,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1536,
@@ -25997,7 +26063,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1537,
@@ -26017,7 +26085,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1538,
@@ -26427,7 +26497,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1561,
@@ -26483,7 +26555,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1564,
@@ -26539,7 +26613,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1568,
@@ -26659,7 +26735,9 @@
     "categories": [
       "Planets"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1575,
@@ -26715,7 +26793,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1578,
@@ -27602,7 +27682,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1635,
@@ -29134,7 +29216,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1729,
@@ -29200,7 +29284,9 @@
     "view_count": 121,
     "content_length": 565,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1734,
@@ -30947,7 +31033,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1839,
@@ -31079,7 +31167,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1847,
@@ -31496,7 +31586,9 @@
     "categories": [
       "Planets"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1873,
@@ -31733,7 +31825,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1887,
@@ -31945,7 +32039,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1900,
@@ -32001,7 +32097,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 1903,
@@ -35299,7 +35397,9 @@
     "categories": [
       "Planets"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 2211,
@@ -35317,7 +35417,9 @@
     "categories": [
       "Planets"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 2212,
@@ -50383,7 +50485,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 3279,
@@ -50471,7 +50575,9 @@
     "categories": [
       "Planets"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 3284,
@@ -50489,7 +50595,9 @@
     "categories": [
       "Planets"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 3285,
@@ -51031,7 +51139,9 @@
     "categories": [
       "Places"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 3317,
@@ -52631,7 +52741,9 @@
     "categories": [
       "Planets"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 3414,
@@ -53541,7 +53653,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 3480,
@@ -57624,7 +57738,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 3744,
@@ -57921,7 +58037,9 @@
     "categories": [
       "Places"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 3760,
@@ -57941,7 +58059,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 3761,
@@ -57975,7 +58095,9 @@
     "categories": [
       "Places"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 3763,
@@ -57995,7 +58117,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 3764,
@@ -58015,7 +58139,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 3765,
@@ -58035,7 +58161,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 3766,
@@ -58055,7 +58183,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 3767,
@@ -58096,7 +58226,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 3769,
@@ -58116,7 +58248,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 3770,
@@ -58136,7 +58270,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 3771,
@@ -58156,7 +58292,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 3772,
@@ -60019,7 +60157,9 @@
     ],
     "templates": [
       "Stellar_Navigation_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 3884,
@@ -60203,7 +60343,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 3894,
@@ -63531,7 +63673,9 @@
     ],
     "templates": [
       "Planet_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/placesArticles.ts"
   },
   {
     "page_id": 4095,

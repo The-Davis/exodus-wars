@@ -961,9 +961,9 @@ canvas {
 }
 
 /* ==========================================================================
-   Codex Person Information Infobox (Tactical Personnel Dossier)
+   Codex Infobox (Tactical Dossier / Astronomical Survey)
    ========================================================================== */
-.codex-infobox.person-information {
+.codex-infobox {
   float: right;
   width: 320px;
   margin: 0 0 20px 24px;
@@ -1207,7 +1207,7 @@ canvas {
 
 /* Responsive adjustment for Infobox */
 @media (max-width: 768px) {
-  .codex-infobox.person-information,
+  .codex-infobox,
   .codex-image-figure.align-right,
   .codex-image-figure.align-left {
     float: none;

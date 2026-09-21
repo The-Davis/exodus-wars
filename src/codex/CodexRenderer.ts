@@ -6,12 +6,25 @@ export class CodexRenderer {
         const baseUrl = import.meta.env.BASE_URL;
         let text = rawWikitext;
 
-        // 1. Parse Person Information template if present
+        // 1. Parse Infobox templates if present
         let infoboxHtml = '';
-        const tmplMatch = text.match(/\{\{Person[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
-        if (tmplMatch) {
-            text = text.replace(tmplMatch[0], '');
-            infoboxHtml = this.renderPersonInformation(tmplMatch[1], articleImages, baseUrl);
+        const personMatch = text.match(/\{\{Person[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
+        const planetMatch = text.match(/\{\{Planet[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
+        const stellarNavMatch = text.match(/\{\{Stellar[_ ]Navigation[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
+        const starMatch = text.match(/\{\{Star[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
+
+        if (personMatch) {
+            text = text.replace(personMatch[0], '');
+            infoboxHtml = this.renderPersonInformation(personMatch[1], articleImages, baseUrl);
+        } else if (planetMatch) {
+            text = text.replace(planetMatch[0], '');
+            infoboxHtml = this.renderPlanetInformation(planetMatch[1], articleImages, baseUrl);
+        } else if (stellarNavMatch) {
+            text = text.replace(stellarNavMatch[0], '');
+            infoboxHtml = this.renderStellarNavigationInformation(stellarNavMatch[1], articleImages, baseUrl);
+        } else if (starMatch) {
+            text = text.replace(starMatch[0], '');
+            infoboxHtml = this.renderStarInformation(starMatch[1], articleImages, baseUrl);
         }
 
         // 2. Extract Category tags at the bottom
@@ -118,11 +131,7 @@ export class CodexRenderer {
         return htmlBlocks.join('\n');
     }
 
-    private static renderPersonInformation(
-        body: string,
-        articleImages: Record<string, CodexImageEntry> | undefined,
-        baseUrl: string
-    ): string {
+    private static parseTemplateParams(body: string): Record<string, string> {
         const params: Record<string, string> = {};
         let currentKey: string | null = null;
 
@@ -136,18 +145,25 @@ export class CodexRenderer {
                 params[currentKey] += ' ' + line;
             }
         }
+        return params;
+    }
 
+    private static extractImageName(imageVal?: string): string {
+        if (!imageVal) return '';
+        const im = imageVal.match(/\[\[(?:Image|File):([^\|\]]+).*?\]\]/i);
+        if (im) return im[1].trim();
+        if (imageVal.match(/\.(png|jpg|jpeg|gif|webp)$/i)) return imageVal.trim();
+        return '';
+    }
+
+    private static renderPersonInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
         const name = params['name'] || 'Personnel Record';
-        const imageVal = params['image'] || '';
-        let imgName = '';
-        if (imageVal) {
-            const im = imageVal.match(/\[\[(?:Image|File):([^\|\]]+).*?\]\]/i);
-            if (im) {
-                imgName = im[1].trim();
-            } else if (imageVal.match(/\.(png|jpg|jpeg|gif|webp)$/i)) {
-                imgName = imageVal.trim();
-            }
-        }
+        const imgName = this.extractImageName(params['image']);
         const caption = params['caption'] || '';
         const birthDate = params['birth_date'] || '';
         const birthPlace = params['birth_place'] || '';
@@ -192,6 +208,119 @@ export class CodexRenderer {
                     <h3 class="infobox-name">${this.formatInline(name)}</h3>
                 </div>
                 ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderPlanetInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || 'Planetary Record';
+        const imgName = this.extractImageName(params['image']);
+        const caption = params['caption'] || '';
+
+        const starSystem = params['star_system'] || '';
+        const population = params['population'] || '';
+        const sovereign = params['sovereign'] || '';
+        const capital = params['capital'] || '';
+        const orbit = params['orbit'] || '';
+        const rotation = params['rotation'] || '';
+        const satellite = params['satellite'] || '';
+        const satelliteOrbit = params['satellite_orbit'] || '';
+
+        const rows: string[] = [];
+        if (starSystem) rows.push(`<tr><th>Star System</th><td>${this.formatInline(starSystem)}</td></tr>`);
+        if (population) rows.push(`<tr><th>Population</th><td>${this.formatInline(population)}</td></tr>`);
+        if (sovereign) rows.push(`<tr><th>Sovereign</th><td>${this.formatInline(sovereign)}</td></tr>`);
+        if (capital) rows.push(`<tr><th>Capital</th><td>${this.formatInline(capital)}</td></tr>`);
+        if (orbit) rows.push(`<tr><th>Orbit</th><td>${this.formatInline(orbit)}</td></tr>`);
+        if (rotation) rows.push(`<tr><th>Rotation</th><td>${this.formatInline(rotation)}</td></tr>`);
+        if (satellite) rows.push(`<tr><th>Satellite(s)</th><td>${this.formatInline(satellite)}</td></tr>`);
+        if (satelliteOrbit) rows.push(`<tr><th>Satellite Orbit</th><td>${this.formatInline(satelliteOrbit)}</td></tr>`);
+
+        let imgHtml = '';
+        if (imgName) {
+            imgHtml = this.renderImageContainer(imgName, articleImages, baseUrl, name, caption, false, true);
+        }
+
+        return `
+            <aside class="codex-infobox planet-information">
+                <div class="infobox-header planet-header">
+                    <div class="infobox-subtitle">ASTRONOMICAL SURVEY // PLANET</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderStellarNavigationInformation(
+        body: string,
+        _articleImages: Record<string, CodexImageEntry> | undefined,
+        _baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || 'Navigation Point';
+        const type = params['type'] || '';
+        const partOf = params['part_of'] || '';
+
+        const rows: string[] = [];
+        if (type) rows.push(`<tr><th>Navigation Type</th><td>${this.formatInline(type)}</td></tr>`);
+        if (partOf) rows.push(`<tr><th>Part Of</th><td>${this.formatInline(partOf)}</td></tr>`);
+
+        return `
+            <aside class="codex-infobox stellar-navigation">
+                <div class="infobox-header stellar-nav-header">
+                    <div class="infobox-subtitle">STELLAR CARTOGRAPHY // NAVIGATION POINT</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderStarInformation(
+        body: string,
+        _articleImages: Record<string, CodexImageEntry> | undefined,
+        _baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || 'Star System';
+        const sector = params['sector'] || '';
+        const stellarClass = params['stellar_class'] || '';
+        const planets = params['planets'] || '';
+
+        const rows: string[] = [];
+        if (sector) rows.push(`<tr><th>Sector</th><td>${this.formatInline(sector)}</td></tr>`);
+        if (stellarClass) rows.push(`<tr><th>Stellar Class</th><td>${this.formatInline(stellarClass)}</td></tr>`);
+        if (planets) rows.push(`<tr><th>Planets</th><td>${this.formatInline(planets)}</td></tr>`);
+
+        return `
+            <aside class="codex-infobox star-information">
+                <div class="infobox-header star-header">
+                    <div class="infobox-subtitle">STELLAR CARTOGRAPHY // STAR SYSTEM</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
                 <div class="infobox-divider"></div>
                 <table class="infobox-table">
                     <tbody>

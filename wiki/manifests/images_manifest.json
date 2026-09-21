@@ -699,7 +699,9 @@
     "timestamp": "2008-11-15 18:58:49",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Albanus_seen_from_Orbit.png"
+    "disk_filename": "Albanus_seen_from_Orbit.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Albanus_seen_from_Orbit.png"
   },
   {
     "image_name": "AlbatrosLightTransportVehicle1.jpg",
@@ -1158,7 +1160,9 @@
     "timestamp": "2008-02-17 21:44:28",
     "description": "Auellal Flag, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "AuellalFlag.png"
+    "disk_filename": "AuellalFlag.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AuellalFlag.png"
   },
   {
     "image_name": "AuellalResistance.png",
@@ -2445,7 +2449,9 @@
     "timestamp": "2008-10-17 23:07:05",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Ceres_from_orbit.png"
+    "disk_filename": "Ceres_from_orbit.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Ceres_from_orbit.png"
   },
   {
     "image_name": "CeylonFlag.jpg",
@@ -2757,7 +2763,9 @@
     "timestamp": "2009-04-08 00:10:28",
     "description": "Flag of the Comur Resistance.",
     "exists_on_disk": true,
-    "disk_filename": "ComurResistanceFlag.png"
+    "disk_filename": "ComurResistanceFlag.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ComurResistanceFlag.png"
   },
   {
     "image_name": "Continuation.png",
@@ -2796,7 +2804,9 @@
     "timestamp": "2008-10-07 04:38:21",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Cronus_from_orbit.png"
+    "disk_filename": "Cronus_from_orbit.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Cronus_from_orbit.png"
   },
   {
     "image_name": "CubaFlag.jpg",
@@ -3164,7 +3174,9 @@
     "timestamp": "2007-10-30 16:30:29",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Earth_seen_from_Orbit.png"
+    "disk_filename": "Earth_seen_from_Orbit.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Earth_seen_from_Orbit.png"
   },
   {
     "image_name": "EastGermanFlag.jpg",
@@ -3190,7 +3202,9 @@
     "timestamp": "2008-11-15 22:21:40",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Eciluge_seen_from_Orbit.png"
+    "disk_filename": "Eciluge_seen_from_Orbit.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Eciluge_seen_from_Orbit.png"
   },
   {
     "image_name": "EcuadorFlag.jpg",
@@ -3350,7 +3364,9 @@
     "timestamp": "2008-09-22 06:32:42",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Estelis_from_orbit.png"
+    "disk_filename": "Estelis_from_orbit.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Estelis_from_orbit.png"
   },
   {
     "image_name": "Eviscerator.jpg",
@@ -3818,7 +3834,9 @@
     "timestamp": "2007-11-16 19:05:10",
     "description": "New version",
     "exists_on_disk": true,
-    "disk_filename": "Flag_of_the_Yurtosh_hora_ven_Serthra.png"
+    "disk_filename": "Flag_of_the_Yurtosh_hora_ven_Serthra.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Flag_of_the_Yurtosh_hora_ven_Serthra.png"
   },
   {
     "image_name": "FlailSupportVehicle1.jpg",
@@ -4832,7 +4850,9 @@
     "timestamp": "2008-09-22 22:43:47",
     "description": "Taken from:\n[http://bareck.deviantart.com/art/Planet-Stock-5-44044252]\n\nUsed with permission. Copyright by Bareck, the original artist.",
     "exists_on_disk": true,
-    "disk_filename": "Holt_from_orbit.png"
+    "disk_filename": "Holt_from_orbit.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Holt_from_orbit.png"
   },
   {
     "image_name": "Howell.png",
@@ -5157,7 +5177,9 @@
     "timestamp": "2007-08-13 13:06:35",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Ipsof_Map.gif"
+    "disk_filename": "Ipsof_Map.gif",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Ipsof_Map.gif"
   },
   {
     "image_name": "Ipsoff.png",
@@ -5170,7 +5192,9 @@
     "timestamp": "2007-08-17 21:08:43",
     "description": "A 3d render of the Planet Ipsoff.",
     "exists_on_disk": true,
-    "disk_filename": "Ipsoff.png"
+    "disk_filename": "Ipsoff.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Ipsoff.png"
   },
   {
     "image_name": "IsraelFlag.jpg",
@@ -5222,7 +5246,9 @@
     "timestamp": "2007-08-13 13:02:35",
     "description": "Map of Jagarr by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Jagarr_Map.gif"
+    "disk_filename": "Jagarr_Map.gif",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Jagarr_Map.gif"
   },
   {
     "image_name": "Jaipur_seen_from_Orbit.png",
@@ -5235,7 +5261,9 @@
     "timestamp": "2008-11-15 19:49:25",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Jaipur_seen_from_Orbit.png"
+    "disk_filename": "Jaipur_seen_from_Orbit.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Jaipur_seen_from_Orbit.png"
   },
   {
     "image_name": "James_Avatar.png",
@@ -5963,7 +5991,9 @@
     "timestamp": "2007-10-02 06:19:29",
     "description": "Rotated Enwir to match planet graphic by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Lorithan_Map.png"
+    "disk_filename": "Lorithan_Map.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Lorithan_Map.png"
   },
   {
     "image_name": "Lorithan_seen_from_orbit.png",
@@ -5976,7 +6006,9 @@
     "timestamp": "2007-11-08 23:34:21",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Lorithan_seen_from_orbit.png"
+    "disk_filename": "Lorithan_seen_from_orbit.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Lorithan_seen_from_orbit.png"
   },
   {
     "image_name": "LorithosFlag.png",
@@ -6669,7 +6701,9 @@
     "timestamp": "2009-07-23 21:46:14",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Mars_from_orbit.png"
+    "disk_filename": "Mars_from_orbit.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Mars_from_orbit.png"
   },
   {
     "image_name": "Matthias_Carter_-_Looks_can_be_deceiving.png",
@@ -7111,7 +7145,9 @@
     "timestamp": "2007-09-25 16:27:31",
     "description": "By Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Mesar_Map.png"
+    "disk_filename": "Mesar_Map.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Mesar_Map.png"
   },
   {
     "image_name": "Mesarbauer-Satellites.png",
@@ -7228,7 +7264,9 @@
     "timestamp": "2009-02-10 09:46:47",
     "description": "Flag of the Mesarthrim Federation.",
     "exists_on_disk": true,
-    "disk_filename": "MesarthrimFederationFlag.png"
+    "disk_filename": "MesarthrimFederationFlag.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/MesarthrimFederationFlag.png"
   },
   {
     "image_name": "Mesarthrim_Church.png",
@@ -7254,7 +7292,9 @@
     "timestamp": "2007-09-22 15:59:01",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "MilkyWay.png"
+    "disk_filename": "MilkyWay.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/MilkyWay.png"
   },
   {
     "image_name": "MirdekSystem.png",
@@ -7280,7 +7320,9 @@
     "timestamp": "2008-10-12 23:50:27",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Mnemosyne_from_orbit.png"
+    "disk_filename": "Mnemosyne_from_orbit.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Mnemosyne_from_orbit.png"
   },
   {
     "image_name": "Morningstar.jpg",
@@ -8164,7 +8206,9 @@
     "timestamp": "2007-09-09 22:10:46",
     "description": "Flag of the Onyx Empire, designed by [[James Davis (Author)|James Davis]]",
     "exists_on_disk": true,
-    "disk_filename": "OnyxEmpireFlag.png"
+    "disk_filename": "OnyxEmpireFlag.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OnyxEmpireFlag.png"
   },
   {
     "image_name": "Orillian.png",
@@ -8359,7 +8403,9 @@
     "timestamp": "2010-03-11 21:20:20",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OverseerFlag.png"
+    "disk_filename": "OverseerFlag.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OverseerFlag.png"
   },
   {
     "image_name": "PL100Defender.jpg",
@@ -8619,7 +8665,9 @@
     "timestamp": "2008-11-15 18:10:07",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Pesht_from_orbit.png"
+    "disk_filename": "Pesht_from_orbit.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Pesht_from_orbit.png"
   },
   {
     "image_name": "PetrovClassFrigate1.jpg",
@@ -8697,7 +8745,9 @@
     "timestamp": "2008-10-13 01:52:47",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Phoebe_from_orbit.png"
+    "disk_filename": "Phoebe_from_orbit.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Phoebe_from_orbit.png"
   },
   {
     "image_name": "PolandFlag.png",
@@ -8931,7 +8981,9 @@
     "timestamp": "2007-08-02 07:23:50",
     "description": "Properly named flag for use in the Exodus Wiki.",
     "exists_on_disk": true,
-    "disk_filename": "PrefectureFlag.png"
+    "disk_filename": "PrefectureFlag.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PrefectureFlag.png"
   },
   {
     "image_name": "PrefectureLegionCorpsInfantryBadge.png",
@@ -10256,7 +10308,9 @@
     "timestamp": "2008-11-15 17:59:44",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Sindh_from_orbit.png"
+    "disk_filename": "Sindh_from_orbit.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Sindh_from_orbit.png"
   },
   {
     "image_name": "SingaporeFlag.jpg",
@@ -11365,7 +11419,9 @@
     "timestamp": "2008-09-22 06:12:34",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "The_Burned_Wreck,_Torimur.png"
+    "disk_filename": "The_Burned_Wreck,_Torimur.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/The_Burned_Wreck,_Torimur.png"
   },
   {
     "image_name": "Theia_from_orbit.png",
@@ -11378,7 +11434,9 @@
     "timestamp": "2008-10-06 05:42:49",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Theia_from_orbit.png"
+    "disk_filename": "Theia_from_orbit.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Theia_from_orbit.png"
   },
   {
     "image_name": "TorinoClassFreighter1.jpg",
@@ -12106,7 +12164,9 @@
     "timestamp": "2008-09-22 05:40:08",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Ueda_seen_from_Orbit.png"
+    "disk_filename": "Ueda_seen_from_Orbit.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Ueda_seen_from_Orbit.png"
   },
   {
     "image_name": "Ukag.png",
@@ -12158,7 +12218,9 @@
     "timestamp": "2008-02-17 20:14:35",
     "description": "New UCS Flag, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "UnitedCentusiStatesFlag.png"
+    "disk_filename": "UnitedCentusiStatesFlag.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UnitedCentusiStatesFlag.png"
   },
   {
     "image_name": "UnitedEarthAllianceFlag.png",
@@ -12171,7 +12233,9 @@
     "timestamp": "2007-08-27 20:07:47",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "UnitedEarthAllianceFlag.png"
+    "disk_filename": "UnitedEarthAllianceFlag.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UnitedEarthAllianceFlag.png"
   },
   {
     "image_name": "UnitedMesarthrimClansFlag.png",
@@ -12184,7 +12248,9 @@
     "timestamp": "2007-08-27 11:24:21",
     "description": "Flag of the [[United Mesarthrim Clans]], created by Andrew Sears.",
     "exists_on_disk": true,
-    "disk_filename": "UnitedMesarthrimClansFlag.png"
+    "disk_filename": "UnitedMesarthrimClansFlag.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UnitedMesarthrimClansFlag.png"
   },
   {
     "image_name": "UnitedNationsFlag.jpg",
@@ -12379,7 +12445,9 @@
     "timestamp": "2008-10-07 22:26:50",
     "description": "Venus image James sent me, turned to a globe.  Did you want me to make a new one, or use this one?  Do we have permission to use this one?",
     "exists_on_disk": true,
-    "disk_filename": "Venus.png"
+    "disk_filename": "Venus.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Venus.png"
   },
   {
     "image_name": "Victory_Class_Battleship_Side_View.jpg",
