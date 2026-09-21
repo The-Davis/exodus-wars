@@ -846,11 +846,112 @@ canvas {
   box-shadow: 0 0 25px rgba(0, 229, 255, 0.1) inset;
 }
 
-.codex-banner-logo {
-  max-width: 280px;
+/* Modern / Legacy Image Containers */
+.codex-image-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0;
+  position: relative;
+}
+
+.codex-image-container.can-toggle {
+  cursor: pointer;
+}
+
+.codex-image-wrapper {
+  position: relative;
+  display: inline-block;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid var(--primary-dim);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease;
+}
+
+.codex-image-container.can-toggle:hover .codex-image-wrapper {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.3);
+}
+
+.codex-displayed-image {
+  display: block;
+  max-width: 100%;
   height: auto;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.toggleable-cursor {
+  cursor: pointer;
+}
+
+/* Tactical Image Badge */
+.codex-image-badge {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background: rgba(5, 12, 20, 0.88);
+  border: 1px solid var(--primary-dim);
+  padding: 4px 10px;
+  font-family: 'Jura', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: var(--primary-color);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  backdrop-filter: blur(4px);
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+.codex-image-badge.toggleable {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 8px rgba(0, 229, 255, 0.2);
+}
+
+.codex-image-container.can-toggle:hover .codex-image-badge.toggleable {
+  background: var(--primary-color);
+  color: #000000;
+  box-shadow: 0 0 15px var(--primary-color);
+}
+
+.codex-image-badge.modern-only {
+  border-color: var(--primary-dim);
+  color: var(--primary-color);
+  opacity: 0.8;
+}
+
+.codex-image-badge.legacy-only {
+  border-color: var(--secondary-dim);
+  color: var(--secondary-color);
+  opacity: 0.85;
+}
+
+.badge-icon {
+  font-size: 13px;
+}
+
+/* Banner specific overrides */
+.codex-article-banner .codex-image-wrapper {
+  border: none;
+  box-shadow: none;
+  background: transparent;
+}
+
+.codex-article-banner .codex-banner-logo {
+  max-height: 180px;
+  width: auto;
+  object-fit: contain;
   filter: drop-shadow(0 0 15px rgba(0, 229, 255, 0.4));
-  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.codex-article-banner .codex-image-container.can-toggle:hover .codex-banner-logo {
+  filter: drop-shadow(0 0 25px rgba(0, 229, 255, 0.8));
+  transform: scale(1.02);
 }
 
 .codex-banner-title {

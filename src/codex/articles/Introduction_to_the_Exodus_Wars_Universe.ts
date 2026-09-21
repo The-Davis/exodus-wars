@@ -8,6 +8,14 @@ export const introArticle: CodexArticle = {
     lastUpdated: '2008-10-19 02:44:47',
     categories: [],
     summary: 'The foundational overview of galactic history, major human and alien civilizations, the Great Sundering, and the origins of the Exodus Wars.',
+    images: {
+        'EWLogo.png': {
+            modern: 'assets/codex/EWLogo_modern.png',
+            legacy: 'assets/codex/EWLogo.png',
+            alt: 'Exodus Wars Emblem',
+            caption: 'Exodus Wars Universe Logo'
+        }
+    },
     rawContent: `[[Image:EWLogo.png]] Welcome to the Exodus Wars Universe.
 
 

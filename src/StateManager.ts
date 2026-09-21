@@ -233,9 +233,45 @@ export class StateManager {
         if (breadcrumbEl) breadcrumbEl.innerText = this.currentArticle.title.toUpperCase();
 
         if (contentEl) {
-            contentEl.innerHTML = CodexRenderer.render(this.currentArticle.rawContent);
+            contentEl.innerHTML = CodexRenderer.render(this.currentArticle.rawContent, this.currentArticle.images);
             this.bindArticleContentLinks(contentEl);
+            this.bindArticleImageToggles(contentEl);
         }
+    }
+
+    private bindArticleImageToggles(container: HTMLElement): void {
+        const imageContainers = container.querySelectorAll('.codex-image-container');
+
+        imageContainers.forEach((containerEl) => {
+            const canToggle = containerEl.getAttribute('data-can-toggle') === 'true';
+            if (!canToggle) return; // Only toggle if both modern and legacy are present
+
+            const imgEl = containerEl.querySelector('.codex-displayed-image') as HTMLImageElement | null;
+            const badgeLabel = containerEl.querySelector('.badge-label') as HTMLSpanElement | null;
+            const modernSrc = containerEl.getAttribute('data-modern-src');
+            const legacySrc = containerEl.getAttribute('data-legacy-src');
+
+            if (!imgEl || !modernSrc || !legacySrc) return;
+
+            containerEl.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const currentMode = containerEl.getAttribute('data-current-mode');
+
+                if (currentMode === 'modern') {
+                    imgEl.src = legacySrc;
+                    containerEl.setAttribute('data-current-mode', 'legacy');
+                    containerEl.classList.remove('mode-modern');
+                    containerEl.classList.add('mode-legacy');
+                    if (badgeLabel) badgeLabel.innerText = 'LEGACY (CLICK FOR MODERN)';
+                } else {
+                    imgEl.src = modernSrc;
+                    containerEl.setAttribute('data-current-mode', 'modern');
+                    containerEl.classList.remove('mode-legacy');
+                    containerEl.classList.add('mode-modern');
+                    if (badgeLabel) badgeLabel.innerText = 'MODERN (CLICK FOR LEGACY)';
+                }
+            });
+        });
     }
 
     private bindArticleContentLinks(container: HTMLElement): void {
