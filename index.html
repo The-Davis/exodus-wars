@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Exodus Wars</title>
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
+        <link rel="stylesheet" href="/src/style.css" />
+    </head>
+    <body>
+        <div id="app-container">
+            <!-- Map Canvas where all drawing happens -->
+            <canvas id="mapCanvas"></canvas>
+            
+            <!-- Controls Overlay -->
+            <div id="controls">
+                <button class="btn-back" id="btnBack">Back</button>
+            </div>
+
+            <!-- CSS Frame -->
+            <div id="css-frame">
+                <div class="frame-corner tl"></div>
+                <div class="frame-corner tr"></div>
+                <div class="frame-corner bl"></div>
+                <div class="frame-corner br"></div>
+            </div>
+
+            <!-- Dev Coordinates -->
+            <div id="dev-coordinates">X: 0.000 | Y: 0.000</div>
+
+            <!-- Info Box (Codex) -->
+            <div id="infobox">
+                <h1 id="info-title">Planet Name</h1>
+                <div class="stats">
+                    <div class="stat-label">Mass:</div>
+                    <div class="stat-value" id="info-mass">1.0 Earths</div>
+                    
+                    <div class="stat-label">Orbit Time:</div>
+                    <div class="stat-value" id="info-orbit">365 Days</div>
+                    
+                    <div class="stat-label">Rotation:</div>
+                    <div class="stat-value" id="info-rotation">24 Hours</div>
+                    
+                    <div class="stat-label">Temperature:</div>
+                    <div class="stat-value" id="info-temp">288 K</div>
+                </div>
+                <div class="description" id="info-desc">
+                    Worldbuilding lore goes here.
+                </div>
+            </div>
+
+        </div>
+        
+        <script type="module" src="/src/Main.ts"></script>
+    </body>
+</html>
