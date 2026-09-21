@@ -3,21 +3,22 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Exodus Wars</title>
+        <title>Exodus Wars - Galactic Codex</title>
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
         <link rel="stylesheet" href="/src/style.css" />
     </head>
     <body>
         <div id="app-container">
-            <!-- Map Canvas where all drawing happens -->
+            <!-- Map Canvas where ambient & tactical drawing happens -->
             <canvas id="mapCanvas"></canvas>
             
-            <!-- Controls Overlay -->
+            <!-- Starmap Controls Overlay -->
             <div id="controls">
+                <button class="btn-hud" id="btnCodex">◄ Galactic Codex</button>
                 <button class="btn-back" id="btnBack">Back</button>
             </div>
 
-            <!-- CSS Frame -->
+            <!-- CSS Frame Overlay -->
             <div id="css-frame">
                 <div class="frame-corner tl"></div>
                 <div class="frame-corner tr"></div>
@@ -28,7 +29,7 @@
             <!-- Dev Coordinates -->
             <div id="dev-coordinates">X: 0.000 | Y: 0.000</div>
 
-            <!-- Info Box (Codex) -->
+            <!-- Starmap Info Box (Codex Planet View) -->
             <div id="infobox">
                 <h1 id="info-title">Planet Name</h1>
                 <div class="stats">
@@ -46,6 +47,198 @@
                 </div>
                 <div class="description" id="info-desc">
                     Worldbuilding lore goes here.
+                </div>
+            </div>
+
+            <!-- Galactic Codex Landing Page -->
+            <div id="codex-landing">
+                <header class="codex-header">
+                    <div class="codex-header-title">
+                        <div class="codex-status-bar">
+                            <span class="status-dot"></span>
+                            <span class="codex-badge">SYS.ARCHIVE // CANON RECORDS</span>
+                            <span class="codex-version">DATABASE VER: 2008.EW</span>
+                        </div>
+                        <h1>Exodus Wars</h1>
+                        <div class="codex-subtitle">Galactic Codex & Tactical Information Database</div>
+                    </div>
+                    <button class="btn-starmap" id="btnLaunchStarmapTop">
+                        <span class="btn-starmap-icon">❖</span>
+                        <span class="btn-starmap-text">Tactical Starmap</span>
+                        <span class="btn-starmap-arrow">➔</span>
+                    </button>
+                </header>
+
+                <div class="codex-content-body">
+                    <!-- Origin & Welcome Panel -->
+                    <section class="codex-panel codex-intro-panel">
+                        <p class="lead-text">
+                            Welcome to the <strong>Exodus Wars</strong> information database. This site is dedicated to documenting canon sources of information for the series of stories known as <em>"The Exodus Wars."</em> While this front page, and the <a href="#/category/Authors" class="codex-link" data-type="Category" data-title="Authors">Authors</a> section is devoted to real life, we hope that the articles themselves will be immersive and entertaining to any reader.
+                        </p>
+                        <p class="history-text">
+                            The Exodus Wars were first conceived in 1998, by <a href="#/article/James_Davis_(author)" class="codex-link" data-type="Author" data-title="James Davis (author)">James Davis</a> and <a href="#/article/Scott_Sanburn_(author)" class="codex-link" data-type="Author" data-title="Scott Sanburn (author)">Scott Sanburn</a>. It started as a small site on a cheap web account dedicated to hosting pictures of LEGO<sup>TM</sup> models. As time went on, we began writing stories to go with the models.
+                        </p>
+                    </section>
+
+                    <!-- Recommended Starting Point -->
+                    <div class="codex-recommendation">
+                        <div class="rec-badge">RECOMMENDED DEPLOYMENT VECTOR</div>
+                        <div class="rec-body">
+                            If this is your first visit, we recommend you start at the <a href="#/article/Introduction_to_the_Exodus_Wars_Universe" class="codex-link-primary" data-type="Article" data-title="Introduction to the Exodus Wars Universe">Introduction to the Exodus Wars Universe</a>.
+                        </div>
+                    </div>
+
+                    <!-- Major Topics Section -->
+                    <section class="codex-topics-section">
+                        <div class="section-header">
+                            <h2>// Major Topics Archive</h2>
+                            <div class="header-rule"></div>
+                        </div>
+
+                        <div class="topics-grid">
+                            <!-- Card 1: People -->
+                            <div class="topic-card" data-type="Article" data-title="People">
+                                <div class="topic-card-header">
+                                    <span class="topic-tag">TOPIC</span>
+                                    <h3><a href="#/article/People" class="topic-link" data-type="Article" data-title="People">[ People ]</a></h3>
+                                </div>
+                                <p class="topic-desc">Browse a list of people of varying degrees of importance.</p>
+                            </div>
+
+                            <!-- Card 2: Places -->
+                            <div class="topic-card" data-type="Category" data-title="Places">
+                                <div class="topic-card-header">
+                                    <span class="topic-tag category">CATEGORY</span>
+                                    <h3><a href="#/category/Places" class="topic-link" data-type="Category" data-title="Places">[ Places ]</a></h3>
+                                </div>
+                                <p class="topic-desc">Browse a list of places, organized by size and location.</p>
+                            </div>
+
+                            <!-- Card 3: History -->
+                            <div class="topic-card" data-type="Category" data-title="History">
+                                <div class="topic-card-header">
+                                    <span class="topic-tag category">CATEGORY</span>
+                                    <h3><a href="#/category/History" class="topic-link" data-type="Category" data-title="History">[ History ]</a></h3>
+                                </div>
+                                <p class="topic-desc">View major events, year summaries, and individual histories.</p>
+                            </div>
+
+                            <!-- Card 4: Scientific Principles -->
+                            <div class="topic-card" data-type="Article" data-title="Scientific Principles">
+                                <div class="topic-card-header">
+                                    <span class="topic-tag">TOPIC</span>
+                                    <h3><a href="#/article/Scientific_Principles" class="topic-link" data-type="Article" data-title="Scientific Principles">[ Scientific Principles ]</a></h3>
+                                </div>
+                                <p class="topic-desc">View scientific concepts and principles known to the people of the Exodus Wars universe.</p>
+                            </div>
+
+                            <!-- Card 5: Engineering Systems -->
+                            <div class="topic-card" data-type="Article" data-title="Engineering Systems">
+                                <div class="topic-card-header">
+                                    <span class="topic-tag">TOPIC</span>
+                                    <h3><a href="#/article/Engineering_Systems" class="topic-link" data-type="Article" data-title="Engineering Systems">[ Engineering Systems ]</a></h3>
+                                </div>
+                                <p class="topic-desc">View weapons, defenses, and computer systems: the things that tie all technology together.</p>
+                            </div>
+
+                            <!-- Card 6: Technological Catalogs -->
+                            <div class="topic-card" data-type="Article" data-title="Technological Catalogs">
+                                <div class="topic-card-header">
+                                    <span class="topic-tag">TOPIC</span>
+                                    <h3><a href="#/article/Technological_Catalogs" class="topic-link" data-type="Article" data-title="Technological Catalogs">[ Technological Catalogs ]</a></h3>
+                                </div>
+                                <p class="topic-desc">View tanks, warships, aircraft, and other astounding feats of technology.</p>
+                            </div>
+
+                            <!-- Card 7: Architectural Achievements -->
+                            <div class="topic-card" data-type="Article" data-title="Architectural Achievements">
+                                <div class="topic-card-header">
+                                    <span class="topic-tag">TOPIC</span>
+                                    <h3><a href="#/article/Architectural_Achievements" class="topic-link" data-type="Article" data-title="Architectural Achievements">[ Architectural Achievements ]</a></h3>
+                                </div>
+                                <p class="topic-desc">View building schematics, bridges, and important man-made landmarks.</p>
+                            </div>
+
+                            <!-- Card 8: Tactics and Treatises -->
+                            <div class="topic-card" data-type="Article" data-title="Tactics and Treatises">
+                                <div class="topic-card-header">
+                                    <span class="topic-tag">TOPIC</span>
+                                    <h3><a href="#/article/Tactics_and_Treatises" class="topic-link" data-type="Article" data-title="Tactics and Treatises">[ Tactics and Treatises ]</a></h3>
+                                </div>
+                                <p class="topic-desc">View treatises and essays on tactics and other topics important to the Exodus Wars universe.</p>
+                            </div>
+
+                            <!-- Card 9: Races -->
+                            <div class="topic-card" data-type="Category" data-title="Races">
+                                <div class="topic-card-header">
+                                    <span class="topic-tag category">CATEGORY</span>
+                                    <h3><a href="#/category/Races" class="topic-link" data-type="Category" data-title="Races">[ Races ]</a></h3>
+                                </div>
+                                <p class="topic-desc">View the various races indigenous to the Exodus Wars universe.</p>
+                            </div>
+
+                            <!-- Card 10: Nations -->
+                            <div class="topic-card" data-type="Category" data-title="Nations">
+                                <div class="topic-card-header">
+                                    <span class="topic-tag category">CATEGORY</span>
+                                    <h3><a href="#/category/Nations" class="topic-link" data-type="Category" data-title="Nations">[ Nations ]</a></h3>
+                                </div>
+                                <p class="topic-desc">View the governments and nations of the Exodus Wars universe, both past and present.</p>
+                            </div>
+
+                            <!-- Card 11: Corporations -->
+                            <div class="topic-card" data-type="Category" data-title="Companies">
+                                <div class="topic-card-header">
+                                    <span class="topic-tag category">CATEGORY</span>
+                                    <h3><a href="#/category/Companies" class="topic-link" data-type="Category" data-title="Companies">[ Corporations ]</a></h3>
+                                </div>
+                                <p class="topic-desc">View the private organizations that produce the technologies and services that drive the Exodus Wars universe.</p>
+                            </div>
+
+                            <!-- Card 12: Economics -->
+                            <div class="topic-card" data-type="Category" data-title="Economics">
+                                <div class="topic-card-header">
+                                    <span class="topic-tag category">CATEGORY</span>
+                                    <h3><a href="#/category/Economics" class="topic-link" data-type="Category" data-title="Economics">[ Economics ]</a></h3>
+                                </div>
+                                <p class="topic-desc">View the various economic topics of varying importance.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Starmap Banner -->
+                    <section class="codex-starmap-banner">
+                        <div class="starmap-banner-text">
+                            <div class="banner-badge">INTERACTIVE MODULE</div>
+                            <h3>Tactical Starmap Interface</h3>
+                            <p>Transition from the Galactic Codex into the tactical navigation grid. Survey colonized sectors, star clusters, orbital bodies, and localized planetary telemetry.</p>
+                        </div>
+                        <button class="btn-starmap-large" id="btnLaunchStarmapBottom">
+                            <span>Launch Tactical Starmap ➔</span>
+                        </button>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Codex Preview / Action Modal -->
+            <div id="codex-modal" class="codex-modal" style="display: none;">
+                <div class="modal-backdrop"></div>
+                <div class="modal-window">
+                    <div class="modal-header">
+                        <span class="modal-badge">ARCHIVE RECORD</span>
+                        <h3 id="modalTitle">Archive Entry</h3>
+                        <button id="modalClose" class="modal-close-btn">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p id="modalMessage">Target record selected.</p>
+                        <div class="modal-status">
+                            <span class="status-indicator"></span>
+                            <span>Import Status: Article and category import scheduled for next deployment phase.</span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button id="modalDismiss" class="btn-hud">Acknowledge</button>
+                    </div>
                 </div>
             </div>
 

@@ -9,9 +9,11 @@ export class InputHandler {
         this.canvas = canvas;
 
         this.bindEvents();
+        this.bindCodexUI();
+        this.handleInitialHash();
     }
 
-    private bindEvents() {
+    private bindEvents(): void {
         window.addEventListener('resize', () => {
             this.resizeCanvas();
         });
@@ -33,8 +35,17 @@ export class InputHandler {
 
         window.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') {
-                this.stateManager.goBack();
+                const modal = document.getElementById('codex-modal');
+                if (modal && modal.style.display !== 'none') {
+                    modal.style.display = 'none';
+                } else {
+                    this.stateManager.goBack();
+                }
             }
+        });
+
+        window.addEventListener('hashchange', () => {
+            this.handleInitialHash();
         });
 
         const btnBack = document.getElementById('btnBack');
@@ -45,11 +56,88 @@ export class InputHandler {
         }
     }
 
-    private resizeCanvas() {
+    private handleInitialHash(): void {
+        const hash = window.location.hash.toLowerCase();
+        if (hash.includes('starmap')) {
+            this.stateManager.showStarmap();
+        } else {
+            this.stateManager.showCodex();
+        }
+    }
+
+    private bindCodexUI(): void {
+        // Return to Codex button from Starmap
+        const btnCodex = document.getElementById('btnCodex');
+        if (btnCodex) {
+            btnCodex.addEventListener('click', () => {
+                window.location.hash = '#/codex';
+                this.stateManager.showCodex();
+            });
+        }
+
+        // Launch Starmap buttons on Codex landing page
+        const btnLaunchTop = document.getElementById('btnLaunchStarmapTop');
+        if (btnLaunchTop) {
+            btnLaunchTop.addEventListener('click', () => {
+                window.location.hash = '#/starmap';
+                this.stateManager.showStarmap();
+            });
+        }
+
+        const btnLaunchBottom = document.getElementById('btnLaunchStarmapBottom');
+        if (btnLaunchBottom) {
+            btnLaunchBottom.addEventListener('click', () => {
+                window.location.hash = '#/starmap';
+                this.stateManager.showStarmap();
+            });
+        }
+
+        // Modal elements
+        const modal = document.getElementById('codex-modal');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalMessage = document.getElementById('modalMessage');
+        const modalClose = document.getElementById('modalClose');
+        const modalDismiss = document.getElementById('modalDismiss');
+
+        const closeModal = (): void => {
+            if (modal) modal.style.display = 'none';
+        };
+
+        if (modalClose) modalClose.addEventListener('click', closeModal);
+        if (modalDismiss) modalDismiss.addEventListener('click', closeModal);
+        if (modal) {
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal || (e.target as HTMLElement).classList.contains('modal-backdrop')) {
+                    closeModal();
+                }
+            });
+        }
+
+        // Handle clicks on all codex links
+        const codexLinks = document.querySelectorAll('.codex-link, .codex-link-primary, .topic-card');
+        codexLinks.forEach((el) => {
+            el.addEventListener('click', (e) => {
+                const target = el as HTMLElement;
+                const link = (target.tagName === 'A' ? target : target.querySelector('a')) as HTMLAnchorElement | null;
+                const title = link ? (link.getAttribute('data-title') || link.innerText) : target.innerText;
+                const type = link ? (link.getAttribute('data-type') || 'Article') : 'Archive Record';
+
+                // Prevent default jump for non-starmap links
+                e.preventDefault();
+
+                if (modal && modalTitle && modalMessage) {
+                    modalTitle.innerText = `${type.toUpperCase()}: ${title}`;
+                    modalMessage.innerHTML = `You have selected <strong>${title}</strong> from the Galactic Codex archives.<br><br>Detailed article view and category imports are scheduled for the next deployment phase.`;
+                    modal.style.display = 'flex';
+                }
+            });
+        });
+    }
+
+    private resizeCanvas(): void {
         this.canvas.width = window.innerWidth;
         this.canvas.height = window.innerHeight;
     
-        // Also resize uiCanvas just in case we need it
         const uiCanvas = document.getElementById('uiCanvas') as HTMLCanvasElement;
         if (uiCanvas) {
             uiCanvas.width = window.innerWidth;

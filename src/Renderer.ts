@@ -6,7 +6,7 @@ export class Renderer {
         radius: number,
         color: string,
         glowStrength: number = 15
-    ) {
+    ): void {
         ctx.save();
         ctx.beginPath();
         ctx.arc(x, y, radius, 0, Math.PI * 2);
@@ -25,7 +25,7 @@ export class Renderer {
         size: number,
         color: string,
         time: number
-    ) {
+    ): void {
         const rotation = time * 0.001;
         ctx.save();
         ctx.translate(x, y);
@@ -62,7 +62,7 @@ export class Renderer {
         x: number,
         y: number,
         color: string
-    ) {
+    ): void {
         ctx.save();
         ctx.font = '16px Jura';
         ctx.fillStyle = color;
@@ -91,7 +91,7 @@ export class Renderer {
         y: number,
         radius: number,
         color: string
-    ) {
+    ): void {
         ctx.save();
         ctx.beginPath();
         ctx.arc(x, y, radius, 0, Math.PI * 2);
