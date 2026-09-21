@@ -687,7 +687,7 @@ canvas {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  #codex-landing {
+  #codex-landing, #codex-article-view {
     top: 15px;
     left: 15px;
     right: 15px;
@@ -707,4 +707,205 @@ canvas {
   .topics-grid {
     grid-template-columns: 1fr;
   }
+  .article-nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
 }
+
+/* =========================================
+   Galactic Codex Article Viewer
+   ========================================= */
+#codex-article-view {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  right: 35px;
+  bottom: 35px;
+  z-index: 12;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 30px 45px 50px 45px;
+  background: var(--bg-translucent);
+  border: 1px solid var(--primary-dim);
+  box-shadow: 0 0 35px rgba(0, 229, 255, 0.12) inset, 0 0 30px rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(8px);
+  border-radius: 4px;
+}
+
+#codex-article-view::-webkit-scrollbar {
+  width: 8px;
+}
+#codex-article-view::-webkit-scrollbar-track {
+  background: rgba(2, 5, 8, 0.6);
+}
+#codex-article-view::-webkit-scrollbar-thumb {
+  background: var(--primary-dim);
+  border-radius: 4px;
+}
+#codex-article-view::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+  box-shadow: 0 0 10px var(--primary-color);
+}
+
+.article-header {
+  border-bottom: 1px solid var(--primary-dim);
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.article-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.article-breadcrumbs {
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.crumb-root {
+  color: var(--text-muted);
+}
+
+.crumb-current {
+  color: var(--text-highlight);
+  font-weight: 700;
+}
+
+.article-title-block {
+  margin-top: 10px;
+}
+
+.article-meta-pills {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.pill-badge {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--primary-color);
+  background: rgba(0, 229, 255, 0.1);
+  border: 1px solid var(--primary-dim);
+  padding: 3px 8px;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+.pill-item {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  background: rgba(5, 15, 25, 0.6);
+  border: 1px solid rgba(0, 229, 255, 0.15);
+  padding: 3px 8px;
+  border-radius: 2px;
+}
+
+.article-header h1 {
+  margin: 0;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  color: var(--text-highlight);
+  text-shadow: 0 0 15px rgba(0, 229, 255, 0.3);
+}
+
+.article-content {
+  max-width: 950px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 16px;
+  color: var(--text-main);
+}
+
+/* Article Banner with EWLogo.png */
+.codex-article-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(0, 229, 255, 0.08) 0%, rgba(5, 15, 25, 0.8) 100%);
+  border: 1px solid var(--primary-dim);
+  border-radius: 4px;
+  padding: 35px 25px 30px 25px;
+  margin-bottom: 35px;
+  box-shadow: 0 0 25px rgba(0, 229, 255, 0.1) inset;
+}
+
+.codex-banner-logo {
+  max-width: 280px;
+  height: auto;
+  filter: drop-shadow(0 0 15px rgba(0, 229, 255, 0.4));
+  margin-bottom: 15px;
+}
+
+.codex-banner-title {
+  margin: 0;
+  font-size: 26px;
+  letter-spacing: 3px;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.codex-p {
+  margin: 0 0 20px 0;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.codex-h2 {
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--primary-dim);
+  padding-bottom: 8px;
+  margin: 35px 0 18px 0;
+}
+
+.codex-h3 {
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  margin: 25px 0 12px 0;
+}
+
+.codex-wikilink {
+  color: var(--primary-color);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--primary-dim);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.codex-wikilink:hover {
+  color: #ffffff;
+  border-bottom-color: #ffffff;
+  text-shadow: 0 0 8px var(--primary-color);
+}
+
+.article-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--primary-dim);
+  padding-top: 25px;
+  margin-top: 50px;
+}
+

@@ -1,17 +1,14 @@
----
-title: "Introduction_to_the_Exodus_Wars_Universe"
-page_id: 3154
-namespace: 0
-namespace_name: "Main"
-latest_revision_id: 10247
-last_updated: "2008-10-19 02:44:47"
-author: "ABailey"
-is_redirect: false
-categories: []
-templates: []
----
+import { CodexArticle } from '../types';
 
-[[Image:EWLogo.png]] Welcome to the Exodus Wars Universe.
+export const introArticle: CodexArticle = {
+    id: 3154,
+    slug: 'Introduction_to_the_Exodus_Wars_Universe',
+    title: 'Introduction to the Exodus Wars Universe',
+    author: 'ABailey',
+    lastUpdated: '2008-10-19 02:44:47',
+    categories: [],
+    summary: 'The foundational overview of galactic history, major human and alien civilizations, the Great Sundering, and the origins of the Exodus Wars.',
+    rawContent: `[[Image:EWLogo.png]] Welcome to the Exodus Wars Universe.
 
 
 The [[history]] of this universe begins with the [[Anthronoris]], the ancestors of all the races of humanity.  [[Pax Anthronoris]], their “eternal empire”, stretched across all of known space, dazzling in its majesty, unrivaled in its power.  
@@ -67,4 +64,5 @@ And then something terrible occurred.  During the height of the Battle of Kronhe
 
 The galaxy now stands on the brink of disaster.  The Tempest War between the Prefecture and Mesarthrim promises to dwarf even the Second Exodus War in terms of sheer bloodshed, and the Volucris still pose a terrible threat.  Hidden powers slink through the void outside known space: the [[Remnant]], the survivors of the Anthronoris fleet, the Gorhamut, who created the Anderung and the Volucris, and the Ngrligru, the voracious authors of the Sundering.  
 
-The survival of all humanity is in jeopardy.
+The survival of all humanity is in jeopardy.`
+};

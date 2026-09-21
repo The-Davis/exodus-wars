@@ -1,4 +1,5 @@
 import { StateManager } from './StateManager';
+import { getCodexArticle } from './codex/articleRegistry';
 
 export class InputHandler {
     private stateManager: StateManager;
@@ -60,7 +61,18 @@ export class InputHandler {
         const hash = window.location.hash.toLowerCase();
         if (hash.includes('starmap')) {
             this.stateManager.showStarmap();
+        } else if (hash.includes('introduction_to_the_exodus_wars_universe') || hash.includes('introduction')) {
+            this.stateManager.showCodex('Introduction_to_the_Exodus_Wars_Universe');
         } else {
+            // check if hash has a slug: #/codex/Slug or #/article/Slug
+            const match = window.location.hash.match(/^#\/(?:codex|article)\/([^/]+)/i);
+            if (match && match[1]) {
+                const slug = decodeURIComponent(match[1]);
+                if (getCodexArticle(slug)) {
+                    this.stateManager.showCodex(slug);
+                    return;
+                }
+            }
             this.stateManager.showCodex();
         }
     }
@@ -92,6 +104,39 @@ export class InputHandler {
             });
         }
 
+        // Article view navigation buttons
+        const btnBackToLanding = document.getElementById('btnBackToLanding');
+        if (btnBackToLanding) {
+            btnBackToLanding.addEventListener('click', () => {
+                window.location.hash = '#/codex';
+                this.stateManager.showCodex();
+            });
+        }
+
+        const btnFooterBack = document.getElementById('btnFooterBack');
+        if (btnFooterBack) {
+            btnFooterBack.addEventListener('click', () => {
+                window.location.hash = '#/codex';
+                this.stateManager.showCodex();
+            });
+        }
+
+        const btnLaunchStarmapArticle = document.getElementById('btnLaunchStarmapArticle');
+        if (btnLaunchStarmapArticle) {
+            btnLaunchStarmapArticle.addEventListener('click', () => {
+                window.location.hash = '#/starmap';
+                this.stateManager.showStarmap();
+            });
+        }
+
+        const btnFooterStarmap = document.getElementById('btnFooterStarmap');
+        if (btnFooterStarmap) {
+            btnFooterStarmap.addEventListener('click', () => {
+                window.location.hash = '#/starmap';
+                this.stateManager.showStarmap();
+            });
+        }
+
         // Modal elements
         const modal = document.getElementById('codex-modal');
         const modalTitle = document.getElementById('modalTitle');
@@ -113,7 +158,7 @@ export class InputHandler {
             });
         }
 
-        // Handle clicks on all codex links
+        // Handle clicks on codex landing links
         const codexLinks = document.querySelectorAll('.codex-link, .codex-link-primary, .topic-card');
         codexLinks.forEach((el) => {
             el.addEventListener('click', (e) => {
@@ -122,12 +167,21 @@ export class InputHandler {
                 const title = link ? (link.getAttribute('data-title') || link.innerText) : target.innerText;
                 const type = link ? (link.getAttribute('data-type') || 'Article') : 'Archive Record';
 
+                // Check if target is an imported article (e.g. Introduction to the Exodus Wars Universe)
+                const article = getCodexArticle(title);
+                if (article) {
+                    e.preventDefault();
+                    window.location.hash = `#/codex/${article.slug}`;
+                    this.stateManager.showCodex(article.slug);
+                    return;
+                }
+
                 // Prevent default jump for non-starmap links
                 e.preventDefault();
 
                 if (modal && modalTitle && modalMessage) {
                     modalTitle.innerText = `${type.toUpperCase()}: ${title}`;
-                    modalMessage.innerHTML = `You have selected <strong>${title}</strong> from the Galactic Codex archives.<br><br>Detailed article view and category imports are scheduled for the next deployment phase.`;
+                    modalMessage.innerHTML = `You have selected <strong>${title}</strong> from the Galactic Codex archives.<br><br>Detailed article view and category imports are scheduled for the upcoming deployment phase.`;
                     modal.style.display = 'flex';
                 }
             });

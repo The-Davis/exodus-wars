@@ -3143,7 +3143,9 @@
     "timestamp": "2007-07-17 06:24:27",
     "description": "Exodus War Logo",
     "exists_on_disk": true,
-    "disk_filename": "EWLogo.png"
+    "disk_filename": "EWLogo.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/EWLogo.png"
   },
   {
     "image_name": "Earth_seen_from_Orbit.png",
