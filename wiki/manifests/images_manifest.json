@@ -3066,7 +3066,8 @@
     "timestamp": "2008-05-29 00:41:45",
     "description": "Flag of the The Liberator Sons.",
     "exists_on_disk": true,
-    "disk_filename": "Die-Befreier-Sahne.gif"
+    "disk_filename": "Die-Befreier-Sahne.gif",
+    "migrated_to_public": true
   },
   {
     "image_name": "DolchLightCombatVehicle1.jpg",
@@ -3795,7 +3796,8 @@
     "timestamp": "2008-01-02 16:43:17",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Flag_of_the_Ikronin_Jurekan.png"
+    "disk_filename": "Flag_of_the_Ikronin_Jurekan.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Flag_of_the_Reigess_Suverände.png",
@@ -3821,7 +3823,8 @@
     "timestamp": "2008-01-12 02:02:46",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Flag_of_the_Taviridis_Somarchada.png"
+    "disk_filename": "Flag_of_the_Taviridis_Somarchada.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Flag_of_the_Yurtosh_hora_ven_Serthra.png",
@@ -4603,7 +4606,8 @@
     "timestamp": "2008-05-29 00:42:39",
     "description": "The flag of the Saints of Luther.",
     "exists_on_disk": true,
-    "disk_filename": "Heilige-von-Luther.gif"
+    "disk_filename": "Heilige-von-Luther.gif",
+    "migrated_to_public": true
   },
   {
     "image_name": "Helen_Cashaw_full_body_image.png",
@@ -6021,7 +6025,8 @@
     "timestamp": "2007-08-02 13:49:45",
     "description": "Slight modification to background color and cuneiform location on flag.",
     "exists_on_disk": true,
-    "disk_filename": "LorithosFlag.png"
+    "disk_filename": "LorithosFlag.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "LorrodivanClassBattleCarrier1.jpg",
@@ -7093,7 +7098,8 @@
     "timestamp": "2007-08-02 07:23:05",
     "description": "Properly named Meroniri Flag for use in the Exodus Wiki.",
     "exists_on_disk": true,
-    "disk_filename": "MeroniriTerinasiFlag.png"
+    "disk_filename": "MeroniriTerinasiFlag.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Mesar-Recht-Bewegung.gif",
@@ -7400,7 +7406,8 @@
     "timestamp": "2008-09-19 01:04:48",
     "description": "Reverted to earlier revision",
     "exists_on_disk": true,
-    "disk_filename": "Myt_Gaul_Ensign.png"
+    "disk_filename": "Myt_Gaul_Ensign.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Myt_Herra-Legion-Amsel.png",
@@ -7413,7 +7420,8 @@
     "timestamp": "2008-10-18 10:37:30",
     "description": "4th Myt'Herra Legion",
     "exists_on_disk": true,
-    "disk_filename": "Myt_Herra-Legion-Amsel.png"
+    "disk_filename": "Myt_Herra-Legion-Amsel.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Myt_Herra-Legion-Auellal.png",
@@ -7439,7 +7447,8 @@
     "timestamp": "2008-10-18 10:38:13",
     "description": "Seventh Myt'Herra Legion",
     "exists_on_disk": true,
-    "disk_filename": "Myt_Herra-Legion-Baum.png"
+    "disk_filename": "Myt_Herra-Legion-Baum.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Myt_Herra-Legion-Dietrich.png",
@@ -7452,7 +7461,8 @@
     "timestamp": "2008-10-18 10:38:39",
     "description": "2nd Myt'Herra Legion",
     "exists_on_disk": true,
-    "disk_filename": "Myt_Herra-Legion-Dietrich.png"
+    "disk_filename": "Myt_Herra-Legion-Dietrich.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Myt_Herra-Legion-Koeing.png",
@@ -7465,7 +7475,8 @@
     "timestamp": "2008-10-18 10:39:05",
     "description": "6th Myt'Herra Legion",
     "exists_on_disk": true,
-    "disk_filename": "Myt_Herra-Legion-Koeing.png"
+    "disk_filename": "Myt_Herra-Legion-Koeing.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Myt_Herra-Legion-Kuefer.png",
@@ -7478,7 +7489,8 @@
     "timestamp": "2008-10-18 10:39:38",
     "description": "6th Myt'Herra Legion",
     "exists_on_disk": true,
-    "disk_filename": "Myt_Herra-Legion-Kuefer.png"
+    "disk_filename": "Myt_Herra-Legion-Kuefer.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Myt_Herra-Legion-Muench.png",
@@ -7491,7 +7503,8 @@
     "timestamp": "2008-10-18 10:40:13",
     "description": "3rd Myt'Herra Legion",
     "exists_on_disk": true,
-    "disk_filename": "Myt_Herra-Legion-Muench.png"
+    "disk_filename": "Myt_Herra-Legion-Muench.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Myt_Herra-Legion-Tischler.png",
@@ -7504,7 +7517,8 @@
     "timestamp": "2008-10-18 10:40:36",
     "description": "1st Myt'Herra Legion",
     "exists_on_disk": true,
-    "disk_filename": "Myt_Herra-Legion-Tischler.png"
+    "disk_filename": "Myt_Herra-Legion-Tischler.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Myt_Herra-Legion-Weber.png",
@@ -7517,7 +7531,8 @@
     "timestamp": "2008-10-18 10:40:57",
     "description": "8th Myt'Herra Legion",
     "exists_on_disk": true,
-    "disk_filename": "Myt_Herra-Legion-Weber.png"
+    "disk_filename": "Myt_Herra-Legion-Weber.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Myt_herra_badge.png",
@@ -9022,7 +9037,8 @@
     "timestamp": "2007-08-29 00:11:38",
     "description": "[[Prefecture Marine Corps]] logo by [[James Davis]] using Inkscape.",
     "exists_on_disk": true,
-    "disk_filename": "PrefectureMarineCorpsLogo.png"
+    "disk_filename": "PrefectureMarineCorpsLogo.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Prefecture_Marine.png",
@@ -9349,7 +9365,8 @@
     "timestamp": "2007-09-06 00:34:06",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RemnantFlag.jpg"
+    "disk_filename": "RemnantFlag.jpg",
+    "migrated_to_public": true
   },
   {
     "image_name": "RiihderHovertank1.jpg",
@@ -10336,7 +10353,8 @@
     "timestamp": "2008-10-10 05:07:38",
     "description": "New version of flag, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Sirius.png"
+    "disk_filename": "Sirius.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "SkrattaMåsen1.jpg",

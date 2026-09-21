@@ -1094,6 +1094,54 @@ canvas {
   text-shadow: 0 0 6px var(--primary-color);
 }
 
+/* History, Conflict & Treaty Infobox Headers */
+.conflict-header {
+  background: linear-gradient(135deg, #5c1818 0%, #290808 100%) !important;
+  border-bottom: 1px solid #ff5252 !important;
+}
+
+.period-header {
+  background: linear-gradient(135deg, #1b3d39 0%, #081d1b 100%) !important;
+  border-bottom: 1px solid #4db6ac !important;
+}
+
+.treaty-header {
+  background: linear-gradient(135deg, #3d2f1b 0%, #1f1708 100%) !important;
+  border-bottom: 1px solid #ffd54f !important;
+}
+
+.infobox-partof {
+  font-size: 13px;
+  color: #ff8a80;
+  margin-top: 4px;
+}
+
+.infobox-section-header-row th.infobox-section-header {
+  text-align: center;
+  background: rgba(30, 81, 136, 0.4);
+  color: #00e5ff;
+  font-family: 'Jura', monospace;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 6px 10px;
+  width: 100%;
+}
+
+.infobox-dual-row td.infobox-dual-col {
+  width: 50%;
+  vertical-align: top;
+  text-align: left;
+  padding: 6px 10px;
+  font-size: 12px;
+  line-height: 1.4;
+  border-right: 1px solid rgba(0, 229, 255, 0.1);
+}
+
+.infobox-dual-row td.infobox-dual-col:last-child {
+  border-right: none;
+}
+
 /* ==========================================================================
    Image Figure Alignments
    ========================================================================== */

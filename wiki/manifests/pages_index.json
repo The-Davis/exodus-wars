@@ -4408,7 +4408,8 @@
     "templates": [
       "Second_Exodus_War_Navbox",
       "War_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 266,
@@ -7501,7 +7502,8 @@
     "view_count": 1854,
     "content_length": 451,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 420,
@@ -7709,7 +7711,8 @@
     "view_count": 124,
     "content_length": 31,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 434,
@@ -9405,7 +9408,8 @@
     "categories": [
       "History"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 533,
@@ -20484,7 +20488,8 @@
     ],
     "templates": [
       "Military_Conflict"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1203,
@@ -22825,7 +22830,8 @@
     ],
     "templates": [
       "War_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1349,
@@ -25385,7 +25391,8 @@
     "categories": [
       "History"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1504,
@@ -25479,7 +25486,8 @@
     "templates": [
       "Military_Conflict",
       "Tempest_War_Navbox"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1509,
@@ -27965,7 +27973,8 @@
     "categories": [
       "History"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1654,
@@ -28337,7 +28346,8 @@
     "categories": [
       "History"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1677,
@@ -29178,7 +29188,8 @@
       "History",
       "Onyx_Empire"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1726,
@@ -29336,7 +29347,8 @@
     "categories": [
       "History"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1737,
@@ -29522,7 +29534,8 @@
     "view_count": 603,
     "content_length": 3781,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1748,
@@ -31919,7 +31932,8 @@
     "categories": [
       "History"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1892,
@@ -33379,7 +33393,8 @@
     "view_count": 114,
     "content_length": 2376,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2066,
@@ -34004,7 +34019,8 @@
     "categories": [
       "History"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2114,
@@ -34078,7 +34094,8 @@
     "view_count": 112,
     "content_length": 88,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2118,
@@ -35345,7 +35362,8 @@
     "categories": [
       "History"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2208,
@@ -35363,7 +35381,8 @@
     "categories": [
       "History"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2209,
@@ -39055,7 +39074,8 @@
     "categories": [
       "History"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2497,
@@ -39278,7 +39298,8 @@
     "categories": [
       "History"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2510,
@@ -55512,7 +55533,8 @@
     "templates": [
       "Military_Conflict",
       "Volucris_Incursion_Navbox"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3609,
@@ -60381,7 +60403,8 @@
     ],
     "templates": [
       "Historical_Period_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3896,
@@ -60402,7 +60425,8 @@
     ],
     "templates": [
       "Treaty_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3897,
@@ -60500,7 +60524,8 @@
     "templates": [
       "Military_Conflict",
       "Millennium_War_Navbox"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3903,
@@ -60516,7 +60541,8 @@
     "view_count": 112,
     "content_length": 202,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3904,
@@ -60837,7 +60863,8 @@
       "History",
       "Onyx_Empire"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3922,
@@ -61409,7 +61436,8 @@
     "templates": [
       "Tempest_War_Navbox",
       "Treaty_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3955,
@@ -61425,7 +61453,8 @@
     "view_count": 228,
     "content_length": 5188,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3956,
@@ -62166,7 +62195,8 @@
     ],
     "templates": [
       "Military_Conflict"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3999,
@@ -62387,7 +62417,8 @@
     "categories": [
       "History"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4012,
@@ -63335,7 +63366,8 @@
     "categories": [
       "History"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4072,
@@ -63357,7 +63389,8 @@
     "templates": [
       "Military_Conflict",
       "Volucris_War_Navbox"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4073,
@@ -64101,7 +64134,8 @@
     "categories": [
       "History"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4120,
@@ -64354,7 +64388,8 @@
     "categories": [
       "History"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4134,
@@ -64402,7 +64437,8 @@
     "view_count": 87,
     "content_length": 6128,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4137,
@@ -64623,7 +64659,8 @@
     ],
     "templates": [
       "Pelagrim_Crisis_Navbox"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4149,
@@ -64657,7 +64694,8 @@
     "view_count": 86,
     "content_length": 36557,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4151,
@@ -65419,7 +65457,8 @@
     "view_count": 114,
     "content_length": 76,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4197,
@@ -65613,7 +65652,8 @@
     "categories": [
       "History"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4207,
@@ -67633,7 +67673,8 @@
     "templates": [
       "Military_Conflict",
       "Tempest_War_Navbox"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4323,
