@@ -4,6 +4,9 @@ import { GalacticView } from './views/GalacticView';
 import { ClusterView } from './views/ClusterView';
 import { StarView } from './views/StarView';
 import { PlanetView } from './views/PlanetView';
+import { CodexArticle } from './codex/types';
+import { getCodexArticle } from './codex/articleRegistry';
+import { CodexRenderer } from './codex/CodexRenderer';
 
 export enum ViewLevel {
   CODEX,
@@ -15,6 +18,7 @@ export enum ViewLevel {
 
 export class StateManager {
     private level: ViewLevel = ViewLevel.CODEX;
+    private currentArticle: CodexArticle | null = null;
     private currentCluster: ClusterPOI | null = null;
     private currentStar: StarPOI | null = null;
     private currentPlanet: PlanetPOI | null = null;
@@ -37,6 +41,7 @@ export class StateManager {
         return this.level;
     }
 
+    public getCurrentArticle(): CodexArticle | null { return this.currentArticle; }
     public getCurrentCluster(): ClusterPOI | null { return this.currentCluster; }
     public getCurrentStar(): StarPOI | null { return this.currentStar; }
     public getCurrentPlanet(): PlanetPOI | null { return this.currentPlanet; }
@@ -46,10 +51,18 @@ export class StateManager {
         this.updateUI();
     }
 
-    public showCodex(): void {
+    public showCodex(articleSlugOrTitle?: string): void {
         this.currentCluster = null;
         this.currentStar = null;
         this.currentPlanet = null;
+
+        if (articleSlugOrTitle) {
+            const article = getCodexArticle(articleSlugOrTitle);
+            this.currentArticle = article || null;
+        } else {
+            this.currentArticle = null;
+        }
+
         this.setLevel(ViewLevel.CODEX);
     }
 
@@ -84,7 +97,11 @@ export class StateManager {
             this.currentCluster = null;
             this.setLevel(ViewLevel.GALACTIC);
         } else if (this.level === ViewLevel.GALACTIC) {
-            this.showCodex();
+            this.showCodex(this.currentArticle ? this.currentArticle.slug : undefined);
+        } else if (this.level === ViewLevel.CODEX && this.currentArticle !== null) {
+            this.currentArticle = null;
+            window.location.hash = '#/codex';
+            this.updateUI();
         }
     }
 
@@ -137,14 +154,28 @@ export class StateManager {
     }
 
     public updateUI(): void {
-        const codexLanding = document.getElementById('codex-landing') as HTMLDivElement;
-        const btnCodex = document.getElementById('btnCodex') as HTMLButtonElement;
-        const btnBack = document.getElementById('btnBack') as HTMLButtonElement;
-        const infobox = document.getElementById('infobox') as HTMLDivElement;
+        const codexLanding = document.getElementById('codex-landing') as HTMLDivElement | null;
+        const codexArticleView = document.getElementById('codex-article-view') as HTMLDivElement | null;
+        const btnCodex = document.getElementById('btnCodex') as HTMLButtonElement | null;
+        const btnBack = document.getElementById('btnBack') as HTMLButtonElement | null;
+        const infobox = document.getElementById('infobox') as HTMLDivElement | null;
         const coordEl = document.getElementById('dev-coordinates');
 
-        if (codexLanding) {
-            codexLanding.style.display = (this.level === ViewLevel.CODEX) ? 'block' : 'none';
+        if (this.level === ViewLevel.CODEX) {
+            if (this.currentArticle) {
+                if (codexLanding) codexLanding.style.display = 'none';
+                if (codexArticleView) {
+                    codexArticleView.style.display = 'block';
+                    codexArticleView.scrollTop = 0;
+                    this.renderCurrentArticle();
+                }
+            } else {
+                if (codexLanding) codexLanding.style.display = 'block';
+                if (codexArticleView) codexArticleView.style.display = 'none';
+            }
+        } else {
+            if (codexLanding) codexLanding.style.display = 'none';
+            if (codexArticleView) codexArticleView.style.display = 'none';
         }
 
         if (btnCodex) {
@@ -183,5 +214,92 @@ export class StateManager {
                 coordEl.style.display = 'none';
             }
         }
+    }
+
+    private renderCurrentArticle(): void {
+        if (!this.currentArticle) return;
+
+        const titleEl = document.getElementById('articleTitle');
+        const authorEl = document.getElementById('articleAuthor');
+        const dateEl = document.getElementById('articleDate');
+        const idEl = document.getElementById('articleId');
+        const breadcrumbEl = document.getElementById('articleBreadcrumbTitle');
+        const contentEl = document.getElementById('articleContent');
+
+        if (titleEl) titleEl.innerText = this.currentArticle.title;
+        if (authorEl) authorEl.innerText = `AUTHOR: ${this.currentArticle.author}`;
+        if (dateEl) dateEl.innerText = `DATE: ${this.currentArticle.lastUpdated}`;
+        if (idEl) idEl.innerText = `DOC ID: ${this.currentArticle.id}`;
+        if (breadcrumbEl) breadcrumbEl.innerText = this.currentArticle.title.toUpperCase();
+
+        if (contentEl) {
+            contentEl.innerHTML = CodexRenderer.render(this.currentArticle.rawContent, this.currentArticle.images);
+            this.bindArticleContentLinks(contentEl);
+            this.bindArticleImageToggles(contentEl);
+        }
+    }
+
+    private bindArticleImageToggles(container: HTMLElement): void {
+        const imageContainers = container.querySelectorAll('.codex-image-container');
+
+        imageContainers.forEach((containerEl) => {
+            const canToggle = containerEl.getAttribute('data-can-toggle') === 'true';
+            if (!canToggle) return; // Only toggle if both modern and legacy are present
+
+            const imgEl = containerEl.querySelector('.codex-displayed-image') as HTMLImageElement | null;
+            const badgeLabel = containerEl.querySelector('.badge-label') as HTMLSpanElement | null;
+            const modernSrc = containerEl.getAttribute('data-modern-src');
+            const legacySrc = containerEl.getAttribute('data-legacy-src');
+
+            if (!imgEl || !modernSrc || !legacySrc) return;
+
+            containerEl.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const currentMode = containerEl.getAttribute('data-current-mode');
+
+                if (currentMode === 'modern') {
+                    imgEl.src = legacySrc;
+                    containerEl.setAttribute('data-current-mode', 'legacy');
+                    containerEl.classList.remove('mode-modern');
+                    containerEl.classList.add('mode-legacy');
+                    if (badgeLabel) badgeLabel.innerText = 'LEGACY (CLICK FOR MODERN)';
+                } else {
+                    imgEl.src = modernSrc;
+                    containerEl.setAttribute('data-current-mode', 'modern');
+                    containerEl.classList.remove('mode-legacy');
+                    containerEl.classList.add('mode-modern');
+                    if (badgeLabel) badgeLabel.innerText = 'MODERN (CLICK FOR LEGACY)';
+                }
+            });
+        });
+    }
+
+    private bindArticleContentLinks(container: HTMLElement): void {
+        const links = container.querySelectorAll('.codex-wikilink');
+        const modal = document.getElementById('codex-modal');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalMessage = document.getElementById('modalMessage');
+
+        links.forEach((linkEl) => {
+            linkEl.addEventListener('click', (e) => {
+                const target = linkEl.getAttribute('data-target') || '';
+                const article = getCodexArticle(target);
+
+                if (article) {
+                    // Navigate to imported article
+                    e.preventDefault();
+                    window.location.hash = `#/codex/${article.slug}`;
+                    this.showCodex(article.slug);
+                } else {
+                    // Not yet imported - show modal
+                    e.preventDefault();
+                    if (modal && modalTitle && modalMessage) {
+                        modalTitle.innerText = `ARCHIVE RECORD: ${target}`;
+                        modalMessage.innerHTML = `You have selected <strong>${target}</strong> from the Galactic Codex archives.<br><br>Detailed article view and category imports are scheduled for the upcoming deployment phase.`;
+                        modal.style.display = 'flex';
+                    }
+                }
+            });
+        });
     }
 }

@@ -48276,7 +48276,9 @@
     "view_count": 1485,
     "content_length": 11124,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/Introduction_to_the_Exodus_Wars_Universe.ts"
   },
   {
     "page_id": 3155,

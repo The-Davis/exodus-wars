@@ -1,5 +1,7 @@
 # Exodus Wars
 
+[Visit Site](https://the-davis.github.io/exodus-wars/)
+
 Centuries after humanity launched the Great Exodus from Earth, civilization spans across colonized star systems, divided among rival factions, military coalitions, and ancient alien frontiers. From the hard-fought campaigns of the Federated Districts of the Prefecture to the enduring power of the Onyx Empire, the United Earth Alliance, and the devastating conflicts of the Second Exodus War and the Tempest War, peace in the galaxy is hard-won and perpetually contested.
 
 Welcome to **Exodus Wars**.
