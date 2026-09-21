@@ -64,8 +64,8 @@ export class InputHandler {
         } else if (hash.includes('introduction_to_the_exodus_wars_universe') || hash.includes('introduction')) {
             this.stateManager.showCodex('Introduction_to_the_Exodus_Wars_Universe');
         } else {
-            // check if hash has a slug: #/codex/Slug or #/article/Slug
-            const match = window.location.hash.match(/^#\/(?:codex|article)\/([^/]+)/i);
+            // check if hash has a slug: #/codex/Slug or #/article/Slug or #/category/Slug
+            const match = window.location.hash.match(/^#\/(?:codex|article|category)\/([^/]+)/i);
             if (match && match[1]) {
                 const slug = decodeURIComponent(match[1]);
                 if (getCodexArticle(slug)) {

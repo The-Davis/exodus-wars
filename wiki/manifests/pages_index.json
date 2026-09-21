@@ -37,7 +37,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 3,
@@ -60,7 +62,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 4,
@@ -84,7 +88,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 5,
@@ -131,7 +137,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 7,
@@ -1098,7 +1106,9 @@
     "view_count": 1523,
     "content_length": 30,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/People_Index.ts"
   },
   {
     "page_id": 63,
@@ -1344,7 +1354,9 @@
     "view_count": 2011,
     "content_length": 421,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/People_Index.ts"
   },
   {
     "page_id": 78,
@@ -2438,7 +2450,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 168,
@@ -2480,7 +2494,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 170,
@@ -2503,7 +2519,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 171,
@@ -2527,7 +2545,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 172,
@@ -2624,7 +2644,9 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 178,
@@ -2648,7 +2670,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 179,
@@ -2729,7 +2753,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 183,
@@ -2812,7 +2838,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 187,
@@ -2835,7 +2863,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 188,
@@ -2982,7 +3012,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 196,
@@ -3023,7 +3055,9 @@
       "Scientists",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 198,
@@ -3064,7 +3098,9 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "People_of_the_Kabila_Kimburu"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 200,
@@ -4161,7 +4197,9 @@
       "People_of_the_Reigess_Suverände",
       "Reigens"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 254,
@@ -4983,7 +5021,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 298,
@@ -5088,7 +5128,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 303,
@@ -5176,7 +5218,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 307,
@@ -5220,7 +5264,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 309,
@@ -5447,7 +5493,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 320,
@@ -5491,7 +5539,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 322,
@@ -5674,7 +5724,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 331,
@@ -5777,7 +5829,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 336,
@@ -5801,7 +5855,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 337,
@@ -6723,7 +6779,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 382,
@@ -31127,7 +31185,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 1854,
@@ -49607,7 +49667,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 3238,
@@ -53243,7 +53305,9 @@
     "view_count": 145,
     "content_length": 389,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 3459,
@@ -57383,7 +57447,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 3734,
@@ -61106,7 +61172,9 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 3950,
@@ -61158,7 +61226,9 @@
     "view_count": 116,
     "content_length": 2293,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 3953,
@@ -61970,7 +62040,9 @@
     "view_count": 76,
     "content_length": 127,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true,
+    "codex_path": "src/codex/articles/peopleArticles.ts"
   },
   {
     "page_id": 4000,

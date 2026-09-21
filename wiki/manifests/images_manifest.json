@@ -842,7 +842,9 @@
     "timestamp": "2007-12-23 19:05:07",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Andreas_Tischler_Full_View.png"
+    "disk_filename": "Andreas_Tischler_Full_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Andreas_Tischler_Full_View.png"
   },
   {
     "image_name": "Andreas_Tischler_Portrait_View.png",
@@ -855,7 +857,9 @@
     "timestamp": "2007-12-22 22:13:03",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Andreas_Tischler_Portrait_View.png"
+    "disk_filename": "Andreas_Tischler_Portrait_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Andreas_Tischler_Portrait_View.png"
   },
   {
     "image_name": "AntonovCompanyLogo.png",
@@ -3117,7 +3121,9 @@
     "timestamp": "2008-12-13 23:21:31",
     "description": "The Dulität at the Battle of White Star Crossing",
     "exists_on_disk": true,
-    "disk_filename": "Dulitat.jpg"
+    "disk_filename": "Dulitat.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Dulitat.jpg"
   },
   {
     "image_name": "ELITES.jpg",
@@ -3236,7 +3242,9 @@
     "timestamp": "2007-11-06 18:21:57",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Emil_Torsc_Face_Portrait.png"
+    "disk_filename": "Emil_Torsc_Face_Portrait.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Emil_Torsc_Face_Portrait.png"
   },
   {
     "image_name": "Emil_Torsc_Returns_Victorious.png",
@@ -3249,7 +3257,9 @@
     "timestamp": "2008-01-19 20:52:46",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Emil_Torsc_Returns_Victorious.png"
+    "disk_filename": "Emil_Torsc_Returns_Victorious.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Emil_Torsc_Returns_Victorious.png"
   },
   {
     "image_name": "EnforcerMediumArmoredCar1.jpg",
@@ -6031,7 +6041,9 @@
     "timestamp": "2007-11-07 15:23:32",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Lucius_Black_Face_Portrait.png"
+    "disk_filename": "Lucius_Black_Face_Portrait.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Lucius_Black_Face_Portrait.png"
   },
   {
     "image_name": "Lucius_Black_in_chains.png",
@@ -6044,7 +6056,9 @@
     "timestamp": "2007-11-07 15:22:09",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Lucius_Black_in_chains.png"
+    "disk_filename": "Lucius_Black_in_chains.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Lucius_Black_in_chains.png"
   },
   {
     "image_name": "LusarFlag.png",
@@ -9034,7 +9048,9 @@
     "timestamp": "2007-08-24 07:59:23",
     "description": "Steven Cue's division, ''The Pub Runners''",
     "exists_on_disk": true,
-    "disk_filename": "Pub-Runners.png"
+    "disk_filename": "Pub-Runners.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Pub-Runners.png"
   },
   {
     "image_name": "PumaMediumTank1.jpg",
@@ -9398,7 +9414,9 @@
     "timestamp": "2009-02-13 21:38:23",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Robert_Marshall_Face_Portrait.png"
+    "disk_filename": "Robert_Marshall_Face_Portrait.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Robert_Marshall_Face_Portrait.png"
   },
   {
     "image_name": "Robert_Marshall_contemplates.png",
@@ -9411,7 +9429,9 @@
     "timestamp": "2009-02-13 21:37:30",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Robert_Marshall_contemplates.png"
+    "disk_filename": "Robert_Marshall_contemplates.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Robert_Marshall_contemplates.png"
   },
   {
     "image_name": "RoevnarClassLineFrigate1.jpg",
@@ -9762,7 +9782,9 @@
     "timestamp": "2009-07-03 07:47:29",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Sanor_Cai_Portrait.png"
+    "disk_filename": "Sanor_Cai_Portrait.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Sanor_Cai_Portrait.png"
   },
   {
     "image_name": "Sansa.png",
@@ -9892,7 +9914,9 @@
     "timestamp": "2008-01-19 20:59:51",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Scott_Sanburn_Portrait_View.png"
+    "disk_filename": "Scott_Sanburn_Portrait_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Scott_Sanburn_Portrait_View.png"
   },
   {
     "image_name": "Scott_Sanburn_in_Dress_Uniform.png",
@@ -9905,7 +9929,9 @@
     "timestamp": "2008-01-19 20:58:05",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Scott_Sanburn_in_Dress_Uniform.png"
+    "disk_filename": "Scott_Sanburn_in_Dress_Uniform.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Scott_Sanburn_in_Dress_Uniform.png"
   },
   {
     "image_name": "Screen_Shot_2011-10-11_at_2.44.28_PM.png",
@@ -10724,7 +10750,9 @@
     "timestamp": "2007-08-25 11:48:08",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "StevenCue.png"
+    "disk_filename": "StevenCue.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/StevenCue.png"
   },
   {
     "image_name": "StingerHeavyHovertank1.jpg",
@@ -10971,7 +10999,9 @@
     "timestamp": "2007-07-17 09:10:30",
     "description": "Portrait of Talaris Roi by BChan",
     "exists_on_disk": true,
-    "disk_filename": "TalarisRoi.jpg"
+    "disk_filename": "TalarisRoi.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TalarisRoi.jpg"
   },
   {
     "image_name": "Tank.png",

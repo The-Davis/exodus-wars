@@ -39,7 +39,7 @@ describe('Modern and Legacy Image Architecture', () => {
         expect(legacyOnly.modern).toBeUndefined();
     });
 
-    it('renders toggleable container when both modern and legacy exist, defaulting to modern', () => {
+    it('renders toggleable container without badge when both modern and legacy exist, defaulting to modern', () => {
         const wikitext = '[[Image:EWLogo.png]] Welcome!';
         const html = CodexRenderer.render(wikitext, {
             'EWLogo.png': {
@@ -53,10 +53,11 @@ describe('Modern and Legacy Image Architecture', () => {
         expect(html).toContain('data-current-mode="modern"');
         expect(html).toContain('EWLogo_modern.png');
         expect(html).toContain('data-legacy-src=');
-        expect(html).toContain('MODERN (CLICK FOR LEGACY)');
+        expect(html).toContain('toggleable-cursor');
+        expect(html).not.toContain('codex-image-badge');
     });
 
-    it('disables click toggle when only modern is present', () => {
+    it('disables click toggle when only modern is present without badge', () => {
         const wikitext = '[[Image:ModernOnly.png]] Modern asset';
         const html = CodexRenderer.render(wikitext, {
             'ModernOnly.png': {
@@ -67,11 +68,11 @@ describe('Modern and Legacy Image Architecture', () => {
 
         expect(html).toContain('data-can-toggle="false"');
         expect(html).toContain('data-current-mode="modern"');
-        expect(html).toContain('modern-only');
         expect(html).not.toContain('toggleable-cursor');
+        expect(html).not.toContain('codex-image-badge');
     });
 
-    it('disables click toggle when only legacy is present', () => {
+    it('disables click toggle when only legacy is present without badge', () => {
         const wikitext = '[[Image:LegacyOnly.png]] Legacy asset';
         const html = CodexRenderer.render(wikitext, {
             'LegacyOnly.png': {
@@ -82,7 +83,7 @@ describe('Modern and Legacy Image Architecture', () => {
 
         expect(html).toContain('data-can-toggle="false"');
         expect(html).toContain('data-current-mode="legacy"');
-        expect(html).toContain('legacy-only');
         expect(html).not.toContain('toggleable-cursor');
+        expect(html).not.toContain('codex-image-badge');
     });
 });
