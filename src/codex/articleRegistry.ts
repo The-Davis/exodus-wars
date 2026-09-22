@@ -10,7 +10,7 @@ import { HISTORY_SUBCATEGORY_ARTICLES } from './articles/historySubcategoryArtic
 import { racesIndexArticle } from './articles/Races_Index';
 import { RACE_ARTICLES } from './articles/raceArticles';
 import { economicsIndexArticle } from './articles/Economics_Index';
-import { ECONOMICS_ARTICLES } from './articles/economicsArticles';
+import { ECONOMICS_ARTICLES, currencyCategoryArticle } from './articles/economicsArticles';
 import { nationsIndexArticle } from './articles/Nations_Index';
 import { NATIONS_ARTICLES } from './articles/nationsArticles';
 import { corporationsIndexArticle } from './articles/Corporations_Index';
@@ -42,6 +42,29 @@ import { FINAL_INSTITUTIONS_LORE_ARTICLES } from './articles/finalInstitutionsLo
 import { FINAL_CATEGORY_ARTICLES } from './articles/finalCategoryArticles';
 import { FINAL_REDIRECT_ALIASES } from './articles/finalRedirectAliases';
 import { fightersCategoryArticle } from './articles/fightersCategoryArticle';
+import {
+    TECH_CATEGORY_ARTICLES,
+    destroyersCategoryArticle,
+    battleshipsCategoryArticle,
+    cruisersCategoryArticle,
+    frigatesCategoryArticle,
+    corvettesCategoryArticle,
+    carriersCategoryArticle,
+    warshipsCategoryArticle,
+    bombersCategoryArticle,
+    vtolsCategoryArticle,
+    tanksCategoryArticle,
+    rigsCategoryArticle,
+    freightersCategoryArticle,
+    transportAircraftCategoryArticle,
+    atmosphericCraftCategoryArticle,
+    explorationVesselsCategoryArticle,
+    mSeriesCategoryArticle,
+    reconAircraftCategoryArticle,
+    starlinersCategoryArticle,
+    colonyShipsCategoryArticle,
+    civilianVehiclesCategoryArticle
+} from './articles/techCategoryArticles';
 import { HISTORICAL_CHRONICLES_ARTICLES } from './articles/historicalChroniclesArticles';
 
 export const CODEX_ARTICLES: Record<string, CodexArticle> = {
@@ -70,8 +93,10 @@ export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     ':Category:Races': racesIndexArticle,
     'Race': racesIndexArticle,
     'race': racesIndexArticle,
-    'Category:Humans': racesIndexArticle,
-    'category:humans': racesIndexArticle,
+    'Exodus Wars': introArticle,
+    'Exodus_Wars': introArticle,
+    'exodus wars': introArticle,
+    'exodus_wars': introArticle,
     'Economics': economicsIndexArticle,
     'economics': economicsIndexArticle,
     'Category:Economics': economicsIndexArticle,
@@ -79,11 +104,11 @@ export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     ':Category:Economics': economicsIndexArticle,
     'Economy': economicsIndexArticle,
     'economy': economicsIndexArticle,
-    'Currency': economicsIndexArticle,
-    'currency': economicsIndexArticle,
-    'Category:Currency': economicsIndexArticle,
-    'category:currency': economicsIndexArticle,
-    ':Category:Currency': economicsIndexArticle,
+    'Currency': currencyCategoryArticle,
+    'currency': currencyCategoryArticle,
+    'Category:Currency': currencyCategoryArticle,
+    'category:currency': currencyCategoryArticle,
+    ':Category:Currency': currencyCategoryArticle,
     'Nations': nationsIndexArticle,
     'nations': nationsIndexArticle,
     'Category:Nations': nationsIndexArticle,
@@ -298,16 +323,6 @@ CODEX_ARTICLES['Category:Tactics and Treatises'] = tacticsAndTreatisesIndexArtic
 CODEX_ARTICLES['category:tactics and treatises'] = tacticsAndTreatisesIndexArticle;
 CODEX_ARTICLES[':Category:Tactics_and_Treatises'] = tacticsAndTreatisesIndexArticle;
 CODEX_ARTICLES[':Category:Tactics and Treatises'] = tacticsAndTreatisesIndexArticle;
-CODEX_ARTICLES['Tactics'] = tacticsAndTreatisesIndexArticle;
-CODEX_ARTICLES['tactics'] = tacticsAndTreatisesIndexArticle;
-CODEX_ARTICLES['Category:Tactics'] = tacticsAndTreatisesIndexArticle;
-CODEX_ARTICLES['category:tactics'] = tacticsAndTreatisesIndexArticle;
-CODEX_ARTICLES[':Category:Tactics'] = tacticsAndTreatisesIndexArticle;
-CODEX_ARTICLES['Treatises'] = tacticsAndTreatisesIndexArticle;
-CODEX_ARTICLES['treatises'] = tacticsAndTreatisesIndexArticle;
-CODEX_ARTICLES['Category:Treatises'] = tacticsAndTreatisesIndexArticle;
-CODEX_ARTICLES['category:treatises'] = tacticsAndTreatisesIndexArticle;
-CODEX_ARTICLES[':Category:Treatises'] = tacticsAndTreatisesIndexArticle;
 CODEX_ARTICLES['Doctrine'] = tacticsAndTreatisesIndexArticle;
 CODEX_ARTICLES['doctrine'] = tacticsAndTreatisesIndexArticle;
 
@@ -335,21 +350,102 @@ function registerCategoryAliases(categories: string[], targetArticle: CodexArtic
     }
 }
 
-registerCategoryAliases(['Fighters'], fightersCategoryArticle);
+const tacticsArticle = TACTICS_ARTICLES.find(a => a.slug === 'Tactics');
+if (tacticsArticle) {
+    registerCategoryAliases(['Tactics'], tacticsArticle);
+}
+const treatisesArticle = TACTICS_ARTICLES.find(a => a.slug === 'Treatises');
+if (treatisesArticle) {
+    registerCategoryAliases(['Treatises'], treatisesArticle);
+}
 
-const techCategories = [
-    'Warships', 'Starships', 'Vehicles',
-    'Battleships', 'Cruisers', 'Destroyers', 'Frigates', 'Corvettes', 'Carriers',
-    'Bombers', 'VTOLs', 'Transport_Aircraft', 'Transport Aircraft',
-    'Recon_Aircraft', 'Recon Aircraft', 'Civilian_Aircraft', 'Civilian Aircraft',
-    'Freighters', 'Starliners', 'Exploration_Vessels', 'Exploration Vessels',
-    'Colony_Ships', 'Colony Ships',
-    'Tanks', 'Rigs', 'Civilian_Vehicles', 'Civilian Vehicles',
-    'Infantry_Equipment_Profiles', 'Infantry Equipment Profiles',
-    'Imperial_Military_Specification', 'Imperial Military Specification',
-    'Satellites'
-];
-registerCategoryAliases(techCategories, technologicalCatalogsIndexArticle);
+registerCategoryAliases(['Fighters'], fightersCategoryArticle);
+registerCategoryAliases(['Destroyers'], destroyersCategoryArticle);
+registerCategoryAliases(['Battleships', 'Battleships & Dreadnoughts', 'Dreadnoughts'], battleshipsCategoryArticle);
+registerCategoryAliases(['Cruisers', 'Battlecruisers'], cruisersCategoryArticle);
+registerCategoryAliases(['Frigates'], frigatesCategoryArticle);
+registerCategoryAliases(['Corvettes', 'Gunships'], corvettesCategoryArticle);
+registerCategoryAliases(['Carriers'], carriersCategoryArticle);
+registerCategoryAliases(['Warships'], warshipsCategoryArticle);
+registerCategoryAliases(['Bombers'], bombersCategoryArticle);
+registerCategoryAliases(['VTOLs', 'VTOL'], vtolsCategoryArticle);
+registerCategoryAliases(['Transport_Aircraft', 'Transport Aircraft'], transportAircraftCategoryArticle);
+registerCategoryAliases(['Atmospheric_Craft', 'Atmospheric Craft'], atmosphericCraftCategoryArticle);
+registerCategoryAliases(['Tanks'], tanksCategoryArticle);
+registerCategoryAliases(['Rigs', 'Combat Rigs'], rigsCategoryArticle);
+registerCategoryAliases(['Freighters'], freightersCategoryArticle);
+registerCategoryAliases(['Exploration_Vessels', 'Exploration Vessels'], explorationVesselsCategoryArticle);
+registerCategoryAliases(['Imperial_Military_M-Series', 'Imperial Military M-Series'], mSeriesCategoryArticle);
+registerCategoryAliases(['Recon_Aircraft', 'Recon Aircraft', 'Civilian_Aircraft', 'Civilian Aircraft'], reconAircraftCategoryArticle);
+registerCategoryAliases(['Starliners', 'Starliner'], starlinersCategoryArticle);
+registerCategoryAliases(['Colony_Ships', 'Colony Ships'], colonyShipsCategoryArticle);
+registerCategoryAliases(['Civilian_Vehicles', 'Civilian Vehicles'], civilianVehiclesCategoryArticle);
+
+registerArticle(currencyCategoryArticle);
+registerCategoryAliases(['Currency'], currencyCategoryArticle);
+
+const secondExodusWarArticle = HISTORY_ARTICLES.find(a => a.slug === 'Second_Exodus_War');
+if (secondExodusWarArticle) {
+    registerCategoryAliases(['Second Exodus War', 'Second_Exodus_War'], secondExodusWarArticle);
+}
+const volucrisWarArticle = HISTORY_ARTICLES.find(a => a.slug === 'Volucris_War');
+if (volucrisWarArticle) {
+    registerCategoryAliases(['Volucris War', 'Volucris_War'], volucrisWarArticle);
+}
+const volucrisIncursionArticle = HISTORY_ARTICLES.find(a => a.slug === 'Volucris_Incursion');
+if (volucrisIncursionArticle) {
+    registerCategoryAliases(['Volucris Incursion', 'Volucris_Incursion'], volucrisIncursionArticle);
+}
+
+const humansArticle = RACE_ARTICLES.find(a => a.slug === 'Humans');
+if (humansArticle) {
+    registerCategoryAliases(['Humans', 'Human'], humansArticle);
+    CODEX_ARTICLES['human'] = humansArticle;
+    CODEX_ARTICLES['humans'] = humansArticle;
+}
+
+const auellalArticle = NATIONS_ARTICLES.find(a => a.slug === 'Auellal_League');
+if (auellalArticle) {
+    CODEX_ARTICLES['Auellal'] = auellalArticle;
+    CODEX_ARTICLES['auellal'] = auellalArticle;
+}
+const huernaArticle = NATIONS_ARTICLES.find(a => a.slug === 'Rikaz_o_Fii_Cai_iv_Huerna');
+if (huernaArticle) {
+    CODEX_ARTICLES['Huerna'] = huernaArticle;
+    CODEX_ARTICLES['huerna'] = huernaArticle;
+}
+const siriusFamiliesArticle = NATIONS_ARTICLES.find(a => a.slug === 'Sirius_Families');
+if (siriusFamiliesArticle) {
+    CODEX_ARTICLES['Sirius System'] = siriusFamiliesArticle;
+    CODEX_ARTICLES['sirius system'] = siriusFamiliesArticle;
+    CODEX_ARTICLES['Sirius_System'] = siriusFamiliesArticle;
+    CODEX_ARTICLES['sirius_system'] = siriusFamiliesArticle;
+}
+const reigessSuverandeArticle = NATIONS_ARTICLES.find(a => a.slug === 'Reigess_Suverände');
+if (reigessSuverandeArticle) {
+    CODEX_ARTICLES['Suverände'] = reigessSuverandeArticle;
+    CODEX_ARTICLES['suverände'] = reigessSuverandeArticle;
+    CODEX_ARTICLES['Suverande'] = reigessSuverandeArticle;
+    CODEX_ARTICLES['suverande'] = reigessSuverandeArticle;
+}
+
+const ikroninMissilesArticle = ENGINEERING_ARTICLES.find(a => a.slug === 'Conventional_Missile_Warheads_-_Ikronin');
+if (ikroninMissilesArticle) {
+    CODEX_ARTICLES['Ikronin Conventional Missile Warheads'] = ikroninMissilesArticle;
+    CODEX_ARTICLES['Ikronin_Conventional_Missile_Warheads'] = ikroninMissilesArticle;
+    CODEX_ARTICLES['ikronin conventional missile warheads'] = ikroninMissilesArticle;
+    CODEX_ARTICLES['ikronin_conventional_missile_warheads'] = ikroninMissilesArticle;
+}
+
+const prefectureIntelligence = NATIONS_ARCHIVES_ARTICLES.find(a => a.slug === 'Intelligence_of_the_Federated_Districts_of_the_Prefecture');
+if (prefectureIntelligence) {
+    CODEX_ARTICLES['Prefecture Department of Inquisition'] = prefectureIntelligence;
+    CODEX_ARTICLES['Prefecture_Department_of_Inquisition'] = prefectureIntelligence;
+    CODEX_ARTICLES['prefecture department of inquisition'] = prefectureIntelligence;
+    CODEX_ARTICLES['Department of Inquisition'] = prefectureIntelligence;
+    CODEX_ARTICLES['Department_of_Inquisition'] = prefectureIntelligence;
+    CODEX_ARTICLES['department of inquisition'] = prefectureIntelligence;
+}
 
 const placesCategories = [
     'Cities', 'Regions', 'Galaxies', 'Spiral_Arms', 'Spiral Arms', 'Sectors',
@@ -428,7 +524,8 @@ const subcategoryGroups = [
     FINAL_TECH_CORPORATE_ARTICLES,
     FINAL_INSTITUTIONS_LORE_ARTICLES,
     FINAL_CATEGORY_ARTICLES,
-    HISTORICAL_CHRONICLES_ARTICLES
+    HISTORICAL_CHRONICLES_ARTICLES,
+    TECH_CATEGORY_ARTICLES
 ];
 
 for (const group of subcategoryGroups) {
@@ -456,6 +553,13 @@ export function getCodexArticle(slugOrTitle: string, visited: Set<string> = new 
         // ignore
     }
     const clean = decoded.trim().replace(/^:+/, '');
+    if (clean.includes('#')) {
+        const [pagePart] = clean.split('#');
+        if (pagePart) {
+            const foundPage = getCodexArticle(pagePart, visited);
+            if (foundPage) return foundPage;
+        }
+    }
     const asSlug = clean.replace(/ /g, '_');
     const asSpace = clean.replace(/_/g, ' ');
     const normClean = clean.normalize('NFD').replace(/[\u0300-\u036f]/g, '');

@@ -6,7 +6,7 @@ export const economicsIndexArticle: CodexArticle = {
     title: 'Economics',
     author: 'JDavis',
     lastUpdated: '2007-10-07 02:14:28',
-    categories: ['Categories'],
+    categories: ['Categories', 'Economics'],
     summary: 'The master macroeconomic directory of the Exodus Wars universe, documenting interstellar trade, fiscal policies, financial institutions, and galactic currencies.',
     rawContent: `'''Economics''' is the social science that studies the production, distribution, and consumption of goods and services. Economics data attempts to categorize industry, currency, and trade throughout the galaxy.
 

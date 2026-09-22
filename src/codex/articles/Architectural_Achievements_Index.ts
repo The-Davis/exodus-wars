@@ -14,7 +14,7 @@ From pre-fab military outposts on hostile worlds to towering orbital space eleva
 
 == Planetary Buildings & Military Installations ==
 The [[Buildings]] classification covers ground-based and submerged structural facilities designed for resource generation, industrial fabrication, fleet maintenance, garrison housing, and surface defense:
-* [[Spire of Truth]] - Monumental religious and political sanctuary on [[Thur]] sacred to the [[Suverände]].
+* [[Spire of Truth]] - Central intelligence citadel and headquarters of the [[Prefecture Department of Inquisition]] on the world of [[Thur]].
 * [[Berkeley Class Reactor Complex]] - Heavy industrial nuclear and fusion power generation facility engineered for planetary colonies and industrial hubs.
 * [[Standardized Factory Complex]] - Modular manufacturing plant capable of high-throughput vehicle, ammunition, and components production.
 * [[Standardized Hangar]] - Reinforced planetary aviation and combat craft maintenance facility.

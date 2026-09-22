@@ -6,7 +6,7 @@ export const corporationsIndexArticle: CodexArticle = {
     title: 'Corporations',
     author: 'JDavis',
     lastUpdated: '2007-10-07 02:13:39',
-    categories: ['Categories'],
+    categories: ['Categories', 'Corporations', 'Companies', 'Rahn Industries'],
     summary: 'The master corporate directory of the Exodus Wars universe, detailing major industrial conglomerates, defense contractors, aerospace shipyards, and commercial enterprises.',
     rawContent: `A '''corporation''' is the technical term used for most publicly traded businesses. While the "corporate sense" can still refer to any collective, the term is most commonly used to refer to a privately-owned business that produces consumer goods or services.
 

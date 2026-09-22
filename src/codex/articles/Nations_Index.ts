@@ -6,7 +6,7 @@ export const nationsIndexArticle: CodexArticle = {
     title: 'Nations',
     author: 'JDavis',
     lastUpdated: '2007-10-07 02:09:44',
-    categories: ['Categories'],
+    categories: ['Categories', 'Nations'],
     summary: 'The master geopolitical directory of sovereign nations, empires, interstellar alliances, corporate authorities, and feudal syndicates in the Exodus Wars universe.',
     rawContent: `A '''nation''' is any administrative body that controls any sizeable area of space. Typically, a nation controls at least one star-system, but most have several star systems under their flag.
 
@@ -22,12 +22,12 @@ Nations also refer to independent geographical regions on a single planet. By [[
 *[[Onyx Empire]] - The tyrannical regime established by Emperor [[Lucius Black]] across the [[Alpha Centauri System]].
 *[[Ikronin Jurekön]] - The vast mercantile oligarchy of [[Kronheim]], stewards of the interstellar [[Wormhole Gates]].
 *[[Taviridis Somarchada]] - The isolationist deep-space dominion of the [[Ixoarchada]] in the [[Tolana Sector]].
-*[[Auellal League]] - The industrial high-tech confederation centered on [[Auellal]].
+*[[Auellal League]] - The industrial high-tech confederation centered on [[Auellal City-States|Auellal]].
 *[[Colonial Commonwealth]] - The cooperative reconstruction alliance of devastated former Alliance colony worlds.
 *[[Sol System Authority]] - The administrative council established to manage the recovery and defense of [[Earth]] and [[Sol]].
 *[[Reigess Suverände]] - The traditionalist monarchy formed by the Ikronin diaspora who rejected corporate governance.
 *[[Rikaz o Fii Huern iv Lorithan]] - The planetary government of [[Lorithan]], administrating the colossal sealed [[Kihtor]] cities.
-*[[Rikaz o Fii Cai iv Huerna]] - The sister administrative sphere on [[Huerna]].
+*[[Rikaz o Fii Cai iv Huerna]] - The sister administrative sphere on [[Rikaz o Fii Cai iv Huerna|Huerna]].
 *[[Kalidasa Planetary Authority]] - The corporate syndicate governing the rich resource worlds of [[Kalidasa]].
 *[[Oronus Worker's Coalition]] - The militant trade union and miners' authority governing the [[Oronus System]].
 *[[Volucris Swarm]] - The relentless, ravenous insectoid hive collective threatening all known civilization.
@@ -37,7 +37,7 @@ Nations also refer to independent geographical regions on a single planet. By [[
 *[[Overseer Administration of the Mesarthrim Clans]] - The regional civil administration overseeing clan production on Mesar.
 
 == Sirius Merchant Families ==
-*[[Sirius Families]] - The powerful aristocratic dynasties and trading cartels of the [[Sirius System]].
+*[[Sirius Families]] - The powerful aristocratic dynasties and trading cartels of the [[Sirius Cluster|Sirius System]].
 *[[Berlusconi Family Territory]] - The merchant domain and shipping lines of the Berlusconi family.
 *[[Asanova Family Territory]] - The military and shipping holdings of the Asanova dynasty.
 *[[Nakamura Family Territory]] - The financial and technical sector governed by the Nakamura family.
