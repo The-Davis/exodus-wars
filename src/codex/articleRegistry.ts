@@ -489,6 +489,40 @@ export function getCodexArticle(slugOrTitle: string, visited: Set<string> = new 
         }
     }
 
+    // Fallback 1: Quote and backslash stripping
+    // e.g. 'F-04 Superiority Fighter - "Raven"' -> 'F-04 Superiority Fighter - Raven'
+    const strippedQuotes = clean.replace(/["\\]/g, '').trim();
+    if (strippedQuotes && strippedQuotes !== clean && !visited.has(strippedQuotes)) {
+        visited.add(strippedQuotes);
+        const resolved = getCodexArticle(strippedQuotes, visited);
+        if (resolved) return resolved;
+    }
+
+    // Fallback 2: Quote & apostrophe stripping
+    // e.g. 'VF-11 Imperial Naval Fighter Squadron - "Hell\'s Kittens"' -> 'VF-11 Imperial Naval Fighter Squadron - Hells Kittens'
+    const strippedPunct = clean.replace(/["'\\’]/g, '').trim();
+    if (strippedPunct && strippedPunct !== clean && strippedPunct !== strippedQuotes && !visited.has(strippedPunct)) {
+        visited.add(strippedPunct);
+        const resolved = getCodexArticle(strippedPunct, visited);
+        if (resolved) return resolved;
+    }
+
+    // Fallback 3: Truncated slug/title prefix matching
+    // Handles artifacts cut off at quotes, like 'F-04_Superiority_Fighter_-_', 'F-04_Superiority_Fighter_-_\\',
+    // or 'M-38_Armored_Personnel_Carrier_-_'
+    if (clean.includes('-_') || clean.includes(' - ')) {
+        const trimmed = clean.replace(/[_ -]*-[_ -]*$/, '').replace(/[\\"]+$/, '').trim();
+        if (trimmed.length > 3) {
+            const slugPrefix = trimmed.replace(/ /g, '_') + '_-_';
+            const titlePrefix = trimmed.replace(/_/g, ' ') + ' - ';
+            for (const [k, art] of Object.entries(CODEX_ARTICLES)) {
+                if (k.startsWith(slugPrefix) || k.startsWith(titlePrefix)) {
+                    return art;
+                }
+            }
+        }
+    }
+
     return undefined;
 }
 

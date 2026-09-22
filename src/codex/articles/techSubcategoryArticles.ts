@@ -103,8 +103,8 @@ The first number in the designation indicates an entirely different military spe
     },
     {
         id: 3209,
-        slug: 'ASIM-01_Short_Range_Guided_Missile_-_\\',
-        title: 'ASIM-01 Short Range Guided Missile - \\',
+        slug: 'ASIM-01_Short_Range_Guided_Missile_-_Javelin',
+        title: 'ASIM-01 Short Range Guided Missile - Javelin',
         author: 'JDavis',
         lastUpdated: '2007-10-20 16:18:38',
         summary: 'The Air/Space Intercept Missile designation 01, dubbed the "Javelin", was a computer guided missile weapon which could operate in atmosphere or in space. An ope',
@@ -118,8 +118,8 @@ Later models in the ASIM series incorporated internal sensors and could maintain
     },
     {
         id: 3215,
-        slug: 'ASIM-02_Medium_Range_Guided_Missile_-_\\',
-        title: 'ASIM-02 Medium Range Guided Missile - \\',
+        slug: 'ASIM-02_Medium_Range_Guided_Missile_-_Wren',
+        title: 'ASIM-02 Medium Range Guided Missile - Wren',
         author: 'JDavis',
         lastUpdated: '2007-10-20 18:01:04',
         summary: 'The Air/Space Intercept Missile designation 02, dubbed the "Wren", was a computer guided missile weapon which could operate in atmosphere or in space. An operat',
@@ -131,8 +131,8 @@ Later models in the ASIM series incorporated internal sensors and could maintain
     },
     {
         id: 3216,
-        slug: 'ASIM-03_Short_Range_Guided_Missile_-_\\',
-        title: 'ASIM-03 Short Range Guided Missile - \\',
+        slug: 'ASIM-03_Short_Range_Guided_Missile_-_Cobra',
+        title: 'ASIM-03 Short Range Guided Missile - Cobra',
         author: 'JDavis',
         lastUpdated: '2007-10-20 18:27:49',
         summary: 'The Air/Space Intercept Missile designation 03, dubbed the "Cobra", was a computer guided missile weapon which could operate in atmosphere or in space. An opera',
@@ -146,8 +146,8 @@ The system was prone to error, often picking targets of little tactical importan
     },
     {
         id: 3228,
-        slug: 'ASIM-04_Long_Range_Guided_Missile_-_\\',
-        title: 'ASIM-04 Long Range Guided Missile - \\',
+        slug: 'ASIM-04_Long_Range_Guided_Missile_-_Hawk',
+        title: 'ASIM-04 Long Range Guided Missile - Hawk',
         author: 'JDavis',
         lastUpdated: '2007-10-21 20:38:12',
         summary: 'The Air/Space Intercept Missile designation 04, dubbed the "Hawk", was a computer guided missile weapon which could operate in atmosphere or in space. An operat',
@@ -161,13 +161,13 @@ The Hawk had an effective range of one hundred kilometers.
     },
     {
         id: 3229,
-        slug: 'ASIM-05_Medium_Range_Guided_Missile_-_\\',
-        title: 'ASIM-05 Medium Range Guided Missile - \\',
+        slug: 'ASIM-05_Medium_Range_Guided_Missile_-_Hound',
+        title: 'ASIM-05 Medium Range Guided Missile - Hound',
         author: 'ABailey',
         lastUpdated: '2009-05-17 01:13:00',
         summary: "The Air/Space Intercept Missile designation 05, dubbed the \"Hound\", was and is the premiere dogfighting missile of the Prefecture's Federated Districts Air Forc",
         categories: ['Missiles','Imperial Military Specification'],
-        rawContent: `{{Weapon Information|
+        rawContent: `{{Missile Information|
 |name= ASIM-05 Medium Range Guided Missile - "Hound"
 |type= Missile
 |origin= Federated Districts of the Prefecture
@@ -202,8 +202,8 @@ Besides administrating emergency treatment to soldiers, a Medic can also cut ope
     },
     {
         id: 3175,
-        slug: 'BC-01_Light_Beam_Cannon_-_\\',
-        title: 'BC-01 Light Beam Cannon - \\',
+        slug: 'BC-01_Light_Beam_Cannon_-_Toaster',
+        title: 'BC-01 Light Beam Cannon - Toaster',
         author: 'JDavis',
         lastUpdated: '2007-10-20 00:39:05',
         summary: "The BC-1 was derived from an early version of the M-23. By stripping the M-23 of its turret mounts, flash suppressor, operator's heat shield and similar trappin",
@@ -390,8 +390,8 @@ The armor is power-assisted, and the operator can carry and use a crew-served we
     },
     {
         id: 3165,
-        slug: 'GC-01_Light_Gauss_Cannon_-_\\',
-        title: 'GC-01 Light Gauss Cannon - \\',
+        slug: 'GC-01_Light_Gauss_Cannon_-_Piper',
+        title: 'GC-01 Light Gauss Cannon - Piper',
         author: 'JDavis',
         lastUpdated: '2007-10-14 19:23:00',
         summary: 'The Gauss Cannon is a medium energy form of the Mass Driver, capable of launching projectiles at high velocities.',
@@ -415,8 +415,8 @@ Despite the issues the GC-1 suffered, the Piper was very popular and was usually
     },
     {
         id: 3210,
-        slug: 'GC-02_Medium_Gauss_Cannon_-_\\',
-        title: 'GC-02 Medium Gauss Cannon - \\',
+        slug: 'GC-02_Medium_Gauss_Cannon_-_Shrieker',
+        title: 'GC-02 Medium Gauss Cannon - Shrieker',
         author: 'JDavis',
         lastUpdated: '2007-10-20 17:08:04',
         summary: 'The Gauss Cannon is a medium energy form of the Mass Driver, capable of launching projectiles at high velocities.',
@@ -440,15 +440,13 @@ The Shrieker was one of the first stable Gauss Cannon variants, and saw consiste
     },
     {
         id: 3227,
-        slug: 'GC-05_Medium_Gauss_Cannon_-_\\',
-        title: 'GC-05 Medium Gauss Cannon - \\',
+        slug: 'GC-05_Medium_Gauss_Cannon_-_Screamer',
+        title: 'GC-05 Medium Gauss Cannon - Screamer',
         author: 'JDavis',
         lastUpdated: '2007-10-21 20:34:58',
         summary: 'The Gauss Cannon is a medium energy form of the Mass Driver, capable of launching projectiles at high velocities.',
         categories: ['Projectile Weapons','Imperial Military Specification'],
-        rawContent: `The Gauss Cannon is a medium energy form of the Mass Driver, capable of launching projectiles at high velocities.
-
-The "Screamer" was a second-generation version of the earlier [[GC-02 Medium Gauss Cannon - "Shrieker"|GC-2]] model. Enhancements in capacitor, accelerator, and energy technology resulted in a greatly increased effective range, a reduction in energy requirements, and a 45% increase in kinetic energy delivered to a target at optimum range.
+        rawContent: `The "Screamer" was a second-generation version of the earlier [[GC-02 Medium Gauss Cannon - "Shrieker"|GC-2]] model. Enhancements in capacitor, accelerator, and energy technology resulted in a greatly increased effective range, a reduction in energy requirements, and a 45% increase in kinetic energy delivered to a target at optimum range.
 
 The "Screamer" was built with simplified and enhanced components, making it easy to maintain and operate in the field. Like its predecessor, it could only be fired in quick bursts rather than in a continuous stream.
 
@@ -682,8 +680,8 @@ The Dress Uniform is worn with full rank insignia and any badges and medals the 
     },
     {
         id: 1782,
-        slug: 'M-03_Low_Profile_Armor_-_\\',
-        title: 'M-03 Low Profile Armor - \\',
+        slug: 'M-03_Low_Profile_Armor_-_Second_Chance',
+        title: 'M-03 Low Profile Armor - Second Chance',
         author: 'Myiven',
         lastUpdated: '2007-09-05 12:15:11',
         summary: '*Designation: Unpowered Soft Body Armor\r\n*Defenses: \r\n**Allied Body-Armor Soft Composite Armor Mesh with Reinforcing Trauma Plates\r\n*Unit cost: 100,000 Peculium',
@@ -702,8 +700,8 @@ The Dress Uniform is worn with full rank insignia and any badges and medals the 
     },
     {
         id: 1084,
-        slug: 'M-16_Power-Assisted_Heavy_Armor_-_\\',
-        title: 'M-16 Power-Assisted Heavy Armor - \\',
+        slug: 'M-16_Power-Assisted_Heavy_Armor_-_Excalibur',
+        title: 'M-16 Power-Assisted Heavy Armor - Excalibur',
         author: 'JDavis',
         lastUpdated: '2007-10-10 22:55:43',
         summary: '*Designation: Semi-Powered Armored Infantry Combat System\r\n*Power: Global Electric NiMh 32-hour capacity battery\r\n*Propulsion: Global Electric ULESKO Power-Assi',
@@ -711,7 +709,7 @@ The Dress Uniform is worn with full rank insignia and any badges and medals the 
         images: {
             'M16Excalibur.jpg': {
                 'legacy': 'assets/codex/M16Excalibur.jpg',
-                'alt': 'M-16_Power-Assisted_Heavy_Armor_-_\\'
+                'alt': 'M-16 Power-Assisted Heavy Armor - Excalibur'
             }
         },
         rawContent: `*Designation: Semi-Powered Armored Infantry Combat System
@@ -763,8 +761,8 @@ Mass-production of the Mobile Infantry suit is cheap and easy, and both the Pref
     },
     {
         id: 1787,
-        slug: 'M-22_Light_Autocannon_-_\\',
-        title: 'M-22 Light Autocannon - \\',
+        slug: 'M-22_Light_Autocannon_-_Stinger',
+        title: 'M-22 Light Autocannon - Stinger',
         author: 'Myiven',
         lastUpdated: '2007-09-05 13:54:05',
         summary: '*Type: XX\r\n*Place of Origin: XX\r\n*Service History \r\n**In Service: XX\r\n**Used By:\r\n***XX\r\n*Production History \r\n**Designed: XXXX\r\n**Produced: XXXX-XXXX\r\n**Number',
@@ -799,8 +797,8 @@ Mass-production of the Mobile Infantry suit is cheap and easy, and both the Pref
     },
     {
         id: 1802,
-        slug: 'M-23_Light_Beam_Weapon_-_\\',
-        title: 'M-23 Light Beam Weapon - \\',
+        slug: 'M-23_Light_Beam_Weapon_-_Toaster',
+        title: 'M-23 Light Beam Weapon - Toaster',
         author: 'JDavis',
         lastUpdated: '2007-10-20 00:18:53',
         summary: '*Type: XX\r\n*Place of Origin: XX\r\n*Service History \r\n**In Service: XX\r\n**Used By:\r\n***XX\r\n*Production History \r\n**Designed: XXXX\r\n**Produced: XXXX-XXXX\r\n**Number',
@@ -835,8 +833,8 @@ Mass-production of the Mobile Infantry suit is cheap and easy, and both the Pref
     },
     {
         id: 1791,
-        slug: 'M-29_Medium_Autocannon_-_\\',
-        title: 'M-29 Medium Autocannon - \\',
+        slug: 'M-29_Medium_Autocannon_-_Thumper',
+        title: 'M-29 Medium Autocannon - Thumper',
         author: 'JDavis',
         lastUpdated: '2007-10-20 00:22:55',
         summary: '*Type: XX\r\n*Place of Origin: XX\r\n*Service History \r\n**In Service: XX\r\n**Used By:\r\n***XX\r\n*Production History \r\n**Designed: XXXX\r\n**Produced: XXXX-XXXX\r\n**Number',
@@ -871,8 +869,8 @@ Mass-production of the Mobile Infantry suit is cheap and easy, and both the Pref
     },
     {
         id: 1803,
-        slug: 'M-30_Medium_Neutron_Beam_Weapon_-_\\',
-        title: 'M-30 Medium Neutron Beam Weapon - \\',
+        slug: 'M-30_Medium_Neutron_Beam_Weapon_-_Scorcher',
+        title: 'M-30 Medium Neutron Beam Weapon - Scorcher',
         author: 'JDavis',
         lastUpdated: '2007-10-20 00:26:44',
         summary: '*Type: XX\r\n*Place of Origin: XX\r\n*Service History \r\n**In Service: XX\r\n**Used By:\r\n***XX\r\n*Production History \r\n**Designed: XXXX\r\n**Produced: XXXX-XXXX\r\n**Number',
@@ -907,8 +905,8 @@ Mass-production of the Mobile Infantry suit is cheap and easy, and both the Pref
     },
     {
         id: 1795,
-        slug: 'M-34_Heavy_Autocannon_-_\\',
-        title: 'M-34 Heavy Autocannon - \\',
+        slug: 'M-34_Heavy_Autocannon_-_Earthquake',
+        title: 'M-34 Heavy Autocannon - Earthquake',
         author: 'JDavis',
         lastUpdated: '2007-10-20 00:29:36',
         summary: '*Type: XX\r\n*Place of Origin: XX\r\n*Service History \r\n**In Service: XX\r\n**Used By:\r\n***XX\r\n*Production History \r\n**Designed: XXXX\r\n**Produced: XXXX-XXXX\r\n**Number',
@@ -943,8 +941,8 @@ Mass-production of the Mobile Infantry suit is cheap and easy, and both the Pref
     },
     {
         id: 1804,
-        slug: 'M-35_Heavy_Neutron_Beam_Weapon_-_\\',
-        title: 'M-35 Heavy Neutron Beam Weapon - \\',
+        slug: 'M-35_Heavy_Neutron_Beam_Weapon_-_Incinerator',
+        title: 'M-35 Heavy Neutron Beam Weapon - Incinerator',
         author: 'JDavis',
         lastUpdated: '2007-10-20 00:31:12',
         summary: '*Type: XX\r\n*Place of Origin: XX\r\n*Service History \r\n**In Service: XX\r\n**Used By:\r\n***XX\r\n*Production History \r\n**Designed: XXXX\r\n**Produced: XXXX-XXXX\r\n**Number',
@@ -1220,8 +1218,8 @@ They have an unarmored, light profile, and a heavily armored profile.
     },
     {
         id: 2741,
-        slug: 'PL-100_Automated_Defensive_Platform_-_\\',
-        title: 'PL-100 Automated Defensive Platform - \\',
+        slug: 'PL-100_Automated_Defensive_Platform_-_Defender',
+        title: 'PL-100 Automated Defensive Platform - Defender',
         author: 'JDavis',
         lastUpdated: '2007-10-10 01:41:43',
         summary: '*Dimensions:\r\n**Length: 45.0 meters\r\n**Width: 45.0 meters\r\n**Height: 105.0 meters\r\n*Armament: 8 x Fast-Tracking Neutron Cannons\r\n*Defensive System:\r\n**2 Gradien',
@@ -1229,7 +1227,7 @@ They have an unarmored, light profile, and a heavily armored profile.
         images: {
             'PL100Defender.jpg': {
                 'legacy': 'assets/codex/PL100Defender.jpg',
-                'alt': 'PL-100_Automated_Defensive_Platform_-_\\'
+                'alt': 'PL-100 Automated Defensive Platform - Defender'
             }
         },
         rawContent: `*Dimensions:

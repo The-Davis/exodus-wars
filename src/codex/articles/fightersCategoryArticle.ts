@@ -11,9 +11,9 @@ export const fightersCategoryArticle: CodexArticle = {
     rawContent: `'''Fighters''' are high-performance atmospheric and exo-atmospheric combat craft engineered for space superiority, fleet screening, interception, and tactical strike operations. Deployable from planetary bases, orbital stations, and naval carriers, fighters represent the vanguard of tactical aerospace doctrine throughout the [[Orion Arm]].
 
 == Overview & Operational Roles ==
-* '''Space & Air Superiority''': High-maneuverability frames built to dogfight hostile strike wings and establish total airspace or orbital control, such as the [[F-04_Superiority_Fighter_-_"Raven"|F-04 Raven]], [[F-12_Superiority_Fighter_-_"Vampire"|F-12 Vampire]], and [[F-16_Superiority_Fighter_-_"Piranha"|F-16 Piranha]].
-* '''Carrier-Based Interceptors''': Catapult-launched aerospace fighters with fast turnarounds and high acceleration curves, such as the legendary [[F-09_Carrier_Fighter_-_"Valkyrie"|F-9 Valkyrie]] and [[O-24_Vadrie|O-24 Vadrie]].
-* '''Heavy & Strike Fighters''': Armored long-range platforms mounting heavy gauss cannons, missile hardpoints, or torpedo racks to engage enemy gunboats and capital escorts, including the [[F-11_Heavy_Fighter_-_"Stuka"|F-11 Stuka]], [[O-26_Milrok|O-26 Milrok]], and [[L-6_Constantine|L-6 Constantine]].
+* '''Space & Air Superiority''': High-maneuverability frames built to dogfight hostile strike wings and establish total airspace or orbital control, such as the [[F-04_Superiority_Fighter_-_Raven|F-04 Raven]], [[F-12_Superiority_Fighter_-_Vampire|F-12 Vampire]], and [[F-16_Superiority_Fighter_-_Piranha|F-16 Piranha]].
+* '''Carrier-Based Interceptors''': Catapult-launched aerospace fighters with fast turnarounds and high acceleration curves, such as the legendary [[F-09_Carrier_Fighter_-_Valkyrie|F-9 Valkyrie]] and [[O-24_Vadrie|O-24 Vadrie]].
+* '''Heavy & Strike Fighters''': Armored long-range platforms mounting heavy gauss cannons, missile hardpoints, or torpedo racks to engage enemy gunboats and capital escorts, including the [[F-11_Heavy_Fighter_-_Stuka|F-11 Stuka]], [[O-26_Milrok|O-26 Milrok]], and [[L-6_Constantine|L-6 Constantine]].
 * '''Experimental Testbeds''': Prototype testbeds evaluating scramjet propulsion, gravity cavitation drives, aeroelastic controls, and deflector shielding (the Imperial and Prefecture XF-Series).
 
 == United Earth Alliance & Alliance Defense Force ==
@@ -24,14 +24,14 @@ export const fightersCategoryArticle: CodexArticle = {
 * [[Yak-163_SuperCobra|Yak-163 SuperCobra]] - High-altitude atmospheric dogfighter and escort.
 
 == Onyx Empire & Royal Imperial Air Force ==
-* [[F-04_Superiority_Fighter_-_"Raven"|F-04 Superiority Fighter - "Raven"]] - Ubiquitous early-war space superiority fighter.
-* [[F-04S_Superiority_Fighter_-_"Super_Raven"|F-04S Superiority Fighter - "Super Raven"]] - Upgraded high-thrust variant of the Raven.
-* [[F-09_Carrier_Fighter_-_"Valkyrie"|F-09 Carrier Fighter - "Valkyrie"]] - Flagship carrier-launched air and space superiority fighter.
-* [[F-11_Heavy_Fighter_-_"Stuka"|F-11 Heavy Fighter - "Stuka"]] - Heavy-armament strike fighter with multi-cannon arrays.
-* [[F-12_Superiority_Fighter_-_"Vampire"|F-12 Superiority Fighter - "Vampire"]] - Advanced aeroelastic-control superiority fighter operated by Scimitar Squadron.
+* [[F-04_Superiority_Fighter_-_Raven|F-04 Superiority Fighter - "Raven"]] - Ubiquitous early-war space superiority fighter.
+* [[F-04S_Superiority_Fighter_-_Super_Raven|F-04S Superiority Fighter - "Super Raven"]] - Upgraded high-thrust variant of the Raven.
+* [[F-09_Carrier_Fighter_-_Valkyrie|F-09 Carrier Fighter - "Valkyrie"]] - Flagship carrier-launched air and space superiority fighter.
+* [[F-11_Heavy_Fighter_-_Stuka|F-11 Heavy Fighter - "Stuka"]] - Heavy-armament strike fighter with multi-cannon arrays.
+* [[F-12_Superiority_Fighter_-_Vampire|F-12 Superiority Fighter - "Vampire"]] - Advanced aeroelastic-control superiority fighter operated by Scimitar Squadron.
 
 == Federated Districts of the Prefecture ==
-* [[F-16_Superiority_Fighter_-_"Piranha"|F-16 Superiority Fighter - "Piranha"]] - Modernized next-generation multi-role space fighter.
+* [[F-16_Superiority_Fighter_-_Piranha|F-16 Superiority Fighter - "Piranha"]] - Modernized next-generation multi-role space fighter.
 * [[L-3_Aurelius|L-3 Aurelius]] - Light fleet escort and interdiction fighter.
 * [[L-6_Constantine|L-6 Constantine]] - Heavy strike fighter engineered for anti-shipping runs.
 * [[L-14_Octavius|L-14 Octavius]] - Extended-endurance long-range patrol fighter.
@@ -43,7 +43,7 @@ export const fightersCategoryArticle: CodexArticle = {
 == Mesarthrim Clans & German Aerospace Lineage ==
 * [[Km-4_Tischler|Km-4 Tischler]] - High-speed interceptor utilizing advanced energy management.
 * [[Km-5_Drache|Km-5 Drache]] - Heavy frontline dogfighter of the Mesarthrim Clans.
-* [[Me-32_Superiority_Fighter_-_"Sturmfaust"|Me-32 Superiority Fighter - "Sturmfaust"]] - Classic high-speed space superiority fighter.
+* [[Me-32_Superiority_Fighter_-_Sturmfaust|Me-32 Superiority Fighter - "Sturmfaust"]] - Classic high-speed space superiority fighter.
 * [[Me-46_Dragonfly|Me-46 Dragonfly]] - High-agility short-range defensive interceptor.
 * [[Me-78_Anox|Me-78 Anox]] - Heavy armored strike fighter.
 * [[Me-123_Sanburn|Me-123 Sanburn]] - Planetary escort and ground-support strike fighter.

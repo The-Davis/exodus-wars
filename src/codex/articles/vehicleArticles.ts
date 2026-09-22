@@ -3,8 +3,8 @@ import { CodexArticle } from '../types';
 export const VEHICLE_ARTICLES: CodexArticle[] = [
     {
         'id': 1066,
-        'slug': 'M-38_Armored_Personnel_Carrier_-_"Armadillo"',
-        'title': 'M-38 Armored Personnel Carrier - "Armadillo"',
+        'slug': 'M-38_Armored_Personnel_Carrier_-_Armadillo',
+        'title': 'M-38 Armored Personnel Carrier - Armadillo',
         'author': 'JDavis',
         'lastUpdated': '2007-10-20 00:32:57',
         'categories': [
@@ -58,8 +58,8 @@ export const VEHICLE_ARTICLES: CodexArticle[] = [
     },
     {
         'id': 1071,
-        'slug': 'M-21_Light_Combat_Rig_Chassis_-_"Hercules"',
-        'title': 'M-21 Light Combat Rig Chassis - "Hercules"',
+        'slug': 'M-21_Light_Combat_Rig_Chassis_-_Hercules',
+        'title': 'M-21 Light Combat Rig Chassis - Hercules',
         'author': 'Myiven',
         'lastUpdated': '2007-09-05 11:54:14',
         'categories': [
@@ -80,8 +80,8 @@ export const VEHICLE_ARTICLES: CodexArticle[] = [
     },
     {
         'id': 1072,
-        'slug': 'M-32_Heavy_Support_Rig_Chassis_-_"Zeus"',
-        'title': 'M-32 Heavy Support Rig Chassis - "Zeus"',
+        'slug': 'M-32_Heavy_Support_Rig_Chassis_-_Zeus',
+        'title': 'M-32 Heavy Support Rig Chassis - Zeus',
         'author': 'JDavis',
         'lastUpdated': '2007-10-20 00:28:08',
         'categories': [
@@ -113,8 +113,8 @@ export const VEHICLE_ARTICLES: CodexArticle[] = [
     },
     {
         'id': 1075,
-        'slug': 'M-24_Medium_Combat_Rig_Chassis_-_"Apollo"',
-        'title': 'M-24 Medium Combat Rig Chassis - "Apollo"',
+        'slug': 'M-24_Medium_Combat_Rig_Chassis_-_Apollo',
+        'title': 'M-24 Medium Combat Rig Chassis - Apollo',
         'author': 'Myiven',
         'lastUpdated': '2007-09-05 11:55:25',
         'categories': [
@@ -190,8 +190,8 @@ export const VEHICLE_ARTICLES: CodexArticle[] = [
     },
     {
         'id': 1080,
-        'slug': 'M-25_Medium_Support_Rig_Chassis_-_"Bradshaw"',
-        'title': 'M-25 Medium Support Rig Chassis - "Bradshaw"',
+        'slug': 'M-25_Medium_Support_Rig_Chassis_-_Bradshaw',
+        'title': 'M-25 Medium Support Rig Chassis - Bradshaw',
         'author': 'ABailey',
         'lastUpdated': '2008-03-02 20:54:28',
         'categories': [
@@ -245,8 +245,8 @@ export const VEHICLE_ARTICLES: CodexArticle[] = [
     },
     {
         'id': 1085,
-        'slug': 'M-17_Mobile_Exoskeletal_Armor_-_"Grendel"',
-        'title': 'M-17 Mobile Exoskeletal Armor - "Grendel"',
+        'slug': 'M-17_Mobile_Exoskeletal_Armor_-_Grendel',
+        'title': 'M-17 Mobile Exoskeletal Armor - Grendel',
         'author': 'Myiven',
         'lastUpdated': '2007-09-05 11:28:21',
         'categories': [
@@ -279,8 +279,8 @@ export const VEHICLE_ARTICLES: CodexArticle[] = [
     },
     {
         'id': 1780,
-        'slug': 'M-20_Light_Combat_Vehicle_Chassis_-_"Wolverine"',
-        'title': 'M-20 Light Combat Vehicle Chassis - "Wolverine"',
+        'slug': 'M-20_Light_Combat_Vehicle_Chassis_-_Wolverine',
+        'title': 'M-20 Light Combat Vehicle Chassis - Wolverine',
         'author': 'JDavis',
         'lastUpdated': '2007-10-09 22:03:23',
         'categories': [
@@ -301,8 +301,8 @@ export const VEHICLE_ARTICLES: CodexArticle[] = [
     },
     {
         'id': 1789,
-        'slug': 'M-28_Medium_Combat_Vehicle_Chassis_-_"Enforcer"',
-        'title': 'M-28 Medium Combat Vehicle Chassis - "Enforcer"',
+        'slug': 'M-28_Medium_Combat_Vehicle_Chassis_-_Enforcer',
+        'title': 'M-28 Medium Combat Vehicle Chassis - Enforcer',
         'author': 'JDavis',
         'lastUpdated': '2007-10-20 00:22:39',
         'categories': [
@@ -313,8 +313,8 @@ export const VEHICLE_ARTICLES: CodexArticle[] = [
     },
     {
         'id': 1792,
-        'slug': 'M-31_Heavy_Combat_Rig_Chassis_-_"Hades"',
-        'title': 'M-31 Heavy Combat Rig Chassis - "Hades"',
+        'slug': 'M-31_Heavy_Combat_Rig_Chassis_-_Hades',
+        'title': 'M-31 Heavy Combat Rig Chassis - Hades',
         'author': 'JDavis',
         'lastUpdated': '2007-10-20 00:27:20',
         'categories': [
@@ -335,8 +335,8 @@ export const VEHICLE_ARTICLES: CodexArticle[] = [
     },
     {
         'id': 1796,
-        'slug': 'M-36_All-Terrain_Vehicle_-_"Badger"',
-        'title': 'M-36 All-Terrain Vehicle - "Badger"',
+        'slug': 'M-36_All-Terrain_Vehicle_-_Badger',
+        'title': 'M-36 All-Terrain Vehicle - Badger',
         'author': 'JDavis',
         'lastUpdated': '2007-10-20 00:31:48',
         'categories': [
@@ -357,8 +357,8 @@ export const VEHICLE_ARTICLES: CodexArticle[] = [
     },
     {
         'id': 1797,
-        'slug': 'M-37_Infantry_Fighting_Vehicle_-_"Goblin"',
-        'title': 'M-37 Infantry Fighting Vehicle - "Goblin"',
+        'slug': 'M-37_Infantry_Fighting_Vehicle_-_Goblin',
+        'title': 'M-37 Infantry Fighting Vehicle - Goblin',
         'author': 'JDavis',
         'lastUpdated': '2009-05-07 01:06:41',
         'categories': [
@@ -446,8 +446,8 @@ export const VEHICLE_ARTICLES: CodexArticle[] = [
     },
     {
         'id': 2577,
-        'slug': 'T-88_Armored_Combat_Vehicle_-_"Archer"',
-        'title': 'T-88 Armored Combat Vehicle - "Archer"',
+        'slug': 'T-88_Armored_Combat_Vehicle_-_Archer',
+        'title': 'T-88 Armored Combat Vehicle - Archer',
         'author': 'JDavis',
         'lastUpdated': '2010-01-04 07:08:56',
         'categories': [
@@ -509,8 +509,8 @@ export const VEHICLE_ARTICLES: CodexArticle[] = [
     },
     {
         'id': 2586,
-        'slug': 'M-41_Main_Battle_Tank_Chassis_-_"Dragon"',
-        'title': 'M-41 Main Battle Tank Chassis - "Dragon"',
+        'slug': 'M-41_Main_Battle_Tank_Chassis_-_Dragon',
+        'title': 'M-41 Main Battle Tank Chassis - Dragon',
         'author': 'JDavis',
         'lastUpdated': '2009-05-07 01:15:57',
         'categories': [
@@ -619,8 +619,8 @@ export const VEHICLE_ARTICLES: CodexArticle[] = [
     },
     {
         'id': 2602,
-        'slug': 'M-42_Heavy_Combat_Vehicle_Chassis_-_"Warlord"',
-        'title': 'M-42 Heavy Combat Vehicle Chassis - "Warlord"',
+        'slug': 'M-42_Heavy_Combat_Vehicle_Chassis_-_Warlord',
+        'title': 'M-42 Heavy Combat Vehicle Chassis - Warlord',
         'author': 'JDavis',
         'lastUpdated': '2007-10-20 00:35:58',
         'categories': [
