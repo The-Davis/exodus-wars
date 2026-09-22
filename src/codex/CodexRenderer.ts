@@ -18,6 +18,8 @@ export class CodexRenderer {
         const raceMatch = text.match(/\{\{(?:Race[_ ]Information|Species[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
         const currencyMatch = text.match(/\{\{Currency[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const economyMatch = text.match(/\{\{(?:Economy[_ ]Information|Economic[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
+        const nationMatch = text.match(/\{\{Nation[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
+        const allianceMatch = text.match(/\{\{Alliance[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
 
         if (personMatch) {
             text = text.replace(personMatch[0], '');
@@ -49,6 +51,12 @@ export class CodexRenderer {
         } else if (economyMatch) {
             text = text.replace(economyMatch[0], '');
             infoboxHtml = this.renderEconomyInformation(economyMatch[1], articleImages, baseUrl);
+        } else if (nationMatch) {
+            text = text.replace(nationMatch[0], '');
+            infoboxHtml = this.renderNationInformation(nationMatch[1], articleImages, baseUrl);
+        } else if (allianceMatch) {
+            text = text.replace(allianceMatch[0], '');
+            infoboxHtml = this.renderAllianceInformation(allianceMatch[1], articleImages, baseUrl);
         }
 
         // Clean out any unhandled navbox templates (e.g. {{Pelagrim Crisis Navbox}})
@@ -653,6 +661,123 @@ export class CodexRenderer {
             <aside class="codex-infobox economy-information">
                 <div class="infobox-header economy-header">
                     <div class="infobox-subtitle">ECONOMIC SURVEY // MACROECONOMICS</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderNationInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || params['nation'] || 'Sovereign Nation';
+        const image = params['image'] || params['flag'] || '';
+        const caption = params['caption'] || '';
+        const motto = params['motto'] || '';
+        const anthem = params['anthem'] || '';
+        const symbol = params['national_symbol'] || params['symbol'] || '';
+        const capital = params['capital'] || '';
+        const language = params['language'] || params['languages'] || '';
+        const government = params['government'] || '';
+        const headOfState = params['head_of_state'] || params['leader'] || '';
+        const formation = params['formation'] || params['founded'] || '';
+        const status = params['status'] || '';
+        const area = params['area'] || '';
+        const population = params['population'] || '';
+        const gdp = params['gdp'] || '';
+        const currency = params['currency'] || '';
+
+        const rows: string[] = [];
+        if (motto) rows.push(`<tr><th>Motto</th><td><em>"${this.formatInline(motto)}"</em></td></tr>`);
+        if (anthem) rows.push(`<tr><th>Anthem</th><td><em>"${this.formatInline(anthem)}"</em></td></tr>`);
+        if (symbol) rows.push(`<tr><th>National Symbol</th><td>${this.formatInline(symbol)}</td></tr>`);
+        if (capital) rows.push(`<tr><th>Capital</th><td>${this.formatInline(capital)}</td></tr>`);
+        if (language) rows.push(`<tr><th>Official Language(s)</th><td>${this.formatInline(language)}</td></tr>`);
+        if (government) rows.push(`<tr><th>Government</th><td>${this.formatInline(government)}</td></tr>`);
+        if (headOfState) rows.push(`<tr><th>Head of State</th><td>${this.formatInline(headOfState)}</td></tr>`);
+        if (formation) rows.push(`<tr><th>Formation</th><td>${this.formatInline(formation)}</td></tr>`);
+        if (status) rows.push(`<tr><th>Status</th><td>${this.formatInline(status)}</td></tr>`);
+        if (area) rows.push(`<tr><th>Territory / Area</th><td>${this.formatInline(area)}</td></tr>`);
+        if (population) rows.push(`<tr><th>Population</th><td>${this.formatInline(population)}</td></tr>`);
+        if (gdp) rows.push(`<tr><th>GDP</th><td>${this.formatInline(gdp)}</td></tr>`);
+        if (currency) rows.push(`<tr><th>Currency</th><td>${this.formatInline(currency)}</td></tr>`);
+
+        let imgHtml = '';
+        if (image) {
+            const cleanImgName = image.replace(/^\[\[Image:([^\|\]]+).*\]\]$/, '$1').trim();
+            imgHtml = this.renderImageContainer(cleanImgName, articleImages, baseUrl, name, caption, false, true);
+        }
+
+        return `
+            <aside class="codex-infobox nation-information">
+                <div class="infobox-header nation-header">
+                    <div class="infobox-subtitle">POLITICAL ARCHIVE // SOVEREIGN NATION</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderAllianceInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || params['alliance'] || 'Interstellar Alliance';
+        const flag = params['flag'] || params['image'] || '';
+        const badge = params['badge'] || '';
+        const caption = params['caption'] || '';
+        const building = params['building'] || '';
+        const headquarters = params['headquarters'] || '';
+        const hqFull = [building, headquarters].filter(Boolean).join(', ');
+        const title = params['title'] || '';
+        const leader = params['leader'] || '';
+        const leaderFull = title && leader ? `<strong>${this.formatInline(title)}:</strong> ${this.formatInline(leader)}` : (leader || title);
+        const event = params['event'] || '';
+        const date = params['date'] || '';
+        const number = params['number'] || '';
+        const members = params['members'] || '';
+
+        const rows: string[] = [];
+        if (hqFull) rows.push(`<tr><th>Headquarters</th><td>${this.formatInline(hqFull)}</td></tr>`);
+        if (leaderFull) rows.push(`<tr><th>Leadership</th><td>${leaderFull}</td></tr>`);
+        if (event) rows.push(`<tr><th>Founding Accord</th><td>${this.formatInline(event)}</td></tr>`);
+        if (date) rows.push(`<tr><th>Formation Date</th><td>${this.formatInline(date)}</td></tr>`);
+        if (number) rows.push(`<tr><th>Member Count</th><td>${this.formatInline(number)}</td></tr>`);
+        if (members) rows.push(`<tr><th>Members</th><td>${this.formatInline(members)}</td></tr>`);
+
+        let imgHtml = '';
+        if (flag) {
+            const cleanImgName = flag.replace(/^\[\[Image:([^\|\]]+).*\]\]$/, '$1').trim();
+            imgHtml += this.renderImageContainer(cleanImgName, articleImages, baseUrl, name, caption, false, true);
+        }
+        if (badge && badge !== flag) {
+            const cleanBadgeName = badge.replace(/^\[\[Image:([^\|\]]+).*\]\]$/, '$1').trim();
+            imgHtml += this.renderImageContainer(cleanBadgeName, articleImages, baseUrl, `${name} Badge`, '', false, true);
+        }
+
+        return `
+            <aside class="codex-infobox alliance-information">
+                <div class="infobox-header alliance-header">
+                    <div class="infobox-subtitle">INTERSTELLAR TREATY // ALLIANCE ACCORD</div>
                     <h3 class="infobox-name">${this.formatInline(name)}</h3>
                 </div>
                 ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}

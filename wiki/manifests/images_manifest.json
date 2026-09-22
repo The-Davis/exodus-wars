@@ -634,7 +634,8 @@
     "timestamp": "2009-06-08 03:32:27",
     "description": "Second Attempt at upload.",
     "exists_on_disk": true,
-    "disk_filename": "AdelsonFlag.png"
+    "disk_filename": "AdelsonFlag.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Agoradir.jpg",
@@ -779,7 +780,8 @@
     "timestamp": "2007-08-28 18:54:43",
     "description": "Flag of the [[Alliance of Planets]], by [[James Davis]] using Inkscape.",
     "exists_on_disk": true,
-    "disk_filename": "AllianceOfPlanetsFlag.png"
+    "disk_filename": "AllianceOfPlanetsFlag.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "AlliedBody-ArmorLogo.png",
@@ -1030,7 +1032,8 @@
     "timestamp": "2008-10-10 05:14:19",
     "description": "New version of Asanova Flag, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Asanova-Flag.png"
+    "disk_filename": "Asanova-Flag.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Astrala_Class_Escort_Cruiser_Side_View.jpg",
@@ -1734,7 +1737,8 @@
     "timestamp": "2007-08-28 19:42:37",
     "description": "Flag of the [[Berlusconi Family Territory]], by [[James Davis]].",
     "exists_on_disk": true,
-    "disk_filename": "BerlusconiFamilyTerritoryFlag.png"
+    "disk_filename": "BerlusconiFamilyTerritoryFlag.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "BlijrokClassFrigate1.jpg",
@@ -2046,7 +2050,8 @@
     "timestamp": "2009-04-13 20:23:12",
     "description": "Cinaed Accord Badge",
     "exists_on_disk": true,
-    "disk_filename": "CABadge.png"
+    "disk_filename": "CABadge.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "CAFlag.png",
@@ -2059,7 +2064,8 @@
     "timestamp": "2009-04-13 20:22:50",
     "description": "Cinaed Accords Flag",
     "exists_on_disk": true,
-    "disk_filename": "CAFlag.png"
+    "disk_filename": "CAFlag.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "CCC.png",
@@ -2358,7 +2364,8 @@
     "timestamp": "2009-02-13 21:00:12",
     "description": "Flag of Celadon, under the Mesarthrim Federation.",
     "exists_on_disk": true,
-    "disk_filename": "CeladonFlag.png"
+    "disk_filename": "CeladonFlag.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Celeripes_Class.png",
@@ -2698,7 +2705,8 @@
     "timestamp": "2007-08-28 14:22:09",
     "description": "New version of flag by [[James Davis]].",
     "exists_on_disk": true,
-    "disk_filename": "ColonialCommonwealthFlag.png"
+    "disk_filename": "ColonialCommonwealthFlag.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "ColonialMarineInfantry.jpg",
@@ -2750,7 +2758,8 @@
     "timestamp": "2009-02-13 21:00:34",
     "description": "Flag of Comur, under the Mesarthrim Federation.",
     "exists_on_disk": true,
-    "disk_filename": "ComurFlag.png"
+    "disk_filename": "ComurFlag.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "ComurResistanceFlag.png",
@@ -2791,7 +2800,8 @@
     "timestamp": "2007-08-06 00:42:12",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "CouncilSeal.png"
+    "disk_filename": "CouncilSeal.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Cronus_from_orbit.png",
@@ -3810,7 +3820,8 @@
     "timestamp": "2008-01-02 17:26:16",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Flag_of_the_Reigess_Suverande.png"
+    "disk_filename": "Flag_of_the_Reigess_Suverande.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Flag_of_the_Taviridis_Somarchada.png",
@@ -5237,7 +5248,8 @@
     "timestamp": "2009-06-08 03:22:18",
     "description": "Flag of Iurin, member of the Mesarthrim Federation.",
     "exists_on_disk": true,
-    "disk_filename": "IurinFlag.png"
+    "disk_filename": "IurinFlag.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Jagarr_Map.gif",
@@ -5436,7 +5448,8 @@
     "timestamp": "2007-08-28 17:58:41",
     "description": "Flag of the [[Kalidasa Planetary Authority]], by [[James Davis]] using Inkscape.",
     "exists_on_disk": true,
-    "disk_filename": "KalidasaPlanetaryAuthorityFlag.png"
+    "disk_filename": "KalidasaPlanetaryAuthorityFlag.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "KalidasaReserveTrooper.jpg",
@@ -5800,7 +5813,8 @@
     "timestamp": "2009-02-13 21:00:55",
     "description": "Flag of Kufestin, under the Mesarthrim Federation.",
     "exists_on_disk": true,
-    "disk_filename": "KufestinFlag.png"
+    "disk_filename": "KufestinFlag.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Kujata_A.jpg",
@@ -6108,7 +6122,8 @@
     "timestamp": "2009-02-13 21:01:10",
     "description": "Flag of Lusar, under the Mesarthrim Federation.",
     "exists_on_disk": true,
-    "disk_filename": "LusarFlag.png"
+    "disk_filename": "LusarFlag.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "M-12Hades_A.jpg",
@@ -7138,7 +7153,8 @@
     "timestamp": "2009-02-13 21:01:25",
     "description": "Flag of Mesar, under the Mesarthrim Federation.",
     "exists_on_disk": true,
-    "disk_filename": "MesarFlag.png"
+    "disk_filename": "MesarFlag.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Mesar_Map.png",
@@ -7636,7 +7652,8 @@
     "timestamp": "2008-10-08 09:33:34",
     "description": "Nakamura Flag by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "NakamuraFlag.png"
+    "disk_filename": "NakamuraFlag.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "NarwhalClassLandingShip1.jpg",
@@ -7935,7 +7952,8 @@
     "timestamp": "2009-02-13 21:01:41",
     "description": "Flag of Novar, under the Mesarthrim Federation.",
     "exists_on_disk": true,
-    "disk_filename": "NovarFlag.png"
+    "disk_filename": "NovarFlag.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "Nyek'undu1.jpg",
@@ -8327,7 +8345,8 @@
     "timestamp": "2007-08-28 21:02:00",
     "description": "Flag of the [[Oronus Worker's Coalition]], by [[James Davis]] using Inkscape.",
     "exists_on_disk": true,
-    "disk_filename": "OronusWorkersCoalitionFlag.png"
+    "disk_filename": "OronusWorkersCoalitionFlag.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "OsritClassFrigate1.jpg",
@@ -11032,7 +11051,8 @@
     "timestamp": "2009-07-16 17:24:31",
     "description": "Temporary TA Badge.",
     "exists_on_disk": true,
-    "disk_filename": "TABadge.png"
+    "disk_filename": "TABadge.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "TAFlag.png",
@@ -11045,7 +11065,8 @@
     "timestamp": "2009-07-16 19:21:34",
     "description": "This will change, just a placeholder for now.",
     "exists_on_disk": true,
-    "disk_filename": "TAFlag.png"
+    "disk_filename": "TAFlag.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "TAMilitary.png",
@@ -11058,7 +11079,8 @@
     "timestamp": "2009-07-16 19:22:13",
     "description": "Badge painted on TA military vessels during joint operations.",
     "exists_on_disk": true,
-    "disk_filename": "TAMilitary.png"
+    "disk_filename": "TAMilitary.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "TalarisRoi.jpg",
@@ -11125,7 +11147,8 @@
     "timestamp": "2009-02-13 21:02:00",
     "description": "Flag of Tavou, under the Mesarthrim Federation.",
     "exists_on_disk": true,
-    "disk_filename": "TavouFlag.png"
+    "disk_filename": "TavouFlag.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "TerranALARMLRM.jpg",

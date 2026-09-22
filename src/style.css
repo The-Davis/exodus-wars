@@ -1125,6 +1125,16 @@ canvas {
   border-bottom: 1px solid #d7ccc8 !important;
 }
 
+.nation-header {
+  background: linear-gradient(135deg, #0d2847 0%, #051324 100%) !important;
+  border-bottom: 1px solid #00e5ff !important;
+}
+
+.alliance-header {
+  background: linear-gradient(135deg, #1a237e 0%, #0d1340 100%) !important;
+  border-bottom: 1px solid #7986cb !important;
+}
+
 .infobox-partof {
   font-size: 13px;
   color: #ff8a80;
