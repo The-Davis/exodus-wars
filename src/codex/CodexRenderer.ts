@@ -25,6 +25,10 @@ export class CodexRenderer {
         const weaponMatch = text.match(/\{\{(?:Weapon[_ ]Information|Engineering[_ ]System[_ ]Information|Defense[_ ]Information|Defense[_ ]System[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
         const structureMatch = text.match(/\{\{(?:Space[_ ]Station[_ ]Information|Structure[_ ]Information|Building[_ ]Information|Space[_ ]Elevator[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
         const doctrineMatch = text.match(/\{\{(?:Tactical[_ ]Doctrine[_ ]Information|Tactics[_ ]Information|Treatise[_ ]Information|Doctrine[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
+        const starshipClassMatch = text.match(/\{\{Starship[_ ]Class[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
+        const starshipMatch = text.match(/\{\{Starship[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
+        const aircraftMatch = text.match(/\{\{Aircraft[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
+        const vehicleMatch = text.match(/\{\{Vehicle[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
 
         if (personMatch) {
             text = text.replace(personMatch[0], '');
@@ -77,7 +81,24 @@ export class CodexRenderer {
         } else if (doctrineMatch) {
             text = text.replace(doctrineMatch[0], '');
             infoboxHtml = this.renderTacticalDoctrineInformation(doctrineMatch[1], articleImages, baseUrl);
+        } else if (starshipClassMatch) {
+            text = text.replace(starshipClassMatch[0], '');
+            infoboxHtml = this.renderStarshipClassInformation(starshipClassMatch[1], articleImages, baseUrl);
+        } else if (starshipMatch) {
+            text = text.replace(starshipMatch[0], '');
+            infoboxHtml = this.renderStarshipInformation(starshipMatch[1], articleImages, baseUrl);
+        } else if (aircraftMatch) {
+            text = text.replace(aircraftMatch[0], '');
+            infoboxHtml = this.renderAircraftInformation(aircraftMatch[1], articleImages, baseUrl);
+        } else if (vehicleMatch) {
+            text = text.replace(vehicleMatch[0], '');
+            infoboxHtml = this.renderVehicleInformation(vehicleMatch[1], articleImages, baseUrl);
         }
+
+        // Inline variant spec cards
+        text = text.replace(/\{\{Aircraft[_ ]Variant\s*\|?([\s\S]*?)\}\}/gi, (_m, vBody) => {
+            return this.renderAircraftVariant(vBody);
+        });
 
         // Clean out any unhandled navbox templates (e.g. {{Pelagrim Crisis Navbox}})
         text = text.replace(/\{\{[^}]*Navbox\}\}/gi, '');
@@ -1088,6 +1109,323 @@ export class CodexRenderer {
                 <table class="infobox-table">
                     <tbody>
                         ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static formatUnit(val: string, unit: string): string {
+        if (!val) return '';
+        const trimmed = val.trim();
+        if (/^\d+(\.\d+)?$/.test(trimmed)) {
+            return `${trimmed} ${unit}`;
+        }
+        return trimmed;
+    }
+
+    private static renderStarshipClassInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || params['title'] || 'Starship Class';
+        const imgName = this.extractImageName(params['image']);
+        const caption = params['caption'] || '';
+
+        const classRows: string[] = [];
+        if (params['designation']) classRows.push(`<tr><th>Designation</th><td>${this.formatInline(params['designation'])}</td></tr>`);
+        if (params['builder']) classRows.push(`<tr><th>Builder(s)</th><td>${this.formatInline(params['builder'])}</td></tr>`);
+        if (params['operator']) classRows.push(`<tr><th>Operator(s)</th><td>${this.formatInline(params['operator'])}</td></tr>`);
+        if (params['number_of_ships'] || params['list_of_ships']) {
+            const shipCount = params['number_of_ships'] ? `Total ${this.formatInline(params['number_of_ships'])}` : '';
+            const shipList = params['list_of_ships'] ? `<br/>${this.formatInline(params['list_of_ships'])}` : '';
+            classRows.push(`<tr><th>Ships in Class</th><td>${shipCount}${shipList}</td></tr>`);
+        }
+
+        const specRows: string[] = [];
+        if (params['crew']) specRows.push(`<tr><th>Crew</th><td>${this.formatInline(params['crew'])}</td></tr>`);
+        if (params['length']) specRows.push(`<tr><th>Length</th><td>${this.formatInline(this.formatUnit(params['length'], 'meters'))}</td></tr>`);
+        if (params['beam']) specRows.push(`<tr><th>Beam</th><td>${this.formatInline(this.formatUnit(params['beam'], 'meters'))}</td></tr>`);
+        if (params['height']) specRows.push(`<tr><th>Height</th><td>${this.formatInline(this.formatUnit(params['height'], 'meters'))}</td></tr>`);
+        if (params['total_volume']) specRows.push(`<tr><th>Total Volume</th><td>${this.formatInline(this.formatUnit(params['total_volume'], 'm³'))}</td></tr>`);
+
+        const sysRows: string[] = [];
+        if (params['powerplant']) sysRows.push(`<tr><th>Powerplant</th><td>${this.formatInline(params['powerplant'])}</td></tr>`);
+        if (params['propulsion']) sysRows.push(`<tr><th>Propulsion</th><td>${this.formatInline(params['propulsion'])}</td></tr>`);
+        if (params['ftl_drive']) sysRows.push(`<tr><th>FTL Drive</th><td>${this.formatInline(params['ftl_drive'])}</td></tr>`);
+        if (params['acceleration']) sysRows.push(`<tr><th>Acceleration</th><td>${this.formatInline(this.formatUnit(params['acceleration'], 'km/h/s'))}</td></tr>`);
+        if (params['sensors']) sysRows.push(`<tr><th>Sensors</th><td>${this.formatInline(params['sensors'])}</td></tr>`);
+        if (params['processing_system']) sysRows.push(`<tr><th>Processing System</th><td>${this.formatInline(params['processing_system'])}</td></tr>`);
+
+        const capRows: string[] = [];
+        if (params['aircraft']) capRows.push(`<tr><th>Aircraft Complement</th><td>${this.formatInline(params['aircraft'])}</td></tr>`);
+        if (params['personnel']) capRows.push(`<tr><th>Personnel Capacity</th><td>${this.formatInline(params['personnel'])}</td></tr>`);
+        if (params['support_capacity']) capRows.push(`<tr><th>Support Capacity</th><td>${this.formatInline(this.formatUnit(params['support_capacity'], 'm³'))}</td></tr>`);
+
+        const combatRows: string[] = [];
+        if (params['weapons']) combatRows.push(`<tr><th>Armament</th><td>${this.formatInline(params['weapons'])}</td></tr>`);
+        if (params['armor']) combatRows.push(`<tr><th>Armor</th><td>${this.formatInline(params['armor'])}</td></tr>`);
+        if (params['shields']) combatRows.push(`<tr><th>Shields</th><td>${this.formatInline(params['shields'])}</td></tr>`);
+        if (params['special']) combatRows.push(`<tr><th>Special Systems</th><td>${this.formatInline(params['special'])}</td></tr>`);
+
+        const allRows: string[] = [];
+        if (classRows.length > 0) {
+            allRows.push('<tr class="infobox-section-header-row"><th colspan="2" class="infobox-section-header">Class Features</th></tr>');
+            allRows.push(...classRows);
+        }
+        if (specRows.length > 0) {
+            allRows.push('<tr class="infobox-section-header-row"><th colspan="2" class="infobox-section-header">Dimensions & Personnel</th></tr>');
+            allRows.push(...specRows);
+        }
+        if (sysRows.length > 0) {
+            allRows.push('<tr class="infobox-section-header-row"><th colspan="2" class="infobox-section-header">Propulsion & Systems</th></tr>');
+            allRows.push(...sysRows);
+        }
+        if (capRows.length > 0) {
+            allRows.push('<tr class="infobox-section-header-row"><th colspan="2" class="infobox-section-header">Accommodations</th></tr>');
+            allRows.push(...capRows);
+        }
+        if (combatRows.length > 0) {
+            allRows.push('<tr class="infobox-section-header-row"><th colspan="2" class="infobox-section-header">Combat Systems</th></tr>');
+            allRows.push(...combatRows);
+        }
+
+        const imgHtml = imgName
+            ? this.renderImageContainer(imgName, articleImages, baseUrl, `${name} Blueprint`, caption, false, true)
+            : '';
+
+        return `
+            <aside class="codex-infobox starship-information">
+                <div class="infobox-header starship-header">
+                    <div class="infobox-subtitle">NAVAL ARCHIVE // CAPITAL SHIP SPECIFICATION</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${allRows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderStarshipInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || params['title'] || 'Starship';
+        const imgName = this.extractImageName(params['image']);
+        const caption = params['caption'] || '';
+
+        const descRows: string[] = [];
+        if (params['ship_class']) descRows.push(`<tr><th>Ship Class</th><td>${this.formatInline(params['ship_class'])}</td></tr>`);
+        if (params['laid_down']) descRows.push(`<tr><th>Laid Down</th><td>${this.formatInline(params['laid_down'])}</td></tr>`);
+        if (params['launched']) descRows.push(`<tr><th>Launched</th><td>${this.formatInline(params['launched'])}</td></tr>`);
+        if (params['commissioned']) descRows.push(`<tr><th>Commissioned</th><td>${this.formatInline(params['commissioned'])}</td></tr>`);
+        if (params['status']) descRows.push(`<tr><th>Status</th><td>${this.formatInline(params['status'])}</td></tr>`);
+        if (params['commander']) descRows.push(`<tr><th>Commander(s)</th><td>${this.formatInline(params['commander'])}</td></tr>`);
+
+        const opRows: string[] = [];
+        if (params['crew']) opRows.push(`<tr><th>Crew Complement</th><td>${this.formatInline(params['crew'])}</td></tr>`);
+        if (params['processing_system']) opRows.push(`<tr><th>Processing System</th><td>${this.formatInline(params['processing_system'])}</td></tr>`);
+        if (params['squadrons']) opRows.push(`<tr><th>Assigned Squadrons</th><td>${this.formatInline(params['squadrons'])}</td></tr>`);
+        if (params['unique']) opRows.push(`<tr><th>Unique Features</th><td>${this.formatInline(params['unique'])}</td></tr>`);
+
+        const allRows: string[] = [];
+        if (descRows.length > 0) {
+            allRows.push('<tr class="infobox-section-header-row"><th colspan="2" class="infobox-section-header">Hull Information</th></tr>');
+            allRows.push(...descRows);
+        }
+        if (opRows.length > 0) {
+            allRows.push('<tr class="infobox-section-header-row"><th colspan="2" class="infobox-section-header">Operational Registry</th></tr>');
+            allRows.push(...opRows);
+        }
+
+        const imgHtml = imgName
+            ? this.renderImageContainer(imgName, articleImages, baseUrl, `${name} Photo`, caption, false, true)
+            : '';
+
+        return `
+            <aside class="codex-infobox starship-information">
+                <div class="infobox-header starship-header">
+                    <div class="infobox-subtitle">NAVAL REGISTRY // CAPITAL SHIP RECORD</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${allRows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderAircraftInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || params['title'] || 'Aircraft';
+        const imgName = this.extractImageName(params['image']);
+        const caption = params['caption'] || '';
+
+        const descRows: string[] = [];
+        if (params['mission_profile']) descRows.push(`<tr><th>Mission Profile</th><td>${this.formatInline(params['mission_profile'])}</td></tr>`);
+        if (params['crew']) descRows.push(`<tr><th>Crew</th><td>${this.formatInline(params['crew'])}</td></tr>`);
+        if (params['first_flight']) descRows.push(`<tr><th>First Flight</th><td>${this.formatInline(params['first_flight'])}</td></tr>`);
+        if (params['manufacturer']) descRows.push(`<tr><th>Manufacturer(s)</th><td>${this.formatInline(params['manufacturer'])}</td></tr>`);
+        if (params['operator']) descRows.push(`<tr><th>Operator(s)</th><td>${this.formatInline(params['operator'])}</td></tr>`);
+        if (params['variants']) descRows.push(`<tr><th>Variants</th><td>${this.formatInline(params['variants'])}</td></tr>`);
+        if (params['length']) descRows.push(`<tr><th>Length</th><td>${this.formatInline(this.formatUnit(params['length'], 'meters'))}</td></tr>`);
+        if (params['wingspan']) descRows.push(`<tr><th>Wingspan</th><td>${this.formatInline(this.formatUnit(params['wingspan'], 'meters'))}</td></tr>`);
+        if (params['height']) descRows.push(`<tr><th>Height</th><td>${this.formatInline(this.formatUnit(params['height'], 'meters'))}</td></tr>`);
+
+        const sysRows: string[] = [];
+        if (params['powerplant']) sysRows.push(`<tr><th>Powerplant</th><td>${this.formatInline(params['powerplant'])}</td></tr>`);
+        if (params['propulsion']) sysRows.push(`<tr><th>Propulsion</th><td>${this.formatInline(params['propulsion'])}</td></tr>`);
+        if (params['avionics']) sysRows.push(`<tr><th>Avionics Package</th><td>${this.formatInline(params['avionics'])}</td></tr>`);
+        if (params['controls']) sysRows.push(`<tr><th>Control Systems</th><td>${this.formatInline(params['controls'])}</td></tr>`);
+        if (params['sensors']) sysRows.push(`<tr><th>Sensors</th><td>${this.formatInline(params['sensors'])}</td></tr>`);
+        if (params['communications']) sysRows.push(`<tr><th>Communications</th><td>${this.formatInline(params['communications'])}</td></tr>`);
+
+        const perfRows: string[] = [];
+        if (params['max_airspeed']) perfRows.push(`<tr><th>Max Airspeed</th><td>Mach ${this.formatInline(params['max_airspeed'])}</td></tr>`);
+        if (params['cruising_airspeed']) perfRows.push(`<tr><th>Cruising Airspeed</th><td>${this.formatInline(this.formatUnit(params['cruising_airspeed'], 'km/h'))}</td></tr>`);
+        if (params['acceleration_rate']) perfRows.push(`<tr><th>Acceleration Rate</th><td>${this.formatInline(this.formatUnit(params['acceleration_rate'], 'km/h/s'))}</td></tr>`);
+        if (params['max_velocity']) perfRows.push(`<tr><th>Max Velocity</th><td>${this.formatInline(this.formatUnit(params['max_velocity'], 'km/s'))}</td></tr>`);
+        if (params['operation_time']) perfRows.push(`<tr><th>Operation Time</th><td>${this.formatInline(this.formatUnit(params['operation_time'], 'hours'))}</td></tr>`);
+
+        const combatRows: string[] = [];
+        if (params['fixed_weapons']) combatRows.push(`<tr><th>Fixed Weapons</th><td>${this.formatInline(params['fixed_weapons'])}</td></tr>`);
+        if (params['variable_payload']) combatRows.push(`<tr><th>Variable Payload</th><td>${this.formatInline(params['variable_payload'])}</td></tr>`);
+        if (params['armor']) combatRows.push(`<tr><th>Armor</th><td>${this.formatInline(params['armor'])}</td></tr>`);
+        if (params['shields']) combatRows.push(`<tr><th>Shields</th><td>${this.formatInline(params['shields'])}</td></tr>`);
+        if (params['countermeasures']) combatRows.push(`<tr><th>Countermeasures</th><td>${this.formatInline(params['countermeasures'])}</td></tr>`);
+
+        const allRows: string[] = [];
+        if (descRows.length > 0) {
+            allRows.push('<tr class="infobox-section-header-row"><th colspan="2" class="infobox-section-header">General Characteristics</th></tr>');
+            allRows.push(...descRows);
+        }
+        if (sysRows.length > 0) {
+            allRows.push('<tr class="infobox-section-header-row"><th colspan="2" class="infobox-section-header">Main Systems</th></tr>');
+            allRows.push(...sysRows);
+        }
+        if (perfRows.length > 0) {
+            allRows.push('<tr class="infobox-section-header-row"><th colspan="2" class="infobox-section-header">Performance Ratings</th></tr>');
+            allRows.push(...perfRows);
+        }
+        if (combatRows.length > 0) {
+            allRows.push('<tr class="infobox-section-header-row"><th colspan="2" class="infobox-section-header">Combat Systems</th></tr>');
+            allRows.push(...combatRows);
+        }
+
+        const imgHtml = imgName
+            ? this.renderImageContainer(imgName, articleImages, baseUrl, `${name} Blueprint`, caption, false, true)
+            : '';
+
+        return `
+            <aside class="codex-infobox aircraft-information">
+                <div class="infobox-header aircraft-header">
+                    <div class="infobox-subtitle">AEROSPACE ARCHIVE // FLIGHT SYSTEM SPECIFICATION</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${allRows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderAircraftVariant(body: string): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || 'Aircraft Variant';
+
+        const rows: string[] = [];
+        if (params['powerplant']) rows.push(`<tr><th>Powerplant</th><td>${this.formatInline(params['powerplant'])}</td></tr>`);
+        if (params['propulsion']) rows.push(`<tr><th>Propulsion</th><td>${this.formatInline(params['propulsion'])}</td></tr>`);
+        if (params['max_airspeed']) rows.push(`<tr><th>Max Airspeed</th><td>Mach ${this.formatInline(params['max_airspeed'])}</td></tr>`);
+        if (params['acceleration_rate']) rows.push(`<tr><th>Acceleration Rate</th><td>${this.formatInline(this.formatUnit(params['acceleration_rate'], 'km/h/s'))}</td></tr>`);
+        if (params['fixed_weapons']) rows.push(`<tr><th>Weapons</th><td>${this.formatInline(params['fixed_weapons'])}</td></tr>`);
+
+        return `
+            <div class="aircraft-variant-card">
+                <div class="variant-card-header">
+                    <span class="variant-badge">AEROSPACE SPEC // VARIANT RECORD</span>
+                    <h4 class="variant-title">${this.formatInline(name)}</h4>
+                </div>
+                <table class="variant-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </div>
+        `;
+    }
+
+    private static renderVehicleInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || params['title'] || 'Combat Vehicle';
+        const imgName = this.extractImageName(params['image']);
+        const caption = params['caption'] || '';
+
+        const descRows: string[] = [];
+        if (params['mission_profile']) descRows.push(`<tr><th>Mission Profile</th><td>${this.formatInline(params['mission_profile'])}</td></tr>`);
+        if (params['crew']) descRows.push(`<tr><th>Crew</th><td>${this.formatInline(params['crew'])}</td></tr>`);
+        if (params['manufacturer']) descRows.push(`<tr><th>Manufacturer(s)</th><td>${this.formatInline(params['manufacturer'])}</td></tr>`);
+        if (params['operator']) descRows.push(`<tr><th>Operator(s)</th><td>${this.formatInline(params['operator'])}</td></tr>`);
+
+        const sysRows: string[] = [];
+        if (params['powerplant']) sysRows.push(`<tr><th>Powerplant</th><td>${this.formatInline(params['powerplant'])}</td></tr>`);
+        if (params['propulsion']) sysRows.push(`<tr><th>Propulsion</th><td>${this.formatInline(params['propulsion'])}</td></tr>`);
+        if (params['max_speed']) sysRows.push(`<tr><th>Max Speed</th><td>${this.formatInline(this.formatUnit(params['max_speed'], 'km/h'))}</td></tr>`);
+        if (params['fixed_weapons']) sysRows.push(`<tr><th>Fixed Weapons</th><td>${this.formatInline(params['fixed_weapons'])}</td></tr>`);
+        if (params['armor']) sysRows.push(`<tr><th>Armor</th><td>${this.formatInline(params['armor'])}</td></tr>`);
+        if (params['shields']) sysRows.push(`<tr><th>Shields</th><td>${this.formatInline(params['shields'])}</td></tr>`);
+        if (params['countermeasures']) sysRows.push(`<tr><th>Countermeasures</th><td>${this.formatInline(params['countermeasures'])}</td></tr>`);
+
+        const allRows: string[] = [];
+        if (descRows.length > 0) {
+            allRows.push('<tr class="infobox-section-header-row"><th colspan="2" class="infobox-section-header">Description</th></tr>');
+            allRows.push(...descRows);
+        }
+        if (sysRows.length > 0) {
+            allRows.push('<tr class="infobox-section-header-row"><th colspan="2" class="infobox-section-header">Systems & Ratings</th></tr>');
+            allRows.push(...sysRows);
+        }
+
+        const imgHtml = imgName
+            ? this.renderImageContainer(imgName, articleImages, baseUrl, `${name} Image`, caption, false, true)
+            : '';
+
+        return `
+            <aside class="codex-infobox vehicle-information">
+                <div class="infobox-header vehicle-header">
+                    <div class="infobox-subtitle">TACTICAL ARCHIVE // MECHANIZED UNIT SPECIFICATION</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${allRows.join('\n                        ')}
                     </tbody>
                 </table>
             </aside>

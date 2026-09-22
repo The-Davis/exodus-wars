@@ -1160,6 +1160,86 @@ canvas {
   border-bottom: 1px solid #f43f5e !important;
 }
 
+.starship-header {
+  background: linear-gradient(135deg, #103158 0%, #061527 100%) !important;
+  border-bottom: 1px solid #38bdf8 !important;
+}
+
+.aircraft-header {
+  background: linear-gradient(135deg, #1b3858 0%, #091a2b 100%) !important;
+  border-bottom: 1px solid #60a5fa !important;
+}
+
+.vehicle-header {
+  background: linear-gradient(135deg, #273b33 0%, #0e1c17 100%) !important;
+  border-bottom: 1px solid #4ade80 !important;
+}
+
+.aircraft-variant-card {
+  margin: 16px 0 24px 0;
+  background: rgba(8, 20, 36, 0.65);
+  border: 1px solid rgba(56, 189, 248, 0.35);
+  border-left: 3px solid #38bdf8;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.variant-card-header {
+  background: linear-gradient(135deg, #102a45 0%, #071321 100%);
+  padding: 8px 14px;
+  border-bottom: 1px solid rgba(56, 189, 248, 0.2);
+}
+
+.variant-badge {
+  font-family: 'Jura', monospace;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: #38bdf8;
+  text-transform: uppercase;
+  display: block;
+}
+
+.variant-title {
+  margin: 2px 0 0 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.variant-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.variant-table tr {
+  border-bottom: 1px solid rgba(56, 189, 248, 0.08);
+}
+
+.variant-table tr:last-child {
+  border-bottom: none;
+}
+
+.variant-table th {
+  padding: 6px 12px;
+  text-align: left;
+  vertical-align: top;
+  color: #7dd3fc;
+  font-family: 'Jura', monospace;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 35%;
+}
+
+.variant-table td {
+  padding: 6px 12px;
+  text-align: right;
+  vertical-align: top;
+  color: #e0f2fe;
+}
+
 .infobox-partof {
   font-size: 13px;
   color: #ff8a80;
