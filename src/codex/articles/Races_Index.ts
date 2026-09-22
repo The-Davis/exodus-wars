@@ -27,7 +27,7 @@ All human races trace their ultimate genetic lineage back to the [[Anthronoris]]
 *[[Juns]] - A specialized human colonial lineage adapted to frontier environments.
 
 == Alien & Extraterrestrial Species ==
-*[[:Category:Race|Species & Taxonomy]] - Master directory of all alien and sapient species across the galaxy.
+*[[:Category:People by Race|Species & Taxonomy]] - Master directory of all alien and sapient species across the galaxy.
 *[[Gorhamut]] - Ancient reptilian and saurian civilization renowned for supreme genetic manipulation and the creation of client warrior races.
 *[[Anderung]] - Chameleonic, predatory shapeshifters created by the Gorhamut who formerly enslaved the Mesarthrim.
 *[[Ngrligru]] - Ferocious aquatic and saurian warrior species mutated by the [[Njaa]] into the ravenous horde that triggered the Sundering.

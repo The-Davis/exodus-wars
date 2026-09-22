@@ -332,21 +332,21 @@ for (const item of TECH_CATALOG_ARTICLES) {
 registerArticle(technologicalCatalogsIndexArticle);
 registerArticle(fightersCategoryArticle);
 
-function registerCategoryAliases(categories: string[], targetArticle: CodexArticle): void {
+function registerCategoryAliases(categories: string[], targetArticle: CodexArticle, overwrite = true): void {
     for (const cat of categories) {
         const slug = cat.replace(/ /g, '_');
         const space = cat.replace(/_/g, ' ');
-        if (!CODEX_ARTICLES[slug]) CODEX_ARTICLES[slug] = targetArticle;
-        if (!CODEX_ARTICLES[space]) CODEX_ARTICLES[space] = targetArticle;
-        if (!CODEX_ARTICLES[slug.toLowerCase()]) CODEX_ARTICLES[slug.toLowerCase()] = targetArticle;
-        if (!CODEX_ARTICLES[space.toLowerCase()]) CODEX_ARTICLES[space.toLowerCase()] = targetArticle;
+        if (overwrite || !CODEX_ARTICLES[slug]) CODEX_ARTICLES[slug] = targetArticle;
+        if (overwrite || !CODEX_ARTICLES[space]) CODEX_ARTICLES[space] = targetArticle;
+        if (overwrite || !CODEX_ARTICLES[slug.toLowerCase()]) CODEX_ARTICLES[slug.toLowerCase()] = targetArticle;
+        if (overwrite || !CODEX_ARTICLES[space.toLowerCase()]) CODEX_ARTICLES[space.toLowerCase()] = targetArticle;
 
-        if (!CODEX_ARTICLES[`Category:${slug}`]) CODEX_ARTICLES[`Category:${slug}`] = targetArticle;
-        if (!CODEX_ARTICLES[`category:${slug.toLowerCase()}`]) CODEX_ARTICLES[`category:${slug.toLowerCase()}`] = targetArticle;
-        if (!CODEX_ARTICLES[`Category:${space}`]) CODEX_ARTICLES[`Category:${space}`] = targetArticle;
-        if (!CODEX_ARTICLES[`category:${space.toLowerCase()}`]) CODEX_ARTICLES[`category:${space.toLowerCase()}`] = targetArticle;
-        if (!CODEX_ARTICLES[`:Category:${slug}`]) CODEX_ARTICLES[`:Category:${slug}`] = targetArticle;
-        if (!CODEX_ARTICLES[`:Category:${space}`]) CODEX_ARTICLES[`:Category:${space}`] = targetArticle;
+        if (overwrite || !CODEX_ARTICLES[`Category:${slug}`]) CODEX_ARTICLES[`Category:${slug}`] = targetArticle;
+        if (overwrite || !CODEX_ARTICLES[`category:${slug.toLowerCase()}`]) CODEX_ARTICLES[`category:${slug.toLowerCase()}`] = targetArticle;
+        if (overwrite || !CODEX_ARTICLES[`Category:${space}`]) CODEX_ARTICLES[`Category:${space}`] = targetArticle;
+        if (overwrite || !CODEX_ARTICLES[`category:${space.toLowerCase()}`]) CODEX_ARTICLES[`category:${space.toLowerCase()}`] = targetArticle;
+        if (overwrite || !CODEX_ARTICLES[`:Category:${slug}`]) CODEX_ARTICLES[`:Category:${slug}`] = targetArticle;
+        if (overwrite || !CODEX_ARTICLES[`:Category:${space}`]) CODEX_ARTICLES[`:Category:${space}`] = targetArticle;
     }
 }
 
@@ -447,67 +447,6 @@ if (prefectureIntelligence) {
     CODEX_ARTICLES['department of inquisition'] = prefectureIntelligence;
 }
 
-const placesCategories = [
-    'Cities', 'Regions', 'Galaxies', 'Spiral_Arms', 'Spiral Arms', 'Sectors',
-    'Star_Systems', 'Star Systems', 'Moons', 'Planets'
-];
-registerCategoryAliases(placesCategories, placesIndexArticle);
-
-const nationsCategories = [
-    'Terran_Nations', 'Terran Nations', 'Ngrligru_Nations', 'Ngrligru Nations',
-    'Clans_of_the_Mesarthrim', 'Clans of the Mesarthrim', 'Governments',
-    'Political_Parties', 'Political Parties', 'Treaty', 'Treaties',
-    'Militaries', 'Prefecture_Military', 'Prefecture Military',
-    'Prefecture_Galactic_Navy', 'Prefecture Galactic Navy',
-    'Prefecture_Legion_Corps', 'Prefecture Legion Corps',
-    'Prefecture_Air_Force', 'Prefecture Air Force',
-    'Royal_Imperial_Navy', 'Royal Imperial Navy',
-    'Mesarthrim_Federation_Military', 'Mesarthrim Federation Military',
-    'Remnant_Military', 'Remnant Military',
-    'Military_Ranks', 'Military Ranks',
-    'Head_of_State', 'Head of State', 'Heads of State'
-];
-registerCategoryAliases(nationsCategories, nationsIndexArticle);
-
-const peopleCategories = [
-    'People_by_Profession', 'People by Profession',
-    'People_by_Nation', 'People by Nation',
-    'People_by_Race', 'People by Race',
-    'Military_Leaders', 'Military Leaders',
-    'Military_People', 'Military Personnel', 'Military People',
-    'National_Leaders', 'National Leaders',
-    'Historical_Leaders', 'Historical Leaders',
-    'Scientists', 'Corporate_Leaders', 'Corporate Leaders',
-    'Intelligence_Operatives', 'Intelligence Operatives',
-    'Ambassadors', 'Law_Enforcement_Officers', 'Law Enforcement Officers',
-    'Authors',
-    'People_of_the_Federated_Districts_of_the_Prefecture', 'People of the Federated Districts of the Prefecture',
-    'People_of_the_Onyx_Empire', 'People of the Onyx Empire',
-    'People_of_the_United_Mesarthrim_Clans', 'People of the United Mesarthrim Clans',
-    'People_of_the_United_Earth_Alliance', 'People of the United Earth Alliance',
-    'People_of_the_Ikronin_Jurekön', 'People of the Ikronin Jurekön',
-    'People_of_the_United_Centusi_States', 'People of the United Centusi States',
-    'People_of_the_Taviridis_Somarchada', 'People of the Taviridis Somarchada',
-    'People_of_the_Auellal_League', 'People of the Auellal League',
-    'People_of_the_Rikaz_o_Fii_Huern_iv_Lorithan', 'People of the Rikaz o Fii Huern iv Lorithan',
-    'People_of_the_Colonial_Commonwealth', 'People of the Colonial Commonwealth',
-    'People_of_the_Reigess_Suverände', 'People of the Reigess Suverände',
-    'People_of_the_Meroniri_Terinasi', 'People of the Meroniri Terinasi',
-    'People_of_the_Kabila_Kimburu', 'People of the Kabila Kimburu',
-    'People_of_the_Remnant', 'People of the Remnant'
-];
-registerCategoryAliases(peopleCategories, peopleIndexArticle);
-
-const historyCategories = [
-    'Years', 'Tempest_War', 'Tempest War'
-];
-registerCategoryAliases(historyCategories, historyIndexArticle);
-
-const corpCategories = [
-    'Rahn_Industries', 'Rahn Industries'
-];
-registerCategoryAliases(corpCategories, corporationsIndexArticle);
-
 const subcategoryGroups = [
     PLACES_SUBCATEGORY_ARTICLES,
     TECH_SUBCATEGORY_ARTICLES,
@@ -533,6 +472,7 @@ for (const group of subcategoryGroups) {
         const isCat = Boolean(item.categories && item.categories.includes('Categories'));
         registerArticle(item, !isCat);
         if (isCat) {
+            registerCategoryAliases([item.slug, item.title], item, false);
             const slug = item.slug;
             const title = item.title;
             CODEX_ARTICLES[`Category:${slug}`] = item;
@@ -541,8 +481,31 @@ for (const group of subcategoryGroups) {
             CODEX_ARTICLES[`category:${title.toLowerCase()}`] = item;
             CODEX_ARTICLES[`:Category:${slug}`] = item;
             CODEX_ARTICLES[`:Category:${title}`] = item;
+            if (!CODEX_ARTICLES[slug]) {
+                registerArticle(item, true);
+            }
         }
     }
+}
+
+const treatyArticle = getCodexArticle('Treaty');
+if (treatyArticle) {
+    registerCategoryAliases(['Treaties'], treatyArticle, true);
+}
+
+const headOfStateArticle = getCodexArticle('Head_of_State');
+if (headOfStateArticle) {
+    registerCategoryAliases(['Heads of State', 'Heads_of_State'], headOfStateArticle, true);
+}
+
+const militaryPeopleArticle = getCodexArticle('Military_People');
+if (militaryPeopleArticle) {
+    registerCategoryAliases(['Military Personnel', 'Military_Personnel'], militaryPeopleArticle, true);
+}
+
+const tempestWarArticle = getCodexArticle('Tempest_War');
+if (tempestWarArticle) {
+    registerCategoryAliases(['Tempest War', 'Tempest_War'], tempestWarArticle, true);
 }
 
 export function getCodexArticle(slugOrTitle: string, visited: Set<string> = new Set()): CodexArticle | undefined {
