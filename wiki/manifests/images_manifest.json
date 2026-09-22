@@ -1802,7 +1802,9 @@
     "timestamp": "2007-08-07 10:58:53",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Blister_A.jpg"
+    "disk_filename": "Blister_A.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Blister_A.jpg"
   },
   {
     "image_name": "Blister_B.jpg",
@@ -1815,7 +1817,9 @@
     "timestamp": "2007-08-07 10:59:13",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Blister_B.jpg"
+    "disk_filename": "Blister_B.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Blister_B.jpg"
   },
   {
     "image_name": "BoliviaFlag.jpg",
@@ -5849,7 +5853,9 @@
     "timestamp": "2007-08-07 10:24:03",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Kujata_A.jpg"
+    "disk_filename": "Kujata_A.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Kujata_A.jpg"
   },
   {
     "image_name": "Kujata_B.jpg",
@@ -5862,7 +5868,9 @@
     "timestamp": "2007-08-07 10:24:36",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Kujata_B.jpg"
+    "disk_filename": "Kujata_B.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Kujata_B.jpg"
   },
   {
     "image_name": "L-14Octavius_A.jpg",
@@ -9307,7 +9315,9 @@
     "timestamp": "2007-08-08 11:04:19",
     "description": "Borrowed from Wikipedia. Replace with our own version.",
     "exists_on_disk": true,
-    "disk_filename": "Ramjet.png"
+    "disk_filename": "Ramjet.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Ramjet.png"
   },
   {
     "image_name": "RangerClassLightAmphibiousCruiser1.jpg",
