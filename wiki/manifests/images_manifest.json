@@ -12822,7 +12822,9 @@
     "timestamp": "2007-10-11 20:09:48",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "VolucrisBattleQueenFlyer1.jpg"
+    "disk_filename": "VolucrisBattleQueenFlyer1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/VolucrisBattleQueenFlyer1.jpg"
   },
   {
     "image_name": "VolucrisBattleQueenFlyer2.jpg",
@@ -12835,7 +12837,9 @@
     "timestamp": "2007-10-11 20:10:09",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "VolucrisBattleQueenFlyer2.jpg"
+    "disk_filename": "VolucrisBattleQueenFlyer2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/VolucrisBattleQueenFlyer2.jpg"
   },
   {
     "image_name": "VolucrisNymph.jpg",
@@ -12848,7 +12852,9 @@
     "timestamp": "2007-10-11 23:43:32",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "VolucrisNymph.jpg"
+    "disk_filename": "VolucrisNymph.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/VolucrisNymph.jpg"
   },
   {
     "image_name": "VolucrisWorker.png",

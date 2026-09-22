@@ -24,6 +24,7 @@ export class CodexRenderer {
         const scienceMatch = text.match(/\{\{(?:Scientific[_ ]Principle[_ ]Information|Science[_ ]Information|Propulsion[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
         const weaponMatch = text.match(/\{\{(?:Weapon[_ ]Information|Engineering[_ ]System[_ ]Information|Defense[_ ]Information|Defense[_ ]System[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
         const structureMatch = text.match(/\{\{(?:Space[_ ]Station[_ ]Information|Structure[_ ]Information|Building[_ ]Information|Space[_ ]Elevator[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
+        const doctrineMatch = text.match(/\{\{(?:Tactical[_ ]Doctrine[_ ]Information|Tactics[_ ]Information|Treatise[_ ]Information|Doctrine[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
 
         if (personMatch) {
             text = text.replace(personMatch[0], '');
@@ -73,6 +74,9 @@ export class CodexRenderer {
         } else if (structureMatch) {
             text = text.replace(structureMatch[0], '');
             infoboxHtml = this.renderSpaceStationInformation(structureMatch[1], articleImages, baseUrl);
+        } else if (doctrineMatch) {
+            text = text.replace(doctrineMatch[0], '');
+            infoboxHtml = this.renderTacticalDoctrineInformation(doctrineMatch[1], articleImages, baseUrl);
         }
 
         // Clean out any unhandled navbox templates (e.g. {{Pelagrim Crisis Navbox}})
@@ -1030,6 +1034,53 @@ export class CodexRenderer {
             <aside class="codex-infobox structure-information">
                 <div class="infobox-header structure-header">
                     <div class="infobox-subtitle">ARCHITECTURAL ARCHIVE // STRUCTURAL SPECIFICATION</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderTacticalDoctrineInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || params['title'] || params['doctrine'] || params['treatise'] || 'Tactical Doctrine';
+        const imgName = this.extractImageName(params['image'] || params['diagram']);
+        const caption = params['caption'] || '';
+        const author = params['author'] || params['speaker'] || params['origin'] || '';
+        const date = params['date'] || params['year'] || params['era'] || '';
+        const type = params['type'] || params['classification'] || '';
+        const subject = params['subject'] || params['topic'] || '';
+        const theater = params['theater'] || params['domain'] || params['operational_scope'] || '';
+        const keyPrinciples = params['key_principles'] || params['principles'] || params['takeaways'] || '';
+        const status = params['status'] || '';
+
+        const rows: string[] = [];
+        if (type) rows.push(`<tr><th>Classification</th><td>${this.formatInline(type)}</td></tr>`);
+        if (author) rows.push(`<tr><th>Author / Source</th><td>${this.formatInline(author)}</td></tr>`);
+        if (date) rows.push(`<tr><th>Date / Era</th><td>${this.formatInline(date)}</td></tr>`);
+        if (subject) rows.push(`<tr><th>Subject</th><td>${this.formatInline(subject)}</td></tr>`);
+        if (theater) rows.push(`<tr><th>Theater / Domain</th><td>${this.formatInline(theater)}</td></tr>`);
+        if (keyPrinciples) rows.push(`<tr><th>Key Principles</th><td>${this.formatInline(keyPrinciples)}</td></tr>`);
+        if (status) rows.push(`<tr><th>Status</th><td>${this.formatInline(status)}</td></tr>`);
+
+        const imgHtml = imgName
+            ? this.renderImageContainer(imgName, articleImages, baseUrl, `${name} Illustration`, caption, false, true)
+            : '';
+
+        return `
+            <aside class="codex-infobox doctrine-information">
+                <div class="infobox-header doctrine-header">
+                    <div class="infobox-subtitle">STRATEGIC COMMAND // TACTICAL DOCTRINE</div>
                     <h3 class="infobox-name">${this.formatInline(name)}</h3>
                 </div>
                 ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}

@@ -1155,6 +1155,11 @@ canvas {
   border-bottom: 1px solid #38bdf8 !important;
 }
 
+.doctrine-header {
+  background: linear-gradient(135deg, #38121d 0%, #17060c 100%) !important;
+  border-bottom: 1px solid #f43f5e !important;
+}
+
 .infobox-partof {
   font-size: 13px;
   color: #ff8a80;
