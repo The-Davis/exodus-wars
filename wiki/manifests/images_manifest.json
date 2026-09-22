@@ -13273,7 +13273,9 @@
     "timestamp": "2008-08-04 06:03:25",
     "description": "Badge of the First Fleet, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "UMC-First-Fleet.png"
+    "disk_filename": "UMC-First-Fleet.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UMC-First-Fleet.png"
   },
   {
     "image_name": "UMC-Second-Fleet.png",
@@ -13286,7 +13288,9 @@
     "timestamp": "2008-08-06 22:48:36",
     "description": "UMC Second Fleet Badge, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "UMC-Second-Fleet.png"
+    "disk_filename": "UMC-Second-Fleet.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UMC-Second-Fleet.png"
   },
   {
     "image_name": "UMC-Third-Fleet.png",

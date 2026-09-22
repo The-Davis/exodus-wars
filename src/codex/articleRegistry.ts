@@ -6,6 +6,7 @@ import { placesIndexArticle } from './articles/Places_Index';
 import { PLACES_ARTICLES } from './articles/placesArticles';
 import { historyIndexArticle } from './articles/History_Index';
 import { HISTORY_ARTICLES } from './articles/historyArticles';
+import { HISTORY_SUBCATEGORY_ARTICLES } from './articles/historySubcategoryArticles';
 import { racesIndexArticle } from './articles/Races_Index';
 import { RACE_ARTICLES } from './articles/raceArticles';
 import { economicsIndexArticle } from './articles/Economics_Index';
@@ -203,6 +204,20 @@ for (const place of PLACES_ARTICLES) {
 
 for (const history of HISTORY_ARTICLES) {
     registerArticle(history);
+}
+
+for (const subHistory of HISTORY_SUBCATEGORY_ARTICLES) {
+    registerArticle(subHistory);
+    const catKey = `Category:${subHistory.slug}`;
+    const catKeyLower = `category:${subHistory.slug.toLowerCase()}`;
+    const catKeySpace = `Category:${subHistory.title}`;
+    const catKeySpaceLower = `category:${subHistory.title.toLowerCase()}`;
+    CODEX_ARTICLES[catKey] = subHistory;
+    CODEX_ARTICLES[catKeyLower] = subHistory;
+    CODEX_ARTICLES[catKeySpace] = subHistory;
+    CODEX_ARTICLES[catKeySpaceLower] = subHistory;
+    CODEX_ARTICLES[`:${catKey}`] = subHistory;
+    CODEX_ARTICLES[`:${catKeySpace}`] = subHistory;
 }
 
 for (const race of RACE_ARTICLES) {

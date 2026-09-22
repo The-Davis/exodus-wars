@@ -12,7 +12,7 @@ export class CodexRenderer {
         const planetMatch = text.match(/\{\{Planet[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const stellarNavMatch = text.match(/\{\{Stellar[_ ]Navigation[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const starMatch = text.match(/\{\{Star[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
-        const conflictMatch = text.match(/\{\{(?:Military[_ ]Conflict|War[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
+        const conflictMatch = text.match(/\{\{(?:Military[_ ]Conflict|War[_ ]Information|Military[_ ]Operation[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
         const periodMatch = text.match(/\{\{Historical[_ ]Period[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const treatyMatch = text.match(/\{\{Treaty[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const raceMatch = text.match(/\{\{(?:Race[_ ]Information|Species[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
@@ -424,6 +424,10 @@ export class CodexRenderer {
         const territory = params['territory'] || '';
         const status = params['status'] || '';
         const result = params['result'] || '';
+        const theater = params['operation_theater'] || params['theater'] || '';
+        const executor = params['executor'] || '';
+        const planner = params['planner'] || '';
+        const timeframe = params['timeframe'] || '';
 
         const combatant1 = params['combatant1'] || '';
         const combatant2 = params['combatant2'] || '';
@@ -433,9 +437,13 @@ export class CodexRenderer {
         const strength2 = params['strength2'] || '';
 
         const rows: string[] = [];
+        if (theater) rows.push(`<tr><th>Operation Theater</th><td>${this.formatInline(theater)}</td></tr>`);
+        if (timeframe) rows.push(`<tr><th>Timeframe</th><td>${this.formatInline(timeframe)}</td></tr>`);
         if (date) rows.push(`<tr><th>Date</th><td>${this.formatInline(date)}</td></tr>`);
         if (place) rows.push(`<tr><th>Place</th><td>${this.formatInline(place)}</td></tr>`);
         if (territory) rows.push(`<tr><th>Territory</th><td>${this.formatInline(territory)}</td></tr>`);
+        if (executor) rows.push(`<tr><th>Executor(s)</th><td>${this.formatInline(executor)}</td></tr>`);
+        if (planner) rows.push(`<tr><th>Planner(s)</th><td>${this.formatInline(planner)}</td></tr>`);
         if (status) rows.push(`<tr><th>Status</th><td>${this.formatInline(status)}</td></tr>`);
         if (result) rows.push(`<tr><th>Result</th><td>${this.formatInline(result)}</td></tr>`);
 
