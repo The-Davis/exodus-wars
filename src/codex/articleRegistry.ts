@@ -10,6 +10,10 @@ import { racesIndexArticle } from './articles/Races_Index';
 import { RACE_ARTICLES } from './articles/raceArticles';
 import { economicsIndexArticle } from './articles/Economics_Index';
 import { ECONOMICS_ARTICLES } from './articles/economicsArticles';
+import { nationsIndexArticle } from './articles/Nations_Index';
+import { NATIONS_ARTICLES } from './articles/nationsArticles';
+import { corporationsIndexArticle } from './articles/Corporations_Index';
+import { CORPORATIONS_ARTICLES } from './articles/corporationsArticles';
 
 export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     'Introduction_to_the_Exodus_Wars_Universe': introArticle,
@@ -51,6 +55,32 @@ export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     'Category:Currency': economicsIndexArticle,
     'category:currency': economicsIndexArticle,
     ':Category:Currency': economicsIndexArticle,
+    'Nations': nationsIndexArticle,
+    'nations': nationsIndexArticle,
+    'Category:Nations': nationsIndexArticle,
+    'category:nations': nationsIndexArticle,
+    ':Category:Nations': nationsIndexArticle,
+    'Nation': nationsIndexArticle,
+    'nation': nationsIndexArticle,
+    'Alliance': nationsIndexArticle,
+    'alliance': nationsIndexArticle,
+    'Category:Alliance': nationsIndexArticle,
+    'category:alliance': nationsIndexArticle,
+    ':Category:Alliance': nationsIndexArticle,
+    'Corporations': corporationsIndexArticle,
+    'corporations': corporationsIndexArticle,
+    'Category:Corporations': corporationsIndexArticle,
+    'category:corporations': corporationsIndexArticle,
+    ':Category:Corporations': corporationsIndexArticle,
+    'Corporation': corporationsIndexArticle,
+    'corporation': corporationsIndexArticle,
+    'Companies': corporationsIndexArticle,
+    'companies': corporationsIndexArticle,
+    'Category:Companies': corporationsIndexArticle,
+    'category:companies': corporationsIndexArticle,
+    ':Category:Companies': corporationsIndexArticle,
+    'Company': corporationsIndexArticle,
+    'company': corporationsIndexArticle,
 };
 
 function registerArticle(article: CodexArticle): void {
@@ -89,6 +119,14 @@ for (const race of RACE_ARTICLES) {
 
 for (const econ of ECONOMICS_ARTICLES) {
     registerArticle(econ);
+}
+
+for (const nation of NATIONS_ARTICLES) {
+    registerArticle(nation);
+}
+
+for (const corp of CORPORATIONS_ARTICLES) {
+    registerArticle(corp);
 }
 
 export function getCodexArticle(slugOrTitle: string): CodexArticle | undefined {
