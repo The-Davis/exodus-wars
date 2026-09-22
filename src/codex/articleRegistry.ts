@@ -8,6 +8,8 @@ import { historyIndexArticle } from './articles/History_Index';
 import { HISTORY_ARTICLES } from './articles/historyArticles';
 import { racesIndexArticle } from './articles/Races_Index';
 import { RACE_ARTICLES } from './articles/raceArticles';
+import { economicsIndexArticle } from './articles/Economics_Index';
+import { ECONOMICS_ARTICLES } from './articles/economicsArticles';
 
 export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     'Introduction_to_the_Exodus_Wars_Universe': introArticle,
@@ -37,6 +39,18 @@ export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     'race': racesIndexArticle,
     'Category:Humans': racesIndexArticle,
     'category:humans': racesIndexArticle,
+    'Economics': economicsIndexArticle,
+    'economics': economicsIndexArticle,
+    'Category:Economics': economicsIndexArticle,
+    'category:economics': economicsIndexArticle,
+    ':Category:Economics': economicsIndexArticle,
+    'Economy': economicsIndexArticle,
+    'economy': economicsIndexArticle,
+    'Currency': economicsIndexArticle,
+    'currency': economicsIndexArticle,
+    'Category:Currency': economicsIndexArticle,
+    'category:currency': economicsIndexArticle,
+    ':Category:Currency': economicsIndexArticle,
 };
 
 function registerArticle(article: CodexArticle): void {
@@ -71,6 +85,10 @@ for (const history of HISTORY_ARTICLES) {
 
 for (const race of RACE_ARTICLES) {
     registerArticle(race);
+}
+
+for (const econ of ECONOMICS_ARTICLES) {
+    registerArticle(econ);
 }
 
 export function getCodexArticle(slugOrTitle: string): CodexArticle | undefined {
