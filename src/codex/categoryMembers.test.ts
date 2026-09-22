@@ -60,6 +60,14 @@ describe('Codex Category Members & Directory Resolution', () => {
             expect(pageSlugs).toContain('Mesar');
             expect(pageSlugs).toContain('Adelson');
             expect(pageSlugs).toContain('Venus');
+            expect(result.totalCount).toBe(63);
+
+            // Non-members with inline links to [[:Category:Planets]] must be excluded
+            expect(pageSlugs).not.toContain('Alliance_of_Planets_Explorer_Corps');
+            expect(pageSlugs).not.toContain('Kabila_Kimburu');
+            expect(pageSlugs).not.toContain('Sovereign_Empire_of_the_Royal_House_of_Black');
+            expect(pageSlugs).not.toContain('Council_of_Independent_Nations');
+            expect(pageSlugs).not.toContain('Regions');
 
             // The Planets article itself should NOT be a member of Planets
             expect(pageSlugs).not.toContain('Planets');
@@ -92,9 +100,22 @@ describe('Codex Category Members & Directory Resolution', () => {
             expect(slugs.some(s => s.includes('Sol_Sector') || s.includes('De_Mairan_Sector'))).toBe(true);
         });
 
-        it('resolves member star systems for Category:Star Systems', () => {
+        it('resolves member star systems for Category:Star Systems and excludes non-members', () => {
             const result = getCategoryMembers('Star Systems');
-            expect(result.totalCount).toBeGreaterThan(50);
+            expect(result.totalCount).toBe(39);
+
+            const slugs = result.pages.map(p => p.slug);
+            const titles = result.pages.map(p => p.title);
+
+            // Correct member
+            expect(slugs).toContain('Alpha_Centauri_System');
+
+            // Non-members with inline links to [[:Category:Star Systems]] must be excluded
+            expect(slugs).not.toContain('2315');
+            expect(slugs).not.toContain('Alliance_of_Planets_Explorer_Corps');
+            expect(titles).not.toContain('Alliance of Planets Explorer Corps');
+            expect(slugs).not.toContain('Blasius_Family_Territory');
+            expect(titles).not.toContain('Blasius Family Territory');
         });
 
         it('resolves member cities for Category:Cities', () => {
