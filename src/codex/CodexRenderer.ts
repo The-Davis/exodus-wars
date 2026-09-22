@@ -12,7 +12,7 @@ export class CodexRenderer {
         const planetMatch = text.match(/\{\{Planet[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const stellarNavMatch = text.match(/\{\{Stellar[_ ]Navigation[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const starMatch = text.match(/\{\{Star[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
-        const conflictMatch = text.match(/\{\{(?:Military[_ ]Conflict|War[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
+        const conflictMatch = text.match(/\{\{(?:Military[_ ]Conflict|War[_ ]Information|Military[_ ]Operation[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
         const periodMatch = text.match(/\{\{Historical[_ ]Period[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const treatyMatch = text.match(/\{\{Treaty[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const raceMatch = text.match(/\{\{(?:Race[_ ]Information|Species[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
@@ -29,6 +29,12 @@ export class CodexRenderer {
         const starshipMatch = text.match(/\{\{Starship[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const aircraftMatch = text.match(/\{\{Aircraft[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const vehicleMatch = text.match(/\{\{Vehicle[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
+        const cityMatch = text.match(/\{\{City[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
+        const regionMatch = text.match(/\{\{Region[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
+        const militaryBranchMatch = text.match(/\{\{Military[_ ]Branch[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
+        const militaryForceMatch = text.match(/\{\{Military[_ ]Force[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
+        const militaryOverviewMatch = text.match(/\{\{Military[_ ]Overview[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
+        const infantryMatch = text.match(/\{\{Infantry[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
 
         if (personMatch) {
             text = text.replace(personMatch[0], '');
@@ -93,6 +99,24 @@ export class CodexRenderer {
         } else if (vehicleMatch) {
             text = text.replace(vehicleMatch[0], '');
             infoboxHtml = this.renderVehicleInformation(vehicleMatch[1], articleImages, baseUrl);
+        } else if (cityMatch) {
+            text = text.replace(cityMatch[0], '');
+            infoboxHtml = this.renderCityInformation(cityMatch[1], articleImages, baseUrl);
+        } else if (regionMatch) {
+            text = text.replace(regionMatch[0], '');
+            infoboxHtml = this.renderRegionInformation(regionMatch[1], articleImages, baseUrl);
+        } else if (militaryBranchMatch) {
+            text = text.replace(militaryBranchMatch[0], '');
+            infoboxHtml = this.renderMilitaryBranchInformation(militaryBranchMatch[1], articleImages, baseUrl);
+        } else if (militaryForceMatch) {
+            text = text.replace(militaryForceMatch[0], '');
+            infoboxHtml = this.renderMilitaryForceInformation(militaryForceMatch[1], articleImages, baseUrl);
+        } else if (militaryOverviewMatch) {
+            text = text.replace(militaryOverviewMatch[0], '');
+            infoboxHtml = this.renderMilitaryOverviewInformation(militaryOverviewMatch[1], articleImages, baseUrl);
+        } else if (infantryMatch) {
+            text = text.replace(infantryMatch[0], '');
+            infoboxHtml = this.renderInfantryInformation(infantryMatch[1], articleImages, baseUrl);
         }
 
         // Inline variant spec cards
@@ -424,6 +448,10 @@ export class CodexRenderer {
         const territory = params['territory'] || '';
         const status = params['status'] || '';
         const result = params['result'] || '';
+        const theater = params['operation_theater'] || params['theater'] || '';
+        const executor = params['executor'] || '';
+        const planner = params['planner'] || '';
+        const timeframe = params['timeframe'] || '';
 
         const combatant1 = params['combatant1'] || '';
         const combatant2 = params['combatant2'] || '';
@@ -433,9 +461,13 @@ export class CodexRenderer {
         const strength2 = params['strength2'] || '';
 
         const rows: string[] = [];
+        if (theater) rows.push(`<tr><th>Operation Theater</th><td>${this.formatInline(theater)}</td></tr>`);
+        if (timeframe) rows.push(`<tr><th>Timeframe</th><td>${this.formatInline(timeframe)}</td></tr>`);
         if (date) rows.push(`<tr><th>Date</th><td>${this.formatInline(date)}</td></tr>`);
         if (place) rows.push(`<tr><th>Place</th><td>${this.formatInline(place)}</td></tr>`);
         if (territory) rows.push(`<tr><th>Territory</th><td>${this.formatInline(territory)}</td></tr>`);
+        if (executor) rows.push(`<tr><th>Executor(s)</th><td>${this.formatInline(executor)}</td></tr>`);
+        if (planner) rows.push(`<tr><th>Planner(s)</th><td>${this.formatInline(planner)}</td></tr>`);
         if (status) rows.push(`<tr><th>Status</th><td>${this.formatInline(status)}</td></tr>`);
         if (result) rows.push(`<tr><th>Result</th><td>${this.formatInline(result)}</td></tr>`);
 
@@ -1426,6 +1458,306 @@ export class CodexRenderer {
                 <table class="infobox-table">
                     <tbody>
                         ${allRows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderCityInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || params['city'] || 'Settlement';
+        const imgName = this.extractImageName(params['image'] || params['photo'] || params['map']);
+        const caption = params['caption'] || '';
+        const planet = params['planet'] || params['world'] || '';
+        const system = params['system'] || '';
+        const sector = params['sector'] || '';
+        const nation = params['nation'] || params['sovereign'] || params['government'] || '';
+        const population = params['population'] || '';
+        const classification = params['type'] || params['classification'] || '';
+        const coordinates = params['coordinates'] || params['location'] || '';
+        const mayor = params['mayor'] || params['leader'] || params['governor'] || '';
+        const pointsOfInterest = params['points_of_interest'] || params['landmarks'] || '';
+
+        const rows: string[] = [];
+        if (planet) rows.push(`<tr><th>Planet</th><td>${this.formatInline(planet)}</td></tr>`);
+        if (system) rows.push(`<tr><th>System</th><td>${this.formatInline(system)}</td></tr>`);
+        if (sector) rows.push(`<tr><th>Sector</th><td>${this.formatInline(sector)}</td></tr>`);
+        if (nation) rows.push(`<tr><th>Sovereignty</th><td>${this.formatInline(nation)}</td></tr>`);
+        if (population) rows.push(`<tr><th>Population</th><td>${this.formatInline(population)}</td></tr>`);
+        if (classification) rows.push(`<tr><th>Type</th><td>${this.formatInline(classification)}</td></tr>`);
+        if (coordinates) rows.push(`<tr><th>Location</th><td>${this.formatInline(coordinates)}</td></tr>`);
+        if (mayor) rows.push(`<tr><th>Governance</th><td>${this.formatInline(mayor)}</td></tr>`);
+        if (pointsOfInterest) rows.push(`<tr><th>Key Landmarks</th><td>${this.formatInline(pointsOfInterest)}</td></tr>`);
+
+        const imgHtml = imgName
+            ? this.renderImageContainer(imgName, articleImages, baseUrl, `${name} Imagery`, caption, false, true)
+            : '';
+
+        return `
+            <aside class="codex-infobox city-information">
+                <div class="infobox-header city-header">
+                    <div class="infobox-subtitle">GEOGRAPHIC DIRECTORY // CITY REGISTRY</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderRegionInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || params['region'] || 'Geographic Region';
+        const imgName = this.extractImageName(params['image'] || params['map']);
+        const caption = params['caption'] || '';
+        const planet = params['planet'] || params['location'] || '';
+        const system = params['system'] || '';
+        const sovereign = params['sovereign'] || params['nation'] || '';
+        const population = params['population'] || '';
+        const capital = params['capital'] || '';
+        const majorCities = params['major_cities'] || params['cities'] || '';
+        const terrain = params['terrain'] || params['climate'] || '';
+        const history = params['history'] || '';
+
+        const rows: string[] = [];
+        if (planet) rows.push(`<tr><th>Location</th><td>${this.formatInline(planet)}</td></tr>`);
+        if (system) rows.push(`<tr><th>System</th><td>${this.formatInline(system)}</td></tr>`);
+        if (sovereign) rows.push(`<tr><th>Sovereignty</th><td>${this.formatInline(sovereign)}</td></tr>`);
+        if (population) rows.push(`<tr><th>Population</th><td>${this.formatInline(population)}</td></tr>`);
+        if (capital) rows.push(`<tr><th>Capital</th><td>${this.formatInline(capital)}</td></tr>`);
+        if (majorCities) rows.push(`<tr><th>Major Settlements</th><td>${this.formatInline(majorCities)}</td></tr>`);
+        if (terrain) rows.push(`<tr><th>Terrain / Environment</th><td>${this.formatInline(terrain)}</td></tr>`);
+        if (history) rows.push(`<tr><th>Historical Notes</th><td>${this.formatInline(history)}</td></tr>`);
+
+        const imgHtml = imgName
+            ? this.renderImageContainer(imgName, articleImages, baseUrl, `${name} Map`, caption, false, true)
+            : '';
+
+        return `
+            <aside class="codex-infobox region-information">
+                <div class="infobox-header region-header">
+                    <div class="infobox-subtitle">TERRITORIAL SURVEY // REGIONAL DESIGNATION</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderMilitaryBranchInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || params['branch'] || 'Military Branch';
+        const imgName = this.extractImageName(params['image'] || params['badge'] || params['flag'] || params['symbol']);
+        const caption = params['caption'] || '';
+        const nation = params['nation'] || params['government'] || '';
+        const role = params['branch'] || params['role'] || params['type'] || '';
+        const active = params['active'] || params['dates'] || '';
+        const size = params['size'] || params['strength'] || '';
+        const headquarters = params['headquarters'] || params['base'] || '';
+        const motto = params['motto'] || '';
+        const colors = params['colors'] || '';
+        const march = params['march'] || '';
+        const engagements = params['engagements'] || params['battles'] || '';
+        const chiefOfOps = params['chief_of_operations'] || params['commander'] || '';
+        const chiefOfStaff = params['chief_of_staff'] || '';
+        const chiefEnlisted = params['chief_enlisted_staff'] || '';
+
+        const rows: string[] = [];
+        if (nation) rows.push(`<tr><th>Allegiance</th><td>${this.formatInline(nation)}</td></tr>`);
+        if (role) rows.push(`<tr><th>Branch Role</th><td>${this.formatInline(role)}</td></tr>`);
+        if (active) rows.push(`<tr><th>Service Era</th><td>${this.formatInline(active)}</td></tr>`);
+        if (size) rows.push(`<tr><th>Force Strength</th><td>${this.formatInline(size)}</td></tr>`);
+        if (headquarters) rows.push(`<tr><th>Headquarters</th><td>${this.formatInline(headquarters)}</td></tr>`);
+        if (motto) rows.push(`<tr><th>Motto</th><td>${this.formatInline(motto)}</td></tr>`);
+        if (colors) rows.push(`<tr><th>Colors</th><td>${this.formatInline(colors)}</td></tr>`);
+        if (march) rows.push(`<tr><th>March</th><td>${this.formatInline(march)}</td></tr>`);
+        if (engagements) rows.push(`<tr><th>Engagements</th><td>${this.formatInline(engagements)}</td></tr>`);
+        if (chiefOfOps) rows.push(`<tr><th>Chief of Operations</th><td>${this.formatInline(chiefOfOps)}</td></tr>`);
+        if (chiefOfStaff) rows.push(`<tr><th>Chief of Staff</th><td>${this.formatInline(chiefOfStaff)}</td></tr>`);
+        if (chiefEnlisted) rows.push(`<tr><th>Senior Enlisted</th><td>${this.formatInline(chiefEnlisted)}</td></tr>`);
+
+        const imgHtml = imgName
+            ? this.renderImageContainer(imgName, articleImages, baseUrl, `${name} Insignia`, caption, false, true)
+            : '';
+
+        return `
+            <aside class="codex-infobox military-branch-information">
+                <div class="infobox-header military-branch-header">
+                    <div class="infobox-subtitle">DEFENSE ARCHIVE // MILITARY SERVICE BRANCH</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderMilitaryForceInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || params['force'] || 'Military Force';
+        const imgName = this.extractImageName(params['image'] || params['badge'] || params['flag'] || params['insignia']);
+        const caption = params['caption'] || '';
+        const nation = params['nation'] || '';
+        const branch = params['branch'] || '';
+        const active = params['active'] || '';
+        const size = params['size'] || '';
+        const headquarters = params['headquarters'] || '';
+        const commander = params['commander'] || '';
+        const parentFormation = params['parent_formation'] || params['part_of'] || '';
+        const engagements = params['engagements'] || '';
+
+        const rows: string[] = [];
+        if (nation) rows.push(`<tr><th>Allegiance</th><td>${this.formatInline(nation)}</td></tr>`);
+        if (branch) rows.push(`<tr><th>Branch</th><td>${this.formatInline(branch)}</td></tr>`);
+        if (active) rows.push(`<tr><th>Service History</th><td>${this.formatInline(active)}</td></tr>`);
+        if (size) rows.push(`<tr><th>Force Strength</th><td>${this.formatInline(size)}</td></tr>`);
+        if (headquarters) rows.push(`<tr><th>Station / Base</th><td>${this.formatInline(headquarters)}</td></tr>`);
+        if (commander) rows.push(`<tr><th>Commander</th><td>${this.formatInline(commander)}</td></tr>`);
+        if (parentFormation) rows.push(`<tr><th>Parent Unit</th><td>${this.formatInline(parentFormation)}</td></tr>`);
+        if (engagements) rows.push(`<tr><th>Engagements</th><td>${this.formatInline(engagements)}</td></tr>`);
+
+        const imgHtml = imgName
+            ? this.renderImageContainer(imgName, articleImages, baseUrl, `${name} Badge`, caption, false, true)
+            : '';
+
+        return `
+            <aside class="codex-infobox military-force-information">
+                <div class="infobox-header military-force-header">
+                    <div class="infobox-subtitle">ORDER OF BATTLE // MILITARY FORMATION</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderMilitaryOverviewInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || 'Armed Forces Overview';
+        const imgName = this.extractImageName(params['image'] || params['logo'] || params['seal']);
+        const caption = params['caption'] || '';
+        const branches = params['branches'] || '';
+        const commanderInChief = params['commander_in_chief'] || params['leadership'] || '';
+        const militaryAge = params['military_age'] || params['conscription'] || '';
+        const active = params['active_personnel'] || params['strength'] || '';
+        const budget = params['budget'] || '';
+        const ranks = params['ranks'] || '';
+
+        const rows: string[] = [];
+        if (branches) rows.push(`<tr><th>Service Branches</th><td>${this.formatInline(branches)}</td></tr>`);
+        if (commanderInChief) rows.push(`<tr><th>Commander-in-Chief</th><td>${this.formatInline(commanderInChief)}</td></tr>`);
+        if (militaryAge) rows.push(`<tr><th>Service Eligibility</th><td>${this.formatInline(militaryAge)}</td></tr>`);
+        if (active) rows.push(`<tr><th>Active Personnel</th><td>${this.formatInline(active)}</td></tr>`);
+        if (budget) rows.push(`<tr><th>Defense Budget</th><td>${this.formatInline(budget)}</td></tr>`);
+        if (ranks) rows.push(`<tr><th>Rank Structure</th><td>${this.formatInline(ranks)}</td></tr>`);
+
+        const imgHtml = imgName
+            ? this.renderImageContainer(imgName, articleImages, baseUrl, `${name} Insignia`, caption, false, true)
+            : '';
+
+        return `
+            <aside class="codex-infobox military-overview-information">
+                <div class="infobox-header military-overview-header">
+                    <div class="infobox-subtitle">DEFENSE ARCHIVE // ARMED FORCES OVERVIEW</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderInfantryInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || 'Infantry Equipment';
+        const imgName = this.extractImageName(params['image'] || params['photo']);
+        const caption = params['caption'] || '';
+        const mission = params['mission'] || params['role'] || params['classification'] || '';
+        const military = params['military'] || params['user'] || params['operator'] || '';
+        const type = params['type'] || '';
+        const manufacturer = params['manufacturer'] || params['developer'] || '';
+        const armor = params['armor'] || params['protection'] || '';
+        const fixedWeapons = params['fixed_weapons'] || params['armament'] || params['weapons'] || '';
+        const payload = params['variable_payload'] || params['payload'] || '';
+        const specs = params['specifications'] || params['equipment'] || '';
+
+        const rows: string[] = [];
+        if (mission) rows.push(`<tr><th>Mission Role</th><td>${this.formatInline(mission)}</td></tr>`);
+        if (military) rows.push(`<tr><th>Service User</th><td>${this.formatInline(military)}</td></tr>`);
+        if (type) rows.push(`<tr><th>Equipment Type</th><td>${this.formatInline(type)}</td></tr>`);
+        if (manufacturer) rows.push(`<tr><th>Manufacturer</th><td>${this.formatInline(manufacturer)}</td></tr>`);
+        if (armor) rows.push(`<tr><th>Armor / Materials</th><td>${this.formatInline(armor)}</td></tr>`);
+        if (fixedWeapons) rows.push(`<tr><th>Armament</th><td>${this.formatInline(fixedWeapons)}</td></tr>`);
+        if (payload) rows.push(`<tr><th>Payload / Gear</th><td>${this.formatInline(payload)}</td></tr>`);
+        if (specs) rows.push(`<tr><th>Specifications</th><td>${this.formatInline(specs)}</td></tr>`);
+
+        const imgHtml = imgName
+            ? this.renderImageContainer(imgName, articleImages, baseUrl, `${name} Profile`, caption, false, true)
+            : '';
+
+        return `
+            <aside class="codex-infobox infantry-information">
+                <div class="infobox-header infantry-header">
+                    <div class="infobox-subtitle">INFANTRY EQUIPMENT // COMBAT PROFILE</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
                     </tbody>
                 </table>
             </aside>

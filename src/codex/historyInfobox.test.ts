@@ -155,4 +155,93 @@ More historical aftermath text.`;
             expect(html).toContain('treaty-information');
         }
     });
+
+    it('renders History Index with dedicated sub-categories and miscellaneous history sections', () => {
+        const historyArticle = getCodexArticle('History');
+        expect(historyArticle).toBeDefined();
+        const html = CodexRenderer.render(historyArticle!.rawContent);
+
+        // Sub-categories section
+        expect(html).toContain('History Sub-Categories');
+        expect(html).toContain('Years');
+        expect(html).toContain('Centuries');
+        expect(html).toContain('Historical Terms');
+        expect(html).toContain('Terran History');
+        expect(html).toContain('Mesarthrim History');
+        expect(html).toContain('Lorithos History');
+        expect(html).toContain('Second Exodus War');
+        expect(html).toContain('Tempest War');
+        expect(html).toContain('Volucris War');
+        expect(html).toContain('Volucris Incursion');
+        expect(html).toContain('Voices from Lorithan');
+        expect(html).toContain('Pelagrim Crisis');
+        expect(getCodexArticle('Category:Years')).toBeDefined();
+        expect(getCodexArticle('Category:Tempest War')).toBeDefined();
+
+        // Miscellaneous History section
+        expect(html).toContain('Miscellaneous History Articles');
+        expect(html).toContain('Lorithos Bronze Age');
+        expect(html).toContain('Master Plan');
+        expect(html).toContain('Njaa');
+        expect(html).toContain('Resistance against the Empire');
+        expect(html).toContain('Talithe Cume');
+        expect(html).toContain('The Technology Race');
+    });
+
+    it('resolves history subcategory hubs and newly imported articles', () => {
+        // Subcategory Hubs
+        expect(getCodexArticle('Centuries')).toBeDefined();
+        expect(getCodexArticle('Category:Centuries')).toBeDefined();
+        expect(getCodexArticle('Historical_Terms')).toBeDefined();
+        expect(getCodexArticle('Category:Historical_Terms')).toBeDefined();
+        expect(getCodexArticle('Terran_History')).toBeDefined();
+        expect(getCodexArticle('Category:Terran_History')).toBeDefined();
+        expect(getCodexArticle('Voices_from_Lorithan')).toBeDefined();
+        expect(getCodexArticle('Category:Voices_from_Lorithan')).toBeDefined();
+
+        // Century Articles
+        expect(getCodexArticle('20th_Century')).toBeDefined();
+        expect(getCodexArticle('21st_Century')).toBeDefined();
+        expect(getCodexArticle('24th_Century')).toBeDefined();
+
+        // Terran History Articles
+        expect(getCodexArticle('World_War_I')).toBeDefined();
+        expect(getCodexArticle('World_War_II')).toBeDefined();
+        expect(getCodexArticle('World_War_III')).toBeDefined();
+
+        // Second Exodus War Articles
+        expect(getCodexArticle('Battle_of_Terra:_Mesarthrim_Offensive')).toBeDefined();
+        expect(getCodexArticle('Storming_of_San_Francisco')).toBeDefined();
+        expect(getCodexArticle('Third_Battle_of_Cronus')).toBeDefined();
+
+        // Historical Terms
+        expect(getCodexArticle('First_Contact')).toBeDefined();
+        expect(getCodexArticle('Diaspora')).toBeDefined();
+    });
+
+    it('renders Military Operation Information template properly', () => {
+        const sampleWikitext = `{{Military Operation Information|
+|name = Operation Lawless
+|operation_theater = Sol System
+|executor = Prefecture First Fleet
+|planner = Admiral Robert Marshall
+|timeframe = 2324
+|result = Complete victory
+}}
+Operation Lawless was launched to secure the outer system.`;
+
+        const html = CodexRenderer.render(sampleWikitext);
+
+        expect(html).toContain('conflict-information');
+        expect(html).toContain('Operation Lawless');
+        expect(html).toContain('Operation Theater');
+        expect(html).toContain('Sol System');
+        expect(html).toContain('Executor(s)');
+        expect(html).toContain('Prefecture First Fleet');
+        expect(html).toContain('Planner(s)');
+        expect(html).toContain('Admiral Robert Marshall');
+        expect(html).toContain('Timeframe');
+        expect(html).toContain('2324');
+        expect(html).toContain('Complete victory');
+    });
 });

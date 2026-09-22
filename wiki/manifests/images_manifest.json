@@ -641,7 +641,9 @@
     "timestamp": "2007-10-10 22:04:25",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AcerisPowerArmor.jpg"
+    "disk_filename": "AcerisPowerArmor.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AcerisPowerArmor.jpg"
   },
   {
     "image_name": "AddersofAsanova.jpg",
@@ -654,7 +656,9 @@
     "timestamp": "2007-10-10 22:08:44",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AddersofAsanova.jpg"
+    "disk_filename": "AddersofAsanova.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AddersofAsanova.jpg"
   },
   {
     "image_name": "Adelisk_Class_Corvette_Side_View.jpg",
@@ -1034,7 +1038,9 @@
     "timestamp": "2007-07-24 06:16:15",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ArabianFlag.jpg"
+    "disk_filename": "ArabianFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ArabianFlag.jpg"
   },
   {
     "image_name": "ArarosPowerArmor.jpg",
@@ -1047,7 +1053,9 @@
     "timestamp": "2007-10-10 22:06:09",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ArarosPowerArmor.jpg"
+    "disk_filename": "ArarosPowerArmor.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ArarosPowerArmor.jpg"
   },
   {
     "image_name": "ArcherArmoredCar1.jpg",
@@ -1334,7 +1342,9 @@
     "timestamp": "2007-07-30 04:45:51",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AustraliaFlag.jpg"
+    "disk_filename": "AustraliaFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AustraliaFlag.jpg"
   },
   {
     "image_name": "AustriaFlag.jpg",
@@ -1347,7 +1357,9 @@
     "timestamp": "2007-07-24 23:47:47",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AustriaFlag.jpg"
+    "disk_filename": "AustriaFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AustriaFlag.jpg"
   },
   {
     "image_name": "AvengerClassCruiser1.jpg",
@@ -1444,7 +1456,9 @@
     "timestamp": "2007-10-11 23:47:53",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Avicularia.jpg"
+    "disk_filename": "Avicularia.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Avicularia.jpg"
   },
   {
     "image_name": "AztecClassCarrier1.jpg",
@@ -1631,7 +1645,9 @@
     "timestamp": "2008-09-08 08:36:00",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Badge_of_the_Federated_Districts_Air_Force.png"
+    "disk_filename": "Badge_of_the_Federated_Districts_Air_Force.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Badge_of_the_Federated_Districts_Air_Force.png"
   },
   {
     "image_name": "Banshee.png",
@@ -1657,7 +1673,9 @@
     "timestamp": "2007-10-11 23:54:11",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BasicWorker.jpg"
+    "disk_filename": "BasicWorker.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BasicWorker.jpg"
   },
   {
     "image_name": "Bastion_Class_Monitor_Standard_View.jpg",
@@ -1685,7 +1703,9 @@
     "timestamp": "2007-10-11 20:24:39",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BattleQueenCrawler.jpg"
+    "disk_filename": "BattleQueenCrawler.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BattleQueenCrawler.jpg"
   },
   {
     "image_name": "BearAntiAircraftTruck1.jpg",
@@ -1833,7 +1853,9 @@
     "timestamp": "2007-07-29 10:50:26",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BelgiumFlag.jpg"
+    "disk_filename": "BelgiumFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BelgiumFlag.jpg"
   },
   {
     "image_name": "Bell.png",
@@ -2008,7 +2030,9 @@
     "timestamp": "2007-07-30 06:09:20",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BoliviaFlag.jpg"
+    "disk_filename": "BoliviaFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BoliviaFlag.jpg"
   },
   {
     "image_name": "BollariaClassBattleCarrier1.jpg",
@@ -2066,7 +2090,9 @@
     "timestamp": "2007-10-11 20:18:13",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BorrowerDrone1.jpg"
+    "disk_filename": "BorrowerDrone1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BorrowerDrone1.jpg"
   },
   {
     "image_name": "BorrowerDrone2.jpg",
@@ -2079,7 +2105,9 @@
     "timestamp": "2007-10-11 20:18:37",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BorrowerDrone2.jpg"
+    "disk_filename": "BorrowerDrone2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BorrowerDrone2.jpg"
   },
   {
     "image_name": "Brehg_Matif_Class_Side_View.jpg",
@@ -2167,7 +2195,9 @@
     "timestamp": "2007-07-24 04:35:08",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BritishEmpireFlag.jpg"
+    "disk_filename": "BritishEmpireFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BritishEmpireFlag.jpg"
   },
   {
     "image_name": "BroktaiClassBattlecruiser1.jpg",
@@ -2255,7 +2285,9 @@
     "timestamp": "2007-07-28 02:18:09",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BulgariaFlag.jpg"
+    "disk_filename": "BulgariaFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BulgariaFlag.jpg"
   },
   {
     "image_name": "CABadge.png",
@@ -2508,7 +2540,9 @@
     "timestamp": "2007-07-30 07:10:59",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "CambodiaFlag.jpg"
+    "disk_filename": "CambodiaFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CambodiaFlag.jpg"
   },
   {
     "image_name": "CanadaFlag.jpg",
@@ -2521,7 +2555,9 @@
     "timestamp": "2007-07-25 03:08:46",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "CanadaFlag.jpg"
+    "disk_filename": "CanadaFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CanadaFlag.jpg"
   },
   {
     "image_name": "Caoryphis.jpg",
@@ -2534,7 +2570,9 @@
     "timestamp": "2007-10-11 20:31:59",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Caoryphis.jpg"
+    "disk_filename": "Caoryphis.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Caoryphis.jpg"
   },
   {
     "image_name": "CaspiaClassArmedMerchantman1.jpg",
@@ -2709,7 +2747,9 @@
     "timestamp": "2007-07-29 11:36:13",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "CeylonFlag.jpg"
+    "disk_filename": "CeylonFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CeylonFlag.jpg"
   },
   {
     "image_name": "ChariotMediumHovertank1.jpg",
@@ -2842,7 +2882,9 @@
     "timestamp": "2007-07-24 21:30:30",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ChileFlag.jpg"
+    "disk_filename": "ChileFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ChileFlag.jpg"
   },
   {
     "image_name": "ChineseFlag.jpg",
@@ -2855,7 +2897,9 @@
     "timestamp": "2007-07-24 10:48:20",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ChineseFlag.jpg"
+    "disk_filename": "ChineseFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ChineseFlag.jpg"
   },
   {
     "image_name": "Cinaed_Neoframe_Project_Front_View.png",
@@ -2956,7 +3000,9 @@
     "timestamp": "2007-10-10 22:49:02",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ColonialArmyInfantry.jpg"
+    "disk_filename": "ColonialArmyInfantry.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ColonialArmyInfantry.jpg"
   },
   {
     "image_name": "ColonialCommonwealthFlag.png",
@@ -2983,7 +3029,9 @@
     "timestamp": "2007-10-10 22:50:52",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ColonialMarineInfantry.jpg"
+    "disk_filename": "ColonialMarineInfantry.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ColonialMarineInfantry.jpg"
   },
   {
     "image_name": "ColonialSecurityInfantry.jpg",
@@ -2996,7 +3044,9 @@
     "timestamp": "2007-10-10 22:52:07",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ColonialSecurityInfantry.jpg"
+    "disk_filename": "ColonialSecurityInfantry.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ColonialSecurityInfantry.jpg"
   },
   {
     "image_name": "CommonwealthofNationsFlag.jpg",
@@ -3009,7 +3059,9 @@
     "timestamp": "2007-07-24 05:02:30",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "CommonwealthofNationsFlag.jpg"
+    "disk_filename": "CommonwealthofNationsFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CommonwealthofNationsFlag.jpg"
   },
   {
     "image_name": "ComurFlag.png",
@@ -3093,7 +3145,9 @@
     "timestamp": "2007-07-30 05:58:47",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "CubaFlag.jpg"
+    "disk_filename": "CubaFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CubaFlag.jpg"
   },
   {
     "image_name": "Curvicosta.jpg",
@@ -3106,7 +3160,9 @@
     "timestamp": "2007-10-11 20:36:06",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Curvicosta.jpg"
+    "disk_filename": "Curvicosta.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Curvicosta.jpg"
   },
   {
     "image_name": "CurvicostaBeta.jpg",
@@ -3119,7 +3175,9 @@
     "timestamp": "2007-10-11 20:27:42",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "CurvicostaBeta.jpg"
+    "disk_filename": "CurvicostaBeta.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CurvicostaBeta.jpg"
   },
   {
     "image_name": "CzechoslovakiaFlag.jpg",
@@ -3132,7 +3190,9 @@
     "timestamp": "2007-07-25 03:49:02",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "CzechoslovakiaFlag.jpg"
+    "disk_filename": "CzechoslovakiaFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CzechoslovakiaFlag.jpg"
   },
   {
     "image_name": "Dannsair.png",
@@ -3457,7 +3517,9 @@
     "timestamp": "2007-10-10 23:10:48",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ELITES.jpg"
+    "disk_filename": "ELITES.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ELITES.jpg"
   },
   {
     "image_name": "EWLogo.png",
@@ -3500,7 +3562,9 @@
     "timestamp": "2007-07-30 01:24:01",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "EastGermanFlag.jpg"
+    "disk_filename": "EastGermanFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/EastGermanFlag.jpg"
   },
   {
     "image_name": "Eciluge_seen_from_Orbit.png",
@@ -3528,7 +3592,9 @@
     "timestamp": "2007-07-24 21:37:19",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "EcuadorFlag.jpg"
+    "disk_filename": "EcuadorFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/EcuadorFlag.jpg"
   },
   {
     "image_name": "Eituk_A.jpg",
@@ -4084,7 +4150,9 @@
     "timestamp": "2007-07-24 22:46:04",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "FinlandFlag.jpg"
+    "disk_filename": "FinlandFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/FinlandFlag.jpg"
   },
   {
     "image_name": "Finnis.jpg",
@@ -4110,7 +4178,9 @@
     "timestamp": "2009-05-16 17:25:04",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Finnis_Infantry_Face.png"
+    "disk_filename": "Finnis_Infantry_Face.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Finnis_Infantry_Face.png"
   },
   {
     "image_name": "FireSuppressionVehicle1.jpg",
@@ -4298,7 +4368,9 @@
     "timestamp": "2007-07-24 06:40:07",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "FranceFlag.jpg"
+    "disk_filename": "FranceFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/FranceFlag.jpg"
   },
   {
     "image_name": "GaivikClassCorvette1.jpg",
@@ -4401,7 +4473,9 @@
     "timestamp": "2007-07-24 11:12:47",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "GermanFlag.jpg"
+    "disk_filename": "GermanFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/GermanFlag.jpg"
   },
   {
     "image_name": "GreekFlag.jpg",
@@ -4414,7 +4488,9 @@
     "timestamp": "2007-07-26 04:46:34",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "GreekFlag.jpg"
+    "disk_filename": "GreekFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/GreekFlag.jpg"
   },
   {
     "image_name": "Gremlin.png",
@@ -4532,7 +4608,9 @@
     "timestamp": "2007-07-30 06:36:57",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "GuatemalaFlag.jpg"
+    "disk_filename": "GuatemalaFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/GuatemalaFlag.jpg"
   },
   {
     "image_name": "GunsniperClassCorvette1.jpg",
@@ -4620,7 +4698,9 @@
     "timestamp": "2007-10-10 23:13:31",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HAZARDS.jpg"
+    "disk_filename": "HAZARDS.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HAZARDS.jpg"
   },
   {
     "image_name": "HF310ClassCorvette1.jpg",
@@ -5005,7 +5085,9 @@
     "timestamp": "2008-08-31 22:36:31",
     "description": "New version",
     "exists_on_disk": true,
-    "disk_filename": "HectorPoweredArmor.jpg"
+    "disk_filename": "HectorPoweredArmor.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HectorPoweredArmor.jpg"
   },
   {
     "image_name": "HectorPoweredArmor_a.jpg",
@@ -5018,7 +5100,9 @@
     "timestamp": "2008-08-31 22:37:29",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HectorPoweredArmor_a.jpg"
+    "disk_filename": "HectorPoweredArmor_a.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HectorPoweredArmor_a.jpg"
   },
   {
     "image_name": "HectorPoweredArmor_heavy.jpg",
@@ -5031,7 +5115,9 @@
     "timestamp": "2008-08-31 22:38:12",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HectorPoweredArmor_heavy.jpg"
+    "disk_filename": "HectorPoweredArmor_heavy.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HectorPoweredArmor_heavy.jpg"
   },
   {
     "image_name": "HectorPoweredArmor_heavy_a.jpg",
@@ -5044,7 +5130,9 @@
     "timestamp": "2008-08-31 22:38:22",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HectorPoweredArmor_heavy_a.jpg"
+    "disk_filename": "HectorPoweredArmor_heavy_a.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HectorPoweredArmor_heavy_a.jpg"
   },
   {
     "image_name": "Heilige-von-Luther.gif",
@@ -5071,7 +5159,9 @@
     "timestamp": "2007-11-25 19:23:36",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Helen_Cashaw_full_body_image.png"
+    "disk_filename": "Helen_Cashaw_full_body_image.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Helen_Cashaw_full_body_image.png"
   },
   {
     "image_name": "Helen_Cashaw_portrait_view.png",
@@ -5084,7 +5174,9 @@
     "timestamp": "2007-11-25 16:54:44",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Helen_Cashaw_portrait_view.png"
+    "disk_filename": "Helen_Cashaw_portrait_view.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Helen_Cashaw_portrait_view.png"
   },
   {
     "image_name": "HerculesClassArmedMerchantman1.jpg",
@@ -5357,7 +5449,9 @@
     "timestamp": "2007-07-24 10:24:09",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HungaryFlag.jpg"
+    "disk_filename": "HungaryFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HungaryFlag.jpg"
   },
   {
     "image_name": "HunterClassAmphibiousAssaultCruiser1.jpg",
@@ -5501,7 +5595,9 @@
     "timestamp": "2007-07-30 04:06:11",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "IcelandFlag.jpg"
+    "disk_filename": "IcelandFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/IcelandFlag.jpg"
   },
   {
     "image_name": "IlskaMyrd.png",
@@ -5514,7 +5610,9 @@
     "timestamp": "2007-08-21 11:15:12",
     "description": "Second version of the head. Revised hair, neck now proportionate to body (not pictured). Full body still in progress.\nBy James Davis using Inkscape",
     "exists_on_disk": true,
-    "disk_filename": "IlskaMyrd.png"
+    "disk_filename": "IlskaMyrd.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/IlskaMyrd.png"
   },
   {
     "image_name": "Imperium.png",
@@ -5553,7 +5651,9 @@
     "timestamp": "2007-08-29 17:01:13",
     "description": "Placeholder image for images in progress with no assigned artist/author.",
     "exists_on_disk": true,
-    "disk_filename": "InProgress.png"
+    "disk_filename": "InProgress.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/InProgress.png"
   },
   {
     "image_name": "IndomitableClassLightCruiser1.jpg",
@@ -5708,7 +5808,9 @@
     "timestamp": "2007-07-29 23:45:33",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "IsraelFlag.jpg"
+    "disk_filename": "IsraelFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/IsraelFlag.jpg"
   },
   {
     "image_name": "ItalyFlag.jpg",
@@ -5721,7 +5823,9 @@
     "timestamp": "2007-07-25 00:05:25",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ItalyFlag.jpg"
+    "disk_filename": "ItalyFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ItalyFlag.jpg"
   },
   {
     "image_name": "IurinFlag.png",
@@ -5791,7 +5895,9 @@
     "timestamp": "2007-07-24 22:05:34",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "JapaneseFlag.jpg"
+    "disk_filename": "JapaneseFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/JapaneseFlag.jpg"
   },
   {
     "image_name": "Jerome_Black_Class_Battleship_Side_View.jpg",
@@ -5958,7 +6064,9 @@
     "timestamp": "2007-10-10 23:25:38",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "KalidasaReserveTrooper.jpg"
+    "disk_filename": "KalidasaReserveTrooper.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/KalidasaReserveTrooper.jpg"
   },
   {
     "image_name": "KalidasaSecurityTrooper.jpg",
@@ -5971,7 +6079,9 @@
     "timestamp": "2007-10-10 23:23:48",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "KalidasaSecurityTrooper.jpg"
+    "disk_filename": "KalidasaSecurityTrooper.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/KalidasaSecurityTrooper.jpg"
   },
   {
     "image_name": "KarakLightHovertank1.jpg",
@@ -6323,7 +6433,9 @@
     "timestamp": "2007-07-25 06:12:47",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "KoreaFlag.jpg"
+    "disk_filename": "KoreaFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/KoreaFlag.jpg"
   },
   {
     "image_name": "KrelbineInfantryRobot.jpg",
@@ -6336,7 +6448,9 @@
     "timestamp": "2009-05-07 01:11:36",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "KrelbineInfantryRobot.jpg"
+    "disk_filename": "KrelbineInfantryRobot.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/KrelbineInfantryRobot.jpg"
   },
   {
     "image_name": "KufestinFlag.png",
@@ -6498,7 +6612,9 @@
     "timestamp": "2007-07-28 00:39:36",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "LeagueofNationsFlag.jpg"
+    "disk_filename": "LeagueofNationsFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/LeagueofNationsFlag.jpg"
   },
   {
     "image_name": "LeviathinQueen1.jpg",
@@ -6511,7 +6627,9 @@
     "timestamp": "2007-10-11 20:34:28",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "LeviathinQueen1.jpg"
+    "disk_filename": "LeviathinQueen1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/LeviathinQueen1.jpg"
   },
   {
     "image_name": "LeviathinQueen2.jpg",
@@ -6524,7 +6642,9 @@
     "timestamp": "2007-10-11 20:34:40",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "LeviathinQueen2.jpg"
+    "disk_filename": "LeviathinQueen2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/LeviathinQueen2.jpg"
   },
   {
     "image_name": "Lorithan.png",
@@ -6906,7 +7026,9 @@
     "timestamp": "2007-10-10 22:55:56",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M16Excalibur.jpg"
+    "disk_filename": "M16Excalibur.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M16Excalibur.jpg"
   },
   {
     "image_name": "M20Wolverine1.jpg",
@@ -7144,7 +7266,9 @@
     "timestamp": "2009-06-15 00:35:10",
     "description": "Mesarthrim Federation Special Forces Soldier",
     "exists_on_disk": true,
-    "disk_filename": "MF-Grunt.png"
+    "disk_filename": "MF-Grunt.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/MF-Grunt.png"
   },
   {
     "image_name": "MFHeer.png",
@@ -7157,7 +7281,9 @@
     "timestamp": "2009-05-25 07:32:29",
     "description": "Badge for the Mesarthrim Heer.",
     "exists_on_disk": true,
-    "disk_filename": "MFHeer.png"
+    "disk_filename": "MFHeer.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/MFHeer.png"
   },
   {
     "image_name": "MFKriegsmarine.png",
@@ -7170,7 +7296,9 @@
     "timestamp": "2009-05-22 08:17:46",
     "description": "Updated to a design I liked better.",
     "exists_on_disk": true,
-    "disk_filename": "MFKriegsmarine.png"
+    "disk_filename": "MFKriegsmarine.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/MFKriegsmarine.png"
   },
   {
     "image_name": "MFKriegsmarineAirArm.png",
@@ -7183,7 +7311,9 @@
     "timestamp": "2009-09-22 19:16:20",
     "description": "MF Kriegsmarine Air Arm Badge",
     "exists_on_disk": true,
-    "disk_filename": "MFKriegsmarineAirArm.png"
+    "disk_filename": "MFKriegsmarineAirArm.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/MFKriegsmarineAirArm.png"
   },
   {
     "image_name": "MFSpezialtruppen.png",
@@ -7196,7 +7326,9 @@
     "timestamp": "2009-05-25 22:31:54",
     "description": "Badge of the Mesarthrim Federation Spezialtruppen.",
     "exists_on_disk": true,
-    "disk_filename": "MFSpezialtruppen.png"
+    "disk_filename": "MFSpezialtruppen.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/MFSpezialtruppen.png"
   },
   {
     "image_name": "MFSpezialtruppen_Subdued.png",
@@ -7327,7 +7459,9 @@
     "timestamp": "2008-12-08 07:12:26",
     "description": "Semi-final. Could use shading, but good enough for now",
     "exists_on_disk": true,
-    "disk_filename": "Marcus_Rathbone_Coming_Home.png"
+    "disk_filename": "Marcus_Rathbone_Coming_Home.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Marcus_Rathbone_Coming_Home.png"
   },
   {
     "image_name": "MarkVaktida-FinnisArmoredInfantry.png",
@@ -7340,7 +7474,9 @@
     "timestamp": "2009-05-16 17:58:43",
     "description": "Image Copyright 2009 Pin Wei Chiang, aka \"Sponson\". Used with permission.",
     "exists_on_disk": true,
-    "disk_filename": "MarkVaktida-FinnisArmoredInfantry.png"
+    "disk_filename": "MarkVaktida-FinnisArmoredInfantry.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/MarkVaktida-FinnisArmoredInfantry.png"
   },
   {
     "image_name": "Mars_from_orbit.png",
@@ -7368,7 +7504,9 @@
     "timestamp": "2008-12-10 07:18:17",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Matthias_Carter_-_Looks_can_be_deceiving.png"
+    "disk_filename": "Matthias_Carter_-_Looks_can_be_deceiving.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Matthias_Carter_-_Looks_can_be_deceiving.png"
   },
   {
     "image_name": "Mb-fy.png",
@@ -8098,7 +8236,9 @@
     "timestamp": "2007-10-10 22:41:04",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Myt'herra.jpg"
+    "disk_filename": "Myt'herra.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Myt'herra.jpg"
   },
   {
     "image_name": "Myt'kampfen.jpg",
@@ -8111,7 +8251,9 @@
     "timestamp": "2007-10-10 22:42:40",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Myt'kampfen.jpg"
+    "disk_filename": "Myt'kampfen.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Myt'kampfen.jpg"
   },
   {
     "image_name": "Myt_Gaul_Ensign.png",
@@ -8152,7 +8294,9 @@
     "timestamp": "2008-10-18 10:37:52",
     "description": "Auellal Myt'Herra Legion",
     "exists_on_disk": true,
-    "disk_filename": "Myt_Herra-Legion-Auellal.png"
+    "disk_filename": "Myt_Herra-Legion-Auellal.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Myt_Herra-Legion-Auellal.png"
   },
   {
     "image_name": "Myt_Herra-Legion-Baum.png",
@@ -8263,7 +8407,9 @@
     "timestamp": "2009-02-08 04:44:21",
     "description": "Myt'herra Badge.",
     "exists_on_disk": true,
-    "disk_filename": "Myt_herra_badge.png"
+    "disk_filename": "Myt_herra_badge.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Myt_herra_badge.png"
   },
   {
     "image_name": "NASA-Ares-logo.jpg",
@@ -8481,7 +8627,9 @@
     "timestamp": "2007-07-25 00:23:43",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "NetherlandsFlag.jpg"
+    "disk_filename": "NetherlandsFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/NetherlandsFlag.jpg"
   },
   {
     "image_name": "Neucoryphus1.jpg",
@@ -8494,7 +8642,9 @@
     "timestamp": "2007-10-11 20:15:38",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Neucoryphus1.jpg"
+    "disk_filename": "Neucoryphus1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Neucoryphus1.jpg"
   },
   {
     "image_name": "Neucoryphus2.jpg",
@@ -8507,7 +8657,9 @@
     "timestamp": "2007-10-11 20:16:13",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Neucoryphus2.jpg"
+    "disk_filename": "Neucoryphus2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Neucoryphus2.jpg"
   },
   {
     "image_name": "NewZealandFlag.jpg",
@@ -8520,7 +8672,9 @@
     "timestamp": "2007-07-25 02:58:40",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "NewZealandFlag.jpg"
+    "disk_filename": "NewZealandFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/NewZealandFlag.jpg"
   },
   {
     "image_name": "Nightingale1.jpg",
@@ -8548,7 +8702,9 @@
     "timestamp": "2007-10-11 20:29:31",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Nigrotaegoliath.jpg"
+    "disk_filename": "Nigrotaegoliath.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Nigrotaegoliath.jpg"
   },
   {
     "image_name": "Nigrotaeniata1.jpg",
@@ -8561,7 +8717,9 @@
     "timestamp": "2007-10-11 23:50:35",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Nigrotaeniata1.jpg"
+    "disk_filename": "Nigrotaeniata1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Nigrotaeniata1.jpg"
   },
   {
     "image_name": "Nigrotaeniata2.jpg",
@@ -8574,7 +8732,9 @@
     "timestamp": "2007-10-11 23:50:56",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Nigrotaeniata2.jpg"
+    "disk_filename": "Nigrotaeniata2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Nigrotaeniata2.jpg"
   },
   {
     "image_name": "Nimitz.png",
@@ -8673,7 +8833,9 @@
     "timestamp": "2007-07-25 03:40:21",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "NorwayFlag.jpg"
+    "disk_filename": "NorwayFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/NorwayFlag.jpg"
   },
   {
     "image_name": "NovarFlag.png",
@@ -8921,7 +9083,9 @@
     "timestamp": "2007-10-10 22:47:19",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OmegaAgent.jpg"
+    "disk_filename": "OmegaAgent.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OmegaAgent.jpg"
   },
   {
     "image_name": "OmegaListeningPost.jpg",
@@ -9074,7 +9238,9 @@
     "timestamp": "2007-10-10 22:27:34",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OronusGuard1.jpg"
+    "disk_filename": "OronusGuard1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OronusGuard1.jpg"
   },
   {
     "image_name": "OronusGuard2.jpg",
@@ -9087,7 +9253,9 @@
     "timestamp": "2007-10-10 22:29:18",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OronusGuard2.jpg"
+    "disk_filename": "OronusGuard2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OronusGuard2.jpg"
   },
   {
     "image_name": "OronusPersonalMiningSuit.jpg",
@@ -9100,7 +9268,9 @@
     "timestamp": "2007-10-10 23:18:05",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OronusPersonalMiningSuit.jpg"
+    "disk_filename": "OronusPersonalMiningSuit.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OronusPersonalMiningSuit.jpg"
   },
   {
     "image_name": "OronusWorkersCoalitionFlag.png",
@@ -9226,7 +9396,9 @@
     "timestamp": "2007-10-10 01:41:56",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PL100Defender.jpg"
+    "disk_filename": "PL100Defender.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PL100Defender.jpg"
   },
   {
     "image_name": "PL110Epsilon.jpg",
@@ -9329,7 +9501,9 @@
     "timestamp": "2007-07-24 21:44:43",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ParaguayFlag.jpg"
+    "disk_filename": "ParaguayFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ParaguayFlag.jpg"
   },
   {
     "image_name": "Pasara.png",
@@ -9488,7 +9662,9 @@
     "timestamp": "2007-07-24 21:59:17",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PeruFlag.jpg"
+    "disk_filename": "PeruFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PeruFlag.jpg"
   },
   {
     "image_name": "Pesht_from_orbit.png",
@@ -9561,7 +9737,9 @@
     "timestamp": "2007-10-11 23:40:14",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Phaelopendra.jpg"
+    "disk_filename": "Phaelopendra.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Phaelopendra.jpg"
   },
   {
     "image_name": "PhilippinesFlag.jpg",
@@ -9574,7 +9752,9 @@
     "timestamp": "2007-07-24 22:27:42",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PhilippinesFlag.jpg"
+    "disk_filename": "PhilippinesFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PhilippinesFlag.jpg"
   },
   {
     "image_name": "Phoebe_from_orbit.png",
@@ -9602,7 +9782,9 @@
     "timestamp": "2007-07-24 06:41:05",
     "description": "New Version of the Polish Flag per James.",
     "exists_on_disk": true,
-    "disk_filename": "PolandFlag.png"
+    "disk_filename": "PolandFlag.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PolandFlag.png"
   },
   {
     "image_name": "Portrait_of_Marcus_Rathbone.png",
@@ -9615,7 +9797,9 @@
     "timestamp": "2008-12-08 07:38:21",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Portrait_of_Marcus_Rathbone.png"
+    "disk_filename": "Portrait_of_Marcus_Rathbone.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Portrait_of_Marcus_Rathbone.png"
   },
   {
     "image_name": "Portrait_of_Matthias_Carter.png",
@@ -9628,7 +9812,9 @@
     "timestamp": "2008-12-08 23:37:37",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Portrait_of_Matthias_Carter.png"
+    "disk_filename": "Portrait_of_Matthias_Carter.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Portrait_of_Matthias_Carter.png"
   },
   {
     "image_name": "Portrait_of_Rose_Morgan.png",
@@ -9641,7 +9827,9 @@
     "timestamp": "2008-12-08 09:26:03",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Portrait_of_Rose_Morgan.png"
+    "disk_filename": "Portrait_of_Rose_Morgan.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Portrait_of_Rose_Morgan.png"
   },
   {
     "image_name": "PortugalFlag.jpg",
@@ -9654,7 +9842,9 @@
     "timestamp": "2007-07-24 08:13:15",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PortugalFlag.jpg"
+    "disk_filename": "PortugalFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PortugalFlag.jpg"
   },
   {
     "image_name": "Potis-1.JPG",
@@ -9846,7 +10036,9 @@
     "timestamp": "2007-08-29 21:11:08",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PrefectureLegionCorpsInfantryBadge.png"
+    "disk_filename": "PrefectureLegionCorpsInfantryBadge.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PrefectureLegionCorpsInfantryBadge.png"
   },
   {
     "image_name": "PrefectureLegionCorpsLogo.png",
@@ -9859,7 +10051,9 @@
     "timestamp": "2007-08-28 22:50:45",
     "description": "[[Prefecture Legion Corps]] logo by [[James Davis]] using Inkscape.",
     "exists_on_disk": true,
-    "disk_filename": "PrefectureLegionCorpsLogo.png"
+    "disk_filename": "PrefectureLegionCorpsLogo.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PrefectureLegionCorpsLogo.png"
   },
   {
     "image_name": "PrefectureMarineCorpsLogo.png",
@@ -9886,7 +10080,9 @@
     "timestamp": "2009-05-20 03:52:19",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Prefecture_Marine.png"
+    "disk_filename": "Prefecture_Marine.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Prefecture_Marine.png"
   },
   {
     "image_name": "Prefecture_Marine_Face.png",
@@ -9899,7 +10095,9 @@
     "timestamp": "2009-05-20 03:52:05",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Prefecture_Marine_Face.png"
+    "disk_filename": "Prefecture_Marine_Face.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Prefecture_Marine_Face.png"
   },
   {
     "image_name": "ProviderClassHauler1.jpg",
@@ -10058,7 +10256,9 @@
     "timestamp": "2008-09-08 02:40:26",
     "description": "Sample Black Armada Badge, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "RIN---Black-Armada-Badge.png"
+    "disk_filename": "RIN---Black-Armada-Badge.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RIN---Black-Armada-Badge.png"
   },
   {
     "image_name": "RahnIndustriesHeadquarters.jpg",
@@ -10161,7 +10361,9 @@
     "timestamp": "2007-10-10 01:46:26",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ReconProbe1.jpg"
+    "disk_filename": "ReconProbe1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ReconProbe1.jpg"
   },
   {
     "image_name": "ReconProbe2.jpg",
@@ -10174,7 +10376,9 @@
     "timestamp": "2007-10-10 01:47:18",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ReconProbe2.jpg"
+    "disk_filename": "ReconProbe2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ReconProbe2.jpg"
   },
   {
     "image_name": "ReconProbe3.jpg",
@@ -10187,7 +10391,9 @@
     "timestamp": "2007-10-10 01:47:31",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ReconProbe3.jpg"
+    "disk_filename": "ReconProbe3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ReconProbe3.jpg"
   },
   {
     "image_name": "RedshirtsofBerlusconi.jpg",
@@ -10200,7 +10406,9 @@
     "timestamp": "2007-10-10 22:14:05",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RedshirtsofBerlusconi.jpg"
+    "disk_filename": "RedshirtsofBerlusconi.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RedshirtsofBerlusconi.jpg"
   },
   {
     "image_name": "Regional_Map_of_Huon_Jehz.png",
@@ -10213,7 +10421,9 @@
     "timestamp": "2007-11-19 13:38:26",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Regional_Map_of_Huon_Jehz.png"
+    "disk_filename": "Regional_Map_of_Huon_Jehz.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Regional_Map_of_Huon_Jehz.png"
   },
   {
     "image_name": "RemnantFlag.jpg",
@@ -10435,7 +10645,9 @@
     "timestamp": "2007-07-24 23:13:03",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RomaniaFlag.jpg"
+    "disk_filename": "RomaniaFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RomaniaFlag.jpg"
   },
   {
     "image_name": "RoninofNakamura.jpg",
@@ -10448,7 +10660,9 @@
     "timestamp": "2007-10-10 22:24:57",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RoninofNakamura.jpg"
+    "disk_filename": "RoninofNakamura.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RoninofNakamura.jpg"
   },
   {
     "image_name": "Rook1.jpg",
@@ -10491,7 +10705,9 @@
     "timestamp": "2008-12-08 09:26:38",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Rose_Morgan_-_Shape_up_nugget.png"
+    "disk_filename": "Rose_Morgan_-_Shape_up_nugget.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Rose_Morgan_-_Shape_up_nugget.png"
   },
   {
     "image_name": "RoustaboutWorkerVehicle1.jpg",
@@ -10577,7 +10793,9 @@
     "timestamp": "2008-08-16 08:30:09",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Royal_Imperial_Navy_Badge.png"
+    "disk_filename": "Royal_Imperial_Navy_Badge.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Royal_Imperial_Navy_Badge.png"
   },
   {
     "image_name": "S-3ClassCorvette1.jpg",
@@ -10798,7 +11016,9 @@
     "timestamp": "2007-10-10 22:32:23",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SappersofBlazton.jpg"
+    "disk_filename": "SappersofBlazton.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SappersofBlazton.jpg"
   },
   {
     "image_name": "ScipioClassFrigate1.jpg",
@@ -10856,7 +11076,9 @@
     "timestamp": "2007-10-11 20:20:53",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Scolopendra.jpg"
+    "disk_filename": "Scolopendra.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Scolopendra.jpg"
   },
   {
     "image_name": "Scorpion1.jpg",
@@ -11017,7 +11239,9 @@
     "timestamp": "2007-09-22 06:53:52",
     "description": "Seal of the Auellal Political Party",
     "exists_on_disk": true,
-    "disk_filename": "Seal_of_the_Auellal.png"
+    "disk_filename": "Seal_of_the_Auellal.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Seal_of_the_Auellal.png"
   },
   {
     "image_name": "Second_Fleet.png",
@@ -11157,7 +11381,9 @@
     "timestamp": "2007-10-10 22:20:40",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ShadowsofNakamura.jpg"
+    "disk_filename": "ShadowsofNakamura.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ShadowsofNakamura.jpg"
   },
   {
     "image_name": "Shogun1.jpg",
@@ -11301,7 +11527,9 @@
     "timestamp": "2007-07-30 05:08:47",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SingaporeFlag.jpg"
+    "disk_filename": "SingaporeFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SingaporeFlag.jpg"
   },
   {
     "image_name": "Sirius.png",
@@ -11384,7 +11612,9 @@
     "timestamp": "2007-10-11 23:36:56",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Sorocabae.jpg"
+    "disk_filename": "Sorocabae.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Sorocabae.jpg"
   },
   {
     "image_name": "Sorocidas.jpg",
@@ -11397,7 +11627,9 @@
     "timestamp": "2007-10-11 23:45:37",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Sorocidas.jpg"
+    "disk_filename": "Sorocidas.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Sorocidas.jpg"
   },
   {
     "image_name": "SovietUnionFlag.jpg",
@@ -11410,7 +11642,9 @@
     "timestamp": "2007-07-24 03:43:15",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SovietUnionFlag.jpg"
+    "disk_filename": "SovietUnionFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SovietUnionFlag.jpg"
   },
   {
     "image_name": "SpainFlag.jpg",
@@ -11423,7 +11657,9 @@
     "timestamp": "2007-07-30 04:56:37",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SpainFlag.jpg"
+    "disk_filename": "SpainFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SpainFlag.jpg"
   },
   {
     "image_name": "SpireofTruth.jpg",
@@ -12038,7 +12274,9 @@
     "timestamp": "2007-07-28 02:36:31",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SwitzerlandFlag.jpg"
+    "disk_filename": "SwitzerlandFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SwitzerlandFlag.jpg"
   },
   {
     "image_name": "TABadge.png",
@@ -12270,7 +12508,9 @@
     "timestamp": "2007-10-10 23:15:47",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TerranEmbassyMobileInfantry.jpg"
+    "disk_filename": "TerranEmbassyMobileInfantry.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TerranEmbassyMobileInfantry.jpg"
   },
   {
     "image_name": "TerranHammerMRM.jpg",
@@ -12478,7 +12718,9 @@
     "timestamp": "2007-07-30 06:52:34",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ThailandFlag.jpg"
+    "disk_filename": "ThailandFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ThailandFlag.jpg"
   },
   {
     "image_name": "The-Mongrels.png",
@@ -12706,7 +12948,9 @@
     "timestamp": "2007-10-10 22:33:55",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TrailblazersofBlazton.jpg"
+    "disk_filename": "TrailblazersofBlazton.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TrailblazersofBlazton.jpg"
   },
   {
     "image_name": "Trident.png",
@@ -13273,7 +13517,9 @@
     "timestamp": "2008-08-04 06:03:25",
     "description": "Badge of the First Fleet, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "UMC-First-Fleet.png"
+    "disk_filename": "UMC-First-Fleet.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UMC-First-Fleet.png"
   },
   {
     "image_name": "UMC-Second-Fleet.png",
@@ -13286,7 +13532,9 @@
     "timestamp": "2008-08-06 22:48:36",
     "description": "UMC Second Fleet Badge, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "UMC-Second-Fleet.png"
+    "disk_filename": "UMC-Second-Fleet.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UMC-Second-Fleet.png"
   },
   {
     "image_name": "UMC-Third-Fleet.png",
@@ -13428,7 +13676,9 @@
     "timestamp": "2007-07-24 05:59:08",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "UnitedNationsFlag.jpg"
+    "disk_filename": "UnitedNationsFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UnitedNationsFlag.jpg"
   },
   {
     "image_name": "UnitedStatesFlag.jpg",
@@ -13441,7 +13691,9 @@
     "timestamp": "2007-07-24 08:22:04",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "UnitedStatesFlag.jpg"
+    "disk_filename": "UnitedStatesFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UnitedStatesFlag.jpg"
   },
   {
     "image_name": "United_Earth_Alliance_Air_Defense_Force_Badge.png",
@@ -13467,7 +13719,9 @@
     "timestamp": "2007-10-10 01:39:31",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "UrokonCommunicationsSatellite.jpg"
+    "disk_filename": "UrokonCommunicationsSatellite.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UrokonCommunicationsSatellite.jpg"
   },
   {
     "image_name": "UsurperClassCarrier1.jpg",
@@ -13609,7 +13863,9 @@
     "timestamp": "2007-07-30 01:37:21",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "VenezuelaFlag.jpg"
+    "disk_filename": "VenezuelaFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/VenezuelaFlag.jpg"
   },
   {
     "image_name": "Venus.png",
@@ -13682,7 +13938,9 @@
     "timestamp": "2007-07-25 05:16:41",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "VietnamFlag.jpg"
+    "disk_filename": "VietnamFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/VietnamFlag.jpg"
   },
   {
     "image_name": "Vigilant_Class_Frigate_Gun_View.png",
@@ -13755,7 +14013,9 @@
     "timestamp": "2007-10-11 23:31:46",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Violaceopedes.jpg"
+    "disk_filename": "Violaceopedes.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Violaceopedes.jpg"
   },
   {
     "image_name": "Violacipodis1.jpg",
@@ -13768,7 +14028,9 @@
     "timestamp": "2007-10-11 20:13:14",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Violacipodis1.jpg"
+    "disk_filename": "Violacipodis1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Violacipodis1.jpg"
   },
   {
     "image_name": "Violacipodis2.jpg",
@@ -13781,7 +14043,9 @@
     "timestamp": "2007-10-11 20:13:25",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Violacipodis2.jpg"
+    "disk_filename": "Violacipodis2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Violacipodis2.jpg"
   },
   {
     "image_name": "Vita'safinaainaKifa1.jpg",
@@ -13995,7 +14259,9 @@
     "timestamp": "2007-07-30 04:33:12",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "WestGermanFlag.jpg"
+    "disk_filename": "WestGermanFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/WestGermanFlag.jpg"
   },
   {
     "image_name": "WhaleClassHauler1.jpg",
@@ -14158,7 +14424,9 @@
     "timestamp": "2007-07-24 23:23:10",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "YugoslaviaFlag.jpg"
+    "disk_filename": "YugoslaviaFlag.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/YugoslaviaFlag.jpg"
   },
   {
     "image_name": "YurisofAsanova.jpg",
@@ -14171,7 +14439,9 @@
     "timestamp": "2007-10-10 22:10:39",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "YurisofAsanova.jpg"
+    "disk_filename": "YurisofAsanova.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/YurisofAsanova.jpg"
   },
   {
     "image_name": "Ziegler.png",

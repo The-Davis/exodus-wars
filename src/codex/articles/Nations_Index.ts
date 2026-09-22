@@ -58,6 +58,25 @@ Nations also refer to independent geographical regions on a single planet. By [[
 *[[Prometheus Protocols]] - The interstellar non-proliferation and scientific governance accord.
 *[[Cinaed Accords]] - The regional defensive treaty signed in the prelude to the Tempest War.
 
+== Nations & Factions Sub-Categories ==
+*[[:Category:Terran Nations|Terran Nations]] - Historical sovereign nation-states and regional confederations that governed [[Earth]] prior to global unification in [[2011]].
+*[[:Category:Ngrligru Nations|Ngrligru Nations]] - Aquatic tribal realms, warrior clans, and principalities of the [[Ngrligru]] species.
+*[[:Category:Clans of the Mesarthrim|Clans of the Mesarthrim]] - The ancestral martial clans and societal houses of [[Mesar]].
+*[[:Category:Governments|Governments & Administrative Regimes]] - Systems of governance, planetary councils, and administrative bodies ruling star systems.
+*[[:Category:Political Parties|Political Parties & Movements]] - Ideological organizations, parliamentary coalitions, and political factions.
+*[[:Category:Treaty|Treaties & Diplomatic Accords]] - Bilateral covenants, interstellar ceasefires, and planetary sovereignty treaties.
+
+== Military Branches & Organizations ==
+*[[:Category:Prefecture Military|Prefecture Military]] - The combined armed forces of the Federated Districts of the Prefecture:
+**[[:Category:Prefecture Galactic Navy|Prefecture Galactic Navy]] - Deep space combat fleets, carriers, and orbital battlegroups.
+**[[:Category:Prefecture Legion Corps|Prefecture Legion Corps]] - Planetary assault infantry, mechanized brigades, and shock troopers.
+**[[:Category:Prefecture Air Force|Prefecture Air Force]] - Atmospheric superiority fighters, tactical strike wings, and orbital dropships.
+*[[:Category:Royal Imperial Navy|Royal Imperial Navy]] - The autocratic capital fleet and armada of the Onyx Empire.
+*[[:Category:Mesarthrim Federation Military|Mesarthrim Federation Armed Forces]] - The unified standing military of the reformed Mesarthrim Federation.
+*[[:Category:Remnant Military|Remnant Military Cadre]] - Ancient Anthronoris dreadnought flotillas and elite warrior cadres preserving forgotten doctrines.
+*[[:Category:Military Ranks|Military Ranks & Hierarchy]] - Rank structures, naval grades, and command hierarchies across galactic armed forces.
+*[[:Category:Head of State|Heads of State]] - Chief public representatives and executive sovereign offices across civilizations.
+
 [[Category:Categories]]
 [[Category:Nations]]`
 };

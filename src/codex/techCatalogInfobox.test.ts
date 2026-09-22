@@ -268,6 +268,16 @@ The Hercules is a versatile combat walker.`;
             expect(getCodexArticle('Category:Fighters')).toBe(article);
             expect(getCodexArticle('Category:Tanks')).toBe(article);
             expect(getCodexArticle('Category:Rigs')).toBe(article);
+            expect(getCodexArticle('Category:Infantry Equipment Profiles')).toBeDefined();
+            expect(getCodexArticle('Category:Imperial Military Specification')).toBeDefined();
+            expect(getCodexArticle('Category:Satellites')).toBeDefined();
+
+            const html = CodexRenderer.render(article!.rawContent);
+            expect(html).toContain('Ground Equipment & Ordnance');
+            expect(html).toContain('Space Platforms & Satellites');
+            expect(html).toContain('href="#/codex/Category%3AInfantry%20Equipment%20Profiles"');
+            expect(html).toContain('href="#/codex/Category%3AImperial%20Military%20Specification"');
+            expect(html).toContain('href="#/codex/Category%3ASatellites"');
         });
 
         it('resolves imported articles across all four branches', () => {

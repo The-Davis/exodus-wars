@@ -19,6 +19,8 @@ If it can be mapped with any reasonable accuracy, it's considered a place on the
 *[[:Category:Star Systems|Star Systems]] - Inhabited stellar environments containing colonized worlds and orbital stations.
 *[[:Category:Planets|Planets]] - Rocky and gaseous worlds that host civilizations, planetary defenses, and industry.
 *[[:Category:Moons|Moons]] - Planetary satellites colonized via artificial domes, such as [[Luna]].
+*[[:Category:Regions|Regions]] - Sub-continental landmasses, planetary geographic territories, and localized ecological zones.
+*[[:Category:Cities|Cities]] - Major metropolitan hubs, planetary settlements, fortified redoubts, and subterranean arcologies across settled worlds.
 
 == Major Locations & Landmarks ==
 *[[Earth]] - Birthplace of humanity and former capital of the United Earth Alliance.

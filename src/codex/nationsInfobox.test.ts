@@ -180,4 +180,21 @@ The Alliance of Planets is the preeminent galactic federation.`;
             expect(html).toContain('assets/codex/AllianceOfPlanetsFlag.png');
         }
     });
+
+    it('renders Nations subcategories and military branches on Nations index', () => {
+        const nations = getCodexArticle('Nations');
+        expect(nations).toBeDefined();
+        if (nations) {
+            const html = CodexRenderer.render(nations.rawContent);
+            expect(html).toContain('href="#/codex/Category%3ATerran%20Nations"');
+            expect(html).toContain('href="#/codex/Category%3ANgrligru%20Nations"');
+            expect(html).toContain('href="#/codex/Category%3APrefecture%20Military"');
+            expect(html).toContain('href="#/codex/Category%3APrefecture%20Galactic%20Navy"');
+            expect(html).toContain('href="#/codex/Category%3ARoyal%20Imperial%20Navy"');
+        }
+        expect(getCodexArticle('Category:Terran Nations')).toBeDefined();
+        expect(getCodexArticle('Category:Ngrligru Nations')).toBeDefined();
+        expect(getCodexArticle('Category:Prefecture Military')).toBeDefined();
+        expect(getCodexArticle('Category:Royal Imperial Navy')).toBeDefined();
+    });
 });

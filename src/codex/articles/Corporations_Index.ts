@@ -82,7 +82,11 @@ There are many powerful corporations throughout the galaxy, and [[:Category:Econ
 *[[Roseh Terok]] - Commercial trading and supply enterprise.
 *[[Parahs Forak Modar]] - Commercial trade syndicate.
 
+== Corporate Categories & Holdings ==
+*[[:Category:Rahn Industries|Rahn Industries Holdings]] - Corporate subsidiaries, manufacturing yards, planetary facilities, and product lines of Rahn Industries.
+
 [[Category:Categories]]
 [[Category:Corporations]]
-[[Category:Companies]]`
+[[Category:Companies]]
+[[Category:Rahn Industries]]`
 };

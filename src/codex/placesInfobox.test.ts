@@ -157,6 +157,10 @@ The Centus System contains key industrial colonies.`;
         expect(html).toContain('href="#/codex/Torimur"');
         expect(html).toContain('href="#/codex/Mesar"');
         expect(html).toContain('href="#/codex/Category%3APlanets"');
+        expect(html).toContain('href="#/codex/Category%3ACities"');
+        expect(html).toContain('href="#/codex/Category%3ARegions"');
+        expect(getCodexArticle('Category:Cities')).toBeDefined();
+        expect(getCodexArticle('Category:Regions')).toBeDefined();
     });
 
     it('supports modern and legacy image toggle in planet infobox without badges', () => {
