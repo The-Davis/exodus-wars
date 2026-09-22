@@ -1110,6 +1110,21 @@ canvas {
   border-bottom: 1px solid #ffd54f !important;
 }
 
+.race-header {
+  background: linear-gradient(135deg, #0d3822 0%, #051a0f 100%) !important;
+  border-bottom: 1px solid #00e676 !important;
+}
+
+.currency-header {
+  background: linear-gradient(135deg, #3b2d11 0%, #1a1305 100%) !important;
+  border-bottom: 1px solid #ffd700 !important;
+}
+
+.economy-header {
+  background: linear-gradient(135deg, #2b261e 0%, #14110a 100%) !important;
+  border-bottom: 1px solid #d7ccc8 !important;
+}
+
 .infobox-partof {
   font-size: 13px;
   color: #ff8a80;

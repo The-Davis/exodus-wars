@@ -12712,7 +12712,8 @@
     "timestamp": "2007-08-24 07:53:24",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "VolucrisWorker.png"
+    "disk_filename": "VolucrisWorker.png",
+    "migrated_to_public": true
   },
   {
     "image_name": "VultureSiegeTank1.jpg",
