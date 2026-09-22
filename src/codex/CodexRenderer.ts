@@ -20,6 +20,7 @@ export class CodexRenderer {
         const economyMatch = text.match(/\{\{(?:Economy[_ ]Information|Economic[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
         const nationMatch = text.match(/\{\{Nation[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const allianceMatch = text.match(/\{\{Alliance[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
+        const companyMatch = text.match(/\{\{(?:Company[_ ]Information|Corporation[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
 
         if (personMatch) {
             text = text.replace(personMatch[0], '');
@@ -57,6 +58,9 @@ export class CodexRenderer {
         } else if (allianceMatch) {
             text = text.replace(allianceMatch[0], '');
             infoboxHtml = this.renderAllianceInformation(allianceMatch[1], articleImages, baseUrl);
+        } else if (companyMatch) {
+            text = text.replace(companyMatch[0], '');
+            infoboxHtml = this.renderCompanyInformation(companyMatch[1], articleImages, baseUrl);
         }
 
         // Clean out any unhandled navbox templates (e.g. {{Pelagrim Crisis Navbox}})
@@ -778,6 +782,65 @@ export class CodexRenderer {
             <aside class="codex-infobox alliance-information">
                 <div class="infobox-header alliance-header">
                     <div class="infobox-subtitle">INTERSTELLAR TREATY // ALLIANCE ACCORD</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderCompanyInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || params['company_name'] || params['company'] || 'Corporate Entity';
+        const imgName = this.extractImageName(params['image'] || params['logo']);
+        const caption = params['caption'] || '';
+        const type = params['type'] || params['company_type'] || '';
+        const founded = params['founded'] || '';
+        const founder = params['founder'] || params['founders'] || '';
+        const headquarters = params['headquarters'] || params['location'] || '';
+        const keyPeople = params['key_people'] || params['leadership'] || '';
+        const industry = params['industry'] || params['sector'] || '';
+        const products = params['products'] || params['services'] || '';
+        const revenue = params['revenue'] || '';
+        const operatingIncome = params['operating_income'] || params['profit'] || '';
+        const employees = params['employees'] || '';
+        const parent = params['parent'] || params['parent_company'] || '';
+        const subsidiaries = params['subsidiaries'] || params['divisions'] || '';
+        const status = params['status'] || '';
+
+        const rows: string[] = [];
+        if (type) rows.push(`<tr><th>Type</th><td>${this.formatInline(type)}</td></tr>`);
+        if (industry) rows.push(`<tr><th>Industry</th><td>${this.formatInline(industry)}</td></tr>`);
+        if (founded) rows.push(`<tr><th>Founded</th><td>${this.formatInline(founded)}</td></tr>`);
+        if (founder) rows.push(`<tr><th>Founder(s)</th><td>${this.formatInline(founder)}</td></tr>`);
+        if (headquarters) rows.push(`<tr><th>Headquarters</th><td>${this.formatInline(headquarters)}</td></tr>`);
+        if (keyPeople) rows.push(`<tr><th>Key People</th><td>${this.formatInline(keyPeople)}</td></tr>`);
+        if (products) rows.push(`<tr><th>Products</th><td>${this.formatInline(products)}</td></tr>`);
+        if (revenue) rows.push(`<tr><th>Revenue</th><td>${this.formatInline(revenue)}</td></tr>`);
+        if (operatingIncome) rows.push(`<tr><th>Operating Income</th><td>${this.formatInline(operatingIncome)}</td></tr>`);
+        if (employees) rows.push(`<tr><th>Employees</th><td>${this.formatInline(employees)}</td></tr>`);
+        if (parent) rows.push(`<tr><th>Parent</th><td>${this.formatInline(parent)}</td></tr>`);
+        if (subsidiaries) rows.push(`<tr><th>Subsidiaries</th><td>${this.formatInline(subsidiaries)}</td></tr>`);
+        if (status) rows.push(`<tr><th>Status</th><td>${this.formatInline(status)}</td></tr>`);
+
+        const imgHtml = imgName
+            ? this.renderImageContainer(imgName, articleImages, baseUrl, `${name} Logo`, caption, false, true)
+            : '';
+
+        return `
+            <aside class="codex-infobox company-information">
+                <div class="infobox-header company-header">
+                    <div class="infobox-subtitle">COMMERCIAL ENTITY // CORPORATE REGISTRY</div>
                     <h3 class="infobox-name">${this.formatInline(name)}</h3>
                 </div>
                 ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}

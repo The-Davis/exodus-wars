@@ -36,7 +36,9 @@
     "timestamp": "2008-09-27 16:33:50",
     "description": "Fireline Industries Logo, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "2260-Fireline.png"
+    "disk_filename": "2260-Fireline.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/2260-Fireline.png"
   },
   {
     "image_name": "2326Nimitz.png",
@@ -754,7 +756,9 @@
     "timestamp": "2008-11-04 19:04:50",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Alexi-wrought-logo.png"
+    "disk_filename": "Alexi-wrought-logo.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Alexi-wrought-logo.png"
   },
   {
     "image_name": "Allia.png",
@@ -794,7 +798,9 @@
     "timestamp": "2008-11-04 19:05:51",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AlliedBody-ArmorLogo.png"
+    "disk_filename": "AlliedBody-ArmorLogo.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AlliedBody-ArmorLogo.png"
   },
   {
     "image_name": "AltoeingFoundriesLogo.png",
@@ -807,7 +813,9 @@
     "timestamp": "2008-11-04 19:05:35",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AltoeingFoundriesLogo.png"
+    "disk_filename": "AltoeingFoundriesLogo.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AltoeingFoundriesLogo.png"
   },
   {
     "image_name": "AndreasTischler.png",
@@ -876,7 +884,9 @@
     "timestamp": "2008-11-04 19:05:21",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AntonovCompanyLogo.png"
+    "disk_filename": "AntonovCompanyLogo.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AntonovCompanyLogo.png"
   },
   {
     "image_name": "AnuhoraClassCorvette1.jpg",
@@ -1111,7 +1121,9 @@
     "timestamp": "2008-11-04 19:05:06",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AstroliftLogo.png"
+    "disk_filename": "AstroliftLogo.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AstroliftLogo.png"
   },
   {
     "image_name": "Atlas_Class_Carrier_Side_View.jpg",
@@ -2078,7 +2090,9 @@
     "timestamp": "2009-10-07 05:07:10",
     "description": "Centusi Cargo & Carriers",
     "exists_on_disk": true,
-    "disk_filename": "CCC.png"
+    "disk_filename": "CCC.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CCC.png"
   },
   {
     "image_name": "CIASeal.jpg",
@@ -2104,7 +2118,9 @@
     "timestamp": "2009-10-23 04:39:09",
     "description": "CLB Sternarbeiten Logo",
     "exists_on_disk": true,
-    "disk_filename": "CLB-Sternarbeiten.png"
+    "disk_filename": "CLB-Sternarbeiten.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CLB-Sternarbeiten.png"
   },
   {
     "image_name": "CR-1.JPG",
@@ -2404,7 +2420,9 @@
     "timestamp": "2009-10-23 04:38:42",
     "description": "Centusi Luxusbehalter Logo",
     "exists_on_disk": true,
-    "disk_filename": "Centusi-Luxusbehalter.png"
+    "disk_filename": "Centusi-Luxusbehalter.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Centusi-Luxusbehalter.png"
   },
   {
     "image_name": "CephrodClassFrigate1.jpg",
@@ -2666,7 +2684,9 @@
     "timestamp": "2008-11-04 19:04:34",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "CiranArmsCompanyLogo.png"
+    "disk_filename": "CiranArmsCompanyLogo.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CiranArmsCompanyLogo.png"
   },
   {
     "image_name": "Clansguard.png",
@@ -4422,7 +4442,9 @@
     "timestamp": "2008-08-04 00:52:58",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Haven_Shipyards_Logo.png"
+    "disk_filename": "Haven_Shipyards_Logo.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Haven_Shipyards_Logo.png"
   },
   {
     "image_name": "HeavyExpandableTacticalTruck1.jpg",
@@ -6762,7 +6784,9 @@
     "timestamp": "2010-10-04 14:21:46",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Mb-logo.png"
+    "disk_filename": "Mb-logo.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Mb-logo.png"
   },
   {
     "image_name": "Mb-rd.png",
@@ -7140,7 +7164,9 @@
     "timestamp": "2007-10-21 03:49:09",
     "description": "Mesar Schnittstelle Gruppe Logo by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Mesar-Schnittstelle-Gruppe_Logo.png"
+    "disk_filename": "Mesar-Schnittstelle-Gruppe_Logo.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Mesar-Schnittstelle-Gruppe_Logo.png"
   },
   {
     "image_name": "MesarFlag.png",
@@ -7182,7 +7208,9 @@
     "timestamp": "2008-07-31 22:13:57",
     "description": "Mesarbauer Satellites, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Mesarbauer-Satellites.png"
+    "disk_filename": "Mesarbauer-Satellites.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Mesarbauer-Satellites.png"
   },
   {
     "image_name": "Mesarbauer-TL.png",
@@ -7195,7 +7223,9 @@
     "timestamp": "2008-07-31 22:14:53",
     "description": "Mesarbauer Transport Lines by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Mesarbauer-TL.png"
+    "disk_filename": "Mesarbauer-TL.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Mesarbauer-TL.png"
   },
   {
     "image_name": "Mesarbauer-fd.png",
@@ -7208,7 +7238,9 @@
     "timestamp": "2008-07-31 22:12:09",
     "description": "Mesarbauer Fighter Division, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Mesarbauer-fd.png"
+    "disk_filename": "Mesarbauer-fd.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Mesarbauer-fd.png"
   },
   {
     "image_name": "Mesarbauer-wd.png",
@@ -7221,7 +7253,9 @@
     "timestamp": "2008-07-31 22:15:38",
     "description": "Mesarbauer Warship Division, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Mesarbauer-wd.png"
+    "disk_filename": "Mesarbauer-wd.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Mesarbauer-wd.png"
   },
   {
     "image_name": "MesarbauerLogo.png",
@@ -7234,7 +7268,9 @@
     "timestamp": "2008-07-31 22:08:43",
     "description": "New version of Mesarbauer Logo, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "MesarbauerLogo.png"
+    "disk_filename": "MesarbauerLogo.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/MesarbauerLogo.png"
   },
   {
     "image_name": "Mesarbauer_Strauss.png",
@@ -7247,7 +7283,9 @@
     "timestamp": "2008-07-31 22:13:15",
     "description": "Mesarbauer Strauss by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Mesarbauer_Strauss.png"
+    "disk_filename": "Mesarbauer_Strauss.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Mesarbauer_Strauss.png"
   },
   {
     "image_name": "MesarthrimAvenger.png",
@@ -9254,7 +9292,9 @@
     "timestamp": "2007-08-06 06:20:57",
     "description": "Rahn Industries Logo.\n\nI'd like to get this with a white background instead.",
     "exists_on_disk": true,
-    "disk_filename": "RahnIndustriesLogo.png"
+    "disk_filename": "RahnIndustriesLogo.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RahnIndustriesLogo.png"
   },
   {
     "image_name": "Ramjet.png",
@@ -10908,7 +10948,9 @@
     "timestamp": "2007-10-21 03:29:57",
     "description": "Strauss Energie Logo by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Strauss-Energie_Logo.png"
+    "disk_filename": "Strauss-Energie_Logo.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Strauss-Energie_Logo.png"
   },
   {
     "image_name": "StrikerArtilleryVehicle1.jpg",
@@ -12957,7 +12999,9 @@
     "timestamp": "2008-09-27 01:37:15",
     "description": "Reverted to earlier revision",
     "exists_on_disk": true,
-    "disk_filename": "Young-watson.png"
+    "disk_filename": "Young-watson.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Young-watson.png"
   },
   {
     "image_name": "YugoslaviaFlag.jpg",
