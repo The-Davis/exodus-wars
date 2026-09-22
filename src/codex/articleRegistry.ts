@@ -30,6 +30,12 @@ import { TECH_SUBCATEGORY_ARTICLES } from './articles/techSubcategoryArticles';
 import { HISTORY_ADDITIONAL_ARTICLES } from './articles/historyAdditionalArticles';
 import { NATIONS_SUBCATEGORY_ARTICLES } from './articles/nationsSubcategoryArticles';
 import { PEOPLE_SUBCATEGORY_ARTICLES } from './articles/peopleSubcategoryArticles';
+import { PLACES_ADDITIONAL_ARTICLES } from './articles/placesAdditionalArticles';
+import { TECH_STARSHIPS_ARTICLES } from './articles/techStarshipsArticles';
+import { HISTORY_SERIES_ARTICLES } from './articles/historySeriesArticles';
+import { HISTORY_YEARS_ARTICLES } from './articles/historyYearsArticles';
+import { LANGUAGES_CULTURE_ARTICLES } from './articles/languagesCultureArticles';
+import { NATIONS_ARCHIVES_ARTICLES } from './articles/nationsArchivesArticles';
 
 export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     'Introduction_to_the_Exodus_Wars_Universe': introArticle,
@@ -401,7 +407,13 @@ const subcategoryGroups = [
     TECH_SUBCATEGORY_ARTICLES,
     HISTORY_ADDITIONAL_ARTICLES,
     NATIONS_SUBCATEGORY_ARTICLES,
-    PEOPLE_SUBCATEGORY_ARTICLES
+    PEOPLE_SUBCATEGORY_ARTICLES,
+    PLACES_ADDITIONAL_ARTICLES,
+    TECH_STARSHIPS_ARTICLES,
+    HISTORY_SERIES_ARTICLES,
+    HISTORY_YEARS_ARTICLES,
+    LANGUAGES_CULTURE_ARTICLES,
+    NATIONS_ARCHIVES_ARTICLES
 ];
 
 for (const group of subcategoryGroups) {

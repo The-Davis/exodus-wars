@@ -233,6 +233,99 @@ Standard infantry armor of the Reigess Suverände.`;
             const terranNationsCategory = getCodexArticle('Category:Terran Nations');
             expect(terranNationsCategory).toBeDefined();
             expect(terranNationsCategory?.slug).toBe('Terran_Nations');
+
+            // 10. Star Systems
+            const alphaCentauri = getCodexArticle('Alpha_Centauri_System');
+            expect(alphaCentauri).toBeDefined();
+            expect(alphaCentauri?.categories).toContain('Star Systems');
+
+            // 11. Sectors
+            const solSector = getCodexArticle('Sol_Sector');
+            expect(solSector).toBeDefined();
+            expect(solSector?.categories).toContain('Sectors');
+
+            // 12. Spiral Arms
+            const orionArm = getCodexArticle('Orion_Arm');
+            expect(orionArm).toBeDefined();
+            expect(orionArm?.categories).toContain('Spiral Arms');
+
+            // 13. Starships
+            const arnoste = getCodexArticle('Arnoste_Class_Destroyer');
+            expect(arnoste).toBeDefined();
+            expect(arnoste?.title).toBe('Arnoste Class Destroyer');
+
+            // 14. History Series
+            const tempestSeries = getCodexArticle('Claws_of_the_Fathach');
+            expect(tempestSeries).toBeDefined();
+            expect(tempestSeries?.categories).toContain('Tempest War Series');
+
+            // 15. Uncategorized Year converted to Years category
+            const year2001 = getCodexArticle('2001');
+            expect(year2001).toBeDefined();
+            expect(year2001?.categories).toContain('Years');
+
+            // 16. Languages
+            const huorak = getCodexArticle('Huorak');
+            expect(huorak).toBeDefined();
+            expect(huorak?.categories).toContain('Languages');
+
+            // 17. Nations Archives
+            const onyxGov = getCodexArticle('Government_of_the_Onyx_Empire');
+            expect(onyxGov).toBeDefined();
+            expect(onyxGov?.categories).toContain('Onyx Empire');
+
+            // 18. New Category Hubs
+            expect(getCodexArticle('Category:Star Systems')).toBeDefined();
+            expect(getCodexArticle('Category:Starships')).toBeDefined();
+            expect(getCodexArticle('Category:Onyx Empire')).toBeDefined();
+            expect(getCodexArticle('Category:Languages')).toBeDefined();
+        });
+    });
+
+    describe('Squadron & Intelligence Branch Template Rendering', () => {
+        it('renders squadron information infobox with aerospace wing header and roster parameters', () => {
+            const wikitext = `{{Squadron Information|
+|name = No.1416 Squadron ADF
+|nickname = Saint Michael's Sword
+|active = [[2295]]-[[2319]]
+|nation = [[United Earth Alliance]]
+|military_branch = [[Alliance Defense Force]]
+|aircraft_type = [[ADF Starfire]]
+|role = Space Superiority
+|garrison = Originally Saturn, [[Sol System]]
+|battles = Invasion of Earth
+}}
+
+Briefing for 1416th Squadron.`;
+
+            const html = CodexRenderer.render(wikitext);
+            expect(html).toContain('codex-infobox squadron-information');
+            expect(html).toContain('AEROSPACE WING // SQUADRON ROSTER');
+            expect(html).toContain('No.1416 Squadron ADF');
+            expect(html).toContain('Saint Michael\'s Sword');
+            expect(html).toContain('Space Superiority');
+            expect(html).toContain('Briefing for 1416th Squadron.');
+        });
+
+        it('renders intelligence branch infobox with clandestine service header and operational data', () => {
+            const wikitext = `{{Intelligence Branch Information|
+|name = хоньч нохой, AKA "Omegas"
+|nation = [[Onyx Empire]]
+|designation = Secret Police
+|size = Approximately 23,000 operatives
+|headquarters = [[Earth]], [[Sol System]]
+|command1 = Chief Operative [[Lavik Nighthawk]]
+}}
+
+Dossier on the Omegas.`;
+
+            const html = CodexRenderer.render(wikitext);
+            expect(html).toContain('codex-infobox intelligence-branch-information');
+            expect(html).toContain('INTELLIGENCE ARCHIVE // CLANDESTINE SERVICE');
+            expect(html).toContain('хоньч нохой, AKA "Omegas"');
+            expect(html).toContain('Secret Police');
+            expect(html).toContain('Approximately 23,000 operatives');
+            expect(html).toContain('Dossier on the Omegas.');
         });
     });
 });
