@@ -41,6 +41,8 @@ import { FINAL_TECH_CORPORATE_ARTICLES } from './articles/finalTechCorporateArti
 import { FINAL_INSTITUTIONS_LORE_ARTICLES } from './articles/finalInstitutionsLoreArticles';
 import { FINAL_CATEGORY_ARTICLES } from './articles/finalCategoryArticles';
 import { FINAL_REDIRECT_ALIASES } from './articles/finalRedirectAliases';
+import { fightersCategoryArticle } from './articles/fightersCategoryArticle';
+import { HISTORICAL_CHRONICLES_ARTICLES } from './articles/historicalChroniclesArticles';
 
 export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     'Introduction_to_the_Exodus_Wars_Universe': introArticle,
@@ -313,6 +315,7 @@ for (const item of TECH_CATALOG_ARTICLES) {
     registerArticle(item);
 }
 registerArticle(technologicalCatalogsIndexArticle);
+registerArticle(fightersCategoryArticle);
 
 function registerCategoryAliases(categories: string[], targetArticle: CodexArticle): void {
     for (const cat of categories) {
@@ -323,19 +326,21 @@ function registerCategoryAliases(categories: string[], targetArticle: CodexArtic
         if (!CODEX_ARTICLES[slug.toLowerCase()]) CODEX_ARTICLES[slug.toLowerCase()] = targetArticle;
         if (!CODEX_ARTICLES[space.toLowerCase()]) CODEX_ARTICLES[space.toLowerCase()] = targetArticle;
 
-        CODEX_ARTICLES[`Category:${slug}`] = targetArticle;
-        CODEX_ARTICLES[`category:${slug.toLowerCase()}`] = targetArticle;
-        CODEX_ARTICLES[`Category:${space}`] = targetArticle;
-        CODEX_ARTICLES[`category:${space.toLowerCase()}`] = targetArticle;
-        CODEX_ARTICLES[`:Category:${slug}`] = targetArticle;
-        CODEX_ARTICLES[`:Category:${space}`] = targetArticle;
+        if (!CODEX_ARTICLES[`Category:${slug}`]) CODEX_ARTICLES[`Category:${slug}`] = targetArticle;
+        if (!CODEX_ARTICLES[`category:${slug.toLowerCase()}`]) CODEX_ARTICLES[`category:${slug.toLowerCase()}`] = targetArticle;
+        if (!CODEX_ARTICLES[`Category:${space}`]) CODEX_ARTICLES[`Category:${space}`] = targetArticle;
+        if (!CODEX_ARTICLES[`category:${space.toLowerCase()}`]) CODEX_ARTICLES[`category:${space.toLowerCase()}`] = targetArticle;
+        if (!CODEX_ARTICLES[`:Category:${slug}`]) CODEX_ARTICLES[`:Category:${slug}`] = targetArticle;
+        if (!CODEX_ARTICLES[`:Category:${space}`]) CODEX_ARTICLES[`:Category:${space}`] = targetArticle;
     }
 }
 
+registerCategoryAliases(['Fighters'], fightersCategoryArticle);
+
 const techCategories = [
-    'Warships', 'Aircraft', 'Starships', 'Vehicles',
+    'Warships', 'Starships', 'Vehicles',
     'Battleships', 'Cruisers', 'Destroyers', 'Frigates', 'Corvettes', 'Carriers',
-    'Fighters', 'Bombers', 'VTOLs', 'Transport_Aircraft', 'Transport Aircraft',
+    'Bombers', 'VTOLs', 'Transport_Aircraft', 'Transport Aircraft',
     'Recon_Aircraft', 'Recon Aircraft', 'Civilian_Aircraft', 'Civilian Aircraft',
     'Freighters', 'Starliners', 'Exploration_Vessels', 'Exploration Vessels',
     'Colony_Ships', 'Colony Ships',
@@ -422,7 +427,8 @@ const subcategoryGroups = [
     FINAL_FLEETS_OPERATIONS_ARTICLES,
     FINAL_TECH_CORPORATE_ARTICLES,
     FINAL_INSTITUTIONS_LORE_ARTICLES,
-    FINAL_CATEGORY_ARTICLES
+    FINAL_CATEGORY_ARTICLES,
+    HISTORICAL_CHRONICLES_ARTICLES
 ];
 
 for (const group of subcategoryGroups) {

@@ -265,12 +265,20 @@ The Hercules is a versatile combat walker.`;
             expect(getCodexArticle('Category:Aircraft')).toBeDefined();
             expect(getCodexArticle('Category:Starships')).toBeDefined();
             expect(getCodexArticle('Vehicles')).toBeDefined();
-            expect(getCodexArticle('Category:Fighters')).toBe(article);
+            const fightersArticle = getCodexArticle('Category:Fighters');
+            expect(fightersArticle).toBeDefined();
+            expect(fightersArticle?.slug).toBe('Fighters');
+            expect(fightersArticle?.rawContent).toContain('F-09_Carrier_Fighter_-_"Valkyrie"');
             expect(getCodexArticle('Category:Tanks')).toBe(article);
             expect(getCodexArticle('Category:Rigs')).toBe(article);
             expect(getCodexArticle('Category:Infantry Equipment Profiles')).toBeDefined();
             expect(getCodexArticle('Category:Imperial Military Specification')).toBeDefined();
             expect(getCodexArticle('Category:Satellites')).toBeDefined();
+
+            // Verify Aircraft article links to Fighters category
+            const aircraftArticle = getCodexArticle('Aircraft');
+            expect(aircraftArticle).toBeDefined();
+            expect(aircraftArticle?.rawContent).toContain('[[:Category:Fighters|Fighters & Interceptors]]');
 
             const html = CodexRenderer.render(article!.rawContent);
             expect(html).toContain('Ground Equipment & Ordnance');

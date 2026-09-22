@@ -6,12 +6,23 @@ export const TECH_STARSHIPS_ARTICLES: CodexArticle[] = [
         slug: 'Aircraft',
         title: 'Aircraft',
         author: 'Myiven',
-        lastUpdated: '2007-08-07 07:16:23',
-        summary: 'An aircraft is a vehicle or craft capable of atmospheric flight. Modern aircraft are often capable of space flight, and atmospheric reentry and orbital escape....',
-        categories: ['Categories','Technology'],
-        rawContent: `An '''aircraft''' is a vehicle or craft capable of atmospheric flight. Modern aircraft are often capable of space flight, and atmospheric reentry and orbital escape.
+        lastUpdated: '2026-09-22 07:00:00',
+        summary: 'An aircraft is a vehicle or craft capable of atmospheric flight, aerospace maneuvers, sub-orbital interception, and planetary insertion. This master register classifies all atmospheric and trans-atmospheric flight craft across the Orion Arm.',
+        categories: ['Categories', 'Technology', 'Aircraft', 'Technological Catalogs'],
+        rawContent: `An '''aircraft''' is a vehicle or craft capable of atmospheric flight. In modern doctrine across the [[Orion Arm]], combat aircraft are almost universally trans-atmospheric platforms capable of sustained exo-atmospheric flight, sub-orbital transit, orbital escape, and high-velocity atmospheric reentry.
 
-[[Category:Technology]]`
+== Operational Aircraft Divisions ==
+
+* '''[[:Category:Fighters|Fighters & Interceptors]]''' - High-agility aerospace craft built for space superiority, dogfighting, escort screening, and carrier operations. Features 55 production models and prototypes across major galactic powers.
+* '''[[:Category:Bombers|Bombers & Strike Craft]]''' - Heavy ordnance delivery platforms designed to penetrate planetary defenses and deliver anti-ship torpedoes, kinetic penetrators, and high-yield munitions against fortifications and capital warships.
+* '''[[:Category:VTOLs|Vertical Take-Off & Landing (VTOL)]]''' - Rotorcraft, tilt-jets, and vectored-thrust close air support craft optimized for rapid tactical troop insertion, gunship support, and rugged planetary surface operations.
+* '''[[:Category:Transport Aircraft|Transports & Logistics]]''' - Heavy tactical airlifters, assault shuttles, and logistics transports maintaining supply lines across planetary surface theaters.
+* '''[[:Category:Recon Aircraft|Reconnaissance & Civilian Craft]]''' - High-altitude sensor scouts, electronic warfare platforms, and non-combatant atmospheric flight frames.
+* '''[[:Category:Atmospheric Craft|Atmospheric Craft]]''' - Specialized aerodynamic fighters, bombers, and multi-role craft engineered for planetary airspace defense and surface engagement.
+
+[[Category:Technology]]
+[[Category:Aircraft]]
+[[Category:Technological Catalogs]]`
     },
     {
         id: 1050,
