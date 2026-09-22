@@ -22,6 +22,7 @@ export class CodexRenderer {
         const allianceMatch = text.match(/\{\{Alliance[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const companyMatch = text.match(/\{\{(?:Company[_ ]Information|Corporation[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
         const scienceMatch = text.match(/\{\{(?:Scientific[_ ]Principle[_ ]Information|Science[_ ]Information|Propulsion[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
+        const weaponMatch = text.match(/\{\{(?:Weapon[_ ]Information|Engineering[_ ]System[_ ]Information|Defense[_ ]Information|Defense[_ ]System[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
 
         if (personMatch) {
             text = text.replace(personMatch[0], '');
@@ -65,6 +66,9 @@ export class CodexRenderer {
         } else if (scienceMatch) {
             text = text.replace(scienceMatch[0], '');
             infoboxHtml = this.renderScientificPrincipleInformation(scienceMatch[1], articleImages, baseUrl);
+        } else if (weaponMatch) {
+            text = text.replace(weaponMatch[0], '');
+            infoboxHtml = this.renderWeaponInformation(weaponMatch[1], articleImages, baseUrl);
         }
 
         // Clean out any unhandled navbox templates (e.g. {{Pelagrim Crisis Navbox}})
@@ -181,7 +185,7 @@ export class CodexRenderer {
 
         for (const rawLine of body.split('\n')) {
             const line = rawLine.trim();
-            const paramMatch = line.match(/^\|([a-zA-Z0-9_]+)\s*=\s*(.*)$/);
+            const paramMatch = line.match(/^(?:\|\s*)?([a-zA-Z0-9_]+)\s*=\s*(.*)$/);
             if (paramMatch) {
                 currentKey = paramMatch[1].trim();
                 params[currentKey] = paramMatch[2].trim();
@@ -894,6 +898,57 @@ export class CodexRenderer {
             <aside class="codex-infobox science-information">
                 <div class="infobox-header science-header">
                     <div class="infobox-subtitle">SCIENTIFIC ARCHIVE // THEORETICAL PRINCIPLE</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderWeaponInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || params['weapon'] || params['system'] || 'Tactical Engineering System';
+        const imgName = this.extractImageName(params['image'] || params['diagram']);
+        const caption = params['caption'] || '';
+        const type = params['type'] || params['classification'] || '';
+        const origin = params['origin'] || params['manufacturer'] || params['place_of_origin'] || '';
+        const range = params['range'] || params['effective_range'] || '';
+        const operator = params['operator'] || params['operators'] || params['user'] || '';
+        const caliber = params['caliber'] || params['yield'] || params['power'] || '';
+        const rateOfFire = params['rate_of_fire'] || '';
+        const muzzleVelocity = params['muzzle_velocity'] || '';
+        const feedSystem = params['feed_system'] || params['capacity'] || '';
+        const status = params['status'] || '';
+
+        const rows: string[] = [];
+        if (type) rows.push(`<tr><th>Type</th><td>${this.formatInline(type)}</td></tr>`);
+        if (origin) rows.push(`<tr><th>Origin</th><td>${this.formatInline(origin)}</td></tr>`);
+        if (operator) rows.push(`<tr><th>Operator(s)</th><td>${this.formatInline(operator)}</td></tr>`);
+        if (range) rows.push(`<tr><th>Effective Range</th><td>${this.formatInline(range)}</td></tr>`);
+        if (caliber) rows.push(`<tr><th>Caliber / Output</th><td>${this.formatInline(caliber)}</td></tr>`);
+        if (rateOfFire) rows.push(`<tr><th>Rate of Fire</th><td>${this.formatInline(rateOfFire)}</td></tr>`);
+        if (muzzleVelocity) rows.push(`<tr><th>Muzzle Velocity</th><td>${this.formatInline(muzzleVelocity)}</td></tr>`);
+        if (feedSystem) rows.push(`<tr><th>Feed System</th><td>${this.formatInline(feedSystem)}</td></tr>`);
+        if (status) rows.push(`<tr><th>Status</th><td>${this.formatInline(status)}</td></tr>`);
+
+        const imgHtml = imgName
+            ? this.renderImageContainer(imgName, articleImages, baseUrl, `${name} Specification`, caption, false, true)
+            : '';
+
+        return `
+            <aside class="codex-infobox weapon-information">
+                <div class="infobox-header weapon-header">
+                    <div class="infobox-subtitle">TACTICAL SYSTEM // ENGINEERING SPECIFICATION</div>
                     <h3 class="infobox-name">${this.formatInline(name)}</h3>
                 </div>
                 ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}

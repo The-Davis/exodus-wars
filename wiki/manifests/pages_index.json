@@ -525,7 +525,8 @@
     "categories": [
       "Computers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 29,
@@ -7336,7 +7337,8 @@
     "categories": [
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 407,
@@ -7354,7 +7356,8 @@
     "categories": [
       "Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 408,
@@ -7372,7 +7375,8 @@
     "categories": [
       "Technology"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 409,
@@ -7390,7 +7394,8 @@
     "categories": [
       "Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 410,
@@ -7478,7 +7483,8 @@
     "categories": [
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 417,
@@ -10650,7 +10656,8 @@
     "categories": [
       "Computers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 604,
@@ -11175,7 +11182,8 @@
     "categories": [
       "Computers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 634,
@@ -11401,7 +11409,8 @@
     ],
     "templates": [
       "Fact"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 647,
@@ -14074,7 +14083,8 @@
     "view_count": 311,
     "content_length": 397,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 804,
@@ -14223,7 +14233,8 @@
     "categories": [
       "Electronics"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 812,
@@ -14241,7 +14252,8 @@
     "categories": [
       "Communications"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 813,
@@ -14259,7 +14271,8 @@
     "categories": [
       "Communications"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 814,
@@ -14277,7 +14290,8 @@
     "categories": [
       "Communications"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 815,
@@ -14295,7 +14309,8 @@
     "categories": [
       "Communications"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 816,
@@ -14479,7 +14494,8 @@
     "categories": [
       "Computers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 826,
@@ -14497,7 +14513,8 @@
     "categories": [
       "Sensors"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 827,
@@ -14515,7 +14532,8 @@
     "categories": [
       "Electronics"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 828,
@@ -14533,7 +14551,8 @@
     "categories": [
       "Sensors"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 829,
@@ -14551,7 +14570,8 @@
     "categories": [
       "Technology"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 830,
@@ -14569,7 +14589,8 @@
     "categories": [
       "Defenses"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 831,
@@ -14587,7 +14608,8 @@
     "categories": [
       "Defenses"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 832,
@@ -14605,7 +14627,8 @@
     "categories": [
       "Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 833,
@@ -14623,7 +14646,8 @@
     "categories": [
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 834,
@@ -14659,7 +14683,8 @@
     "categories": [
       "Beam_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 836,
@@ -14709,7 +14734,8 @@
     "categories": [
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 839,
@@ -14765,7 +14791,8 @@
     "categories": [
       "Defenses"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 842,
@@ -14783,7 +14810,8 @@
     "categories": [
       "Countermeasures"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 843,
@@ -14801,7 +14829,8 @@
     "categories": [
       "Shields"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 844,
@@ -14942,7 +14971,8 @@
     "categories": [
       "Electronics"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 852,
@@ -14960,7 +14990,8 @@
     "categories": [
       "Armor"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 853,
@@ -15098,7 +15129,8 @@
     "categories": [
       "Defenses"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 862,
@@ -15815,7 +15847,8 @@
     "categories": [
       "Countermeasures"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 902,
@@ -15833,7 +15866,8 @@
     "categories": [
       "Armor"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 903,
@@ -15851,7 +15885,8 @@
     "categories": [
       "Armor"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 904,
@@ -15869,7 +15904,8 @@
     "categories": [
       "Shields"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 905,
@@ -15887,7 +15923,8 @@
     "categories": [
       "Shields"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 906,
@@ -15905,7 +15942,8 @@
     "categories": [
       "Shields"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 907,
@@ -15923,7 +15961,8 @@
     "categories": [
       "Missiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 908,
@@ -16005,7 +16044,8 @@
     "categories": [
       "Beam_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 913,
@@ -16023,7 +16063,8 @@
     "categories": [
       "Beam_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 914,
@@ -16041,7 +16082,8 @@
     "categories": [
       "Beam_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 915,
@@ -16059,7 +16101,8 @@
     "categories": [
       "Beam_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 916,
@@ -16093,7 +16136,8 @@
     "categories": [
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 918,
@@ -16111,7 +16155,8 @@
     "categories": [
       "Beam_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 919,
@@ -16129,7 +16174,8 @@
     "categories": [
       "Missiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 920,
@@ -16147,7 +16193,8 @@
     "categories": [
       "Missiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 921,
@@ -16183,7 +16230,8 @@
     "categories": [
       "Sensors"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 923,
@@ -16505,7 +16553,8 @@
     "categories": [
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 943,
@@ -16523,7 +16572,8 @@
     "categories": [
       "Sensors"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 944,
@@ -16557,7 +16607,8 @@
     "categories": [
       "Communications"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 946,
@@ -18897,7 +18948,8 @@
       "Imperial_Military_Specification",
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1088,
@@ -18916,7 +18968,8 @@
       "Imperial_Military_Specification",
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1089,
@@ -18935,7 +18988,8 @@
       "Imperial_Military_Specification",
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1090,
@@ -18954,7 +19008,8 @@
       "Imperial_Military_Specification",
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1091,
@@ -18973,7 +19028,8 @@
       "Imperial_Military_Specification",
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1092,
@@ -18992,7 +19048,8 @@
       "Imperial_Military_Specification",
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1093,
@@ -19011,7 +19068,8 @@
       "Imperial_Military_Specification",
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1094,
@@ -19030,7 +19088,8 @@
       "Imperial_Military_Specification",
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1095,
@@ -19049,7 +19108,8 @@
       "Imperial_Military_Specification",
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1096,
@@ -19068,7 +19128,8 @@
       "Imperial_Military_Specification",
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1097,
@@ -19087,7 +19148,8 @@
       "Imperial_Military_Specification",
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1098,
@@ -19106,7 +19168,8 @@
       "Imperial_Military_Specification",
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1099,
@@ -19141,7 +19204,8 @@
       "Imperial_Military_Specification",
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1101,
@@ -19160,7 +19224,8 @@
       "Explosive_Weapons",
       "Imperial_Military_Specification"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1102,
@@ -19179,7 +19244,8 @@
       "Explosive_Weapons",
       "Imperial_Military_Specification"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1103,
@@ -19198,7 +19264,8 @@
       "Explosive_Weapons",
       "Imperial_Military_Specification"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1104,
@@ -19217,7 +19284,8 @@
       "Explosive_Weapons",
       "Imperial_Military_Specification"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1105,
@@ -19236,7 +19304,8 @@
       "Explosive_Weapons",
       "Imperial_Military_Specification"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1106,
@@ -19255,7 +19324,8 @@
       "Explosive_Weapons",
       "Imperial_Military_Specification"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1107,
@@ -19274,7 +19344,8 @@
       "Imperial_Military_Specification",
       "Melee_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1108,
@@ -21865,7 +21936,8 @@
     "categories": [
       "Melee_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1280,
@@ -29738,7 +29810,8 @@
     "categories": [
       "Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1749,
@@ -29756,7 +29829,8 @@
     "categories": [
       "Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1750,
@@ -30324,7 +30398,8 @@
     "categories": [
       "Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1785,
@@ -30343,7 +30418,8 @@
       "Imperial_Military_Specification",
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1786,
@@ -30504,7 +30580,8 @@
     ],
     "templates": [
       "Weapon_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1795,
@@ -35967,7 +36044,8 @@
     "categories": [
       "Beam_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2231,
@@ -39214,7 +39292,8 @@
     "view_count": 1417,
     "content_length": 778,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2493,
@@ -48906,7 +48985,8 @@
     "categories": [
       "Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3174,
@@ -55575,7 +55655,8 @@
     "categories": [
       "Armor"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3598,
@@ -55593,7 +55674,8 @@
     "categories": [
       "Shields"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3599,
@@ -55611,7 +55693,8 @@
     "categories": [
       "Shields"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3600,
@@ -55629,7 +55712,8 @@
     "categories": [
       "Beam_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3601,
@@ -55647,7 +55731,8 @@
     "categories": [
       "Beam_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3602,
@@ -55795,7 +55880,8 @@
     "categories": [
       "Computers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3611,
@@ -55829,7 +55915,8 @@
     "categories": [
       "Computers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3613,
@@ -55847,7 +55934,8 @@
     "categories": [
       "Computers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3614,
@@ -55865,7 +55953,8 @@
     "categories": [
       "Defenses"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3615,
@@ -55883,7 +55972,8 @@
     "categories": [
       "Armor"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3621,
@@ -56628,7 +56718,8 @@
     "categories": [
       "Armor"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3665,
@@ -56646,7 +56737,8 @@
     "categories": [
       "Shields"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3666,
@@ -57039,7 +57131,8 @@
     "categories": [
       "Beam_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3688,
@@ -57057,7 +57150,8 @@
     "categories": [
       "Beam_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3689,
@@ -57143,7 +57237,8 @@
     "categories": [
       "Shields"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3694,
@@ -57161,7 +57256,8 @@
     "categories": [
       "Armor"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3696,
@@ -62167,7 +62263,8 @@
     "categories": [
       "Computers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3983,
@@ -62566,7 +62663,8 @@
     "categories": [
       "Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4007,
@@ -62605,7 +62703,8 @@
     "categories": [
       "Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4009,

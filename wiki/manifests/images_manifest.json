@@ -6322,7 +6322,9 @@
     "timestamp": "2007-10-10 22:59:01",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M11SAW.jpg"
+    "disk_filename": "M11SAW.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M11SAW.jpg"
   },
   {
     "image_name": "M14SniperRifle.jpg",
@@ -6335,7 +6337,9 @@
     "timestamp": "2007-10-10 23:00:17",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M14SniperRifle.jpg"
+    "disk_filename": "M14SniperRifle.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M14SniperRifle.jpg"
   },
   {
     "image_name": "M16Excalibur.jpg",
@@ -8602,7 +8606,9 @@
     "timestamp": "2007-08-11 10:32:26",
     "description": "Meroniri Pasara dueling swords.",
     "exists_on_disk": true,
-    "disk_filename": "Pasara.png"
+    "disk_filename": "Pasara.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Pasara.png"
   },
   {
     "image_name": "Payload_Missile_Launcher.png",
@@ -11213,7 +11219,9 @@
     "timestamp": "2007-08-06 13:30:23",
     "description": "Terran ALARM-style long range missile",
     "exists_on_disk": true,
-    "disk_filename": "TerranALARMLRM.jpg"
+    "disk_filename": "TerranALARMLRM.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TerranALARMLRM.jpg"
   },
   {
     "image_name": "TerranActiveProbe.jpg",
@@ -11226,7 +11234,9 @@
     "timestamp": "2007-08-06 13:42:26",
     "description": "Terran Active Probe Pod",
     "exists_on_disk": true,
-    "disk_filename": "TerranActiveProbe.jpg"
+    "disk_filename": "TerranActiveProbe.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TerranActiveProbe.jpg"
   },
   {
     "image_name": "TerranApocalypseArtilleryMissile.jpg",
@@ -11239,7 +11249,9 @@
     "timestamp": "2007-08-06 13:35:26",
     "description": "Terran Apocalypse-style nuclear missile",
     "exists_on_disk": true,
-    "disk_filename": "TerranApocalypseArtilleryMissile.jpg"
+    "disk_filename": "TerranApocalypseArtilleryMissile.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TerranApocalypseArtilleryMissile.jpg"
   },
   {
     "image_name": "TerranArcherLRM.jpg",
@@ -11252,7 +11264,9 @@
     "timestamp": "2007-08-06 13:31:25",
     "description": "Terran Archer-style long range missile",
     "exists_on_disk": true,
-    "disk_filename": "TerranArcherLRM.jpg"
+    "disk_filename": "TerranArcherLRM.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TerranArcherLRM.jpg"
   },
   {
     "image_name": "TerranBoulderMRM.jpg",
@@ -11265,7 +11279,9 @@
     "timestamp": "2007-08-06 13:28:09",
     "description": "Terran Boulder-style medium range missile",
     "exists_on_disk": true,
-    "disk_filename": "TerranBoulderMRM.jpg"
+    "disk_filename": "TerranBoulderMRM.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TerranBoulderMRM.jpg"
   },
   {
     "image_name": "TerranBullsharkArtilleryMissile.jpg",
@@ -11278,7 +11294,9 @@
     "timestamp": "2007-08-06 13:33:53",
     "description": "Terran Bullshark-style artillery missile",
     "exists_on_disk": true,
-    "disk_filename": "TerranBullsharkArtilleryMissile.jpg"
+    "disk_filename": "TerranBullsharkArtilleryMissile.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TerranBullsharkArtilleryMissile.jpg"
   },
   {
     "image_name": "TerranCobraSRM.jpg",
@@ -11291,7 +11309,9 @@
     "timestamp": "2007-08-06 13:26:11",
     "description": "Terran Cobra-style short range missile",
     "exists_on_disk": true,
-    "disk_filename": "TerranCobraSRM.jpg"
+    "disk_filename": "TerranCobraSRM.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TerranCobraSRM.jpg"
   },
   {
     "image_name": "TerranEmbassyMobileInfantry.jpg",
@@ -11317,7 +11337,9 @@
     "timestamp": "2007-08-06 13:27:15",
     "description": "Terran Hammer-style medium range missile",
     "exists_on_disk": true,
-    "disk_filename": "TerranHammerMRM.jpg"
+    "disk_filename": "TerranHammerMRM.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TerranHammerMRM.jpg"
   },
   {
     "image_name": "TerranHawkMRM.jpg",
@@ -11330,7 +11352,9 @@
     "timestamp": "2007-08-06 13:28:55",
     "description": "Terran Hawk-style medium range missile",
     "exists_on_disk": true,
-    "disk_filename": "TerranHawkMRM.jpg"
+    "disk_filename": "TerranHawkMRM.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TerranHawkMRM.jpg"
   },
   {
     "image_name": "TerranHoundLRM.jpg",
@@ -11343,7 +11367,9 @@
     "timestamp": "2007-08-06 13:29:47",
     "description": "Terran Hound-style long range missile",
     "exists_on_disk": true,
-    "disk_filename": "TerranHoundLRM.jpg"
+    "disk_filename": "TerranHoundLRM.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TerranHoundLRM.jpg"
   },
   {
     "image_name": "TerranInfernoSRM.jpg",
@@ -11356,7 +11382,9 @@
     "timestamp": "2007-08-06 13:25:13",
     "description": "Terran Inferno-style short range missile",
     "exists_on_disk": true,
-    "disk_filename": "TerranInfernoSRM.jpg"
+    "disk_filename": "TerranInfernoSRM.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TerranInfernoSRM.jpg"
   },
   {
     "image_name": "TerranMoleMRM.jpg",
@@ -11369,7 +11397,9 @@
     "timestamp": "2007-08-06 13:27:49",
     "description": "Terran Mole-style medium range missile",
     "exists_on_disk": true,
-    "disk_filename": "TerranMoleMRM.jpg"
+    "disk_filename": "TerranMoleMRM.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TerranMoleMRM.jpg"
   },
   {
     "image_name": "TerranOrcaArtilleryMissile.jpg",
@@ -11382,7 +11412,9 @@
     "timestamp": "2007-08-06 13:32:55",
     "description": "Terran Orca-style artillery missile",
     "exists_on_disk": true,
-    "disk_filename": "TerranOrcaArtilleryMissile.jpg"
+    "disk_filename": "TerranOrcaArtilleryMissile.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TerranOrcaArtilleryMissile.jpg"
   },
   {
     "image_name": "TerranRattlerSRM.jpg",
@@ -11395,7 +11427,9 @@
     "timestamp": "2007-08-06 13:24:20",
     "description": "Terran Rattler-style short range missile.",
     "exists_on_disk": true,
-    "disk_filename": "TerranRattlerSRM.jpg"
+    "disk_filename": "TerranRattlerSRM.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TerranRattlerSRM.jpg"
   },
   {
     "image_name": "TerranRotaryAutocannon.jpg",
@@ -11408,7 +11442,9 @@
     "timestamp": "2007-08-06 13:39:25",
     "description": "Terran Rotary Autocannon - Lego Model",
     "exists_on_disk": true,
-    "disk_filename": "TerranRotaryAutocannon.jpg"
+    "disk_filename": "TerranRotaryAutocannon.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TerranRotaryAutocannon.jpg"
   },
   {
     "image_name": "TerranShrapnelMRM.jpg",
@@ -11421,7 +11457,9 @@
     "timestamp": "2007-08-06 13:26:46",
     "description": "Terran Shrapnel-style medium range missile",
     "exists_on_disk": true,
-    "disk_filename": "TerranShrapnelMRM.jpg"
+    "disk_filename": "TerranShrapnelMRM.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TerranShrapnelMRM.jpg"
   },
   {
     "image_name": "TerranSplatterSRM.jpg",
@@ -11434,7 +11472,9 @@
     "timestamp": "2007-08-06 13:25:48",
     "description": "Terran Splatter-style short range missile",
     "exists_on_disk": true,
-    "disk_filename": "TerranSplatterSRM.jpg"
+    "disk_filename": "TerranSplatterSRM.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TerranSplatterSRM.jpg"
   },
   {
     "image_name": "TerranStreakSRM.jpg",
@@ -11447,7 +11487,9 @@
     "timestamp": "2007-08-06 13:22:19",
     "description": "Terran Streak-style Short Range Missile",
     "exists_on_disk": true,
-    "disk_filename": "TerranStreakSRM.jpg"
+    "disk_filename": "TerranStreakSRM.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TerranStreakSRM.jpg"
   },
   {
     "image_name": "TerranTorpedoLRM.jpg",
@@ -11460,7 +11502,9 @@
     "timestamp": "2007-08-06 13:29:27",
     "description": "Terran Torpedo-style long range missile",
     "exists_on_disk": true,
-    "disk_filename": "TerranTorpedoLRM.jpg"
+    "disk_filename": "TerranTorpedoLRM.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TerranTorpedoLRM.jpg"
   },
   {
     "image_name": "TerranWrenLRM.jpg",
@@ -11473,7 +11517,9 @@
     "timestamp": "2007-08-06 13:31:04",
     "description": "Terran Wren-style long range missile",
     "exists_on_disk": true,
-    "disk_filename": "TerranWrenLRM.jpg"
+    "disk_filename": "TerranWrenLRM.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TerranWrenLRM.jpg"
   },
   {
     "image_name": "ThailandFlag.jpg",
