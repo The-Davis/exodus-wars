@@ -1736,7 +1736,9 @@
     "timestamp": "2007-10-09 19:23:05",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BerkeleyClassReactorComplex.jpg"
+    "disk_filename": "BerkeleyClassReactorComplex.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BerkeleyClassReactorComplex.jpg"
   },
   {
     "image_name": "BerlusconiFamilyTerritoryFlag.png",
@@ -5205,7 +5207,9 @@
     "timestamp": "2007-07-20 06:12:05",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "InternationalSpaceStationPatch.JPG"
+    "disk_filename": "InternationalSpaceStationPatch.JPG",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/InternationalSpaceStationPatch.JPG"
   },
   {
     "image_name": "Ipsof_Map.gif",
@@ -8224,7 +8228,9 @@
     "timestamp": "2007-10-09 19:50:21",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OmegaListeningPost.jpg"
+    "disk_filename": "OmegaListeningPost.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OmegaListeningPost.jpg"
   },
   {
     "image_name": "Onnane.png",
@@ -8515,7 +8521,9 @@
     "timestamp": "2007-10-10 01:44:28",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PL110Epsilon.jpg"
+    "disk_filename": "PL110Epsilon.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PL110Epsilon.jpg"
   },
   {
     "image_name": "PaeriClassCombatCutter1.jpg",
@@ -9293,7 +9301,9 @@
     "timestamp": "2007-10-09 20:01:09",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RahnIndustriesHeadquarters.jpg"
+    "disk_filename": "RahnIndustriesHeadquarters.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RahnIndustriesHeadquarters.jpg"
   },
   {
     "image_name": "RahnIndustriesLogo.png",
@@ -10546,7 +10556,9 @@
     "timestamp": "2007-10-09 18:26:20",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SpireofTruth.jpg"
+    "disk_filename": "SpireofTruth.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SpireofTruth.jpg"
   },
   {
     "image_name": "Stadt.png",
@@ -10572,7 +10584,9 @@
     "timestamp": "2007-10-09 21:34:53",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "StandardAutomaticDefenseTurret.jpg"
+    "disk_filename": "StandardAutomaticDefenseTurret.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/StandardAutomaticDefenseTurret.jpg"
   },
   {
     "image_name": "StandardizedBaseHospital1.jpg",
@@ -10585,7 +10599,9 @@
     "timestamp": "2007-10-09 19:51:45",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "StandardizedBaseHospital1.jpg"
+    "disk_filename": "StandardizedBaseHospital1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/StandardizedBaseHospital1.jpg"
   },
   {
     "image_name": "StandardizedBaseHospital2.jpg",
@@ -10598,7 +10614,9 @@
     "timestamp": "2007-10-09 19:52:07",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "StandardizedBaseHospital2.jpg"
+    "disk_filename": "StandardizedBaseHospital2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/StandardizedBaseHospital2.jpg"
   },
   {
     "image_name": "StandardizedBaseHospital3.jpg",
@@ -10611,7 +10629,9 @@
     "timestamp": "2007-10-09 19:52:32",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "StandardizedBaseHospital3.jpg"
+    "disk_filename": "StandardizedBaseHospital3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/StandardizedBaseHospital3.jpg"
   },
   {
     "image_name": "StandardizedFactoryComplex1.jpg",
@@ -10624,7 +10644,9 @@
     "timestamp": "2007-10-09 19:44:40",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "StandardizedFactoryComplex1.jpg"
+    "disk_filename": "StandardizedFactoryComplex1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/StandardizedFactoryComplex1.jpg"
   },
   {
     "image_name": "StandardizedFactoryComplex2.jpg",
@@ -10637,7 +10659,9 @@
     "timestamp": "2007-10-09 19:45:11",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "StandardizedFactoryComplex2.jpg"
+    "disk_filename": "StandardizedFactoryComplex2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/StandardizedFactoryComplex2.jpg"
   },
   {
     "image_name": "StandardizedHangar.jpg",
@@ -10650,7 +10674,9 @@
     "timestamp": "2007-10-09 19:47:24",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "StandardizedHangar.jpg"
+    "disk_filename": "StandardizedHangar.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/StandardizedHangar.jpg"
   },
   {
     "image_name": "Star_Class.png",
@@ -10806,7 +10832,9 @@
     "timestamp": "2007-10-09 19:59:01",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "StarshipConstructionStardock.jpg"
+    "disk_filename": "StarshipConstructionStardock.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/StarshipConstructionStardock.jpg"
   },
   {
     "image_name": "Sternmaster.png",

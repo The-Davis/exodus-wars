@@ -18,6 +18,8 @@ import { scientificPrinciplesIndexArticle } from './articles/Scientific_Principl
 import { SCIENCE_ARTICLES } from './articles/scienceArticles';
 import { engineeringSystemsIndexArticle } from './articles/Engineering_Systems_Index';
 import { ENGINEERING_ARTICLES } from './articles/engineeringArticles';
+import { architecturalAchievementsIndexArticle } from './articles/Architectural_Achievements_Index';
+import { ARCHITECTURAL_ARTICLES } from './articles/architecturalArticles';
 
 export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     'Introduction_to_the_Exodus_Wars_Universe': introArticle,
@@ -115,6 +117,21 @@ export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     'Category:Engineering': engineeringSystemsIndexArticle,
     'category:engineering': engineeringSystemsIndexArticle,
     ':Category:Engineering': engineeringSystemsIndexArticle,
+    'Architectural_Achievements': architecturalAchievementsIndexArticle,
+    'Architectural Achievements': architecturalAchievementsIndexArticle,
+    'architectural_achievements': architecturalAchievementsIndexArticle,
+    'architectural achievements': architecturalAchievementsIndexArticle,
+    'Category:Architectural_Achievements': architecturalAchievementsIndexArticle,
+    'category:architectural_achievements': architecturalAchievementsIndexArticle,
+    'Category:Architectural Achievements': architecturalAchievementsIndexArticle,
+    'category:architectural achievements': architecturalAchievementsIndexArticle,
+    ':Category:Architectural_Achievements': architecturalAchievementsIndexArticle,
+    ':Category:Architectural Achievements': architecturalAchievementsIndexArticle,
+    'Architecture': architecturalAchievementsIndexArticle,
+    'architecture': architecturalAchievementsIndexArticle,
+    'Category:Architecture': architecturalAchievementsIndexArticle,
+    'category:architecture': architecturalAchievementsIndexArticle,
+    ':Category:Architecture': architecturalAchievementsIndexArticle,
 };
 
 function registerArticle(article: CodexArticle): void {
@@ -179,6 +196,22 @@ CODEX_ARTICLES['Category:Engineering Systems'] = engineeringSystemsIndexArticle;
 CODEX_ARTICLES['category:engineering systems'] = engineeringSystemsIndexArticle;
 CODEX_ARTICLES[':Category:Engineering_Systems'] = engineeringSystemsIndexArticle;
 CODEX_ARTICLES[':Category:Engineering Systems'] = engineeringSystemsIndexArticle;
+
+for (const arch of ARCHITECTURAL_ARTICLES) {
+    registerArticle(arch);
+}
+registerArticle(architecturalAchievementsIndexArticle);
+CODEX_ARTICLES['Category:Architectural_Achievements'] = architecturalAchievementsIndexArticle;
+CODEX_ARTICLES['category:architectural_achievements'] = architecturalAchievementsIndexArticle;
+CODEX_ARTICLES['Category:Architectural Achievements'] = architecturalAchievementsIndexArticle;
+CODEX_ARTICLES['category:architectural achievements'] = architecturalAchievementsIndexArticle;
+CODEX_ARTICLES[':Category:Architectural_Achievements'] = architecturalAchievementsIndexArticle;
+CODEX_ARTICLES[':Category:Architectural Achievements'] = architecturalAchievementsIndexArticle;
+CODEX_ARTICLES['Architecture'] = architecturalAchievementsIndexArticle;
+CODEX_ARTICLES['architecture'] = architecturalAchievementsIndexArticle;
+CODEX_ARTICLES['Category:Architecture'] = architecturalAchievementsIndexArticle;
+CODEX_ARTICLES['category:architecture'] = architecturalAchievementsIndexArticle;
+CODEX_ARTICLES[':Category:Architecture'] = architecturalAchievementsIndexArticle;
 
 export function getCodexArticle(slugOrTitle: string): CodexArticle | undefined {
     let decoded = slugOrTitle;
