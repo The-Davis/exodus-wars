@@ -4,6 +4,8 @@ import { peopleIndexArticle } from './articles/People_Index';
 import { PEOPLE_ARTICLES } from './articles/peopleArticles';
 import { placesIndexArticle } from './articles/Places_Index';
 import { PLACES_ARTICLES } from './articles/placesArticles';
+import { historyIndexArticle } from './articles/History_Index';
+import { HISTORY_ARTICLES } from './articles/historyArticles';
 
 export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     'Introduction_to_the_Exodus_Wars_Universe': introArticle,
@@ -19,6 +21,11 @@ export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     'category:places': placesIndexArticle,
     'Category:Planets': placesIndexArticle,
     'category:planets': placesIndexArticle,
+    'History': historyIndexArticle,
+    'history': historyIndexArticle,
+    'Category:History': historyIndexArticle,
+    'category:history': historyIndexArticle,
+    ':Category:History': historyIndexArticle,
 };
 
 function registerArticle(article: CodexArticle): void {
@@ -45,6 +52,10 @@ for (const person of PEOPLE_ARTICLES) {
 
 for (const place of PLACES_ARTICLES) {
     registerArticle(place);
+}
+
+for (const history of HISTORY_ARTICLES) {
+    registerArticle(history);
 }
 
 export function getCodexArticle(slugOrTitle: string): CodexArticle | undefined {

@@ -12,6 +12,9 @@ export class CodexRenderer {
         const planetMatch = text.match(/\{\{Planet[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const stellarNavMatch = text.match(/\{\{Stellar[_ ]Navigation[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const starMatch = text.match(/\{\{Star[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
+        const conflictMatch = text.match(/\{\{(?:Military[_ ]Conflict|War[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
+        const periodMatch = text.match(/\{\{Historical[_ ]Period[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
+        const treatyMatch = text.match(/\{\{Treaty[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
 
         if (personMatch) {
             text = text.replace(personMatch[0], '');
@@ -25,7 +28,19 @@ export class CodexRenderer {
         } else if (starMatch) {
             text = text.replace(starMatch[0], '');
             infoboxHtml = this.renderStarInformation(starMatch[1], articleImages, baseUrl);
+        } else if (conflictMatch) {
+            text = text.replace(conflictMatch[0], '');
+            infoboxHtml = this.renderConflictInformation(conflictMatch[1], articleImages, baseUrl);
+        } else if (periodMatch) {
+            text = text.replace(periodMatch[0], '');
+            infoboxHtml = this.renderHistoricalPeriodInformation(periodMatch[1], articleImages, baseUrl);
+        } else if (treatyMatch) {
+            text = text.replace(treatyMatch[0], '');
+            infoboxHtml = this.renderTreatyInformation(treatyMatch[1], articleImages, baseUrl);
         }
+
+        // Clean out any unhandled navbox templates (e.g. {{Pelagrim Crisis Navbox}})
+        text = text.replace(/\{\{[^}]*Navbox\}\}/gi, '');
 
         // 2. Extract Category tags at the bottom
         const categories: string[] = [];
@@ -319,6 +334,164 @@ export class CodexRenderer {
             <aside class="codex-infobox star-information">
                 <div class="infobox-header star-header">
                     <div class="infobox-subtitle">STELLAR CARTOGRAPHY // STAR SYSTEM</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderConflictInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['conflict'] || params['name'] || 'Military Conflict';
+        const partof = params['partof'] || '';
+        const imgName = this.extractImageName(params['image']);
+        const caption = params['caption'] || '';
+
+        const date = params['date'] || '';
+        const place = params['place'] || '';
+        const territory = params['territory'] || '';
+        const status = params['status'] || '';
+        const result = params['result'] || '';
+
+        const combatant1 = params['combatant1'] || '';
+        const combatant2 = params['combatant2'] || '';
+        const commander1 = params['commander1'] || '';
+        const commander2 = params['commander2'] || '';
+        const strength1 = params['strength1'] || '';
+        const strength2 = params['strength2'] || '';
+
+        const rows: string[] = [];
+        if (date) rows.push(`<tr><th>Date</th><td>${this.formatInline(date)}</td></tr>`);
+        if (place) rows.push(`<tr><th>Place</th><td>${this.formatInline(place)}</td></tr>`);
+        if (territory) rows.push(`<tr><th>Territory</th><td>${this.formatInline(territory)}</td></tr>`);
+        if (status) rows.push(`<tr><th>Status</th><td>${this.formatInline(status)}</td></tr>`);
+        if (result) rows.push(`<tr><th>Result</th><td>${this.formatInline(result)}</td></tr>`);
+
+        if (combatant1 || combatant2) {
+            rows.push(`
+                <tr class="infobox-section-header-row"><th colspan="2" class="infobox-section-header">Belligerents</th></tr>
+                <tr class="infobox-dual-row">
+                    <td class="infobox-dual-col">${this.formatInline(combatant1)}</td>
+                    <td class="infobox-dual-col">${this.formatInline(combatant2)}</td>
+                </tr>
+            `);
+        }
+
+        if (commander1 || commander2) {
+            rows.push(`
+                <tr class="infobox-section-header-row"><th colspan="2" class="infobox-section-header">Commanders</th></tr>
+                <tr class="infobox-dual-row">
+                    <td class="infobox-dual-col">${this.formatInline(commander1)}</td>
+                    <td class="infobox-dual-col">${this.formatInline(commander2)}</td>
+                </tr>
+            `);
+        }
+
+        if (strength1 || strength2) {
+            rows.push(`
+                <tr class="infobox-section-header-row"><th colspan="2" class="infobox-section-header">Strength</th></tr>
+                <tr class="infobox-dual-row">
+                    <td class="infobox-dual-col">${this.formatInline(strength1)}</td>
+                    <td class="infobox-dual-col">${this.formatInline(strength2)}</td>
+                </tr>
+            `);
+        }
+
+        let imgHtml = '';
+        if (imgName) {
+            imgHtml = this.renderImageContainer(imgName, articleImages, baseUrl, name, caption, false, true);
+        }
+
+        return `
+            <aside class="codex-infobox conflict-information">
+                <div class="infobox-header conflict-header">
+                    <div class="infobox-subtitle">TACTICAL RECORD // MILITARY CONFLICT</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                    ${partof ? `<div class="infobox-partof"><small>Part of</small> <strong>${this.formatInline(partof)}</strong></div>` : ''}
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderHistoricalPeriodInformation(
+        body: string,
+        _articleImages: Record<string, CodexImageEntry> | undefined,
+        _baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['period'] || params['name'] || 'Historical Period';
+        const began = params['began'] || '';
+        const ended = params['ended'] || '';
+
+        const rows: string[] = [];
+        if (began) rows.push(`<tr><th>Began</th><td>${this.formatInline(began)}</td></tr>`);
+        if (ended) rows.push(`<tr><th>Ended</th><td>${this.formatInline(ended)}</td></tr>`);
+
+        return `
+            <aside class="codex-infobox period-information">
+                <div class="infobox-header period-header">
+                    <div class="infobox-subtitle">CHRONOLOGY // HISTORICAL PERIOD</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderTreatyInformation(
+        body: string,
+        _articleImages: Record<string, CodexImageEntry> | undefined,
+        _baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['treaty'] || params['name'] || 'Treaty Record';
+        const date = params['date'] || '';
+        const place = params['place'] || '';
+        const result = params['result'] || '';
+        const signatory1 = params['signatories1'] || params['signatory1'] || '';
+        const signatory2 = params['signatories2'] || params['signatory2'] || '';
+
+        const rows: string[] = [];
+        if (date) rows.push(`<tr><th>Date</th><td>${this.formatInline(date)}</td></tr>`);
+        if (place) rows.push(`<tr><th>Place</th><td>${this.formatInline(place)}</td></tr>`);
+        if (result) rows.push(`<tr><th>Result</th><td>${this.formatInline(result)}</td></tr>`);
+
+        if (signatory1 || signatory2) {
+            rows.push(`
+                <tr class="infobox-section-header-row"><th colspan="2" class="infobox-section-header">Signatories</th></tr>
+                <tr class="infobox-dual-row">
+                    <td class="infobox-dual-col">${this.formatInline(signatory1)}</td>
+                    <td class="infobox-dual-col">${this.formatInline(signatory2)}</td>
+                </tr>
+            `);
+        }
+
+        return `
+            <aside class="codex-infobox treaty-information">
+                <div class="infobox-header treaty-header">
+                    <div class="infobox-subtitle">DIPLOMATIC ACCORD // TREATY</div>
                     <h3 class="infobox-name">${this.formatInline(name)}</h3>
                 </div>
                 <div class="infobox-divider"></div>
