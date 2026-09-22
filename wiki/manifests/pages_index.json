@@ -113,7 +113,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 6,
@@ -446,7 +447,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 25,
@@ -981,7 +983,8 @@
     ],
     "templates": [
       "Military_Overview_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 53,
@@ -2279,7 +2282,8 @@
     ],
     "templates": [
       "Military_Branch_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 157,
@@ -2300,7 +2304,8 @@
     ],
     "templates": [
       "Military_Branch_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 158,
@@ -2321,7 +2326,8 @@
     ],
     "templates": [
       "Military_Branch_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 159,
@@ -2341,7 +2347,8 @@
     ],
     "templates": [
       "Military_Branch_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 160,
@@ -2359,7 +2366,8 @@
     "categories": [
       "Prefecture_Military"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 161,
@@ -2377,7 +2385,8 @@
     "categories": [
       "Prefecture_Military"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 162,
@@ -2395,7 +2404,8 @@
     "categories": [
       "Prefecture_Military"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 163,
@@ -2413,7 +2423,8 @@
     "categories": [
       "Prefecture_Military"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 164,
@@ -2429,7 +2440,8 @@
     "view_count": 40,
     "content_length": 71,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 165,
@@ -2506,7 +2518,8 @@
       "Ixoarchada",
       "Scientists"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 169,
@@ -2603,7 +2616,8 @@
       "People_of_the_Kabila_iku_Gol'nde",
       "People_of_the_Onyx_Empire"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 173,
@@ -2659,7 +2673,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 177,
@@ -2729,7 +2744,8 @@
       "People_of_the_Remnant",
       "Remnant_Military"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 180,
@@ -2749,7 +2765,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 181,
@@ -2811,7 +2828,8 @@
       "Military_Leaders",
       "People_of_the_Taviridis_Somarchada"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 184,
@@ -2831,7 +2849,8 @@
       "Military_Leaders",
       "People_of_the_Taviridis_Somarchada"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 185,
@@ -2851,7 +2870,8 @@
       "Military_Leaders",
       "People_of_the_Taviridis_Somarchada"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 186,
@@ -2923,7 +2943,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 189,
@@ -3072,7 +3093,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 197,
@@ -3113,7 +3135,8 @@
       "Scientists",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 199,
@@ -3157,7 +3180,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 201,
@@ -3178,7 +3202,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 202,
@@ -3199,7 +3224,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 203,
@@ -3220,7 +3246,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 204,
@@ -3241,7 +3268,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 205,
@@ -3261,7 +3289,8 @@
       "People:Military",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 206,
@@ -3284,7 +3313,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 207,
@@ -3304,7 +3334,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 208,
@@ -3326,7 +3357,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 209,
@@ -3347,7 +3379,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 210,
@@ -3368,7 +3401,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 211,
@@ -3388,7 +3422,8 @@
       "Military_People",
       "People_of_the_Federated_Districts_of_the_Prefecture"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 212,
@@ -3410,7 +3445,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 213,
@@ -3431,7 +3467,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 214,
@@ -3455,7 +3492,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 215,
@@ -3528,7 +3566,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 220,
@@ -3551,7 +3590,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 221,
@@ -3571,7 +3611,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 222,
@@ -3591,7 +3632,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 223,
@@ -3611,7 +3653,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 224,
@@ -3632,7 +3675,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 225,
@@ -3653,7 +3697,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 226,
@@ -3673,7 +3718,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 227,
@@ -3694,7 +3740,8 @@
       "People_of_the_The_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 228,
@@ -3715,7 +3762,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 229,
@@ -3736,7 +3784,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 230,
@@ -3757,7 +3806,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 231,
@@ -3778,7 +3828,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "People_of_the_Kabila_Kimburu"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 232,
@@ -3799,7 +3850,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 233,
@@ -3820,7 +3872,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 234,
@@ -3841,7 +3894,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 235,
@@ -3861,7 +3915,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 236,
@@ -3898,7 +3953,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 238,
@@ -3919,7 +3975,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 239,
@@ -3940,7 +3997,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 240,
@@ -3961,7 +4019,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 241,
@@ -3982,7 +4041,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 242,
@@ -4003,7 +4063,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 243,
@@ -4024,7 +4085,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 244,
@@ -4045,7 +4107,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 245,
@@ -4066,7 +4129,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 246,
@@ -4087,7 +4151,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 247,
@@ -4108,7 +4173,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 248,
@@ -4129,7 +4195,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 249,
@@ -4150,7 +4217,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 250,
@@ -4171,7 +4239,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 251,
@@ -4194,7 +4263,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 252,
@@ -4214,7 +4284,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 253,
@@ -4257,7 +4328,8 @@
       "People_of_the_Reigess_Suverände",
       "Reigens"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 255,
@@ -4324,7 +4396,8 @@
       "Ixoarchada",
       "Scientists"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 259,
@@ -4359,7 +4432,8 @@
       "Scientists",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 261,
@@ -4394,7 +4468,8 @@
       "Scientists",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 264,
@@ -4509,7 +4584,8 @@
       "Ikronin",
       "Scientists"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 270,
@@ -4614,7 +4690,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 276,
@@ -4635,7 +4712,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 277,
@@ -4656,7 +4734,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 278,
@@ -4677,7 +4756,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 279,
@@ -4698,7 +4778,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 280,
@@ -4719,7 +4800,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 281,
@@ -4740,7 +4822,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 282,
@@ -4761,7 +4844,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 283,
@@ -4782,7 +4866,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 284,
@@ -4801,7 +4886,8 @@
       "Historical_Leaders",
       "Meroniri"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 285,
@@ -4820,7 +4906,8 @@
       "Historical_Leaders",
       "Meroniri"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 286,
@@ -4839,7 +4926,8 @@
       "Historical_Leaders",
       "Ikronin"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 287,
@@ -4860,7 +4948,8 @@
       "People_of_the_Reigess_Suverände",
       "Reigens"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 288,
@@ -4879,7 +4968,8 @@
       "Historical_Leaders",
       "Ixoarchada"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 289,
@@ -4900,7 +4990,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 290,
@@ -4919,7 +5010,8 @@
       "Historical_Leaders",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 291,
@@ -4941,7 +5033,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 292,
@@ -4963,7 +5056,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 293,
@@ -4983,7 +5077,8 @@
       "People_of_the_United_Earth_Alliance",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 294,
@@ -5003,7 +5098,8 @@
       "People_of_the_United_Earth_Alliance",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 295,
@@ -5042,7 +5138,8 @@
       "People_of_the_United_Earth_Alliance",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 297,
@@ -5088,7 +5185,8 @@
       "People_of_the_United_Earth_Alliance",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 299,
@@ -5108,7 +5206,8 @@
       "People_of_the_United_Earth_Alliance",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 300,
@@ -5130,7 +5229,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 301,
@@ -5150,7 +5250,8 @@
       "Military_Leaders",
       "People_of_the_Meroniri_Terinasi"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 302,
@@ -5196,7 +5297,8 @@
       "People_of_the_United_Earth_Alliance",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 304,
@@ -5219,7 +5321,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 305,
@@ -5239,7 +5342,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 306,
@@ -5286,7 +5390,8 @@
       "People_of_the_United_Earth_Alliance",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 308,
@@ -5331,7 +5436,8 @@
       "Military_People",
       "People_of_the_United_Mesarthrim_Clans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 310,
@@ -5351,7 +5457,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 311,
@@ -5392,7 +5499,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 313,
@@ -5429,7 +5537,8 @@
       "National_Leaders",
       "People_of_the_United_Mesarthrim_Clans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 315,
@@ -5450,7 +5559,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 316,
@@ -5472,7 +5582,8 @@
       "People_of_the_United_Earth_Alliance",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 317,
@@ -5493,7 +5604,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 318,
@@ -5514,7 +5626,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 319,
@@ -5561,7 +5674,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 321,
@@ -5608,7 +5722,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 323,
@@ -5628,7 +5743,8 @@
       "Military_People",
       "People_of_the_Taviridis_Somarchada"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 324,
@@ -5647,7 +5763,8 @@
       "Corporate_Leaders",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 325,
@@ -5666,7 +5783,8 @@
       "Scientists",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 326,
@@ -5686,7 +5804,8 @@
       "Military_People",
       "People_of_the_United_Mesarthrim_Clans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 327,
@@ -5706,7 +5825,8 @@
       "Military_People",
       "People_of_the_Taviridis_Somarchada"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 328,
@@ -5726,7 +5846,8 @@
       "Military_People",
       "People_of_the_Taviridis_Somarchada"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 329,
@@ -5746,7 +5867,8 @@
       "Military_People",
       "People_of_the_United_Mesarthrim_Clans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 330,
@@ -5791,7 +5913,8 @@
       "Military_People",
       "People_of_the_Taviridis_Somarchada"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 332,
@@ -5811,7 +5934,8 @@
       "Military_People",
       "People_of_the_Ikronin_Jurekön"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 333,
@@ -5831,7 +5955,8 @@
       "Military_People",
       "People_of_the_Meroniri_Terinasi"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 334,
@@ -5850,7 +5975,8 @@
       "Mesarthrim",
       "Scientists"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 335,
@@ -5923,7 +6049,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "People_of_the_Kabila_Kimburu"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 338,
@@ -5944,7 +6071,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "People_of_the_Kabila_Kimburu"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 339,
@@ -5964,7 +6092,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 340,
@@ -5985,7 +6114,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 341,
@@ -6005,7 +6135,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 342,
@@ -6025,7 +6156,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 343,
@@ -6045,7 +6177,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 344,
@@ -6065,7 +6198,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 345,
@@ -6085,7 +6219,8 @@
       "Military_People",
       "People_of_the_Auellal_League"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 346,
@@ -6105,7 +6240,8 @@
       "Military_People",
       "People_of_the_Auellal_League"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 347,
@@ -6125,7 +6261,8 @@
       "Military_People",
       "People_of_the_Auellal_League"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 348,
@@ -6147,7 +6284,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 349,
@@ -6167,7 +6305,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 350,
@@ -6189,7 +6328,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 351,
@@ -6208,7 +6348,8 @@
       "Scientists",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 352,
@@ -6227,7 +6368,8 @@
       "Ixoarchada",
       "Scientists"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 353,
@@ -6246,7 +6388,8 @@
       "Mesarthrim",
       "Scientists"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 354,
@@ -6265,7 +6408,8 @@
       "Mesarthrim",
       "Scientists"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 355,
@@ -6287,7 +6431,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 356,
@@ -6308,7 +6453,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 357,
@@ -6330,7 +6476,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 358,
@@ -6351,7 +6498,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 359,
@@ -6372,7 +6520,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 360,
@@ -6392,7 +6541,8 @@
       "Military_People",
       "People_of_the_Ikronin_Jurekön"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 361,
@@ -6413,7 +6563,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 362,
@@ -6433,7 +6584,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 363,
@@ -6455,7 +6607,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 364,
@@ -6476,7 +6629,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 365,
@@ -6496,7 +6650,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 366,
@@ -6516,7 +6671,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 367,
@@ -6537,7 +6693,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 368,
@@ -6557,7 +6714,8 @@
       "Ixoarchada",
       "People_of_the_Taviridis_Somarchada"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 369,
@@ -6578,7 +6736,8 @@
       "People_of_the_Auellal_League",
       "People_of_the_United_Mesarthrim_Clans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 370,
@@ -6601,7 +6760,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 371,
@@ -6621,7 +6781,8 @@
       "Military_People",
       "People_of_the_Ikronin_Jurekön"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 372,
@@ -6657,7 +6818,8 @@
       "Military_People",
       "People_of_the_Ikronin_Jurekön"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 374,
@@ -6678,7 +6840,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 375,
@@ -6698,7 +6861,8 @@
       "Military_People",
       "People_of_the_Ikronin_Jurekön"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 376,
@@ -6718,7 +6882,8 @@
       "Military_People",
       "People_of_the_Ikronin_Jurekön"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 377,
@@ -6738,7 +6903,8 @@
       "Military_People",
       "People_of_the_Ikronin_Jurekön"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 378,
@@ -6758,7 +6924,8 @@
       "Military_People",
       "People_of_the_Ikronin_Jurekön"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 379,
@@ -6779,7 +6946,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 380,
@@ -6800,7 +6968,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 381,
@@ -6846,7 +7015,8 @@
       "National_Leaders",
       "People_of_the_Ikronin_Jurekön"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 383,
@@ -6868,7 +7038,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 384,
@@ -6888,7 +7059,8 @@
       "Ikronin",
       "People_of_the_Ikronin_Jurekön"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 385,
@@ -6908,7 +7080,8 @@
       "National_Leaders",
       "People_of_the_United_Centusi_States"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 386,
@@ -6927,7 +7100,8 @@
       "Scientists",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 387,
@@ -6947,7 +7121,8 @@
       "Ngrligru",
       "People_of_the_Kabila_Kimburu"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 388,
@@ -6967,7 +7142,8 @@
       "Military_People",
       "People_of_the_Taviridis_Somarchada"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 389,
@@ -6988,7 +7164,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 390,
@@ -7008,7 +7185,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 391,
@@ -7045,7 +7223,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 393,
@@ -7066,7 +7245,8 @@
       "People_of_the_The_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 394,
@@ -7089,7 +7269,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 395,
@@ -7110,7 +7291,8 @@
       "People_of_the_United_Centusi_States",
       "People_of_the_United_Mesarthrim_Clans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 396,
@@ -7131,7 +7313,8 @@
       "People_of_the_Onyx_Empire",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 397,
@@ -7152,7 +7335,8 @@
       "People_of_the_United_Centusi_States",
       "People_of_the_United_Mesarthrim_Clans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 398,
@@ -7172,7 +7356,8 @@
       "Military_People",
       "People_of_the_Ikronin_Jurekön"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 399,
@@ -7192,7 +7377,8 @@
       "Military_People",
       "People_of_the_Ikronin_Jurekön"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 400,
@@ -7212,7 +7398,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 401,
@@ -7233,7 +7420,8 @@
       "People_of_the_United_Centusi_States",
       "People_of_the_United_Mesarthrim_Clans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 402,
@@ -7257,7 +7445,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 403,
@@ -7280,7 +7469,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 404,
@@ -7301,7 +7491,8 @@
       "People_of_the_United_Centusi_States",
       "People_of_the_United_Mesarthrim_Clans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 405,
@@ -7322,7 +7513,8 @@
       "People_of_the_United_Centusi_States",
       "People_of_the_United_Mesarthrim_Clans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 406,
@@ -7610,7 +7802,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 425,
@@ -7628,7 +7821,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 426,
@@ -7646,7 +7840,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 427,
@@ -7664,7 +7859,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 428,
@@ -7682,7 +7878,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 429,
@@ -7700,7 +7897,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 431,
@@ -7718,7 +7916,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 432,
@@ -7801,7 +8000,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 438,
@@ -7835,7 +8035,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 440,
@@ -7853,7 +8054,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 441,
@@ -7968,7 +8170,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 447,
@@ -7986,7 +8189,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 448,
@@ -8194,7 +8398,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 459,
@@ -8228,7 +8433,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 461,
@@ -8246,7 +8452,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 462,
@@ -8264,7 +8471,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 463,
@@ -8282,7 +8490,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 464,
@@ -8300,7 +8509,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 465,
@@ -8318,7 +8528,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 466,
@@ -8336,7 +8547,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 468,
@@ -8354,7 +8566,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 469,
@@ -8372,7 +8585,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 470,
@@ -8390,7 +8604,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 471,
@@ -8504,7 +8719,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 478,
@@ -8658,7 +8874,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 486,
@@ -8676,7 +8893,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 487,
@@ -8694,7 +8912,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 488,
@@ -8712,7 +8931,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 489,
@@ -8730,7 +8950,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 490,
@@ -8748,7 +8969,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 491,
@@ -8766,7 +8988,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 492,
@@ -8784,7 +9007,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 493,
@@ -8802,7 +9026,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 494,
@@ -8820,7 +9045,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 495,
@@ -8838,7 +9064,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 496,
@@ -8856,7 +9083,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 497,
@@ -8874,7 +9102,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 498,
@@ -8892,7 +9121,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 499,
@@ -8910,7 +9140,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 500,
@@ -8928,7 +9159,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 501,
@@ -8947,7 +9179,8 @@
       "National_Leaders",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 502,
@@ -8965,7 +9198,8 @@
     "categories": [
       "Historical_Leaders"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 503,
@@ -8983,7 +9217,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 504,
@@ -9001,7 +9236,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 505,
@@ -9051,7 +9287,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 508,
@@ -9085,7 +9322,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 510,
@@ -9119,7 +9357,8 @@
     "categories": [
       "Historical_Leaders"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 512,
@@ -9137,7 +9376,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 514,
@@ -9155,7 +9395,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 515,
@@ -9189,7 +9430,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 517,
@@ -9223,7 +9465,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 519,
@@ -9273,7 +9516,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 522,
@@ -9291,7 +9535,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 523,
@@ -9417,7 +9662,8 @@
     "categories": [
       "Historical_Leaders"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 530,
@@ -9435,7 +9681,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 531,
@@ -9488,7 +9735,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 534,
@@ -9522,7 +9770,8 @@
     "categories": [
       "Historical_Leaders"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 536,
@@ -9540,7 +9789,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 537,
@@ -9558,7 +9808,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 538,
@@ -9592,7 +9843,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 540,
@@ -9626,7 +9878,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 542,
@@ -9660,7 +9913,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 544,
@@ -9694,7 +9948,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 546,
@@ -9744,7 +9999,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 549,
@@ -9778,7 +10034,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 551,
@@ -9828,7 +10085,8 @@
     "categories": [
       "Political_Parties"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 554,
@@ -9846,7 +10104,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 555,
@@ -9880,7 +10139,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 557,
@@ -9914,7 +10174,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 559,
@@ -9949,7 +10210,8 @@
       "National_Leaders",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 561,
@@ -9968,7 +10230,8 @@
       "Historical_Leaders",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 562,
@@ -9986,7 +10249,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 563,
@@ -10020,7 +10284,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 565,
@@ -10120,7 +10385,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 571,
@@ -10154,7 +10420,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 573,
@@ -10188,7 +10455,8 @@
     "categories": [
       "Historical_Leaders"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 575,
@@ -10206,7 +10474,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 576,
@@ -10240,7 +10509,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 578,
@@ -10274,7 +10544,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 580,
@@ -10324,7 +10595,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 583,
@@ -10393,7 +10665,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 587,
@@ -10443,7 +10716,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 590,
@@ -10629,7 +10903,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 601,
@@ -10664,7 +10939,8 @@
       "National_Leaders",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 603,
@@ -10701,7 +10977,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 605,
@@ -10774,7 +11051,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 609,
@@ -10808,7 +11086,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 611,
@@ -10864,7 +11143,8 @@
       "People_of_the_Auellal_League",
       "People_of_the_United_Mesarthrim_Clans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 614,
@@ -10885,7 +11165,8 @@
       "People_of_the_Auellal_League",
       "People_of_the_United_Mesarthrim_Clans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 615,
@@ -10906,7 +11187,8 @@
       "People_of_the_Auellal_League",
       "People_of_the_United_Mesarthrim_Clans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 616,
@@ -10990,7 +11272,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 621,
@@ -11024,7 +11307,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 623,
@@ -11074,7 +11358,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 626,
@@ -11108,7 +11393,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 628,
@@ -11158,7 +11444,8 @@
     "categories": [
       "Historical_Leaders"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 631,
@@ -11176,7 +11463,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 632,
@@ -11229,7 +11517,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 635,
@@ -11263,7 +11552,8 @@
     "categories": [
       "Historical_Leaders"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 637,
@@ -11281,7 +11571,8 @@
     "categories": [
       "Historical_Leaders"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 638,
@@ -11299,7 +11590,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 639,
@@ -11333,7 +11625,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 641,
@@ -11367,7 +11660,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 643,
@@ -11401,7 +11695,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 645,
@@ -11456,7 +11751,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 648,
@@ -11490,7 +11786,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 650,
@@ -11524,7 +11821,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 652,
@@ -11558,7 +11856,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 654,
@@ -11576,7 +11875,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 655,
@@ -11626,7 +11926,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 658,
@@ -11719,7 +12020,8 @@
       "United_Centusi_States",
       "United_Mesarthrim_Clans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 663,
@@ -12406,7 +12708,8 @@
       "Alliance_of_Planets",
       "Treaties"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 707,
@@ -12441,7 +12744,8 @@
     "categories": [
       "Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 709,
@@ -12751,7 +13055,8 @@
       "Kabila_iku_Gol'nde",
       "Ngrligru_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 726,
@@ -12773,7 +13078,8 @@
     ],
     "templates": [
       "Nation_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 727,
@@ -12793,7 +13099,8 @@
       "Kabila_iku_Gol'nde",
       "Ngrligru_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 728,
@@ -12829,7 +13136,8 @@
       "Kabila_iku_Gol'nde",
       "Ngrligru_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 730,
@@ -12849,7 +13157,8 @@
       "Kabila_iku_Gol'nde",
       "Ngrligru_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 731,
@@ -12869,7 +13178,8 @@
       "Kabila_iku_Gol'nde",
       "Ngrligru_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 732,
@@ -12889,7 +13199,8 @@
       "Kabila_iku_Gol'nde",
       "Ngrligru_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 733,
@@ -12909,7 +13220,8 @@
       "Kabila_iku_Gol'nde",
       "Ngrligru_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 734,
@@ -12929,7 +13241,8 @@
       "Kabila_iku_Gol'nde",
       "Ngrligru_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 735,
@@ -12949,7 +13262,8 @@
       "Kabila_iku_Gol'nde",
       "Ngrligru_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 736,
@@ -12969,7 +13283,8 @@
       "Kabila_iku_Gol'nde",
       "Ngrligru_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 737,
@@ -12989,7 +13304,8 @@
       "Kabila_iku_Gol'nde",
       "Ngrligru_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 738,
@@ -13009,7 +13325,8 @@
       "Kabila_iku_Gol'nde",
       "Ngrligru_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 739,
@@ -13029,7 +13346,8 @@
       "Kabila_iku_Gol'nde",
       "Ngrligru_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 740,
@@ -13049,7 +13367,8 @@
       "Kabila_iku_Gol'nde",
       "Ngrligru_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 741,
@@ -13069,7 +13388,8 @@
       "Kabila_iku_Gol'nde",
       "Ngrligru_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 742,
@@ -13089,7 +13409,8 @@
       "Kabila_iku_Gol'nde",
       "Ngrligru_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 743,
@@ -13109,7 +13430,8 @@
       "Kabila_iku_Gol'nde",
       "Ngrligru_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 744,
@@ -13152,7 +13474,8 @@
       "Kabila_iku_Gol'nde",
       "Ngrligru_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 746,
@@ -15355,7 +15678,8 @@
     "categories": [
       "Rahn_Industries"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 874,
@@ -16747,7 +17071,8 @@
     "categories": [
       "Prefecture_Galactic_Navy"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 952,
@@ -16765,7 +17090,8 @@
     "categories": [
       "Prefecture_Galactic_Navy"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 953,
@@ -16783,7 +17109,8 @@
     "categories": [
       "Prefecture_Galactic_Navy"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 954,
@@ -16801,7 +17128,8 @@
     "categories": [
       "Prefecture_Galactic_Navy"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 955,
@@ -16819,7 +17147,8 @@
     "categories": [
       "Prefecture_Galactic_Navy"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 956,
@@ -16837,7 +17166,8 @@
     "categories": [
       "Prefecture_Galactic_Navy"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 957,
@@ -16855,7 +17185,8 @@
     "categories": [
       "Prefecture_Air_Force"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 958,
@@ -16873,7 +17204,8 @@
     "categories": [
       "Prefecture_Air_Force"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 959,
@@ -16891,7 +17223,8 @@
     "categories": [
       "Prefecture_Air_Force"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 960,
@@ -16909,7 +17242,8 @@
     "categories": [
       "Prefecture_Air_Force"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 961,
@@ -16927,7 +17261,8 @@
     "categories": [
       "Prefecture_Air_Force"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 962,
@@ -16979,7 +17314,8 @@
     "categories": [
       "Prefecture_Galactic_Navy"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 965,
@@ -16997,7 +17333,8 @@
     "categories": [
       "Prefecture_Galactic_Navy"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 966,
@@ -17015,7 +17352,8 @@
     "categories": [
       "Prefecture_Galactic_Navy"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 967,
@@ -17033,7 +17371,8 @@
     "categories": [
       "Prefecture_Galactic_Navy"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 968,
@@ -17051,7 +17390,8 @@
     "categories": [
       "Prefecture_Galactic_Navy"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 969,
@@ -18997,7 +19337,8 @@
       "Imperial_Military_Specification",
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1085,
@@ -20146,7 +20487,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1151,
@@ -20164,7 +20506,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1152,
@@ -20182,7 +20525,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1153,
@@ -20200,7 +20544,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1154,
@@ -20218,7 +20563,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1155,
@@ -20236,7 +20582,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1156,
@@ -20254,7 +20601,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1157,
@@ -20272,7 +20620,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1158,
@@ -20457,7 +20806,8 @@
       "United_Centusi_States",
       "United_Mesarthrim_Clans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1182,
@@ -20493,7 +20843,8 @@
     "categories": [
       "Clans_of_the_Mesarthrim"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1184,
@@ -20726,7 +21077,8 @@
     ],
     "templates": [
       "Military_Branch_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1197,
@@ -21335,7 +21687,8 @@
     "categories": [
       "People_by_Profession"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1235,
@@ -21353,7 +21706,8 @@
     "categories": [
       "People_by_Profession"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1236,
@@ -21371,7 +21725,8 @@
     "categories": [
       "People_by_Profession"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1237,
@@ -21511,7 +21866,8 @@
       "People_by_Nation",
       "The_Remnant"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1245,
@@ -21711,7 +22067,8 @@
     "categories": [
       "People_by_Profession"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1260,
@@ -21745,7 +22102,8 @@
     "categories": [
       "People_by_Profession"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1262,
@@ -21779,7 +22137,8 @@
     "categories": [
       "People_by_Profession"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1264,
@@ -21797,7 +22156,8 @@
     "categories": [
       "People_by_Profession"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1265,
@@ -21831,7 +22191,8 @@
     "categories": [
       "People_by_Profession"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1267,
@@ -21865,7 +22226,8 @@
     "categories": [
       "People_by_Profession"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1269,
@@ -22501,7 +22863,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1308,
@@ -22519,7 +22882,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1309,
@@ -22537,7 +22901,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1310,
@@ -22555,7 +22920,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1311,
@@ -22637,7 +23003,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1317,
@@ -22655,7 +23022,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1318,
@@ -22673,7 +23041,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1319,
@@ -22691,7 +23060,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1320,
@@ -22981,7 +23351,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1338,
@@ -22999,7 +23370,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1339,
@@ -23017,7 +23389,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1340,
@@ -23035,7 +23408,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1341,
@@ -23053,7 +23427,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1342,
@@ -23071,7 +23446,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1343,
@@ -23089,7 +23465,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1344,
@@ -23752,7 +24129,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1385,
@@ -24632,7 +25010,8 @@
       "Federated_Districts_of_the_Prefecture",
       "Head_of_State"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1434,
@@ -24648,7 +25027,8 @@
     "view_count": 150,
     "content_length": 430,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1435,
@@ -24667,7 +25047,8 @@
       "Colonial_Commonwealth",
       "Head_of_State"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1436,
@@ -24686,7 +25067,8 @@
       "Colonial_Commonwealth",
       "Head_of_State"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1437,
@@ -24705,7 +25087,8 @@
       "Federated_Districts_of_the_Prefecture",
       "Head_of_State"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1438,
@@ -24759,7 +25142,8 @@
       "Federated_Districts_of_the_Prefecture",
       "People_by_Nation"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1443,
@@ -24778,7 +25162,8 @@
       "People_by_Nation",
       "United_Earth_Alliance"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1444,
@@ -24797,7 +25182,8 @@
       "Auellal_League",
       "People_by_Nation"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1445,
@@ -24816,7 +25202,8 @@
       "Colonial_Commonwealth",
       "People_by_Nation"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1449,
@@ -24835,7 +25222,8 @@
       "Kabila_Kimburu",
       "People_by_Nation"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1450,
@@ -24942,7 +25330,8 @@
       "People_by_Nation",
       "Rikaz_o_Fii_Huern_iv_Lorithan"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1458,
@@ -24961,7 +25350,8 @@
       "People_by_Nation",
       "Taviridis_Somarchada"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1459,
@@ -24997,7 +25387,8 @@
       "People_by_Nation",
       "United_Centusi_States"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1462,
@@ -25016,7 +25407,8 @@
       "People_by_Nation",
       "United_Mesarthrim_Clans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1463,
@@ -25070,7 +25462,8 @@
       "Meroniri_Terinasi",
       "People_by_Nation"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1466,
@@ -25411,7 +25804,8 @@
       "Head_of_State",
       "United_Earth_Alliance"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1485,
@@ -25430,7 +25824,8 @@
       "Head_of_State",
       "United_Mesarthrim_Clans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1486,
@@ -25449,7 +25844,8 @@
       "Head_of_State",
       "United_Centusi_States"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1487,
@@ -25468,7 +25864,8 @@
       "Head_of_State",
       "Ikronin_Jurekön"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1488,
@@ -25486,7 +25883,8 @@
     "categories": [
       "Head_of_State"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1489,
@@ -25505,7 +25903,8 @@
       "Auellal_League",
       "Head_of_State"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1490,
@@ -25525,7 +25924,8 @@
       "Rikaz_o_Fii_Cai_iv_Huerna",
       "Rikaz_o_Fii_Huern_iv_Lorithan"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1491,
@@ -25560,7 +25960,8 @@
       "Head_of_State",
       "Meroniri_Terinasi"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1493,
@@ -25579,7 +25980,8 @@
       "Head_of_State",
       "Meroniri_Terinasi"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1494,
@@ -25616,7 +26018,8 @@
       "Head_of_State",
       "Meroniri_Terinasi"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1496,
@@ -27319,7 +27722,8 @@
       "Onyx_Empire",
       "Technology"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1587,
@@ -27496,7 +27900,8 @@
       "Ikronin_Jurekön",
       "People_by_Nation"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1598,
@@ -28184,7 +28589,8 @@
       "Head_of_State",
       "United_Earth_Alliance"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1643,
@@ -28688,7 +29094,8 @@
     "categories": [
       "Political_Parties"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1675,
@@ -28704,7 +29111,8 @@
     "view_count": 176,
     "content_length": 165,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1676,
@@ -28757,7 +29165,8 @@
     "categories": [
       "Military_Ranks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1679,
@@ -28775,7 +29184,8 @@
     "categories": [
       "Military_Ranks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1680,
@@ -28791,7 +29201,8 @@
     "view_count": 164,
     "content_length": 140,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1681,
@@ -28875,7 +29286,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1686,
@@ -28893,7 +29305,8 @@
     "categories": [
       "Military_Ranks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1687,
@@ -28911,7 +29324,8 @@
     "categories": [
       "Military_Ranks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1688,
@@ -28929,7 +29343,8 @@
     "categories": [
       "Military_Ranks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1689,
@@ -28947,7 +29362,8 @@
     "categories": [
       "Military_Ranks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1690,
@@ -28965,7 +29381,8 @@
     "categories": [
       "Military_Ranks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1691,
@@ -28983,7 +29400,8 @@
     "categories": [
       "Military_Ranks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1692,
@@ -29001,7 +29419,8 @@
     "categories": [
       "Military_Ranks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1693,
@@ -29019,7 +29438,8 @@
     "categories": [
       "Military_Ranks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1694,
@@ -29037,7 +29457,8 @@
     "categories": [
       "Military_Ranks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1695,
@@ -29076,7 +29497,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1697,
@@ -29094,7 +29516,8 @@
     "categories": [
       "Places"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1698,
@@ -29114,7 +29537,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1699,
@@ -29133,7 +29557,8 @@
       "Head_of_State",
       "Kalidasa_Planetary_Authority"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1700,
@@ -29249,7 +29674,8 @@
       "Prefecture_Military",
       "Uniforms"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1707,
@@ -29269,7 +29695,8 @@
       "Prefecture_Military",
       "Uniforms"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1708,
@@ -29333,7 +29760,8 @@
     "view_count": 1000,
     "content_length": 179,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1713,
@@ -29351,7 +29779,8 @@
     "categories": [
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1714,
@@ -29436,7 +29865,8 @@
       "Federated_Districts_of_the_Prefecture",
       "Militaries"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1719,
@@ -29454,7 +29884,8 @@
     "categories": [
       "Prefecture_Military"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1720,
@@ -29472,7 +29903,8 @@
     "categories": [
       "Prefecture_Military"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1721,
@@ -29490,7 +29922,8 @@
     "categories": [
       "Prefecture_Military"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1722,
@@ -29796,7 +30229,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1741,
@@ -30489,7 +30923,8 @@
       "Armor",
       "Imperial_Military_Specification"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1783,
@@ -30579,7 +31014,8 @@
       "Imperial_Military_Specification",
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1788,
@@ -30650,7 +31086,8 @@
       "Imperial_Military_Specification",
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1792,
@@ -30727,7 +31164,8 @@
       "Imperial_Military_Specification",
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1796,
@@ -30850,7 +31288,8 @@
       "Beam_Weapons",
       "Imperial_Military_Specification"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1803,
@@ -30869,7 +31308,8 @@
       "Beam_Weapons",
       "Imperial_Military_Specification"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1804,
@@ -30888,7 +31328,8 @@
       "Beam_Weapons",
       "Imperial_Military_Specification"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1805,
@@ -30908,7 +31349,8 @@
     ],
     "templates": [
       "Infantry_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1806,
@@ -30926,7 +31368,8 @@
     "categories": [
       "Prefecture_Legion_Corps"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1808,
@@ -31080,7 +31523,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1818,
@@ -31098,7 +31542,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1819,
@@ -31116,7 +31561,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1820,
@@ -31200,7 +31646,8 @@
     "categories": [
       "Authors"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1825,
@@ -31218,7 +31665,8 @@
     "categories": [
       "Authors"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1826,
@@ -31236,7 +31684,8 @@
     "categories": [
       "Authors"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1827,
@@ -31958,7 +32407,8 @@
     "categories": [
       "Authors"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1871,
@@ -31977,7 +32427,8 @@
       "Remnant_Military",
       "The_Remnant"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1872,
@@ -32134,7 +32585,8 @@
       "People_by_Nation",
       "Reigess_Suverände"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1881,
@@ -32256,7 +32708,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1888,
@@ -32475,7 +32928,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1901,
@@ -32533,7 +32987,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1904,
@@ -32687,7 +33142,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1913,
@@ -32946,7 +33402,8 @@
       "Mesarthrim",
       "Scientists"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1929,
@@ -33818,7 +34275,8 @@
       "Remnant_Military",
       "Remnant_Navy"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2067,
@@ -35671,7 +36129,8 @@
     "categories": [
       "Remnant_Military"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2202,
@@ -35687,7 +36146,8 @@
     "view_count": 163,
     "content_length": 99,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2203,
@@ -36088,7 +36548,8 @@
       "Rikaz_o_Fii_Cai_iv_Huerna",
       "Rikaz_o_Fii_Huern_iv_Lorithan"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2225,
@@ -36221,7 +36682,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2233,
@@ -39442,7 +39904,8 @@
     "categories": [
       "Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2491,
@@ -39568,7 +40031,8 @@
       "People_of_the_Federated_Districts_of_the_Prefecture",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2498,
@@ -39590,7 +40054,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2499,
@@ -43527,7 +43992,8 @@
     "categories": [
       "Technology"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2739,
@@ -43545,7 +44011,8 @@
     "categories": [
       "Satellites"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2740,
@@ -43579,7 +44046,8 @@
     "categories": [
       "Satellites"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2742,
@@ -43648,7 +44116,8 @@
     "categories": [
       "Satellites"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2746,
@@ -44114,7 +44583,8 @@
     "categories": [
       "Technology"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2778,
@@ -44132,7 +44602,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2779,
@@ -44166,7 +44637,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2781,
@@ -44200,7 +44672,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2783,
@@ -44234,7 +44707,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2785,
@@ -44268,7 +44742,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2787,
@@ -44302,7 +44777,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2789,
@@ -44336,7 +44812,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2791,
@@ -44370,7 +44847,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2793,
@@ -44420,7 +44898,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2796,
@@ -44454,7 +44933,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2798,
@@ -44490,7 +44970,8 @@
     ],
     "templates": [
       "Vehicle_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2802,
@@ -44526,7 +45007,8 @@
     ],
     "templates": [
       "Military_Branch_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2804,
@@ -44560,7 +45042,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2806,
@@ -44628,7 +45111,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2810,
@@ -44662,7 +45146,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2812,
@@ -44696,7 +45181,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2814,
@@ -44730,7 +45216,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2816,
@@ -44767,7 +45254,8 @@
     ],
     "templates": [
       "Infantry_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2818,
@@ -44884,7 +45372,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2825,
@@ -44918,7 +45407,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2827,
@@ -44936,7 +45426,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2828,
@@ -44970,7 +45461,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2830,
@@ -45004,7 +45496,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2832,
@@ -45038,7 +45531,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2834,
@@ -45072,7 +45566,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2843,
@@ -45106,7 +45601,8 @@
     "categories": [
       "Infantry_Equipment_Profiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2845,
@@ -46263,7 +46759,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2940,
@@ -48128,7 +48625,8 @@
     "categories": [
       "Volucris"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3099,
@@ -48197,7 +48695,8 @@
     "categories": [
       "Volucris"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3103,
@@ -48247,7 +48746,8 @@
     "categories": [
       "Volucris"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3106,
@@ -48297,7 +48797,8 @@
     "categories": [
       "Volucris"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3109,
@@ -48347,7 +48848,8 @@
     "categories": [
       "Volucris"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3112,
@@ -48381,7 +48883,8 @@
     "categories": [
       "Volucris"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3114,
@@ -48415,7 +48918,8 @@
     "categories": [
       "Volucris"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3116,
@@ -48449,7 +48953,8 @@
     "categories": [
       "Volucris"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3118,
@@ -48483,7 +48988,8 @@
     "categories": [
       "Volucris"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3120,
@@ -48517,7 +49023,8 @@
     "categories": [
       "Volucris"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3122,
@@ -48551,7 +49058,8 @@
     "categories": [
       "Volucris"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3124,
@@ -48617,7 +49125,8 @@
     "categories": [
       "Volucris"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3128,
@@ -48703,7 +49212,8 @@
     "categories": [
       "Volucris"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3134,
@@ -48737,7 +49247,8 @@
     "categories": [
       "Volucris"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3136,
@@ -48771,7 +49282,8 @@
     "categories": [
       "Volucris"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3138,
@@ -48805,7 +49317,8 @@
     "categories": [
       "Volucris"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3140,
@@ -48839,7 +49352,8 @@
     "categories": [
       "Volucris"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3142,
@@ -48873,7 +49387,8 @@
     "categories": [
       "Volucris"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3144,
@@ -48907,7 +49422,8 @@
     "categories": [
       "Volucris"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3146,
@@ -48957,7 +49473,8 @@
     "categories": [
       "Volucris"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3149,
@@ -49140,7 +49657,8 @@
       "Imperial_Military_Specification",
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3166,
@@ -49233,7 +49751,8 @@
       "Prefecture_Air_Force",
       "Prefecture_Military"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3171,
@@ -49327,7 +49846,8 @@
       "Beam_Weapons",
       "Imperial_Military_Specification"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3176,
@@ -49879,7 +50399,8 @@
       "Imperial_Military_Specification",
       "Missiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3210,
@@ -49898,7 +50419,8 @@
       "Imperial_Military_Specification",
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3211,
@@ -49985,7 +50507,8 @@
       "Imperial_Military_Specification",
       "Missiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3216,
@@ -50004,7 +50527,8 @@
       "Imperial_Military_Specification",
       "Missiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3217,
@@ -50040,7 +50564,8 @@
     "view_count": 152,
     "content_length": 64,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3219,
@@ -50199,7 +50724,8 @@
       "Imperial_Military_Specification",
       "Projectile_Weapons"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3228,
@@ -50218,7 +50744,8 @@
       "Imperial_Military_Specification",
       "Missiles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3229,
@@ -50239,7 +50766,8 @@
     ],
     "templates": [
       "Weapon_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3230,
@@ -50597,7 +51125,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3250,
@@ -50616,7 +51145,8 @@
       "Onyx_Empire",
       "People_by_Nation"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3251,
@@ -50916,7 +51446,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3268,
@@ -51040,7 +51571,8 @@
       "Head_of_State",
       "Onyx_Empire"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3275,
@@ -51096,7 +51628,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3278,
@@ -51262,7 +51795,8 @@
     "categories": [
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3287,
@@ -51280,7 +51814,8 @@
     "categories": [
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3288,
@@ -51298,7 +51833,8 @@
     "categories": [
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3289,
@@ -51364,7 +51900,8 @@
     "categories": [
       "Clans_of_the_Mesarthrim"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3293,
@@ -51384,7 +51921,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3294,
@@ -51404,7 +51942,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3295,
@@ -51506,7 +52045,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3302,
@@ -51626,7 +52166,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3309,
@@ -51696,7 +52237,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3313,
@@ -51719,7 +52261,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3314,
@@ -51753,7 +52296,8 @@
     "categories": [
       "Reigens"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3316,
@@ -51792,7 +52336,8 @@
       "National_Leaders",
       "Reigens"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3318,
@@ -51811,7 +52356,8 @@
       "Head_of_State",
       "Reigess_Suverände"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3319,
@@ -51924,7 +52470,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3325,
@@ -51944,7 +52491,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3326,
@@ -52020,7 +52568,8 @@
       "Head_of_State",
       "United_Earth_Alliance"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3330,
@@ -52075,7 +52624,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3333,
@@ -52111,7 +52661,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3335,
@@ -52177,7 +52728,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3340,
@@ -52229,7 +52781,8 @@
     ],
     "templates": [
       "Region_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3343,
@@ -52247,7 +52800,8 @@
     "categories": [
       "Places"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3344,
@@ -52968,7 +53522,8 @@
     "categories": [
       "Years"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3388,
@@ -54576,7 +55131,8 @@
     "templates": [
       "Military_Conflict",
       "Tempest_War_Navbox"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3500,
@@ -54730,7 +55286,8 @@
       "People_of_the_United_Earth_Alliance",
       "Terrans"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3509,
@@ -55912,7 +56469,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3594,
@@ -55932,7 +56490,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3595,
@@ -55972,7 +56531,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3597,
@@ -56387,7 +56947,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3625,
@@ -56594,7 +57155,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3638,
@@ -57022,7 +57584,8 @@
     ],
     "templates": [
       "Military_Force_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3663,
@@ -57042,7 +57605,8 @@
     ],
     "templates": [
       "Military_Force_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3664,
@@ -57282,7 +57846,8 @@
     "categories": [
       "Royal_Imperial_Navy"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3677,
@@ -57316,7 +57881,8 @@
     "categories": [
       "Military_Ranks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3679,
@@ -57443,7 +58009,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3686,
@@ -57684,7 +58251,8 @@
     "view_count": 152,
     "content_length": 95,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3701,
@@ -58155,7 +58723,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3728,
@@ -58350,7 +58919,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3739,
@@ -58492,7 +59062,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3747,
@@ -58551,7 +59122,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3750,
@@ -58630,7 +59202,8 @@
     "categories": [
       "Onyx_Empire"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3754,
@@ -58684,7 +59257,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3757,
@@ -58720,7 +59294,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3759,
@@ -60440,7 +61015,8 @@
     ],
     "templates": [
       "Infantry_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3859,
@@ -60461,7 +61037,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3860,
@@ -60790,7 +61367,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3879,
@@ -60842,7 +61420,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3882,
@@ -60948,7 +61527,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3888,
@@ -60968,7 +61548,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3889,
@@ -60988,7 +61569,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3890,
@@ -61146,7 +61728,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3898,
@@ -61166,7 +61749,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3899,
@@ -61282,7 +61866,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3906,
@@ -61302,7 +61887,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3907,
@@ -61338,7 +61924,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3909,
@@ -61438,7 +62025,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3915,
@@ -61586,7 +62174,8 @@
     "categories": [
       "Terran_Nations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3923,
@@ -61606,7 +62195,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3924,
@@ -61626,7 +62216,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3925,
@@ -61873,7 +62464,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3940,
@@ -62233,7 +62825,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3960,
@@ -62254,7 +62847,8 @@
     "templates": [
       "Historical_Period_Information",
       "Tempest_War_Navbox"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3961,
@@ -62296,7 +62890,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3963,
@@ -62316,7 +62911,8 @@
     ],
     "templates": [
       "City_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3964,
@@ -63059,7 +63655,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4008,
@@ -63903,7 +64500,8 @@
     ],
     "templates": [
       "Treaty_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4060,
@@ -64000,7 +64598,8 @@
     "view_count": 111,
     "content_length": 52,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4067,
@@ -64053,7 +64652,8 @@
     ],
     "templates": [
       "Military_Branch_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4070,
@@ -64134,7 +64734,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4074,
@@ -64155,7 +64756,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4075,
@@ -64246,7 +64848,8 @@
     "categories": [
       "Lorithos"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4080,
@@ -64314,7 +64917,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4084,
@@ -64335,7 +64939,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4085,
@@ -64355,7 +64960,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4086,
@@ -64485,7 +65091,8 @@
     ],
     "templates": [
       "Treaty_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4098,
@@ -64628,7 +65235,8 @@
     ],
     "templates": [
       "Region_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4107,
@@ -64648,7 +65256,8 @@
     ],
     "templates": [
       "Region_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4108,
@@ -64666,7 +65275,8 @@
     "categories": [
       "Volucris"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4109,
@@ -64824,7 +65434,8 @@
     ],
     "templates": [
       "Region_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4118,
@@ -64844,7 +65455,8 @@
     ],
     "templates": [
       "Region_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4119,
@@ -66159,7 +66771,8 @@
     ],
     "templates": [
       "Infantry_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4194,
@@ -66230,7 +66843,8 @@
     ],
     "templates": [
       "Tempest_War_Navbox"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4198,
@@ -66250,7 +66864,8 @@
     ],
     "templates": [
       "Tempest_War_Navbox"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4199,
@@ -66286,7 +66901,8 @@
     ],
     "templates": [
       "Tempest_War_Navbox"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4201,
@@ -66306,7 +66922,8 @@
     ],
     "templates": [
       "Tempest_War_Navbox"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4202,
@@ -66326,7 +66943,8 @@
     ],
     "templates": [
       "Tempest_War_Navbox"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4203,
@@ -66346,7 +66964,8 @@
     ],
     "templates": [
       "Tempest_War_Navbox"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4204,
@@ -66366,7 +66985,8 @@
     ],
     "templates": [
       "Tempest_War_Navbox"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4205,
@@ -66484,7 +67104,8 @@
     ],
     "templates": [
       "Infantry_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4212,
@@ -66608,7 +67229,8 @@
     ],
     "templates": [
       "Military_Branch_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4219,
@@ -66661,7 +67283,8 @@
     ],
     "templates": [
       "Military_Branch_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4222,
@@ -66680,7 +67303,8 @@
       "Mesarthrim_Federation",
       "Militaries"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4223,
@@ -68546,7 +69170,8 @@
     ],
     "templates": [
       "Person_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4328,

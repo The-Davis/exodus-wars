@@ -25,6 +25,11 @@ import { tacticsAndTreatisesIndexArticle } from './articles/Tactics_and_Treatise
 import { TACTICS_ARTICLES } from './articles/tacticsArticles';
 import { technologicalCatalogsIndexArticle } from './articles/Technological_Catalogs_Index';
 import { TECH_CATALOG_ARTICLES } from './articles/techCatalogArticles';
+import { PLACES_SUBCATEGORY_ARTICLES } from './articles/placesSubcategoryArticles';
+import { TECH_SUBCATEGORY_ARTICLES } from './articles/techSubcategoryArticles';
+import { HISTORY_ADDITIONAL_ARTICLES } from './articles/historyAdditionalArticles';
+import { NATIONS_SUBCATEGORY_ARTICLES } from './articles/nationsSubcategoryArticles';
+import { PEOPLE_SUBCATEGORY_ARTICLES } from './articles/peopleSubcategoryArticles';
 
 export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     'Introduction_to_the_Exodus_Wars_Universe': introArticle,
@@ -176,9 +181,10 @@ export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     ':Category:Technology': technologicalCatalogsIndexArticle,
 };
 
-function registerArticle(article: CodexArticle): void {
+function registerArticle(article: CodexArticle, overwrite = true): void {
     const slug = article.slug;
     const title = article.title;
+    if (!overwrite && (CODEX_ARTICLES[slug] || CODEX_ARTICLES[title])) return;
     CODEX_ARTICLES[slug] = article;
     CODEX_ARTICLES[slug.toLowerCase()] = article;
     CODEX_ARTICLES[title] = article;
@@ -389,6 +395,31 @@ const corpCategories = [
     'Rahn_Industries', 'Rahn Industries'
 ];
 registerCategoryAliases(corpCategories, corporationsIndexArticle);
+
+const subcategoryGroups = [
+    PLACES_SUBCATEGORY_ARTICLES,
+    TECH_SUBCATEGORY_ARTICLES,
+    HISTORY_ADDITIONAL_ARTICLES,
+    NATIONS_SUBCATEGORY_ARTICLES,
+    PEOPLE_SUBCATEGORY_ARTICLES
+];
+
+for (const group of subcategoryGroups) {
+    for (const item of group) {
+        const isCat = Boolean(item.categories && item.categories.includes('Categories'));
+        registerArticle(item, !isCat);
+        if (isCat) {
+            const slug = item.slug;
+            const title = item.title;
+            CODEX_ARTICLES[`Category:${slug}`] = item;
+            CODEX_ARTICLES[`Category:${title}`] = item;
+            CODEX_ARTICLES[`category:${slug.toLowerCase()}`] = item;
+            CODEX_ARTICLES[`category:${title.toLowerCase()}`] = item;
+            CODEX_ARTICLES[`:Category:${slug}`] = item;
+            CODEX_ARTICLES[`:Category:${title}`] = item;
+        }
+    }
+}
 
 export function getCodexArticle(slugOrTitle: string): CodexArticle | undefined {
     let decoded = slugOrTitle;
