@@ -13,12 +13,14 @@ export const historyIndexArticle: CodexArticle = {
 The history of the "[[Main Page|Exodus Wars Universe]]" begins with the "[[Sundering]]" in [[18000BC]], when the [[Ngrligru]] destroyed [[Pax Anthronoris]] and split the [[Anthronoris]] into many diverse human [[:Category:Races|races]].
 
 == History Sub-Categories ==
+*[[:Category:Years|Years]] - Standard Terran chronological year annals recording historical events day by day and year by year.
 *[[:Category:Centuries|Centuries]] - Chronological annals cataloging major epochal developments from the 180th Century BC through the 24th Century.
 *[[:Category:Historical Terms|Historical Terms]] - Key historical definitions, concepts, and era markers including [[First Contact]] and the [[Diaspora]].
 *[[:Category:Terran History|Terran History]] - Pre-spaceflight military history and global conflicts of humanity on Earth, including [[World War I]], [[World War II]], and [[World War III]].
 *[[:Category:Mesarthrim History|Mesarthrim History]] - Historic chronicles and revolutionary struggles of the Mesarthrim Clans, including the [[Mesarthrim Rebellion]].
 *[[:Category:Lorithos History|Lorithos History]] - Annals of the Lorithos race, including the devastating [[Burning Wars]] and the history of Huern.
 *[[:Category:Second Exodus War|Second Exodus War]] - Comprehensive battle registries, sector invasions, and strategic operations of the Second Exodus War.
+*[[:Category:Tempest War|Tempest War]] - Comprehensive operational archives, battle records, and sector campaigns of the colonial conflict between the United Centusi States and the Federated Districts of the Prefecture.
 *[[:Category:Volucris War|Volucris War]] - Strategic campaigns and defensive stands fought against the bio-mechanical Volucris swarms in Mirdek.
 *[[:Category:Volucris Incursion|Volucris Incursion]] - The initial wave of sudden planetary raids and incursion strikes launched by the Volucris.
 *[[:Category:Voices from Lorithan|Voices from Lorithan]] - Eyewitness memoirs, wartime correspondence, and survivor accounts compiled during the Volucris invasion.

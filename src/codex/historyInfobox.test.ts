@@ -163,16 +163,20 @@ More historical aftermath text.`;
 
         // Sub-categories section
         expect(html).toContain('History Sub-Categories');
+        expect(html).toContain('Years');
         expect(html).toContain('Centuries');
         expect(html).toContain('Historical Terms');
         expect(html).toContain('Terran History');
         expect(html).toContain('Mesarthrim History');
         expect(html).toContain('Lorithos History');
         expect(html).toContain('Second Exodus War');
+        expect(html).toContain('Tempest War');
         expect(html).toContain('Volucris War');
         expect(html).toContain('Volucris Incursion');
         expect(html).toContain('Voices from Lorithan');
         expect(html).toContain('Pelagrim Crisis');
+        expect(getCodexArticle('Category:Years')).toBeDefined();
+        expect(getCodexArticle('Category:Tempest War')).toBeDefined();
 
         // Miscellaneous History section
         expect(html).toContain('Miscellaneous History Articles');

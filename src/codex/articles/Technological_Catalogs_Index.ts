@@ -46,9 +46,23 @@ Planetary combat and operations necessitate versatile ground mobility solutions 
 * '''[[:Category:Rigs|Combat Rigs]]''' - Bipedal and multi-pedal armored walking rigs capable of traversing rugged terrain, climbing jagged slopes, and engaging in close-quarters urban and anti-swarm defense. Prominent frames include the [[M-21 Light Combat Rig Chassis - "Hercules"]], [[M-24 Medium Combat Rig Chassis - "Apollo"]], and [[M-32 Heavy Support Rig Chassis - "Zeus"]].
 * '''[[:Category:Civilian Vehicles|Utility & Support Vehicles]]''' - All-terrain armored personnel carriers, artillery chassis, and support trucks, including the [[M-38 Armored Personnel Carrier - "Armadillo"]] and [[M-39 Utility Truck]].
 
+== Ground Equipment & Ordnance ==
+Personal protection, firearms, and imperial standardized armaments developed for infantry squads and mechanized divisions:
+
+* '''[[:Category:Infantry Equipment Profiles|Infantry Equipment Profiles]]''' - Standard-issue service rifles, sidearms, heavy support weapons, tactical body armor, and frontline infantry gear across galactic armed forces.
+* '''[[:Category:Imperial Military Specification|Imperial Military Specification (IMS)]]''' - Official military ordnance, armored fighting vehicles, weapon systems, and standardized munitions engineered for the armed forces of the Onyx Empire.
+
+== Space Platforms & Satellites ==
+Unmanned orbital installations, sensor platforms, and automated planetary arrays:
+
+* '''[[:Category:Satellites|Satellites & Probes]]''' - Orbital sensor platforms, automated defense satellites, communications relays, and planetary surveillance probes operating in exo-atmospheric orbits.
+
 [[Category:Technological Catalogs]]
 [[Category:Warships]]
 [[Category:Aircraft]]
 [[Category:Starships]]
-[[Category:Vehicles]]`
+[[Category:Vehicles]]
+[[Category:Infantry Equipment Profiles]]
+[[Category:Imperial Military Specification]]
+[[Category:Satellites]]`
 };
