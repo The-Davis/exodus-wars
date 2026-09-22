@@ -146,11 +146,19 @@ export class CodexRenderer {
             return '';
         });
 
-        // 3. Normalize headings and standalone image tags so they are bounded by blank lines
+        // 3. Extract MediaWiki tables ({| ... |})
+        const tables: string[] = [];
+        text = text.replace(/\{\|[\s\S]*?\|\}/g, (match) => {
+            const index = tables.length;
+            tables.push(this.renderTable(match, articleImages, baseUrl));
+            return `\n\n__CODEX_TABLE_${index}__\n\n`;
+        });
+
+        // 4. Normalize headings and standalone image tags so they are bounded by blank lines
         text = text.replace(/^(={2,}[^\n]+={2,})$/gm, '\n\n$1\n\n');
         text = text.replace(/^(\[\[(?:Image|File):[^\]]+\]\])\s*$/gm, '\n\n$1\n\n');
 
-        // 4. Split into blocks
+        // 5. Split into blocks
         const blocks = text.split(/\n\s*\n+/);
         const htmlBlocks: string[] = [];
 
@@ -161,6 +169,16 @@ export class CodexRenderer {
         for (const block of blocks) {
             const trimmed = block.trim();
             if (!trimmed) continue;
+
+            // MediaWiki table placeholder check
+            if (trimmed.includes('__CODEX_TABLE_')) {
+                const replaced = trimmed.replace(/__CODEX_TABLE_(\d+)__/g, (_m, id) => {
+                    const idx = parseInt(id, 10);
+                    return tables[idx] || '';
+                });
+                htmlBlocks.push(replaced);
+                continue;
+            }
 
             // Check if block contains Image embed
             // e.g. [[Image:EWLogo.png]] Welcome to the Exodus Wars Universe.
@@ -1979,8 +1997,210 @@ export class CodexRenderer {
         `;
     }
 
-    private static formatInline(text: string): string {
+    private static findAttrPipe(str: string): number {
+        let inLink = 0;
+        for (let i = 0; i < str.length; i++) {
+            if (str[i] === '[' && str[i + 1] === '[') {
+                inLink++;
+                i++;
+            } else if (str[i] === ']' && str[i + 1] === ']') {
+                if (inLink > 0) inLink--;
+                i++;
+            } else if (str[i] === '|' && inLink === 0) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    private static splitCells(line: string, delimiter: string): string[] {
+        const cells: string[] = [];
+        let current = '';
+        let inLink = 0;
+        for (let i = 0; i < line.length; i++) {
+            if (line[i] === '[' && line[i + 1] === '[') {
+                inLink++;
+                current += line[i] + line[i + 1];
+                i++;
+            } else if (line[i] === ']' && line[i + 1] === ']') {
+                if (inLink > 0) inLink--;
+                current += line[i] + line[i + 1];
+                i++;
+            } else if (inLink === 0 && line.startsWith(delimiter, i)) {
+                cells.push(current);
+                current = '';
+                i += delimiter.length - 1;
+            } else {
+                current += line[i];
+            }
+        }
+        cells.push(current);
+        return cells;
+    }
+
+    private static parseTableAttributes(attrStr: string): string {
+        if (!attrStr) return '';
+        const inlineStyles: string[] = [];
+        const classes: string[] = [];
+        const otherAttrs: string[] = [];
+        const attrRegex = /\b(class|style|align|valign|width|height|colspan|rowspan|scope|bgcolor)\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/gi;
+        let m: RegExpExecArray | null;
+        while ((m = attrRegex.exec(attrStr)) !== null) {
+            const name = m[1].toLowerCase();
+            const val = m[2] !== undefined ? m[2] : (m[3] !== undefined ? m[3] : m[4]);
+            if (name === 'align') {
+                inlineStyles.push(`text-align: ${val}`);
+            } else if (name === 'valign') {
+                inlineStyles.push(`vertical-align: ${val}`);
+            } else if (name === 'bgcolor') {
+                inlineStyles.push(`background-color: ${val}`);
+            } else if (name === 'style') {
+                inlineStyles.push(val.replace(/;?\s*$/, ''));
+            } else if (name === 'class') {
+                classes.push(val);
+            } else {
+                otherAttrs.push(`${name}="${val}"`);
+            }
+        }
+        const result: string[] = [];
+        if (classes.length > 0) {
+            result.push(`class="${classes.join(' ')}"`);
+        }
+        if (inlineStyles.length > 0) {
+            result.push(`style="${inlineStyles.join('; ')};"`);
+        }
+        result.push(...otherAttrs);
+        return result.length > 0 ? ' ' + result.join(' ') : '';
+    }
+
+    private static parseTableCell(rawCell: string, isHeader: boolean): { isHeader: boolean; attrs: string; content: string } {
+        const trimmed = rawCell.trim();
+        let attrs = '';
+        let content = trimmed;
+
+        const pipeIdx = this.findAttrPipe(trimmed);
+        if (pipeIdx !== -1) {
+            const beforePipe = trimmed.slice(0, pipeIdx).trim();
+            const afterPipe = trimmed.slice(pipeIdx + 1).trim();
+            if (/\b(?:align|valign|width|height|style|class|colspan|rowspan|bgcolor)\s*=/i.test(beforePipe)) {
+                attrs = this.parseTableAttributes(beforePipe);
+                content = afterPipe;
+            }
+        }
+
+        return { isHeader, attrs, content };
+    }
+
+    public static renderTable(
+        rawTable: string,
+        articleImages?: Record<string, CodexImageEntry>,
+        baseUrl: string = ''
+    ): string {
+        const lines = rawTable.trim().split(/\r?\n/);
+        if (!lines[0].startsWith('{|')) return rawTable;
+
+        const tableAttrStr = lines[0].slice(2).trim();
+        const isInfobox = /infobox/i.test(tableAttrStr);
+
+        const classMatch = tableAttrStr.match(/\bclass\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/i);
+        const existingClasses = classMatch ? (classMatch[1] || classMatch[2] || classMatch[3] || '') : '';
+        const mergedClasses = ['codex-table', existingClasses, isInfobox ? 'codex-table-infobox' : '']
+            .filter(Boolean)
+            .join(' ');
+
+        const tableAttrsWithoutClass = tableAttrStr.replace(/\bclass\s*=\s*(?:"[^"]*"|'[^']*'|[^\s>]+)/i, '').trim();
+        const parsedTableAttrs = this.parseTableAttributes(tableAttrsWithoutClass);
+
+        let caption = '';
+        const rows: Array<{ attrs: string; cells: Array<{ isHeader: boolean; attrs: string; content: string }> }> = [];
+        let currentRow: { attrs: string; cells: Array<{ isHeader: boolean; attrs: string; content: string }> } = { attrs: '', cells: [] };
+
+        const flushRow = () => {
+            if (currentRow.cells.length > 0) {
+                rows.push(currentRow);
+                currentRow = { attrs: '', cells: [] };
+            }
+        };
+
+        for (let i = 1; i < lines.length; i++) {
+            const line = lines[i].trim();
+            if (!line || line === '|}') continue;
+
+            if (line.startsWith('|+')) {
+                caption = line.slice(2).trim();
+                continue;
+            }
+
+            if (line.startsWith('|-')) {
+                flushRow();
+                const rowAttrStr = line.replace(/^-+/, '').trim();
+                currentRow.attrs = this.parseTableAttributes(rowAttrStr);
+                continue;
+            }
+
+            if (line.startsWith('!')) {
+                const cellParts = this.splitCells(line.slice(1), '!!');
+                for (const part of cellParts) {
+                    currentRow.cells.push(this.parseTableCell(part, true));
+                }
+                continue;
+            }
+
+            if (line.startsWith('|')) {
+                const cellParts = this.splitCells(line.slice(1), '||');
+                for (const part of cellParts) {
+                    currentRow.cells.push(this.parseTableCell(part, false));
+                }
+                continue;
+            }
+
+            // Cell continuation
+            if (currentRow.cells.length > 0) {
+                currentRow.cells[currentRow.cells.length - 1].content += '\n' + line;
+            }
+        }
+        flushRow();
+
+        let html = `<div class="codex-table-container${isInfobox ? ' codex-table-container-infobox' : ''}">\n`;
+        html += `  <table class="${mergedClasses}"${parsedTableAttrs}>\n`;
+
+        if (caption) {
+            html += `    <caption class="codex-table-caption">${this.formatInline(caption, articleImages, baseUrl)}</caption>\n`;
+        }
+
+        html += '    <tbody>\n';
+        for (const row of rows) {
+            html += `      <tr${row.attrs}>\n`;
+            for (const cell of row.cells) {
+                const tag = cell.isHeader ? 'th' : 'td';
+                html += `        <${tag}${cell.attrs}>${this.formatInline(cell.content, articleImages, baseUrl)}</${tag}>\n`;
+            }
+            html += '      </tr>\n';
+        }
+        html += '    </tbody>\n  </table>\n</div>';
+        return html;
+    }
+
+    private static formatInline(
+        text: string,
+        articleImages?: Record<string, CodexImageEntry>,
+        baseUrl: string = ''
+    ): string {
         let out = text;
+
+        // Inline images: [[Image:...]] or [[File:...]]
+        out = out.replace(/\[\[(?:Image|File):([^\]]+)\]\]/gi, (_m, raw) => {
+            const parts = raw.split('|').map((p: string) => p.trim());
+            const imgName = parts[0];
+            let alt = imgName;
+            for (let i = 1; i < parts.length; i++) {
+                const p = parts[i];
+                if (!['thumb', 'thumbnail', 'frame', 'right', 'left', 'center'].includes(p.toLowerCase()) && !p.match(/^\d+px$/)) {
+                    alt = p;
+                }
+            }
+            return this.renderImageContainer(imgName, articleImages, baseUrl, alt);
+        });
 
         // Wikilinks: [[:Category:...|Label]] or [[Target|Label]]
         out = out.replace(/\[\[:?([^\|\]]+)\|([^\]]+)\]\]/g, (_m, target, label) => {
