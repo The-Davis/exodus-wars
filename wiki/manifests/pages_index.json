@@ -7921,7 +7921,8 @@
     "categories": [
       "Space_Stations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 445,
@@ -8155,7 +8156,8 @@
     "categories": [
       "Technology"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 458,
@@ -14385,7 +14387,8 @@
     "categories": [
       "Space_Elevators"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 820,
@@ -14403,7 +14406,8 @@
     "categories": [
       "Technology"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 821,
@@ -18077,7 +18081,8 @@
     "categories": [
       "Technology"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1032,
@@ -29775,7 +29780,8 @@
     "categories": [
       "Space_Stations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1747,
@@ -39325,7 +39331,8 @@
     "view_count": 1221,
     "content_length": 542,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2495,
@@ -39481,7 +39488,8 @@
     "categories": [
       "Space_Elevators"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2504,
@@ -41200,7 +41208,8 @@
     "categories": [
       "Buildings"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2614,
@@ -41234,7 +41243,8 @@
     "categories": [
       "Buildings"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2616,
@@ -41268,7 +41278,8 @@
     "categories": [
       "Buildings"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2618,
@@ -41334,7 +41345,8 @@
     "categories": [
       "Buildings"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2622,
@@ -41368,7 +41380,8 @@
     "categories": [
       "Buildings"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2624,
@@ -41386,7 +41399,8 @@
     "categories": [
       "Buildings"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2625,
@@ -41420,7 +41434,8 @@
     "categories": [
       "Buildings"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2627,
@@ -41518,7 +41533,8 @@
     "categories": [
       "Space_Stations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2633,
@@ -41552,7 +41568,8 @@
     "categories": [
       "Space_Stations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2635,
@@ -41586,7 +41603,8 @@
     "categories": [
       "Buildings"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2637,
@@ -43356,7 +43374,8 @@
     "categories": [
       "Space_Stations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2744,
@@ -50381,7 +50400,8 @@
     "categories": [
       "Space_Stations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3255,
@@ -50399,7 +50419,8 @@
     "categories": [
       "Space_Stations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3256,
@@ -50417,7 +50438,8 @@
     "categories": [
       "Space_Stations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3257,
@@ -51650,7 +51672,8 @@
     "categories": [
       "Space_Elevators"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3327,
@@ -51668,7 +51691,8 @@
     "categories": [
       "Space_Elevators"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3328,
@@ -51686,7 +51710,8 @@
     "categories": [
       "Space_Elevators"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3329,
@@ -55304,7 +55329,8 @@
     "categories": [
       "Space_Stations"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3577,
@@ -58177,7 +58203,8 @@
     ],
     "templates": [
       "Space_Station_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3749,
@@ -62774,7 +62801,8 @@
       "Space_Stations",
       "Taviridis_Somarchada"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4013,
@@ -62793,7 +62821,8 @@
       "Space_Stations",
       "Taviridis_Somarchada"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4015,

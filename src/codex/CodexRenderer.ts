@@ -23,6 +23,7 @@ export class CodexRenderer {
         const companyMatch = text.match(/\{\{(?:Company[_ ]Information|Corporation[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
         const scienceMatch = text.match(/\{\{(?:Scientific[_ ]Principle[_ ]Information|Science[_ ]Information|Propulsion[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
         const weaponMatch = text.match(/\{\{(?:Weapon[_ ]Information|Engineering[_ ]System[_ ]Information|Defense[_ ]Information|Defense[_ ]System[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
+        const structureMatch = text.match(/\{\{(?:Space[_ ]Station[_ ]Information|Structure[_ ]Information|Building[_ ]Information|Space[_ ]Elevator[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
 
         if (personMatch) {
             text = text.replace(personMatch[0], '');
@@ -69,6 +70,9 @@ export class CodexRenderer {
         } else if (weaponMatch) {
             text = text.replace(weaponMatch[0], '');
             infoboxHtml = this.renderWeaponInformation(weaponMatch[1], articleImages, baseUrl);
+        } else if (structureMatch) {
+            text = text.replace(structureMatch[0], '');
+            infoboxHtml = this.renderSpaceStationInformation(structureMatch[1], articleImages, baseUrl);
         }
 
         // Clean out any unhandled navbox templates (e.g. {{Pelagrim Crisis Navbox}})
@@ -949,6 +953,83 @@ export class CodexRenderer {
             <aside class="codex-infobox weapon-information">
                 <div class="infobox-header weapon-header">
                     <div class="infobox-subtitle">TACTICAL SYSTEM // ENGINEERING SPECIFICATION</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderSpaceStationInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || params['station'] || params['structure'] || params['building'] || 'Architectural Structure';
+        const imgName = this.extractImageName(params['image'] || params['diagram']);
+        const caption = params['caption'] || '';
+        const designation = params['designation'] || params['type'] || params['classification'] || '';
+        const builder = params['builder'] || params['architect'] || params['manufacturer'] || '';
+        const operator = params['operator'] || params['operator(s)'] || params['owner'] || params['affiliation'] || '';
+        const location = params['location'] || params['planet'] || params['orbit'] || params['system'] || '';
+        const crew = params['crew'] || params['capacity'] || params['personnel'] || '';
+        const length = params['length'] || '';
+        const beam = params['beam'] || params['width'] || '';
+        const height = params['height'] || '';
+        const totalVolume = params['total_volume'] || params['volume'] || params['footprint'] || '';
+        const powerplant = params['powerplant'] || params['power_source'] || '';
+        const sensors = params['sensors'] || params['avionics'] || '';
+        const processingSystem = params['processing_system'] || params['computers'] || '';
+        const aircraft = params['aircraft'] || params['hangar_capacity'] || params['docking_bays'] || '';
+        const supportCapacity = params['support_capacity'] || '';
+        const weapons = params['weapons'] || params['defenses'] || params['defense_systems'] || '';
+        const armor = params['armor'] || '';
+        const shields = params['shields'] || '';
+        const special = params['special'] || params['features'] || '';
+        const status = params['status'] || '';
+
+        const rows: string[] = [];
+        if (designation) rows.push(`<tr><th>Designation</th><td>${this.formatInline(designation)}</td></tr>`);
+        if (builder) rows.push(`<tr><th>Builder(s)</th><td>${this.formatInline(builder)}</td></tr>`);
+        if (operator) rows.push(`<tr><th>Operator(s)</th><td>${this.formatInline(operator)}</td></tr>`);
+        if (location) rows.push(`<tr><th>Location / Orbit</th><td>${this.formatInline(location)}</td></tr>`);
+        if (crew) rows.push(`<tr><th>Crew / Capacity</th><td>${this.formatInline(crew)}</td></tr>`);
+
+        const dims: string[] = [];
+        if (length) dims.push(`L: ${length}${/m(eters)?$/i.test(length) ? '' : ' m'}`);
+        if (beam) dims.push(`W: ${beam}${/m(eters)?$/i.test(beam) ? '' : ' m'}`);
+        if (height) dims.push(`H: ${height}${/m(eters)?$/i.test(height) ? '' : ' m'}`);
+        if (dims.length > 0) {
+            rows.push(`<tr><th>Dimensions</th><td>${dims.join(' &times; ')}</td></tr>`);
+        }
+        if (totalVolume) rows.push(`<tr><th>Total Volume</th><td>${this.formatInline(totalVolume)}${/m(eters)?\s*\^?3?$/i.test(totalVolume) ? '' : ' m&sup3;'}</td></tr>`);
+
+        if (powerplant) rows.push(`<tr><th>Powerplant</th><td>${this.formatInline(powerplant)}</td></tr>`);
+        if (sensors) rows.push(`<tr><th>Sensors</th><td>${this.formatInline(sensors)}</td></tr>`);
+        if (processingSystem) rows.push(`<tr><th>Processing System</th><td>${this.formatInline(processingSystem)}</td></tr>`);
+        if (aircraft) rows.push(`<tr><th>Hangar / Craft</th><td>${this.formatInline(aircraft)}</td></tr>`);
+        if (supportCapacity) rows.push(`<tr><th>Support Capacity</th><td>${this.formatInline(supportCapacity)}</td></tr>`);
+        if (weapons) rows.push(`<tr><th>Armament</th><td>${this.formatInline(weapons)}</td></tr>`);
+        if (armor) rows.push(`<tr><th>Armor</th><td>${this.formatInline(armor)}</td></tr>`);
+        if (shields) rows.push(`<tr><th>Shields</th><td>${this.formatInline(shields)}</td></tr>`);
+        if (special) rows.push(`<tr><th>Special Systems</th><td>${this.formatInline(special)}</td></tr>`);
+        if (status) rows.push(`<tr><th>Status</th><td>${this.formatInline(status)}</td></tr>`);
+
+        const imgHtml = imgName
+            ? this.renderImageContainer(imgName, articleImages, baseUrl, `${name} Blueprint`, caption, false, true)
+            : '';
+
+        return `
+            <aside class="codex-infobox structure-information">
+                <div class="infobox-header structure-header">
+                    <div class="infobox-subtitle">ARCHITECTURAL ARCHIVE // STRUCTURAL SPECIFICATION</div>
                     <h3 class="infobox-name">${this.formatInline(name)}</h3>
                 </div>
                 ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
