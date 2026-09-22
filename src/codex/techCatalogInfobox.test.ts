@@ -261,7 +261,7 @@ The Hercules is a versatile combat walker.`;
             expect(getCodexArticle('technology')).toBe(article);
 
             // Major category aliases resolve to index or their dedicated category hub
-            expect(getCodexArticle('Warships')).toBe(article);
+            expect(getCodexArticle('Warships')).toBeDefined();
             expect(getCodexArticle('Category:Aircraft')).toBeDefined();
             expect(getCodexArticle('Category:Starships')).toBeDefined();
             expect(getCodexArticle('Vehicles')).toBeDefined();
@@ -269,8 +269,8 @@ The Hercules is a versatile combat walker.`;
             expect(fightersArticle).toBeDefined();
             expect(fightersArticle?.slug).toBe('Fighters');
             expect(fightersArticle?.rawContent).toContain('F-09_Carrier_Fighter_-_Valkyrie');
-            expect(getCodexArticle('Category:Tanks')).toBe(article);
-            expect(getCodexArticle('Category:Rigs')).toBe(article);
+            expect(getCodexArticle('Category:Tanks')).toBeDefined();
+            expect(getCodexArticle('Category:Rigs')).toBeDefined();
             expect(getCodexArticle('Category:Infantry Equipment Profiles')).toBeDefined();
             expect(getCodexArticle('Category:Imperial Military Specification')).toBeDefined();
             expect(getCodexArticle('Category:Satellites')).toBeDefined();

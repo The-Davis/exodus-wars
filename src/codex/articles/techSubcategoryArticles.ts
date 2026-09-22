@@ -6,40 +6,101 @@ export const TECH_SUBCATEGORY_ARTICLES: CodexArticle[] = [
         slug: 'Imperial_Military_Specification',
         title: 'Imperial Military Specification',
         author: 'Myiven',
-        lastUpdated: '2007-09-10 19:30:07',
-        summary: 'The "M" designation has been used for "MilSpec" or "Military Specification" for centuries. The Empire and the Prefecture use the same numbering series for MilSp',
-        categories: ['Categories','Technology','Onyx Empire','Federated Districts of the Prefecture'],
-        rawContent: `The "M" designation has been used for "MilSpec" or "Military Specification" for centuries. The [[Empire]] and the [[Prefecture]] use the same numbering series for MilSpec, and many militaries who purchase [[Prefecture]] military technology keep the M designation assigned to the original design.
+        lastUpdated: '2026-09-22 08:00:00',
+        summary: 'Official standardized military specifications (MilSpec) engineered for the armed forces of the Onyx Empire and the Federated Districts of the Prefecture.',
+        categories: ['Categories', 'Technology', 'Onyx Empire', 'Federated Districts of the Prefecture', 'Imperial Military Specification'],
+        rawContent: `The '''Imperial Military Specification''' (IMS / "MilSpec") designation has been used for centuries to standardize weaponry, body armor, ordnance, and combat vehicles across the [[Onyx Empire]] and the [[Prefecture]].
 
-The first number in the designation indicates an entirely different military specification. For example, the M-1 specification and the M-2 specification are entirely different things. A lower-case letter sub-designation indicates an extension of the original idea. For example, the M-8 and M-8a are both grenades, but use different types of ordinance. A second number indicates a revision in the specification. For example, the M-3 is the original specification, but the M-3-4 is the fourth generation revision of the specification.
+The prefix indicates the equipment class:
+* **M-Series**: Standardized uniforms, small arms, heavy weapons, combat rigs, armor, and combat chassis.
+* **ASIM-Series**: Air-to-Surface and Surface-to-Air Guided Missiles.
+* **GC-Series**: Gauss Cannons and magnetic accelerator weapons.
+* **BC-Series**: Directed energy beam cannons.
+
+== Guided Missiles (ASIM Series) ==
+* [[ASIM-01_Short_Range_Guided_Missile_-_Javelin|ASIM-01 Short Range Guided Missile - "Javelin"]]
+* [[ASIM-02_Medium_Range_Guided_Missile_-_Wren|ASIM-02 Medium Range Guided Missile - "Wren"]]
+* [[ASIM-03_Short_Range_Guided_Missile_-_Cobra|ASIM-03 Short Range Guided Missile - "Cobra"]]
+* [[ASIM-04_Long_Range_Guided_Missile_-_Hawk|ASIM-04 Long Range Guided Missile - "Hawk"]]
+* [[ASIM-05_Medium_Range_Guided_Missile_-_Hound|ASIM-05 Medium Range Guided Missile - "Hound"]]
+
+== Gauss & Beam Cannons ==
+* [[GC-01_Light_Gauss_Cannon_-_Piper|GC-01 Light Gauss Cannon - "Piper"]]
+* [[GC-02_Medium_Gauss_Cannon_-_Shrieker|GC-02 Medium Gauss Cannon - "Shrieker"]]
+* [[GC-05_Medium_Gauss_Cannon_-_Screamer|GC-05 Medium Gauss Cannon - "Screamer"]]
+* [[BC-01_Light_Beam_Cannon_-_Toaster|BC-01 Light Beam Cannon - "Toaster"]]
+
+== Standard M-Series Inventory ==
+* See the full list in the '''[[:Category:Imperial Military M-Series|Imperial Military M-Series Registry]]'''.
 
 [[Category:Technology]]
 [[Category:Onyx Empire]]
-[[Category:Federated Districts of the Prefecture]]`
+[[Category:Federated Districts of the Prefecture]]
+[[Category:Imperial Military Specification]]`
     },
     {
         id: 2777,
         slug: 'Infantry_Equipment_Profiles',
         title: 'Infantry Equipment Profiles',
         author: 'JDavis',
-        lastUpdated: '2007-10-10 22:03:04',
-        summary: 'Infantry, or "ground pounders", are the backbone of any modern army.',
-        categories: ['Categories','Technology'],
-        rawContent: `'''Infantry''', or "ground pounders", are the backbone of any modern army.
+        lastUpdated: '2026-09-22 08:00:00',
+        summary: 'Master registry of specialized infantry formations, power armor systems, security units, and frontline combat personnel across the Orion Arm.',
+        categories: ['Categories', 'Technology', 'Infantry Equipment Profiles'],
+        rawContent: `'''Infantry''', or "ground pounders", are the backbone of any modern military force. This registry catalogs the specialized power armors, shock trooper units, colonial security forces, and combat specialist profiles operating throughout the [[Orion Arm]].
 
-[[Category:Technology]]`
+== Specialized Formations & Elite Shock Troops ==
+* [[Colonial_Army_Infantry|Colonial Army Infantry]] - Standard frontline garrison infantry.
+* [[Colonial_Marine_Infantry|Colonial Marine Infantry]] - Shipboard security and planetary assault infantry.
+* [[Colonial_Security_Infantry|Colonial Security Infantry]] - Frontier law and order forces.
+* [[Prefecture_Marine|Prefecture Marine]] - Elite ship-to-ship boarding and beachhead shock troops.
+* [[Terran_Embassy_Mobile_Infantry|Terran Embassy Mobile Infantry]] - Heavy diplomatic defense detachment.
+* [[ELITES|ELITES]] - High-threat tactical assault operatives.
+* [[HAZARDS|HAZARDS]] - Hostile-environment and toxic-atmosphere combat teams.
+* [[Omega_Agent|Omega Agent]] - Black-operations intelligence and sabotage operatives.
+* [[Battlefield_Medic|Battlefield Medic]] - Frontline trauma treatment specialists.
+
+== House & Faction Guard Formations ==
+* [[Adders_of_Asanova|Adders of Asanova]] - Fierce shock formation of House Asanova.
+* [[Yuris_of_Asanova|Yuris of Asanova]] - Veteran defensive line infantry.
+* [[Redshirts_of_Berlusconi|Redshirts of Berlusconi]] - Notorious private corporate security shock troops.
+* [[Ronin_of_the_Nakamura|Ronin of the Nakamura]] - Disavowed master mercenary specialists.
+* [[Shadows_of_the_Nakamura|Shadows of the Nakamura]] - Infiltration and counter-sniper operatives.
+* [[Sappers_of_Blazton|Sappers of Blazton]] - Combat engineers and demolition experts.
+* [[Trailblazers_of_Blazton|Trailblazers of Blazton]] - Forward reconnaissance and pathfinder units.
+* [[Kalidasa_Reserve_Trooper|Kalidasa Reserve Trooper]] - Planetary defense militia forces.
+* [[Kalidasa_Security_Trooper|Kalidasa Security Trooper]] - Fortified city and installation security forces.
+* [[Oronus_Guard|Oronus Guard]] - Heavy ceremonial and VIP protection detachment.
+
+== Powered Armor & Robotic Combatants ==
+* [[Aceris_Power_Armor|Aceris Power Armor]] - Advanced Meroniri Terinasi combat exoskeleton.
+* [[Araros_Power_Armor|Araros Power Armor]] - Heavy shock assault powered armor suit.
+* [[Hector_Powered_Armor|Hector Powered Armor]] - Multi-environment powered infantry armor.
+* [[M-16_Power-Assisted_Heavy_Armor_-_Excalibur|M-16 Power-Assisted Heavy Armor - "Excalibur"]] - Standard Imperial heavy powered armor.
+* [[Oronus_Personal_Mining_Suit|Oronus Personal Mining Suit]] - Fortified hazardous work exoskeleton.
+* [[Krelbine_Infantry_Robot|Krelbine Infantry Robot]] - Autonomous tracked infantry combat robot.
+* [[Finnis|Finnis]] - Specialized biological or cybernetic specialist.
+* [[Reigenjord|Reigenjord]] - Rugged northern frontier defense trooper.
+
+[[Category:Technology]]
+[[Category:Infantry Equipment Profiles]]`
     },
     {
         id: 2738,
         slug: 'Satellites',
         title: 'Satellites',
         author: 'JDavis',
-        lastUpdated: '2007-10-10 01:37:24',
-        summary: 'Satellites and probes are unmanned craft which perform a number of tasks.',
-        categories: ['Categories','Technology'],
-        rawContent: `'''Satellites''' and probes are unmanned craft which perform a number of tasks.
+        lastUpdated: '2026-09-22 08:00:00',
+        summary: 'Master registry of unmanned orbital installations, automated defense platforms, planetary communications arrays, and deep-space sensor probes.',
+        categories: ['Categories', 'Technology', 'Satellites'],
+        rawContent: `'''Satellites''' and probes are unmanned orbital craft engineered to provide early warning sensor coverage, secure interstellar communications relays, automated planetary defense, and navigational beacons.
 
-[[Category:Technology]]`
+== Automated Defensive & Sensor Platforms ==
+* [[PL-100_Automated_Defensive_Platform_-_Defender|PL-100 Automated Defensive Platform - "Defender"]] - Unmanned orbital weapons platform fielding heavy kinetic cannons and missile pods.
+* [[Recon_Probe|Recon Probe]] - High-speed autonomous sensor probe deployed to survey planetary rings and track fleet movements.
+* [[Urokon_Communications_Satellite|Urokon Communications Satellite]] - High-throughput orbital relay linking colony outposts to the core hyperspace network.
+
+[[Category:Technology]]
+[[Category:Satellites]]`
     },
     {
         id: 2778,

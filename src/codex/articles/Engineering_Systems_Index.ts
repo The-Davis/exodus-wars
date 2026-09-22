@@ -6,7 +6,7 @@ export const engineeringSystemsIndexArticle: CodexArticle = {
     title: 'Engineering Systems',
     author: 'JDavis',
     lastUpdated: '2007-10-07 02:23:07',
-    categories: ['Categories'],
+    categories: ['Categories', 'Engineering Systems'],
     summary: 'The master engineering and tactical systems catalog of the Exodus Wars universe, documenting weapons technology, deflector shield systems, composite armor, avionics, sensors, and computers.',
     rawContent: `'''Engineering''' applies the principles of science. This is where the various important systems used in completed models are listed.
 

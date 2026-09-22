@@ -2359,5 +2359,22 @@ In the ensuing battle, nearly a quarter of the Imperial ships were destroyed, bu
 Since the battle, no further missions have been dispatched to the system, as there are no planets and the star has no discernable resources.
 
 [[Category:Star Systems]]`
+    },
+    {
+        id: 7999,
+        slug: 'Thur',
+        title: 'Thur',
+        author: 'JDavis',
+        lastUpdated: '2008-10-14 18:30:00',
+        summary: 'Fortified planetary world within the Federated Districts of the Prefecture, host to the Spire of Truth intelligence citadel.',
+        categories: ['Places', 'Planets', 'Federated Districts of the Prefecture'],
+        rawContent: `'''Thur''' is a fortified terrestrial world situated within the sovereign territory of the [[Federated Districts of the Prefecture]]. Renowned for its secure planetary defense network and restricted airspace, Thur serves as the nerve center for specialized intelligence and security installations.
+
+== Installations & Overview ==
+Thur is best known as the location of the [[Spire of Truth]], the monolithic intelligence headquarters and surveillance citadel operated by the [[Prefecture Department of Inquisition]]. The planet maintains strict orbital checkpoints and high-security communication nodes coordinating signals intelligence across multiple star systems.
+
+[[Category:Planets]]
+[[Category:Places]]
+[[Category:Federated Districts of the Prefecture]]`
     }
 ];

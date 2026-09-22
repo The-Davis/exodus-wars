@@ -50,9 +50,22 @@ export const TACTICS_ARTICLES: CodexArticle[] = [
         'author': 'Myiven',
         'lastUpdated': '2007-08-03 10:52:00',
         'categories': [
+            'Tactics',
             'Tactics and Treatises'
         ],
-        'rawContent': 'Tactical doctrine has changed over the years, and this category covers some of the tactical treatises published recently\n\n[[Category:Tactics and Treatises]]'
+        'rawContent': `'''Tactics''' documents operational combat methodologies, defense-in-depth protocols, air defense suppression, and naval engagement doctrines developed across the armed forces of the Exodus Wars universe.
+
+== Published Tactical Doctrines ==
+* [[Tactics: Engaging the Volucris]] - Frontline survival and combined-arms doctrine compiled by [[Travis Carpenter]], detailing mandatory minefield killzones, artillery fire sacks, and anti-swarm protocols.
+* [[Wild Weasel]] - High-risk Suppression of Enemy Air Defenses (SEAD) operational doctrine, baiting hostile radar tracking to pinpoint and eliminate missile batteries.
+* '''Combined Arms Theory''' - Coordinated doctrine detailing the deployment of bipedal [[Rigs]], battle armor, heavy artillery, and air support.
+* '''Naval Warfare Doctrine''' - Capital warship engagement strategies governing carrier wings, railgun broadsides, and point-defense screens.
+
+== Related Directories ==
+* [[Tactics and Treatises]] - The master military strategy, doctrine, and analytical essay registry.
+
+[[Category:Tactics]]
+[[Category:Tactics and Treatises]]`
     },
     {
         'id': 845,
@@ -61,8 +74,21 @@ export const TACTICS_ARTICLES: CodexArticle[] = [
         'author': 'Myiven',
         'lastUpdated': '2007-08-04 00:32:08',
         'categories': [
+            'Treatises',
             'Tactics and Treatises'
         ],
-        'rawContent': "'''Treatises''' are essays that focus on various social and scientific issues that face society at large. They tend to have more \"fluff\" than actual ground-breaking content, but strive to summarize the most important facts of an issue for a layperson.\n\n[[Category:Tactics and Treatises]]"
+        'rawContent': `'''Treatises''' are scholarly surveys, geopolitical analyses, and scientific essays that explore vital issues facing interstellar society, synthesizing complex physics, economic paradigms, and transit technologies for military planners and citizens alike.
+
+== Key Published Treatises ==
+* [[Treatise on Interstellar Travel]] - Seminal survey by Joan Andrek detailing [[Ikronin]] [[Wormhole Gates]], military [[hyperspace]] transit, stealthy [[subspace]] rifts, and instantaneous [[Meroniri]] [[Tesseract]] travel.
+* '''Treatise on Economies of Energy''' - Comprehensive survey exploring antimatter, plasma reserves, and fusion fuel across frontier markets.
+* '''Treatise on Economies of Compromise''' - Geopolitical analysis of interstellar tariff networks, merchant corridors, and diplomatic accords.
+* '''On the Origins of the Volucris in the Orion Arm''' - Xenobiological treatise investigating swarm hive ecology and migration vectors.
+
+== Related Directories ==
+* [[Tactics and Treatises]] - The master military strategy, doctrine, and analytical essay registry.
+
+[[Category:Treatises]]
+[[Category:Tactics and Treatises]]`
     }
 ];

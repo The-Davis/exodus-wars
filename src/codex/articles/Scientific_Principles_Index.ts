@@ -6,7 +6,7 @@ export const scientificPrinciplesIndexArticle: CodexArticle = {
     title: 'Scientific Principles',
     author: 'JDavis',
     lastUpdated: '2007-10-07 01:57:33',
-    categories: ['Categories'],
+    categories: ['Categories', 'Science', 'Scientific Principles'],
     summary: 'The master scientific and technological archive of the Exodus Wars universe, categorizing propulsion physics, energy production, biotechnology, genetics, materials science, and astronomy.',
     rawContent: `'''Science''' is a time-honored system for observing data, and attempting to draw conclusions from the observations. There have been many advances in the various fields of science, making life in general more enjoyable.
 

@@ -110,11 +110,22 @@ export const ECONOMICS_ARTICLES: CodexArticle[] = [
     {
         'id': 1608,
         'slug': 'Economy_of_the_Icronian_Consortium',
-        'title': 'Economy_of_the_Icronian_Consortium',
+        'title': 'Economy of the Icronian Consortium',
         'author': 'Myiven',
         'lastUpdated': '2007-08-16 07:38:09',
         'categories': ['Economics'],
-        'rawContent': ''
+        'rawContent': `The '''Economy of the Icronian Consortium''' (closely tied to the [[Economy of the Ikronin Jurekön|mercantile sphere of the Ikronin]]) represents one of the most powerful corporate trading engines in known space. Built upon the strategic administration of the interstellar [[Wormhole Gates]], the Consortium leverages its transit monopolies, deep-space merchant fleets, and platinum-standard financial reserves to dictate galactic trade flows.
+
+== Merchant Shipping & Trans-Wormhole Commerce ==
+The Consortium acts as the commercial arm of [[Kronheim]]'s merchant houses, coordinating the transit of millions of metric tons of raw unrefined ore, atmospheric gasses, and high-tech industrial machinery through the [[Wormhole Gate]] network each standard day. Cargo transit tariffs and gate maintenance fees form the backbone of the Consortium's immense fiscal reserves.
+
+== Monetary System & Backing ==
+Unlike the gold standard of the [[Federated Districts of the Prefecture]], the Consortium utilizes a dual backing mechanism combining energy reserves with physical platinum vaults to stabilize the [[Likvada]]. This financial architecture ensures that the Likvada remains the de facto reserve and settlement currency across interstellar markets and non-aligned colony sectors.
+
+== Manufacturing & Defense Cartels ==
+Through subsidiaries such as [[Jaytex Mechanized Unlimited]] and [[Kroning]], the Consortium exercises near-total dominance over aerospace engineering, advanced repulsive shielding, and heavy defense systems, including the [[Tornfalk]] superiority fighter and specialized [[Icronian Lansvapen|Lansvapen]] arrays.
+
+[[Category:Economics]]`
     },
     {
         'id': 1206,
@@ -270,3 +281,34 @@ export const ECONOMICS_ARTICLES: CodexArticle[] = [
         'rawContent': "The Hira is the [[Mesarthrim Federation]]'s national currency. It was established in [[2335]] as a base for the recovering and expandeding Mesarthrim Economy.  The Hira is a [[Fiat currency]], based entirely on the national reputation, international trade status, and strength of the government of the Mesarthrim Federation.\r\n\r\n== History ==\r\n\r\nDuring the years of the [[United Centusi States]] the old [[Mesarthrim Mark]] was readopted - which had previously been mostly phased out in favour of the intergalactic [[Likvada]] standard by [[Andreas Tischler]].  When [[William Camp]]'s government collapsed, [[Bethany Tischler]] suggested issuing bank notes in the Mesarthrim Federation's name at a 1 to 2 ratio with current depreciated Mark.  The undertaking caused mass confusion for almost a month as the transition was completed haphazardly - shortages in printed bank notes became a severe problem at Banks all across [[Mesar]].  The transition to the new currency failed to take into consideration the effect on outstanding loans and bonds.  Many Mesarthrim found their economic outlook and portfolios completely different from mere months before.  By the end of 2335, the currency stabilized, Mesarthrim trade began a phase of explosive expansion, and the economy began to grow rapidly.\r\n\r\n== Bank Notes ==\r\n\r\nEach Bank Note is a different size and color to assist in universal access to the currency.  The base unit for the Hira is One Hira, which is currently equivalent to about One and a Half Hours of unskilled labour.\r\n\r\nEach citizen was issued a RFID 'change card' which collects Hira remainders after a transaction.  A citizen can return to a Bank at anytime and cash the collected change on the card for whole Hira notes.  Hire notes are issued in denominations of 1, 2, 5, 10, 15, 20, 50, 100, 250, and 500.  There is also limited currency that is printed in the higher range, however, private individuals usually do not carry such large notes.  Large notes are issued in denominations of 1000, 2500, 5000, 10,000, and 25,000.\r\n\r\n[[Category:Mesarthrim Federation]]\r\n[[Category:Currency]]"
     }
 ];
+
+export const currencyCategoryArticle: CodexArticle = {
+    id: 1205,
+    slug: 'Currency',
+    title: 'Category: Currency',
+    author: 'JDavis',
+    lastUpdated: '2008-05-10 12:00:00',
+    summary: 'Master numismatic and monetary catalog of the Exodus Wars universe, documenting physical coinage, electronic credits, and resource-backed interstellar currencies.',
+    categories: ['Economics', 'Currency', 'Categories'],
+    rawContent: `'''Currencies of the Galaxy''' catalogues the diverse monetary units, reserve currencies, and exchange mediums that facilitate interstellar trade, government budgets, and commercial enterprise across known space.
+
+== Sovereign & Interstellar Currencies ==
+* [[Peculium]] - The gold-standard metallic currency of the [[Federated Districts of the Prefecture]], minted in solid gold and silver Roman-style coinage.
+* [[Likvada]] - The platinum- and energy-backed currency of the [[Ikronin Jurekön]], recognized as the de facto reserve standard of interstellar trade.
+* [[Dollar]] - The historic fiat paper and digital currency of the [[United Earth Alliance]] and pre-war Earth.
+* [[Imperial Credit]] - The centralized electronic currency of the [[Onyx Empire]], rendered worthless following the Empire's collapse.
+* [[Mesarthrim Mark]] - The traditional silver-backed currency utilized across the [[United Mesarthrim Clans]] and [[United Centusi States]].
+* [[Shero]] - The ancient currency unit of the [[Lorithos]], historically minted by the Huern dynasty.
+* [[Sirio]] - The multi-colored paper and coin currency circulating throughout the [[Sirius Cluster]] and governed by the [[Sirius Families]].
+* [[Reál]] - Colonial frontier exchange currency with Spanish colonial heritage.
+* [[Hira]] - Modern fiat currency issued by the [[Mesarthrim Federation]].
+
+== Monetary Systems & Principles ==
+* [[Gold standard]] - Fixed-weight precious metal monetary standard pioneered by the Prefecture.
+* [[Fiat currency]] - Unbacked legal tender currencies established by decree.
+* [[Gross Domestic Product]] - Macroeconomic measurement of planetary productivity.
+
+[[Category:Economics]]
+[[Category:Currency]]`
+};
+

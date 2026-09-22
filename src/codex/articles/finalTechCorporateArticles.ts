@@ -986,9 +986,15 @@ Jason Ihorangi, an American-Polynesian, etc
         title: 'Icronian Chaff Launcher',
         author: 'Myiven',
         lastUpdated: '2007-08-16 06:45:46',
-        summary: 'Icronian Chaff Launcher',
-        categories: ['Technology'],
-        rawContent: ''
+        summary: 'Tactical defensive countermeasure dispensing sensor-reflective particulate clouds to disrupt missile and radar locks.',
+        categories: ['Technology', 'Engineering Systems'],
+        rawContent: `The '''Icronian Chaff Launcher''' is a specialized tactical countermeasure system engineered by Ikronin defense contractors for aerospace craft and capital escorts.
+
+== Overview & Function ==
+When deployed, the launcher releases dense clouds of polarized metallic and dielectric particulate chaff designed to disrupt hostile targeting arrays, scatter radar beams, and divert incoming guided missile tracking systems. The system is particularly effective against microwave and laser-guided munitions, creating a multi-spectrum decoy screen that allows defensive evasion.
+
+[[Category:Engineering Systems]]
+[[Category:Technology]]`
     },
     {
         id: 1605,
@@ -996,9 +1002,15 @@ Jason Ihorangi, an American-Polynesian, etc
         title: 'Icronian Induction Engine',
         author: 'Myiven',
         lastUpdated: '2007-08-16 07:20:40',
-        summary: 'Icronian Induction Engine',
-        categories: ['Technology'],
-        rawContent: ''
+        summary: 'High-efficiency sublight induction propulsion pioneered by the Ikronin for merchant freighters and combat craft.',
+        categories: ['Technology', 'Engineering Systems'],
+        rawContent: `The '''Icronian Induction Engine''' is a high-efficiency sublight propulsion system developed on [[Kronheim]] for merchant freighters, patrol craft, and strike fighters.
+
+== Operating Principles ==
+Utilizing electromagnetic induction coils to accelerate ionized propellant streams without physical contact or thermal erosion, the induction engine achieves remarkable fuel efficiency and prolonged burn endurance, making it a favorite for long-range intra-system cargo transit.
+
+[[Category:Engineering Systems]]
+[[Category:Technology]]`
     },
     {
         id: 1625,
@@ -1006,9 +1018,15 @@ Jason Ihorangi, an American-Polynesian, etc
         title: 'Icronian Lansvapen',
         author: 'Myiven',
         lastUpdated: '2007-08-16 07:48:49',
-        summary: 'Icronian Lansvapen',
-        categories: ['Technology'],
-        rawContent: ''
+        summary: 'Directed high-velocity energy and particle lance weapon system developed for Ikronin aerospace fighters and naval escorts.',
+        categories: ['Technology', 'Engineering Systems'],
+        rawContent: `The '''Icronian Lansvapen''' is an advanced high-velocity energy and particle lance weapon system developed for Ikronin aerospace fighters and naval escorts, such as the [[Tornfalk]].
+
+== Combat Application ==
+The Lansvapen projects high-density coherent energy discharges capable of punching through reinforced armor plating and neutralizing hostile deflector shields. Autonomous Type E Lansvapen arrays are frequently fitted to fighter aft mounts to counter pursuit craft and intercept incoming ordnance.
+
+[[Category:Engineering Systems]]
+[[Category:Technology]]`
     },
     {
         id: 1600,
@@ -1016,9 +1034,15 @@ Jason Ihorangi, an American-Polynesian, etc
         title: 'Icronian Particle Impulse Engine',
         author: 'Myiven',
         lastUpdated: '2007-08-16 06:46:20',
-        summary: 'Icronian Particle Impulse Engine',
-        categories: ['Technology'],
-        rawContent: ''
+        summary: 'Precision sublight maneuvering drive utilized by high-agility interceptors and naval craft of the Ikronin.',
+        categories: ['Technology', 'Engineering Systems'],
+        rawContent: `The '''Icronian Particle Impulse Engine''' is a precision sublight maneuvering drive utilized by high-agility interceptors and naval craft of the Ikronin.
+
+== Specifications ==
+Directing high-velocity particle streams through magnetic nozzle vectors, the particle impulse engine provides instant thrust response and high angular agility during dogfighting maneuvers and docking approaches.
+
+[[Category:Engineering Systems]]
+[[Category:Technology]]`
     },
     {
         id: 3723,
