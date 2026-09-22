@@ -15,6 +15,7 @@ export class CodexRenderer {
         const conflictMatch = text.match(/\{\{(?:Military[_ ]Conflict|War[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
         const periodMatch = text.match(/\{\{Historical[_ ]Period[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const treatyMatch = text.match(/\{\{Treaty[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
+        const raceMatch = text.match(/\{\{(?:Race[_ ]Information|Species[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
 
         if (personMatch) {
             text = text.replace(personMatch[0], '');
@@ -37,6 +38,9 @@ export class CodexRenderer {
         } else if (treatyMatch) {
             text = text.replace(treatyMatch[0], '');
             infoboxHtml = this.renderTreatyInformation(treatyMatch[1], articleImages, baseUrl);
+        } else if (raceMatch) {
+            text = text.replace(raceMatch[0], '');
+            infoboxHtml = this.renderRaceInformation(raceMatch[1], articleImages, baseUrl);
         }
 
         // Clean out any unhandled navbox templates (e.g. {{Pelagrim Crisis Navbox}})
@@ -49,8 +53,9 @@ export class CodexRenderer {
             return '';
         });
 
-        // 3. Normalize headings so they are bounded by blank lines
+        // 3. Normalize headings and standalone image tags so they are bounded by blank lines
         text = text.replace(/^(={2,}[^\n]+={2,})$/gm, '\n\n$1\n\n');
+        text = text.replace(/^(\[\[(?:Image|File):[^\]]+\]\])\s*$/gm, '\n\n$1\n\n');
 
         // 4. Split into blocks
         const blocks = text.split(/\n\s*\n+/);
@@ -494,6 +499,57 @@ export class CodexRenderer {
                     <div class="infobox-subtitle">DIPLOMATIC ACCORD // TREATY</div>
                     <h3 class="infobox-name">${this.formatInline(name)}</h3>
                 </div>
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderRaceInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || params['race'] || params['species'] || 'Species Record';
+        const image = params['image'] || '';
+        const caption = params['caption'] || '';
+        const classification = params['classification'] || params['type'] || params['genus'] || '';
+        const homeworld = params['homeworld'] || params['origin'] || params['origin_world'] || '';
+        const height = params['average_height'] || params['height'] || '';
+        const lifespan = params['average_lifespan'] || params['lifespan'] || '';
+        const language = params['language'] || params['languages'] || '';
+        const government = params['government'] || params['allegiance'] || params['major_nations'] || '';
+        const metabolism = params['metabolism'] || params['diet'] || '';
+        const status = params['status'] || '';
+
+        const rows: string[] = [];
+        if (classification) rows.push(`<tr><th>Classification</th><td>${this.formatInline(classification)}</td></tr>`);
+        if (homeworld) rows.push(`<tr><th>Homeworld</th><td>${this.formatInline(homeworld)}</td></tr>`);
+        if (height) rows.push(`<tr><th>Avg. Height</th><td>${this.formatInline(height)}</td></tr>`);
+        if (lifespan) rows.push(`<tr><th>Avg. Lifespan</th><td>${this.formatInline(lifespan)}</td></tr>`);
+        if (language) rows.push(`<tr><th>Language</th><td>${this.formatInline(language)}</td></tr>`);
+        if (government) rows.push(`<tr><th>Government / Realm</th><td>${this.formatInline(government)}</td></tr>`);
+        if (metabolism) rows.push(`<tr><th>Metabolism</th><td>${this.formatInline(metabolism)}</td></tr>`);
+        if (status) rows.push(`<tr><th>Status</th><td>${this.formatInline(status)}</td></tr>`);
+
+        let imgHtml = '';
+        if (image) {
+            const cleanImgName = image.replace(/^\[\[Image:([^\|\]]+).*\]\]$/, '$1').trim();
+            imgHtml = this.renderImageContainer(cleanImgName, articleImages, baseUrl, name, caption, false, true);
+        }
+
+        return `
+            <aside class="codex-infobox race-information">
+                <div class="infobox-header race-header">
+                    <div class="infobox-subtitle">XENOLOGICAL ARCHIVE // SAPIENT SPECIES</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
                 <div class="infobox-divider"></div>
                 <table class="infobox-table">
                     <tbody>
