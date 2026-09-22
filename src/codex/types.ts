@@ -17,3 +17,10 @@ export interface CodexArticle {
     summary?: string;
     images?: Record<string, CodexImageEntry>;
 }
+
+export interface CategoryMembersResult {
+    categoryName: string;
+    subcategories: CodexArticle[];
+    pages: CodexArticle[];
+    totalCount: number;
+}

@@ -5,7 +5,7 @@ import { ClusterView } from './views/ClusterView';
 import { StarView } from './views/StarView';
 import { PlanetView } from './views/PlanetView';
 import { CodexArticle } from './codex/types';
-import { getCodexArticle } from './codex/articleRegistry';
+import { getCodexArticle, isCategoryArticle, getCategoryMembers } from './codex/articleRegistry';
 import { CodexRenderer } from './codex/CodexRenderer';
 
 export enum ViewLevel {
@@ -233,7 +233,14 @@ export class StateManager {
         if (breadcrumbEl) breadcrumbEl.innerText = this.currentArticle.title.toUpperCase();
 
         if (contentEl) {
-            contentEl.innerHTML = CodexRenderer.render(this.currentArticle.rawContent, this.currentArticle.images);
+            const categoryMembers = isCategoryArticle(this.currentArticle)
+                ? getCategoryMembers(this.currentArticle)
+                : undefined;
+            contentEl.innerHTML = CodexRenderer.render(
+                this.currentArticle.rawContent,
+                this.currentArticle.images,
+                categoryMembers
+            );
             this.bindArticleContentLinks(contentEl);
             this.bindArticleImageToggles(contentEl);
         }
@@ -295,6 +302,19 @@ export class StateManager {
                         modalMessage.innerHTML = `You have selected <strong>${target}</strong> from the Galactic Codex archives.<br><br>Detailed article view and category imports are scheduled for the upcoming deployment phase.`;
                         modal.style.display = 'flex';
                     }
+                }
+            });
+        });
+
+        // Letter index jump scrolling for category pages
+        const letterButtons = container.querySelectorAll('.codex-letter-jump');
+        letterButtons.forEach((btn) => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                const letter = btn.getAttribute('data-letter');
+                const targetEl = container.querySelector(`#codex-letter-${letter}`);
+                if (targetEl) {
+                    targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
             });
         });
