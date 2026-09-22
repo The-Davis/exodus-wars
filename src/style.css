@@ -1140,6 +1140,11 @@ canvas {
   border-bottom: 1px solid #00bcd4 !important;
 }
 
+.science-header {
+  background: linear-gradient(135deg, #0c2b28 0%, #041614 100%) !important;
+  border-bottom: 1px solid #1de9b6 !important;
+}
+
 .infobox-partof {
   font-size: 13px;
   color: #ff8a80;

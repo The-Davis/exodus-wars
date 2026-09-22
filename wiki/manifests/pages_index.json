@@ -506,7 +506,8 @@
     "categories": [
       "Animals"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 28,
@@ -1013,7 +1014,8 @@
     "categories": [
       "Propulsion"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 55,
@@ -4446,7 +4448,8 @@
     "categories": [
       "Propulsion"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 267,
@@ -4464,7 +4467,8 @@
     "categories": [
       "Science"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 268,
@@ -4482,7 +4486,8 @@
     "categories": [
       "Propulsion"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 269,
@@ -4519,7 +4524,8 @@
     "categories": [
       "Propulsion"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 271,
@@ -4567,7 +4573,8 @@
     "view_count": 34,
     "content_length": 35,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 274,
@@ -7871,7 +7878,8 @@
     ],
     "templates": [
       "Commons"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 443,
@@ -14084,7 +14092,8 @@
     "categories": [
       "Science"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 805,
@@ -14100,7 +14109,8 @@
     "view_count": 194,
     "content_length": 213,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 806,
@@ -14118,7 +14128,8 @@
     "categories": [
       "Science"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 807,
@@ -14136,7 +14147,8 @@
     "categories": [
       "Science"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 808,
@@ -14154,7 +14166,8 @@
     "categories": [
       "Science"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 809,
@@ -14172,7 +14185,8 @@
     "categories": [
       "Science"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 810,
@@ -14190,7 +14204,8 @@
     "categories": [
       "Science"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 811,
@@ -14298,7 +14313,8 @@
     "categories": [
       "Medicine"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 817,
@@ -14316,7 +14332,8 @@
     "categories": [
       "Medical_Procedures"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 818,
@@ -14334,7 +14351,8 @@
     "categories": [
       "Medical_Procedures"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 819,
@@ -14404,7 +14422,8 @@
     "categories": [
       "Energy_Production"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 823,
@@ -14422,7 +14441,8 @@
     "categories": [
       "Nuclear_Fusion"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 824,
@@ -14440,7 +14460,8 @@
     "categories": [
       "Physics"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 825,
@@ -14706,7 +14727,8 @@
     "categories": [
       "Propulsion"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 840,
@@ -14724,7 +14746,8 @@
     "categories": [
       "Propulsion"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 841,
@@ -14862,7 +14885,8 @@
     "categories": [
       "Propulsion"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 849,
@@ -14880,7 +14904,8 @@
     "categories": [
       "Propulsion"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 850,
@@ -14898,7 +14923,8 @@
     "categories": [
       "Propulsion"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 851,
@@ -18198,7 +18224,8 @@
     "categories": [
       "Energy_Production"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1050,
@@ -18216,7 +18243,8 @@
     "categories": [
       "Energy_Production"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1051,
@@ -18234,7 +18262,8 @@
     "categories": [
       "Energy_Production"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1052,
@@ -18268,7 +18297,8 @@
     "categories": [
       "Medicine"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1054,
@@ -18286,7 +18316,8 @@
     "categories": [
       "Medicine"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1055,
@@ -18304,7 +18335,8 @@
     "categories": [
       "Astronomy"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1056,
@@ -18322,7 +18354,8 @@
     "categories": [
       "Astronomy"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1057,
@@ -18340,7 +18373,8 @@
     "categories": [
       "Chemistry"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1058,
@@ -18358,7 +18392,8 @@
     "categories": [
       "Chemistry"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1059,
@@ -18376,7 +18411,8 @@
     "categories": [
       "Chemistry"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1060,
@@ -18394,7 +18430,8 @@
     "categories": [
       "Medicine"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1061,
@@ -18412,7 +18449,8 @@
     "categories": [
       "Biology"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1062,
@@ -18430,7 +18468,8 @@
     "categories": [
       "Lifeforms"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1063,
@@ -18448,7 +18487,8 @@
     "categories": [
       "Lifeforms"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1064,
@@ -18466,7 +18506,8 @@
     "categories": [
       "Biology"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1065,
@@ -18484,7 +18525,8 @@
     "categories": [
       "Chemistry"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1066,
@@ -19520,7 +19562,8 @@
     "categories": [
       "Animals"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1127,
@@ -19730,7 +19773,8 @@
     "categories": [
       "Animals"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1140,
@@ -20118,7 +20162,8 @@
       "Global_Electric",
       "Propulsion"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1162,
@@ -20455,7 +20500,8 @@
     "categories": [
       "Propulsion"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1195,
@@ -20964,7 +21010,8 @@
     "categories": [
       "Propulsion"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1227,
@@ -23773,7 +23820,8 @@
     "categories": [
       "Medical_Conditions"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1401,
@@ -32139,7 +32187,8 @@
     "view_count": 142,
     "content_length": 34,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1897,
@@ -39148,7 +39197,8 @@
     "view_count": 1161,
     "content_length": 2176,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2492,
@@ -51838,7 +51888,8 @@
     "categories": [
       "Animals"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3346,
@@ -54288,7 +54339,8 @@
     "view_count": 137,
     "content_length": 2697,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3510,
@@ -55242,7 +55294,8 @@
     "categories": [
       "Propulsion"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3581,
@@ -55628,7 +55681,8 @@
     "categories": [
       "Biology"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3604,
@@ -59958,7 +60012,8 @@
     "categories": [
       "Physics"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3861,

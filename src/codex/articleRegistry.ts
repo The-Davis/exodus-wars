@@ -14,6 +14,8 @@ import { nationsIndexArticle } from './articles/Nations_Index';
 import { NATIONS_ARTICLES } from './articles/nationsArticles';
 import { corporationsIndexArticle } from './articles/Corporations_Index';
 import { CORPORATIONS_ARTICLES } from './articles/corporationsArticles';
+import { scientificPrinciplesIndexArticle } from './articles/Scientific_Principles_Index';
+import { SCIENCE_ARTICLES } from './articles/scienceArticles';
 
 export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     'Introduction_to_the_Exodus_Wars_Universe': introArticle,
@@ -81,6 +83,21 @@ export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     ':Category:Companies': corporationsIndexArticle,
     'Company': corporationsIndexArticle,
     'company': corporationsIndexArticle,
+    'Scientific_Principles': scientificPrinciplesIndexArticle,
+    'Scientific Principles': scientificPrinciplesIndexArticle,
+    'scientific_principles': scientificPrinciplesIndexArticle,
+    'scientific principles': scientificPrinciplesIndexArticle,
+    'Category:Scientific_Principles': scientificPrinciplesIndexArticle,
+    'category:scientific_principles': scientificPrinciplesIndexArticle,
+    'Category:Scientific Principles': scientificPrinciplesIndexArticle,
+    'category:scientific principles': scientificPrinciplesIndexArticle,
+    ':Category:Scientific_Principles': scientificPrinciplesIndexArticle,
+    ':Category:Scientific Principles': scientificPrinciplesIndexArticle,
+    'Science': scientificPrinciplesIndexArticle,
+    'science': scientificPrinciplesIndexArticle,
+    'Category:Science': scientificPrinciplesIndexArticle,
+    'category:science': scientificPrinciplesIndexArticle,
+    ':Category:Science': scientificPrinciplesIndexArticle,
 };
 
 function registerArticle(article: CodexArticle): void {
@@ -127,6 +144,10 @@ for (const nation of NATIONS_ARTICLES) {
 
 for (const corp of CORPORATIONS_ARTICLES) {
     registerArticle(corp);
+}
+
+for (const sci of SCIENCE_ARTICLES) {
+    registerArticle(sci);
 }
 
 export function getCodexArticle(slugOrTitle: string): CodexArticle | undefined {

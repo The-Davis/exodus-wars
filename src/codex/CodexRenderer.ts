@@ -21,6 +21,7 @@ export class CodexRenderer {
         const nationMatch = text.match(/\{\{Nation[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const allianceMatch = text.match(/\{\{Alliance[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const companyMatch = text.match(/\{\{(?:Company[_ ]Information|Corporation[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
+        const scienceMatch = text.match(/\{\{(?:Scientific[_ ]Principle[_ ]Information|Science[_ ]Information|Propulsion[_ ]Information)\s*\|?([\s\S]*?)\}\}/i);
 
         if (personMatch) {
             text = text.replace(personMatch[0], '');
@@ -61,6 +62,9 @@ export class CodexRenderer {
         } else if (companyMatch) {
             text = text.replace(companyMatch[0], '');
             infoboxHtml = this.renderCompanyInformation(companyMatch[1], articleImages, baseUrl);
+        } else if (scienceMatch) {
+            text = text.replace(scienceMatch[0], '');
+            infoboxHtml = this.renderScientificPrincipleInformation(scienceMatch[1], articleImages, baseUrl);
         }
 
         // Clean out any unhandled navbox templates (e.g. {{Pelagrim Crisis Navbox}})
@@ -841,6 +845,55 @@ export class CodexRenderer {
             <aside class="codex-infobox company-information">
                 <div class="infobox-header company-header">
                     <div class="infobox-subtitle">COMMERCIAL ENTITY // CORPORATE REGISTRY</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderScientificPrincipleInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || params['principle'] || params['technology'] || 'Scientific Phenomenon';
+        const imgName = this.extractImageName(params['image'] || params['diagram']);
+        const caption = params['caption'] || '';
+        const field = params['field'] || params['discipline'] || '';
+        const subfield = params['subfield'] || params['branch'] || '';
+        const classification = params['classification'] || params['type'] || '';
+        const discoveredBy = params['discovered_by'] || params['developer'] || params['inventor'] || '';
+        const date = params['date'] || params['era'] || '';
+        const principles = params['principles'] || params['theory'] || '';
+        const applications = params['applications'] || params['used_in'] || '';
+        const status = params['status'] || '';
+
+        const rows: string[] = [];
+        if (field) rows.push(`<tr><th>Field</th><td>${this.formatInline(field)}</td></tr>`);
+        if (subfield) rows.push(`<tr><th>Subfield</th><td>${this.formatInline(subfield)}</td></tr>`);
+        if (classification) rows.push(`<tr><th>Classification</th><td>${this.formatInline(classification)}</td></tr>`);
+        if (discoveredBy) rows.push(`<tr><th>Origin / Developer</th><td>${this.formatInline(discoveredBy)}</td></tr>`);
+        if (date) rows.push(`<tr><th>Discovery Era</th><td>${this.formatInline(date)}</td></tr>`);
+        if (principles) rows.push(`<tr><th>Theoretical Basis</th><td>${this.formatInline(principles)}</td></tr>`);
+        if (applications) rows.push(`<tr><th>Applications</th><td>${this.formatInline(applications)}</td></tr>`);
+        if (status) rows.push(`<tr><th>Status</th><td>${this.formatInline(status)}</td></tr>`);
+
+        const imgHtml = imgName
+            ? this.renderImageContainer(imgName, articleImages, baseUrl, `${name} Diagram`, caption, false, true)
+            : '';
+
+        return `
+            <aside class="codex-infobox science-information">
+                <div class="infobox-header science-header">
+                    <div class="infobox-subtitle">SCIENTIFIC ARCHIVE // THEORETICAL PRINCIPLE</div>
                     <h3 class="infobox-name">${this.formatInline(name)}</h3>
                 </div>
                 ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
