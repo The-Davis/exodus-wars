@@ -10,7 +10,9 @@
     "timestamp": "2009-04-28 18:33:42",
     "description": "The Howell, built in 2188 for Adrian Tischler and the Mesarthrim Resistance.",
     "exists_on_disk": true,
-    "disk_filename": "2188Howell.png"
+    "disk_filename": "2188Howell.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/2188Howell.png"
   },
   {
     "image_name": "2190Sickle.png",
@@ -23,7 +25,9 @@
     "timestamp": "2009-04-28 18:32:55",
     "description": "The Sickle, built in 2190 for Adrian Tischler and the Mesarthrim Resistance.",
     "exists_on_disk": true,
-    "disk_filename": "2190Sickle.png"
+    "disk_filename": "2190Sickle.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/2190Sickle.png"
   },
   {
     "image_name": "2260-Fireline.png",
@@ -103,7 +107,9 @@
     "timestamp": "2009-04-07 23:22:03",
     "description": "Kodi Refit, 2326.",
     "exists_on_disk": true,
-    "disk_filename": "2326_Starmaster.png"
+    "disk_filename": "2326_Starmaster.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/2326_Starmaster.png"
   },
   {
     "image_name": "2326_Stormgod.png",
@@ -129,7 +135,9 @@
     "timestamp": "2007-10-10 01:53:14",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "660VBulkTransport1.jpg"
+    "disk_filename": "660VBulkTransport1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/660VBulkTransport1.jpg"
   },
   {
     "image_name": "660VBulkTransport2.jpg",
@@ -142,7 +150,9 @@
     "timestamp": "2007-10-10 01:53:32",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "660VBulkTransport2.jpg"
+    "disk_filename": "660VBulkTransport2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/660VBulkTransport2.jpg"
   },
   {
     "image_name": "660VBulkTransport3.jpg",
@@ -155,7 +165,9 @@
     "timestamp": "2007-10-10 01:54:04",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "660VBulkTransport3.jpg"
+    "disk_filename": "660VBulkTransport3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/660VBulkTransport3.jpg"
   },
   {
     "image_name": "660VBulkTransport4.jpg",
@@ -168,7 +180,9 @@
     "timestamp": "2007-10-10 01:54:18",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "660VBulkTransport4.jpg"
+    "disk_filename": "660VBulkTransport4.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/660VBulkTransport4.jpg"
   },
   {
     "image_name": "660VBulkTransport5.jpg",
@@ -181,7 +195,9 @@
     "timestamp": "2007-10-10 01:54:39",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "660VBulkTransport5.jpg"
+    "disk_filename": "660VBulkTransport5.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/660VBulkTransport5.jpg"
   },
   {
     "image_name": "660VBulkTransport6.jpg",
@@ -194,7 +210,9 @@
     "timestamp": "2007-10-10 01:54:56",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "660VBulkTransport6.jpg"
+    "disk_filename": "660VBulkTransport6.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/660VBulkTransport6.jpg"
   },
   {
     "image_name": "660VBulkTransport7.jpg",
@@ -207,7 +225,9 @@
     "timestamp": "2007-10-10 01:55:22",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "660VBulkTransport7.jpg"
+    "disk_filename": "660VBulkTransport7.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/660VBulkTransport7.jpg"
   },
   {
     "image_name": "ADF-1000_Class_Patrol_Gunship_Side_View.jpg",
@@ -220,7 +240,9 @@
     "timestamp": "2008-09-03 06:27:57",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF-1000_Class_Patrol_Gunship_Side_View.jpg"
+    "disk_filename": "ADF-1000_Class_Patrol_Gunship_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF-1000_Class_Patrol_Gunship_Side_View.jpg"
   },
   {
     "image_name": "ADF-1000_Class_Patrol_Gunship_Standard_View.jpg",
@@ -233,7 +255,9 @@
     "timestamp": "2008-09-03 06:28:13",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF-1000_Class_Patrol_Gunship_Standard_View.jpg"
+    "disk_filename": "ADF-1000_Class_Patrol_Gunship_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF-1000_Class_Patrol_Gunship_Standard_View.jpg"
   },
   {
     "image_name": "ADF-1000_Class_Patrol_Gunship_Top_View.jpg",
@@ -246,7 +270,9 @@
     "timestamp": "2008-09-03 06:28:05",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF-1000_Class_Patrol_Gunship_Top_View.jpg"
+    "disk_filename": "ADF-1000_Class_Patrol_Gunship_Top_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF-1000_Class_Patrol_Gunship_Top_View.jpg"
   },
   {
     "image_name": "ADF-2000_Class_Corvette_Side_View.jpg",
@@ -259,7 +285,9 @@
     "timestamp": "2008-09-03 06:26:29",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF-2000_Class_Corvette_Side_View.jpg"
+    "disk_filename": "ADF-2000_Class_Corvette_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF-2000_Class_Corvette_Side_View.jpg"
   },
   {
     "image_name": "ADF-2000_Class_Corvette_Standard_View.jpg",
@@ -272,7 +300,9 @@
     "timestamp": "2008-09-03 06:27:32",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF-2000_Class_Corvette_Standard_View.jpg"
+    "disk_filename": "ADF-2000_Class_Corvette_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF-2000_Class_Corvette_Standard_View.jpg"
   },
   {
     "image_name": "ADF-2000_Class_Corvette_Top_View.jpg",
@@ -285,7 +315,9 @@
     "timestamp": "2008-09-03 06:26:40",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF-2000_Class_Corvette_Top_View.jpg"
+    "disk_filename": "ADF-2000_Class_Corvette_Top_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF-2000_Class_Corvette_Top_View.jpg"
   },
   {
     "image_name": "ADF-3000_Class_Frigate_Side_View.jpg",
@@ -298,7 +330,9 @@
     "timestamp": "2008-09-03 06:24:20",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF-3000_Class_Frigate_Side_View.jpg"
+    "disk_filename": "ADF-3000_Class_Frigate_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF-3000_Class_Frigate_Side_View.jpg"
   },
   {
     "image_name": "ADF-3000_Class_Frigate_Standard_View.jpg",
@@ -311,7 +345,9 @@
     "timestamp": "2008-09-03 06:24:35",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF-3000_Class_Frigate_Standard_View.jpg"
+    "disk_filename": "ADF-3000_Class_Frigate_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF-3000_Class_Frigate_Standard_View.jpg"
   },
   {
     "image_name": "ADF-3000_Class_Frigate_Top_View.jpg",
@@ -324,7 +360,9 @@
     "timestamp": "2008-09-03 06:24:27",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF-3000_Class_Frigate_Top_View.jpg"
+    "disk_filename": "ADF-3000_Class_Frigate_Top_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF-3000_Class_Frigate_Top_View.jpg"
   },
   {
     "image_name": "ADF-4000_Class_Destroyer_Side_View.jpg",
@@ -337,7 +375,9 @@
     "timestamp": "2008-09-03 06:23:20",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF-4000_Class_Destroyer_Side_View.jpg"
+    "disk_filename": "ADF-4000_Class_Destroyer_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF-4000_Class_Destroyer_Side_View.jpg"
   },
   {
     "image_name": "ADF-4000_Class_Destroyer_Standard_View.jpg",
@@ -350,7 +390,9 @@
     "timestamp": "2008-09-03 06:23:56",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF-4000_Class_Destroyer_Standard_View.jpg"
+    "disk_filename": "ADF-4000_Class_Destroyer_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF-4000_Class_Destroyer_Standard_View.jpg"
   },
   {
     "image_name": "ADF-4000_Class_Destroyer_Top_View.jpg",
@@ -363,7 +405,9 @@
     "timestamp": "2008-09-03 06:23:38",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF-4000_Class_Destroyer_Top_View.jpg"
+    "disk_filename": "ADF-4000_Class_Destroyer_Top_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF-4000_Class_Destroyer_Top_View.jpg"
   },
   {
     "image_name": "ADF-5000_Class_Cruiser_Side_View.jpg",
@@ -376,7 +420,9 @@
     "timestamp": "2008-09-01 02:20:35",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF-5000_Class_Cruiser_Side_View.jpg"
+    "disk_filename": "ADF-5000_Class_Cruiser_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF-5000_Class_Cruiser_Side_View.jpg"
   },
   {
     "image_name": "ADF-5000_Class_Cruiser_Standard_View.jpg",
@@ -389,7 +435,9 @@
     "timestamp": "2008-09-01 02:15:14",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF-5000_Class_Cruiser_Standard_View.jpg"
+    "disk_filename": "ADF-5000_Class_Cruiser_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF-5000_Class_Cruiser_Standard_View.jpg"
   },
   {
     "image_name": "ADF-5000_Class_Cruiser_Top_View.jpg",
@@ -402,7 +450,9 @@
     "timestamp": "2008-09-01 02:22:31",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF-5000_Class_Cruiser_Top_View.jpg"
+    "disk_filename": "ADF-5000_Class_Cruiser_Top_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF-5000_Class_Cruiser_Top_View.jpg"
   },
   {
     "image_name": "ADF-6000_Class_Battlecruiser_Side_View.jpg",
@@ -415,7 +465,9 @@
     "timestamp": "2008-09-03 06:28:52",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF-6000_Class_Battlecruiser_Side_View.jpg"
+    "disk_filename": "ADF-6000_Class_Battlecruiser_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF-6000_Class_Battlecruiser_Side_View.jpg"
   },
   {
     "image_name": "ADF-6000_Class_Battlecruiser_Standard_View.jpg",
@@ -428,7 +480,9 @@
     "timestamp": "2008-09-03 06:31:39",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF-6000_Class_Battlecruiser_Standard_View.jpg"
+    "disk_filename": "ADF-6000_Class_Battlecruiser_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF-6000_Class_Battlecruiser_Standard_View.jpg"
   },
   {
     "image_name": "ADF-6000_Class_Battlecruiser_Top_View.jpg",
@@ -441,7 +495,9 @@
     "timestamp": "2008-09-03 06:29:05",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF-6000_Class_Battlecruiser_Top_View.jpg"
+    "disk_filename": "ADF-6000_Class_Battlecruiser_Top_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF-6000_Class_Battlecruiser_Top_View.jpg"
   },
   {
     "image_name": "ADF-7000_Class_Carrier_Side_View.jpg",
@@ -454,7 +510,9 @@
     "timestamp": "2008-09-03 06:31:58",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF-7000_Class_Carrier_Side_View.jpg"
+    "disk_filename": "ADF-7000_Class_Carrier_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF-7000_Class_Carrier_Side_View.jpg"
   },
   {
     "image_name": "ADF-7000_Class_Carrier_Standard_View.jpg",
@@ -467,7 +525,9 @@
     "timestamp": "2008-09-03 06:32:24",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF-7000_Class_Carrier_Standard_View.jpg"
+    "disk_filename": "ADF-7000_Class_Carrier_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF-7000_Class_Carrier_Standard_View.jpg"
   },
   {
     "image_name": "ADF-7000_Class_Carrier_Top_View.jpg",
@@ -480,7 +540,9 @@
     "timestamp": "2008-09-03 06:32:12",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF-7000_Class_Carrier_Top_View.jpg"
+    "disk_filename": "ADF-7000_Class_Carrier_Top_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF-7000_Class_Carrier_Top_View.jpg"
   },
   {
     "image_name": "ADF_Cyclone.png",
@@ -493,7 +555,9 @@
     "timestamp": "2009-09-08 17:38:13",
     "description": "ADF Cyclone",
     "exists_on_disk": true,
-    "disk_filename": "ADF_Cyclone.png"
+    "disk_filename": "ADF_Cyclone.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF_Cyclone.png"
   },
   {
     "image_name": "ADF_Firestorm.png",
@@ -506,7 +570,9 @@
     "timestamp": "2009-09-08 17:38:52",
     "description": "ADF Firestorm",
     "exists_on_disk": true,
-    "disk_filename": "ADF_Firestorm.png"
+    "disk_filename": "ADF_Firestorm.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF_Firestorm.png"
   },
   {
     "image_name": "ADF_Starfire_landed.png",
@@ -545,7 +611,9 @@
     "timestamp": "2007-08-10 00:01:36",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AH-4CLightning_A.jpg"
+    "disk_filename": "AH-4CLightning_A.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AH-4CLightning_A.jpg"
   },
   {
     "image_name": "AH-4CLightning_B.jpg",
@@ -558,7 +626,9 @@
     "timestamp": "2007-08-10 00:02:24",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AH-4CLightning_B.jpg"
+    "disk_filename": "AH-4CLightning_B.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AH-4CLightning_B.jpg"
   },
   {
     "image_name": "AcerisPowerArmor.jpg",
@@ -597,7 +667,9 @@
     "timestamp": "2008-11-23 00:45:21",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Adelisk_Class_Corvette_Side_View.jpg"
+    "disk_filename": "Adelisk_Class_Corvette_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Adelisk_Class_Corvette_Side_View.jpg"
   },
   {
     "image_name": "Adelisk_Class_Corvette_Standard_View.jpg",
@@ -610,7 +682,9 @@
     "timestamp": "2008-11-23 00:43:30",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Adelisk_Class_Corvette_Standard_View.jpg"
+    "disk_filename": "Adelisk_Class_Corvette_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Adelisk_Class_Corvette_Standard_View.jpg"
   },
   {
     "image_name": "Adelisk_Class_Corvette_Top_View.jpg",
@@ -623,7 +697,9 @@
     "timestamp": "2008-11-23 00:45:00",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Adelisk_Class_Corvette_Top_View.jpg"
+    "disk_filename": "Adelisk_Class_Corvette_Top_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Adelisk_Class_Corvette_Top_View.jpg"
   },
   {
     "image_name": "AdelsonFlag.png",
@@ -650,7 +726,9 @@
     "timestamp": "2008-09-05 17:02:24",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Agoradir.jpg"
+    "disk_filename": "Agoradir.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Agoradir.jpg"
   },
   {
     "image_name": "AlaskaClassCarrier1.jpg",
@@ -663,7 +741,9 @@
     "timestamp": "2007-10-04 14:37:33",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AlaskaClassCarrier1.jpg"
+    "disk_filename": "AlaskaClassCarrier1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AlaskaClassCarrier1.jpg"
   },
   {
     "image_name": "AlaskaClassCarrier2.jpg",
@@ -676,7 +756,9 @@
     "timestamp": "2007-10-04 14:39:21",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AlaskaClassCarrier2.jpg"
+    "disk_filename": "AlaskaClassCarrier2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AlaskaClassCarrier2.jpg"
   },
   {
     "image_name": "AlaskaClassCarrier3.jpg",
@@ -689,7 +771,9 @@
     "timestamp": "2007-10-04 14:40:46",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AlaskaClassCarrier3.jpg"
+    "disk_filename": "AlaskaClassCarrier3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AlaskaClassCarrier3.jpg"
   },
   {
     "image_name": "Albanus_seen_from_Orbit.png",
@@ -717,7 +801,9 @@
     "timestamp": "2007-10-09 23:55:27",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AlbatrosLightTransportVehicle1.jpg"
+    "disk_filename": "AlbatrosLightTransportVehicle1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AlbatrosLightTransportVehicle1.jpg"
   },
   {
     "image_name": "AlbatrosLightTransportVehicle2.jpg",
@@ -730,7 +816,9 @@
     "timestamp": "2007-10-09 23:58:08",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AlbatrosLightTransportVehicle2.jpg"
+    "disk_filename": "AlbatrosLightTransportVehicle2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AlbatrosLightTransportVehicle2.jpg"
   },
   {
     "image_name": "AlbatrosLightTransportVehicle3.jpg",
@@ -743,7 +831,9 @@
     "timestamp": "2007-10-09 23:58:21",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AlbatrosLightTransportVehicle3.jpg"
+    "disk_filename": "AlbatrosLightTransportVehicle3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AlbatrosLightTransportVehicle3.jpg"
   },
   {
     "image_name": "Alexi-wrought-logo.png",
@@ -899,7 +989,9 @@
     "timestamp": "2007-10-11 19:06:48",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AnuhoraClassCorvette1.jpg"
+    "disk_filename": "AnuhoraClassCorvette1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AnuhoraClassCorvette1.jpg"
   },
   {
     "image_name": "AnuhoraClassCorvette2.jpg",
@@ -912,7 +1004,9 @@
     "timestamp": "2007-10-11 19:07:05",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AnuhoraClassCorvette2.jpg"
+    "disk_filename": "AnuhoraClassCorvette2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AnuhoraClassCorvette2.jpg"
   },
   {
     "image_name": "AnuhoraClassCorvette3.jpg",
@@ -925,7 +1019,9 @@
     "timestamp": "2007-10-11 19:07:26",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AnuhoraClassCorvette3.jpg"
+    "disk_filename": "AnuhoraClassCorvette3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AnuhoraClassCorvette3.jpg"
   },
   {
     "image_name": "ArabianFlag.jpg",
@@ -964,7 +1060,9 @@
     "timestamp": "2007-10-09 16:09:16",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ArcherArmoredCar1.jpg"
+    "disk_filename": "ArcherArmoredCar1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ArcherArmoredCar1.jpg"
   },
   {
     "image_name": "ArcherArmoredCar2.jpg",
@@ -977,7 +1075,9 @@
     "timestamp": "2007-10-09 16:08:59",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ArcherArmoredCar2.jpg"
+    "disk_filename": "ArcherArmoredCar2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ArcherArmoredCar2.jpg"
   },
   {
     "image_name": "ArnosteClassDestroyer1.jpg",
@@ -1056,7 +1156,9 @@
     "timestamp": "2008-11-01 02:58:46",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Astrala_Class_Escort_Cruiser_Side_View.jpg"
+    "disk_filename": "Astrala_Class_Escort_Cruiser_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Astrala_Class_Escort_Cruiser_Side_View.jpg"
   },
   {
     "image_name": "Astrala_Class_Escort_Cruiser_Standard_View.jpg",
@@ -1069,7 +1171,9 @@
     "timestamp": "2008-11-01 02:58:04",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Astrala_Class_Escort_Cruiser_Standard_View.jpg"
+    "disk_filename": "Astrala_Class_Escort_Cruiser_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Astrala_Class_Escort_Cruiser_Standard_View.jpg"
   },
   {
     "image_name": "Astrala_Class_Escort_Cruiser_Top_View.jpg",
@@ -1082,7 +1186,9 @@
     "timestamp": "2008-11-01 02:59:10",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Astrala_Class_Escort_Cruiser_Top_View.jpg"
+    "disk_filename": "Astrala_Class_Escort_Cruiser_Top_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Astrala_Class_Escort_Cruiser_Top_View.jpg"
   },
   {
     "image_name": "Astrala_Class_Escort_Cruiser_Weapons_Visible_Side_View.jpg",
@@ -1095,7 +1201,9 @@
     "timestamp": "2008-11-01 02:59:47",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Astrala_Class_Escort_Cruiser_Weapons_Visible_Side_View.jpg"
+    "disk_filename": "Astrala_Class_Escort_Cruiser_Weapons_Visible_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Astrala_Class_Escort_Cruiser_Weapons_Visible_Side_View.jpg"
   },
   {
     "image_name": "Astrala_Class_Escort_Cruiser_Weapons_Visible_Standard_View.jpg",
@@ -1108,7 +1216,9 @@
     "timestamp": "2008-11-01 02:59:27",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Astrala_Class_Escort_Cruiser_Weapons_Visible_Standard_View.jpg"
+    "disk_filename": "Astrala_Class_Escort_Cruiser_Weapons_Visible_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Astrala_Class_Escort_Cruiser_Weapons_Visible_Standard_View.jpg"
   },
   {
     "image_name": "AstroliftLogo.png",
@@ -1136,7 +1246,9 @@
     "timestamp": "2008-08-04 00:58:53",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Atlas_Class_Carrier_Side_View.jpg"
+    "disk_filename": "Atlas_Class_Carrier_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Atlas_Class_Carrier_Side_View.jpg"
   },
   {
     "image_name": "Atlas_Class_Carrier_Standard_View.jpg",
@@ -1149,7 +1261,9 @@
     "timestamp": "2008-08-04 00:17:44",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Atlas_Class_Carrier_Standard_View.jpg"
+    "disk_filename": "Atlas_Class_Carrier_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Atlas_Class_Carrier_Standard_View.jpg"
   },
   {
     "image_name": "Atlas_Class_Carrier_Top_View.jpg",
@@ -1162,7 +1276,9 @@
     "timestamp": "2008-08-04 09:11:34",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Atlas_Class_Carrier_Top_View.jpg"
+    "disk_filename": "Atlas_Class_Carrier_Top_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Atlas_Class_Carrier_Top_View.jpg"
   },
   {
     "image_name": "AuellalFlag.png",
@@ -1190,7 +1306,9 @@
     "timestamp": "2009-09-22 19:52:29",
     "description": "Auellal Resistance Flag",
     "exists_on_disk": true,
-    "disk_filename": "AuellalResistance.png"
+    "disk_filename": "AuellalResistance.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AuellalResistance.png"
   },
   {
     "image_name": "Auellal_Pegasus.png",
@@ -1281,7 +1399,9 @@
     "timestamp": "2008-11-01 19:32:38",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Avenger_Class_Battlecruiser_Front_and_Bottom_View.png"
+    "disk_filename": "Avenger_Class_Battlecruiser_Front_and_Bottom_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Avenger_Class_Battlecruiser_Front_and_Bottom_View.png"
   },
   {
     "image_name": "Avenger_Class_Battlecruiser_Side_View.png",
@@ -1294,7 +1414,9 @@
     "timestamp": "2008-11-01 19:29:47",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Avenger_Class_Battlecruiser_Side_View.png"
+    "disk_filename": "Avenger_Class_Battlecruiser_Side_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Avenger_Class_Battlecruiser_Side_View.png"
   },
   {
     "image_name": "Avenger_Class_Battlecruiser_Standard_View.png",
@@ -1307,7 +1429,9 @@
     "timestamp": "2008-11-01 19:26:24",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Avenger_Class_Battlecruiser_Standard_View.png"
+    "disk_filename": "Avenger_Class_Battlecruiser_Standard_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Avenger_Class_Battlecruiser_Standard_View.png"
   },
   {
     "image_name": "Avicularia.jpg",
@@ -1372,7 +1496,9 @@
     "timestamp": "2007-08-07 04:39:34",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "B-2BOcelot_A.jpg"
+    "disk_filename": "B-2BOcelot_A.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/B-2BOcelot_A.jpg"
   },
   {
     "image_name": "B-2BOcelot_B.jpg",
@@ -1385,7 +1511,9 @@
     "timestamp": "2007-08-07 04:40:31",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "B-2BOcelot_B.jpg"
+    "disk_filename": "B-2BOcelot_B.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/B-2BOcelot_B.jpg"
   },
   {
     "image_name": "B-3DGyrfalcon_A.jpg",
@@ -1398,7 +1526,9 @@
     "timestamp": "2007-08-07 04:43:54",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "B-3DGyrfalcon_A.jpg"
+    "disk_filename": "B-3DGyrfalcon_A.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/B-3DGyrfalcon_A.jpg"
   },
   {
     "image_name": "B-3DGyrfalcon_B.jpg",
@@ -1411,7 +1541,9 @@
     "timestamp": "2007-08-07 04:43:39",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "B-3DGyrfalcon_B.jpg"
+    "disk_filename": "B-3DGyrfalcon_B.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/B-3DGyrfalcon_B.jpg"
   },
   {
     "image_name": "B-6ABloodhawk_B.jpg",
@@ -1424,7 +1556,9 @@
     "timestamp": "2007-08-07 10:02:17",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "B-6ABloodhawk_B.jpg"
+    "disk_filename": "B-6ABloodhawk_B.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/B-6ABloodhawk_B.jpg"
   },
   {
     "image_name": "B-6Bloodhawk_A.jpg",
@@ -1437,7 +1571,9 @@
     "timestamp": "2007-08-07 10:01:54",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "B-6Bloodhawk_A.jpg"
+    "disk_filename": "B-6Bloodhawk_A.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/B-6Bloodhawk_A.jpg"
   },
   {
     "image_name": "BG1JeromeBlack1.jpg",
@@ -1450,7 +1586,9 @@
     "timestamp": "2008-08-27 03:33:31",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BG1JeromeBlack1.jpg"
+    "disk_filename": "BG1JeromeBlack1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BG1JeromeBlack1.jpg"
   },
   {
     "image_name": "BG1JeromeBlack2.jpg",
@@ -1463,7 +1601,9 @@
     "timestamp": "2008-08-27 03:34:20",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BG1JeromeBlack2.jpg"
+    "disk_filename": "BG1JeromeBlack2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BG1JeromeBlack2.jpg"
   },
   {
     "image_name": "BG1JeromeBlack3.jpg",
@@ -1476,7 +1616,9 @@
     "timestamp": "2008-08-27 03:34:48",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BG1JeromeBlack3.jpg"
+    "disk_filename": "BG1JeromeBlack3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BG1JeromeBlack3.jpg"
   },
   {
     "image_name": "Badge_of_the_Federated_Districts_Air_Force.png",
@@ -1528,7 +1670,9 @@
     "timestamp": "2008-09-12 21:08:37",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Bastion_Class_Monitor_Standard_View.jpg"
+    "disk_filename": "Bastion_Class_Monitor_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Bastion_Class_Monitor_Standard_View.jpg"
   },
   {
     "image_name": "BattleQueenCrawler.jpg",
@@ -1554,7 +1698,9 @@
     "timestamp": "2007-10-10 00:28:31",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BearAntiAircraftTruck1.jpg"
+    "disk_filename": "BearAntiAircraftTruck1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BearAntiAircraftTruck1.jpg"
   },
   {
     "image_name": "BearAntiAircraftTruck2.jpg",
@@ -1567,7 +1713,9 @@
     "timestamp": "2007-10-10 00:29:09",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BearAntiAircraftTruck2.jpg"
+    "disk_filename": "BearAntiAircraftTruck2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BearAntiAircraftTruck2.jpg"
   },
   {
     "image_name": "BearCargoTruck1.jpg",
@@ -1580,7 +1728,9 @@
     "timestamp": "2007-10-10 00:30:29",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BearCargoTruck1.jpg"
+    "disk_filename": "BearCargoTruck1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BearCargoTruck1.jpg"
   },
   {
     "image_name": "BearCargoTruck2.jpg",
@@ -1593,7 +1743,9 @@
     "timestamp": "2007-10-10 00:30:59",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BearCargoTruck2.jpg"
+    "disk_filename": "BearCargoTruck2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BearCargoTruck2.jpg"
   },
   {
     "image_name": "BearFlatbedTruck1.jpg",
@@ -1606,7 +1758,9 @@
     "timestamp": "2007-10-10 00:32:17",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BearFlatbedTruck1.jpg"
+    "disk_filename": "BearFlatbedTruck1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BearFlatbedTruck1.jpg"
   },
   {
     "image_name": "BearFlatbedTruck2.jpg",
@@ -1619,7 +1773,9 @@
     "timestamp": "2007-10-10 00:32:37",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BearFlatbedTruck2.jpg"
+    "disk_filename": "BearFlatbedTruck2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BearFlatbedTruck2.jpg"
   },
   {
     "image_name": "BelarusClassTanker1.jpg",
@@ -1632,7 +1788,9 @@
     "timestamp": "2007-10-04 15:01:48",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BelarusClassTanker1.jpg"
+    "disk_filename": "BelarusClassTanker1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BelarusClassTanker1.jpg"
   },
   {
     "image_name": "BelarusClassTanker2.jpg",
@@ -1645,7 +1803,9 @@
     "timestamp": "2007-10-04 15:02:26",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BelarusClassTanker2.jpg"
+    "disk_filename": "BelarusClassTanker2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BelarusClassTanker2.jpg"
   },
   {
     "image_name": "BelarusClassTanker3.jpg",
@@ -1658,7 +1818,9 @@
     "timestamp": "2007-10-04 15:03:10",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BelarusClassTanker3.jpg"
+    "disk_filename": "BelarusClassTanker3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BelarusClassTanker3.jpg"
   },
   {
     "image_name": "BelgiumFlag.jpg",
@@ -1697,7 +1859,9 @@
     "timestamp": "2007-10-10 01:56:57",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BelugaClassDropship1.jpg"
+    "disk_filename": "BelugaClassDropship1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BelugaClassDropship1.jpg"
   },
   {
     "image_name": "BelugaClassDropship2.jpg",
@@ -1710,7 +1874,9 @@
     "timestamp": "2007-10-10 01:57:15",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BelugaClassDropship2.jpg"
+    "disk_filename": "BelugaClassDropship2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BelugaClassDropship2.jpg"
   },
   {
     "image_name": "BelugaClassDropship3.jpg",
@@ -1723,7 +1889,9 @@
     "timestamp": "2007-10-10 01:57:44",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BelugaClassDropship3.jpg"
+    "disk_filename": "BelugaClassDropship3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BelugaClassDropship3.jpg"
   },
   {
     "image_name": "BerkeleyClassReactorComplex.jpg",
@@ -1765,7 +1933,9 @@
     "timestamp": "2007-10-04 15:39:26",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BlijrokClassFrigate1.jpg"
+    "disk_filename": "BlijrokClassFrigate1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BlijrokClassFrigate1.jpg"
   },
   {
     "image_name": "BlijrokClassFrigate2.jpg",
@@ -1778,7 +1948,9 @@
     "timestamp": "2007-10-04 15:40:03",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BlijrokClassFrigate2.jpg"
+    "disk_filename": "BlijrokClassFrigate2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BlijrokClassFrigate2.jpg"
   },
   {
     "image_name": "BlijrokClassFrigate3.jpg",
@@ -1791,7 +1963,9 @@
     "timestamp": "2007-10-04 15:40:20",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BlijrokClassFrigate3.jpg"
+    "disk_filename": "BlijrokClassFrigate3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BlijrokClassFrigate3.jpg"
   },
   {
     "image_name": "Blister_A.jpg",
@@ -1847,7 +2021,9 @@
     "timestamp": "2007-10-04 19:17:36",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BollariaClassBattleCarrier1.jpg"
+    "disk_filename": "BollariaClassBattleCarrier1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BollariaClassBattleCarrier1.jpg"
   },
   {
     "image_name": "BollariaClassBattleCarrier2.jpg",
@@ -1860,7 +2036,9 @@
     "timestamp": "2007-10-04 19:18:36",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BollariaClassBattleCarrier2.jpg"
+    "disk_filename": "BollariaClassBattleCarrier2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BollariaClassBattleCarrier2.jpg"
   },
   {
     "image_name": "BollariaClassBattleCarrier3.jpg",
@@ -1873,7 +2051,9 @@
     "timestamp": "2007-10-04 19:18:56",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BollariaClassBattleCarrier3.jpg"
+    "disk_filename": "BollariaClassBattleCarrier3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BollariaClassBattleCarrier3.jpg"
   },
   {
     "image_name": "BorrowerDrone1.jpg",
@@ -1912,7 +2092,9 @@
     "timestamp": "2008-11-13 06:47:38",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Brehg_Matif_Class_Side_View.jpg"
+    "disk_filename": "Brehg_Matif_Class_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Brehg_Matif_Class_Side_View.jpg"
   },
   {
     "image_name": "Brehg_Matif_Class_Standard_View.jpg",
@@ -1925,7 +2107,9 @@
     "timestamp": "2008-11-13 06:47:22",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Brehg_Matif_Class_Standard_View.jpg"
+    "disk_filename": "Brehg_Matif_Class_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Brehg_Matif_Class_Standard_View.jpg"
   },
   {
     "image_name": "Brehg_Matif_Class_Top_View.jpg",
@@ -1938,7 +2122,9 @@
     "timestamp": "2008-11-13 06:47:57",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Brehg_Matif_Class_Top_View.jpg"
+    "disk_filename": "Brehg_Matif_Class_Top_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Brehg_Matif_Class_Top_View.jpg"
   },
   {
     "image_name": "BrehvokMainBattleTank1.jpg",
@@ -1951,7 +2137,9 @@
     "timestamp": "2007-10-09 16:37:16",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BrehvokMainBattleTank1.jpg"
+    "disk_filename": "BrehvokMainBattleTank1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BrehvokMainBattleTank1.jpg"
   },
   {
     "image_name": "BrehvokMainBattleTank2.jpg",
@@ -1964,7 +2152,9 @@
     "timestamp": "2007-10-09 16:37:36",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BrehvokMainBattleTank2.jpg"
+    "disk_filename": "BrehvokMainBattleTank2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BrehvokMainBattleTank2.jpg"
   },
   {
     "image_name": "BritishEmpireFlag.jpg",
@@ -1990,7 +2180,9 @@
     "timestamp": "2007-10-04 15:44:21",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BroktaiClassBattlecruiser1.jpg"
+    "disk_filename": "BroktaiClassBattlecruiser1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BroktaiClassBattlecruiser1.jpg"
   },
   {
     "image_name": "BroktaiClassBattlecruiser2.jpg",
@@ -2003,7 +2195,9 @@
     "timestamp": "2007-10-04 15:44:50",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BroktaiClassBattlecruiser2.jpg"
+    "disk_filename": "BroktaiClassBattlecruiser2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BroktaiClassBattlecruiser2.jpg"
   },
   {
     "image_name": "BroktaiClassBattlecruiser3.jpg",
@@ -2016,7 +2210,9 @@
     "timestamp": "2007-10-04 15:45:01",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BroktaiClassBattlecruiser3.jpg"
+    "disk_filename": "BroktaiClassBattlecruiser3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BroktaiClassBattlecruiser3.jpg"
   },
   {
     "image_name": "BuccaneerArmoredCar1.jpg",
@@ -2029,7 +2225,9 @@
     "timestamp": "2007-10-10 00:35:06",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BuccaneerArmoredCar1.jpg"
+    "disk_filename": "BuccaneerArmoredCar1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BuccaneerArmoredCar1.jpg"
   },
   {
     "image_name": "BuccaneerArmoredCar2.jpg",
@@ -2042,7 +2240,9 @@
     "timestamp": "2007-10-10 00:35:28",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "BuccaneerArmoredCar2.jpg"
+    "disk_filename": "BuccaneerArmoredCar2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/BuccaneerArmoredCar2.jpg"
   },
   {
     "image_name": "BulgariaFlag.jpg",
@@ -2347,7 +2547,9 @@
     "timestamp": "2007-10-10 23:39:19",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "CaspiaClassArmedMerchantman1.jpg"
+    "disk_filename": "CaspiaClassArmedMerchantman1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CaspiaClassArmedMerchantman1.jpg"
   },
   {
     "image_name": "CaspiaClassArmedMerchantman2.jpg",
@@ -2360,7 +2562,9 @@
     "timestamp": "2007-10-10 23:39:36",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "CaspiaClassArmedMerchantman2.jpg"
+    "disk_filename": "CaspiaClassArmedMerchantman2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CaspiaClassArmedMerchantman2.jpg"
   },
   {
     "image_name": "CaspiaClassArmedMerchantman3.jpg",
@@ -2373,7 +2577,9 @@
     "timestamp": "2007-10-10 23:39:54",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "CaspiaClassArmedMerchantman3.jpg"
+    "disk_filename": "CaspiaClassArmedMerchantman3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CaspiaClassArmedMerchantman3.jpg"
   },
   {
     "image_name": "CeladonFlag.png",
@@ -2400,7 +2606,9 @@
     "timestamp": "2007-09-24 18:12:03",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Celeripes_Class.png"
+    "disk_filename": "Celeripes_Class.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Celeripes_Class.png"
   },
   {
     "image_name": "Cella.png",
@@ -2441,7 +2649,9 @@
     "timestamp": "2007-10-04 15:25:00",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "CephrodClassFrigate1.jpg"
+    "disk_filename": "CephrodClassFrigate1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CephrodClassFrigate1.jpg"
   },
   {
     "image_name": "CephrodClassFrigate2.jpg",
@@ -2454,7 +2664,9 @@
     "timestamp": "2007-10-04 15:25:29",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "CephrodClassFrigate2.jpg"
+    "disk_filename": "CephrodClassFrigate2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CephrodClassFrigate2.jpg"
   },
   {
     "image_name": "CephrodClassFrigate3.jpg",
@@ -2467,7 +2679,9 @@
     "timestamp": "2007-10-04 15:26:00",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "CephrodClassFrigate3.jpg"
+    "disk_filename": "CephrodClassFrigate3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CephrodClassFrigate3.jpg"
   },
   {
     "image_name": "Ceres_from_orbit.png",
@@ -2508,7 +2722,9 @@
     "timestamp": "2007-10-10 00:26:32",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ChariotMediumHovertank1.jpg"
+    "disk_filename": "ChariotMediumHovertank1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ChariotMediumHovertank1.jpg"
   },
   {
     "image_name": "ChariotMediumHovertank2.jpg",
@@ -2521,7 +2737,9 @@
     "timestamp": "2007-10-10 00:26:45",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ChariotMediumHovertank2.jpg"
+    "disk_filename": "ChariotMediumHovertank2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ChariotMediumHovertank2.jpg"
   },
   {
     "image_name": "Charon_Class_Battleship_Front_View.jpg",
@@ -2534,7 +2752,9 @@
     "timestamp": "2009-03-06 00:49:39",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Charon_Class_Battleship_Front_View.jpg"
+    "disk_filename": "Charon_Class_Battleship_Front_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Charon_Class_Battleship_Front_View.jpg"
   },
   {
     "image_name": "Charon_Class_Battleship_Side_View.jpg",
@@ -2547,7 +2767,9 @@
     "timestamp": "2009-03-06 00:49:25",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Charon_Class_Battleship_Side_View.jpg"
+    "disk_filename": "Charon_Class_Battleship_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Charon_Class_Battleship_Side_View.jpg"
   },
   {
     "image_name": "Charon_Class_Battleship_Standard_View.jpg",
@@ -2560,7 +2782,9 @@
     "timestamp": "2009-03-06 00:49:03",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Charon_Class_Battleship_Standard_View.jpg"
+    "disk_filename": "Charon_Class_Battleship_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Charon_Class_Battleship_Standard_View.jpg"
   },
   {
     "image_name": "Charon_Class_Battleship_Top_View.jpg",
@@ -2573,7 +2797,9 @@
     "timestamp": "2009-03-06 00:49:50",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Charon_Class_Battleship_Top_View.jpg"
+    "disk_filename": "Charon_Class_Battleship_Top_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Charon_Class_Battleship_Top_View.jpg"
   },
   {
     "image_name": "ChevalierArmoredPersonnelCarrier1.jpg",
@@ -2586,7 +2812,9 @@
     "timestamp": "2007-10-09 16:44:36",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ChevalierArmoredPersonnelCarrier1.jpg"
+    "disk_filename": "ChevalierArmoredPersonnelCarrier1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ChevalierArmoredPersonnelCarrier1.jpg"
   },
   {
     "image_name": "ChevalierArmoredPersonnelCarrier2.jpg",
@@ -2599,7 +2827,9 @@
     "timestamp": "2007-10-09 16:47:22",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ChevalierArmoredPersonnelCarrier2.jpg"
+    "disk_filename": "ChevalierArmoredPersonnelCarrier2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ChevalierArmoredPersonnelCarrier2.jpg"
   },
   {
     "image_name": "ChileFlag.jpg",
@@ -2638,7 +2868,9 @@
     "timestamp": "2009-05-03 03:14:27",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Cinaed_Neoframe_Project_Front_View.png"
+    "disk_filename": "Cinaed_Neoframe_Project_Front_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Cinaed_Neoframe_Project_Front_View.png"
   },
   {
     "image_name": "Cinaed_Neoframe_Project_Side_View.png",
@@ -2651,7 +2883,9 @@
     "timestamp": "2009-05-03 03:12:45",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Cinaed_Neoframe_Project_Side_View.png"
+    "disk_filename": "Cinaed_Neoframe_Project_Side_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Cinaed_Neoframe_Project_Side_View.png"
   },
   {
     "image_name": "Cinaed_Neoframe_Project_Standard_View.png",
@@ -2664,7 +2898,9 @@
     "timestamp": "2009-04-13 04:10:27",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Cinaed_Neoframe_Project_Standard_View.png"
+    "disk_filename": "Cinaed_Neoframe_Project_Standard_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Cinaed_Neoframe_Project_Standard_View.png"
   },
   {
     "image_name": "Cinaed_Neoframe_Project_Top_View.png",
@@ -2677,7 +2913,9 @@
     "timestamp": "2009-05-03 03:13:56",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Cinaed_Neoframe_Project_Top_View.png"
+    "disk_filename": "Cinaed_Neoframe_Project_Top_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Cinaed_Neoframe_Project_Top_View.png"
   },
   {
     "image_name": "CiranArmsCompanyLogo.png",
@@ -2920,7 +3158,9 @@
     "timestamp": "2007-10-10 01:03:17",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "DasherLightHovertank1.jpg"
+    "disk_filename": "DasherLightHovertank1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/DasherLightHovertank1.jpg"
   },
   {
     "image_name": "DasherLightHovertank2.jpg",
@@ -2933,7 +3173,9 @@
     "timestamp": "2007-10-10 01:03:42",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "DasherLightHovertank2.jpg"
+    "disk_filename": "DasherLightHovertank2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/DasherLightHovertank2.jpg"
   },
   {
     "image_name": "Dauntless_Class_Destroyer_Side_View.jpg",
@@ -2946,7 +3188,9 @@
     "timestamp": "2008-08-20 09:15:09",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Dauntless_Class_Destroyer_Side_View.jpg"
+    "disk_filename": "Dauntless_Class_Destroyer_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Dauntless_Class_Destroyer_Side_View.jpg"
   },
   {
     "image_name": "Dauntless_Class_Destroyer_Standard_View.jpg",
@@ -2959,7 +3203,9 @@
     "timestamp": "2008-08-20 08:47:57",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Dauntless_Class_Destroyer_Standard_View.jpg"
+    "disk_filename": "Dauntless_Class_Destroyer_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Dauntless_Class_Destroyer_Standard_View.jpg"
   },
   {
     "image_name": "Dauntless_Class_Destroyer_Top_View.jpg",
@@ -2972,7 +3218,9 @@
     "timestamp": "2008-08-20 09:15:47",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Dauntless_Class_Destroyer_Top_View.jpg"
+    "disk_filename": "Dauntless_Class_Destroyer_Top_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Dauntless_Class_Destroyer_Top_View.jpg"
   },
   {
     "image_name": "Delphinus_Class_Subspace_Cruiser_Side_View.jpg",
@@ -2985,7 +3233,9 @@
     "timestamp": "2008-11-10 04:35:49",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Delphinus_Class_Subspace_Cruiser_Side_View.jpg"
+    "disk_filename": "Delphinus_Class_Subspace_Cruiser_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Delphinus_Class_Subspace_Cruiser_Side_View.jpg"
   },
   {
     "image_name": "Delphinus_Class_Subspace_Cruiser_Standard_View.jpg",
@@ -2998,7 +3248,9 @@
     "timestamp": "2008-11-10 04:35:15",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Delphinus_Class_Subspace_Cruiser_Standard_View.jpg"
+    "disk_filename": "Delphinus_Class_Subspace_Cruiser_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Delphinus_Class_Subspace_Cruiser_Standard_View.jpg"
   },
   {
     "image_name": "Delphinus_Class_Subspace_Cruiser_Top_View.jpg",
@@ -3011,7 +3263,9 @@
     "timestamp": "2008-11-10 04:37:13",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Delphinus_Class_Subspace_Cruiser_Top_View.jpg"
+    "disk_filename": "Delphinus_Class_Subspace_Cruiser_Top_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Delphinus_Class_Subspace_Cruiser_Top_View.jpg"
   },
   {
     "image_name": "DelstichClassCruiser1.jpg",
@@ -3024,7 +3278,9 @@
     "timestamp": "2007-10-04 15:28:06",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "DelstichClassCruiser1.jpg"
+    "disk_filename": "DelstichClassCruiser1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/DelstichClassCruiser1.jpg"
   },
   {
     "image_name": "DelstichClassCruiser2.jpg",
@@ -3037,7 +3293,9 @@
     "timestamp": "2007-10-04 15:28:19",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "DelstichClassCruiser2.jpg"
+    "disk_filename": "DelstichClassCruiser2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/DelstichClassCruiser2.jpg"
   },
   {
     "image_name": "DelstichClassCruiser3.jpg",
@@ -3050,7 +3308,9 @@
     "timestamp": "2007-10-04 15:28:39",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "DelstichClassCruiser3.jpg"
+    "disk_filename": "DelstichClassCruiser3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/DelstichClassCruiser3.jpg"
   },
   {
     "image_name": "DeltaClassMissileFrigate1.jpg",
@@ -3063,7 +3323,9 @@
     "timestamp": "2007-10-10 23:43:09",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "DeltaClassMissileFrigate1.jpg"
+    "disk_filename": "DeltaClassMissileFrigate1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/DeltaClassMissileFrigate1.jpg"
   },
   {
     "image_name": "DeltaClassMissileFrigate2.jpg",
@@ -3076,7 +3338,9 @@
     "timestamp": "2007-10-10 23:43:40",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "DeltaClassMissileFrigate2.jpg"
+    "disk_filename": "DeltaClassMissileFrigate2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/DeltaClassMissileFrigate2.jpg"
   },
   {
     "image_name": "DeltaClassMissileFrigate3.jpg",
@@ -3089,7 +3353,9 @@
     "timestamp": "2007-10-10 23:44:04",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "DeltaClassMissileFrigate3.jpg"
+    "disk_filename": "DeltaClassMissileFrigate3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/DeltaClassMissileFrigate3.jpg"
   },
   {
     "image_name": "Die-Befreier-Söhne.gif",
@@ -3116,7 +3382,9 @@
     "timestamp": "2007-10-10 00:49:21",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "DolchLightCombatVehicle1.jpg"
+    "disk_filename": "DolchLightCombatVehicle1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/DolchLightCombatVehicle1.jpg"
   },
   {
     "image_name": "DolchLightCombatVehicle2.jpg",
@@ -3129,7 +3397,9 @@
     "timestamp": "2007-10-10 00:49:37",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "DolchLightCombatVehicle2.jpg"
+    "disk_filename": "DolchLightCombatVehicle2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/DolchLightCombatVehicle2.jpg"
   },
   {
     "image_name": "DragoonLightCombatVehicle1.jpg",
@@ -3142,7 +3412,9 @@
     "timestamp": "2007-10-10 00:52:07",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "DragoonLightCombatVehicle1.jpg"
+    "disk_filename": "DragoonLightCombatVehicle1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/DragoonLightCombatVehicle1.jpg"
   },
   {
     "image_name": "DragoonLightCombatVehicle2.jpg",
@@ -3155,7 +3427,9 @@
     "timestamp": "2007-10-10 00:52:30",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "DragoonLightCombatVehicle2.jpg"
+    "disk_filename": "DragoonLightCombatVehicle2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/DragoonLightCombatVehicle2.jpg"
   },
   {
     "image_name": "Dulität.jpg",
@@ -3267,7 +3541,9 @@
     "timestamp": "2007-08-07 04:36:14",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Eituk_A.jpg"
+    "disk_filename": "Eituk_A.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Eituk_A.jpg"
   },
   {
     "image_name": "Eituk_B.jpg",
@@ -3280,7 +3556,9 @@
     "timestamp": "2007-08-07 04:36:35",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Eituk_B.jpg"
+    "disk_filename": "Eituk_B.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Eituk_B.jpg"
   },
   {
     "image_name": "Emil_Torsc_Face_Portrait.png",
@@ -3323,7 +3601,9 @@
     "timestamp": "2007-10-10 00:41:46",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "EnforcerMediumArmoredCar1.jpg"
+    "disk_filename": "EnforcerMediumArmoredCar1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/EnforcerMediumArmoredCar1.jpg"
   },
   {
     "image_name": "EnforcerMediumArmoredCar2.jpg",
@@ -3336,7 +3616,9 @@
     "timestamp": "2007-10-10 00:42:12",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "EnforcerMediumArmoredCar2.jpg"
+    "disk_filename": "EnforcerMediumArmoredCar2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/EnforcerMediumArmoredCar2.jpg"
   },
   {
     "image_name": "EnforcerMediumArmoredCar3.jpg",
@@ -3349,7 +3631,9 @@
     "timestamp": "2007-10-10 00:42:34",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "EnforcerMediumArmoredCar3.jpg"
+    "disk_filename": "EnforcerMediumArmoredCar3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/EnforcerMediumArmoredCar3.jpg"
   },
   {
     "image_name": "EnifuClassFrigate1.jpg",
@@ -3362,7 +3646,9 @@
     "timestamp": "2007-10-11 19:10:26",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "EnifuClassFrigate1.jpg"
+    "disk_filename": "EnifuClassFrigate1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/EnifuClassFrigate1.jpg"
   },
   {
     "image_name": "EnifuClassFrigate2.jpg",
@@ -3375,7 +3661,9 @@
     "timestamp": "2007-10-11 19:10:59",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "EnifuClassFrigate2.jpg"
+    "disk_filename": "EnifuClassFrigate2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/EnifuClassFrigate2.jpg"
   },
   {
     "image_name": "EnifuClassFrigate3.jpg",
@@ -3388,7 +3676,9 @@
     "timestamp": "2007-10-11 19:11:21",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "EnifuClassFrigate3.jpg"
+    "disk_filename": "EnifuClassFrigate3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/EnifuClassFrigate3.jpg"
   },
   {
     "image_name": "Estelis_from_orbit.png",
@@ -3429,7 +3719,9 @@
     "timestamp": "2009-04-07 21:41:17",
     "description": "Auellal Mongrel Starmaster.",
     "exists_on_disk": true,
-    "disk_filename": "Eye_of_the_Tempest.png"
+    "disk_filename": "Eye_of_the_Tempest.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Eye_of_the_Tempest.png"
   },
   {
     "image_name": "Eye_of_the_Twilight.png",
@@ -3455,7 +3747,9 @@
     "timestamp": "2008-11-14 08:37:48",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "F-11_Stuka_Front_View.png"
+    "disk_filename": "F-11_Stuka_Front_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/F-11_Stuka_Front_View.png"
   },
   {
     "image_name": "F-11_Stuka_Standard_View.png",
@@ -3468,7 +3762,9 @@
     "timestamp": "2008-11-14 08:37:24",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "F-11_Stuka_Standard_View.png"
+    "disk_filename": "F-11_Stuka_Standard_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/F-11_Stuka_Standard_View.png"
   },
   {
     "image_name": "F-11_Stuka_Top_View.png",
@@ -3481,7 +3777,9 @@
     "timestamp": "2008-11-14 08:38:24",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "F-11_Stuka_Top_View.png"
+    "disk_filename": "F-11_Stuka_Top_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/F-11_Stuka_Top_View.png"
   },
   {
     "image_name": "F-16Piranha_A.jpg",
@@ -3494,7 +3792,9 @@
     "timestamp": "2007-08-07 11:40:26",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "F-16Piranha_A.jpg"
+    "disk_filename": "F-16Piranha_A.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/F-16Piranha_A.jpg"
   },
   {
     "image_name": "F-16Piranha_B.jpg",
@@ -3507,7 +3807,9 @@
     "timestamp": "2007-08-07 11:41:02",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "F-16Piranha_B.jpg"
+    "disk_filename": "F-16Piranha_B.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/F-16Piranha_B.jpg"
   },
   {
     "image_name": "F-16Piranha_C.jpg",
@@ -3520,7 +3822,9 @@
     "timestamp": "2007-08-07 11:42:29",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "F-16Piranha_C.jpg"
+    "disk_filename": "F-16Piranha_C.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/F-16Piranha_C.jpg"
   },
   {
     "image_name": "F-9_Valkyrie_Front_View.png",
@@ -3533,7 +3837,9 @@
     "timestamp": "2008-11-14 07:29:51",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "F-9_Valkyrie_Front_View.png"
+    "disk_filename": "F-9_Valkyrie_Front_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/F-9_Valkyrie_Front_View.png"
   },
   {
     "image_name": "F-9_Valkyrie_Standard_View.png",
@@ -3546,7 +3852,9 @@
     "timestamp": "2008-11-14 07:29:21",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "F-9_Valkyrie_Standard_View.png"
+    "disk_filename": "F-9_Valkyrie_Standard_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/F-9_Valkyrie_Standard_View.png"
   },
   {
     "image_name": "F-9_Valkyrie_Top_View.png",
@@ -3559,7 +3867,9 @@
     "timestamp": "2008-11-14 07:30:08",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "F-9_Valkyrie_Top_View.png"
+    "disk_filename": "F-9_Valkyrie_Top_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/F-9_Valkyrie_Top_View.png"
   },
   {
     "image_name": "F04Raven1.jpg",
@@ -3572,7 +3882,9 @@
     "timestamp": "2007-10-09 13:28:58",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "F04Raven1.jpg"
+    "disk_filename": "F04Raven1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/F04Raven1.jpg"
   },
   {
     "image_name": "F04Raven2.jpg",
@@ -3585,7 +3897,9 @@
     "timestamp": "2007-10-09 13:36:38",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "F04Raven2.jpg"
+    "disk_filename": "F04Raven2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/F04Raven2.jpg"
   },
   {
     "image_name": "F12Vampire1.jpg",
@@ -3598,7 +3912,9 @@
     "timestamp": "2007-10-09 14:51:41",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "F12Vampire1.jpg"
+    "disk_filename": "F12Vampire1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/F12Vampire1.jpg"
   },
   {
     "image_name": "F12Vampire2.jpg",
@@ -3637,7 +3953,9 @@
     "timestamp": "2007-10-04 12:23:31",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "FDSJudicator1.jpg"
+    "disk_filename": "FDSJudicator1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/FDSJudicator1.jpg"
   },
   {
     "image_name": "FDSJudicator2.jpg",
@@ -3650,7 +3968,9 @@
     "timestamp": "2007-10-04 12:23:47",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "FDSJudicator2.jpg"
+    "disk_filename": "FDSJudicator2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/FDSJudicator2.jpg"
   },
   {
     "image_name": "FDSJudicator3.jpg",
@@ -3663,7 +3983,9 @@
     "timestamp": "2007-10-04 12:24:02",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "FDSJudicator3.jpg"
+    "disk_filename": "FDSJudicator3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/FDSJudicator3.jpg"
   },
   {
     "image_name": "FDS_Bastion_Standard_View.jpg",
@@ -3676,7 +3998,9 @@
     "timestamp": "2008-09-12 21:09:40",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "FDS_Bastion_Standard_View.jpg"
+    "disk_filename": "FDS_Bastion_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/FDS_Bastion_Standard_View.jpg"
   },
   {
     "image_name": "Fafnir1.jpg",
@@ -3689,7 +4013,9 @@
     "timestamp": "2007-10-09 12:08:34",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Fafnir1.jpg"
+    "disk_filename": "Fafnir1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Fafnir1.jpg"
   },
   {
     "image_name": "Fearless.png",
@@ -3728,7 +4054,9 @@
     "timestamp": "2007-10-10 01:00:45",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "FerretMultipurposeVehicle1.jpg"
+    "disk_filename": "FerretMultipurposeVehicle1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/FerretMultipurposeVehicle1.jpg"
   },
   {
     "image_name": "FerretMultipurposeVehicle2.jpg",
@@ -3741,7 +4069,9 @@
     "timestamp": "2007-10-10 01:01:07",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "FerretMultipurposeVehicle2.jpg"
+    "disk_filename": "FerretMultipurposeVehicle2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/FerretMultipurposeVehicle2.jpg"
   },
   {
     "image_name": "FinlandFlag.jpg",
@@ -3793,7 +4123,9 @@
     "timestamp": "2007-10-10 01:11:50",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "FireSuppressionVehicle1.jpg"
+    "disk_filename": "FireSuppressionVehicle1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/FireSuppressionVehicle1.jpg"
   },
   {
     "image_name": "FireSuppressionVehicle2.jpg",
@@ -3806,7 +4138,9 @@
     "timestamp": "2007-10-10 01:12:07",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "FireSuppressionVehicle2.jpg"
+    "disk_filename": "FireSuppressionVehicle2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/FireSuppressionVehicle2.jpg"
   },
   {
     "image_name": "Firebird.png",
@@ -3889,7 +4223,9 @@
     "timestamp": "2007-10-09 18:02:12",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "FlailSupportVehicle1.jpg"
+    "disk_filename": "FlailSupportVehicle1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/FlailSupportVehicle1.jpg"
   },
   {
     "image_name": "FlailSupportVehicle2.jpg",
@@ -3902,7 +4238,9 @@
     "timestamp": "2007-10-09 18:03:07",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "FlailSupportVehicle2.jpg"
+    "disk_filename": "FlailSupportVehicle2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/FlailSupportVehicle2.jpg"
   },
   {
     "image_name": "FlailSupportVehicle3.jpg",
@@ -3915,7 +4253,9 @@
     "timestamp": "2007-10-09 18:03:56",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "FlailSupportVehicle3.jpg"
+    "disk_filename": "FlailSupportVehicle3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/FlailSupportVehicle3.jpg"
   },
   {
     "image_name": "FlorentineHovertank1.jpg",
@@ -3928,7 +4268,9 @@
     "timestamp": "2008-06-01 07:56:34",
     "description": "New tank!",
     "exists_on_disk": true,
-    "disk_filename": "FlorentineHovertank1.jpg"
+    "disk_filename": "FlorentineHovertank1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/FlorentineHovertank1.jpg"
   },
   {
     "image_name": "FlorentineHovertank2.jpg",
@@ -3941,7 +4283,9 @@
     "timestamp": "2008-06-01 07:54:28",
     "description": "Tank for the Berlusconi",
     "exists_on_disk": true,
-    "disk_filename": "FlorentineHovertank2.jpg"
+    "disk_filename": "FlorentineHovertank2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/FlorentineHovertank2.jpg"
   },
   {
     "image_name": "FranceFlag.jpg",
@@ -3967,7 +4311,9 @@
     "timestamp": "2007-10-11 00:10:19",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "GaivikClassCorvette1.jpg"
+    "disk_filename": "GaivikClassCorvette1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/GaivikClassCorvette1.jpg"
   },
   {
     "image_name": "GaivikClassCorvette2.jpg",
@@ -3980,7 +4326,9 @@
     "timestamp": "2007-10-11 00:10:47",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "GaivikClassCorvette2.jpg"
+    "disk_filename": "GaivikClassCorvette2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/GaivikClassCorvette2.jpg"
   },
   {
     "image_name": "GaivikClassCorvette3.jpg",
@@ -3993,7 +4341,9 @@
     "timestamp": "2007-10-11 00:11:00",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "GaivikClassCorvette3.jpg"
+    "disk_filename": "GaivikClassCorvette3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/GaivikClassCorvette3.jpg"
   },
   {
     "image_name": "GatrirClassFreighter1.jpg",
@@ -4006,7 +4356,9 @@
     "timestamp": "2007-10-04 13:39:45",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "GatrirClassFreighter1.jpg"
+    "disk_filename": "GatrirClassFreighter1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/GatrirClassFreighter1.jpg"
   },
   {
     "image_name": "GatrirClassFreighter2.jpg",
@@ -4019,7 +4371,9 @@
     "timestamp": "2007-10-04 13:40:17",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "GatrirClassFreighter2.jpg"
+    "disk_filename": "GatrirClassFreighter2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/GatrirClassFreighter2.jpg"
   },
   {
     "image_name": "GatrirClassFreighter3.jpg",
@@ -4032,7 +4386,9 @@
     "timestamp": "2007-10-04 13:40:33",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "GatrirClassFreighter3.jpg"
+    "disk_filename": "GatrirClassFreighter3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/GatrirClassFreighter3.jpg"
   },
   {
     "image_name": "GermanFlag.jpg",
@@ -4071,7 +4427,9 @@
     "timestamp": "2008-02-21 17:41:55",
     "description": "Gremlin class Gunship, by Andrew Sears, based of model by Austin Bailey.",
     "exists_on_disk": true,
-    "disk_filename": "Gremlin.png"
+    "disk_filename": "Gremlin.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Gremlin.png"
   },
   {
     "image_name": "GriasiiClassBattleship1.jpg",
@@ -4084,7 +4442,9 @@
     "timestamp": "2007-10-11 00:15:14",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "GriasiiClassBattleship1.jpg"
+    "disk_filename": "GriasiiClassBattleship1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/GriasiiClassBattleship1.jpg"
   },
   {
     "image_name": "GriasiiClassBattleship2.jpg",
@@ -4097,7 +4457,9 @@
     "timestamp": "2007-10-11 00:15:54",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "GriasiiClassBattleship2.jpg"
+    "disk_filename": "GriasiiClassBattleship2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/GriasiiClassBattleship2.jpg"
   },
   {
     "image_name": "GriasiiClassBattleship3.jpg",
@@ -4110,7 +4472,9 @@
     "timestamp": "2007-10-11 00:16:27",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "GriasiiClassBattleship3.jpg"
+    "disk_filename": "GriasiiClassBattleship3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/GriasiiClassBattleship3.jpg"
   },
   {
     "image_name": "GrizzlyPortableFieldGun1.jpg",
@@ -4123,7 +4487,9 @@
     "timestamp": "2007-10-10 00:44:46",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "GrizzlyPortableFieldGun1.jpg"
+    "disk_filename": "GrizzlyPortableFieldGun1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/GrizzlyPortableFieldGun1.jpg"
   },
   {
     "image_name": "GrizzlyPortableFieldGun2.jpg",
@@ -4136,7 +4502,9 @@
     "timestamp": "2007-10-10 00:46:26",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "GrizzlyPortableFieldGun2.jpg"
+    "disk_filename": "GrizzlyPortableFieldGun2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/GrizzlyPortableFieldGun2.jpg"
   },
   {
     "image_name": "GrizzlyPortableFieldGun3.jpg",
@@ -4149,7 +4517,9 @@
     "timestamp": "2007-10-10 00:46:47",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "GrizzlyPortableFieldGun3.jpg"
+    "disk_filename": "GrizzlyPortableFieldGun3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/GrizzlyPortableFieldGun3.jpg"
   },
   {
     "image_name": "GuatemalaFlag.jpg",
@@ -4175,7 +4545,9 @@
     "timestamp": "2007-10-04 15:06:20",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "GunsniperClassCorvette1.jpg"
+    "disk_filename": "GunsniperClassCorvette1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/GunsniperClassCorvette1.jpg"
   },
   {
     "image_name": "GunsniperClassCorvette2.jpg",
@@ -4188,7 +4560,9 @@
     "timestamp": "2007-10-04 15:06:44",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "GunsniperClassCorvette2.jpg"
+    "disk_filename": "GunsniperClassCorvette2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/GunsniperClassCorvette2.jpg"
   },
   {
     "image_name": "GunsniperClassCorvette3.jpg",
@@ -4201,7 +4575,9 @@
     "timestamp": "2007-10-04 15:07:02",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "GunsniperClassCorvette3.jpg"
+    "disk_filename": "GunsniperClassCorvette3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/GunsniperClassCorvette3.jpg"
   },
   {
     "image_name": "GuppyLightUtilityVehicle1.jpg",
@@ -4214,7 +4590,9 @@
     "timestamp": "2007-10-10 00:38:52",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "GuppyLightUtilityVehicle1.jpg"
+    "disk_filename": "GuppyLightUtilityVehicle1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/GuppyLightUtilityVehicle1.jpg"
   },
   {
     "image_name": "GuppyLightUtilityVehicle2.jpg",
@@ -4227,7 +4605,9 @@
     "timestamp": "2007-10-10 00:39:12",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "GuppyLightUtilityVehicle2.jpg"
+    "disk_filename": "GuppyLightUtilityVehicle2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/GuppyLightUtilityVehicle2.jpg"
   },
   {
     "image_name": "HAZARDS.jpg",
@@ -4253,7 +4633,9 @@
     "timestamp": "2007-10-11 00:41:56",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HF310ClassCorvette1.jpg"
+    "disk_filename": "HF310ClassCorvette1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HF310ClassCorvette1.jpg"
   },
   {
     "image_name": "HF310ClassCorvette2.jpg",
@@ -4266,7 +4648,9 @@
     "timestamp": "2007-10-11 00:42:40",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HF310ClassCorvette2.jpg"
+    "disk_filename": "HF310ClassCorvette2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HF310ClassCorvette2.jpg"
   },
   {
     "image_name": "HF310ClassCorvette3.jpg",
@@ -4279,7 +4663,9 @@
     "timestamp": "2007-10-11 00:43:06",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HF310ClassCorvette3.jpg"
+    "disk_filename": "HF310ClassCorvette3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HF310ClassCorvette3.jpg"
   },
   {
     "image_name": "HMSIronHand1.jpg",
@@ -4292,7 +4678,9 @@
     "timestamp": "2007-10-04 12:18:00",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HMSIronHand1.jpg"
+    "disk_filename": "HMSIronHand1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HMSIronHand1.jpg"
   },
   {
     "image_name": "HMSIronHand2.jpg",
@@ -4305,7 +4693,9 @@
     "timestamp": "2007-10-04 12:18:24",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HMSIronHand2.jpg"
+    "disk_filename": "HMSIronHand2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HMSIronHand2.jpg"
   },
   {
     "image_name": "HMSIronHand3.jpg",
@@ -4318,7 +4708,9 @@
     "timestamp": "2007-10-04 12:19:04",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HMSIronHand3.jpg"
+    "disk_filename": "HMSIronHand3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HMSIronHand3.jpg"
   },
   {
     "image_name": "HMSMonarch1.jpg",
@@ -4463,7 +4855,9 @@
     "timestamp": "2007-10-10 01:28:47",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HeavyExpandableTacticalTruck1.jpg"
+    "disk_filename": "HeavyExpandableTacticalTruck1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HeavyExpandableTacticalTruck1.jpg"
   },
   {
     "image_name": "HeavyExpandableTacticalTruck2.jpg",
@@ -4476,7 +4870,9 @@
     "timestamp": "2007-10-10 01:29:14",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HeavyExpandableTacticalTruck2.jpg"
+    "disk_filename": "HeavyExpandableTacticalTruck2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HeavyExpandableTacticalTruck2.jpg"
   },
   {
     "image_name": "HeavyExpandableTacticalTruck3.jpg",
@@ -4489,7 +4885,9 @@
     "timestamp": "2007-10-10 01:29:46",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HeavyExpandableTacticalTruck3.jpg"
+    "disk_filename": "HeavyExpandableTacticalTruck3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HeavyExpandableTacticalTruck3.jpg"
   },
   {
     "image_name": "HeavyExpandableTacticalTruck4.jpg",
@@ -4502,7 +4900,9 @@
     "timestamp": "2007-10-10 01:30:54",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HeavyExpandableTacticalTruck4.jpg"
+    "disk_filename": "HeavyExpandableTacticalTruck4.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HeavyExpandableTacticalTruck4.jpg"
   },
   {
     "image_name": "HeavyExpandableTacticalTruck5.jpg",
@@ -4515,7 +4915,9 @@
     "timestamp": "2007-10-10 01:32:03",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HeavyExpandableTacticalTruck5.jpg"
+    "disk_filename": "HeavyExpandableTacticalTruck5.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HeavyExpandableTacticalTruck5.jpg"
   },
   {
     "image_name": "HeavyExpandableTacticalTruck6.jpg",
@@ -4528,7 +4930,9 @@
     "timestamp": "2007-10-10 01:32:34",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HeavyExpandableTacticalTruck6.jpg"
+    "disk_filename": "HeavyExpandableTacticalTruck6.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HeavyExpandableTacticalTruck6.jpg"
   },
   {
     "image_name": "HeavyExpandableTacticalTruck7.jpg",
@@ -4541,7 +4945,9 @@
     "timestamp": "2007-10-10 01:33:18",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HeavyExpandableTacticalTruck7.jpg"
+    "disk_filename": "HeavyExpandableTacticalTruck7.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HeavyExpandableTacticalTruck7.jpg"
   },
   {
     "image_name": "HeavyExpandableTacticalTruck8.jpg",
@@ -4554,7 +4960,9 @@
     "timestamp": "2007-10-10 01:33:44",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HeavyExpandableTacticalTruck8.jpg"
+    "disk_filename": "HeavyExpandableTacticalTruck8.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HeavyExpandableTacticalTruck8.jpg"
   },
   {
     "image_name": "HeavySalvageRig1.jpg",
@@ -4567,7 +4975,9 @@
     "timestamp": "2007-10-10 01:24:29",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HeavySalvageRig1.jpg"
+    "disk_filename": "HeavySalvageRig1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HeavySalvageRig1.jpg"
   },
   {
     "image_name": "HeavySalvageRig2.jpg",
@@ -4580,7 +4990,9 @@
     "timestamp": "2007-10-10 01:24:55",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HeavySalvageRig2.jpg"
+    "disk_filename": "HeavySalvageRig2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HeavySalvageRig2.jpg"
   },
   {
     "image_name": "HectorPoweredArmor.jpg",
@@ -4685,7 +5097,9 @@
     "timestamp": "2007-10-11 00:23:37",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HerculesClassArmedMerchantman1.jpg"
+    "disk_filename": "HerculesClassArmedMerchantman1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HerculesClassArmedMerchantman1.jpg"
   },
   {
     "image_name": "HerculesClassArmedMerchantman2.jpg",
@@ -4698,7 +5112,9 @@
     "timestamp": "2007-10-11 00:24:11",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HerculesClassArmedMerchantman2.jpg"
+    "disk_filename": "HerculesClassArmedMerchantman2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HerculesClassArmedMerchantman2.jpg"
   },
   {
     "image_name": "HerculesClassArmedMerchantman3.jpg",
@@ -4711,7 +5127,9 @@
     "timestamp": "2007-10-11 00:24:31",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HerculesClassArmedMerchantman3.jpg"
+    "disk_filename": "HerculesClassArmedMerchantman3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HerculesClassArmedMerchantman3.jpg"
   },
   {
     "image_name": "HerculesClassGunship1.jpg",
@@ -4724,7 +5142,9 @@
     "timestamp": "2007-10-11 00:29:42",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HerculesClassGunship1.jpg"
+    "disk_filename": "HerculesClassGunship1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HerculesClassGunship1.jpg"
   },
   {
     "image_name": "HerculesClassGunship2.jpg",
@@ -4737,7 +5157,9 @@
     "timestamp": "2007-10-11 00:30:22",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HerculesClassGunship2.jpg"
+    "disk_filename": "HerculesClassGunship2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HerculesClassGunship2.jpg"
   },
   {
     "image_name": "HerculesClassGunship3.jpg",
@@ -4750,7 +5172,9 @@
     "timestamp": "2007-10-11 00:30:48",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HerculesClassGunship3.jpg"
+    "disk_filename": "HerculesClassGunship3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HerculesClassGunship3.jpg"
   },
   {
     "image_name": "HerculesClassMissileCorvette1.jpg",
@@ -4763,7 +5187,9 @@
     "timestamp": "2007-10-11 00:33:23",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HerculesClassMissileCorvette1.jpg"
+    "disk_filename": "HerculesClassMissileCorvette1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HerculesClassMissileCorvette1.jpg"
   },
   {
     "image_name": "HerculesClassMissileCorvette2.jpg",
@@ -4776,7 +5202,9 @@
     "timestamp": "2007-10-11 00:34:18",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HerculesClassMissileCorvette2.jpg"
+    "disk_filename": "HerculesClassMissileCorvette2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HerculesClassMissileCorvette2.jpg"
   },
   {
     "image_name": "HerculesClassMissileCorvette3.jpg",
@@ -4789,7 +5217,9 @@
     "timestamp": "2007-10-11 00:34:42",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HerculesClassMissileCorvette3.jpg"
+    "disk_filename": "HerculesClassMissileCorvette3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HerculesClassMissileCorvette3.jpg"
   },
   {
     "image_name": "HerculesClassModularWarship1.jpg",
@@ -4802,7 +5232,9 @@
     "timestamp": "2007-10-11 00:26:30",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HerculesClassModularWarship1.jpg"
+    "disk_filename": "HerculesClassModularWarship1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HerculesClassModularWarship1.jpg"
   },
   {
     "image_name": "HerculesClassModularWarship2.jpg",
@@ -4815,7 +5247,9 @@
     "timestamp": "2007-10-11 00:26:58",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HerculesClassModularWarship2.jpg"
+    "disk_filename": "HerculesClassModularWarship2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HerculesClassModularWarship2.jpg"
   },
   {
     "image_name": "HerculesClassModularWarship3.jpg",
@@ -4828,7 +5262,9 @@
     "timestamp": "2007-10-11 00:27:22",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HerculesClassModularWarship3.jpg"
+    "disk_filename": "HerculesClassModularWarship3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HerculesClassModularWarship3.jpg"
   },
   {
     "image_name": "HinksStarknight.png",
@@ -4934,7 +5370,9 @@
     "timestamp": "2007-10-11 00:38:46",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HunterClassAmphibiousAssaultCruiser1.jpg"
+    "disk_filename": "HunterClassAmphibiousAssaultCruiser1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HunterClassAmphibiousAssaultCruiser1.jpg"
   },
   {
     "image_name": "HunterClassAmphibiousAssaultCruiser2.jpg",
@@ -4947,7 +5385,9 @@
     "timestamp": "2007-10-11 00:39:55",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HunterClassAmphibiousAssaultCruiser2.jpg"
+    "disk_filename": "HunterClassAmphibiousAssaultCruiser2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HunterClassAmphibiousAssaultCruiser2.jpg"
   },
   {
     "image_name": "HunterClassAmphibiousAssaultCruiser3.jpg",
@@ -4960,7 +5400,9 @@
     "timestamp": "2007-10-11 00:39:35",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HunterClassAmphibiousAssaultCruiser3.jpg"
+    "disk_filename": "HunterClassAmphibiousAssaultCruiser3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HunterClassAmphibiousAssaultCruiser3.jpg"
   },
   {
     "image_name": "Huorak_H.png",
@@ -4986,7 +5428,9 @@
     "timestamp": "2009-02-21 03:03:13",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Hydra_Class_Battleship_Front_View.jpg"
+    "disk_filename": "Hydra_Class_Battleship_Front_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Hydra_Class_Battleship_Front_View.jpg"
   },
   {
     "image_name": "Hydra_Class_Battleship_Side_View.jpg",
@@ -4999,7 +5443,9 @@
     "timestamp": "2009-02-21 03:02:01",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Hydra_Class_Battleship_Side_View.jpg"
+    "disk_filename": "Hydra_Class_Battleship_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Hydra_Class_Battleship_Side_View.jpg"
   },
   {
     "image_name": "Hydra_Class_Battleship_Standard_View.jpg",
@@ -5012,7 +5458,9 @@
     "timestamp": "2009-02-21 03:00:54",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Hydra_Class_Battleship_Standard_View.jpg"
+    "disk_filename": "Hydra_Class_Battleship_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Hydra_Class_Battleship_Standard_View.jpg"
   },
   {
     "image_name": "Hydra_Class_Battleship_Top_View.jpg",
@@ -5025,7 +5473,9 @@
     "timestamp": "2009-02-21 16:04:30",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Hydra_Class_Battleship_Top_View.jpg"
+    "disk_filename": "Hydra_Class_Battleship_Top_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Hydra_Class_Battleship_Top_View.jpg"
   },
   {
     "image_name": "Hydra_schematics.jpg",
@@ -5116,7 +5566,9 @@
     "timestamp": "2007-10-11 00:50:41",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "IndomitableClassLightCruiser1.jpg"
+    "disk_filename": "IndomitableClassLightCruiser1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/IndomitableClassLightCruiser1.jpg"
   },
   {
     "image_name": "IndomitableClassLightCruiser2.jpg",
@@ -5129,7 +5581,9 @@
     "timestamp": "2007-10-11 00:50:55",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "IndomitableClassLightCruiser2.jpg"
+    "disk_filename": "IndomitableClassLightCruiser2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/IndomitableClassLightCruiser2.jpg"
   },
   {
     "image_name": "IndomitableClassLightCruiser3.jpg",
@@ -5142,7 +5596,9 @@
     "timestamp": "2007-10-11 00:51:07",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "IndomitableClassLightCruiser3.jpg"
+    "disk_filename": "IndomitableClassLightCruiser3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/IndomitableClassLightCruiser3.jpg"
   },
   {
     "image_name": "InkscapeTutorial1.png",
@@ -5348,7 +5804,9 @@
     "timestamp": "2009-03-07 21:05:59",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Jerome_Black_Class_Battleship_Side_View.jpg"
+    "disk_filename": "Jerome_Black_Class_Battleship_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Jerome_Black_Class_Battleship_Side_View.jpg"
   },
   {
     "image_name": "Jerome_Black_Class_Battleship_Standard_View.jpg",
@@ -5361,7 +5819,9 @@
     "timestamp": "2009-03-07 21:05:43",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Jerome_Black_Class_Battleship_Standard_View.jpg"
+    "disk_filename": "Jerome_Black_Class_Battleship_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Jerome_Black_Class_Battleship_Standard_View.jpg"
   },
   {
     "image_name": "Jerome_Black_Class_Battleship_Top_View.jpg",
@@ -5374,7 +5834,9 @@
     "timestamp": "2009-03-07 21:06:13",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Jerome_Black_Class_Battleship_Top_View.jpg"
+    "disk_filename": "Jerome_Black_Class_Battleship_Top_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Jerome_Black_Class_Battleship_Top_View.jpg"
   },
   {
     "image_name": "JosephusTowedArtilleryGun1.jpg",
@@ -5387,7 +5849,9 @@
     "timestamp": "2007-10-10 01:22:28",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "JosephusTowedArtilleryGun1.jpg"
+    "disk_filename": "JosephusTowedArtilleryGun1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/JosephusTowedArtilleryGun1.jpg"
   },
   {
     "image_name": "JosephusTowedArtilleryGun2.jpg",
@@ -5400,7 +5864,9 @@
     "timestamp": "2007-10-10 01:22:53",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "JosephusTowedArtilleryGun2.jpg"
+    "disk_filename": "JosephusTowedArtilleryGun2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/JosephusTowedArtilleryGun2.jpg"
   },
   {
     "image_name": "KBW-Finished-1.JPG",
@@ -5518,7 +5984,9 @@
     "timestamp": "2007-10-09 17:56:38",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "KarakLightHovertank1.jpg"
+    "disk_filename": "KarakLightHovertank1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/KarakLightHovertank1.jpg"
   },
   {
     "image_name": "KarakLightHovertank2.jpg",
@@ -5531,7 +5999,9 @@
     "timestamp": "2007-10-09 17:57:07",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "KarakLightHovertank2.jpg"
+    "disk_filename": "KarakLightHovertank2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/KarakLightHovertank2.jpg"
   },
   {
     "image_name": "KeinmagsClassHeavyDestroyer1.jpg",
@@ -5544,7 +6014,9 @@
     "timestamp": "2007-10-11 14:22:18",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "KeinmagsClassHeavyDestroyer1.jpg"
+    "disk_filename": "KeinmagsClassHeavyDestroyer1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/KeinmagsClassHeavyDestroyer1.jpg"
   },
   {
     "image_name": "KeinmagsClassHeavyDestroyer2.jpg",
@@ -5557,7 +6029,9 @@
     "timestamp": "2007-10-11 14:22:59",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "KeinmagsClassHeavyDestroyer2.jpg"
+    "disk_filename": "KeinmagsClassHeavyDestroyer2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/KeinmagsClassHeavyDestroyer2.jpg"
   },
   {
     "image_name": "KeinmagsClassHeavyDestroyer3.jpg",
@@ -5570,7 +6044,9 @@
     "timestamp": "2007-10-11 14:23:14",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "KeinmagsClassHeavyDestroyer3.jpg"
+    "disk_filename": "KeinmagsClassHeavyDestroyer3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/KeinmagsClassHeavyDestroyer3.jpg"
   },
   {
     "image_name": "Kieel.png",
@@ -5596,7 +6072,9 @@
     "timestamp": "2009-05-27 07:53:06",
     "description": "Tischler, dual seated.",
     "exists_on_disk": true,
-    "disk_filename": "Km-4D_Tischler.png"
+    "disk_filename": "Km-4D_Tischler.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Km-4D_Tischler.png"
   },
   {
     "image_name": "Km-4P_Tischler.png",
@@ -5609,7 +6087,9 @@
     "timestamp": "2009-05-27 07:54:02",
     "description": "Tischler, Pursuit variation.",
     "exists_on_disk": true,
-    "disk_filename": "Km-4P_Tischler.png"
+    "disk_filename": "Km-4P_Tischler.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Km-4P_Tischler.png"
   },
   {
     "image_name": "Km-4_Tischler.png",
@@ -5622,7 +6102,9 @@
     "timestamp": "2009-05-26 03:34:34",
     "description": "Re-coloured.",
     "exists_on_disk": true,
-    "disk_filename": "Km-4_Tischler.png"
+    "disk_filename": "Km-4_Tischler.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Km-4_Tischler.png"
   },
   {
     "image_name": "Km-4_Tischler_top.png",
@@ -5648,7 +6130,9 @@
     "timestamp": "2009-06-29 04:11:07",
     "description": "Skullskinner",
     "exists_on_disk": true,
-    "disk_filename": "Km-4xx_Tischler.png"
+    "disk_filename": "Km-4xx_Tischler.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Km-4xx_Tischler.png"
   },
   {
     "image_name": "Km-5_Drache.png",
@@ -5661,7 +6145,9 @@
     "timestamp": "2009-10-11 21:47:52",
     "description": "Km-5 Drache",
     "exists_on_disk": true,
-    "disk_filename": "Km-5_Drache.png"
+    "disk_filename": "Km-5_Drache.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Km-5_Drache.png"
   },
   {
     "image_name": "Knochen-von-Ezekiel.gif",
@@ -5687,7 +6173,9 @@
     "timestamp": "2007-10-10 23:47:00",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Kondo'jahaziainaDuma'kapungu1.jpg"
+    "disk_filename": "Kondo'jahaziainaDuma'kapungu1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Kondo'jahaziainaDuma'kapungu1.jpg"
   },
   {
     "image_name": "Kondo'jahaziainaDuma'kapungu2.jpg",
@@ -5700,7 +6188,9 @@
     "timestamp": "2007-10-10 23:48:05",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Kondo'jahaziainaDuma'kapungu2.jpg"
+    "disk_filename": "Kondo'jahaziainaDuma'kapungu2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Kondo'jahaziainaDuma'kapungu2.jpg"
   },
   {
     "image_name": "Kondo'jahaziainaDuma'kapungu3.jpg",
@@ -5713,7 +6203,9 @@
     "timestamp": "2007-10-10 23:48:58",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Kondo'jahaziainaDuma'kapungu3.jpg"
+    "disk_filename": "Kondo'jahaziainaDuma'kapungu3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Kondo'jahaziainaDuma'kapungu3.jpg"
   },
   {
     "image_name": "Kondo'jahaziainaMafutuni1.jpg",
@@ -5726,7 +6218,9 @@
     "timestamp": "2007-10-11 15:13:54",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Kondo'jahaziainaMafutuni1.jpg"
+    "disk_filename": "Kondo'jahaziainaMafutuni1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Kondo'jahaziainaMafutuni1.jpg"
   },
   {
     "image_name": "Kondo'jahaziainaMafutuni2.jpg",
@@ -5739,7 +6233,9 @@
     "timestamp": "2007-10-11 15:14:34",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Kondo'jahaziainaMafutuni2.jpg"
+    "disk_filename": "Kondo'jahaziainaMafutuni2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Kondo'jahaziainaMafutuni2.jpg"
   },
   {
     "image_name": "Kondo'jahaziainaMafutuni3.jpg",
@@ -5752,7 +6248,9 @@
     "timestamp": "2007-10-11 15:14:55",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Kondo'jahaziainaMafutuni3.jpg"
+    "disk_filename": "Kondo'jahaziainaMafutuni3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Kondo'jahaziainaMafutuni3.jpg"
   },
   {
     "image_name": "Kondo'jahaziainaNvodu'pweza1.jpg",
@@ -5765,7 +6263,9 @@
     "timestamp": "2007-10-11 15:23:23",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Kondo'jahaziainaNvodu'pweza1.jpg"
+    "disk_filename": "Kondo'jahaziainaNvodu'pweza1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Kondo'jahaziainaNvodu'pweza1.jpg"
   },
   {
     "image_name": "Kondo'jahaziainaNvodu'pweza2.jpg",
@@ -5778,7 +6278,9 @@
     "timestamp": "2007-10-11 15:24:58",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Kondo'jahaziainaNvodu'pweza2.jpg"
+    "disk_filename": "Kondo'jahaziainaNvodu'pweza2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Kondo'jahaziainaNvodu'pweza2.jpg"
   },
   {
     "image_name": "Kondo'jahaziainaNvodu'pweza3.jpg",
@@ -5791,7 +6293,9 @@
     "timestamp": "2007-10-11 15:25:13",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Kondo'jahaziainaNvodu'pweza3.jpg"
+    "disk_filename": "Kondo'jahaziainaNvodu'pweza3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Kondo'jahaziainaNvodu'pweza3.jpg"
   },
   {
     "image_name": "Konstas.jpg",
@@ -5804,7 +6308,9 @@
     "timestamp": "2008-09-05 02:50:21",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Konstas.jpg"
+    "disk_filename": "Konstas.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Konstas.jpg"
   },
   {
     "image_name": "KoreaFlag.jpg",
@@ -5887,7 +6393,9 @@
     "timestamp": "2007-08-07 10:10:37",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "L-14Octavius_A.jpg"
+    "disk_filename": "L-14Octavius_A.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/L-14Octavius_A.jpg"
   },
   {
     "image_name": "L-14Octavius_B.jpg",
@@ -5900,7 +6408,9 @@
     "timestamp": "2007-08-07 10:10:52",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "L-14Octavius_B.jpg"
+    "disk_filename": "L-14Octavius_B.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/L-14Octavius_B.jpg"
   },
   {
     "image_name": "L-3Aurelius_A.jpg",
@@ -5913,7 +6423,9 @@
     "timestamp": "2007-08-07 11:28:39",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "L-3Aurelius_A.jpg"
+    "disk_filename": "L-3Aurelius_A.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/L-3Aurelius_A.jpg"
   },
   {
     "image_name": "L-3Aurelius_B.jpg",
@@ -5926,7 +6438,9 @@
     "timestamp": "2007-08-07 11:28:54",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "L-3Aurelius_B.jpg"
+    "disk_filename": "L-3Aurelius_B.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/L-3Aurelius_B.jpg"
   },
   {
     "image_name": "LASKirov1.jpg",
@@ -5939,7 +6453,9 @@
     "timestamp": "2007-10-11 14:28:42",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "LASKirov1.jpg"
+    "disk_filename": "LASKirov1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/LASKirov1.jpg"
   },
   {
     "image_name": "LASKirov2.jpg",
@@ -5952,7 +6468,9 @@
     "timestamp": "2007-10-11 14:27:13",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "LASKirov2.jpg"
+    "disk_filename": "LASKirov2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/LASKirov2.jpg"
   },
   {
     "image_name": "LASKirov3.jpg",
@@ -5965,7 +6483,9 @@
     "timestamp": "2007-10-11 14:26:42",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "LASKirov3.jpg"
+    "disk_filename": "LASKirov3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/LASKirov3.jpg"
   },
   {
     "image_name": "LeagueofNationsFlag.jpg",
@@ -6087,7 +6607,9 @@
     "timestamp": "2007-10-10 23:29:57",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "LorrodivanClassBattleCarrier1.jpg"
+    "disk_filename": "LorrodivanClassBattleCarrier1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/LorrodivanClassBattleCarrier1.jpg"
   },
   {
     "image_name": "LorrodivanClassBattleCarrier2.jpg",
@@ -6100,7 +6622,9 @@
     "timestamp": "2007-10-10 23:30:56",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "LorrodivanClassBattleCarrier2.jpg"
+    "disk_filename": "LorrodivanClassBattleCarrier2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/LorrodivanClassBattleCarrier2.jpg"
   },
   {
     "image_name": "LorrodivanClassBattleCarrier3.jpg",
@@ -6113,7 +6637,9 @@
     "timestamp": "2007-10-10 23:31:11",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "LorrodivanClassBattleCarrier3.jpg"
+    "disk_filename": "LorrodivanClassBattleCarrier3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/LorrodivanClassBattleCarrier3.jpg"
   },
   {
     "image_name": "Lucius_Black_Face_Portrait.png",
@@ -6170,7 +6696,9 @@
     "timestamp": "2007-08-07 10:38:43",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M-12Hades_A.jpg"
+    "disk_filename": "M-12Hades_A.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M-12Hades_A.jpg"
   },
   {
     "image_name": "M-12Hades_B.jpg",
@@ -6183,7 +6711,9 @@
     "timestamp": "2007-08-07 10:39:37",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M-12Hades_B.jpg"
+    "disk_filename": "M-12Hades_B.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M-12Hades_B.jpg"
   },
   {
     "image_name": "M-18Apollo_A.jpg",
@@ -6196,7 +6726,9 @@
     "timestamp": "2007-08-07 10:33:42",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M-18Apollo_A.jpg"
+    "disk_filename": "M-18Apollo_A.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M-18Apollo_A.jpg"
   },
   {
     "image_name": "M-18Apollo_B.jpg",
@@ -6209,7 +6741,9 @@
     "timestamp": "2007-08-07 10:33:59",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M-18Apollo_B.jpg"
+    "disk_filename": "M-18Apollo_B.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M-18Apollo_B.jpg"
   },
   {
     "image_name": "M-20Grendel_A.jpg",
@@ -6222,7 +6756,9 @@
     "timestamp": "2007-08-09 08:30:04",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M-20Grendel_A.jpg"
+    "disk_filename": "M-20Grendel_A.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M-20Grendel_A.jpg"
   },
   {
     "image_name": "M-20Grendel_B.jpg",
@@ -6235,7 +6771,9 @@
     "timestamp": "2007-08-09 08:30:45",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M-20Grendel_B.jpg"
+    "disk_filename": "M-20Grendel_B.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M-20Grendel_B.jpg"
   },
   {
     "image_name": "M-22Bradshaw_A.jpg",
@@ -6248,7 +6786,9 @@
     "timestamp": "2007-08-07 10:45:52",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M-22Bradshaw_A.jpg"
+    "disk_filename": "M-22Bradshaw_A.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M-22Bradshaw_A.jpg"
   },
   {
     "image_name": "M-22Bradshaw_B.jpg",
@@ -6261,7 +6801,9 @@
     "timestamp": "2007-08-07 10:45:25",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M-22Bradshaw_B.jpg"
+    "disk_filename": "M-22Bradshaw_B.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M-22Bradshaw_B.jpg"
   },
   {
     "image_name": "M-5Hercules_A.jpg",
@@ -6274,7 +6816,9 @@
     "timestamp": "2007-08-07 10:53:56",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M-5Hercules_A.jpg"
+    "disk_filename": "M-5Hercules_A.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M-5Hercules_A.jpg"
   },
   {
     "image_name": "M-5Hercules_B.jpg",
@@ -6287,7 +6831,9 @@
     "timestamp": "2007-08-07 10:54:33",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M-5Hercules_B.jpg"
+    "disk_filename": "M-5Hercules_B.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M-5Hercules_B.jpg"
   },
   {
     "image_name": "M-7Zeus_A.jpg",
@@ -6300,7 +6846,9 @@
     "timestamp": "2007-08-07 10:49:32",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M-7Zeus_A.jpg"
+    "disk_filename": "M-7Zeus_A.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M-7Zeus_A.jpg"
   },
   {
     "image_name": "M-7Zeus_B.jpg",
@@ -6313,7 +6861,9 @@
     "timestamp": "2007-08-07 10:50:15",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M-7Zeus_B.jpg"
+    "disk_filename": "M-7Zeus_B.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M-7Zeus_B.jpg"
   },
   {
     "image_name": "M11SAW.jpg",
@@ -6369,7 +6919,9 @@
     "timestamp": "2007-10-09 22:03:41",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M20Wolverine1.jpg"
+    "disk_filename": "M20Wolverine1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M20Wolverine1.jpg"
   },
   {
     "image_name": "M20Wolverine2.jpg",
@@ -6382,7 +6934,9 @@
     "timestamp": "2007-10-09 22:04:13",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M20Wolverine2.jpg"
+    "disk_filename": "M20Wolverine2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M20Wolverine2.jpg"
   },
   {
     "image_name": "M32Badger1.jpg",
@@ -6395,7 +6949,9 @@
     "timestamp": "2007-10-10 00:01:31",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M32Badger1.jpg"
+    "disk_filename": "M32Badger1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M32Badger1.jpg"
   },
   {
     "image_name": "M32Badger2.jpg",
@@ -6408,7 +6964,9 @@
     "timestamp": "2007-10-10 00:01:52",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M32Badger2.jpg"
+    "disk_filename": "M32Badger2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M32Badger2.jpg"
   },
   {
     "image_name": "M33Goblin1.jpg",
@@ -6421,7 +6979,9 @@
     "timestamp": "2007-10-10 00:56:08",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M33Goblin1.jpg"
+    "disk_filename": "M33Goblin1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M33Goblin1.jpg"
   },
   {
     "image_name": "M33Goblin2.jpg",
@@ -6434,7 +6994,9 @@
     "timestamp": "2007-10-10 00:56:24",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M33Goblin2.jpg"
+    "disk_filename": "M33Goblin2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M33Goblin2.jpg"
   },
   {
     "image_name": "M33Goblin3.jpg",
@@ -6447,7 +7009,9 @@
     "timestamp": "2007-10-10 00:56:42",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M33Goblin3.jpg"
+    "disk_filename": "M33Goblin3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M33Goblin3.jpg"
   },
   {
     "image_name": "M34Armadillo1.jpg",
@@ -6460,7 +7024,9 @@
     "timestamp": "2007-10-10 00:05:58",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M34Armadillo1.jpg"
+    "disk_filename": "M34Armadillo1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M34Armadillo1.jpg"
   },
   {
     "image_name": "M34Armadillo2.jpg",
@@ -6473,7 +7039,9 @@
     "timestamp": "2007-10-10 00:06:13",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M34Armadillo2.jpg"
+    "disk_filename": "M34Armadillo2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M34Armadillo2.jpg"
   },
   {
     "image_name": "M35UtilityTruck1.jpg",
@@ -6486,7 +7054,9 @@
     "timestamp": "2007-10-09 22:09:10",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M35UtilityTruck1.jpg"
+    "disk_filename": "M35UtilityTruck1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M35UtilityTruck1.jpg"
   },
   {
     "image_name": "M35UtilityTruck2.jpg",
@@ -6499,7 +7069,9 @@
     "timestamp": "2007-10-09 22:09:59",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M35UtilityTruck2.jpg"
+    "disk_filename": "M35UtilityTruck2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M35UtilityTruck2.jpg"
   },
   {
     "image_name": "M37Dragon1.jpg",
@@ -6512,7 +7084,9 @@
     "timestamp": "2007-10-09 16:53:12",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M37Dragon1.jpg"
+    "disk_filename": "M37Dragon1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M37Dragon1.jpg"
   },
   {
     "image_name": "M37Dragon2.jpg",
@@ -6525,7 +7099,9 @@
     "timestamp": "2007-10-09 16:58:27",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M37Dragon2.jpg"
+    "disk_filename": "M37Dragon2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M37Dragon2.jpg"
   },
   {
     "image_name": "M38Warlord1.jpg",
@@ -6538,7 +7114,9 @@
     "timestamp": "2007-10-09 18:15:03",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M38Warlord1.jpg"
+    "disk_filename": "M38Warlord1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M38Warlord1.jpg"
   },
   {
     "image_name": "M38Warlord2.jpg",
@@ -6551,7 +7129,9 @@
     "timestamp": "2007-10-09 18:15:54",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "M38Warlord2.jpg"
+    "disk_filename": "M38Warlord2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/M38Warlord2.jpg"
   },
   {
     "image_name": "MF-Grunt.png",
@@ -6642,7 +7222,9 @@
     "timestamp": "2009-06-08 08:46:13",
     "description": "The Mesarthrim Federation Aigar.",
     "exists_on_disk": true,
-    "disk_filename": "MF_Aigar.png"
+    "disk_filename": "MF_Aigar.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/MF_Aigar.png"
   },
   {
     "image_name": "MF_Banshee.png",
@@ -6655,7 +7237,9 @@
     "timestamp": "2009-06-08 08:41:03",
     "description": "The Mesarthrim Federation's Banshee.",
     "exists_on_disk": true,
-    "disk_filename": "MF_Banshee.png"
+    "disk_filename": "MF_Banshee.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/MF_Banshee.png"
   },
   {
     "image_name": "MF_Clansguard.png",
@@ -6668,7 +7252,9 @@
     "timestamp": "2009-06-08 08:42:04",
     "description": "The Mesarthrim Federation Clansguard.",
     "exists_on_disk": true,
-    "disk_filename": "MF_Clansguard.png"
+    "disk_filename": "MF_Clansguard.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/MF_Clansguard.png"
   },
   {
     "image_name": "MF_Stormforge.png",
@@ -6681,7 +7267,9 @@
     "timestamp": "2009-06-08 08:47:47",
     "description": "The Mesarthrim Federation Stormforge.",
     "exists_on_disk": true,
-    "disk_filename": "MF_Stormforge.png"
+    "disk_filename": "MF_Stormforge.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/MF_Stormforge.png"
   },
   {
     "image_name": "MF_Stormgod.png",
@@ -6694,7 +7282,9 @@
     "timestamp": "2009-06-08 08:51:46",
     "description": "The Mesarthrim Federation Stormgod.",
     "exists_on_disk": true,
-    "disk_filename": "MF_Stormgod.png"
+    "disk_filename": "MF_Stormgod.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/MF_Stormgod.png"
   },
   {
     "image_name": "Manta1.jpg",
@@ -6707,7 +7297,9 @@
     "timestamp": "2007-10-09 14:58:27",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Manta1.jpg"
+    "disk_filename": "Manta1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Manta1.jpg"
   },
   {
     "image_name": "Manta2.jpg",
@@ -6720,7 +7312,9 @@
     "timestamp": "2007-10-09 14:58:40",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Manta2.jpg"
+    "disk_filename": "Manta2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Manta2.jpg"
   },
   {
     "image_name": "Marcus_Rathbone_Coming_Home.png",
@@ -6828,7 +7422,9 @@
     "timestamp": "2007-08-09 03:44:39",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Me-123Sanburn_A.jpg"
+    "disk_filename": "Me-123Sanburn_A.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Me-123Sanburn_A.jpg"
   },
   {
     "image_name": "Me-123Sanburn_B.jpg",
@@ -6841,7 +7437,9 @@
     "timestamp": "2007-08-09 03:45:16",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Me-123Sanburn_B.jpg"
+    "disk_filename": "Me-123Sanburn_B.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Me-123Sanburn_B.jpg"
   },
   {
     "image_name": "Me-39Schleiffen_A.jpg",
@@ -6854,7 +7452,9 @@
     "timestamp": "2007-08-07 10:18:44",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Me-39Schleiffen_A.jpg"
+    "disk_filename": "Me-39Schleiffen_A.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Me-39Schleiffen_A.jpg"
   },
   {
     "image_name": "Me-39Schleiffen_B.jpg",
@@ -6867,7 +7467,9 @@
     "timestamp": "2007-08-07 10:19:20",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Me-39Schleiffen_B.jpg"
+    "disk_filename": "Me-39Schleiffen_B.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Me-39Schleiffen_B.jpg"
   },
   {
     "image_name": "Me-39Schleiffen_C.jpg",
@@ -6880,7 +7482,9 @@
     "timestamp": "2007-08-07 10:18:26",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Me-39Schleiffen_C.jpg"
+    "disk_filename": "Me-39Schleiffen_C.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Me-39Schleiffen_C.jpg"
   },
   {
     "image_name": "Me-47Richthofen_A.jpg",
@@ -6893,7 +7497,9 @@
     "timestamp": "2007-08-07 10:20:01",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Me-47Richthofen_A.jpg"
+    "disk_filename": "Me-47Richthofen_A.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Me-47Richthofen_A.jpg"
   },
   {
     "image_name": "Me-47Richthofen_B.jpg",
@@ -6906,7 +7512,9 @@
     "timestamp": "2007-08-07 10:20:17",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Me-47Richthofen_B.jpg"
+    "disk_filename": "Me-47Richthofen_B.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Me-47Richthofen_B.jpg"
   },
   {
     "image_name": "Me140Sherman1.jpg",
@@ -6919,7 +7527,9 @@
     "timestamp": "2007-10-09 14:39:04",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Me140Sherman1.jpg"
+    "disk_filename": "Me140Sherman1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Me140Sherman1.jpg"
   },
   {
     "image_name": "Me140Sherman2.jpg",
@@ -6932,7 +7542,9 @@
     "timestamp": "2007-10-09 14:39:25",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Me140Sherman2.jpg"
+    "disk_filename": "Me140Sherman2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Me140Sherman2.jpg"
   },
   {
     "image_name": "Me32Patton1.jpg",
@@ -6945,7 +7557,9 @@
     "timestamp": "2007-10-17 15:28:04",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Me32Patton1.jpg"
+    "disk_filename": "Me32Patton1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Me32Patton1.jpg"
   },
   {
     "image_name": "Me32Patton2.jpg",
@@ -6958,7 +7572,9 @@
     "timestamp": "2007-10-17 15:27:38",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Me32Patton2.jpg"
+    "disk_filename": "Me32Patton2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Me32Patton2.jpg"
   },
   {
     "image_name": "Me32Patton3.jpg",
@@ -6971,7 +7587,9 @@
     "timestamp": "2007-10-17 15:28:19",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Me32Patton3.jpg"
+    "disk_filename": "Me32Patton3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Me32Patton3.jpg"
   },
   {
     "image_name": "Me32Patton4.jpg",
@@ -6984,7 +7602,9 @@
     "timestamp": "2007-10-17 15:28:33",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Me32Patton4.jpg"
+    "disk_filename": "Me32Patton4.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Me32Patton4.jpg"
   },
   {
     "image_name": "Me46Dragonfly1.jpg",
@@ -6997,7 +7617,9 @@
     "timestamp": "2007-10-09 14:32:58",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Me46Dragonfly1.jpg"
+    "disk_filename": "Me46Dragonfly1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Me46Dragonfly1.jpg"
   },
   {
     "image_name": "Me46Dragonfly2.jpg",
@@ -7010,7 +7632,9 @@
     "timestamp": "2007-10-09 14:33:25",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Me46Dragonfly2.jpg"
+    "disk_filename": "Me46Dragonfly2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Me46Dragonfly2.jpg"
   },
   {
     "image_name": "Me78Anox1.jpg",
@@ -7023,7 +7647,9 @@
     "timestamp": "2007-10-09 11:54:01",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Me78Anox1.jpg"
+    "disk_filename": "Me78Anox1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Me78Anox1.jpg"
   },
   {
     "image_name": "Me78Anox2.jpg",
@@ -7036,7 +7662,9 @@
     "timestamp": "2007-10-09 11:54:29",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Me78Anox2.jpg"
+    "disk_filename": "Me78Anox2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Me78Anox2.jpg"
   },
   {
     "image_name": "Mercury_Class_Transport_Side_View.png",
@@ -7049,7 +7677,9 @@
     "timestamp": "2008-11-04 00:47:38",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Mercury_Class_Transport_Side_View.png"
+    "disk_filename": "Mercury_Class_Transport_Side_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Mercury_Class_Transport_Side_View.png"
   },
   {
     "image_name": "Mercury_Class_Transport_Standard_View.png",
@@ -7062,7 +7692,9 @@
     "timestamp": "2008-11-04 00:43:51",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Mercury_Class_Transport_Standard_View.png"
+    "disk_filename": "Mercury_Class_Transport_Standard_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Mercury_Class_Transport_Standard_View.png"
   },
   {
     "image_name": "Mercury_Class_Transport_Top_View.png",
@@ -7075,7 +7707,9 @@
     "timestamp": "2008-11-04 00:50:10",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Mercury_Class_Transport_Top_View.png"
+    "disk_filename": "Mercury_Class_Transport_Top_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Mercury_Class_Transport_Top_View.png"
   },
   {
     "image_name": "MercyClassHospitalShip1.jpg",
@@ -7088,7 +7722,9 @@
     "timestamp": "2007-10-04 13:48:14",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "MercyClassHospitalShip1.jpg"
+    "disk_filename": "MercyClassHospitalShip1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/MercyClassHospitalShip1.jpg"
   },
   {
     "image_name": "MercyClassHospitalShip2.jpg",
@@ -7101,7 +7737,9 @@
     "timestamp": "2007-10-04 13:48:29",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "MercyClassHospitalShip2.jpg"
+    "disk_filename": "MercyClassHospitalShip2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/MercyClassHospitalShip2.jpg"
   },
   {
     "image_name": "MercyClassHospitalShip3.jpg",
@@ -7114,7 +7752,9 @@
     "timestamp": "2007-10-04 13:48:50",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "MercyClassHospitalShip3.jpg"
+    "disk_filename": "MercyClassHospitalShip3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/MercyClassHospitalShip3.jpg"
   },
   {
     "image_name": "Merkurius1.jpg",
@@ -7127,7 +7767,9 @@
     "timestamp": "2007-10-09 13:59:26",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Merkurius1.jpg"
+    "disk_filename": "Merkurius1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Merkurius1.jpg"
   },
   {
     "image_name": "Merkurius2.jpg",
@@ -7140,7 +7782,9 @@
     "timestamp": "2007-10-09 13:59:55",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Merkurius2.jpg"
+    "disk_filename": "Merkurius2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Merkurius2.jpg"
   },
   {
     "image_name": "MeroniriTerinasiFlag.png",
@@ -7314,7 +7958,9 @@
     "timestamp": "2009-02-17 15:29:53",
     "description": "Avenger, post Mesarthrim refit.",
     "exists_on_disk": true,
-    "disk_filename": "MesarthrimAvenger.png"
+    "disk_filename": "MesarthrimAvenger.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/MesarthrimAvenger.png"
   },
   {
     "image_name": "MesarthrimDelta.png",
@@ -7424,7 +8070,9 @@
     "timestamp": "2007-10-03 17:34:36",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Mosquito1.jpg"
+    "disk_filename": "Mosquito1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Mosquito1.jpg"
   },
   {
     "image_name": "Myt'gaul.jpg",
@@ -7641,7 +8289,9 @@
     "timestamp": "2007-10-03 21:16:40",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "NGVGuiseppeGaribaldi1.jpg"
+    "disk_filename": "NGVGuiseppeGaribaldi1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/NGVGuiseppeGaribaldi1.jpg"
   },
   {
     "image_name": "NGVGuiseppeGaribaldi2.jpg",
@@ -7654,7 +8304,9 @@
     "timestamp": "2007-10-03 21:48:18",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "NGVGuiseppeGaribaldi2.jpg"
+    "disk_filename": "NGVGuiseppeGaribaldi2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/NGVGuiseppeGaribaldi2.jpg"
   },
   {
     "image_name": "NGVGuiseppeGaribaldi3.jpg",
@@ -7667,7 +8319,9 @@
     "timestamp": "2007-10-03 21:53:02",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "NGVGuiseppeGaribaldi3.jpg"
+    "disk_filename": "NGVGuiseppeGaribaldi3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/NGVGuiseppeGaribaldi3.jpg"
   },
   {
     "image_name": "Naginata1.jpg",
@@ -7680,7 +8334,9 @@
     "timestamp": "2007-10-09 13:54:46",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Naginata1.jpg"
+    "disk_filename": "Naginata1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Naginata1.jpg"
   },
   {
     "image_name": "Naginata2.jpg",
@@ -7693,7 +8349,9 @@
     "timestamp": "2007-10-09 13:54:58",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Naginata2.jpg"
+    "disk_filename": "Naginata2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Naginata2.jpg"
   },
   {
     "image_name": "NakamuraFlag.png",
@@ -7720,7 +8378,9 @@
     "timestamp": "2007-10-04 13:51:39",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "NarwhalClassLandingShip1.jpg"
+    "disk_filename": "NarwhalClassLandingShip1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/NarwhalClassLandingShip1.jpg"
   },
   {
     "image_name": "NarwhalClassLandingShip2.jpg",
@@ -7733,7 +8393,9 @@
     "timestamp": "2007-10-04 13:51:27",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "NarwhalClassLandingShip2.jpg"
+    "disk_filename": "NarwhalClassLandingShip2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/NarwhalClassLandingShip2.jpg"
   },
   {
     "image_name": "NarwhalClassLandingShip3.jpg",
@@ -7746,7 +8408,9 @@
     "timestamp": "2007-10-04 13:52:04",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "NarwhalClassLandingShip3.jpg"
+    "disk_filename": "NarwhalClassLandingShip3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/NarwhalClassLandingShip3.jpg"
   },
   {
     "image_name": "Nautilus_Class_Subspace_Prowler_Side_View.jpg",
@@ -7759,7 +8423,9 @@
     "timestamp": "2008-11-10 04:35:25",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Nautilus_Class_Subspace_Prowler_Side_View.jpg"
+    "disk_filename": "Nautilus_Class_Subspace_Prowler_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Nautilus_Class_Subspace_Prowler_Side_View.jpg"
   },
   {
     "image_name": "Nautilus_Class_Subspace_Prowler_Standard_View.jpg",
@@ -7772,7 +8438,9 @@
     "timestamp": "2008-11-10 04:35:07",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Nautilus_Class_Subspace_Prowler_Standard_View.jpg"
+    "disk_filename": "Nautilus_Class_Subspace_Prowler_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Nautilus_Class_Subspace_Prowler_Standard_View.jpg"
   },
   {
     "image_name": "Nautilus_Class_Subspace_Prowler_Top_View.jpg",
@@ -7785,7 +8453,9 @@
     "timestamp": "2008-11-10 04:35:38",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Nautilus_Class_Subspace_Prowler_Top_View.jpg"
+    "disk_filename": "Nautilus_Class_Subspace_Prowler_Top_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Nautilus_Class_Subspace_Prowler_Top_View.jpg"
   },
   {
     "image_name": "Neoframe.png",
@@ -7863,7 +8533,9 @@
     "timestamp": "2007-10-03 17:37:54",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Nightingale1.jpg"
+    "disk_filename": "Nightingale1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Nightingale1.jpg"
   },
   {
     "image_name": "Nigrotaegoliath.jpg",
@@ -7915,7 +8587,9 @@
     "timestamp": "2008-01-24 04:36:36",
     "description": "The Nimitz class Gunship by Austin Bailey, re-recreated by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Nimitz.png"
+    "disk_filename": "Nimitz.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Nimitz.png"
   },
   {
     "image_name": "Nimitz_and_Starbound.png",
@@ -7954,7 +8628,9 @@
     "timestamp": "2007-10-04 12:11:27",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Ninarikebu1.jpg"
+    "disk_filename": "Ninarikebu1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Ninarikebu1.jpg"
   },
   {
     "image_name": "Ninarikebu2.jpg",
@@ -7967,7 +8643,9 @@
     "timestamp": "2007-10-04 12:11:45",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Ninarikebu2.jpg"
+    "disk_filename": "Ninarikebu2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Ninarikebu2.jpg"
   },
   {
     "image_name": "Ninarikebu3.jpg",
@@ -7980,7 +8658,9 @@
     "timestamp": "2007-10-04 12:12:04",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Ninarikebu3.jpg"
+    "disk_filename": "Ninarikebu3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Ninarikebu3.jpg"
   },
   {
     "image_name": "NorwayFlag.jpg",
@@ -8020,7 +8700,9 @@
     "timestamp": "2007-10-09 13:52:05",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Nyek'undu1.jpg"
+    "disk_filename": "Nyek'undu1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Nyek'undu1.jpg"
   },
   {
     "image_name": "Nyek'undu2.jpg",
@@ -8033,7 +8715,9 @@
     "timestamp": "2007-10-09 13:52:29",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Nyek'undu2.jpg"
+    "disk_filename": "Nyek'undu2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Nyek'undu2.jpg"
   },
   {
     "image_name": "O-26Milrok_A.jpg",
@@ -8046,7 +8730,9 @@
     "timestamp": "2007-08-07 04:20:39",
     "description": "Milrok, standard profile",
     "exists_on_disk": true,
-    "disk_filename": "O-26Milrok_A.jpg"
+    "disk_filename": "O-26Milrok_A.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/O-26Milrok_A.jpg"
   },
   {
     "image_name": "O-26Milrok_B.jpg",
@@ -8059,7 +8745,9 @@
     "timestamp": "2007-08-07 04:21:02",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "O-26Milrok_B.jpg"
+    "disk_filename": "O-26Milrok_B.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/O-26Milrok_B.jpg"
   },
   {
     "image_name": "OdashiClassHeavyFrigate1.jpg",
@@ -8072,7 +8760,9 @@
     "timestamp": "2007-10-11 16:22:24",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OdashiClassHeavyFrigate1.jpg"
+    "disk_filename": "OdashiClassHeavyFrigate1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OdashiClassHeavyFrigate1.jpg"
   },
   {
     "image_name": "OdashiClassHeavyFrigate2.jpg",
@@ -8085,7 +8775,9 @@
     "timestamp": "2007-10-11 16:22:43",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OdashiClassHeavyFrigate2.jpg"
+    "disk_filename": "OdashiClassHeavyFrigate2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OdashiClassHeavyFrigate2.jpg"
   },
   {
     "image_name": "OdashiClassHeavyFrigate3.jpg",
@@ -8098,7 +8790,9 @@
     "timestamp": "2007-10-11 16:23:04",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OdashiClassHeavyFrigate3.jpg"
+    "disk_filename": "OdashiClassHeavyFrigate3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OdashiClassHeavyFrigate3.jpg"
   },
   {
     "image_name": "OldAnsibleTransceiver.jpg",
@@ -8137,7 +8831,9 @@
     "timestamp": "2007-10-11 16:48:36",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OltvakClassCarrier1.jpg"
+    "disk_filename": "OltvakClassCarrier1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OltvakClassCarrier1.jpg"
   },
   {
     "image_name": "OltvakClassCarrier2.jpg",
@@ -8150,7 +8846,9 @@
     "timestamp": "2007-10-11 16:48:20",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OltvakClassCarrier2.jpg"
+    "disk_filename": "OltvakClassCarrier2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OltvakClassCarrier2.jpg"
   },
   {
     "image_name": "OltvakClassCarrier3.jpg",
@@ -8163,7 +8861,9 @@
     "timestamp": "2007-10-11 16:48:09",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OltvakClassCarrier3.jpg"
+    "disk_filename": "OltvakClassCarrier3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OltvakClassCarrier3.jpg"
   },
   {
     "image_name": "OmarrClassHeavyDestroyer1.jpg",
@@ -8176,7 +8876,9 @@
     "timestamp": "2007-10-11 17:23:16",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OmarrClassHeavyDestroyer1.jpg"
+    "disk_filename": "OmarrClassHeavyDestroyer1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OmarrClassHeavyDestroyer1.jpg"
   },
   {
     "image_name": "OmarrClassHeavyDestroyer2.jpg",
@@ -8189,7 +8891,9 @@
     "timestamp": "2007-10-11 17:24:08",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OmarrClassHeavyDestroyer2.jpg"
+    "disk_filename": "OmarrClassHeavyDestroyer2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OmarrClassHeavyDestroyer2.jpg"
   },
   {
     "image_name": "OmarrClassHeavyDestroyer3.jpg",
@@ -8202,7 +8906,9 @@
     "timestamp": "2007-10-11 17:25:04",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OmarrClassHeavyDestroyer3.jpg"
+    "disk_filename": "OmarrClassHeavyDestroyer3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OmarrClassHeavyDestroyer3.jpg"
   },
   {
     "image_name": "OmegaAgent.jpg",
@@ -8323,7 +9029,9 @@
     "timestamp": "2007-10-04 19:13:31",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OritarClassPatrolShip1.jpg"
+    "disk_filename": "OritarClassPatrolShip1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OritarClassPatrolShip1.jpg"
   },
   {
     "image_name": "OritarClassPatrolShip2.jpg",
@@ -8336,7 +9044,9 @@
     "timestamp": "2007-10-04 19:13:42",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OritarClassPatrolShip2.jpg"
+    "disk_filename": "OritarClassPatrolShip2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OritarClassPatrolShip2.jpg"
   },
   {
     "image_name": "OritarClassPatrolShip3.jpg",
@@ -8349,7 +9059,9 @@
     "timestamp": "2007-10-04 19:14:12",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OritarClassPatrolShip3.jpg"
+    "disk_filename": "OritarClassPatrolShip3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OritarClassPatrolShip3.jpg"
   },
   {
     "image_name": "OronusGuard1.jpg",
@@ -8415,7 +9127,9 @@
     "timestamp": "2007-10-11 19:39:40",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OsritClassFrigate1.jpg"
+    "disk_filename": "OsritClassFrigate1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OsritClassFrigate1.jpg"
   },
   {
     "image_name": "OsritClassFrigate2.jpg",
@@ -8428,7 +9142,9 @@
     "timestamp": "2007-10-11 19:40:09",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OsritClassFrigate2.jpg"
+    "disk_filename": "OsritClassFrigate2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OsritClassFrigate2.jpg"
   },
   {
     "image_name": "OsritClassFrigate3.jpg",
@@ -8441,7 +9157,9 @@
     "timestamp": "2007-10-11 19:40:23",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OsritClassFrigate3.jpg"
+    "disk_filename": "OsritClassFrigate3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OsritClassFrigate3.jpg"
   },
   {
     "image_name": "Overglänser_Class_Dreadnaught_Side_View.jpg",
@@ -8536,7 +9254,9 @@
     "timestamp": "2007-10-11 18:02:08",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PaeriClassCombatCutter1.jpg"
+    "disk_filename": "PaeriClassCombatCutter1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PaeriClassCombatCutter1.jpg"
   },
   {
     "image_name": "PaeriClassCombatCutter2.jpg",
@@ -8549,7 +9269,9 @@
     "timestamp": "2007-10-11 18:02:21",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PaeriClassCombatCutter2.jpg"
+    "disk_filename": "PaeriClassCombatCutter2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PaeriClassCombatCutter2.jpg"
   },
   {
     "image_name": "PaeriClassCombatCutter3.jpg",
@@ -8562,7 +9284,9 @@
     "timestamp": "2007-10-11 18:02:44",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PaeriClassCombatCutter3.jpg"
+    "disk_filename": "PaeriClassCombatCutter3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PaeriClassCombatCutter3.jpg"
   },
   {
     "image_name": "PaladinInfantryFightingVehicle1.jpg",
@@ -8575,7 +9299,9 @@
     "timestamp": "2007-10-10 01:09:03",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PaladinInfantryFightingVehicle1.jpg"
+    "disk_filename": "PaladinInfantryFightingVehicle1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PaladinInfantryFightingVehicle1.jpg"
   },
   {
     "image_name": "PaladinInfantryFightingVehicle2.jpg",
@@ -8588,7 +9314,9 @@
     "timestamp": "2007-10-10 01:09:21",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PaladinInfantryFightingVehicle2.jpg"
+    "disk_filename": "PaladinInfantryFightingVehicle2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PaladinInfantryFightingVehicle2.jpg"
   },
   {
     "image_name": "ParaguayFlag.jpg",
@@ -8642,7 +9370,9 @@
     "timestamp": "2009-08-31 15:30:48",
     "description": "UMC/UCS Pegasus.",
     "exists_on_disk": true,
-    "disk_filename": "Pegasus.png"
+    "disk_filename": "Pegasus.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Pegasus.png"
   },
   {
     "image_name": "PelicanClassFreighter1.jpg",
@@ -8655,7 +9385,9 @@
     "timestamp": "2007-10-04 13:55:10",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PelicanClassFreighter1.jpg"
+    "disk_filename": "PelicanClassFreighter1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PelicanClassFreighter1.jpg"
   },
   {
     "image_name": "PelicanClassFreighter2.jpg",
@@ -8668,7 +9400,9 @@
     "timestamp": "2007-10-04 13:56:00",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PelicanClassFreighter2.jpg"
+    "disk_filename": "PelicanClassFreighter2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PelicanClassFreighter2.jpg"
   },
   {
     "image_name": "PelicanClassFreighter3.jpg",
@@ -8681,7 +9415,9 @@
     "timestamp": "2007-10-04 13:56:37",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PelicanClassFreighter3.jpg"
+    "disk_filename": "PelicanClassFreighter3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PelicanClassFreighter3.jpg"
   },
   {
     "image_name": "PelicanClassFreighter4.jpg",
@@ -8694,7 +9430,9 @@
     "timestamp": "2007-10-04 13:56:54",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PelicanClassFreighter4.jpg"
+    "disk_filename": "PelicanClassFreighter4.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PelicanClassFreighter4.jpg"
   },
   {
     "image_name": "PellicanTransportHovercraft1.jpg",
@@ -8707,7 +9445,9 @@
     "timestamp": "2007-10-10 00:22:08",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PellicanTransportHovercraft1.jpg"
+    "disk_filename": "PellicanTransportHovercraft1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PellicanTransportHovercraft1.jpg"
   },
   {
     "image_name": "PellicanTransportHovercraft2.jpg",
@@ -8720,7 +9460,9 @@
     "timestamp": "2007-10-10 00:22:35",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PellicanTransportHovercraft2.jpg"
+    "disk_filename": "PellicanTransportHovercraft2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PellicanTransportHovercraft2.jpg"
   },
   {
     "image_name": "Penguins.JPG",
@@ -8774,7 +9516,9 @@
     "timestamp": "2007-10-11 18:10:07",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PetrovClassFrigate1.jpg"
+    "disk_filename": "PetrovClassFrigate1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PetrovClassFrigate1.jpg"
   },
   {
     "image_name": "PetrovClassFrigate2.jpg",
@@ -8787,7 +9531,9 @@
     "timestamp": "2007-10-11 18:10:41",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PetrovClassFrigate2.jpg"
+    "disk_filename": "PetrovClassFrigate2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PetrovClassFrigate2.jpg"
   },
   {
     "image_name": "PetrovClassFrigate3.jpg",
@@ -8800,7 +9546,9 @@
     "timestamp": "2007-10-11 18:11:05",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PetrovClassFrigate3.jpg"
+    "disk_filename": "PetrovClassFrigate3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PetrovClassFrigate3.jpg"
   },
   {
     "image_name": "Phaelopendra.jpg",
@@ -9023,7 +9771,9 @@
     "timestamp": "2007-10-10 03:35:38",
     "description": "Behold, PRAETORIA!  Now I am become Death, the destroyer of worlds.",
     "exists_on_disk": true,
-    "disk_filename": "Praetoria_Class.png"
+    "disk_filename": "Praetoria_Class.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Praetoria_Class.png"
   },
   {
     "image_name": "Praetoria_Class_Dome.png",
@@ -9036,7 +9786,9 @@
     "timestamp": "2007-10-10 21:42:09",
     "description": "A view of the enclosed domes on the ''Adoreus'' variant of the Praetoria Class",
     "exists_on_disk": true,
-    "disk_filename": "Praetoria_Class_Dome.png"
+    "disk_filename": "Praetoria_Class_Dome.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Praetoria_Class_Dome.png"
   },
   {
     "image_name": "Praetoria_Class_Front.png",
@@ -9049,7 +9801,9 @@
     "timestamp": "2007-10-10 21:21:32",
     "description": "A front view of the Praetoria Class",
     "exists_on_disk": true,
-    "disk_filename": "Praetoria_Class_Front.png"
+    "disk_filename": "Praetoria_Class_Front.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Praetoria_Class_Front.png"
   },
   {
     "image_name": "Praetoria_Class_Top.png",
@@ -9062,7 +9816,9 @@
     "timestamp": "2007-10-10 21:32:01",
     "description": "A top view of the Praetoria Class",
     "exists_on_disk": true,
-    "disk_filename": "Praetoria_Class_Top.png"
+    "disk_filename": "Praetoria_Class_Top.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Praetoria_Class_Top.png"
   },
   {
     "image_name": "PrefectureFlag.png",
@@ -9156,7 +9912,9 @@
     "timestamp": "2007-10-04 14:06:43",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ProviderClassHauler1.jpg"
+    "disk_filename": "ProviderClassHauler1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ProviderClassHauler1.jpg"
   },
   {
     "image_name": "ProviderClassHauler2.jpg",
@@ -9169,7 +9927,9 @@
     "timestamp": "2007-10-04 14:06:56",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ProviderClassHauler2.jpg"
+    "disk_filename": "ProviderClassHauler2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ProviderClassHauler2.jpg"
   },
   {
     "image_name": "ProviderClassHauler3.jpg",
@@ -9182,7 +9942,9 @@
     "timestamp": "2007-10-04 14:07:06",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ProviderClassHauler3.jpg"
+    "disk_filename": "ProviderClassHauler3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ProviderClassHauler3.jpg"
   },
   {
     "image_name": "Pub-Runners.png",
@@ -9210,7 +9972,9 @@
     "timestamp": "2007-10-04 16:35:17",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PumaMediumTank1.jpg"
+    "disk_filename": "PumaMediumTank1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PumaMediumTank1.jpg"
   },
   {
     "image_name": "PumaMediumTank2.jpg",
@@ -9223,7 +9987,9 @@
     "timestamp": "2007-10-04 16:35:40",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PumaMediumTank2.jpg"
+    "disk_filename": "PumaMediumTank2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PumaMediumTank2.jpg"
   },
   {
     "image_name": "PursuerPolicePatrolVehicle1.jpg",
@@ -9236,7 +10002,9 @@
     "timestamp": "2007-10-10 01:16:44",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PursuerPolicePatrolVehicle1.jpg"
+    "disk_filename": "PursuerPolicePatrolVehicle1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PursuerPolicePatrolVehicle1.jpg"
   },
   {
     "image_name": "PursuerPolicePatrolVehicle2.jpg",
@@ -9249,7 +10017,9 @@
     "timestamp": "2007-10-10 01:17:02",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "PursuerPolicePatrolVehicle2.jpg"
+    "disk_filename": "PursuerPolicePatrolVehicle2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/PursuerPolicePatrolVehicle2.jpg"
   },
   {
     "image_name": "RIAF-Badge.png",
@@ -9346,7 +10116,9 @@
     "timestamp": "2007-10-11 18:25:48",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RangerClassLightAmphibiousCruiser1.jpg"
+    "disk_filename": "RangerClassLightAmphibiousCruiser1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RangerClassLightAmphibiousCruiser1.jpg"
   },
   {
     "image_name": "RangerClassLightAmphibiousCruiser2.jpg",
@@ -9359,7 +10131,9 @@
     "timestamp": "2007-10-11 18:26:33",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RangerClassLightAmphibiousCruiser2.jpg"
+    "disk_filename": "RangerClassLightAmphibiousCruiser2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RangerClassLightAmphibiousCruiser2.jpg"
   },
   {
     "image_name": "RangerClassLightAmphibiousCruiser3.jpg",
@@ -9372,7 +10146,9 @@
     "timestamp": "2007-10-11 18:26:51",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RangerClassLightAmphibiousCruiser3.jpg"
+    "disk_filename": "RangerClassLightAmphibiousCruiser3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RangerClassLightAmphibiousCruiser3.jpg"
   },
   {
     "image_name": "ReconProbe1.jpg",
@@ -9464,7 +10240,9 @@
     "timestamp": "2007-10-09 17:58:53",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RiihderHovertank1.jpg"
+    "disk_filename": "RiihderHovertank1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RiihderHovertank1.jpg"
   },
   {
     "image_name": "RiihderHovertank2.jpg",
@@ -9477,7 +10255,9 @@
     "timestamp": "2007-10-09 17:59:10",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RiihderHovertank2.jpg"
+    "disk_filename": "RiihderHovertank2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RiihderHovertank2.jpg"
   },
   {
     "image_name": "RiiktarClassMediumDestroyer1.jpg",
@@ -9490,7 +10270,9 @@
     "timestamp": "2007-10-11 18:35:10",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RiiktarClassMediumDestroyer1.jpg"
+    "disk_filename": "RiiktarClassMediumDestroyer1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RiiktarClassMediumDestroyer1.jpg"
   },
   {
     "image_name": "RiiktarClassMediumDestroyer2.jpg",
@@ -9503,7 +10285,9 @@
     "timestamp": "2007-10-11 18:35:23",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RiiktarClassMediumDestroyer2.jpg"
+    "disk_filename": "RiiktarClassMediumDestroyer2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RiiktarClassMediumDestroyer2.jpg"
   },
   {
     "image_name": "RiiktarClassMediumDestroyer3.jpg",
@@ -9516,7 +10300,9 @@
     "timestamp": "2007-10-11 18:35:54",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RiiktarClassMediumDestroyer3.jpg"
+    "disk_filename": "RiiktarClassMediumDestroyer3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RiiktarClassMediumDestroyer3.jpg"
   },
   {
     "image_name": "RiimarClassMissileDestroyer1.jpg",
@@ -9529,7 +10315,9 @@
     "timestamp": "2007-10-11 18:38:07",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RiimarClassMissileDestroyer1.jpg"
+    "disk_filename": "RiimarClassMissileDestroyer1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RiimarClassMissileDestroyer1.jpg"
   },
   {
     "image_name": "RiimarClassMissileDestroyer2.jpg",
@@ -9542,7 +10330,9 @@
     "timestamp": "2007-10-11 18:38:21",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RiimarClassMissileDestroyer2.jpg"
+    "disk_filename": "RiimarClassMissileDestroyer2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RiimarClassMissileDestroyer2.jpg"
   },
   {
     "image_name": "RiimarClassMissileDestroyer3.jpg",
@@ -9555,7 +10345,9 @@
     "timestamp": "2007-10-11 18:38:34",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RiimarClassMissileDestroyer3.jpg"
+    "disk_filename": "RiimarClassMissileDestroyer3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RiimarClassMissileDestroyer3.jpg"
   },
   {
     "image_name": "Robert_Marshall_Face_Portrait.png",
@@ -9598,7 +10390,9 @@
     "timestamp": "2007-10-11 18:42:01",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RoevnarClassLineFrigate1.jpg"
+    "disk_filename": "RoevnarClassLineFrigate1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RoevnarClassLineFrigate1.jpg"
   },
   {
     "image_name": "RoevnarClassLineFrigate2.jpg",
@@ -9611,7 +10405,9 @@
     "timestamp": "2007-10-11 18:42:13",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RoevnarClassLineFrigate2.jpg"
+    "disk_filename": "RoevnarClassLineFrigate2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RoevnarClassLineFrigate2.jpg"
   },
   {
     "image_name": "RoevnarClassLineFrigate3.jpg",
@@ -9624,7 +10420,9 @@
     "timestamp": "2007-10-11 18:42:39",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RoevnarClassLineFrigate3.jpg"
+    "disk_filename": "RoevnarClassLineFrigate3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RoevnarClassLineFrigate3.jpg"
   },
   {
     "image_name": "RomaniaFlag.jpg",
@@ -9663,7 +10461,9 @@
     "timestamp": "2007-10-09 14:53:11",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Rook1.jpg"
+    "disk_filename": "Rook1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Rook1.jpg"
   },
   {
     "image_name": "Rook2.jpg",
@@ -9676,7 +10476,9 @@
     "timestamp": "2007-10-09 14:53:30",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Rook2.jpg"
+    "disk_filename": "Rook2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Rook2.jpg"
   },
   {
     "image_name": "Rose_Morgan_-_Shape_up_nugget.png",
@@ -9702,7 +10504,9 @@
     "timestamp": "2007-10-10 01:59:17",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RoustaboutWorkerVehicle1.jpg"
+    "disk_filename": "RoustaboutWorkerVehicle1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RoustaboutWorkerVehicle1.jpg"
   },
   {
     "image_name": "RoustaboutWorkerVehicle2.jpg",
@@ -9715,7 +10519,9 @@
     "timestamp": "2007-10-10 01:59:32",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RoustaboutWorkerVehicle2.jpg"
+    "disk_filename": "RoustaboutWorkerVehicle2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RoustaboutWorkerVehicle2.jpg"
   },
   {
     "image_name": "Rovriddare1.jpg",
@@ -9728,7 +10534,9 @@
     "timestamp": "2007-10-09 14:46:13",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Rovriddare1.jpg"
+    "disk_filename": "Rovriddare1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Rovriddare1.jpg"
   },
   {
     "image_name": "Rovriddare2.jpg",
@@ -9741,7 +10549,9 @@
     "timestamp": "2007-10-09 14:46:47",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Rovriddare2.jpg"
+    "disk_filename": "Rovriddare2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Rovriddare2.jpg"
   },
   {
     "image_name": "Royal_Imperial_Army_Badge.png",
@@ -9780,7 +10590,9 @@
     "timestamp": "2007-10-11 18:44:26",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "S-3ClassCorvette1.jpg"
+    "disk_filename": "S-3ClassCorvette1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/S-3ClassCorvette1.jpg"
   },
   {
     "image_name": "S-3ClassCorvette2.jpg",
@@ -9793,7 +10605,9 @@
     "timestamp": "2007-10-11 18:44:38",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "S-3ClassCorvette2.jpg"
+    "disk_filename": "S-3ClassCorvette2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/S-3ClassCorvette2.jpg"
   },
   {
     "image_name": "S-3ClassCorvette3.jpg",
@@ -9806,7 +10620,9 @@
     "timestamp": "2007-10-11 18:44:51",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "S-3ClassCorvette3.jpg"
+    "disk_filename": "S-3ClassCorvette3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/S-3ClassCorvette3.jpg"
   },
   {
     "image_name": "S-5ClassCorvette1.jpg",
@@ -9819,7 +10635,9 @@
     "timestamp": "2007-10-11 18:45:57",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "S-5ClassCorvette1.jpg"
+    "disk_filename": "S-5ClassCorvette1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/S-5ClassCorvette1.jpg"
   },
   {
     "image_name": "S-5ClassCorvette2.jpg",
@@ -9832,7 +10650,9 @@
     "timestamp": "2007-10-11 18:46:26",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "S-5ClassCorvette2.jpg"
+    "disk_filename": "S-5ClassCorvette2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/S-5ClassCorvette2.jpg"
   },
   {
     "image_name": "S-5ClassCorvette3.jpg",
@@ -9845,7 +10665,9 @@
     "timestamp": "2007-10-11 18:46:45",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "S-5ClassCorvette3.jpg"
+    "disk_filename": "S-5ClassCorvette3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/S-5ClassCorvette3.jpg"
   },
   {
     "image_name": "S-9ClassFrigate1.jpg",
@@ -9858,7 +10680,9 @@
     "timestamp": "2007-10-11 18:47:38",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "S-9ClassFrigate1.jpg"
+    "disk_filename": "S-9ClassFrigate1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/S-9ClassFrigate1.jpg"
   },
   {
     "image_name": "S-9ClassFrigate2.jpg",
@@ -9871,7 +10695,9 @@
     "timestamp": "2007-10-11 18:47:57",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "S-9ClassFrigate2.jpg"
+    "disk_filename": "S-9ClassFrigate2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/S-9ClassFrigate2.jpg"
   },
   {
     "image_name": "S-9ClassFrigate3.jpg",
@@ -9884,7 +10710,9 @@
     "timestamp": "2007-10-11 18:49:09",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "S-9ClassFrigate3.jpg"
+    "disk_filename": "S-9ClassFrigate3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/S-9ClassFrigate3.jpg"
   },
   {
     "image_name": "STSAlexandrovna1.jpg",
@@ -9897,7 +10725,9 @@
     "timestamp": "2007-10-04 14:25:39",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "STSAlexandrovna1.jpg"
+    "disk_filename": "STSAlexandrovna1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/STSAlexandrovna1.jpg"
   },
   {
     "image_name": "STSAlexandrovna2.jpg",
@@ -9910,7 +10740,9 @@
     "timestamp": "2007-10-04 14:26:07",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "STSAlexandrovna2.jpg"
+    "disk_filename": "STSAlexandrovna2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/STSAlexandrovna2.jpg"
   },
   {
     "image_name": "STSAlexandrovna3.jpg",
@@ -9923,7 +10755,9 @@
     "timestamp": "2007-10-04 14:26:33",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "STSAlexandrovna3.jpg"
+    "disk_filename": "STSAlexandrovna3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/STSAlexandrovna3.jpg"
   },
   {
     "image_name": "Sanor_Cai_Portrait.png",
@@ -9977,7 +10811,9 @@
     "timestamp": "2007-10-11 18:55:37",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ScipioClassFrigate1.jpg"
+    "disk_filename": "ScipioClassFrigate1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ScipioClassFrigate1.jpg"
   },
   {
     "image_name": "ScipioClassFrigate2.jpg",
@@ -9990,7 +10826,9 @@
     "timestamp": "2007-10-11 18:55:54",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ScipioClassFrigate2.jpg"
+    "disk_filename": "ScipioClassFrigate2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ScipioClassFrigate2.jpg"
   },
   {
     "image_name": "ScipioClassFrigate3.jpg",
@@ -10003,7 +10841,9 @@
     "timestamp": "2007-10-11 18:56:06",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ScipioClassFrigate3.jpg"
+    "disk_filename": "ScipioClassFrigate3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ScipioClassFrigate3.jpg"
   },
   {
     "image_name": "Scolopendra.jpg",
@@ -10029,7 +10869,9 @@
     "timestamp": "2007-10-09 16:05:17",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Scorpion1.jpg"
+    "disk_filename": "Scorpion1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Scorpion1.jpg"
   },
   {
     "image_name": "Scorpion2.jpg",
@@ -10042,7 +10884,9 @@
     "timestamp": "2007-10-09 16:05:50",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Scorpion2.jpg"
+    "disk_filename": "Scorpion2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Scorpion2.jpg"
   },
   {
     "image_name": "ScottSanburn.png",
@@ -10098,7 +10942,9 @@
     "timestamp": "2011-10-11 19:53:10",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Screen_Shot_2011-10-11_at_2.44.28_PM.png"
+    "disk_filename": "Screen_Shot_2011-10-11_at_2.44.28_PM.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Screen_Shot_2011-10-11_at_2.44.28_PM.png"
   },
   {
     "image_name": "SeagullReconHovercraft1.jpg",
@@ -10111,7 +10957,9 @@
     "timestamp": "2007-10-10 00:10:47",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SeagullReconHovercraft1.jpg"
+    "disk_filename": "SeagullReconHovercraft1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SeagullReconHovercraft1.jpg"
   },
   {
     "image_name": "SeagullReconHovercraft2.jpg",
@@ -10124,7 +10972,9 @@
     "timestamp": "2007-10-10 00:11:10",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SeagullReconHovercraft2.jpg"
+    "disk_filename": "SeagullReconHovercraft2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SeagullReconHovercraft2.jpg"
   },
   {
     "image_name": "SeahorseWorkerVehicle1.jpg",
@@ -10137,7 +10987,9 @@
     "timestamp": "2007-10-10 02:00:51",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SeahorseWorkerVehicle1.jpg"
+    "disk_filename": "SeahorseWorkerVehicle1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SeahorseWorkerVehicle1.jpg"
   },
   {
     "image_name": "SeahorseWorkerVehicle2.jpg",
@@ -10150,7 +11002,9 @@
     "timestamp": "2007-10-10 02:01:03",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SeahorseWorkerVehicle2.jpg"
+    "disk_filename": "SeahorseWorkerVehicle2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SeahorseWorkerVehicle2.jpg"
   },
   {
     "image_name": "Seal_of_the_Auellal.png",
@@ -10189,7 +11043,9 @@
     "timestamp": "2008-06-01 08:02:21",
     "description": "Antigrav rocks!",
     "exists_on_disk": true,
-    "disk_filename": "SeliadtAntigravtank1.jpg"
+    "disk_filename": "SeliadtAntigravtank1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SeliadtAntigravtank1.jpg"
   },
   {
     "image_name": "SeliadtAntigravtank2.jpg",
@@ -10202,7 +11058,9 @@
     "timestamp": "2008-06-01 08:03:24",
     "description": "Side view",
     "exists_on_disk": true,
-    "disk_filename": "SeliadtAntigravtank2.jpg"
+    "disk_filename": "SeliadtAntigravtank2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SeliadtAntigravtank2.jpg"
   },
   {
     "image_name": "SeliadtAntigravtank3.jpg",
@@ -10215,7 +11073,9 @@
     "timestamp": "2008-06-01 08:03:42",
     "description": "Top view",
     "exists_on_disk": true,
-    "disk_filename": "SeliadtAntigravtank3.jpg"
+    "disk_filename": "SeliadtAntigravtank3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SeliadtAntigravtank3.jpg"
   },
   {
     "image_name": "SeminoleClassDestroyer1.jpg",
@@ -10267,7 +11127,9 @@
     "timestamp": "2007-10-10 00:17:53",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SentryPatrolHovercraft1.jpg"
+    "disk_filename": "SentryPatrolHovercraft1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SentryPatrolHovercraft1.jpg"
   },
   {
     "image_name": "SentryPatrolHovercraft2.jpg",
@@ -10280,7 +11142,9 @@
     "timestamp": "2007-10-10 00:18:17",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SentryPatrolHovercraft2.jpg"
+    "disk_filename": "SentryPatrolHovercraft2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SentryPatrolHovercraft2.jpg"
   },
   {
     "image_name": "ShadowsofNakamura.jpg",
@@ -10306,7 +11170,9 @@
     "timestamp": "2007-10-09 12:30:13",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Shogun1.jpg"
+    "disk_filename": "Shogun1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Shogun1.jpg"
   },
   {
     "image_name": "Shogun2.jpg",
@@ -10319,7 +11185,9 @@
     "timestamp": "2007-10-09 12:30:42",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Shogun2.jpg"
+    "disk_filename": "Shogun2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Shogun2.jpg"
   },
   {
     "image_name": "ShurikenClassCorvette1.jpg",
@@ -10332,7 +11200,9 @@
     "timestamp": "2007-10-11 18:50:44",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ShurikenClassCorvette1.jpg"
+    "disk_filename": "ShurikenClassCorvette1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ShurikenClassCorvette1.jpg"
   },
   {
     "image_name": "ShurikenClassCorvette2.jpg",
@@ -10345,7 +11215,9 @@
     "timestamp": "2007-10-11 18:51:07",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ShurikenClassCorvette2.jpg"
+    "disk_filename": "ShurikenClassCorvette2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ShurikenClassCorvette2.jpg"
   },
   {
     "image_name": "ShurikenClassCorvette3.jpg",
@@ -10358,7 +11230,9 @@
     "timestamp": "2007-10-11 18:51:28",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ShurikenClassCorvette3.jpg"
+    "disk_filename": "ShurikenClassCorvette3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ShurikenClassCorvette3.jpg"
   },
   {
     "image_name": "Sickle.png",
@@ -10397,7 +11271,9 @@
     "timestamp": "2009-04-01 20:01:56",
     "description": "The Silest, refit of the Rahn Avenger.",
     "exists_on_disk": true,
-    "disk_filename": "Silest.png"
+    "disk_filename": "Silest.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Silest.png"
   },
   {
     "image_name": "Sindh_from_orbit.png",
@@ -10478,7 +11354,9 @@
     "timestamp": "2007-10-10 01:06:17",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SkywatcherAntiAirHovercraft1.jpg"
+    "disk_filename": "SkywatcherAntiAirHovercraft1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SkywatcherAntiAirHovercraft1.jpg"
   },
   {
     "image_name": "SkywatcherAntiAirHovercraft2.jpg",
@@ -10491,7 +11369,9 @@
     "timestamp": "2007-10-10 01:06:37",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SkywatcherAntiAirHovercraft2.jpg"
+    "disk_filename": "SkywatcherAntiAirHovercraft2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SkywatcherAntiAirHovercraft2.jpg"
   },
   {
     "image_name": "Sorocabae.jpg",
@@ -10571,7 +11451,9 @@
     "timestamp": "2010-08-30 21:25:08",
     "description": "Stadt class Destroyer, will replace the Clansguard in the MF KM.",
     "exists_on_disk": true,
-    "disk_filename": "Stadt.png"
+    "disk_filename": "Stadt.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Stadt.png"
   },
   {
     "image_name": "StandardAutomaticDefenseTurret.jpg",
@@ -10754,7 +11636,9 @@
     "timestamp": "2007-12-12 01:58:28",
     "description": "Starbound, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Starbound.png"
+    "disk_filename": "Starbound.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Starbound.png"
   },
   {
     "image_name": "Starfire.png",
@@ -10767,7 +11651,9 @@
     "timestamp": "2009-09-02 18:35:33",
     "description": "Tighter Image",
     "exists_on_disk": true,
-    "disk_filename": "Starfire.png"
+    "disk_filename": "Starfire.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Starfire.png"
   },
   {
     "image_name": "StarlightClassFreighter1.jpg",
@@ -10780,7 +11666,9 @@
     "timestamp": "2007-10-04 14:11:11",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "StarlightClassFreighter1.jpg"
+    "disk_filename": "StarlightClassFreighter1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/StarlightClassFreighter1.jpg"
   },
   {
     "image_name": "StarlightClassFreighter2.jpg",
@@ -10793,7 +11681,9 @@
     "timestamp": "2007-10-04 14:11:45",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "StarlightClassFreighter2.jpg"
+    "disk_filename": "StarlightClassFreighter2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/StarlightClassFreighter2.jpg"
   },
   {
     "image_name": "StarlightClassFreighter3.jpg",
@@ -10806,7 +11696,9 @@
     "timestamp": "2007-10-04 14:12:22",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "StarlightClassFreighter3.jpg"
+    "disk_filename": "StarlightClassFreighter3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/StarlightClassFreighter3.jpg"
   },
   {
     "image_name": "Starmaster.png",
@@ -10819,7 +11711,9 @@
     "timestamp": "2009-04-07 23:16:32",
     "description": "Old style Starmaster.",
     "exists_on_disk": true,
-    "disk_filename": "Starmaster.png"
+    "disk_filename": "Starmaster.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Starmaster.png"
   },
   {
     "image_name": "StarshipConstructionStardock.jpg",
@@ -10940,7 +11834,9 @@
     "timestamp": "2007-10-09 18:09:01",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "StingerHeavyHovertank1.jpg"
+    "disk_filename": "StingerHeavyHovertank1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/StingerHeavyHovertank1.jpg"
   },
   {
     "image_name": "StingerHeavyHovertank2.jpg",
@@ -10953,7 +11849,9 @@
     "timestamp": "2007-10-09 18:09:26",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "StingerHeavyHovertank2.jpg"
+    "disk_filename": "StingerHeavyHovertank2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/StingerHeavyHovertank2.jpg"
   },
   {
     "image_name": "Stormforge.png",
@@ -11007,7 +11905,9 @@
     "timestamp": "2007-10-10 01:19:20",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "StrikerArtilleryVehicle1.jpg"
+    "disk_filename": "StrikerArtilleryVehicle1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/StrikerArtilleryVehicle1.jpg"
   },
   {
     "image_name": "StrikerArtilleryVehicle2.jpg",
@@ -11020,7 +11920,9 @@
     "timestamp": "2007-10-10 01:19:44",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "StrikerArtilleryVehicle2.jpg"
+    "disk_filename": "StrikerArtilleryVehicle2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/StrikerArtilleryVehicle2.jpg"
   },
   {
     "image_name": "StrikerArtilleryVehicle3.jpg",
@@ -11033,7 +11935,9 @@
     "timestamp": "2007-10-10 01:20:02",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "StrikerArtilleryVehicle3.jpg"
+    "disk_filename": "StrikerArtilleryVehicle3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/StrikerArtilleryVehicle3.jpg"
   },
   {
     "image_name": "SuR51Asp1.jpg",
@@ -11046,7 +11950,9 @@
     "timestamp": "2007-10-09 11:56:54",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SuR51Asp1.jpg"
+    "disk_filename": "SuR51Asp1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SuR51Asp1.jpg"
   },
   {
     "image_name": "SuR51Asp2.jpg",
@@ -11059,7 +11965,9 @@
     "timestamp": "2007-10-09 11:57:26",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SuR51Asp2.jpg"
+    "disk_filename": "SuR51Asp2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SuR51Asp2.jpg"
   },
   {
     "image_name": "Sunfire.png",
@@ -11085,7 +11993,9 @@
     "timestamp": "2007-10-11 19:14:08",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SvenjClassLightDestroyer1.jpg"
+    "disk_filename": "SvenjClassLightDestroyer1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SvenjClassLightDestroyer1.jpg"
   },
   {
     "image_name": "SvenjClassLightDestroyer2.jpg",
@@ -11098,7 +12008,9 @@
     "timestamp": "2007-10-11 19:14:41",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SvenjClassLightDestroyer2.jpg"
+    "disk_filename": "SvenjClassLightDestroyer2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SvenjClassLightDestroyer2.jpg"
   },
   {
     "image_name": "SvenjClassLightDestroyer3.jpg",
@@ -11111,7 +12023,9 @@
     "timestamp": "2007-10-11 19:15:30",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SvenjClassLightDestroyer3.jpg"
+    "disk_filename": "SvenjClassLightDestroyer3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SvenjClassLightDestroyer3.jpg"
   },
   {
     "image_name": "SwitzerlandFlag.jpg",
@@ -11207,7 +12121,9 @@
     "timestamp": "2007-10-09 18:21:06",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TargeArmoredPersonnelCarrier1.jpg"
+    "disk_filename": "TargeArmoredPersonnelCarrier1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TargeArmoredPersonnelCarrier1.jpg"
   },
   {
     "image_name": "TargeArmoredPersonnelCarrier2.jpg",
@@ -11220,7 +12136,9 @@
     "timestamp": "2007-10-09 18:22:27",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TargeArmoredPersonnelCarrier2.jpg"
+    "disk_filename": "TargeArmoredPersonnelCarrier2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TargeArmoredPersonnelCarrier2.jpg"
   },
   {
     "image_name": "TavouFlag.png",
@@ -11616,7 +12534,9 @@
     "timestamp": "2007-10-11 19:47:00",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TorinoClassFreighter1.jpg"
+    "disk_filename": "TorinoClassFreighter1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TorinoClassFreighter1.jpg"
   },
   {
     "image_name": "TorinoClassFreighter2.jpg",
@@ -11629,7 +12549,9 @@
     "timestamp": "2007-10-11 19:47:16",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TorinoClassFreighter2.jpg"
+    "disk_filename": "TorinoClassFreighter2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TorinoClassFreighter2.jpg"
   },
   {
     "image_name": "TorinoClassFreighter3.jpg",
@@ -11642,7 +12564,9 @@
     "timestamp": "2007-10-11 19:47:36",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TorinoClassFreighter3.jpg"
+    "disk_filename": "TorinoClassFreighter3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TorinoClassFreighter3.jpg"
   },
   {
     "image_name": "TorinoClassFrigate1.jpg",
@@ -11655,7 +12579,9 @@
     "timestamp": "2007-10-11 19:48:09",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TorinoClassFrigate1.jpg"
+    "disk_filename": "TorinoClassFrigate1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TorinoClassFrigate1.jpg"
   },
   {
     "image_name": "TorinoClassFrigate2.jpg",
@@ -11668,7 +12594,9 @@
     "timestamp": "2007-10-11 19:48:49",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TorinoClassFrigate2.jpg"
+    "disk_filename": "TorinoClassFrigate2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TorinoClassFrigate2.jpg"
   },
   {
     "image_name": "TorinoClassFrigate3.jpg",
@@ -11681,7 +12609,9 @@
     "timestamp": "2007-10-11 19:49:03",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TorinoClassFrigate3.jpg"
+    "disk_filename": "TorinoClassFrigate3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TorinoClassFrigate3.jpg"
   },
   {
     "image_name": "Tornfalk1.jpg",
@@ -11694,7 +12624,9 @@
     "timestamp": "2007-10-09 12:23:24",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Tornfalk1.jpg"
+    "disk_filename": "Tornfalk1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Tornfalk1.jpg"
   },
   {
     "image_name": "Tornfalk2.jpg",
@@ -11707,7 +12639,9 @@
     "timestamp": "2007-10-09 12:23:47",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Tornfalk2.jpg"
+    "disk_filename": "Tornfalk2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Tornfalk2.jpg"
   },
   {
     "image_name": "Townview-1.JPG",
@@ -11785,7 +12719,9 @@
     "timestamp": "2008-02-21 17:40:54",
     "description": "Trident class Gunship, by Andrew Sears, based of Austin Bailey's model.",
     "exists_on_disk": true,
-    "disk_filename": "Trident.png"
+    "disk_filename": "Trident.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Trident.png"
   },
   {
     "image_name": "Tronit_Class_War_Cruiser_Side_View.jpg",
@@ -11798,7 +12734,9 @@
     "timestamp": "2008-11-01 03:01:53",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Tronit_Class_War_Cruiser_Side_View.jpg"
+    "disk_filename": "Tronit_Class_War_Cruiser_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Tronit_Class_War_Cruiser_Side_View.jpg"
   },
   {
     "image_name": "Tronit_Class_War_Cruiser_Standard_View.jpg",
@@ -11811,7 +12749,9 @@
     "timestamp": "2008-10-31 00:17:56",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Tronit_Class_War_Cruiser_Standard_View.jpg"
+    "disk_filename": "Tronit_Class_War_Cruiser_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Tronit_Class_War_Cruiser_Standard_View.jpg"
   },
   {
     "image_name": "Tronit_Class_War_Cruiser_Top_View.jpg",
@@ -11824,7 +12764,9 @@
     "timestamp": "2008-11-01 03:02:17",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Tronit_Class_War_Cruiser_Top_View.jpg"
+    "disk_filename": "Tronit_Class_War_Cruiser_Top_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Tronit_Class_War_Cruiser_Top_View.jpg"
   },
   {
     "image_name": "Tronit_Class_War_Cruiser_Weapons_Visible_Side_View.jpg",
@@ -11837,7 +12779,9 @@
     "timestamp": "2008-11-01 03:03:09",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Tronit_Class_War_Cruiser_Weapons_Visible_Side_View.jpg"
+    "disk_filename": "Tronit_Class_War_Cruiser_Weapons_Visible_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Tronit_Class_War_Cruiser_Weapons_Visible_Side_View.jpg"
   },
   {
     "image_name": "Tronit_Class_War_Cruiser_Weapons_Visible_Standard_View.jpg",
@@ -11850,7 +12794,9 @@
     "timestamp": "2008-11-01 03:02:46",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Tronit_Class_War_Cruiser_Weapons_Visible_Standard_View.jpg"
+    "disk_filename": "Tronit_Class_War_Cruiser_Weapons_Visible_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Tronit_Class_War_Cruiser_Weapons_Visible_Standard_View.jpg"
   },
   {
     "image_name": "Tsirada_Class_Battleship_Side_View.jpg",
@@ -11863,7 +12809,9 @@
     "timestamp": "2008-10-31 21:29:37",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Tsirada_Class_Battleship_Side_View.jpg"
+    "disk_filename": "Tsirada_Class_Battleship_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Tsirada_Class_Battleship_Side_View.jpg"
   },
   {
     "image_name": "Tsirada_Class_Battleship_Standard_View.jpg",
@@ -11876,7 +12824,9 @@
     "timestamp": "2008-10-31 18:50:34",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Tsirada_Class_Battleship_Standard_View.jpg"
+    "disk_filename": "Tsirada_Class_Battleship_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Tsirada_Class_Battleship_Standard_View.jpg"
   },
   {
     "image_name": "Tsirada_Class_Battleship_Top_View.jpg",
@@ -11889,7 +12839,9 @@
     "timestamp": "2008-10-31 21:29:59",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Tsirada_Class_Battleship_Top_View.jpg"
+    "disk_filename": "Tsirada_Class_Battleship_Top_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Tsirada_Class_Battleship_Top_View.jpg"
   },
   {
     "image_name": "TugrisClassLightCarrier1.jpg",
@@ -11902,7 +12854,9 @@
     "timestamp": "2007-10-11 19:41:54",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TugrisClassLightCarrier1.jpg"
+    "disk_filename": "TugrisClassLightCarrier1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TugrisClassLightCarrier1.jpg"
   },
   {
     "image_name": "TugrisClassLightCarrier2.jpg",
@@ -11915,7 +12869,9 @@
     "timestamp": "2007-10-11 19:42:08",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TugrisClassLightCarrier2.jpg"
+    "disk_filename": "TugrisClassLightCarrier2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TugrisClassLightCarrier2.jpg"
   },
   {
     "image_name": "TugrisClassLightCarrier3.jpg",
@@ -11928,7 +12884,9 @@
     "timestamp": "2007-10-11 19:42:38",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TugrisClassLightCarrier3.jpg"
+    "disk_filename": "TugrisClassLightCarrier3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TugrisClassLightCarrier3.jpg"
   },
   {
     "image_name": "TupalevClassGunship1.jpg",
@@ -11941,7 +12899,9 @@
     "timestamp": "2007-10-11 19:51:22",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TupalevClassGunship1.jpg"
+    "disk_filename": "TupalevClassGunship1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TupalevClassGunship1.jpg"
   },
   {
     "image_name": "TupalevClassGunship2.jpg",
@@ -11954,7 +12914,9 @@
     "timestamp": "2007-10-11 19:51:36",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TupalevClassGunship2.jpg"
+    "disk_filename": "TupalevClassGunship2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TupalevClassGunship2.jpg"
   },
   {
     "image_name": "TupalevClassGunship3.jpg",
@@ -11967,7 +12929,9 @@
     "timestamp": "2007-10-11 19:51:54",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TupalevClassGunship3.jpg"
+    "disk_filename": "TupalevClassGunship3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TupalevClassGunship3.jpg"
   },
   {
     "image_name": "TurpitzClassGunship1.jpg",
@@ -11980,7 +12944,9 @@
     "timestamp": "2007-10-04 13:32:37",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TurpitzClassGunship1.jpg"
+    "disk_filename": "TurpitzClassGunship1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TurpitzClassGunship1.jpg"
   },
   {
     "image_name": "TurpitzClassGunship2.jpg",
@@ -11993,7 +12959,9 @@
     "timestamp": "2007-10-04 13:33:47",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TurpitzClassGunship2.jpg"
+    "disk_filename": "TurpitzClassGunship2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TurpitzClassGunship2.jpg"
   },
   {
     "image_name": "TurpitzClassGunship3.jpg",
@@ -12006,7 +12974,9 @@
     "timestamp": "2007-10-04 13:34:06",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TurpitzClassGunship3.jpg"
+    "disk_filename": "TurpitzClassGunship3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TurpitzClassGunship3.jpg"
   },
   {
     "image_name": "Type-F.png",
@@ -12032,7 +13002,9 @@
     "timestamp": "2008-08-07 01:31:43",
     "description": "Mesarthrim Type-G Heavy Blazer",
     "exists_on_disk": true,
-    "disk_filename": "Type-G.png"
+    "disk_filename": "Type-G.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Type-G.png"
   },
   {
     "image_name": "Type-Three.png",
@@ -12071,7 +13043,9 @@
     "timestamp": "2007-10-11 19:54:09",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TyphoonClassFrigate1.jpg"
+    "disk_filename": "TyphoonClassFrigate1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TyphoonClassFrigate1.jpg"
   },
   {
     "image_name": "TyphoonClassFrigate2.jpg",
@@ -12084,7 +13058,9 @@
     "timestamp": "2007-10-11 19:54:24",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TyphoonClassFrigate2.jpg"
+    "disk_filename": "TyphoonClassFrigate2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TyphoonClassFrigate2.jpg"
   },
   {
     "image_name": "TyphoonClassFrigate3.jpg",
@@ -12097,7 +13073,9 @@
     "timestamp": "2007-10-11 19:54:46",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "TyphoonClassFrigate3.jpg"
+    "disk_filename": "TyphoonClassFrigate3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/TyphoonClassFrigate3.jpg"
   },
   {
     "image_name": "UAG.png",
@@ -12175,7 +13153,9 @@
     "timestamp": "2007-10-03 19:08:07",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "UCSAcheron1.jpg"
+    "disk_filename": "UCSAcheron1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UCSAcheron1.jpg"
   },
   {
     "image_name": "UCSAres1.jpg",
@@ -12188,7 +13168,9 @@
     "timestamp": "2007-10-03 20:05:56",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "UCSAres1.jpg"
+    "disk_filename": "UCSAres1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UCSAres1.jpg"
   },
   {
     "image_name": "UCSTunguska1.jpg",
@@ -12201,7 +13183,9 @@
     "timestamp": "2007-10-04 12:48:05",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "UCSTunguska1.jpg"
+    "disk_filename": "UCSTunguska1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UCSTunguska1.jpg"
   },
   {
     "image_name": "UCSTunguska2.jpg",
@@ -12214,7 +13198,9 @@
     "timestamp": "2007-10-04 12:47:39",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "UCSTunguska2.jpg"
+    "disk_filename": "UCSTunguska2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UCSTunguska2.jpg"
   },
   {
     "image_name": "UCSTunguska3.jpg",
@@ -12227,7 +13213,9 @@
     "timestamp": "2007-10-04 12:48:19",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "UCSTunguska3.jpg"
+    "disk_filename": "UCSTunguska3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UCSTunguska3.jpg"
   },
   {
     "image_name": "UCSWildfire1.jpg",
@@ -12240,7 +13228,9 @@
     "timestamp": "2007-10-10 23:35:27",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "UCSWildfire1.jpg"
+    "disk_filename": "UCSWildfire1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UCSWildfire1.jpg"
   },
   {
     "image_name": "UCSWildfire2.jpg",
@@ -12253,7 +13243,9 @@
     "timestamp": "2007-10-10 23:36:04",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "UCSWildfire2.jpg"
+    "disk_filename": "UCSWildfire2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UCSWildfire2.jpg"
   },
   {
     "image_name": "UCSWildfire3.jpg",
@@ -12266,7 +13258,9 @@
     "timestamp": "2007-10-10 23:36:31",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "UCSWildfire3.jpg"
+    "disk_filename": "UCSWildfire3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UCSWildfire3.jpg"
   },
   {
     "image_name": "UMC-First-Fleet.png",
@@ -12359,7 +13353,9 @@
     "timestamp": "2007-10-10 01:13:54",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "UltramedicAmbulance1.jpg"
+    "disk_filename": "UltramedicAmbulance1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UltramedicAmbulance1.jpg"
   },
   {
     "image_name": "UltramedicAmbulance2.jpg",
@@ -12372,7 +13368,9 @@
     "timestamp": "2007-10-10 01:14:42",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "UltramedicAmbulance2.jpg"
+    "disk_filename": "UltramedicAmbulance2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UltramedicAmbulance2.jpg"
   },
   {
     "image_name": "UnitedCentusiStatesFlag.png",
@@ -12482,7 +13480,9 @@
     "timestamp": "2007-10-11 19:57:36",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "UsurperClassCarrier1.jpg"
+    "disk_filename": "UsurperClassCarrier1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UsurperClassCarrier1.jpg"
   },
   {
     "image_name": "UsurperClassCarrier2.jpg",
@@ -12495,7 +13495,9 @@
     "timestamp": "2007-10-11 19:58:00",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "UsurperClassCarrier2.jpg"
+    "disk_filename": "UsurperClassCarrier2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UsurperClassCarrier2.jpg"
   },
   {
     "image_name": "UsurperClassCarrier3.jpg",
@@ -12508,7 +13510,9 @@
     "timestamp": "2007-10-11 19:58:23",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "UsurperClassCarrier3.jpg"
+    "disk_filename": "UsurperClassCarrier3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UsurperClassCarrier3.jpg"
   },
   {
     "image_name": "VF-01_Imperial_Naval_Fighter_Squadron_-_\"Scimitar_Squadron\"_logo.png",
@@ -12547,7 +13551,9 @@
     "timestamp": "2007-08-07 04:17:34",
     "description": "Vadrie, standard profile",
     "exists_on_disk": true,
-    "disk_filename": "Vadrie_A.jpg"
+    "disk_filename": "Vadrie_A.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Vadrie_A.jpg"
   },
   {
     "image_name": "Vadrie_B.jpg",
@@ -12560,7 +13566,9 @@
     "timestamp": "2007-08-07 04:17:59",
     "description": "Vadrie top-down",
     "exists_on_disk": true,
-    "disk_filename": "Vadrie_B.jpg"
+    "disk_filename": "Vadrie_B.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Vadrie_B.jpg"
   },
   {
     "image_name": "Veles_Class.JPG",
@@ -12586,7 +13594,9 @@
     "timestamp": "2007-09-24 18:11:46",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Veles_Class.png"
+    "disk_filename": "Veles_Class.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Veles_Class.png"
   },
   {
     "image_name": "VenezuelaFlag.jpg",
@@ -12627,7 +13637,9 @@
     "timestamp": "2008-11-10 04:28:18",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Victory_Class_Battleship_Side_View.jpg"
+    "disk_filename": "Victory_Class_Battleship_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Victory_Class_Battleship_Side_View.jpg"
   },
   {
     "image_name": "Victory_Class_Battleship_Standard_View.jpg",
@@ -12640,7 +13652,9 @@
     "timestamp": "2008-11-10 04:27:31",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Victory_Class_Battleship_Standard_View.jpg"
+    "disk_filename": "Victory_Class_Battleship_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Victory_Class_Battleship_Standard_View.jpg"
   },
   {
     "image_name": "Victory_Class_Battleship_Top_View.jpg",
@@ -12653,7 +13667,9 @@
     "timestamp": "2008-11-10 04:29:08",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Victory_Class_Battleship_Top_View.jpg"
+    "disk_filename": "Victory_Class_Battleship_Top_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Victory_Class_Battleship_Top_View.jpg"
   },
   {
     "image_name": "VietnamFlag.jpg",
@@ -12679,7 +13695,9 @@
     "timestamp": "2008-11-11 17:12:00",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Vigilant_Class_Frigate_Gun_View.png"
+    "disk_filename": "Vigilant_Class_Frigate_Gun_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Vigilant_Class_Frigate_Gun_View.png"
   },
   {
     "image_name": "Vigilant_Class_Frigate_Normal_View.png",
@@ -12692,7 +13710,9 @@
     "timestamp": "2008-11-11 17:11:38",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Vigilant_Class_Frigate_Normal_View.png"
+    "disk_filename": "Vigilant_Class_Frigate_Normal_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Vigilant_Class_Frigate_Normal_View.png"
   },
   {
     "image_name": "Vigilant_Class_Frigate_Side_View.png",
@@ -12705,7 +13725,9 @@
     "timestamp": "2008-11-11 17:44:29",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Vigilant_Class_Frigate_Side_View.png"
+    "disk_filename": "Vigilant_Class_Frigate_Side_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Vigilant_Class_Frigate_Side_View.png"
   },
   {
     "image_name": "Vigilant_Class_Frigate_Top_View.png",
@@ -12718,7 +13740,9 @@
     "timestamp": "2008-11-11 17:36:59",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Vigilant_Class_Frigate_Top_View.png"
+    "disk_filename": "Vigilant_Class_Frigate_Top_View.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Vigilant_Class_Frigate_Top_View.png"
   },
   {
     "image_name": "Violaceopedes.jpg",
@@ -12770,7 +13794,9 @@
     "timestamp": "2007-10-11 14:19:02",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Vita'safinaainaKifa1.jpg"
+    "disk_filename": "Vita'safinaainaKifa1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Vita'safinaainaKifa1.jpg"
   },
   {
     "image_name": "Vita'safinaainaKifa2.jpg",
@@ -12783,7 +13809,9 @@
     "timestamp": "2007-10-11 14:19:28",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Vita'safinaainaKifa2.jpg"
+    "disk_filename": "Vita'safinaainaKifa2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Vita'safinaainaKifa2.jpg"
   },
   {
     "image_name": "Vita'safinaainaKifa3.jpg",
@@ -12796,7 +13824,9 @@
     "timestamp": "2007-10-11 14:19:54",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Vita'safinaainaKifa3.jpg"
+    "disk_filename": "Vita'safinaainaKifa3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Vita'safinaainaKifa3.jpg"
   },
   {
     "image_name": "VoidWorld.JPG",
@@ -12881,7 +13911,9 @@
     "timestamp": "2007-10-04 16:27:55",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "VultureSiegeTank1.jpg"
+    "disk_filename": "VultureSiegeTank1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/VultureSiegeTank1.jpg"
   },
   {
     "image_name": "VultureSiegeTank2.jpg",
@@ -12894,7 +13926,9 @@
     "timestamp": "2007-10-04 16:28:36",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "VultureSiegeTank2.jpg"
+    "disk_filename": "VultureSiegeTank2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/VultureSiegeTank2.jpg"
   },
   {
     "image_name": "Warhammer_Cannon.png",
@@ -12933,7 +13967,9 @@
     "timestamp": "2007-12-19 22:51:15",
     "description": "Werewolf class Gunship, by Andrew Sears.",
     "exists_on_disk": true,
-    "disk_filename": "Werewolf.png"
+    "disk_filename": "Werewolf.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Werewolf.png"
   },
   {
     "image_name": "Werewolf1.jpg",
@@ -12972,7 +14008,9 @@
     "timestamp": "2007-10-04 14:15:53",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "WhaleClassHauler1.jpg"
+    "disk_filename": "WhaleClassHauler1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/WhaleClassHauler1.jpg"
   },
   {
     "image_name": "WhaleClassHauler2.jpg",
@@ -12985,7 +14023,9 @@
     "timestamp": "2007-10-04 14:16:22",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "WhaleClassHauler2.jpg"
+    "disk_filename": "WhaleClassHauler2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/WhaleClassHauler2.jpg"
   },
   {
     "image_name": "WhaleClassHauler3.jpg",
@@ -12998,7 +14038,9 @@
     "timestamp": "2007-10-04 14:16:45",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "WhaleClassHauler3.jpg"
+    "disk_filename": "WhaleClassHauler3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/WhaleClassHauler3.jpg"
   },
   {
     "image_name": "Wickliff.png",
@@ -13011,7 +14053,9 @@
     "timestamp": "2007-12-19 21:03:13",
     "description": "The Wickliff class Destroyer, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Wickliff.png"
+    "disk_filename": "Wickliff.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Wickliff.png"
   },
   {
     "image_name": "XF1-1.jpg",
@@ -13024,7 +14068,9 @@
     "timestamp": "2007-10-19 16:31:02",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "XF1-1.jpg"
+    "disk_filename": "XF1-1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/XF1-1.jpg"
   },
   {
     "image_name": "XF1-2.jpg",
@@ -13037,7 +14083,9 @@
     "timestamp": "2007-10-19 16:31:13",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "XF1-2.jpg"
+    "disk_filename": "XF1-2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/XF1-2.jpg"
   },
   {
     "image_name": "XF1-3.jpg",
@@ -13050,7 +14098,9 @@
     "timestamp": "2007-10-19 16:31:23",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "XF1-3.jpg"
+    "disk_filename": "XF1-3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/XF1-3.jpg"
   },
   {
     "image_name": "Yak163SuperCobra1.jpg",
@@ -13063,7 +14113,9 @@
     "timestamp": "2007-10-09 13:48:49",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Yak163SuperCobra1.jpg"
+    "disk_filename": "Yak163SuperCobra1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Yak163SuperCobra1.jpg"
   },
   {
     "image_name": "Yak163SuperCobra2.jpg",
@@ -13076,7 +14128,9 @@
     "timestamp": "2007-10-09 13:49:08",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Yak163SuperCobra2.jpg"
+    "disk_filename": "Yak163SuperCobra2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Yak163SuperCobra2.jpg"
   },
   {
     "image_name": "Young-watson.png",
@@ -13156,7 +14210,9 @@
     "timestamp": "2007-10-04 17:37:47",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ZieldarLightHovertank1.jpg"
+    "disk_filename": "ZieldarLightHovertank1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ZieldarLightHovertank1.jpg"
   },
   {
     "image_name": "ZieldarLightHovertank2.jpg",
@@ -13169,7 +14225,9 @@
     "timestamp": "2007-10-04 17:38:01",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ZieldarLightHovertank2.jpg"
+    "disk_filename": "ZieldarLightHovertank2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ZieldarLightHovertank2.jpg"
   },
   {
     "image_name": "ZuuraRobotCombatCommandSystem.jpg",
@@ -13182,6 +14240,8 @@
     "timestamp": "2008-08-29 04:03:40",
     "description": "Basic Zuura Suit",
     "exists_on_disk": true,
-    "disk_filename": "ZuuraRobotCombatCommandSystem.jpg"
+    "disk_filename": "ZuuraRobotCombatCommandSystem.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ZuuraRobotCombatCommandSystem.jpg"
   }
 ]

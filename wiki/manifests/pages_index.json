@@ -3489,7 +3489,8 @@
     "categories": [
       "Battleships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 218,
@@ -7415,7 +7416,8 @@
     "categories": [
       "Warships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 412,
@@ -7433,7 +7435,8 @@
     "categories": [
       "Warships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 414,
@@ -7451,7 +7454,8 @@
     "categories": [
       "Starships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 415,
@@ -7866,7 +7870,8 @@
     "categories": [
       "Exploration_Vessels"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 442,
@@ -7905,7 +7910,8 @@
     "categories": [
       "Starships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 444,
@@ -8505,7 +8511,8 @@
     "categories": [
       "Exploration_Vessels"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 479,
@@ -17044,7 +17051,8 @@
     "categories": [
       "Aircraft"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 970,
@@ -17062,7 +17070,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 971,
@@ -17112,7 +17121,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 974,
@@ -17165,7 +17175,8 @@
     "templates": [
       "Aircraft_Information",
       "Aircraft_Variant"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 982,
@@ -17183,7 +17194,8 @@
     "categories": [
       "Aircraft"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 983,
@@ -17221,7 +17233,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 985,
@@ -17271,7 +17284,8 @@
     "categories": [
       "Bombers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 988,
@@ -17321,7 +17335,8 @@
     "categories": [
       "Bombers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 991,
@@ -17371,7 +17386,8 @@
     "categories": [
       "Bombers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 994,
@@ -17389,7 +17405,8 @@
     "categories": [
       "Bombers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 995,
@@ -17407,7 +17424,8 @@
     "categories": [
       "Bombers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 996,
@@ -17425,7 +17443,8 @@
     "categories": [
       "Bombers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 997,
@@ -17443,7 +17462,8 @@
     "categories": [
       "Bombers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 998,
@@ -17461,7 +17481,8 @@
     "categories": [
       "Bombers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 999,
@@ -17481,7 +17502,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1000,
@@ -17501,7 +17523,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1001,
@@ -17521,7 +17544,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1002,
@@ -17541,7 +17565,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1003,
@@ -17561,7 +17586,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1004,
@@ -17581,7 +17607,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1005,
@@ -17601,7 +17628,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1006,
@@ -17621,7 +17649,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1007,
@@ -17641,7 +17670,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1008,
@@ -17661,7 +17691,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1009,
@@ -17681,7 +17712,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1010,
@@ -17701,7 +17733,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1011,
@@ -17721,7 +17754,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1012,
@@ -17741,7 +17775,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1013,
@@ -17761,7 +17796,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1014,
@@ -17781,7 +17817,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1015,
@@ -17801,7 +17838,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1016,
@@ -17819,7 +17857,8 @@
     "categories": [
       "Aircraft"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1017,
@@ -17837,7 +17876,8 @@
     "categories": [
       "VTOLs"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1018,
@@ -17855,7 +17895,8 @@
     "categories": [
       "VTOLs"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1019,
@@ -17873,7 +17914,8 @@
     "categories": [
       "VTOLs"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1020,
@@ -17891,7 +17933,8 @@
     "categories": [
       "VTOLs"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1021,
@@ -17909,7 +17952,8 @@
     "categories": [
       "VTOLs"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1022,
@@ -17927,7 +17971,8 @@
     "categories": [
       "VTOLs"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1023,
@@ -17945,7 +17990,8 @@
     "categories": [
       "VTOLs"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1024,
@@ -17963,7 +18009,8 @@
     "categories": [
       "VTOLs"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1025,
@@ -17981,7 +18028,8 @@
     "categories": [
       "VTOLs"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1026,
@@ -18033,7 +18081,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1029,
@@ -18051,7 +18100,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1030,
@@ -18069,7 +18119,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1031,
@@ -18106,7 +18157,8 @@
     "categories": [
       "Aircraft"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1033,
@@ -18124,7 +18176,8 @@
     "categories": [
       "Aircraft"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1034,
@@ -18142,7 +18195,8 @@
     "categories": [
       "Aircraft"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1035,
@@ -18160,7 +18214,8 @@
     "categories": [
       "Starships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1036,
@@ -18178,7 +18233,8 @@
     "categories": [
       "Starships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1037,
@@ -18196,7 +18252,8 @@
     "categories": [
       "Starships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1038,
@@ -18214,7 +18271,8 @@
     "categories": [
       "Warships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1039,
@@ -18232,7 +18290,8 @@
     "categories": [
       "Warships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1040,
@@ -18250,7 +18309,8 @@
     "categories": [
       "Warships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1043,
@@ -18268,7 +18328,8 @@
     "categories": [
       "Warships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1049,
@@ -18607,7 +18668,8 @@
       "Imperial_Military_Specification",
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1067,
@@ -18625,7 +18687,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1069,
@@ -18643,7 +18706,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1070,
@@ -18661,7 +18725,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1071,
@@ -18680,7 +18745,8 @@
       "Imperial_Military_Specification",
       "Rigs"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1072,
@@ -18699,7 +18765,8 @@
       "Imperial_Military_Specification",
       "Rigs"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1074,
@@ -18717,7 +18784,8 @@
     "categories": [
       "Rigs"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1075,
@@ -18736,7 +18804,8 @@
       "Imperial_Military_Specification",
       "Rigs"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1076,
@@ -18754,7 +18823,8 @@
     "categories": [
       "Rigs"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1077,
@@ -18772,7 +18842,8 @@
     "categories": [
       "Tanks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1078,
@@ -18790,7 +18861,8 @@
     "categories": [
       "Tanks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1079,
@@ -18809,7 +18881,8 @@
       "Imperial_Military_Specification",
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1080,
@@ -18828,7 +18901,8 @@
       "Imperial_Military_Specification",
       "Rigs"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1081,
@@ -18846,7 +18920,8 @@
     "categories": [
       "Tanks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1082,
@@ -18864,7 +18939,8 @@
     "categories": [
       "Tanks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1083,
@@ -18882,7 +18958,8 @@
     "categories": [
       "Tanks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1084,
@@ -18921,7 +18998,8 @@
       "Imperial_Military_Specification",
       "Rigs"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1086,
@@ -18940,7 +19018,8 @@
       "Imperial_Military_Specification",
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1087,
@@ -19392,7 +19471,8 @@
     "categories": [
       "Bombers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1110,
@@ -19442,7 +19522,8 @@
     "categories": [
       "Bombers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1113,
@@ -19460,7 +19541,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1116,
@@ -19478,7 +19560,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1117,
@@ -19528,7 +19611,8 @@
     "categories": [
       "Bombers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1120,
@@ -19546,7 +19630,8 @@
     "categories": [
       "Bombers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1121,
@@ -19906,7 +19991,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1143,
@@ -19956,7 +20042,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1146,
@@ -20654,7 +20741,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1200,
@@ -29435,7 +29523,8 @@
     "templates": [
       "Aircraft_Information",
       "Aircraft_Variant"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1725,
@@ -30341,7 +30430,8 @@
       "Imperial_Military_Specification",
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1781,
@@ -30501,7 +30591,8 @@
       "Imperial_Military_Specification",
       "Tanks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1790,
@@ -30555,7 +30646,8 @@
       "Imperial_Military_Specification",
       "Rigs"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1793,
@@ -30631,7 +30723,8 @@
       "Imperial_Military_Specification",
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1797,
@@ -30650,7 +30743,8 @@
       "Imperial_Military_Specification",
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1798,
@@ -30910,7 +31004,8 @@
       "Frigates",
       "Remnant_Military"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1815,
@@ -32191,7 +32286,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 1891,
@@ -33384,7 +33480,8 @@
       "Destroyers",
       "Remnant_Military"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2030,
@@ -36511,7 +36608,8 @@
     "categories": [
       "VTOLs"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2263,
@@ -36545,7 +36643,8 @@
     "categories": [
       "VTOLs"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2265,
@@ -36627,7 +36726,8 @@
     "categories": [
       "Battleships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2272,
@@ -36661,7 +36761,8 @@
     "categories": [
       "Battleships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2274,
@@ -36697,7 +36798,8 @@
     ],
     "templates": [
       "Starship_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2277,
@@ -36715,7 +36817,8 @@
     "categories": [
       "Battleships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2278,
@@ -36767,7 +36870,8 @@
     "categories": [
       "Battleships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2281,
@@ -36947,7 +37051,8 @@
     "categories": [
       "Battleships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2293,
@@ -36965,7 +37070,8 @@
     "categories": [
       "Battleships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2294,
@@ -37047,7 +37153,8 @@
     "categories": [
       "Battleships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2299,
@@ -37129,7 +37236,8 @@
     "categories": [
       "Battleships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2304,
@@ -37277,7 +37385,8 @@
     "categories": [
       "Carriers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2321,
@@ -37414,7 +37523,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2342,
@@ -37438,7 +37548,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2358,
@@ -37462,7 +37573,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2362,
@@ -37484,7 +37596,8 @@
       "United_Centusi_States_Kriegsmarine",
       "United_Mesarthrim_Clans_Kriegsmarine"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2363,
@@ -37550,7 +37663,8 @@
     "categories": [
       "Freighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2367,
@@ -37616,7 +37730,8 @@
     "categories": [
       "Starships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2371,
@@ -37650,7 +37765,8 @@
     "categories": [
       "Starships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2373,
@@ -37716,7 +37832,8 @@
     "categories": [
       "Starships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2377,
@@ -37782,7 +37899,8 @@
     "categories": [
       "Freighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2381,
@@ -37864,7 +37982,8 @@
     "categories": [
       "Freighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2390,
@@ -37962,7 +38081,8 @@
     "categories": [
       "Freighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2396,
@@ -38028,7 +38148,8 @@
     "categories": [
       "Freighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2400,
@@ -38097,7 +38218,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2407,
@@ -38115,7 +38237,8 @@
     "categories": [
       "Frigates"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2408,
@@ -38245,7 +38368,8 @@
     "categories": [
       "Carriers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2416,
@@ -38361,7 +38485,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2424,
@@ -38427,7 +38552,8 @@
     "categories": [
       "Freighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2432,
@@ -38493,7 +38619,8 @@
     "categories": [
       "Corvettes"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2436,
@@ -38561,7 +38688,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2443,
@@ -38581,7 +38709,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2445,
@@ -38617,7 +38746,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2449,
@@ -38685,7 +38815,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2453,
@@ -38753,7 +38884,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2460,
@@ -38773,7 +38905,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2461,
@@ -38841,7 +38974,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2465,
@@ -38941,7 +39075,8 @@
     ],
     "templates": [
       "Vehicle_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2471,
@@ -38991,7 +39126,8 @@
     "categories": [
       "Tanks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2474,
@@ -39043,7 +39179,8 @@
     ],
     "templates": [
       "Vehicle_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2477,
@@ -39321,7 +39458,8 @@
     "view_count": 4045,
     "content_length": 1391,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2494,
@@ -39438,7 +39576,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2500,
@@ -39458,7 +39597,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2501,
@@ -39476,7 +39616,8 @@
     "categories": [
       "Destroyers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2503,
@@ -39618,7 +39759,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2511,
@@ -39668,7 +39810,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2514,
@@ -39718,7 +39861,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2517,
@@ -39752,7 +39896,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2519,
@@ -39802,7 +39947,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2525,
@@ -39884,7 +40030,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2530,
@@ -39952,7 +40099,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2534,
@@ -39986,7 +40134,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2538,
@@ -40036,7 +40185,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2541,
@@ -40102,7 +40252,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2545,
@@ -40152,7 +40303,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2548,
@@ -40218,7 +40370,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2552,
@@ -40270,7 +40423,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2555,
@@ -40320,7 +40474,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2558,
@@ -40370,7 +40525,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2561,
@@ -40422,7 +40578,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2564,
@@ -40488,7 +40645,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2568,
@@ -40538,7 +40696,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2571,
@@ -40588,7 +40747,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2574,
@@ -40606,7 +40766,8 @@
     "categories": [
       "Fighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2575,
@@ -40658,7 +40819,8 @@
     ],
     "templates": [
       "Vehicle_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2578,
@@ -40710,7 +40872,8 @@
     ],
     "templates": [
       "Vehicle_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2581,
@@ -40760,7 +40923,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2584,
@@ -40813,7 +40977,8 @@
     ],
     "templates": [
       "Vehicle_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2587,
@@ -40865,7 +41030,8 @@
     ],
     "templates": [
       "Vehicle_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2590,
@@ -40915,7 +41081,8 @@
     "categories": [
       "Tanks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2593,
@@ -40965,7 +41132,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2596,
@@ -41031,7 +41199,8 @@
     "categories": [
       "Tanks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2600,
@@ -41082,7 +41251,8 @@
       "Imperial_Military_Specification",
       "Tanks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2603,
@@ -41164,7 +41334,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2611,
@@ -41740,7 +41911,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2645,
@@ -41902,7 +42074,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2655,
@@ -41952,7 +42125,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2658,
@@ -42002,7 +42176,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2661,
@@ -42052,7 +42227,8 @@
     "categories": [
       "Tanks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2664,
@@ -42102,7 +42278,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2667,
@@ -42152,7 +42329,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2670,
@@ -42202,7 +42380,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2673,
@@ -42252,7 +42431,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2676,
@@ -42302,7 +42482,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2679,
@@ -42352,7 +42533,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2682,
@@ -42418,7 +42600,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2686,
@@ -42484,7 +42667,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2690,
@@ -42534,7 +42718,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2693,
@@ -42632,7 +42817,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2699,
@@ -42682,7 +42868,8 @@
     "categories": [
       "Tanks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2702,
@@ -42732,7 +42919,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2705,
@@ -42782,7 +42970,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2708,
@@ -42832,7 +43021,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2711,
@@ -42882,7 +43072,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2714,
@@ -42932,7 +43123,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2717,
@@ -42982,7 +43174,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2720,
@@ -43048,7 +43241,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2724,
@@ -43098,7 +43292,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2727,
@@ -43148,7 +43343,8 @@
     "categories": [
       "Vehicles"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2730,
@@ -43481,7 +43677,8 @@
     "categories": [
       "Starships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2750,
@@ -43611,7 +43808,8 @@
     "categories": [
       "Transport_Aircraft"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2758,
@@ -43677,7 +43875,8 @@
     "categories": [
       "Aircraft"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2762,
@@ -43727,7 +43926,8 @@
     "categories": [
       "Aircraft"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2765,
@@ -43794,7 +43994,8 @@
       "Battleships",
       "Remnant_Military"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2773,
@@ -44611,7 +44812,8 @@
     "categories": [
       "Rigs"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2823,
@@ -44949,7 +45151,8 @@
     "categories": [
       "Cruisers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2851,
@@ -45015,7 +45218,8 @@
     "categories": [
       "Warships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2855,
@@ -45083,7 +45287,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2859,
@@ -45149,7 +45354,8 @@
     "categories": [
       "Cruisers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2863,
@@ -45233,7 +45439,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2880,
@@ -45347,7 +45554,8 @@
     "categories": [
       "Warships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2888,
@@ -45413,7 +45621,8 @@
     "categories": [
       "Warships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2892,
@@ -45479,7 +45688,8 @@
     "categories": [
       "Warships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2896,
@@ -45545,7 +45755,8 @@
     "categories": [
       "Corvettes"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2900,
@@ -45611,7 +45822,8 @@
     "categories": [
       "Cruisers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2904,
@@ -45677,7 +45889,8 @@
     "categories": [
       "Corvettes"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2908,
@@ -45743,7 +45956,8 @@
     "categories": [
       "Cruisers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2916,
@@ -45809,7 +46023,8 @@
     "categories": [
       "Frigates"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2920,
@@ -45877,7 +46092,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2924,
@@ -45943,7 +46159,8 @@
     "categories": [
       "Destroyers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2928,
@@ -46027,7 +46244,8 @@
     "categories": [
       "Cruisers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2941,
@@ -46093,7 +46311,8 @@
     "categories": [
       "Cruisers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2949,
@@ -46161,7 +46380,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2953,
@@ -46229,7 +46449,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2957,
@@ -46297,7 +46518,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2961,
@@ -46365,7 +46587,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2973,
@@ -46431,7 +46654,8 @@
     "categories": [
       "Frigates"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2977,
@@ -46497,7 +46721,8 @@
     "categories": [
       "Cruisers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2986,
@@ -46565,7 +46790,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2994,
@@ -46633,7 +46859,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 2998,
@@ -46701,7 +46928,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3002,
@@ -46767,7 +46995,8 @@
     "categories": [
       "Corvettes"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3006,
@@ -46833,7 +47062,8 @@
     "categories": [
       "Corvettes"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3010,
@@ -46899,7 +47129,8 @@
     "categories": [
       "Frigates"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3014,
@@ -46965,7 +47196,8 @@
     "categories": [
       "Corvettes"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3018,
@@ -47031,7 +47263,8 @@
     "categories": [
       "Frigates"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3022,
@@ -47099,7 +47332,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3026,
@@ -47165,7 +47399,8 @@
     "categories": [
       "Corvettes"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3034,
@@ -47231,7 +47466,8 @@
     "categories": [
       "Frigates"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3038,
@@ -47299,7 +47535,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3042,
@@ -47383,7 +47620,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3063,
@@ -47451,7 +47689,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3067,
@@ -47517,7 +47756,8 @@
     "categories": [
       "Frigates"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3071,
@@ -47535,7 +47775,8 @@
     "categories": [
       "Freighters"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3072,
@@ -47649,7 +47890,8 @@
     "categories": [
       "Corvettes"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3079,
@@ -47715,7 +47957,8 @@
     "categories": [
       "Frigates"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3083,
@@ -47781,7 +48024,8 @@
     "categories": [
       "Carriers"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3087,
@@ -50058,7 +50302,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3235,
@@ -50258,7 +50503,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3247,
@@ -51604,7 +51850,8 @@
     "categories": [
       "Starships"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3323,
@@ -53168,7 +53415,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3418,
@@ -53336,7 +53584,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3430,
@@ -53392,7 +53641,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3434,
@@ -53432,7 +53682,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3437,
@@ -53572,7 +53823,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3447,
@@ -53973,7 +54225,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3475,
@@ -54132,7 +54385,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3490,
@@ -54485,7 +54739,8 @@
     "categories": [
       "Tanks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3512,
@@ -54519,7 +54774,8 @@
     "categories": [
       "Tanks"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3514,
@@ -55269,7 +55525,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3573,
@@ -56166,7 +56423,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3631,
@@ -56308,7 +56566,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3639,
@@ -56328,7 +56587,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3640,
@@ -56348,7 +56608,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3641,
@@ -56368,7 +56629,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3642,
@@ -56838,7 +57100,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3670,
@@ -56858,7 +57121,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3671,
@@ -56930,7 +57194,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3675,
@@ -56950,7 +57215,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3676,
@@ -57203,7 +57469,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3690,
@@ -57567,7 +57834,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3712,
@@ -57587,7 +57855,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3713,
@@ -57607,7 +57876,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3714,
@@ -58289,7 +58559,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3753,
@@ -59125,7 +59396,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3800,
@@ -59177,7 +59449,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3803,
@@ -59277,7 +59550,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3809,
@@ -59345,7 +59619,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3813,
@@ -59799,7 +60074,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3841,
@@ -59867,7 +60143,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3845,
@@ -59887,7 +60164,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3846,
@@ -62511,7 +62789,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 3996,
@@ -62848,7 +63127,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4016,
@@ -63008,7 +63288,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4025,
@@ -63076,7 +63357,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4029,
@@ -63451,7 +63733,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4052,
@@ -64176,7 +64459,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4101,
@@ -66329,7 +66613,8 @@
     "templates": [
       "Aircraft_Information",
       "Aircraft_Variant"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4224,
@@ -66376,7 +66661,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4226,
@@ -66575,7 +66861,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4238,
@@ -66599,7 +66886,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4239,
@@ -66622,7 +66910,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4240,
@@ -66644,7 +66933,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4241,
@@ -66667,7 +66957,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4242,
@@ -67237,7 +67528,8 @@
     ],
     "templates": [
       "Aircraft_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4276,
@@ -67536,7 +67828,8 @@
     ],
     "templates": [
       "Starship_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4294,
@@ -67779,7 +68072,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4307,
@@ -67802,7 +68096,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4308,
@@ -67840,7 +68135,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4310,
@@ -67988,7 +68284,8 @@
     ],
     "templates": [
       "Starship_Class_Information"
-    ]
+    ],
+    "migrated_to_codex": true
   },
   {
     "page_id": 4319,

@@ -22,6 +22,8 @@ import { architecturalAchievementsIndexArticle } from './articles/Architectural_
 import { ARCHITECTURAL_ARTICLES } from './articles/architecturalArticles';
 import { tacticsAndTreatisesIndexArticle } from './articles/Tactics_and_Treatises_Index';
 import { TACTICS_ARTICLES } from './articles/tacticsArticles';
+import { technologicalCatalogsIndexArticle } from './articles/Technological_Catalogs_Index';
+import { TECH_CATALOG_ARTICLES } from './articles/techCatalogArticles';
 
 export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     'Introduction_to_the_Exodus_Wars_Universe': introArticle,
@@ -156,6 +158,21 @@ export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     ':Category:Treatises': tacticsAndTreatisesIndexArticle,
     'Doctrine': tacticsAndTreatisesIndexArticle,
     'doctrine': tacticsAndTreatisesIndexArticle,
+    'Technological_Catalogs': technologicalCatalogsIndexArticle,
+    'Technological Catalogs': technologicalCatalogsIndexArticle,
+    'technological_catalogs': technologicalCatalogsIndexArticle,
+    'technological catalogs': technologicalCatalogsIndexArticle,
+    'Category:Technological_Catalogs': technologicalCatalogsIndexArticle,
+    'category:technological_catalogs': technologicalCatalogsIndexArticle,
+    'Category:Technological Catalogs': technologicalCatalogsIndexArticle,
+    'category:technological catalogs': technologicalCatalogsIndexArticle,
+    ':Category:Technological_Catalogs': technologicalCatalogsIndexArticle,
+    ':Category:Technological Catalogs': technologicalCatalogsIndexArticle,
+    'Technology': technologicalCatalogsIndexArticle,
+    'technology': technologicalCatalogsIndexArticle,
+    'Category:Technology': technologicalCatalogsIndexArticle,
+    'category:technology': technologicalCatalogsIndexArticle,
+    ':Category:Technology': technologicalCatalogsIndexArticle,
 };
 
 function registerArticle(article: CodexArticle): void {
@@ -259,6 +276,37 @@ CODEX_ARTICLES['category:treatises'] = tacticsAndTreatisesIndexArticle;
 CODEX_ARTICLES[':Category:Treatises'] = tacticsAndTreatisesIndexArticle;
 CODEX_ARTICLES['Doctrine'] = tacticsAndTreatisesIndexArticle;
 CODEX_ARTICLES['doctrine'] = tacticsAndTreatisesIndexArticle;
+
+for (const item of TECH_CATALOG_ARTICLES) {
+    registerArticle(item);
+}
+registerArticle(technologicalCatalogsIndexArticle);
+
+const techCategories = [
+    'Warships', 'Aircraft', 'Starships', 'Vehicles',
+    'Battleships', 'Cruisers', 'Destroyers', 'Frigates', 'Corvettes', 'Carriers',
+    'Fighters', 'Bombers', 'VTOLs', 'Transport_Aircraft', 'Transport Aircraft',
+    'Recon_Aircraft', 'Recon Aircraft', 'Civilian_Aircraft', 'Civilian Aircraft',
+    'Freighters', 'Starliners', 'Exploration_Vessels', 'Exploration Vessels',
+    'Colony_Ships', 'Colony Ships',
+    'Tanks', 'Rigs', 'Civilian_Vehicles', 'Civilian Vehicles'
+];
+
+for (const cat of techCategories) {
+    const slug = cat.replace(/ /g, '_');
+    const space = cat.replace(/_/g, ' ');
+    if (!CODEX_ARTICLES[slug]) CODEX_ARTICLES[slug] = technologicalCatalogsIndexArticle;
+    if (!CODEX_ARTICLES[space]) CODEX_ARTICLES[space] = technologicalCatalogsIndexArticle;
+    if (!CODEX_ARTICLES[slug.toLowerCase()]) CODEX_ARTICLES[slug.toLowerCase()] = technologicalCatalogsIndexArticle;
+    if (!CODEX_ARTICLES[space.toLowerCase()]) CODEX_ARTICLES[space.toLowerCase()] = technologicalCatalogsIndexArticle;
+
+    CODEX_ARTICLES[`Category:${slug}`] = technologicalCatalogsIndexArticle;
+    CODEX_ARTICLES[`category:${slug.toLowerCase()}`] = technologicalCatalogsIndexArticle;
+    CODEX_ARTICLES[`Category:${space}`] = technologicalCatalogsIndexArticle;
+    CODEX_ARTICLES[`category:${space.toLowerCase()}`] = technologicalCatalogsIndexArticle;
+    CODEX_ARTICLES[`:Category:${slug}`] = technologicalCatalogsIndexArticle;
+    CODEX_ARTICLES[`:Category:${space}`] = technologicalCatalogsIndexArticle;
+}
 
 export function getCodexArticle(slugOrTitle: string): CodexArticle | undefined {
     let decoded = slugOrTitle;
