@@ -25,7 +25,7 @@ Warships are armed starships. Most governments and international treaties strict
 == Aircraft ==
 Atmospheric and exo-atmospheric combat craft provide frontline air superiority, precision ground bombardment, and high-tempo tactical transport. Flight frames range from sub-orbital interceptors to heavy trans-atmospheric gunships:
 
-* '''[[:Category:Fighters|Fighters]]''' - Maneuverable aerospace interceptors and superiority fighters built for dogfighting and fleet escort. Prominent designs include the carrier-based [[F-09 Carrier Fighter - "Valkyrie"|F-9 Valkyrie]], the [[F-04 Superiority Fighter - "Raven"|F-4 Raven]], and the Lorithos [[O-24 Vadrie]].
+* '''[[:Category:Fighters|Fighters]]''' - Maneuverable aerospace interceptors and superiority fighters built for dogfighting and fleet escort. Prominent designs include the carrier-based [[F-09_Carrier_Fighter_-_Valkyrie|F-9 Valkyrie]], the [[F-04_Superiority_Fighter_-_Raven|F-4 Raven]], and the Lorithos [[O-24 Vadrie]].
 * '''[[:Category:Bombers|Bombers]]''' - Heavy strike craft engineered to penetrate enemy air defense envelopes and deliver massive kinetic, explosive, or plasma payloads against fortified ground installations and capital ships, including the [[B-2B Ocelot]], [[B-3D Gyrfalcon]], and [[K-6 Eituk]].
 * '''[[:Category:Aircraft|Aircraft]]''' - Comprehensive register of atmospheric aircraft, aerospace strike fighters, reconnaissance craft, and trans-atmospheric transports.
 * '''[[:Category:Atmospheric Craft|Atmospheric Craft]]''' - Fighters, bombers, and multi-role interceptors engineered for planetary airspace defense, atmospheric dogfighting, and ground assault operations.
@@ -48,8 +48,8 @@ Planetary combat and operations necessitate versatile ground mobility solutions 
 * '''[[:Category:Vehicles|Vehicles]]''' - Master directory of all ground, hover, walking, and tracked vehicular platforms in military and civilian service.
 * '''[[:Category:Imperial Military M-Series|Imperial Military M-Series]]''' - The complete designation register of standardized military rigs, tanks, and combat chassis engineered for Imperial armed forces.
 * '''[[:Category:Tanks|Tanks & Armored Fighting Vehicles]]''' - Tracked and hover armor providing direct heavy cannon fire and fortified infantry protection, including the [[M-10 Puma]] and [[M-15 Condor]].
-* '''[[:Category:Rigs|Combat Rigs]]''' - Bipedal and multi-pedal armored walking rigs capable of traversing rugged terrain, climbing jagged slopes, and engaging in close-quarters urban and anti-swarm defense. Prominent frames include the [[M-21 Light Combat Rig Chassis - "Hercules"]], [[M-24 Medium Combat Rig Chassis - "Apollo"]], and [[M-32 Heavy Support Rig Chassis - "Zeus"]].
-* '''[[:Category:Civilian Vehicles|Utility & Support Vehicles]]''' - All-terrain armored personnel carriers, artillery chassis, and support trucks, including the [[M-38 Armored Personnel Carrier - "Armadillo"]] and [[M-39 Utility Truck]].
+* '''[[:Category:Rigs|Combat Rigs]]''' - Bipedal and multi-pedal armored walking rigs capable of traversing rugged terrain, climbing jagged slopes, and engaging in close-quarters urban and anti-swarm defense. Prominent frames include the [[M-21_Light_Combat_Rig_Chassis_-_Hercules|M-21 Light Combat Rig Chassis - "Hercules"]], [[M-24_Medium_Combat_Rig_Chassis_-_Apollo|M-24 Medium Combat Rig Chassis - "Apollo"]], and [[M-32_Heavy_Support_Rig_Chassis_-_Zeus|M-32 Heavy Support Rig Chassis - "Zeus"]].
+* '''[[:Category:Civilian Vehicles|Utility & Support Vehicles]]''' - All-terrain armored personnel carriers, artillery chassis, and support trucks, including the [[M-38_Armored_Personnel_Carrier_-_Armadillo|M-38 Armored Personnel Carrier - "Armadillo"]] and [[M-39 Utility Truck]].
 
 == Ground Equipment & Ordnance ==
 Personal protection, firearms, and imperial standardized armaments developed for infantry squads and mechanized divisions:

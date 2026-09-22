@@ -45,8 +45,8 @@ export const AIRCRAFT_ARTICLES: CodexArticle[] = [
     },
     {
         'id': 979,
-        'slug': 'F-09_Carrier_Fighter_-_"Valkyrie"',
-        'title': 'F-09 Carrier Fighter - "Valkyrie"',
+        'slug': 'F-09_Carrier_Fighter_-_Valkyrie',
+        'title': 'F-09 Carrier Fighter - Valkyrie',
         'author': 'JDavis',
         'lastUpdated': '2008-11-14 07:27:08',
         'categories': [
@@ -660,8 +660,8 @@ export const AIRCRAFT_ARTICLES: CodexArticle[] = [
     },
     {
         'id': 1145,
-        'slug': 'F-16_Superiority_Fighter_-_"Piranha"',
-        'title': 'F-16 Superiority Fighter - "Piranha"',
+        'slug': 'F-16_Superiority_Fighter_-_Piranha',
+        'title': 'F-16 Superiority Fighter - Piranha',
         'author': 'JDavis',
         'lastUpdated': '2007-10-21 06:01:03',
         'categories': [
@@ -706,8 +706,8 @@ export const AIRCRAFT_ARTICLES: CodexArticle[] = [
     },
     {
         'id': 1724,
-        'slug': 'F-04_Superiority_Fighter_-_"Raven"',
-        'title': 'F-04 Superiority Fighter - "Raven"',
+        'slug': 'F-04_Superiority_Fighter_-_Raven',
+        'title': 'F-04 Superiority Fighter - Raven',
         'author': 'ABailey',
         'lastUpdated': '2008-10-19 02:42:54',
         'categories': [
@@ -883,8 +883,8 @@ export const AIRCRAFT_ARTICLES: CodexArticle[] = [
     },
     {
         'id': 2533,
-        'slug': 'F-11_Heavy_Fighter_-_"Stuka"',
-        'title': 'F-11 Heavy Fighter - "Stuka"',
+        'slug': 'F-11_Heavy_Fighter_-_Stuka',
+        'title': 'F-11 Heavy Fighter - Stuka',
         'author': 'JDavis',
         'lastUpdated': '2008-11-14 07:45:30',
         'categories': [
@@ -1013,8 +1013,8 @@ export const AIRCRAFT_ARTICLES: CodexArticle[] = [
     },
     {
         'id': 2554,
-        'slug': 'Me-32_Superiority_Fighter_-_"Sturmfaust"',
-        'title': 'Me-32 Superiority Fighter - "Sturmfaust"',
+        'slug': 'Me-32_Superiority_Fighter_-_Sturmfaust',
+        'title': 'Me-32 Superiority Fighter - Sturmfaust',
         'author': 'Asears',
         'lastUpdated': '2009-05-27 08:03:38',
         'categories': [
@@ -1084,8 +1084,8 @@ export const AIRCRAFT_ARTICLES: CodexArticle[] = [
     },
     {
         'id': 2563,
-        'slug': 'F-12_Superiority_Fighter_-_"Vampire"',
-        'title': 'F-12 Superiority Fighter - "Vampire"',
+        'slug': 'F-12_Superiority_Fighter_-_Vampire',
+        'title': 'F-12 Superiority Fighter - Vampire',
         'author': 'JDavis',
         'lastUpdated': '2009-02-21 22:53:47',
         'categories': [
@@ -1246,8 +1246,8 @@ export const AIRCRAFT_ARTICLES: CodexArticle[] = [
     },
     {
         'id': 3234,
-        'slug': 'F-04S_Superiority_Fighter_-_"Super_Raven"',
-        'title': 'F-04S Superiority Fighter - "Super Raven"',
+        'slug': 'F-04S_Superiority_Fighter_-_Super_Raven',
+        'title': 'F-04S Superiority Fighter - Super Raven',
         'author': 'ABailey',
         'lastUpdated': '2008-10-19 02:34:05',
         'categories': [

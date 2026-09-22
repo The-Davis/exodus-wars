@@ -268,7 +268,7 @@ The Hercules is a versatile combat walker.`;
             const fightersArticle = getCodexArticle('Category:Fighters');
             expect(fightersArticle).toBeDefined();
             expect(fightersArticle?.slug).toBe('Fighters');
-            expect(fightersArticle?.rawContent).toContain('F-09_Carrier_Fighter_-_"Valkyrie"');
+            expect(fightersArticle?.rawContent).toContain('F-09_Carrier_Fighter_-_Valkyrie');
             expect(getCodexArticle('Category:Tanks')).toBe(article);
             expect(getCodexArticle('Category:Rigs')).toBe(article);
             expect(getCodexArticle('Category:Infantry Equipment Profiles')).toBeDefined();

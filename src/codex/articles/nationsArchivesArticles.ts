@@ -5864,8 +5864,8 @@ When he formed the [[Alphas]] and the [[Omegas]], [[Lucius Black]] gave them the
     },
     {
         id: 3279,
-        slug: "No.1416_Squadron_ADF_-_''Saint_Michael's_Sword''",
-        title: "No.1416 Squadron ADF - \\\"Saint Michael's Sword\\\"",
+        slug: 'No.1416_Squadron_ADF_-_Saint_Michaels_Sword',
+        title: "No.1416 Squadron ADF - Saint Michael's Sword",
         author: 'JDavis',
         lastUpdated: '2009-05-07 02:47:31',
         summary: "The 1416th Combat Squadron of the Alliance Defense Force, known as \"Saint Michael's Sword\", was a fighter squadron assigned to the Sol System. It was noted as H...",
@@ -7818,13 +7818,12 @@ Much of the Mesarthrim terminology that seems uniqe is often simply Germanic/Hal
 *A '''Papierschiff''' is a ''Frigate'' (also known as Paper Ships)
 *A '''Kriegskorvette''' is a ''Corvette''
 
-
 [[Category:United Mesarthrim Clans]]`
     },
     {
         id: 3239,
-        slug: "VF-01_Imperial_Naval_Fighter_Squadron_-_''Scimitar_Squadron''",
-        title: 'VF-01 Imperial Naval Fighter Squadron - \\"Scimitar Squadron\\"',
+        slug: 'VF-01_Imperial_Naval_Fighter_Squadron_-_Scimitar_Squadron',
+        title: 'VF-01 Imperial Naval Fighter Squadron - Scimitar Squadron',
         author: 'JDavis',
         lastUpdated: '2008-08-26 10:36:13',
         summary: "The Royal Imperial Navy's first fighter squadron, VF-1, commonly known as \"Scimitar Squadron\", was the premiere space and air combat group of the Onyx Empire, a...",
@@ -7869,14 +7868,13 @@ During the last desperate military build-up leading into the invasion of [[Earth
     },
     {
         id: 3595,
-        slug: "VF-11_Imperial_Naval_Fighter_Squadron_-_''Hell's_Kittens''",
-        title: "VF-11 Imperial Naval Fighter Squadron - \\\"Hell's Kittens\\\"",
+        slug: 'VF-11_Imperial_Naval_Fighter_Squadron_-_Hells_Kittens',
+        title: "VF-11 Imperial Naval Fighter Squadron - Hell's Kittens",
         author: 'JDavis',
         lastUpdated: '2008-08-27 09:16:30',
         summary: "The Royal Imperial Navy's eleventh fighter squadron, VF-11, nicknamed \"Hell's Kittens\", was the main space and air combat group for the HMS Cougar, and was note...",
         categories: ['Onyx Empire'],
         rawContent: `{{Squadron Information|
-|image = 
 |caption = 
 |name = VF-11 "Hell's Kittens"
 |active = [[2315]]-[[2324]]

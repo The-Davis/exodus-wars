@@ -243,8 +243,8 @@ export const ARCHITECTURAL_ARTICLES: CodexArticle[] = [
     },
     {
         'id': 2743,
-        'slug': 'PL-110_Manned_Defensive_Platform_-_"Epsilon"',
-        'title': 'PL-110 Manned Defensive Platform - "Epsilon"',
+        'slug': 'PL-110_Manned_Defensive_Platform_-_Epsilon',
+        'title': 'PL-110 Manned Defensive Platform - Epsilon',
         'author': 'JDavis',
         'lastUpdated': '2007-10-10 01:44:05',
         'categories': [

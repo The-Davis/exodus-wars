@@ -229,7 +229,7 @@ export class CodexRenderer {
         // 5. Append categories section if present
         if (categories.length > 0) {
             const catLinks = categories
-                .map(c => `<li><a href="#/codex/Category:${encodeURIComponent(c)}" class="codex-category-tag" data-target="Category:${c}">${c.replace(/_/g, ' ')}</a></li>`)
+                .map(c => `<li><a href="#/codex/Category:${encodeURIComponent(c)}" class="codex-category-tag" data-target="Category:${c.replace(/"/g, '&quot;')}">${c.replace(/_/g, ' ')}</a></li>`)
                 .join(' ');
             htmlBlocks.push(`
                 <div class="codex-categories-section">
@@ -1986,13 +1986,15 @@ export class CodexRenderer {
         out = out.replace(/\[\[:?([^\|\]]+)\|([^\]]+)\]\]/g, (_m, target, label) => {
             const cleanTarget = target.trim().replace(/^:+/, '');
             const cleanLabel = label.trim();
-            return `<a href="#/codex/${encodeURIComponent(cleanTarget)}" class="codex-wikilink" data-target="${cleanTarget}">${cleanLabel}</a>`;
+            const safeTarget = cleanTarget.replace(/"/g, '&quot;');
+            return `<a href="#/codex/${encodeURIComponent(cleanTarget)}" class="codex-wikilink" data-target="${safeTarget}">${cleanLabel}</a>`;
         });
 
         // Wikilinks: [[:Category:...]] or [[Target]]
         out = out.replace(/\[\[:?([^\]]+)\]\]/g, (_m, target) => {
             const cleanTarget = target.trim().replace(/^:+/, '');
-            return `<a href="#/codex/${encodeURIComponent(cleanTarget)}" class="codex-wikilink" data-target="${cleanTarget}">${cleanTarget}</a>`;
+            const safeTarget = cleanTarget.replace(/"/g, '&quot;');
+            return `<a href="#/codex/${encodeURIComponent(cleanTarget)}" class="codex-wikilink" data-target="${safeTarget}">${cleanTarget}</a>`;
         });
 
         // Bold & italic: '''''text'''''
