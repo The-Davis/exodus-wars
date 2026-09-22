@@ -2343,7 +2343,9 @@
     "timestamp": "2007-07-29 06:45:40",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "CIASeal.jpg"
+    "disk_filename": "CIASeal.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CIASeal.jpg"
   },
   {
     "image_name": "CLB-Sternarbeiten.png",
@@ -2410,7 +2412,9 @@
     "timestamp": "2007-11-24 23:29:24",
     "description": "by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "CTBG.png"
+    "disk_filename": "CTBG.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CTBG.png"
   },
   {
     "image_name": "CTBG_Nimitz.png",
@@ -2436,7 +2440,9 @@
     "timestamp": "2007-12-12 01:54:32",
     "description": "The Crimson Tide, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "CTBG_Starlight1.png"
+    "disk_filename": "CTBG_Starlight1.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CTBG_Starlight1.png"
   },
   {
     "image_name": "CTBG_Starlight2.png",
@@ -2514,7 +2520,9 @@
     "timestamp": "2007-12-19 21:04:11",
     "description": "Crimson Tide Battle Group Wickliff, by Andrew Sears.",
     "exists_on_disk": true,
-    "disk_filename": "CTBG_Wickliff1.png"
+    "disk_filename": "CTBG_Wickliff1.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CTBG_Wickliff1.png"
   },
   {
     "image_name": "Caledon.png",
@@ -3205,7 +3213,9 @@
     "timestamp": "2008-05-31 04:51:26",
     "description": "New, cleaner, version of Dancer Tattoo.",
     "exists_on_disk": true,
-    "disk_filename": "Dannsair.png"
+    "disk_filename": "Dannsair.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Dannsair.png"
   },
   {
     "image_name": "DasherLightHovertank1.jpg",
@@ -3800,7 +3810,9 @@
     "timestamp": "2009-04-07 21:48:31",
     "description": "Auellal Mongrel Starmaster.",
     "exists_on_disk": true,
-    "disk_filename": "Eye_of_the_Twilight.png"
+    "disk_filename": "Eye_of_the_Twilight.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Eye_of_the_Twilight.png"
   },
   {
     "image_name": "F-11_Stuka_Front_View.png",
@@ -4094,7 +4106,9 @@
     "timestamp": "2008-08-22 04:55:19",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Fearless.png"
+    "disk_filename": "Fearless.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Fearless.png"
   },
   {
     "image_name": "Federated_Districts'_Ship_Prestige.png",
@@ -4107,7 +4121,9 @@
     "timestamp": "2009-02-17 01:33:54",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Federated_Districts'_Ship_Prestige.png"
+    "disk_filename": "Federated_Districts'_Ship_Prestige.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Federated_Districts'_Ship_Prestige.png"
   },
   {
     "image_name": "FerretMultipurposeVehicle1.jpg",
@@ -4223,7 +4239,9 @@
     "timestamp": "2007-11-25 21:44:10",
     "description": "The Firebird fleet, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Firebird.png"
+    "disk_filename": "Firebird.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Firebird.png"
   },
   {
     "image_name": "Flag_of_the_Ikronin_Jurekön.png",
@@ -5408,7 +5426,9 @@
     "timestamp": "2008-03-12 19:20:04",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "His_Majesty's_Ship_Vigilant.png"
+    "disk_filename": "His_Majesty's_Ship_Vigilant.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/His_Majesty's_Ship_Vigilant.png"
   },
   {
     "image_name": "Holt_from_orbit.png",
@@ -5509,7 +5529,9 @@
     "timestamp": "2007-08-04 10:48:17",
     "description": "Cuneiform symbol for the letter \"H\" in the Lorithos Huorak alphabet.",
     "exists_on_disk": true,
-    "disk_filename": "Huorak_H.png"
+    "disk_filename": "Huorak_H.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Huorak_H.png"
   },
   {
     "image_name": "Hydra_Class_Battleship_Front_View.jpg",
@@ -8167,7 +8189,9 @@
     "timestamp": "2007-10-01 21:14:47",
     "description": "Map of the [[Mirdek System]].",
     "exists_on_disk": true,
-    "disk_filename": "MirdekSystem.png"
+    "disk_filename": "MirdekSystem.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/MirdekSystem.png"
   },
   {
     "image_name": "Mnemosyne_from_orbit.png",
@@ -10230,7 +10254,9 @@
     "timestamp": "2008-08-22 23:12:40",
     "description": "Royal Imperial Air Force Badge, waiting James review.",
     "exists_on_disk": true,
-    "disk_filename": "RIAF-Badge.png"
+    "disk_filename": "RIAF-Badge.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RIAF-Badge.png"
   },
   {
     "image_name": "RIM-Badge.png",
@@ -10243,7 +10269,9 @@
     "timestamp": "2008-09-04 02:42:19",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "RIM-Badge.png"
+    "disk_filename": "RIM-Badge.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/RIM-Badge.png"
   },
   {
     "image_name": "RIN---Black-Armada-Badge.png",
@@ -10780,7 +10808,9 @@
     "timestamp": "2008-08-16 09:31:10",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Royal_Imperial_Army_Badge.png"
+    "disk_filename": "Royal_Imperial_Army_Badge.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Royal_Imperial_Army_Badge.png"
   },
   {
     "image_name": "Royal_Imperial_Navy_Badge.png",
@@ -13560,7 +13590,9 @@
     "timestamp": "2008-02-06 23:34:37",
     "description": "Ensign of the UMC Kriegsmarine, by Andrew K. Sears",
     "exists_on_disk": true,
-    "disk_filename": "UMCKriegsmarine.png"
+    "disk_filename": "UMCKriegsmarine.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UMCKriegsmarine.png"
   },
   {
     "image_name": "Ueda_seen_from_Orbit.png",
@@ -13706,7 +13738,9 @@
     "timestamp": "2008-09-22 07:23:31",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "United_Earth_Alliance_Air_Defense_Force_Badge.png"
+    "disk_filename": "United_Earth_Alliance_Air_Defense_Force_Badge.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/United_Earth_Alliance_Air_Defense_Force_Badge.png"
   },
   {
     "image_name": "UrokonCommunicationsSatellite.jpg",
@@ -14467,7 +14501,9 @@
     "timestamp": "2010-12-07 22:09:42",
     "description": "The Ziegler over Novar.",
     "exists_on_disk": true,
-    "disk_filename": "ZieglerHeroShot.png"
+    "disk_filename": "ZieglerHeroShot.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ZieglerHeroShot.png"
   },
   {
     "image_name": "ZieldarLightHovertank1.jpg",

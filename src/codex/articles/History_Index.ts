@@ -61,5 +61,15 @@ The history of the "[[Main Page|Exodus Wars Universe]]" begins with the "[[Sunde
 *[[Talithe Cume]] - Foundational planetary milestone and historic cultural gathering.
 *[[The Technology Race]] - The intense scientific and industrial competition leading up to interstellar conflict.
 
+== Historical Chronicles & Literary Series ==
+*[[:Category:Tempest War Series|Tempest War Chronicles]] - Narrative operational dispatches, front-line perspectives, and after-action reports from the Tempest War theater.
+*[[:Category:Second Exodus War Series|Second Exodus War Chronicles]] - Eyewitness reports, battle chronicles, and dispatches recording the fall of Terra and the Second Exodus.
+*[[:Category:Machinations of the Conclave Series|Machinations of the Conclave]] - Dossiers and chronicles detailing the clandestine conspiracies of the shadowy Conclave.
+*[[:Category:Mesarthrim Civil War Series|Mesarthrim Civil War Series]] - Chronicles of clan factionalism, ideological uprising, and naval skirmishes across the Mesar systems.
+*[[:Category:Volucris War Series|Volucris War Series]] - Terrifying survivor accounts and naval logs recounting the bio-mechanical horrors of the Volucris swarm.
+*[[:Category:Books|Books & In-Universe Publications]] - Historical treatises, published journalism, and investigative literature circulating across the colonies.
+*[[:Category:Carriers Series|Carriers Series]] - Fleet operational series detailing naval aviation and carrier doctrine.
+*[[:Category:Old Stories|Old Stories & Legends]] - Folk tales, oral traditions, and mythic recollections from ancient eras.
+
 [[Category:History]]`
 };

@@ -35,6 +35,8 @@ export class CodexRenderer {
         const militaryForceMatch = text.match(/\{\{Military[_ ]Force[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const militaryOverviewMatch = text.match(/\{\{Military[_ ]Overview[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const infantryMatch = text.match(/\{\{Infantry[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
+        const squadronMatch = text.match(/\{\{Squadron[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
+        const intelligenceBranchMatch = text.match(/\{\{Intelligence[_ ]Branch[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
 
         if (personMatch) {
             text = text.replace(personMatch[0], '');
@@ -117,6 +119,12 @@ export class CodexRenderer {
         } else if (infantryMatch) {
             text = text.replace(infantryMatch[0], '');
             infoboxHtml = this.renderInfantryInformation(infantryMatch[1], articleImages, baseUrl);
+        } else if (squadronMatch) {
+            text = text.replace(squadronMatch[0], '');
+            infoboxHtml = this.renderSquadronInformation(squadronMatch[1], articleImages, baseUrl);
+        } else if (intelligenceBranchMatch) {
+            text = text.replace(intelligenceBranchMatch[0], '');
+            infoboxHtml = this.renderIntelligenceBranchInformation(intelligenceBranchMatch[1], articleImages, baseUrl);
         }
 
         // Inline variant spec cards
@@ -1751,6 +1759,102 @@ export class CodexRenderer {
             <aside class="codex-infobox infantry-information">
                 <div class="infobox-header infantry-header">
                     <div class="infobox-subtitle">INFANTRY EQUIPMENT // COMBAT PROFILE</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderSquadronInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || 'Squadron';
+        const imgName = this.extractImageName(params['image'] || params['insignia'] || params['logo'] || params['photo']);
+        const caption = params['caption'] || '';
+        const active = params['active'] || params['dates'] || '';
+        const nation = params['nation'] || params['allegiance'] || '';
+        const militaryBranch = params['military_branch'] || params['branch'] || params['force'] || '';
+        const aircraftType = params['aircraft_type'] || params['aircraft'] || params['type'] || '';
+        const role = params['role'] || params['mission'] || '';
+        const garrison = params['garrison'] || params['station'] || params['base'] || params['carrier'] || '';
+        const nickname = params['nickname'] || '';
+        const battles = params['battles'] || params['operations'] || params['engagements'] || '';
+
+        const rows: string[] = [];
+        if (nickname) rows.push(`<tr><th>Nickname</th><td>${this.formatInline(nickname)}</td></tr>`);
+        if (active) rows.push(`<tr><th>Active Service</th><td>${this.formatInline(active)}</td></tr>`);
+        if (nation) rows.push(`<tr><th>Allegiance</th><td>${this.formatInline(nation)}</td></tr>`);
+        if (militaryBranch) rows.push(`<tr><th>Military Branch</th><td>${this.formatInline(militaryBranch)}</td></tr>`);
+        if (aircraftType) rows.push(`<tr><th>Aircraft Type</th><td>${this.formatInline(aircraftType)}</td></tr>`);
+        if (role) rows.push(`<tr><th>Operational Role</th><td>${this.formatInline(role)}</td></tr>`);
+        if (garrison) rows.push(`<tr><th>Station / Garrison</th><td>${this.formatInline(garrison)}</td></tr>`);
+        if (battles) rows.push(`<tr><th>Notable Battles</th><td>${this.formatInline(battles)}</td></tr>`);
+
+        const imgHtml = imgName
+            ? this.renderImageContainer(imgName, articleImages, baseUrl, `${name} Insignia`, caption, false, true)
+            : '';
+
+        return `
+            <aside class="codex-infobox squadron-information">
+                <div class="infobox-header squadron-header">
+                    <div class="infobox-subtitle">AEROSPACE WING // SQUADRON ROSTER</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderIntelligenceBranchInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || 'Intelligence Branch';
+        const imgName = this.extractImageName(params['image'] || params['insignia'] || params['logo'] || params['photo']);
+        const caption = params['caption'] || '';
+        const nation = params['nation'] || params['allegiance'] || '';
+        const designation = params['designation'] || params['type'] || params['role'] || '';
+        const size = params['size'] || params['personnel'] || '';
+        const headquarters = params['headquarters'] || params['hq'] || '';
+        const command1 = params['command1'] || params['command'] || params['director'] || params['leader'] || '';
+        const command2 = params['command2'] || params['deputy'] || '';
+        const operations = params['operations'] || params['roles'] || '';
+
+        const rows: string[] = [];
+        if (nation) rows.push(`<tr><th>Allegiance</th><td>${this.formatInline(nation)}</td></tr>`);
+        if (designation) rows.push(`<tr><th>Designation</th><td>${this.formatInline(designation)}</td></tr>`);
+        if (size) rows.push(`<tr><th>Estimated Size</th><td>${this.formatInline(size)}</td></tr>`);
+        if (headquarters) rows.push(`<tr><th>Headquarters</th><td>${this.formatInline(headquarters)}</td></tr>`);
+        if (command1) rows.push(`<tr><th>Leadership</th><td>${this.formatInline(command1)}</td></tr>`);
+        if (command2) rows.push(`<tr><th>Operations</th><td>${this.formatInline(command2)}</td></tr>`);
+        if (operations) rows.push(`<tr><th>Directives</th><td>${this.formatInline(operations)}</td></tr>`);
+
+        const imgHtml = imgName
+            ? this.renderImageContainer(imgName, articleImages, baseUrl, `${name} Insignia`, caption, false, true)
+            : '';
+
+        return `
+            <aside class="codex-infobox intelligence-branch-information">
+                <div class="infobox-header intelligence-header">
+                    <div class="infobox-subtitle">INTELLIGENCE ARCHIVE // CLANDESTINE SERVICE</div>
                     <h3 class="infobox-name">${this.formatInline(name)}</h3>
                 </div>
                 ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}

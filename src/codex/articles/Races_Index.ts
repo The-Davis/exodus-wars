@@ -27,6 +27,7 @@ All human races trace their ultimate genetic lineage back to the [[Anthronoris]]
 *[[Juns]] - A specialized human colonial lineage adapted to frontier environments.
 
 == Alien & Extraterrestrial Species ==
+*[[:Category:Race|Species & Taxonomy]] - Master directory of all alien and sapient species across the galaxy.
 *[[Gorhamut]] - Ancient reptilian and saurian civilization renowned for supreme genetic manipulation and the creation of client warrior races.
 *[[Anderung]] - Chameleonic, predatory shapeshifters created by the Gorhamut who formerly enslaved the Mesarthrim.
 *[[Ngrligru]] - Ferocious aquatic and saurian warrior species mutated by the [[Njaa]] into the ravenous horde that triggered the Sundering.
@@ -34,6 +35,12 @@ All human races trace their ultimate genetic lineage back to the [[Anthronoris]]
 *[[Volucris]] - The ravenous, chitin-armored insectoid hive-mind species currently launching devastating incursions across the Orion Arm.
 *[[Volucris Worker|Volucris Worker]] - The curious, multi-eyed asexual caste of the Volucris gestalt that acts as a mobile biochemical factory.
 *[[Sirunaki]] - Enigmatic alien species possessing multi-chambered respiratory systems and keen sensory adaptations.
+*[[Thezerops]] - Ancient intelligent species documented in xenobiological records.
+
+== Linguistic & Cultural Studies ==
+*[[:Category:Languages|Languages of the Known Species]] - Grammars, lexicons, writing systems, and dialect registers spanning human and alien tongues.
+*[[:Category:Terminology|Terminology & Common Parlance]] - In-universe vernacular, military jargon, technical designations, and colloquial expressions.
+*[[:Category:Uniforms|Military & Diplomatic Uniforms]] - Regimental dress codes, service uniforms, insignias, and ceremonial attire across civilizations.
 
 [[Category:Categories]]
 [[Category:Lifeforms]]`

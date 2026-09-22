@@ -76,6 +76,26 @@ Nations also refer to independent geographical regions on a single planet. By [[
 *[[:Category:Remnant Military|Remnant Military Cadre]] - Ancient Anthronoris dreadnought flotillas and elite warrior cadres preserving forgotten doctrines.
 *[[:Category:Military Ranks|Military Ranks & Hierarchy]] - Rank structures, naval grades, and command hierarchies across galactic armed forces.
 *[[:Category:Head of State|Heads of State]] - Chief public representatives and executive sovereign offices across civilizations.
+*[[:Category:Militaries|Armed Forces Directory]] - Strategic overview of standing armies, planetary garrisons, and expeditionary fleets.
+
+== Sovereign National Archives & Governance ==
+*[[:Category:Federated Districts of the Prefecture|Federated Districts of the Prefecture]] - Constitutional archives, ministries, and civic laws of the democratic federation.
+*[[:Category:Onyx Empire|Onyx Empire]] - Imperial decrees, security bureaus, and autocratic institutions of the House of Black.
+*[[:Category:United Earth Alliance|United Earth Alliance]] - Historical assembly records, charters, and ministries of pre-Exodus Earth.
+*[[:Category:Colonial Commonwealth|Colonial Commonwealth]] - Frontier parliamentary governance, colony charters, and administrative councils.
+*[[:Category:Meroniri Terinasi|Meroniri Terinasi]] - Theocratic archives, theological councils, and governing bodies of the Meroniri.
+*[[:Category:Rikaz o Fii Huern iv Lorithan|Rikaz o Fii Huern iv Lorithan]] - High Assembly documents, patriarchal records, and governance of the Lorithos.
+*[[:Category:Ikronin Jurekön|Ikronin Jurekön]] - Technocratic directories, planetary syndicates, and civic administration of the Ikronin.
+*[[:Category:Auellal League|Auellal League]] - Sovereign confederate charters, maritime treaties, and city-state archives of the Auellal.
+*[[:Category:United Mesarthrim Clans|United Mesarthrim Clans]] - Clan moots, territorial compacts, and traditional rulings of Mesar.
+*[[:Category:United Centusi States|United Centusi States]] - Presidential archives, federal statutes, and colonial ministries of Centus.
+*[[:Category:Reigess Suverände|Reigess Suverände]] - Feudal sovereign edicts, high court judgements, and territorial holdings of the Reigens.
+*[[:Category:Taviridis Somarchada|Taviridis Somarchada]] - Hegemonic records, territorial registries, and administrative decrees of the Ixoarchada.
+*[[:Category:Alliance of Planets|Alliance of Planets Archives]] - Interstellar treaties, council minutes, and joint security resolutions.
+*[[:Category:Sirius Families|Sirius Families & Corporate Dynasties]] - Territorial syndicates and family conglomerates across the Sirius Cluster.
+*[[:Category:Sol System Authority|Sol System Authority]] - Planetary administrative divisions and orbital transit authorities in Sol.
+*[[:Category:Kalidasa Planetary Authority|Kalidasa Planetary Authority]] - Regional authority records and security bureaus of Kalidasa.
+*[[:Category:The Remnant|The Remnant Sovereign Archives]] - Cryptic historical edicts and enclaves of the surviving Anthronoris.
 
 [[Category:Categories]]
 [[Category:Nations]]`
