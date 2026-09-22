@@ -158,9 +158,11 @@ export class CodexRenderer {
             return `\n\n__CODEX_TABLE_${index}__\n\n`;
         });
 
-        // 4. Normalize headings and standalone image tags so they are bounded by blank lines
+        // 4. Normalize headings, standalone image tags, and list blocks so they are bounded by blank lines
         text = text.replace(/^(={2,}[^\n]+={2,})$/gm, '\n\n$1\n\n');
         text = text.replace(/^(\[\[(?:Image|File):[^\]]+\]\])\s*$/gm, '\n\n$1\n\n');
+        text = text.replace(/([^\n])\r?\n([*#]\s+)/g, '$1\n\n$2');
+        text = text.replace(/([*#][^\n]+)\r?\n([^*#\s\n])/g, '$1\n\n$2');
 
         // 5. Split into blocks
         const blocks = text.split(/\n\s*\n+/);
@@ -234,13 +236,53 @@ export class CodexRenderer {
                 continue;
             }
 
-            // Bullet Lists
+            // Bullet / Ordered / Mixed Lists and Paragraphs
             const lines = trimmed.split('\n').map(l => l.trim()).filter(l => Boolean(l));
-            if (lines.length > 0 && lines.every(l => l.startsWith('*'))) {
-                const items = lines
-                    .map(l => `<li class="codex-list-item">${this.formatInline(l.replace(/^\*\s*/, ''))}</li>`)
-                    .join('\n');
-                htmlBlocks.push(`<ul class="codex-list">\n${items}\n</ul>`);
+            const hasListLines = lines.some(l => l.startsWith('*') || l.startsWith('#'));
+
+            if (hasListLines) {
+                let currentPara: string[] = [];
+                let currentListType: 'ul' | 'ol' | null = null;
+                let currentListItems: string[] = [];
+
+                const flushPara = () => {
+                    if (currentPara.length > 0) {
+                        htmlBlocks.push(`<p class="codex-p">${this.formatInline(currentPara.join(' '))}</p>`);
+                        currentPara = [];
+                    }
+                };
+
+                const flushList = () => {
+                    if (currentListType && currentListItems.length > 0) {
+                        const tag = currentListType === 'ul' ? 'ul' : 'ol';
+                        const cls = currentListType === 'ul' ? 'codex-list' : 'codex-ordered-list';
+                        const renderedItems = currentListItems
+                            .map(itemText => `<li class="codex-list-item">${this.formatInline(itemText)}</li>`)
+                            .join('\n');
+                        htmlBlocks.push(`<${tag} class="${cls}">\n${renderedItems}\n</${tag}>`);
+                        currentListType = null;
+                        currentListItems = [];
+                    }
+                };
+
+                for (const line of lines) {
+                    if (line.startsWith('*')) {
+                        flushPara();
+                        if (currentListType && currentListType !== 'ul') flushList();
+                        currentListType = 'ul';
+                        currentListItems.push(line.replace(/^\*+\s*/, ''));
+                    } else if (line.startsWith('#')) {
+                        flushPara();
+                        if (currentListType && currentListType !== 'ol') flushList();
+                        currentListType = 'ol';
+                        currentListItems.push(line.replace(/^#+\s*/, ''));
+                    } else {
+                        if (currentListType) flushList();
+                        currentPara.push(line);
+                    }
+                }
+                flushPara();
+                flushList();
                 continue;
             }
 

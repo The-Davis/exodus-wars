@@ -14,6 +14,7 @@ export const tacticsAndTreatisesIndexArticle: CodexArticle = {
 
 == Tactical Combat Doctrines ==
 The [[Tactics]] classification collects frontline operational doctrines, anti-swarm defense manuals, and specialized combat methodologies:
+
 * [[Tactics: Engaging the Volucris]] - The seminal battlefield survival and defense-in-depth doctrine compiled by [[Travis Carpenter]], detailing mandatory combined-arms protocols, minefield killzones, and tactical withdrawal imperatives when confronting the [[Volucris]] swarms.
 * [[Wild Weasel]] - The high-risk Suppression of Enemy Air Defenses (SEAD) doctrine, detailing dedicated bait-and-strike tactics developed to draw and neutralize hostile surface-to-air missile radar emitters.
 * '''Combined Arms Theory - Ground Warfare in the 24th Century (3rd Ed.)''' - Core doctrine analyzing the synchronized deployment of mechanized [[Rigs]], armor, heavy artillery, and air support to anchor contested battlefronts.
@@ -21,6 +22,7 @@ The [[Tactics]] classification collects frontline operational doctrines, anti-sw
 
 == Strategic & Scientific Treatises ==
 The [[Treatises]] classification encompasses authoritative treatises, economic analyses, and transit studies:
+
 * [[Treatise on Interstellar Travel]] - Authoritative survey authored by Joan Andrek of the Galactic Herald, explaining the physics, logistical constraints, and operational realities of [[Ikronin]] [[Wormhole Gates]], military [[hyperspace]] transit, stealthy [[subspace]] rifts, and instantaneous [[Meroniri]] [[Tesseract]] travel.
 * '''Treatise on Economies of Energy''' - Comprehensive study examining the systemic geopolitical impact of antimatter, fusion fuel, and raw plasma reserves across border world markets.
 * '''Treatise on Economies of Compromise''' - Diplomatic and economic treatise analyzing the trade-offs of interstellar trade corridors, tariffs, and resource distribution between rival interstellar factions.

@@ -139,4 +139,37 @@ An overview of transit across the star systems.`;
         expect(html).toContain('Suppression of Enemy Air Defenses (SEAD) Doctrine');
         expect(html).toContain('Project Wild Weasel');
     });
+
+    it('renders Tactics and Treatises index with separate list items rather than a single paragraph', () => {
+        const article = getCodexArticle('Tactics and Treatises');
+        expect(article).toBeDefined();
+
+        const html = CodexRenderer.render(article!.rawContent, article!.images);
+
+        // Must contain unordered list tags and list items
+        expect(html).toContain('<ul class="codex-list">');
+        expect(html).toContain('<li class="codex-list-item">');
+
+        // Verify key doctrine and treatise topics are wrapped as individual list items
+        expect(html).toMatch(/<li class="codex-list-item">[\s\S]*?Tactics: Engaging the Volucris[\s\S]*?<\/li>/);
+        expect(html).toMatch(/<li class="codex-list-item">[\s\S]*?Wild Weasel[\s\S]*?<\/li>/);
+        expect(html).toMatch(/<li class="codex-list-item">[\s\S]*?Treatise on Interstellar Travel[\s\S]*?<\/li>/);
+
+        // Verify introductory sentence is rendered as its own paragraph, not merged into the list
+        expect(html).toMatch(/<p class="codex-p">[\s\S]*?The <a [^>]+>Tactics<\/a> classification collects frontline operational doctrines/);
+    });
+
+    it('renders mixed blocks without blank lines as separate paragraph and list elements', () => {
+        const wikitext = `Introductory explanation without blank line:
+* First bullet item
+* Second bullet item
+Trailing closing remark.`;
+
+        const html = CodexRenderer.render(wikitext);
+        expect(html).toContain('<p class="codex-p">Introductory explanation without blank line:</p>');
+        expect(html).toContain('<ul class="codex-list">');
+        expect(html).toContain('<li class="codex-list-item">First bullet item</li>');
+        expect(html).toContain('<li class="codex-list-item">Second bullet item</li>');
+        expect(html).toContain('<p class="codex-p">Trailing closing remark.</p>');
+    });
 });
