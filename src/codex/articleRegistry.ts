@@ -16,6 +16,8 @@ import { corporationsIndexArticle } from './articles/Corporations_Index';
 import { CORPORATIONS_ARTICLES } from './articles/corporationsArticles';
 import { scientificPrinciplesIndexArticle } from './articles/Scientific_Principles_Index';
 import { SCIENCE_ARTICLES } from './articles/scienceArticles';
+import { engineeringSystemsIndexArticle } from './articles/Engineering_Systems_Index';
+import { ENGINEERING_ARTICLES } from './articles/engineeringArticles';
 
 export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     'Introduction_to_the_Exodus_Wars_Universe': introArticle,
@@ -98,6 +100,21 @@ export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     'Category:Science': scientificPrinciplesIndexArticle,
     'category:science': scientificPrinciplesIndexArticle,
     ':Category:Science': scientificPrinciplesIndexArticle,
+    'Engineering_Systems': engineeringSystemsIndexArticle,
+    'Engineering Systems': engineeringSystemsIndexArticle,
+    'engineering_systems': engineeringSystemsIndexArticle,
+    'engineering systems': engineeringSystemsIndexArticle,
+    'Category:Engineering_Systems': engineeringSystemsIndexArticle,
+    'category:engineering_systems': engineeringSystemsIndexArticle,
+    'Category:Engineering Systems': engineeringSystemsIndexArticle,
+    'category:engineering systems': engineeringSystemsIndexArticle,
+    ':Category:Engineering_Systems': engineeringSystemsIndexArticle,
+    ':Category:Engineering Systems': engineeringSystemsIndexArticle,
+    'Engineering': engineeringSystemsIndexArticle,
+    'engineering': engineeringSystemsIndexArticle,
+    'Category:Engineering': engineeringSystemsIndexArticle,
+    'category:engineering': engineeringSystemsIndexArticle,
+    ':Category:Engineering': engineeringSystemsIndexArticle,
 };
 
 function registerArticle(article: CodexArticle): void {
@@ -149,6 +166,19 @@ for (const corp of CORPORATIONS_ARTICLES) {
 for (const sci of SCIENCE_ARTICLES) {
     registerArticle(sci);
 }
+
+for (const eng of ENGINEERING_ARTICLES) {
+    if (eng.slug !== 'Engineering_Systems' && eng.title !== 'Engineering Systems') {
+        registerArticle(eng);
+    }
+}
+registerArticle(engineeringSystemsIndexArticle);
+CODEX_ARTICLES['Category:Engineering_Systems'] = engineeringSystemsIndexArticle;
+CODEX_ARTICLES['category:engineering_systems'] = engineeringSystemsIndexArticle;
+CODEX_ARTICLES['Category:Engineering Systems'] = engineeringSystemsIndexArticle;
+CODEX_ARTICLES['category:engineering systems'] = engineeringSystemsIndexArticle;
+CODEX_ARTICLES[':Category:Engineering_Systems'] = engineeringSystemsIndexArticle;
+CODEX_ARTICLES[':Category:Engineering Systems'] = engineeringSystemsIndexArticle;
 
 export function getCodexArticle(slugOrTitle: string): CodexArticle | undefined {
     let decoded = slugOrTitle;

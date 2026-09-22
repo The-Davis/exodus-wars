@@ -1145,6 +1145,11 @@ canvas {
   border-bottom: 1px solid #1de9b6 !important;
 }
 
+.weapon-header {
+  background: linear-gradient(135deg, #2a1708 0%, #140902 100%) !important;
+  border-bottom: 1px solid #ff9100 !important;
+}
+
 .infobox-partof {
   font-size: 13px;
   color: #ff8a80;
