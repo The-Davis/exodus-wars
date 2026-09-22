@@ -1487,4 +1487,144 @@ canvas {
   }
 }
 
+/* ==========================================================================
+   Category Members Directory (Subcategories & Letter-Grouped Member Pages)
+   ========================================================================== */
+.codex-category-members-section {
+  margin-top: 36px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(0, 243, 255, 0.25);
+}
+
+.codex-category-section-header {
+  font-family: 'Jura', monospace;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--primary-color);
+  letter-spacing: 2px;
+  margin-bottom: 14px;
+}
+
+.codex-category-subcats-block {
+  margin-bottom: 30px;
+}
+
+.codex-subcat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+
+.codex-subcat-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(0, 243, 255, 0.05);
+  border: 1px solid rgba(0, 243, 255, 0.2);
+  padding: 10px 14px;
+  border-radius: 3px;
+  color: #e0f7fa;
+  text-decoration: none;
+  font-family: 'Jura', monospace;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.codex-subcat-card:hover {
+  background: rgba(0, 243, 255, 0.15);
+  border-color: var(--primary-color);
+  box-shadow: 0 0 12px rgba(0, 243, 255, 0.25);
+  transform: translateY(-1px);
+  color: #ffffff;
+}
+
+.codex-subcat-icon {
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.codex-category-header-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+  border-bottom: 1px dashed rgba(0, 243, 255, 0.2);
+  padding-bottom: 8px;
+}
+
+.codex-letter-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.codex-letter-jump {
+  background: rgba(0, 243, 255, 0.06);
+  border: 1px solid rgba(0, 243, 255, 0.25);
+  color: var(--primary-color);
+  font-family: 'Jura', monospace;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.codex-letter-jump:hover {
+  background: rgba(0, 243, 255, 0.25);
+  color: #fff;
+  box-shadow: 0 0 8px rgba(0, 243, 255, 0.3);
+}
+
+.codex-letter-group {
+  margin-bottom: 22px;
+}
+
+.codex-letter-badge {
+  display: inline-block;
+  font-family: 'Jura', monospace;
+  font-size: 15px;
+  font-weight: 800;
+  color: #ffffff;
+  background: rgba(0, 243, 255, 0.18);
+  border-left: 3px solid var(--primary-color);
+  padding: 2px 10px;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+
+.codex-category-page-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 6px 16px;
+  padding-left: 6px;
+}
+
+.codex-category-page-item {
+  padding: 3px 0;
+}
+
+.codex-category-page-item a {
+  color: #80deea;
+  text-decoration: none;
+  font-size: 13.5px;
+  transition: color 0.15s ease;
+}
+
+.codex-category-page-item a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 6px var(--primary-color);
+}
+
+.codex-category-empty {
+  font-family: 'Jura', monospace;
+  font-size: 12px;
+  color: rgba(128, 222, 234, 0.6);
+  letter-spacing: 1px;
+  padding: 12px 0;
+}
+
 

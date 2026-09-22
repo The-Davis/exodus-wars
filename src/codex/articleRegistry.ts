@@ -1,4 +1,4 @@
-import { CodexArticle } from './types';
+import { CodexArticle, CategoryMembersResult } from './types';
 import { introArticle } from './articles/Introduction_to_the_Exodus_Wars_Universe';
 import { peopleIndexArticle } from './articles/People_Index';
 import { PEOPLE_ARTICLES } from './articles/peopleArticles';
@@ -79,8 +79,6 @@ export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     'places': placesIndexArticle,
     'Category:Places': placesIndexArticle,
     'category:places': placesIndexArticle,
-    'Category:Planets': placesIndexArticle,
-    'category:planets': placesIndexArticle,
     'History': historyIndexArticle,
     'history': historyIndexArticle,
     'Category:History': historyIndexArticle,
@@ -590,6 +588,185 @@ export function getCodexArticle(slugOrTitle: string, visited: Set<string> = new 
         }
     }
 
+    // Fallback 4: Dynamic Category Article Synthesis for valid category links with members
+    if (clean.toLowerCase().startsWith('category:')) {
+        const catName = clean.replace(/^category:\s*/i, '').replace(/_/g, ' ').trim();
+        const dynCatKey = 'dyn_cat:' + clean.toLowerCase();
+        if (catName && !visited.has(dynCatKey)) {
+            visited.add(dynCatKey);
+            const members = getCategoryMembers(catName);
+            if (members.totalCount > 0) {
+                const slugName = catName.replace(/ /g, '_');
+                const synthesized: CodexArticle = {
+                    id: 98000 + (hashString(catName) % 1900),
+                    slug: `Category:${slugName}`,
+                    title: `Category: ${catName}`,
+                    author: 'Codex Command',
+                    lastUpdated: '2026-09-22',
+                    categories: ['Categories'],
+                    rawContent: `The master archive category cataloging all entries classified under '''${catName}'''.`
+                };
+                CODEX_ARTICLES[clean] = synthesized;
+                CODEX_ARTICLES[asSlug] = synthesized;
+                CODEX_ARTICLES[asSpace] = synthesized;
+                CODEX_ARTICLES[clean.toLowerCase()] = synthesized;
+                CODEX_ARTICLES[asSlug.toLowerCase()] = synthesized;
+                CODEX_ARTICLES[asSpace.toLowerCase()] = synthesized;
+                return synthesized;
+            }
+        }
+    }
+
     return undefined;
+}
+
+function hashString(str: string): number {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+        hash = ((hash << 5) - hash + str.charCodeAt(i)) | 0;
+    }
+    return Math.abs(hash);
+}
+
+let _categoryIndex: Map<string, Set<CodexArticle>> | null = null;
+let _cachedUniqueArticles: CodexArticle[] | null = null;
+
+export function getAllUniqueArticles(): CodexArticle[] {
+    if (!_cachedUniqueArticles) {
+        _cachedUniqueArticles = Array.from(new Set(Object.values(CODEX_ARTICLES)));
+    }
+    return _cachedUniqueArticles;
+}
+
+export function normalizeCategoryName(catName: string): string {
+    return catName
+        .trim()
+        .replace(/^:+/, '')
+        .replace(/^Category:/i, '')
+        .replace(/_/g, ' ')
+        .trim()
+        .toLowerCase();
+}
+
+export function isCategoryArticle(art: CodexArticle | undefined | null): boolean {
+    if (!art) return false;
+    if (art.categories && art.categories.some(c => normalizeCategoryName(c) === 'categories')) {
+        return true;
+    }
+    const cleanTitle = art.title.trim().toLowerCase();
+    if (cleanTitle.startsWith('category:')) return true;
+    const cleanSlug = art.slug.trim().toLowerCase();
+    if (cleanSlug.startsWith('category:')) return true;
+    return false;
+}
+
+function buildCategoryIndex(): Map<string, Set<CodexArticle>> {
+    if (_categoryIndex) return _categoryIndex;
+    const index = new Map<string, Set<CodexArticle>>();
+    const uniqueArticles = getAllUniqueArticles();
+
+    for (const art of uniqueArticles) {
+        const catSet = new Set<string>();
+        if (art.categories) {
+            for (const c of art.categories) {
+                const norm = normalizeCategoryName(c);
+                if (norm) catSet.add(norm);
+            }
+        }
+        const rawMatches = art.rawContent.matchAll(/\[\[:?Category:([^\]|]+)(?:\|[^\]]*)?\]\]/gi);
+        for (const m of rawMatches) {
+            const norm = normalizeCategoryName(m[1]);
+            if (norm) catSet.add(norm);
+        }
+
+        for (const norm of catSet) {
+            let set = index.get(norm);
+            if (!set) {
+                set = new Set<CodexArticle>();
+                index.set(norm, set);
+            }
+            set.add(art);
+        }
+    }
+
+    _categoryIndex = index;
+    return index;
+}
+
+export function getCategoryMembers(target: CodexArticle | string): CategoryMembersResult {
+    let targetArt: CodexArticle | undefined;
+    if (typeof target !== 'string') {
+        targetArt = target;
+    } else {
+        const clean = target.trim().replace(/^:+/, '');
+        targetArt = CODEX_ARTICLES[clean]
+            || CODEX_ARTICLES[clean.replace(/ /g, '_')]
+            || CODEX_ARTICLES[clean.toLowerCase()];
+    }
+
+    const index = buildCategoryIndex();
+    const acceptedCategories = new Set<string>();
+
+    if (typeof target === 'string') {
+        const norm = normalizeCategoryName(target);
+        if (norm) acceptedCategories.add(norm);
+    }
+
+    if (targetArt) {
+        const titleNorm = normalizeCategoryName(targetArt.title);
+        const slugNorm = normalizeCategoryName(targetArt.slug);
+        if (titleNorm) acceptedCategories.add(titleNorm);
+        if (slugNorm) acceptedCategories.add(slugNorm);
+
+        for (const [key, art] of Object.entries(CODEX_ARTICLES)) {
+            if (art === targetArt && key.toLowerCase().startsWith('category:')) {
+                const normKey = normalizeCategoryName(key);
+                if (normKey) acceptedCategories.add(normKey);
+            }
+        }
+    }
+
+    const members = new Set<CodexArticle>();
+    for (const catName of acceptedCategories) {
+        const set = index.get(catName);
+        if (set) {
+            for (const art of set) {
+                if (targetArt && (art === targetArt || art.id === targetArt.id || art.slug === targetArt.slug)) {
+                    continue;
+                }
+                members.add(art);
+            }
+        }
+    }
+
+    const subcategories: CodexArticle[] = [];
+    const pages: CodexArticle[] = [];
+
+    for (const m of members) {
+        if (isCategoryArticle(m)) {
+            subcategories.push(m);
+        } else {
+            pages.push(m);
+        }
+    }
+
+    subcategories.sort((a, b) => {
+        const aName = a.title.replace(/^Category:\s*/i, '');
+        const bName = b.title.replace(/^Category:\s*/i, '');
+        return aName.localeCompare(bName, undefined, { sensitivity: 'base' });
+    });
+
+    pages.sort((a, b) => a.title.localeCompare(b.title, undefined, { sensitivity: 'base' }));
+
+    const categoryName = targetArt
+        ? targetArt.title.replace(/^Category:\s*/i, '')
+        : (typeof target === 'string' ? target.replace(/^Category:\s*/i, '').replace(/_/g, ' ') : '');
+
+    return {
+        categoryName,
+        subcategories,
+        pages,
+        totalCount: subcategories.length + pages.length
+    };
 }
 

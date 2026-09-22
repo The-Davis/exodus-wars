@@ -1,8 +1,12 @@
-import { CodexImageEntry } from './types';
+import { CodexImageEntry, CategoryMembersResult } from './types';
 import { resolveImageEntry } from './imageRegistry';
 
 export class CodexRenderer {
-    public static render(rawWikitext: string, articleImages?: Record<string, CodexImageEntry>): string {
+    public static render(
+        rawWikitext: string,
+        articleImages?: Record<string, CodexImageEntry>,
+        categoryMembers?: CategoryMembersResult
+    ): string {
         const baseUrl = import.meta.env.BASE_URL;
         let text = rawWikitext;
 
@@ -258,8 +262,109 @@ export class CodexRenderer {
                 </div>
             `);
         }
+ 
+        // 6. Append Category Members Directory if present
+        if (categoryMembers) {
+            htmlBlocks.push(this.renderCategoryMembers(categoryMembers));
+        }
 
         return htmlBlocks.join('\n');
+    }
+
+    private static renderCategoryMembers(members: CategoryMembersResult): string {
+        if (members.totalCount === 0) {
+            return `
+                <div class="codex-category-members-section">
+                    <div class="codex-category-section-header">// ARCHIVE DIRECTORY (0 RECORDS)</div>
+                    <div class="codex-category-empty">// NO ARCHIVE RECORDS CLASSIFIED UNDER THIS CATEGORY</div>
+                </div>
+            `;
+        }
+
+        const parts: string[] = ['<div class="codex-category-members-section">'];
+
+        // Subcategories
+        if (members.subcategories.length > 0) {
+            const countStr = members.subcategories.length === 1 ? '1 SUBCATEGORY' : `${members.subcategories.length} SUBCATEGORIES`;
+            parts.push(`
+                <div class="codex-category-subcats-block">
+                    <div class="codex-category-section-header">// ${countStr}</div>
+                    <div class="codex-subcat-grid">
+            `);
+            for (const subcat of members.subcategories) {
+                const displayName = subcat.title.replace(/^Category:\s*/i, '');
+                parts.push(`
+                    <a href="#/codex/${encodeURIComponent(subcat.slug)}" class="codex-wikilink codex-subcat-card" data-target="${subcat.slug}">
+                        <span class="codex-subcat-icon">📁</span>
+                        <span class="codex-subcat-name">${displayName}</span>
+                    </a>
+                `);
+            }
+            parts.push(`
+                    </div>
+                </div>
+            `);
+        }
+
+        // Member pages
+        if (members.pages.length > 0) {
+            const countStr = members.pages.length === 1 ? '1 RECORD' : `${members.pages.length} RECORDS`;
+
+            const groups = new Map<string, typeof members.pages>();
+            for (const page of members.pages) {
+                const firstChar = (page.title.trim()[0] || '#').toUpperCase();
+                const groupKey = /[A-Z]/.test(firstChar) ? firstChar : '#';
+                if (!groups.has(groupKey)) {
+                    groups.set(groupKey, []);
+                }
+                groups.get(groupKey)!.push(page);
+            }
+
+            const sortedKeys = Array.from(groups.keys()).sort((a, b) => {
+                if (a === '#') return -1;
+                if (b === '#') return 1;
+                return a.localeCompare(b);
+            });
+
+            const quickLinks = sortedKeys.map(k => `<button type="button" class="codex-letter-jump" data-letter="${k}">${k}</button>`).join(' ');
+
+            parts.push(`
+                <div class="codex-category-pages-block">
+                    <div class="codex-category-header-row">
+                        <div class="codex-category-section-header">// ARCHIVE DIRECTORY (${countStr})</div>
+                        <div class="codex-letter-index">${quickLinks}</div>
+                    </div>
+            `);
+
+            for (const key of sortedKeys) {
+                const items = groups.get(key)!;
+                parts.push(`
+                    <div class="codex-letter-group" id="codex-letter-${key}">
+                        <div class="codex-letter-badge">${key}</div>
+                        <div class="codex-category-page-list">
+                `);
+                for (const item of items) {
+                    parts.push(`
+                        <div class="codex-category-page-item">
+                            <a href="#/codex/${encodeURIComponent(item.slug)}" class="codex-wikilink" data-target="${item.slug}">
+                                ${item.title}
+                            </a>
+                        </div>
+                    `);
+                }
+                parts.push(`
+                        </div>
+                    </div>
+                `);
+            }
+
+            parts.push(`
+                </div>
+            `);
+        }
+
+        parts.push('</div>');
+        return parts.join('\n');
     }
 
     private static parseTemplateParams(body: string): Record<string, string> {
