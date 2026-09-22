@@ -94,8 +94,21 @@ Nations also refer to independent geographical regions on a single planet. By [[
 *[[:Category:Alliance of Planets|Alliance of Planets Archives]] - Interstellar treaties, council minutes, and joint security resolutions.
 *[[:Category:Sirius Families|Sirius Families & Corporate Dynasties]] - Territorial syndicates and family conglomerates across the Sirius Cluster.
 *[[:Category:Sol System Authority|Sol System Authority]] - Planetary administrative divisions and orbital transit authorities in Sol.
-*[[:Category:Kalidasa Planetary Authority|Kalidasa Planetary Authority]] - Regional authority records and security bureaus of Kalidasa.
 *[[:Category:The Remnant|The Remnant Sovereign Archives]] - Cryptic historical edicts and enclaves of the surviving Anthronoris.
+
+== Capital Fleets & Battle Formations ==
+*[[United Centusi States First Fleet]] - Highguard Fleet of the United Centusi States under Admiral Anthony Koch.
+*[[United Centusi States Second Fleet]] - Strike fleet deployed during the Tempest War.
+*[[United Centusi States Third Fleet]] - Centus orbital and perimeter defense fleet.
+*[[United Centusi States Fourth Fleet]] - Deep-space expeditionary fleet.
+*[[United Centusi States Support Fleet]] - Logistics, replenishment, and repair echelon.
+*[[United Centusi States Warfleet]] - Combined fleet reserve and heavy dreadnought line.
+*[[United Mesarthrim Clans First Fleet]] - Historic Erste Flotte, renowned attack fleet in the Anderung and Exodus wars.
+*[[United Mesarthrim Clans Second Fleet]] - Second naval echelon of the Mesarthrim Clans.
+*[[United Mesarthrim Clans Third Fleet]] - Third naval echelon of the Mesarthrim Clans.
+*[[Prefecture Galactic Navy First Fleet of the Line]] - The premier capital fleet of the Federated Districts of the Prefecture.
+*[[Kalidasa Space Navy]] - Autonomous defense flotilla protecting Kalidasa.
+*[[VF-1 Scimitar Squadron]] - Elite naval fighter squadron of the Royal Imperial Navy.
 
 [[Category:Categories]]
 [[Category:Nations]]`

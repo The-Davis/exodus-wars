@@ -37,6 +37,7 @@ export class CodexRenderer {
         const infantryMatch = text.match(/\{\{Infantry[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const squadronMatch = text.match(/\{\{Squadron[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
         const intelligenceBranchMatch = text.match(/\{\{Intelligence[_ ]Branch[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
+        const fleetMatch = text.match(/\{\{(?:UCS|Mesarthrim)[_ ]Fleet\s*\|?([\s\S]*?)\}\}/i);
 
         if (personMatch) {
             text = text.replace(personMatch[0], '');
@@ -125,6 +126,9 @@ export class CodexRenderer {
         } else if (intelligenceBranchMatch) {
             text = text.replace(intelligenceBranchMatch[0], '');
             infoboxHtml = this.renderIntelligenceBranchInformation(intelligenceBranchMatch[1], articleImages, baseUrl);
+        } else if (fleetMatch) {
+            text = text.replace(fleetMatch[0], '');
+            infoboxHtml = this.renderFleetInformation(fleetMatch[1], articleImages, baseUrl);
         }
 
         // Inline variant spec cards
@@ -248,8 +252,11 @@ export class CodexRenderer {
             const line = rawLine.trim();
             const paramMatch = line.match(/^(?:\|\s*)?([a-zA-Z0-9_]+)\s*=\s*(.*)$/);
             if (paramMatch) {
-                currentKey = paramMatch[1].trim();
-                params[currentKey] = paramMatch[2].trim();
+                const rawKey = paramMatch[1].trim();
+                currentKey = rawKey.toLowerCase();
+                const val = paramMatch[2].trim();
+                params[currentKey] = val;
+                params[rawKey] = val;
             } else if (currentKey && line) {
                 params[currentKey] += ' ' + line;
             }
@@ -1855,6 +1862,67 @@ export class CodexRenderer {
             <aside class="codex-infobox intelligence-branch-information">
                 <div class="infobox-header intelligence-header">
                     <div class="infobox-subtitle">INTELLIGENCE ARCHIVE // CLANDESTINE SERVICE</div>
+                    <h3 class="infobox-name">${this.formatInline(name)}</h3>
+                </div>
+                ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}
+                <div class="infobox-divider"></div>
+                <table class="infobox-table">
+                    <tbody>
+                        ${rows.join('\n                        ')}
+                    </tbody>
+                </table>
+            </aside>
+        `;
+    }
+
+    private static renderFleetInformation(
+        body: string,
+        articleImages: Record<string, CodexImageEntry> | undefined,
+        baseUrl: string
+    ): string {
+        const params = this.parseTemplateParams(body);
+        const name = params['name'] || 'Naval Fleet';
+        const imgName = this.extractImageName(params['image'] || params['insignia'] || params['badge'] || params['photo']);
+        const caption = params['caption'] || '';
+        const designation = params['designation'] || '';
+        const motto = params['motto'] || '';
+        const head = params['head'] || params['commander'] || '';
+        const first = params['first'] || params['executive_officer'] || '';
+        const commandant = params['commandant'] || '';
+        const fleets = params['fleets'] || '';
+
+        // Campaign records
+        const campaigns: string[] = [];
+        if (params['anderung']) campaigns.push(`Anderung War: ${params['anderung']}`);
+        if (params['exodus']) campaigns.push(`Exodus War: ${params['exodus']}`);
+        if (params['onyx']) campaigns.push(`Onyx Conflict: ${params['onyx']}`);
+        if (params['mesarthrim']) campaigns.push(`Mesarthrim Campaign: ${params['mesarthrim']}`);
+        if (params['tempest']) campaigns.push(`Tempest War: ${params['tempest']}`);
+
+        // Decorations
+        const honors: string[] = [];
+        if (params['medal']) honors.push(params['medal']);
+        if (params['citation']) honors.push(params['citation']);
+        if (params['cross']) honors.push(params['cross']);
+
+        const rows: string[] = [];
+        if (designation) rows.push(`<tr><th>Designation</th><td>${this.formatInline(designation)}</td></tr>`);
+        if (motto) rows.push(`<tr><th>Fleet Motto</th><td>${this.formatInline(motto)}</td></tr>`);
+        if (head) rows.push(`<tr><th>Fleet Commander</th><td>${this.formatInline(head)}</td></tr>`);
+        if (first) rows.push(`<tr><th>First Officer</th><td>${this.formatInline(first)}</td></tr>`);
+        if (commandant) rows.push(`<tr><th>Commandant</th><td>${this.formatInline(commandant)}</td></tr>`);
+        if (fleets) rows.push(`<tr><th>Order of Fleets</th><td>${this.formatInline(fleets)}</td></tr>`);
+        if (campaigns.length > 0) rows.push(`<tr><th>Operational Record</th><td>${this.formatInline(campaigns.join('<br/>'))}</td></tr>`);
+        if (honors.length > 0) rows.push(`<tr><th>Decorations & Honors</th><td>${this.formatInline(honors.join('<br/>'))}</td></tr>`);
+
+        const imgHtml = imgName
+            ? this.renderImageContainer(imgName, articleImages, baseUrl, `${name} Insignia`, caption, false, true)
+            : '';
+
+        return `
+            <aside class="codex-infobox fleet-information">
+                <div class="infobox-header fleet-header">
+                    <div class="infobox-subtitle">NAVAL COMBAT GROUP // ORDER OF BATTLE</div>
                     <h3 class="infobox-name">${this.formatInline(name)}</h3>
                 </div>
                 ${imgHtml ? `<div class="infobox-image-section">${imgHtml}</div>` : ''}

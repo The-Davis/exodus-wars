@@ -64,6 +64,18 @@ Unmanned orbital installations, sensor platforms, and automated planetary arrays
 
 == Advanced Propulsion & Energy Systems ==
 * '''[[:Category:Antimatter|Antimatter Power & Refining]]''' - Antimatter harvesting fields, magnetic containment traps, annihilation reactors, and high-energy propulsion infrastructure powering starships and orbital facilities.
+* '''[[Hyperspace Limit]]''' - Theoretical and navigational thresholds governing FTL transitions in proximity to gravity wells.
+* '''[[Hyperspace Courier]]''' - High-speed automated packet ships carrying encrypted interstellar transmissions.
+
+== Specialized Engineering & Weaponry ==
+* '''[[Remnant Technologies]]''' - Ancient and esoteric devices recovered from Anthronoris archeological sites.
+* '''[[Mass-to-Energy Conversion Bomb]]''' - High-yield annihilation warhead designed for extreme planetary disruption.
+* '''[[Ares Launch Vehicle]]''' - Heavy-lift booster system utilized during early orbital expansion.
+* '''[[Werewolf (VTOL)]]''' - Specialized close-support rotorcraft engineered for frontier planetary combat.
+* '''[[Icronian Induction Engine]]''' - High-efficiency induction drive developed for commercial freighters.
+* '''[[Icronian Particle Impulse Engine]]''' - Sublight impulse propulsion system utilizing charged particulate thrust.
+* '''[[Icronian Chaff Launcher]]''' - Tactical defensive countermeasure dispensing sensor-reflective particulate clouds.
+* '''[[Icronian Lansvapen]]''' - Specialized naval lance weaponry utilizing focused electromagnetic discharge.
 
 [[Category:Technological Catalogs]]
 [[Category:Warships]]

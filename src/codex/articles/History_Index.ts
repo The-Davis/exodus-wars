@@ -60,6 +60,23 @@ The history of the "[[Main Page|Exodus Wars Universe]]" begins with the "[[Sunde
 *[[Resistance against the Empire]] - Underground partisan operations and resistance campaigns against the Onyx Empire.
 *[[Talithe Cume]] - Foundational planetary milestone and historic cultural gathering.
 *[[The Technology Race]] - The intense scientific and industrial competition leading up to interstellar conflict.
+*[[Operation Cold Harvest]] - Covert winter offensive against enemy strongholds.
+*[[Operation Double Feature]] - Coordinated twin naval strike in contested space.
+*[[Operation Durandal]] - Precision interdiction campaign during the frontier wars.
+*[[Operation Tiger Eye]] - Deep reconnaissance and electronic surveillance deployment.
+*[[Operation White-Eye]] - Stealth infiltration mission behind enemy lines.
+*[[Second Invasion of Earth]] - The massive second wave assault on the Sol System.
+*[[Liberation of Oronus]] - Fierce battle to reclaim the colonial settlements of Oronus.
+*[[Massacre over Oronus]] - Tragic orbital naval engagement and civilian fallout.
+*[[Berlusconi Betrayal]] - The high-level political and military betrayal by the Berlusconi dynasty.
+*[[The Jihad]] - The religious mobilization and defensive crusade declared during the war.
+*[[Epic of Jiliur Beskolyda nav Raegos]] - Ancient heroic epic of early colonization.
+*[[Funeral for a Hero - by James Davis]] - Solemn war eulogy for fallen commanders.
+*[[Lives, Like an Hourglass.]] - Philosophical wartime dispatch reflecting on human mortality.
+*[[Mourning - by Seth Dickinson]] - Haunting personal dispatch from the frontlines.
+*[[Open Forth the Floodgates]] - Narrative chronicle of the breaking of defensive lines.
+*[[Burning World]] - Detailed retrospective of a devastated colony world.
+*[[Void World]] - Account of an atmospheric stripping cataclysm.
 
 == Historical Chronicles & Literary Series ==
 *[[:Category:Tempest War Series|Tempest War Chronicles]] - Narrative operational dispatches, front-line perspectives, and after-action reports from the Tempest War theater.

@@ -327,5 +327,50 @@ Dossier on the Omegas.`;
             expect(html).toContain('Approximately 23,000 operatives');
             expect(html).toContain('Dossier on the Omegas.');
         });
+
+        it('renders naval fleet formation infobox with order of battle and fleet hierarchy', () => {
+            const wikitext = `{{UCS Fleet|
+|Name = Erste Flotte
+|Designation = Highguard Fleet
+|Motto = Our Time, Our War.
+|Head = [[Anthony Koch]]
+|Fleets = First Fleet - Second Fleet
+}}
+
+Overview of the First Centusi Fleet.`;
+
+            const html = CodexRenderer.render(wikitext);
+            expect(html).toContain('codex-infobox fleet-information');
+            expect(html).toContain('NAVAL COMBAT GROUP // ORDER OF BATTLE');
+            expect(html).toContain('Erste Flotte');
+            expect(html).toContain('Highguard Fleet');
+            expect(html).toContain('Anthony Koch');
+            expect(html).toContain('Overview of the First Centusi Fleet.');
+        });
+    });
+
+    describe('Final Archival Sweep Articles & Redirects Resolution', () => {
+        it('resolves live fleets, operations, design bureaus, and redirect aliases', () => {
+            // Fleet formation
+            const firstFleet = getCodexArticle('United_Centusi_States_First_Fleet');
+            expect(firstFleet).toBeDefined();
+            expect(firstFleet?.title).toBe('United Centusi States First Fleet');
+
+            // Military operation
+            const coldHarvest = getCodexArticle('Operation_Cold_Harvest');
+            expect(coldHarvest).toBeDefined();
+
+            // Starship design bureau
+            const graham = getCodexArticle('Graham_Starship_Design_Bureau');
+            expect(graham).toBeDefined();
+
+            // Religion and culture
+            const church = getCodexArticle('Mesarthrim_Church');
+            expect(church).toBeDefined();
+
+            // Redirect alias resolving to target article
+            const adfStarfire = getCodexArticle('ADF-5000');
+            expect(adfStarfire).toBeDefined();
+        });
     });
 });
