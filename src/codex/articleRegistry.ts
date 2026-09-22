@@ -673,7 +673,7 @@ function buildCategoryIndex(): Map<string, Set<CodexArticle>> {
                 if (norm) catSet.add(norm);
             }
         }
-        const rawMatches = art.rawContent.matchAll(/\[\[:?Category:([^\]|]+)(?:\|[^\]]*)?\]\]/gi);
+        const rawMatches = art.rawContent.matchAll(/\[\[Category:\s*([^\]|]+)(?:\|[^\]]*)?\]\]/gi);
         for (const m of rawMatches) {
             const norm = normalizeCategoryName(m[1]);
             if (norm) catSet.add(norm);
