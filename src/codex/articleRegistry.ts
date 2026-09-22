@@ -36,6 +36,11 @@ import { HISTORY_SERIES_ARTICLES } from './articles/historySeriesArticles';
 import { HISTORY_YEARS_ARTICLES } from './articles/historyYearsArticles';
 import { LANGUAGES_CULTURE_ARTICLES } from './articles/languagesCultureArticles';
 import { NATIONS_ARCHIVES_ARTICLES } from './articles/nationsArchivesArticles';
+import { FINAL_FLEETS_OPERATIONS_ARTICLES } from './articles/finalFleetsOperationsArticles';
+import { FINAL_TECH_CORPORATE_ARTICLES } from './articles/finalTechCorporateArticles';
+import { FINAL_INSTITUTIONS_LORE_ARTICLES } from './articles/finalInstitutionsLoreArticles';
+import { FINAL_CATEGORY_ARTICLES } from './articles/finalCategoryArticles';
+import { FINAL_REDIRECT_ALIASES } from './articles/finalRedirectAliases';
 
 export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     'Introduction_to_the_Exodus_Wars_Universe': introArticle,
@@ -413,7 +418,11 @@ const subcategoryGroups = [
     HISTORY_SERIES_ARTICLES,
     HISTORY_YEARS_ARTICLES,
     LANGUAGES_CULTURE_ARTICLES,
-    NATIONS_ARCHIVES_ARTICLES
+    NATIONS_ARCHIVES_ARTICLES,
+    FINAL_FLEETS_OPERATIONS_ARTICLES,
+    FINAL_TECH_CORPORATE_ARTICLES,
+    FINAL_INSTITUTIONS_LORE_ARTICLES,
+    FINAL_CATEGORY_ARTICLES
 ];
 
 for (const group of subcategoryGroups) {
@@ -433,7 +442,7 @@ for (const group of subcategoryGroups) {
     }
 }
 
-export function getCodexArticle(slugOrTitle: string): CodexArticle | undefined {
+export function getCodexArticle(slugOrTitle: string, visited: Set<string> = new Set()): CodexArticle | undefined {
     let decoded = slugOrTitle;
     try {
         decoded = decodeURIComponent(slugOrTitle);
@@ -446,7 +455,7 @@ export function getCodexArticle(slugOrTitle: string): CodexArticle | undefined {
     const normClean = clean.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
     const normSlug = asSlug.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
-    return CODEX_ARTICLES[clean]
+    const found = CODEX_ARTICLES[clean]
         || CODEX_ARTICLES[asSlug]
         || CODEX_ARTICLES[asSpace]
         || CODEX_ARTICLES[clean.toLowerCase()]
@@ -457,5 +466,23 @@ export function getCodexArticle(slugOrTitle: string): CodexArticle | undefined {
         || CODEX_ARTICLES[normClean.toLowerCase()]
         || CODEX_ARTICLES[normSlug.toLowerCase()]
         || CODEX_ARTICLES[slugOrTitle];
+
+    if (found) return found;
+
+    // Check redirect aliases
+    const redirectKey = clean;
+    if (!visited.has(redirectKey)) {
+        visited.add(redirectKey);
+        const target = FINAL_REDIRECT_ALIASES[clean]
+            || FINAL_REDIRECT_ALIASES[asSlug]
+            || FINAL_REDIRECT_ALIASES[asSpace]
+            || FINAL_REDIRECT_ALIASES[slugOrTitle];
+
+        if (target) {
+            return getCodexArticle(target, visited);
+        }
+    }
+
+    return undefined;
 }
 

@@ -55,7 +55,9 @@
     "timestamp": "2009-02-17 16:03:15",
     "description": "Centusi refit Nimitz.",
     "exists_on_disk": true,
-    "disk_filename": "2326Nimitz.png"
+    "disk_filename": "2326Nimitz.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/2326Nimitz.png"
   },
   {
     "image_name": "2326Starmaster.png",
@@ -68,7 +70,9 @@
     "timestamp": "2009-02-17 16:03:54",
     "description": "Centusi refit Starmaster.",
     "exists_on_disk": true,
-    "disk_filename": "2326Starmaster.png"
+    "disk_filename": "2326Starmaster.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/2326Starmaster.png"
   },
   {
     "image_name": "2326Trident.png",
@@ -81,7 +85,9 @@
     "timestamp": "2009-02-17 16:05:06",
     "description": "Centusi refit Trident.",
     "exists_on_disk": true,
-    "disk_filename": "2326Trident.png"
+    "disk_filename": "2326Trident.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/2326Trident.png"
   },
   {
     "image_name": "2326Turpitz.png",
@@ -94,7 +100,9 @@
     "timestamp": "2009-02-17 16:05:40",
     "description": "Centusi refit Turpitz.",
     "exists_on_disk": true,
-    "disk_filename": "2326Turpitz.png"
+    "disk_filename": "2326Turpitz.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/2326Turpitz.png"
   },
   {
     "image_name": "2326_Starmaster.png",
@@ -122,7 +130,9 @@
     "timestamp": "2009-02-20 19:20:18",
     "description": "Side view, Stormgod",
     "exists_on_disk": true,
-    "disk_filename": "2326_Stormgod.png"
+    "disk_filename": "2326_Stormgod.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/2326_Stormgod.png"
   },
   {
     "image_name": "660VBulkTransport1.jpg",
@@ -585,7 +595,9 @@
     "timestamp": "2009-09-04 15:54:55",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF_Starfire_landed.png"
+    "disk_filename": "ADF_Starfire_landed.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF_Starfire_landed.png"
   },
   {
     "image_name": "ADF_Starfire_top.png",
@@ -598,7 +610,9 @@
     "timestamp": "2009-09-04 15:54:21",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ADF_Starfire_top.png"
+    "disk_filename": "ADF_Starfire_top.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ADF_Starfire_top.png"
   },
   {
     "image_name": "AH-4CLightning_A.jpg",
@@ -865,7 +879,9 @@
     "timestamp": "2009-04-01 19:57:32",
     "description": "The Allia, a refit of the Rahn Starlight.",
     "exists_on_disk": true,
-    "disk_filename": "Allia.png"
+    "disk_filename": "Allia.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Allia.png"
   },
   {
     "image_name": "AllianceOfPlanetsFlag.png",
@@ -922,7 +938,9 @@
     "timestamp": "2007-08-23 00:51:53",
     "description": "New version",
     "exists_on_disk": true,
-    "disk_filename": "AndreasTischler.png"
+    "disk_filename": "AndreasTischler.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AndreasTischler.png"
   },
   {
     "image_name": "AndreasTischler2.png",
@@ -935,7 +953,9 @@
     "timestamp": "2007-08-23 00:53:36",
     "description": "Old version of [[Image:AndreasTischler.png]]",
     "exists_on_disk": true,
-    "disk_filename": "AndreasTischler2.png"
+    "disk_filename": "AndreasTischler2.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AndreasTischler2.png"
   },
   {
     "image_name": "Andreas_Tischler_Full_View.png",
@@ -1098,7 +1118,9 @@
     "timestamp": "2007-10-04 14:28:44",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ArnosteClassDestroyer1.jpg"
+    "disk_filename": "ArnosteClassDestroyer1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ArnosteClassDestroyer1.jpg"
   },
   {
     "image_name": "ArnosteClassDestroyer2.jpg",
@@ -1111,7 +1133,9 @@
     "timestamp": "2007-10-04 14:29:00",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ArnosteClassDestroyer2.jpg"
+    "disk_filename": "ArnosteClassDestroyer2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ArnosteClassDestroyer2.jpg"
   },
   {
     "image_name": "ArnosteClassDestroyer3.jpg",
@@ -1124,7 +1148,9 @@
     "timestamp": "2007-10-04 14:29:53",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ArnosteClassDestroyer3.jpg"
+    "disk_filename": "ArnosteClassDestroyer3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ArnosteClassDestroyer3.jpg"
   },
   {
     "image_name": "Art_of_the_Old_Gods.png",
@@ -1137,7 +1163,9 @@
     "timestamp": "2009-04-07 21:36:46",
     "description": "Auellal Mongrel Starmaster.",
     "exists_on_disk": true,
-    "disk_filename": "Art_of_the_Old_Gods.png"
+    "disk_filename": "Art_of_the_Old_Gods.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Art_of_the_Old_Gods.png"
   },
   {
     "image_name": "Asanova-Flag.png",
@@ -1329,7 +1357,9 @@
     "timestamp": "2009-08-31 15:30:01",
     "description": "Auellal Pegasus.",
     "exists_on_disk": true,
-    "disk_filename": "Auellal_Pegasus.png"
+    "disk_filename": "Auellal_Pegasus.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Auellal_Pegasus.png"
   },
   {
     "image_name": "AustraliaFlag.jpg",
@@ -1372,7 +1402,9 @@
     "timestamp": "2007-10-04 14:54:01",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AvengerClassCruiser1.jpg"
+    "disk_filename": "AvengerClassCruiser1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AvengerClassCruiser1.jpg"
   },
   {
     "image_name": "AvengerClassCruiser2.jpg",
@@ -1385,7 +1417,9 @@
     "timestamp": "2007-10-04 14:54:30",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AvengerClassCruiser2.jpg"
+    "disk_filename": "AvengerClassCruiser2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AvengerClassCruiser2.jpg"
   },
   {
     "image_name": "AvengerClassCruiser3.jpg",
@@ -1398,7 +1432,9 @@
     "timestamp": "2007-10-04 14:54:40",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AvengerClassCruiser3.jpg"
+    "disk_filename": "AvengerClassCruiser3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AvengerClassCruiser3.jpg"
   },
   {
     "image_name": "Avenger_Class_Battlecruiser_Front_and_Bottom_View.png",
@@ -1471,7 +1507,9 @@
     "timestamp": "2007-10-04 14:48:23",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AztecClassCarrier1.jpg"
+    "disk_filename": "AztecClassCarrier1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AztecClassCarrier1.jpg"
   },
   {
     "image_name": "AztecClassCarrier2.jpg",
@@ -1484,7 +1522,9 @@
     "timestamp": "2007-10-04 14:48:37",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AztecClassCarrier2.jpg"
+    "disk_filename": "AztecClassCarrier2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AztecClassCarrier2.jpg"
   },
   {
     "image_name": "AztecClassCarrier3.jpg",
@@ -1497,7 +1537,9 @@
     "timestamp": "2007-10-04 14:48:49",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "AztecClassCarrier3.jpg"
+    "disk_filename": "AztecClassCarrier3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/AztecClassCarrier3.jpg"
   },
   {
     "image_name": "B-2BOcelot_A.jpg",
@@ -1660,7 +1702,9 @@
     "timestamp": "2009-02-17 16:00:45",
     "description": "Centusi Banshee Carrier.",
     "exists_on_disk": true,
-    "disk_filename": "Banshee.png"
+    "disk_filename": "Banshee.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Banshee.png"
   },
   {
     "image_name": "BasicWorker.jpg",
@@ -1868,7 +1912,9 @@
     "timestamp": "2009-04-30 17:29:32",
     "description": "The Bell was a Destroyer built specifically to take on the Dauntless.  It's designed around its primary forward cannon.",
     "exists_on_disk": true,
-    "disk_filename": "Bell.png"
+    "disk_filename": "Bell.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Bell.png"
   },
   {
     "image_name": "BelugaClassDropship1.jpg",
@@ -2399,7 +2445,9 @@
     "timestamp": "2008-05-29 01:07:24",
     "description": "The Crimson Tide Battle Group destroying the UMCS Silber Ein (UMCS Silver One).",
     "exists_on_disk": true,
-    "disk_filename": "CTBG.jpg"
+    "disk_filename": "CTBG.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CTBG.jpg"
   },
   {
     "image_name": "CTBG.png",
@@ -2427,7 +2475,9 @@
     "timestamp": "2007-11-25 04:09:15",
     "description": "Original Nimitz by Austin Bailey, recreated by Andrew Sears, colored for the Crimson Tide Battle Group",
     "exists_on_disk": true,
-    "disk_filename": "CTBG_Nimitz.png"
+    "disk_filename": "CTBG_Nimitz.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CTBG_Nimitz.png"
   },
   {
     "image_name": "CTBG_Starlight1.png",
@@ -2455,7 +2505,9 @@
     "timestamp": "2007-12-12 01:56:07",
     "description": "The Crimson Tide, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "CTBG_Starlight2.png"
+    "disk_filename": "CTBG_Starlight2.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CTBG_Starlight2.png"
   },
   {
     "image_name": "CTBG_Starlight3.png",
@@ -2468,7 +2520,9 @@
     "timestamp": "2007-12-12 01:57:44",
     "description": "The Crimson Tide, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "CTBG_Starlight3.png"
+    "disk_filename": "CTBG_Starlight3.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CTBG_Starlight3.png"
   },
   {
     "image_name": "CTBG_Sternmaster.png",
@@ -2481,7 +2535,9 @@
     "timestamp": "2007-11-24 22:35:58",
     "description": "Crimson Tide Battle Group, Special Edition Starmaster, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "CTBG_Sternmaster.png"
+    "disk_filename": "CTBG_Sternmaster.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CTBG_Sternmaster.png"
   },
   {
     "image_name": "CTBG_Sternmaster2.png",
@@ -2494,7 +2550,9 @@
     "timestamp": "2007-11-24 22:37:33",
     "description": "Crimson Tide Battle Group, Special Edition Sternmaster, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "CTBG_Sternmaster2.png"
+    "disk_filename": "CTBG_Sternmaster2.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CTBG_Sternmaster2.png"
   },
   {
     "image_name": "CTBG_Tripitz.png",
@@ -2507,7 +2565,9 @@
     "timestamp": "2007-11-25 21:33:43",
     "description": "Original by Austin Bailey, redone by Andrew Sears.",
     "exists_on_disk": true,
-    "disk_filename": "CTBG_Tripitz.png"
+    "disk_filename": "CTBG_Tripitz.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/CTBG_Tripitz.png"
   },
   {
     "image_name": "CTBG_Wickliff1.png",
@@ -2535,7 +2595,9 @@
     "timestamp": "2007-08-18 03:10:08",
     "description": "Auellal League Homeworld, Caledon.",
     "exists_on_disk": true,
-    "disk_filename": "Caledon.png"
+    "disk_filename": "Caledon.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Caledon.png"
   },
   {
     "image_name": "CambodiaFlag.jpg",
@@ -2667,7 +2729,9 @@
     "timestamp": "2009-04-01 19:58:28",
     "description": "The Cella, a refit of the Imperial Vigilant.",
     "exists_on_disk": true,
-    "disk_filename": "Cella.png"
+    "disk_filename": "Cella.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Cella.png"
   },
   {
     "image_name": "Centusi-Luxusbehalter.png",
@@ -2995,7 +3059,9 @@
     "timestamp": "2009-02-17 16:01:25",
     "description": "Centusi Clansguard Cruiser.",
     "exists_on_disk": true,
-    "disk_filename": "Clansguard.png"
+    "disk_filename": "Clansguard.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Clansguard.png"
   },
   {
     "image_name": "ColonialArmyInfantry.jpg",
@@ -3111,7 +3177,9 @@
     "timestamp": "2009-04-07 21:38:26",
     "description": "Auellal Mongrel Starmaster.",
     "exists_on_disk": true,
-    "disk_filename": "Continuation.png"
+    "disk_filename": "Continuation.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Continuation.png"
   },
   {
     "image_name": "CouncilSeal.png",
@@ -3782,7 +3850,9 @@
     "timestamp": "2007-10-11 20:22:56",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Eviscerator.jpg"
+    "disk_filename": "Eviscerator.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Eviscerator.jpg"
   },
   {
     "image_name": "Eye_of_the_Tempest.png",
@@ -4005,7 +4075,9 @@
     "timestamp": "2007-10-09 14:51:10",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "F12Vampire2.jpg"
+    "disk_filename": "F12Vampire2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/F12Vampire2.jpg"
   },
   {
     "image_name": "FDSDelphinus1.jpg",
@@ -4018,7 +4090,9 @@
     "timestamp": "2007-10-03 21:08:39",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "FDSDelphinus1.jpg"
+    "disk_filename": "FDSDelphinus1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/FDSDelphinus1.jpg"
   },
   {
     "image_name": "FDSJudicator1.jpg",
@@ -4181,7 +4255,9 @@
     "timestamp": "2007-10-10 22:54:01",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Finnis.jpg"
+    "disk_filename": "Finnis.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Finnis.jpg"
   },
   {
     "image_name": "Finnis_Infantry_Face.png",
@@ -4821,7 +4897,9 @@
     "timestamp": "2007-10-04 12:01:40",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HMSMonarch1.jpg"
+    "disk_filename": "HMSMonarch1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HMSMonarch1.jpg"
   },
   {
     "image_name": "HMSMonarch2.jpg",
@@ -4834,7 +4912,9 @@
     "timestamp": "2007-10-04 12:02:00",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HMSMonarch2.jpg"
+    "disk_filename": "HMSMonarch2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HMSMonarch2.jpg"
   },
   {
     "image_name": "HMSMonarch3.jpg",
@@ -4847,7 +4927,9 @@
     "timestamp": "2007-10-04 12:02:13",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HMSMonarch3.jpg"
+    "disk_filename": "HMSMonarch3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HMSMonarch3.jpg"
   },
   {
     "image_name": "HMSObelisk1.jpg",
@@ -4860,7 +4942,9 @@
     "timestamp": "2007-10-04 12:42:35",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HMSObelisk1.jpg"
+    "disk_filename": "HMSObelisk1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HMSObelisk1.jpg"
   },
   {
     "image_name": "HMSObelisk2.jpg",
@@ -4873,7 +4957,9 @@
     "timestamp": "2007-10-04 12:42:46",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HMSObelisk2.jpg"
+    "disk_filename": "HMSObelisk2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HMSObelisk2.jpg"
   },
   {
     "image_name": "HMSObelisk3.jpg",
@@ -4886,7 +4972,9 @@
     "timestamp": "2007-10-04 12:43:14",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HMSObelisk3.jpg"
+    "disk_filename": "HMSObelisk3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HMSObelisk3.jpg"
   },
   {
     "image_name": "HMSUshujaaChonge1.jpg",
@@ -4899,7 +4987,9 @@
     "timestamp": "2007-10-04 12:54:56",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HMSUshujaaChonge1.jpg"
+    "disk_filename": "HMSUshujaaChonge1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HMSUshujaaChonge1.jpg"
   },
   {
     "image_name": "HMSUshujaaChonge2.jpg",
@@ -4912,7 +5002,9 @@
     "timestamp": "2007-10-04 12:55:21",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HMSUshujaaChonge2.jpg"
+    "disk_filename": "HMSUshujaaChonge2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HMSUshujaaChonge2.jpg"
   },
   {
     "image_name": "HMSUshujaaChonge3.jpg",
@@ -4925,7 +5017,9 @@
     "timestamp": "2007-10-04 12:55:09",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "HMSUshujaaChonge3.jpg"
+    "disk_filename": "HMSUshujaaChonge3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HMSUshujaaChonge3.jpg"
   },
   {
     "image_name": "Haven_Shipyards_Logo.png",
@@ -5387,7 +5481,9 @@
     "timestamp": "2008-12-05 09:46:38",
     "description": "Hinks post-2324 Starknight, Blutsöldner",
     "exists_on_disk": true,
-    "disk_filename": "HinksStarknight.png"
+    "disk_filename": "HinksStarknight.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HinksStarknight.png"
   },
   {
     "image_name": "HinksStarknight1.png",
@@ -5400,7 +5496,9 @@
     "timestamp": "2008-12-05 09:47:38",
     "description": "Hinks post 2324 Starknight, Blutsöldner",
     "exists_on_disk": true,
-    "disk_filename": "HinksStarknight1.png"
+    "disk_filename": "HinksStarknight1.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HinksStarknight1.png"
   },
   {
     "image_name": "HinksStarknight2300.png",
@@ -5413,7 +5511,9 @@
     "timestamp": "2008-12-08 01:29:10",
     "description": "Hinks circa 2300 Starknight, Blutsöldner",
     "exists_on_disk": true,
-    "disk_filename": "HinksStarknight2300.png"
+    "disk_filename": "HinksStarknight2300.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/HinksStarknight2300.png"
   },
   {
     "image_name": "His_Majesty's_Ship_Vigilant.png",
@@ -5456,7 +5556,9 @@
     "timestamp": "2008-02-23 06:54:52",
     "description": "Howell class Destroyer, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Howell.png"
+    "disk_filename": "Howell.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Howell.png"
   },
   {
     "image_name": "HungaryFlag.jpg",
@@ -5604,7 +5706,9 @@
     "timestamp": "2009-02-23 18:26:04",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Hydra_schematics.jpg"
+    "disk_filename": "Hydra_schematics.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Hydra_schematics.jpg"
   },
   {
     "image_name": "IcelandFlag.jpg",
@@ -5647,7 +5751,9 @@
     "timestamp": "2008-03-05 05:34:58",
     "description": "The Imperium, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Imperium.png"
+    "disk_filename": "Imperium.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Imperium.png"
   },
   {
     "image_name": "Imperium2.png",
@@ -5660,7 +5766,9 @@
     "timestamp": "2008-03-05 05:34:32",
     "description": "The Imperium, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Imperium2.png"
+    "disk_filename": "Imperium2.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Imperium2.png"
   },
   {
     "image_name": "InProgress.png",
@@ -6007,7 +6115,9 @@
     "timestamp": "2009-11-18 14:35:51",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "KBW-Finished-1.JPG"
+    "disk_filename": "KBW-Finished-1.JPG",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/KBW-Finished-1.JPG"
   },
   {
     "image_name": "KBW-Finished-2.JPG",
@@ -6020,7 +6130,9 @@
     "timestamp": "2009-11-18 14:36:04",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "KBW-Finished-2.JPG"
+    "disk_filename": "KBW-Finished-2.JPG",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/KBW-Finished-2.JPG"
   },
   {
     "image_name": "KBW-Finished-3.JPG",
@@ -6033,7 +6145,9 @@
     "timestamp": "2009-11-18 14:36:21",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "KBW-Finished-3.JPG"
+    "disk_filename": "KBW-Finished-3.JPG",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/KBW-Finished-3.JPG"
   },
   {
     "image_name": "KBW-Finished-4.JPG",
@@ -6046,7 +6160,9 @@
     "timestamp": "2009-11-18 14:36:33",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "KBW-Finished-4.JPG"
+    "disk_filename": "KBW-Finished-4.JPG",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/KBW-Finished-4.JPG"
   },
   {
     "image_name": "KBW-Finished-5.JPG",
@@ -6059,7 +6175,9 @@
     "timestamp": "2009-11-18 14:36:48",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "KBW-Finished-5.JPG"
+    "disk_filename": "KBW-Finished-5.JPG",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/KBW-Finished-5.JPG"
   },
   {
     "image_name": "KalidasaPlanetaryAuthorityFlag.png",
@@ -6191,7 +6309,9 @@
     "timestamp": "2009-04-01 19:59:18",
     "description": "The Kieel, a refit of the Medical Corps Narwhal.",
     "exists_on_disk": true,
-    "disk_filename": "Kieel.png"
+    "disk_filename": "Kieel.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Kieel.png"
   },
   {
     "image_name": "Km-4D_Tischler.png",
@@ -6249,7 +6369,9 @@
     "timestamp": "2009-04-01 18:56:19",
     "description": "Preview.",
     "exists_on_disk": true,
-    "disk_filename": "Km-4_Tischler_top.png"
+    "disk_filename": "Km-4_Tischler_top.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Km-4_Tischler_top.png"
   },
   {
     "image_name": "Km-4xx_Tischler.png",
@@ -6292,7 +6414,9 @@
     "timestamp": "2008-05-29 00:43:21",
     "description": "Flag of Ezekiel’s Bones.",
     "exists_on_disk": true,
-    "disk_filename": "Knochen-von-Ezekiel.gif"
+    "disk_filename": "Knochen-von-Ezekiel.gif",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Knochen-von-Ezekiel.gif"
   },
   {
     "image_name": "Kondo'jahaziainaDuma'kapungu1.jpg",
@@ -6679,7 +6803,9 @@
     "timestamp": "2007-10-02 06:21:24",
     "description": "The Planet of Lorithan by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Lorithan.png"
+    "disk_filename": "Lorithan.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Lorithan.png"
   },
   {
     "image_name": "Lorithan_Map.gif",
@@ -6692,7 +6818,9 @@
     "timestamp": "2007-08-13 12:57:54",
     "description": "Map of the planet Lorithan by Andrew Sears.",
     "exists_on_disk": true,
-    "disk_filename": "Lorithan_Map.gif"
+    "disk_filename": "Lorithan_Map.gif",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Lorithan_Map.gif"
   },
   {
     "image_name": "Lorithan_Map.png",
@@ -7363,7 +7491,9 @@
     "timestamp": "2009-05-25 22:32:51",
     "description": "Shoulder Badge of Spezialtruppen soldiers.",
     "exists_on_disk": true,
-    "disk_filename": "MFSpezialtruppen_Subdued.png"
+    "disk_filename": "MFSpezialtruppen_Subdued.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/MFSpezialtruppen_Subdued.png"
   },
   {
     "image_name": "MF_Aigar.png",
@@ -7541,7 +7671,9 @@
     "timestamp": "2010-10-04 14:22:07",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Mb-fy.png"
+    "disk_filename": "Mb-fy.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Mb-fy.png"
   },
   {
     "image_name": "Mb-logo.png",
@@ -7569,7 +7701,9 @@
     "timestamp": "2010-10-04 14:21:58",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Mb-rd.png"
+    "disk_filename": "Mb-rd.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Mb-rd.png"
   },
   {
     "image_name": "Me-123Sanburn_A.jpg",
@@ -7971,7 +8105,9 @@
     "timestamp": "2008-05-29 00:44:07",
     "description": "Flag of the Mesar Rights Movement.",
     "exists_on_disk": true,
-    "disk_filename": "Mesar-Recht-Bewegung.gif"
+    "disk_filename": "Mesar-Recht-Bewegung.gif",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Mesar-Recht-Bewegung.gif"
   },
   {
     "image_name": "Mesar-Schnittstelle-Gruppe_Logo.png",
@@ -8133,7 +8269,9 @@
     "timestamp": "2009-02-17 16:02:10",
     "description": "Centusi Delta, post refit.",
     "exists_on_disk": true,
-    "disk_filename": "MesarthrimDelta.png"
+    "disk_filename": "MesarthrimDelta.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/MesarthrimDelta.png"
   },
   {
     "image_name": "MesarthrimFederationFlag.png",
@@ -8161,7 +8299,9 @@
     "timestamp": "2008-09-19 00:53:06",
     "description": "FRICKING image.",
     "exists_on_disk": true,
-    "disk_filename": "Mesarthrim_Church.png"
+    "disk_filename": "Mesarthrim_Church.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Mesarthrim_Church.png"
   },
   {
     "image_name": "MilkyWay.png",
@@ -8219,7 +8359,9 @@
     "timestamp": "2009-04-28 22:53:23",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Morningstar.jpg"
+    "disk_filename": "Morningstar.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Morningstar.jpg"
   },
   {
     "image_name": "Mosquito1.jpg",
@@ -8247,7 +8389,9 @@
     "timestamp": "2007-10-10 22:44:20",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Myt'gaul.jpg"
+    "disk_filename": "Myt'gaul.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Myt'gaul.jpg"
   },
   {
     "image_name": "Myt'herra.jpg",
@@ -8446,7 +8590,9 @@
     "timestamp": "2007-07-20 08:03:03",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "NASA-Ares-logo.jpg"
+    "disk_filename": "NASA-Ares-logo.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/NASA-Ares-logo.jpg"
   },
   {
     "image_name": "NGVGuiseppeGaribaldi1.jpg",
@@ -8638,7 +8784,9 @@
     "timestamp": "2009-10-11 21:46:00",
     "description": "Mesarthrim Neoframe",
     "exists_on_disk": true,
-    "disk_filename": "Neoframe.png"
+    "disk_filename": "Neoframe.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Neoframe.png"
   },
   {
     "image_name": "NetherlandsFlag.jpg",
@@ -8786,7 +8934,9 @@
     "timestamp": "2007-12-11 20:47:51",
     "description": "The UCS Nimitz class and Starbound Class.",
     "exists_on_disk": true,
-    "disk_filename": "Nimitz_and_Starbound.png"
+    "disk_filename": "Nimitz_and_Starbound.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Nimitz_and_Starbound.png"
   },
   {
     "image_name": "Nimitz_and_Starbound1.png",
@@ -8799,7 +8949,9 @@
     "timestamp": "2007-12-11 20:48:41",
     "description": "The UCS Nimitz and Starbound classes.",
     "exists_on_disk": true,
-    "disk_filename": "Nimitz_and_Starbound1.png"
+    "disk_filename": "Nimitz_and_Starbound1.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Nimitz_and_Starbound1.png"
   },
   {
     "image_name": "Ninarikebu1.jpg",
@@ -8991,7 +9143,9 @@
     "timestamp": "2007-10-09 19:56:23",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "OldAnsibleTransceiver.jpg"
+    "disk_filename": "OldAnsibleTransceiver.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/OldAnsibleTransceiver.jpg"
   },
   {
     "image_name": "Ollivian's_Crossing.png",
@@ -9004,7 +9158,9 @@
     "timestamp": "2007-08-18 03:12:11",
     "description": "The graphical locator of Ollivian's Crossing.",
     "exists_on_disk": true,
-    "disk_filename": "Ollivian's_Crossing.png"
+    "disk_filename": "Ollivian's_Crossing.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Ollivian's_Crossing.png"
   },
   {
     "image_name": "OltvakClassCarrier1.jpg",
@@ -9137,7 +9293,9 @@
     "timestamp": "2008-02-29 07:50:46",
     "description": "Onnane (Thistle) Auellal Hover Tank, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Onnane.png"
+    "disk_filename": "Onnane.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Onnane.png"
   },
   {
     "image_name": "Onnane2.png",
@@ -9150,7 +9308,9 @@
     "timestamp": "2008-02-29 07:51:34",
     "description": "Onnane (Thistle) Auellal Tank, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Onnane2.png"
+    "disk_filename": "Onnane2.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Onnane2.png"
   },
   {
     "image_name": "Onnane_and_cabbyl.png",
@@ -9163,7 +9323,9 @@
     "timestamp": "2008-02-29 08:03:46",
     "description": "The Onnane and Cabbyl.  The hover tank is the Onnane (Thistle), and the Cabbyl (Horse) is the utility car.  By Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Onnane_and_cabbyl.png"
+    "disk_filename": "Onnane_and_cabbyl.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Onnane_and_cabbyl.png"
   },
   {
     "image_name": "Onnane_and_cabbyl_top.png",
@@ -9176,7 +9338,9 @@
     "timestamp": "2008-02-29 08:06:43",
     "description": "The Onnane and Cabbyl.  The hover tank is the Onnane (Thistle), and the Cabbyl (Horse) is the utility car.  This image illustrates their comparable size, both ships were made to fit inside the same model Auellal drop ship, allowing one transport group the",
     "exists_on_disk": true,
-    "disk_filename": "Onnane_and_cabbyl_top.png"
+    "disk_filename": "Onnane_and_cabbyl_top.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Onnane_and_cabbyl_top.png"
   },
   {
     "image_name": "OnyxEmpireFlag.png",
@@ -9204,7 +9368,9 @@
     "timestamp": "2009-04-01 20:00:37",
     "description": "The Orillian, refit of the ADF-3000.",
     "exists_on_disk": true,
-    "disk_filename": "Orillian.png"
+    "disk_filename": "Orillian.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Orillian.png"
   },
   {
     "image_name": "OritarClassPatrolShip1.jpg",
@@ -9366,7 +9532,9 @@
     "timestamp": "2008-11-01 02:50:04",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Overglanser_Class_Dreadnaught_Side_View.jpg"
+    "disk_filename": "Overglanser_Class_Dreadnaught_Side_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Overglanser_Class_Dreadnaught_Side_View.jpg"
   },
   {
     "image_name": "Overglänser_Class_Dreadnaught_Standard_View.jpg",
@@ -9379,7 +9547,9 @@
     "timestamp": "2008-11-01 02:49:35",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Overglanser_Class_Dreadnaught_Standard_View.jpg"
+    "disk_filename": "Overglanser_Class_Dreadnaught_Standard_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Overglanser_Class_Dreadnaught_Standard_View.jpg"
   },
   {
     "image_name": "Overglänser_Class_Dreadnaught_Top_View.jpg",
@@ -9392,7 +9562,9 @@
     "timestamp": "2008-11-01 02:50:30",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Overglanser_Class_Dreadnaught_Top_View.jpg"
+    "disk_filename": "Overglanser_Class_Dreadnaught_Top_View.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Overglanser_Class_Dreadnaught_Top_View.jpg"
   },
   {
     "image_name": "OverseerFlag.png",
@@ -9555,7 +9727,9 @@
     "timestamp": "2008-08-07 01:30:50",
     "description": "Mesarthrim Payload Missile Launcher, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Payload_Missile_Launcher.png"
+    "disk_filename": "Payload_Missile_Launcher.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Payload_Missile_Launcher.png"
   },
   {
     "image_name": "Pegasus.png",
@@ -9673,7 +9847,9 @@
     "timestamp": "2009-05-31 15:37:27",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Penguins.JPG"
+    "disk_filename": "Penguins.JPG",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Penguins.JPG"
   },
   {
     "image_name": "PeruFlag.jpg",
@@ -11033,7 +11209,9 @@
     "timestamp": "2009-04-01 20:01:12",
     "description": "The Sansa, refit of the ADF-4000.",
     "exists_on_disk": true,
-    "disk_filename": "Sansa.png"
+    "disk_filename": "Sansa.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Sansa.png"
   },
   {
     "image_name": "SappersofBlazton.jpg",
@@ -11151,7 +11329,9 @@
     "timestamp": "2007-08-24 03:11:18",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "ScottSanburn.png"
+    "disk_filename": "ScottSanburn.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/ScottSanburn.png"
   },
   {
     "image_name": "Scott_Sanburn_Portrait_View.png",
@@ -11284,7 +11464,9 @@
     "timestamp": "2008-06-23 06:02:34",
     "description": "Image of the Second Fleet, by Andrew Sears.",
     "exists_on_disk": true,
-    "disk_filename": "Second_Fleet.png"
+    "disk_filename": "Second_Fleet.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Second_Fleet.png"
   },
   {
     "image_name": "SeliadtAntigravtank1.jpg",
@@ -11342,7 +11524,9 @@
     "timestamp": "2007-10-11 18:59:16",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SeminoleClassDestroyer1.jpg"
+    "disk_filename": "SeminoleClassDestroyer1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SeminoleClassDestroyer1.jpg"
   },
   {
     "image_name": "SeminoleClassDestroyer2.jpg",
@@ -11355,7 +11539,9 @@
     "timestamp": "2007-10-11 18:59:42",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SeminoleClassDestroyer2.jpg"
+    "disk_filename": "SeminoleClassDestroyer2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SeminoleClassDestroyer2.jpg"
   },
   {
     "image_name": "SeminoleClassDestroyer3.jpg",
@@ -11368,7 +11554,9 @@
     "timestamp": "2007-10-11 19:00:19",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SeminoleClassDestroyer3.jpg"
+    "disk_filename": "SeminoleClassDestroyer3.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SeminoleClassDestroyer3.jpg"
   },
   {
     "image_name": "SentryPatrolHovercraft1.jpg",
@@ -11501,7 +11689,9 @@
     "timestamp": "2008-02-11 23:22:02",
     "description": "The Sickle class Cruiser, by Andrew K. Sears",
     "exists_on_disk": true,
-    "disk_filename": "Sickle.png"
+    "disk_filename": "Sickle.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Sickle.png"
   },
   {
     "image_name": "Sickle2.png",
@@ -11514,7 +11704,9 @@
     "timestamp": "2008-02-11 23:27:41",
     "description": "The Sickle, by Andrew K. Sears",
     "exists_on_disk": true,
-    "disk_filename": "Sickle2.png"
+    "disk_filename": "Sickle2.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Sickle2.png"
   },
   {
     "image_name": "Silest.png",
@@ -11586,7 +11778,9 @@
     "timestamp": "2007-10-09 13:39:36",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SkrattaMasen1.jpg"
+    "disk_filename": "SkrattaMasen1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SkrattaMasen1.jpg"
   },
   {
     "image_name": "SkrattaMåsen2.jpg",
@@ -11599,7 +11793,9 @@
     "timestamp": "2007-10-09 13:39:54",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "SkrattaMasen2.jpg"
+    "disk_filename": "SkrattaMasen2.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/SkrattaMasen2.jpg"
   },
   {
     "image_name": "SkywatcherAntiAirHovercraft1.jpg",
@@ -11837,7 +12033,9 @@
     "timestamp": "2007-11-24 23:18:15",
     "description": "Overview of Fireline Industries 'Star Class' - by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Star_Class.png"
+    "disk_filename": "Star_Class.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Star_Class.png"
   },
   {
     "image_name": "Star_Class1.png",
@@ -11850,7 +12048,9 @@
     "timestamp": "2007-11-24 23:18:38",
     "description": "Overview of Fireline Industries 'Star Class' - by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Star_Class1.png"
+    "disk_filename": "Star_Class1.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Star_Class1.png"
   },
   {
     "image_name": "Star_Class2.png",
@@ -11863,7 +12063,9 @@
     "timestamp": "2007-11-24 23:18:54",
     "description": "Overview of Fireline Industries 'Star Class' - by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Star_Class2.png"
+    "disk_filename": "Star_Class2.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Star_Class2.png"
   },
   {
     "image_name": "Star_Class3.png",
@@ -11876,7 +12078,9 @@
     "timestamp": "2007-11-24 23:19:12",
     "description": "Overview of Fireline Industries 'Star Class' - by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Star_Class3.png"
+    "disk_filename": "Star_Class3.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Star_Class3.png"
   },
   {
     "image_name": "Star_Class4.png",
@@ -11889,7 +12093,9 @@
     "timestamp": "2007-11-24 23:19:30",
     "description": "Overview of Fireline Industries 'Star Class' - by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Star_Class4.png"
+    "disk_filename": "Star_Class4.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Star_Class4.png"
   },
   {
     "image_name": "Starbound.png",
@@ -12007,7 +12213,9 @@
     "timestamp": "2007-11-24 13:10:30",
     "description": "Mesarthrim Starmaster Cruiser, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Sternmaster.png"
+    "disk_filename": "Sternmaster.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Sternmaster.png"
   },
   {
     "image_name": "Sternmaster2.png",
@@ -12020,7 +12228,9 @@
     "timestamp": "2007-11-24 13:11:13",
     "description": "Mesarthrim Starmaster Cruiser, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Sternmaster2.png"
+    "disk_filename": "Sternmaster2.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Sternmaster2.png"
   },
   {
     "image_name": "Sternmaster3.png",
@@ -12033,7 +12243,9 @@
     "timestamp": "2007-11-24 13:11:44",
     "description": "Mesarthrim Starmaster Cruiser, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Sternmaster3.png"
+    "disk_filename": "Sternmaster3.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Sternmaster3.png"
   },
   {
     "image_name": "Sternritter.png",
@@ -12046,7 +12258,9 @@
     "timestamp": "2007-11-24 21:21:40",
     "description": "Mesarthrim Starknight Crusier - by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Sternritter.png"
+    "disk_filename": "Sternritter.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Sternritter.png"
   },
   {
     "image_name": "Sternritter2.png",
@@ -12059,7 +12273,9 @@
     "timestamp": "2007-11-24 21:22:10",
     "description": "Mesarthrim Starknight Crusier - by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Sternritter2.png"
+    "disk_filename": "Sternritter2.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Sternritter2.png"
   },
   {
     "image_name": "Sternritter3.png",
@@ -12072,7 +12288,9 @@
     "timestamp": "2007-11-24 21:22:34",
     "description": "Mesarthrim Starknight Crusier - by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Sternritter3.png"
+    "disk_filename": "Sternritter3.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Sternritter3.png"
   },
   {
     "image_name": "StevenCue.png",
@@ -12130,7 +12348,9 @@
     "timestamp": "2009-02-18 17:50:37",
     "description": "Temp Stormforge",
     "exists_on_disk": true,
-    "disk_filename": "Stormforge.png"
+    "disk_filename": "Stormforge.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Stormforge.png"
   },
   {
     "image_name": "Stormgod.png",
@@ -12143,7 +12363,9 @@
     "timestamp": "2009-02-18 18:10:11",
     "description": "New version with proper cannons and Bay covered.",
     "exists_on_disk": true,
-    "disk_filename": "Stormgod.png"
+    "disk_filename": "Stormgod.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Stormgod.png"
   },
   {
     "image_name": "Strauss-Energie_Logo.png",
@@ -12246,7 +12468,9 @@
     "timestamp": "2008-09-22 12:58:01",
     "description": "Sunfire light attack fighter of the Auellal League.",
     "exists_on_disk": true,
-    "disk_filename": "Sunfire.png"
+    "disk_filename": "Sunfire.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Sunfire.png"
   },
   {
     "image_name": "SvenjClassLightDestroyer1.jpg",
@@ -12376,7 +12600,9 @@
     "timestamp": "2009-05-21 07:48:53",
     "description": "Sample of Cinaed Accords Designed Tank... James?",
     "exists_on_disk": true,
-    "disk_filename": "Tank.png"
+    "disk_filename": "Tank.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Tank.png"
   },
   {
     "image_name": "TargeArmoredPersonnelCarrier1.jpg",
@@ -12763,7 +12989,9 @@
     "timestamp": "2009-04-02 02:21:59",
     "description": "Badge of the Mongrels",
     "exists_on_disk": true,
-    "disk_filename": "The-Mongrels.png"
+    "disk_filename": "The-Mongrels.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/The-Mongrels.png"
   },
   {
     "image_name": "The_Burned_Wreck,_Torimur.png",
@@ -13263,7 +13491,9 @@
     "timestamp": "2008-08-07 01:31:19",
     "description": "Mesarthrim Type-F Heavy Blazer",
     "exists_on_disk": true,
-    "disk_filename": "Type-F.png"
+    "disk_filename": "Type-F.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Type-F.png"
   },
   {
     "image_name": "Type-G.png",
@@ -13291,7 +13521,9 @@
     "timestamp": "2008-08-07 01:32:20",
     "description": "Mesarthrim Type Three Repeating Blazer, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Type-Three.png"
+    "disk_filename": "Type-Three.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Type-Three.png"
   },
   {
     "image_name": "Type-Two.png",
@@ -13304,7 +13536,9 @@
     "timestamp": "2008-08-07 01:32:53",
     "description": "Mesarthrim Type Two Repeating Blazer, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Type-Two.png"
+    "disk_filename": "Type-Two.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Type-Two.png"
   },
   {
     "image_name": "TyphoonClassFrigate1.jpg",
@@ -13362,7 +13596,9 @@
     "timestamp": "2009-08-02 08:10:05",
     "description": "Andrew use for Ikariam, not Exodus War.",
     "exists_on_disk": true,
-    "disk_filename": "UAG.png"
+    "disk_filename": "UAG.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UAG.png"
   },
   {
     "image_name": "UCS-First-Fleet.png",
@@ -13375,7 +13611,9 @@
     "timestamp": "2009-02-13 21:42:51",
     "description": "UCS First Fleet",
     "exists_on_disk": true,
-    "disk_filename": "UCS-First-Fleet.png"
+    "disk_filename": "UCS-First-Fleet.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UCS-First-Fleet.png"
   },
   {
     "image_name": "UCS-Fourth-Fleet.png",
@@ -13388,7 +13626,9 @@
     "timestamp": "2009-02-13 21:43:08",
     "description": "UCS Fourth Fleet",
     "exists_on_disk": true,
-    "disk_filename": "UCS-Fourth-Fleet.png"
+    "disk_filename": "UCS-Fourth-Fleet.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UCS-Fourth-Fleet.png"
   },
   {
     "image_name": "UCS-Second-Fleet.png",
@@ -13401,7 +13641,9 @@
     "timestamp": "2009-02-13 21:43:21",
     "description": "UCS Second Fleet",
     "exists_on_disk": true,
-    "disk_filename": "UCS-Second-Fleet.png"
+    "disk_filename": "UCS-Second-Fleet.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UCS-Second-Fleet.png"
   },
   {
     "image_name": "UCS-Third-Fleet.png",
@@ -13414,7 +13656,9 @@
     "timestamp": "2009-02-13 21:43:36",
     "description": "UCS Third Fleet.",
     "exists_on_disk": true,
-    "disk_filename": "UCS-Third-Fleet.png"
+    "disk_filename": "UCS-Third-Fleet.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UCS-Third-Fleet.png"
   },
   {
     "image_name": "UCSAcheron1.jpg",
@@ -13577,7 +13821,9 @@
     "timestamp": "2008-08-06 23:18:20",
     "description": "UMC Third Fleet Badge, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "UMC-Third-Fleet.png"
+    "disk_filename": "UMC-Third-Fleet.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/UMC-Third-Fleet.png"
   },
   {
     "image_name": "UMCKriegsmarine.png",
@@ -13620,7 +13866,9 @@
     "timestamp": "2010-09-10 14:30:06",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Ukag.png"
+    "disk_filename": "Ukag.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Ukag.png"
   },
   {
     "image_name": "UltramedicAmbulance1.jpg",
@@ -13813,7 +14061,9 @@
     "timestamp": "2007-10-27 13:08:31",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "VF-01_Imperial_Naval_Fighter_Squadron_-__Scimitar_Squadron__logo.png"
+    "disk_filename": "VF-01_Imperial_Naval_Fighter_Squadron_-__Scimitar_Squadron__logo.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/VF-01_Imperial_Naval_Fighter_Squadron_-__Scimitar_Squadron__logo.png"
   },
   {
     "image_name": "VND.png",
@@ -13826,7 +14076,9 @@
     "timestamp": "2009-05-13 07:38:34",
     "description": "Revised lettering, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "VND.png"
+    "disk_filename": "VND.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/VND.png"
   },
   {
     "image_name": "Vadrie_A.jpg",
@@ -13869,7 +14121,9 @@
     "timestamp": "2007-09-05 23:59:18",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Veles_Class.JPG"
+    "disk_filename": "Veles_Class.JPG",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Veles_Class.JPG"
   },
   {
     "image_name": "Veles_Class.png",
@@ -14137,7 +14391,9 @@
     "timestamp": "2008-02-01 20:27:05",
     "description": "Simplified Diagram of a Remnant Void World.  *NOTE*  Not to scale",
     "exists_on_disk": true,
-    "disk_filename": "VoidWorld.JPG"
+    "disk_filename": "VoidWorld.JPG",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/VoidWorld.JPG"
   },
   {
     "image_name": "VolucrisBattleQueenFlyer1.jpg",
@@ -14239,7 +14495,9 @@
     "timestamp": "2008-08-07 01:33:27",
     "description": "Mesarthrim Fireline Warhammer Cannon, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Warhammer_Cannon.png"
+    "disk_filename": "Warhammer_Cannon.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Warhammer_Cannon.png"
   },
   {
     "image_name": "Wave.png",
@@ -14252,7 +14510,9 @@
     "timestamp": "2008-06-23 02:54:43",
     "description": "Wave class Cruiser, by Andrew Sears",
     "exists_on_disk": true,
-    "disk_filename": "Wave.png"
+    "disk_filename": "Wave.png",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Wave.png"
   },
   {
     "image_name": "Werewolf.png",
@@ -14280,7 +14540,9 @@
     "timestamp": "2007-10-03 18:59:55",
     "description": "",
     "exists_on_disk": true,
-    "disk_filename": "Werewolf1.jpg"
+    "disk_filename": "Werewolf1.jpg",
+    "migrated_to_public": true,
+    "public_path": "assets/codex/Werewolf1.jpg"
   },
   {
     "image_name": "WestGermanFlag.jpg",

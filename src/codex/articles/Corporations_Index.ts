@@ -85,6 +85,13 @@ There are many powerful corporations throughout the galaxy, and [[:Category:Econ
 == Corporate Categories & Holdings ==
 *[[:Category:Rahn Industries|Rahn Industries Holdings]] - Corporate subsidiaries, manufacturing yards, planetary facilities, and product lines of Rahn Industries.
 
+== Naval Shipyards & Design Bureaus ==
+*[[Graham Starship Design Bureau]] - Naval architecture firm specializing in battlecruiser and escort hulls.
+*[[Langenacht Starship Design Bureau]] - Advanced aerospace and capital starship drafting bureau.
+*[[Tanaku Starship Design Bureau]] - Specialized naval design bureau for planetary defense vessels.
+*[[Centusi Cargo & Carriers]] - Commercial shipping line and orbital logistics enterprise.
+*[[Udet-Knorr AG]] - Industrial manufacturing and avionics consortium.
+
 [[Category:Categories]]
 [[Category:Corporations]]
 [[Category:Companies]]
