@@ -20,6 +20,8 @@ import { engineeringSystemsIndexArticle } from './articles/Engineering_Systems_I
 import { ENGINEERING_ARTICLES } from './articles/engineeringArticles';
 import { architecturalAchievementsIndexArticle } from './articles/Architectural_Achievements_Index';
 import { ARCHITECTURAL_ARTICLES } from './articles/architecturalArticles';
+import { tacticsAndTreatisesIndexArticle } from './articles/Tactics_and_Treatises_Index';
+import { TACTICS_ARTICLES } from './articles/tacticsArticles';
 
 export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     'Introduction_to_the_Exodus_Wars_Universe': introArticle,
@@ -132,6 +134,28 @@ export const CODEX_ARTICLES: Record<string, CodexArticle> = {
     'Category:Architecture': architecturalAchievementsIndexArticle,
     'category:architecture': architecturalAchievementsIndexArticle,
     ':Category:Architecture': architecturalAchievementsIndexArticle,
+    'Tactics_and_Treatises': tacticsAndTreatisesIndexArticle,
+    'Tactics and Treatises': tacticsAndTreatisesIndexArticle,
+    'tactics_and_treatises': tacticsAndTreatisesIndexArticle,
+    'tactics and treatises': tacticsAndTreatisesIndexArticle,
+    'Category:Tactics_and_Treatises': tacticsAndTreatisesIndexArticle,
+    'category:tactics_and_treatises': tacticsAndTreatisesIndexArticle,
+    'Category:Tactics and Treatises': tacticsAndTreatisesIndexArticle,
+    'category:tactics and treatises': tacticsAndTreatisesIndexArticle,
+    ':Category:Tactics_and_Treatises': tacticsAndTreatisesIndexArticle,
+    ':Category:Tactics and Treatises': tacticsAndTreatisesIndexArticle,
+    'Tactics': tacticsAndTreatisesIndexArticle,
+    'tactics': tacticsAndTreatisesIndexArticle,
+    'Category:Tactics': tacticsAndTreatisesIndexArticle,
+    'category:tactics': tacticsAndTreatisesIndexArticle,
+    ':Category:Tactics': tacticsAndTreatisesIndexArticle,
+    'Treatises': tacticsAndTreatisesIndexArticle,
+    'treatises': tacticsAndTreatisesIndexArticle,
+    'Category:Treatises': tacticsAndTreatisesIndexArticle,
+    'category:treatises': tacticsAndTreatisesIndexArticle,
+    ':Category:Treatises': tacticsAndTreatisesIndexArticle,
+    'Doctrine': tacticsAndTreatisesIndexArticle,
+    'doctrine': tacticsAndTreatisesIndexArticle,
 };
 
 function registerArticle(article: CodexArticle): void {
@@ -212,6 +236,29 @@ CODEX_ARTICLES['architecture'] = architecturalAchievementsIndexArticle;
 CODEX_ARTICLES['Category:Architecture'] = architecturalAchievementsIndexArticle;
 CODEX_ARTICLES['category:architecture'] = architecturalAchievementsIndexArticle;
 CODEX_ARTICLES[':Category:Architecture'] = architecturalAchievementsIndexArticle;
+
+for (const item of TACTICS_ARTICLES) {
+    registerArticle(item);
+}
+registerArticle(tacticsAndTreatisesIndexArticle);
+CODEX_ARTICLES['Category:Tactics_and_Treatises'] = tacticsAndTreatisesIndexArticle;
+CODEX_ARTICLES['category:tactics_and_treatises'] = tacticsAndTreatisesIndexArticle;
+CODEX_ARTICLES['Category:Tactics and Treatises'] = tacticsAndTreatisesIndexArticle;
+CODEX_ARTICLES['category:tactics and treatises'] = tacticsAndTreatisesIndexArticle;
+CODEX_ARTICLES[':Category:Tactics_and_Treatises'] = tacticsAndTreatisesIndexArticle;
+CODEX_ARTICLES[':Category:Tactics and Treatises'] = tacticsAndTreatisesIndexArticle;
+CODEX_ARTICLES['Tactics'] = tacticsAndTreatisesIndexArticle;
+CODEX_ARTICLES['tactics'] = tacticsAndTreatisesIndexArticle;
+CODEX_ARTICLES['Category:Tactics'] = tacticsAndTreatisesIndexArticle;
+CODEX_ARTICLES['category:tactics'] = tacticsAndTreatisesIndexArticle;
+CODEX_ARTICLES[':Category:Tactics'] = tacticsAndTreatisesIndexArticle;
+CODEX_ARTICLES['Treatises'] = tacticsAndTreatisesIndexArticle;
+CODEX_ARTICLES['treatises'] = tacticsAndTreatisesIndexArticle;
+CODEX_ARTICLES['Category:Treatises'] = tacticsAndTreatisesIndexArticle;
+CODEX_ARTICLES['category:treatises'] = tacticsAndTreatisesIndexArticle;
+CODEX_ARTICLES[':Category:Treatises'] = tacticsAndTreatisesIndexArticle;
+CODEX_ARTICLES['Doctrine'] = tacticsAndTreatisesIndexArticle;
+CODEX_ARTICLES['doctrine'] = tacticsAndTreatisesIndexArticle;
 
 export function getCodexArticle(slugOrTitle: string): CodexArticle | undefined {
     let decoded = slugOrTitle;

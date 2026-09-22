@@ -1336,7 +1336,8 @@
     "view_count": 1184,
     "content_length": 1162,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 75,
@@ -5017,7 +5018,8 @@
     "view_count": 311,
     "content_length": 7263,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 296,
@@ -14053,7 +14055,8 @@
     "categories": [
       "Tactics"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 802,
@@ -14069,7 +14072,8 @@
     "view_count": 119,
     "content_length": 120,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 803,
@@ -14852,7 +14856,8 @@
     "categories": [
       "Treatises"
     ],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 845,
@@ -14868,7 +14873,8 @@
     "view_count": 111,
     "content_length": 251,
     "categories": [],
-    "templates": []
+    "templates": [],
+    "migrated_to_codex": true
   },
   {
     "page_id": 846,
