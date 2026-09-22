@@ -21,7 +21,7 @@ class App {
         this.canvas.height = window.innerHeight;
 
         const style = document.createElement('style');
-        style.innerHTML = `* { cursor: url('${import.meta.env.BASE_URL}assets/ui/cursor.png') 16 16, auto !important; }`;
+        style.innerHTML = `* { cursor: url('${import.meta.env.BASE_URL}assets/ui/cursor.png') 0 0, auto !important; }`;
         document.head.appendChild(style);
 
         requestAnimationFrame(this.loop.bind(this));

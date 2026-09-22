@@ -372,5 +372,22 @@ Overview of the First Centusi Fleet.`;
             const adfStarfire = getCodexArticle('ADF-5000');
             expect(adfStarfire).toBeDefined();
         });
+
+        it('resolves enriched historical chronicles with full battle accounts and field dispatches', () => {
+            const kronheim = getCodexArticle('Volucris_Invasion_of_Kronheim');
+            expect(kronheim).toBeDefined();
+            expect(kronheim?.rawContent).toContain('Historical Chronicles & Field Dispatches');
+            expect(kronheim?.rawContent).toContain('Captain [[Charlene Rearden]]');
+
+            const pelagrim = getCodexArticle('The_Pelagrim_Crisis');
+            expect(pelagrim).toBeDefined();
+            expect(pelagrim?.rawContent).toContain('Historical Chronicles & Field Dispatches');
+            expect(pelagrim?.rawContent).toContain('Andreas Tischler');
+
+            const mnemosyne = getCodexArticle('First_Battle_of_Mnemosyne');
+            expect(mnemosyne).toBeDefined();
+            expect(mnemosyne?.rawContent).toContain('Shatter Point');
+            expect(mnemosyne?.rawContent).toContain('Seth Dickinson');
+        });
     });
 });
