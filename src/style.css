@@ -341,7 +341,7 @@ canvas {
 /* Topics Grid */
 .topics-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 16px;
   margin-bottom: 40px;
 }
@@ -368,8 +368,9 @@ canvas {
 .topic-card-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 8px;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 10px;
 }
 
 .topic-tag {
@@ -380,6 +381,9 @@ canvas {
   color: var(--primary-color);
   border-radius: 2px;
   text-transform: uppercase;
+  flex-shrink: 0;
+  white-space: nowrap;
+  margin-top: 2px;
 }
 
 .topic-tag.category {
@@ -389,15 +393,20 @@ canvas {
 
 .topic-card h3 {
   margin: 0;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.2px;
+  text-align: right;
+  flex: 1;
+  line-height: 1.35;
 }
 
 .topic-link {
   color: var(--text-highlight);
   text-decoration: none;
   transition: color 0.2s ease;
+  display: inline-block;
+  text-align: right;
 }
 
 .topic-card:hover .topic-link {
