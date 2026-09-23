@@ -10,6 +10,10 @@ export class CodexRenderer {
         const baseUrl = import.meta.env.BASE_URL;
         let text = rawWikitext;
 
+        // 0. Strip legacy YAML frontmatter blocks if present (dump metadata)
+        text = text.replace(/---[\r\n]+[\s\S]*?(?:page_id:|latest_revision_id:|is_redirect:|templates:|namespace:|last_updated:|title:)[\s\S]*?[\r\n]+---(?:\r?\n)*/gi, '');
+        text = text.replace(/^---[\r\n]+[\s\S]*?[\r\n]+---(?:\r?\n)*/, '');
+
         // 1. Parse Infobox templates if present
         let infoboxHtml = '';
         const personMatch = text.match(/\{\{Person[_ ]Information\s*\|?([\s\S]*?)\}\}/i);
